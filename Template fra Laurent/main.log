@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  22 JAN 2013 15:22
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  22 JAN 2013 15:34
 entering extended mode
 **main.tex
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.tex"
@@ -1317,27 +1317,493 @@ Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xfor\xfor.sty"
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\datatool\datatool-base.sty"
+Package: datatool-base 2012/10/06 v2.12 (NLCT)
 
-! LaTeX Error: File `datatool-base.sty' not found.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\substr\substr.sty"
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count202
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\datatool\datatool-fp.sty"
+Package: datatool-fp 2012/09/25 v2.11 (NLCT)
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp.sty"
+Package: fp 1995/04/02
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.48 \RequirePackage
-                    {amsgen}
-*** (cannot \read from terminal in nonstop modes)
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\defpattern.sty"
+Package: defpattern 1994/10/12
+\actioncount=\count203
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp-basic.sty"
+Package: fp-basic 1996/05/13
+\FP@xs=\count204
+\FP@xia=\count205
+\FP@xib=\count206
+\FP@xfa=\count207
+\FP@xfb=\count208
+\FP@rega=\count209
+\FP@regb=\count210
+\FP@regs=\count211
+\FP@times=\count212
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp-addons.sty"
+Package: fp-addons 1995/03/15
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp-snap.sty"
+Package: fp-snap 1995/04/05
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp-exp.sty"
+Package: fp-exp 1995/04/03
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp-trigo.sty"
+Package: fp-trigo 1995/04/14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp-pas.sty"
+Package: fp-pas 1994/08/29
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp-random.sty"
+Package: fp-random 1995/02/23
+\FPseed=\count213
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp-eqn.sty"
+Package: fp-eqn 1995/04/03
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp-upn.sty"
+Package: fp-upn 1996/10/21
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp-eval.sty"
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks50
+\@dtl@tmpcount=\count214
+\dtl@tmplength=\skip206
+\dtl@sortresult=\count215
+\@dtl@numgrpsepcount=\count216
+\@dtl@datatype=\count217
+\dtl@codeA=\count218
+\dtl@codeB=\count219
+\@dtl@foreach@level=\count220
+)
+\gls@level=\count221
+\@gls@tmpb=\toks51
+\gls@tmplen=\skip207
+\glswrite=\write4
+\glskeylisttok=\toks52
+\glslabeltok=\toks53
+\glsshorttok=\toks54
+\glslongtok=\toks55
 
- 
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-hypern
+av.sty"
+Package: glossary-hypernav 2007/07/04 v1.01 (NLCT)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-list.s
+ty"
+Package: glossary-list 2012/11/11 v3.04 (NLCT)
+\glslistdottedwidth=\skip208
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-long.s
+ty"
+Package: glossary-long 2012/09/21 v3.03 (NLCT)
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip209
+\LTright=\skip210
+\LTpre=\skip211
+\LTpost=\skip212
+\LTchunksize=\count222
+\LTcapwidth=\dimen190
+\LT@head=\box67
+\LT@firsthead=\box68
+\LT@foot=\box69
+\LT@lastfoot=\box70
+\LT@cols=\count223
+\LT@rows=\count224
+\c@LT@tables=\count225
+\c@LT@chunks=\count226
+\LT@p@ftn=\toks56
+)
+\glsdescwidth=\skip213
+\glspagelistwidth=\skip214
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-super.
+sty"
+Package: glossary-super 2012/09/21 v3.03 (NLCT)
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty"
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count227
+\ST@wd=\dimen191
+\ST@rightskip=\skip215
+\ST@leftskip=\skip216
+\ST@parfillskip=\skip217
+\ST@pageleft=\dimen192
+\ST@headht=\dimen193
+\ST@tailht=\dimen194
+\ST@pagesofar=\dimen195
+\ST@pboxht=\dimen196
+\ST@lineht=\dimen197
+\ST@stretchht=\dimen198
+\ST@prevht=\dimen199
+\ST@toadd=\dimen200
+\ST@dimen=\dimen201
+\ST@pbox=\box71
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-tree.s
+ty"
+Package: glossary-tree 2012/09/21 v3.03 (NLCT)
+\glstreeindent=\skip218
+)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count228
+\U@D=\dimen202
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\norsk.ldf"
+Language: norsk 2005/03/30 v2.0h Norsk support from the babel system
+Package babel Info: Making " an active character on input line 113.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\datetime\datetime.sty"
+Package: datetime 2010/09/21 v2.58 Date Time Package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fmtcount\fmtcount.sty"
+Package: fmtcount 2012/10/24 v2.02
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fmtcount\fcprefix.sty"
+Package: fcprefix 2012/09/28
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fmtcount\fcnumparser.sty"
+Package: fcnumparser 2012/09/28
+Normal \count register pool exhausted, switching to extended pool.
+\fc@digit@counter=\count277
+))
+\c@padzeroesN=\count278
+\fc@tmpcatcode=\count279
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fmtcount\fc-english.def"
+File: fc-english.def 2012/06/18
+)
+\@DT@modctr=\count280
+\@ordinalctr=\count281
+\@orgargctr=\count282
+\@strctr=\count283
+\@tmpstrctr=\count284
+\@DT@loopN=\count285
+\@DT@X=\count286
+)
+\@day=\count287
+\@month=\count288
+\@year=\count289
+\c@HOUR=\count290
+\c@HOURXII=\count291
+\c@MINUTE=\count292
+\c@TOHOUR=\count293
+\c@TOMINUTE=\count294
+\c@SECOND=\count295
+\currenthour=\count296
+\currentminute=\count297
+\currentsecond=\count298
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 292.
+\@dtctr=\count299
+\dayofyear=\count300
+\dayofweek=\count301
+LaTeX Info: Redefining \today on input line 724.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\datetime\dt-norsk.def"
+File: dt-norsk.def 2004/10/31
+LaTeX Info: Redefining \datenorsk on input line 63.
+)
+\dt@a=\toks57
+\dt@b=\toks58
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty"
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count302
+\c@Blindtext=\count303
+\c@blind@countparstart=\count304
+\blind@countxx=\count305
+\blindtext@numBlindtext=\count306
+\blind@countyy=\count307
+\c@blindlist=\count308
+\c@blindlistlevel=\count309
+\c@blindlist@level=\count310
+\blind@listitem=\count311
+\c@blind@listcount=\count312
+\c@blind@levelcount=\count313
+\blind@mathformula=\count314
+\blind@Mathformula=\count315
+\c@blind@randomcount=\count316
+\c@blind@randommax=\count317
+\c@blind@pangramcount=\count318
+\c@blind@pangrammax=\count319
+)
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\glossary.tex"
+)
+\glo@main@file=\write5
+Package glossaries Info: Writing glossary file main.glo on input line 22.
+\glo@acronym@file=\write6
+Package glossaries Info: Writing glossary file main.acn on input line 22.
+ ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.aux"
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\abstract_engl
+ish.aux")
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\preface.aux")
+
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\example_chapt
+er.aux"))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 24.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count320
+\scratchdimen=\dimen203
+\scratchbox=\box72
+\nofMPsegments=\count321
+\nofMParguments=\count322
+\everyMPshowfont=\toks59
+\MPscratchCnt=\count323
+\MPscratchDim=\dimen204
+\MPnumerator=\count324
+\makeMPintoPDFobject=\count325
+\everyMPtoPDFconversion=\toks60
+)
+LaTeX Info: Redefining \microtypecontext on input line 24.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
+File: mt-cmr.cfg 2009/11/09 v2.0 microtype config. file: Computer Modern Roman 
+(RS)
+)
+\AtBeginShipoutBox=\box73
+Package hyperref Info: Link coloring ON on input line 24.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count326
+)
+Redoing nameref's sectioning
+Redoing nameref's label
+LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.out")
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.out")
+\@outlinefile=\write7
+\c@lstlisting=\count327
+
+<./figs/ntnu-logo.pdf, id=35, 241.4922pt x 52.79724pt>
+File: ./figs/ntnu-logo.pdf Graphic file (type pdf)
+
+<use ./figs/ntnu-logo.pdf>
+Package pdftex.def Info: ./figs/ntnu-logo.pdf used on input line 30.
+(pdftex.def)             Requested size: 170.71652pt x 37.32436pt.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 30.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Calculating math sizes for size <11.49994> on input line 30
+.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <11.49994> on input line 30.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8.04991> on input line 30.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5.74997> on input line 30.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Håvard/masterth
+esis/masterthesis/Template fra Laurent/figs/ntnu-logo.pdf>] [2
+
+]
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\abstract_engl
+ish.tex" [3
+
+]) [4]
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\preface.tex")
+[5
+
+
+
+] [6
+
+
+]
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.toc")
+[7] [8
+
+]
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.lof")
+[9] [10
+
+]
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.lot")
+[11] [12
+
+]
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.loa")
+[13
+
+] [14
+
+]
+No file main.gls.
+[15] [16
+
+]
+No file main.acr.
+[17] [18
+
+]
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\example_chapt
+er.tex"
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 4.
+
+
+Package natbib Warning: Citation `Author:year:XYZ' on page 1 undefined on input
+ line 4.
+
+[1
+
+
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 19.
+ [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.32 
+     ]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 61.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 64.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)) [3pdfTeX warning (ext4): destination with the same identifier (name{table.1.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.81 \include{example_chapter}
+                              ]
+No file main.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+\tf@toc=\write8
+\tf@lof=\write9
+\tf@lot=\write10
+\tf@loa=\write11
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.aux"
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\abstract_engl
+ish.aux")
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\preface.aux")
+
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\example_chapt
+er.aux"))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 67008635184B5090C1D605AA9A122BEA;491.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
+ ) 
 Here is how much of TeX's memory you used:
- 15580 strings out of 494045
- 224475 string characters out of 3145963
- 383678 words of memory out of 3000000
- 18660 multiletter control sequences out of 15000+200000
- 26259 words of font info for 36 fonts, out of 3000000 for 9000
+ 20599 strings out of 494045
+ 300727 string characters out of 3145963
+ 543049 words of memory out of 3000000
+ 23345 multiletter control sequences out of 15000+200000
+ 102451 words of font info for 123 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 42i,3n,37p,1491b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 58i,12n,45p,1504b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{glo:ntnu} has been referenced but does not exist,
+ replaced by a fixed one
+
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvi
+ps/lm/lm-rm.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/lm/lmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/lm/lmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
+ss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
+Output written on main.pdf (21 pages, 337106 bytes).
+PDF statistics:
+ 248 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 27206 words of extra memory for PDF output out of 29859 (max. 10000000)
+
