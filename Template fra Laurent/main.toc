@@ -21,6 +21,7 @@
 \contentsline {subparagraph}{Correlated risks}{10}{section*.5}
 \contentsline {subparagraph}{information asymmetry}{10}{section*.6}
 \contentsline {section}{\numberline {3.2}Cyber insurance as an Incentive for Internet Security}{10}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}First subsection with some $\mathcal {M}ath$ symbol}{11}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Mathematics}{11}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Source code example}{12}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.1}Classical model for insurance}{11}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}First subsection with some $\mathcal {M}ath$ symbol}{11}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Mathematics}{12}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Source code example}{12}{subsection.3.2.4}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  23 JAN 2013 15:51
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  23 JAN 2013 16:34
 entering extended mode
 **main.tex
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.tex"
@@ -1602,10 +1602,10 @@ LaTeX Warning: Label `fig:example' multiply defined.
 LaTeX Warning: Label `sec:first_section' multiply defined.
 
 
-LaTeX Warning: Label `tab:example' multiply defined.
-
-
 LaTeX Warning: Label `sec:first_ssection' multiply defined.
+
+
+LaTeX Warning: Label `tab:example' multiply defined.
 
 
 LaTeX Warning: Label `def:a_proposition' multiply defined.
@@ -1685,7 +1685,7 @@ LaTeX Info: Redefining \nameref on input line 24.
 \@outlinefile=\write7
 \c@lstlisting=\count327
 
-<./figs/ntnu-logo.pdf, id=79, 241.4922pt x 52.79724pt>
+<./figs/ntnu-logo.pdf, id=83, 241.4922pt x 52.79724pt>
 File: ./figs/ntnu-logo.pdf Graphic file (type pdf)
 
 <use ./figs/ntnu-logo.pdf>
@@ -1835,16 +1835,96 @@ Underfull \vbox (badness 1102) has occurred while \output is active []
                                                   \fi \fi 
 l.24 \subparagraph
                   {Interdependent security}] [10]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.60 \pi
+         risk premium w_{0} inital wealth. X pure risk.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [11pdfTeX warning (ext4): destination with the same identifier (name{table.3.
-1}) has been already used, duplicate ignored
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 \begin{math}
+                  u[w_{0}-\pi}]=E[u[w_{0}+X]] \end{math}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra }, or forgotten \endgroup.
+l.61 \begin{math} u[w_{0}-\pi}
+                              ]=E[u[w_{0}+X]] \end{math}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.61 ...th} u[w_{0}-\pi}]=E[u[w_{0}+X]] \end{math}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{math}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...th} u[w_{0}-\pi}]=E[u[w_{0}+X]] \end{math}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.61 ...th} u[w_{0}-\pi}]=E[u[w_{0}+X]] \end{math}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+! Undefined control sequence.
+l.64 ...{x \to \infty} \exp(-x) = 0 \alpha, \Alpha
+                                                  , \beta, \Beta, \gamma, \G...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.64 ... \exp(-x) = 0 \alpha, \Alpha, \beta, \Beta
+                                                  , \gamma, \Gamma,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \vbox (badness 1286) has occurred while \output is active []
+
+ [11])
+[12pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.83 \include{relatedwork}
-                          ] [12]
+                          ]
 No file main.bbl.
 
 Package natbib Warning: There were undefined citations.
@@ -1869,7 +1949,7 @@ ux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 24B48157AA5854250DCDD6C7A101AB09;1299.
+(rerunfilecheck)             Checksum: 26A2BCE2608387A67BD56A42C15FA859;1383.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1877,11 +1957,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
  ) 
 Here is how much of TeX's memory you used:
- 20693 strings out of 494045
- 302625 string characters out of 3145963
- 547207 words of memory out of 3000000
- 23365 multiletter control sequences out of 15000+200000
- 103660 words of font info for 137 fonts, out of 3000000 for 9000
+ 20701 strings out of 494045
+ 302727 string characters out of 3145963
+ 546207 words of memory out of 3000000
+ 23366 multiletter control sequences out of 15000+200000
+ 103909 words of font info for 140 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  58i,12n,45p,1504b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{glo:ntnu} has been referenced but does not exist,
@@ -1907,9 +1987,9 @@ ss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files (x86)
 /MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (30 pages, 381199 bytes).
+Output written on main.pdf (30 pages, 390168 bytes).
 PDF statistics:
- 380 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 27294 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 27302 words of extra memory for PDF output out of 29859 (max. 10000000)
 
