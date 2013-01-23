@@ -1,0 +1,89 @@
+\chapter{Relatedwork}
+\label{chp:relatedwork} 
+
+
+
+\begin{figure}
+\centering
+% dummy figure replacement 
+\begin{tabular}{@{}c@{}}
+\rule{.5\textwidth}{.5\textwidth} \\
+\end{tabular}
+\caption{\label{fig:example}A figure}
+\end{figure}
+
+\section{Towards Insurable Network Architectures}\label{sec:first_section}
+A trusted component or system is one you can insure.
+Cyber insurance gives an incentive to better secure your network, and will thus reduce the overall threat for both first and third parties. It will also promote gathering and sharing of information related to security incidents. All in all this will increase the social welfare by decreasing the variance of losses. 
+But even if cyber insurance seems very profitable for everyone, it has failed to evolve as much as expected.
+Some reasons for this, could be:
+\begin{itemize}[topsep=-1em,parsep=0em,itemsep=0em] 
+ \item lack of data to calculate premium. \item Underdeveloped demand due to missing awareness for cyber risks. \item legal and procedural hurdles in substaining claim.
+\end{itemize}
+A more economic model to describe why cyber insurance is still such a niche market.
+\subparagraph{Interdependent security}
+Expected loss due to security breach at one agent is not only dependent on this agents lvl of security, but also by other agents security investment. A good example is spam, it is dependent of number of compromised computers. This also generates an externality and encourages to free riding. which then leads to underinvestment in security.
+\subparagraph{Correlated risks}
+Many systems share common vulnerabilities, which can be exploited at the same time. This leads to a more likely occurence of extreme and catastrophic events, which will result in uneconomical supply of cyber insurance.
+\subparagraph{information asymmetry}
+Since measuring security strength is very hard, people have a high incentive for hiding info. This leads to information asymmetry. 
+All these three form a tripple obstacle, which eliminates the market in evolving. All these obstacles evolve from what makes ICT succed, distribution, interconnection, universality and reuse.
+This is why Architecture matters. The obstacles does not arrive from properties of individual agents, but from integration and interaction in networking. Networking is not just physical, but a abstract structure mapping physical, logical and social interconnection. A good example is development tool chains. A webbrowser is not just dependent of the security the developers have implemented, but also the security in the tools used, such as libraries.
+These three problems have never been analyzed together, this is what this paper contributes with. Uses GT to model incentives of the different agents. 
+\subsection{First subsection with some \texorpdfstring{$\mathcal{M}ath$}{Math} symbol}\label{sec:first_ssection}
+
+\blindtext
+\begin{itemize}[topsep=-1em,parsep=0em,itemsep=0em] % see http://mirror.ctan.org/macros/latex/contrib/enumitem/enumitem.pdf for details about the parameters
+ \item item1
+ \item item2
+ \item ...
+\end{itemize}
+
+\subsection{Mathematics}
+
+\blindmathtrue
+\blindtext
+
+\begin{proposition}\label{def:a_proposition}
+A proposition... (similar environments include: theorem, corollary, conjecture, lemma)
+
+\end{proposition}
+
+\begin{proof}
+\vspace*{-1em} % Adjust the space when parskip is set to 1em
+And its proof.
+\end{proof}
+
+\begin{table}
+\caption{\label{tab:example}A table}
+\centering
+\begin{tabular}[b]{| c | c | c | c | c |}
+\hline
+a & b & c & d & e \\ \hline
+f & g & h & i & j \\ \hline
+k & l & m & n & o \\ \hline
+p & q & r & s & t \\ \hline
+u & v & w & x & y \\ \hline
+z & æ & ø & å &   \\ \hline
+\end{tabular} 
+\end{table}
+
+\subsection{Source code example}
+
+% \floatname{algorithm}{Source code} % if you want to rename 'Algorithm' to 'Source code'
+\begin{algorithm}[h]
+  \caption{The Hello World! program in Java.}
+  \label{hello_world}
+  % alternatively you may use algorithmic, or lstlisting from the listings package
+  \begin{verbatim}
+  
+class HelloWorldApp {
+  public static void main(String[] args) {
+    //Display the string
+    System.out.println("Hello World!");
+  }
+}
+\end{verbatim}
+\end{algorithm}
+
+You can refer to figures using the predefined command like \fref{fig:example}, to pages like \pref{fig:example}, to tables like \tref{tab:example}, to chapters like \Cref{chp:example} and to sections like \Sref{sec:first_section} and you may define similar commands to refer to proposition, algorithms etc.
