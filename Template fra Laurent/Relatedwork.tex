@@ -24,12 +24,37 @@ A more economic model to describe why cyber insurance is still such a niche mark
 \subparagraph{Interdependent security}
 Expected loss due to security breach at one agent is not only dependent on this agents lvl of security, but also by other agents security investment. A good example is spam, it is dependent of number of compromised computers. This also generates an externality and encourages to free riding. which then leads to underinvestment in security.
 \subparagraph{Correlated risks}
-Many systems share common vulnerabilities, which can be exploited at the same time. This leads to a more likely occurence of extreme and catastrophic events, which will result in uneconomical supply of cyber insurance.
+Many systems share common vulnerabilities, which can be exploited at the same time. This leads to a more likely occurrence of extreme and catastrophic events, which will result in uneconomical supply of cyber insurance.
 \subparagraph{information asymmetry}
 Since measuring security strength is very hard, people have a high incentive for hiding info. This leads to information asymmetry. 
-All these three form a tripple obstacle, which eliminates the market in evolving. All these obstacles evolve from what makes ICT succed, distribution, interconnection, universality and reuse.
-This is why Architecture matters. The obstacles does not arrive from properties of individual agents, but from integration and interaction in networking. Networking is not just physical, but a abstract structure mapping physical, logical and social interconnection. A good example is development tool chains. A webbrowser is not just dependent of the security the developers have implemented, but also the security in the tools used, such as libraries.
-These three problems have never been analyzed together, this is what this paper contributes with. Uses GT to model incentives of the different agents. 
+All these three form a triple obstacle, which eliminates the market in evolving. All these obstacles evolve from what makes ICT succeed, distribution, interconnection, universality and reuse.
+This is why Architecture matters. The obstacles does not arrive from properties of individual agents, but from integration and interaction in networking. Networking is not just physical, but a abstract structure mapping physical, logical and social interconnection. A good example is development tool chains. A web-browser is not just dependent of the security the developers have implemented, but also the security in the tools used, such as libraries.
+These three problems have never been analysed together, this is what this paper contributes with. Uses GT to model incentives of the different agents. 
+\section{Cyber insurance as an Incentive for Internet Security}\label{sec:first_section}
+so far the risk management on the internet has involved methods to reduce the
+risks(firewalls, ids, prevention etc.) but not eliminate risk. Is it logical to buy
+insurance to protect the internet and its users.
+An important thing to notice when insuring internet, 
+is that the entities on the internet are correlated, which means insurance claims will likely be correlated. Risks are interdependent, decision by an entity to invest in security affects the risks of others.
+Key result: using insurance would increase the overall security. Act as an powerful incentive, which pushes entities over the threshold where they invest in self-protection. Insurance should be an important component of risk management in the internet.
+
+Four typical options available in the face of risks. 
+1. avoid the risk 2. retain 3. self protect and mitigate 4. transfer the risk.
+Most entities in the internet have choses a mix of 2 and 3. This has lead to 
+lots of systems trying to detect threats and anomalies(both malicious and accidental) and to protect the users and the structure from these.
+but this does not eliminate risk, threats evolve over time and there is allways accidents.
+How to handle this residual risk?
+Option 4, transfer the risk to another entity who willingly accept it(hedging), insure in exchange for a fee. Allows for predictable payouts for uncertain events.
+But does this makes sense for the internet, benefits, to whom? and to what extent?
+
+How to model insurance and computing premiums. avoid ruin the insurer. Actuarial approach. Economic approach:  premium should be negative correlated to the amount
+invested in security by the entity. Users can chose to invest c or not in security
+solutions. Shown that in the 2 user case in absence of insurance, there is a NE
+in a good state, if c is low enough. These result have been extended to a
+network setting. This paper starts out by adding insurance to the two person game, then the n-users network, where damages spread among the users. They show that if premium discriminates about investment in protection. Insurance is a strong incentive to invest in security. Also show how insurance can be a mechanism to facilitate the deployment of security investments by taking advantage network effects such as treshold or tipping point dynamics. Uses simple models. 
+
+
+
 \subsection{First subsection with some \texorpdfstring{$\mathcal{M}ath$}{Math} symbol}\label{sec:first_ssection}
 
 \blindtext
@@ -41,8 +66,7 @@ These three problems have never been analyzed together, this is what this paper 
 
 \subsection{Mathematics}
 
-\blindmathtrue
-\blindtext
+
 
 \begin{proposition}\label{def:a_proposition}
 A proposition... (similar environments include: theorem, corollary, conjecture, lemma)
