@@ -18,6 +18,12 @@
 \contentsline {section}{\numberline {2.2}Cyber insurance as an Incentive for Internet Security}{6}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Classical model for insurance}{7}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Interdependent security and insurance}{7}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}First subsection with some $\mathcal {M}ath$ symbol}{8}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Mathematics}{8}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Source code example}{8}{subsection.2.2.5}
+\contentsline {section}{\numberline {2.3}Modeling cyber-insurance: towards a unifying Framework}{8}{section.2.3}
+\contentsline {subparagraph}{function}{8}{section*.7}
+\contentsline {subparagraph}{network topology G}{8}{section*.8}
+\contentsline {subparagraph}{Risk arrival}{9}{section*.9}
+\contentsline {subparagraph}{Attacker model}{9}{section*.10}
+\contentsline {subsection}{\numberline {2.3.1}Demand side agents}{9}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Supply side, insurers}{9}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Information structure}{9}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}First subsection with some $\mathcal {M}ath$ symbol}{10}{subsection.2.3.4}
