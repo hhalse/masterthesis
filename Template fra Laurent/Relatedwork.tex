@@ -73,62 +73,64 @@ population needed to reach the desirable state.
 This paper shows that insurance provides significant benefits to network of users facing correlated, interdependent risks. Insurance is a powerful mechanism to promote network-wide changes, i.e lead to self protection.
 How to estimate damage? This is very hard on the internet. 
 This paper shows how it is economical rational for entities to prefer a relatively insecure system to a more secure, and that the adoption of security investments follows treshold/tipping point dynamics. And that insurance is a powerful incentive to push the users over the treshold.
+\section{Modeling cyber-insurance: towards a unifying Framework}
+Cyberinsurance, the transfer of financial risk associated with network and computers incidents to a third party, has been researched for several years. But reality continues to disappoint. Sets back by physical accidents such as 9/11 Y2K etc. Clients are for the most SMBs. 
+All three obstacles has to be overcomed at the same time to fix the market, to do this we need a comprehensiv framework for modelling cyber-risk and cyber-insurance.
+many researchers have lost their optimism about cyberinsurance, but this paper has not.
+Breaks the modeling down to five key components: 
+\begin{itemize}[topsep=-1em,parsep=0em,itemsep=0em] 
+ \item network environment(nodes controlled by agents, who extract utility. The risk comes from here \item demand side(agents) \item supply side(insurers) \item information structure, distribution of knowledge among the players. \item organizational environment. public and private entities whose actions affect netwrok security and agents security decisions.
+ 
+\end{itemize}
+what can be answered with models of cyber insurance markets?
 
+Looking at equilibrium we can determine under which conditions will a market for cyber-insurance thrive? or what are the reasons for failure.
+
+What is the effect of an insurance market on aggregate nework security? Will the internet become more secure?
+
+What are the contributions to social welfare?
+
+\subparagraph{function}
+Defense function \begin{math} D \end{math} describes how security investment affects the probability of loss \begin{math}p \end{math} and the size of the loss  \begin{math}l \end{math} for individual nodes.  In most general its a probability distribution.
+An agent \textit{i} only chooses s_i.
+
+\subparagraph{network topology G}
+Describes the relation between elements of an ordered set of nodes.( connectivity)
+\begin{itemize}[topsep=-1em,parsep=0em,itemsep=0em] 
+\item star-shaped \item tree shaped \item ER \item Structured clusters
+\end{itemize}
+\subparagraph{Risk arrival}
+defined by the relation between network topology \textit{G} and the value of the defense function \textit{D}
+Cyber risk is characterized by both interdependent security and correlated risk.
+\subparagraph{Attacker model}
+existing literature assume attacks are perfomed by "nature" rather than strategic players. But attackers react to agents and insurers decisions. this paper models attackers as players. 
+\subsection{Demand side agents}
+Make security decisions for one or more nodes. When buying full coverage of risks, permits the agent to exchange uncertain future costs with a predictable premium. 
+Agents have node control, they are either heterogen og homogeneous. They only seek insurance if they are risk averse. 
+Full or partial insurance. 
+A controct is called fair if the expected profit from it is zero(insurers point of view).
+
+Selfprotection creates an externality, ie interdependent security.
+Selfinsurance does not generate externality, it only reduces your size of potential loss. 
+
+time, all choices are set only once, but not necessarily at the same time by all the agents. 
+\subsection{Supply side, insurers}
+It is important to include these as players. Five attributes: market structure, risk aversion, markup, contract design and higherorder risk transfer.
+Marketstructure, monopoly, oligopoly or competition. Homegenous or heterogenous? Competitions leads to low MC. Risk aversion to avoid taking excessive risk and bankruptcy, need a safety capital. 
+Markup: insurers profit, admin-costs, cost of safety capital. 
+Contract design: fixed premium, premium differentiation, contract with fines.
+Higher order risk transfer: 
+Cyber-reinsurance, catastrophe bonds, exploit derivatives.
+\subsection{Information structure}
+Symmetric and asymmetric. Leads to adverse selection if the insurer cant distinguish between the agents. Moral hazzard occurs if agents could undertake actions that affect the probability of loss ex post. Also information about security is hard to gather and evaluate,. . All this results in two types of contract scenario, pooling or separation(agents sort them self out).
+
+
+ 
 \subsection{First subsection with some \texorpdfstring{$\mathcal{M}ath$}{Math} symbol}\label{sec:first_ssection}
 \begin{math} w_{0} \lim_{x \to \infty} \exp(-x) = 0 \alpha, \Alpha, \beta, \Beta, \gamma, \Gamma,
   \pi, \Pi, \phi, \varphi, \Phi  \pi 
   X E[X]=0 \end{math}
 \blindtext
-\begin{itemize}[topsep=-1em,parsep=0em,itemsep=0em] % see http://mirror.ctan.org/macros/latex/contrib/enumitem/enumitem.pdf for details about the parameters
- \item item1
- \item item2
- \item ...
-\end{itemize}
-
-\subsection{Mathematics}
 
 
 
-\begin{proposition}\label{def:a_proposition}
-A proposition... (similar environments include: theorem, corollary, conjecture, lemma)
-
-\end{proposition}
-
-\begin{proof}
-\vspace*{-1em} % Adjust the space when parskip is set to 1em
-And its proof.
-\end{proof}
-
-\begin{table}
-\caption{\label{tab:example}A table}
-\centering
-\begin{tabular}[b]{| c | c | c | c | c |}
-\hline
-a & b & c & d & e \\ \hline
-f & g & h & i & j \\ \hline
-k & l & m & n & o \\ \hline
-p & q & r & s & t \\ \hline
-u & v & w & x & y \\ \hline
-z & æ & ø & å &   \\ \hline
-\end{tabular} 
-\end{table}
-
-\subsection{Source code example}
-
-% \floatname{algorithm}{Source code} % if you want to rename 'Algorithm' to 'Source code'
-\begin{algorithm}[h]
-  \caption{The Hello World! program in Java.}
-  \label{hello_world}
-  % alternatively you may use algorithmic, or lstlisting from the listings package
-  \begin{verbatim}
-  
-class HelloWorldApp {
-  public static void main(String[] args) {
-    //Display the string
-    System.out.println("Hello World!");
-  }
-}
-\end{verbatim}
-\end{algorithm}
-
-You can refer to figures using the predefined command like \fref{fig:example}, to pages like \pref{fig:example}, to tables like \tref{tab:example}, to chapters like \Cref{chp:example} and to sections like \Sref{sec:first_section} and you may define similar commands to refer to proposition, algorithms etc.
