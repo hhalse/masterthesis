@@ -100,13 +100,18 @@ Describes the relation between elements of an ordered set of nodes.( connectivit
 \item star-shaped \item tree shaped \item ER \item Structured clusters
 \end{itemize}
 \subparagraph{Risk arrival}
-defined by the relation between network topology \textit{G} and the value of the defense function \textit{D}
+defined by the relation between network topology \textit{G} and the value of the defense
+ function \textit{D}
 Cyber risk is characterized by both interdependent security and correlated risk.
 \subparagraph{Attacker model}
-existing literature assume attacks are perfomed by "nature" rather than strategic players. But attackers react to agents and insurers decisions. this paper models attackers as players. 
+existing literature assume attacks are perfomed by "nature" rather than strategic players.
+ But attackers react to agents and insurers decisions. this paper models attackers as
+  players. 
 \subsection{Demand side agents}
-Make security decisions for one or more nodes. When buying full coverage of risks, permits the agent to exchange uncertain future costs with a predictable premium. 
-Agents have node control, they are either heterogen og homogeneous. They only seek insurance if they are risk averse. 
+Make security decisions for one or more nodes. When buying full coverage of risks, permits
+ the agent to exchange uncertain future costs with a predictable premium. 
+Agents have node control, they are either heterogen og homogeneous. They only seek
+ insurance if they are risk averse. 
 Full or partial insurance. 
 A controct is called fair if the expected profit from it is zero(insurers point of view).
 
@@ -122,15 +127,57 @@ Contract design: fixed premium, premium differentiation, contract with fines.
 Higher order risk transfer: 
 Cyber-reinsurance, catastrophe bonds, exploit derivatives.
 \subsection{Information structure}
-Symmetric and asymmetric. Leads to adverse selection if the insurer cant distinguish between the agents. Moral hazzard occurs if agents could undertake actions that affect the probability of loss ex post. Also information about security is hard to gather and evaluate,. . All this results in two types of contract scenario, pooling or separation(agents sort them self out).
-
-
+Symmetric and asymmetric. Leads to adverse selection if the insurer cant distinguish
+ between the agents. Moral hazzard occurs if agents could undertake actions that affect
+  the probability of loss ex post. Also information about security is hard to gather and
+   evaluate,. . All this results in two types of contract scenario, pooling or
+    separation(agents sort them self out).
+\subsection{A novel cyber-insurance Model}
+eliminate threats which cannot be tackled through traditional means, such as AV. Risks arrise due to both security attacks and non-security related failures. This paper analyzes cyber-insurance solutions when a user faces risks due to both of these. Propose a model called "Aegis", user accepts a fraction of loss recovery and transfers the rest.Mathematically show that only under conditoons when buying cyber-insurance  is mandatory.
+\subsection{A solution to the information Asymmetry Problem}
+AV and other security software reduces the risk, but does not remove it completely. Cyber-insurance,
+ residueal risk elimination. But a problem with this is information asymmetry. This paper proposes
+  three mechanisms to resolve this problem. Mechanisms based on the principal agent problem,
+   difficulties in motivating one party(the agent) to act in the best interests of another 
+   (the principal) rather than in his or her own interests. Arises in almost every case where a party
+    pays another party to do something. The agent has more information than the principal, asymmetric.
+\begin{itemize}
+ \item[1] cyber insurance who only provide partial coverage to the insureds will ensure greater self defense efforts.
+ \item[2] the lvl of deductible per network user contract increases in a concave manner with the topological degree of the user.
+ \item[3] Cyber-insurance market can be made to exist in the presence of monopolistic insurers.
  
-\subsection{First subsection with some \texorpdfstring{$\mathcal{M}ath$}{Math} symbol}\label{sec:first_ssection}
-\begin{math} w_{0} \lim_{x \to \infty} \exp(-x) = 0 \alpha, \Alpha, \beta, \Beta, \gamma, \Gamma,
-  \pi, \Pi, \phi, \varphi, \Phi  \pi 
-  X E[X]=0 \end{math}
-\blindtext
+\end{itemize} 
+Security experts claim that it is impossible to achieve perfect internet security just via technological advancements.
+\begin{itemize}
+\item[1] there do not always exist fool-proof ways to detect and identify. 
+Even the best software available have false-positive, false-negative. And threats evolve automatically in response to AV-software being deployed. 
+\item[2] The internet is a distributed system, different security interests and incentives pr user.
+ Might spend money to protect their own hard drive, but not on prevent its computer being used by an
+  attacker for a DOS attack on a wealthy corporation. 
+\item[3] Correlated and interdependent risks. As a result, a user who invest in security generates
+ positive externality for others. Which will result in a free rider problem.
+\item[4] Network externalities due to lock-in and first mover effects of security software vendors
+ affect the adoption of more advanced technology.
+\item[5] Security software suffer from lemons market. 
+\end{itemize}
+ \subparagraph{Cyber-insurance and asymmetry}
+ insurers are inable to disttinguish high and low risk users, i.e adverse selection.
+ users undertaking actions, i.e moral hazard. 
+ 
+ Difficult for insurers to gather information about applications, software installed, security habbits
+  etc. and users can hide inforamtion.
+ 
+Users in general invest to little in self-defense relative to the socially efficient lvl due to the
+ free-rider problem(externatlities).  Thus the challenge to improving overall network security lies in
+  incentivizing end users to invest in sufficient amount of self defense.
+\subsection{Cyber-insurance for cyber-security, A topological Take on Modulating Insurance Premiums}
+Adopts a topological perspective in proposing a mechanism that accounts for the positive
+ externalities, network location of users, and provide appropriate way to proportionally allocate
+  fines/rebates on user premiums. Uses GT to prove. Consider a monopolistic cyber-insurer, prodividing
+   full coverage. Each client is risk averse. A users investment and location in network determines
+    his risk type. Each user has a utility function dependent on the rest of the users. 
+    Node centrality, maps to the externality effects a node has on other network nodes. Uses
+    eigenvectors and bonacich papers. both these assign relative importance scores to all nodes, based on the concept of connections.  
 
 
 

@@ -26,4 +26,5 @@
 \contentsline {subsection}{\numberline {2.3.1}Demand side agents}{9}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Supply side, insurers}{9}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Information structure}{9}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}First subsection with some $\mathcal {M}ath$ symbol}{10}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.4}A novel cyber-insurance Model}{10}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}A solution to the information Asymmetry Problem}{10}{subsection.2.3.5}
