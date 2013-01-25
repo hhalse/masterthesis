@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  25 JAN 2013 10:13
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  25 JAN 2013 11:33
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -1577,6 +1577,25 @@ LaTeX Warning: Label `sec:first_section' multiply defined.
 
 LaTeX Warning: Label `sec:first_ssection' multiply defined.
 
+) ("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork2.aux"
+
+LaTeX Warning: Label `fig:example' multiply defined.
+
+
+LaTeX Warning: Label `sec:first_section' multiply defined.
+
+
+LaTeX Warning: Label `sec:first_ssection' multiply defined.
+
+
+LaTeX Warning: Label `tab:example' multiply defined.
+
+
+LaTeX Warning: Label `def:a_proposition' multiply defined.
+
+
+LaTeX Warning: Label `hello_world' multiply defined.
+
 ))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
@@ -1649,7 +1668,7 @@ LaTeX Info: Redefining \nameref on input line 24.
 \@outlinefile=\write7
 \c@lstlisting=\count327
 
-<./figs/ntnu-logo.pdf, id=75, 241.4922pt x 52.79724pt>
+<./figs/ntnu-logo.pdf, id=95, 241.4922pt x 52.79724pt>
 File: ./figs/ntnu-logo.pdf Graphic file (type pdf)
 
 <use ./figs/ntnu-logo.pdf>
@@ -1823,7 +1842,66 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[9]) [10]
+[9]) [10] ("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork2.tex"
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \\
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 R
+      elated work 2. TEST TEST TEST Here is an example of how to use acronym...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Package natbib Warning: Citation `Author:year:XYZ' on page 11 undefined on inpu
+t line 22.
+
+
+Underfull \vbox (badness 2547) has occurred while \output is active []
+
+ [11
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.40 ...emize}[topsep=-1em,parsep=0em,itemsep=0em]
+                                                   % see http://mirror.ctan....
+] [13pdfTeX warning (ext4): destination with the same identifier (name{table.3.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.91 \end{algorithm}
+                    ]
+
+LaTeX Warning: Reference `chp:example' on page 14 undefined on input line 93.
+
+) [14]
 No file main.bbl.
 
 Package natbib Warning: There were undefined citations.
@@ -1838,11 +1916,12 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
 ("D:\GITREPO\masterthesis\Template fra Laurent\abstract_english.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\preface.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\chapter1.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.aux"))
+("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork2.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 73FECEAFF46B4CE37F2772509495EF5D;1324.
+(rerunfilecheck)             Checksum: F1A8947924BB90F1F108ED3FDD7B2D73;1669.
 
 
 LaTeX Warning: There were undefined references.
@@ -1853,11 +1932,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
  ) 
 Here is how much of TeX's memory you used:
- 20670 strings out of 494045
- 295571 string characters out of 3153222
- 544619 words of memory out of 3000000
- 23362 multiletter control sequences out of 15000+200000
- 103370 words of font info for 134 fonts, out of 3000000 for 9000
+ 20718 strings out of 494045
+ 296446 string characters out of 3153222
+ 549147 words of memory out of 3000000
+ 23371 multiletter control sequences out of 15000+200000
+ 104117 words of font info for 143 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  58i,12n,45p,1504b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{glo:ntnu} has been referenced but does not exist,
@@ -1878,9 +1957,9 @@ e1/public/lm/lmr8.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr9.pfb><D:/Latex
 fonts/type1/public/lm/lmssbx10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy1
 0.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><D:/Latex/MiKTeX/fonts/t
 ype1/public/lm/lmtt10.pfb>
-Output written on main.pdf (28 pages, 380730 bytes).
+Output written on main.pdf (32 pages, 398462 bytes).
 PDF statistics:
- 341 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
- 27286 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 402 PDF objects out of 1000 (max. 8388607)
+ 75 named destinations out of 1000 (max. 500000)
+ 27326 words of extra memory for PDF output out of 29859 (max. 10000000)
 
