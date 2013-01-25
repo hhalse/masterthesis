@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  25 JAN 2013 10:02
-=======
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  24 JAN 2013 13:43
->>>>>>> 84bfb128bf34681a7fed54e55324225a17a83f24
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  25 JAN 2013 10:08
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -1810,7 +1806,7 @@ you left one out. Proceed, with fingers crossed.
 
 [8]
 ! Undefined control sequence.
-l.129 ...x \to \infty} \exp(-x) = 0 \alpha, \Alpha
+l.130 ...x \to \infty} \exp(-x) = 0 \alpha, \Alpha
                                                   , \beta, \Beta, \gamma, \G...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1819,7 +1815,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.129 ...\exp(-x) = 0 \alpha, \Alpha, \beta, \Beta
+l.130 ...\exp(-x) = 0 \alpha, \Alpha, \beta, \Beta
                                                   , \gamma, \Gamma,
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1857,25 +1853,16 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 20663 strings out of 494045
- 295488 string characters out of 3153222
- 545614 words of memory out of 3000000
- 23361 multiletter control sequences out of 15000+200000
- 103328 words of font info for 133 fonts, out of 3000000 for 9000
-=======
  20670 strings out of 494045
- 301900 string characters out of 3145963
+ 295571 string characters out of 3153222
  544619 words of memory out of 3000000
  23362 multiletter control sequences out of 15000+200000
  103370 words of font info for 134 fonts, out of 3000000 for 9000
->>>>>>> 84bfb128bf34681a7fed54e55324225a17a83f24
  715 hyphenation exceptions out of 8191
  58i,12n,45p,1504b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{glo:ntnu} has been referenced but does not exist,
  replaced by a fixed one
 
-<<<<<<< HEAD
 {D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/
 lm/lm-mathex.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{D:/Latex/Mi
 KTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-rm
@@ -1891,30 +1878,7 @@ e1/public/lm/lmr8.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr9.pfb><D:/Latex
 fonts/type1/public/lm/lmssbx10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy1
 0.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><D:/Latex/MiKTeX/fonts/t
 ype1/public/lm/lmtt10.pfb>
-Output written on main.pdf (27 pages, 373196 bytes).
-=======
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvi
-ps/lm/lm-rm.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/lm/lmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/lm/lmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
-ss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (28 pages, 380755 bytes).
->>>>>>> 84bfb128bf34681a7fed54e55324225a17a83f24
+Output written on main.pdf (28 pages, 380730 bytes).
 PDF statistics:
  341 PDF objects out of 1000 (max. 8388607)
  61 named destinations out of 1000 (max. 500000)
