@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  25 JAN 2013 11:33
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  25 JAN 2013 11:56
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -1582,13 +1582,13 @@ LaTeX Warning: Label `sec:first_ssection' multiply defined.
 LaTeX Warning: Label `fig:example' multiply defined.
 
 
+LaTeX Warning: Label `tab:example' multiply defined.
+
+
 LaTeX Warning: Label `sec:first_section' multiply defined.
 
 
 LaTeX Warning: Label `sec:first_ssection' multiply defined.
-
-
-LaTeX Warning: Label `tab:example' multiply defined.
 
 
 LaTeX Warning: Label `def:a_proposition' multiply defined.
@@ -1850,7 +1850,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 \\
+l.28 \\
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1863,7 +1863,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 R
+l.29 R
       elated work 2. TEST TEST TEST Here is an example of how to use acronym...
 
 Your command was ignored.
@@ -1872,36 +1872,32 @@ or  <return>  to continue without it.
 
 
 Package natbib Warning: Citation `Author:year:XYZ' on page 11 undefined on inpu
-t line 22.
+t line 29.
 
-
-Underfull \vbox (badness 2547) has occurred while \output is active []
-
- [11
+[11
 
 
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+] [12]
 
- [12pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-1}) has been already used, duplicate ignored
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.40 ...emize}[topsep=-1em,parsep=0em,itemsep=0em]
-                                                   % see http://mirror.ctan....
-] [13pdfTeX warning (ext4): destination with the same identifier (name{table.3.
-1}) has been already used, duplicate ignored
+
+LaTeX Warning: Reference `chp:example' on page 13 undefined on input line 100.
+
+) [13pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.91 \end{algorithm}
-                    ]
+l.84 \include{relatedwork2}
+                           ] [14pdfTeX warning (ext4): destination with the sam
+e identifier (name{table.3.1}) has been already used, duplicate ignored
 
-LaTeX Warning: Reference `chp:example' on page 14 undefined on input line 93.
-
-) [14]
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.84 \include{relatedwork2}
+                           ]
 No file main.bbl.
 
 Package natbib Warning: There were undefined citations.
@@ -1934,7 +1930,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
 Here is how much of TeX's memory you used:
  20718 strings out of 494045
  296446 string characters out of 3153222
- 549147 words of memory out of 3000000
+ 550147 words of memory out of 3000000
  23371 multiletter control sequences out of 15000+200000
  104117 words of font info for 143 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -1957,7 +1953,7 @@ e1/public/lm/lmr8.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr9.pfb><D:/Latex
 fonts/type1/public/lm/lmssbx10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy1
 0.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><D:/Latex/MiKTeX/fonts/t
 ype1/public/lm/lmtt10.pfb>
-Output written on main.pdf (32 pages, 398462 bytes).
+Output written on main.pdf (32 pages, 398486 bytes).
 PDF statistics:
  402 PDF objects out of 1000 (max. 8388607)
  75 named destinations out of 1000 (max. 500000)
