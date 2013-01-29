@@ -5,3 +5,8 @@
 \addvspace {10pt}
 \contentsline {table}{\numberline {1.1}{\ignorespaces A table}}{3}{table.1.1}
 \addvspace {10pt}
+<<<<<<< HEAD
+=======
+\addvspace {10pt}
+\contentsline {table}{\numberline {3.1}{\ignorespaces A table}}{14}{table.3.1}
+>>>>>>> master

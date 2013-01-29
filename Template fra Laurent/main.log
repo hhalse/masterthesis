@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  29 JAN 2013 14:49
+=======
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  25 JAN 2013 11:56
+>>>>>>> master
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -1577,9 +1581,32 @@ LaTeX Warning: Label `sec:first_section' multiply defined.
 
 LaTeX Warning: Label `sec:first_ssection' multiply defined.
 
+<<<<<<< HEAD
 )
 No file relatedwork2.aux.
 )
+=======
+) ("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork2.aux"
+
+LaTeX Warning: Label `fig:example' multiply defined.
+
+
+LaTeX Warning: Label `tab:example' multiply defined.
+
+
+LaTeX Warning: Label `sec:first_section' multiply defined.
+
+
+LaTeX Warning: Label `sec:first_ssection' multiply defined.
+
+
+LaTeX Warning: Label `def:a_proposition' multiply defined.
+
+
+LaTeX Warning: Label `hello_world' multiply defined.
+
+))
+>>>>>>> master
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
@@ -1825,8 +1852,67 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+<<<<<<< HEAD
 [9]) [10]
 No file relatedwork2.tex.
+=======
+[9]) [10] ("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork2.tex"
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \\
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 R
+      elated work 2. TEST TEST TEST Here is an example of how to use acronym...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Package natbib Warning: Citation `Author:year:XYZ' on page 11 undefined on inpu
+t line 29.
+
+[11
+
+
+
+] [12]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `chp:example' on page 13 undefined on input line 100.
+
+) [13pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.84 \include{relatedwork2}
+                           ] [14pdfTeX warning (ext4): destination with the sam
+e identifier (name{table.3.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.84 \include{relatedwork2}
+                           ]
+>>>>>>> master
 No file main.bbl.
 
 Package natbib Warning: There were undefined citations.
@@ -1863,11 +1949,19 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  20686 strings out of 494045
  295883 string characters out of 3153222
  544619 words of memory out of 3000000
  23367 multiletter control sequences out of 15000+200000
  103370 words of font info for 134 fonts, out of 3000000 for 9000
+=======
+ 20718 strings out of 494045
+ 296446 string characters out of 3153222
+ 550147 words of memory out of 3000000
+ 23371 multiletter control sequences out of 15000+200000
+ 104117 words of font info for 143 fonts, out of 3000000 for 9000
+>>>>>>> master
  715 hyphenation exceptions out of 8191
  58i,12n,45p,1504b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{glo:ntnu} has been referenced but does not exist,
@@ -1912,7 +2006,11 @@ e1/public/lm/lmr8.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr9.pfb><D:/Latex
 fonts/type1/public/lm/lmssbx10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy1
 0.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><D:/Latex/MiKTeX/fonts/t
 ype1/public/lm/lmtt10.pfb>
+<<<<<<< HEAD
 Output written on main.pdf (28 pages, 384271 bytes).
+=======
+Output written on main.pdf (32 pages, 398486 bytes).
+>>>>>>> master
 PDF statistics:
  373 PDF objects out of 1000 (max. 8388607)
  69 named destinations out of 1000 (max. 500000)
