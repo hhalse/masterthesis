@@ -1,10 +1,1 @@
 (indexentry :tkey (("NTNU" "\\glossaryentryfield{ntnu}{\\glsnamefont{NTNU}}{Norwegian University of Science and Technology}{\\relax }") ) :locref "{}{xvii}" :attr "pageglsnumberformat" ) 
-<<<<<<< HEAD
-(indexentry :tkey (("NTNU" "\\glossaryentryfield{ntnu}{\\glsnamefont{NTNU}}{Norwegian University of Science and Technology}{\\relax }") ) :locref "{}{1}" :attr "pageglsnumberformat" ) 
-(indexentry :tkey (("NTNU" "\\glossaryentryfield{ntnu}{\\glsnamefont{NTNU}}{Norwegian University of Science and Technology}{\\relax }") ) :locref "{}{1}" :attr "pageglsnumberformat" ) 
-(indexentry :tkey (("NTNU" "\\glossaryentryfield{ntnu}{\\glsnamefont{NTNU}}{Norwegian University of Science and Technology}{\\relax }") ) :locref "{}{1}" :attr "pageglsnumberformat" ) 
-=======
-(indexentry :tkey (("NTNU" "\\glossaryentryfield{ntnu}{\\glsnamefont{NTNU}}{Norwegian University of Science and Technology}{\\relax }") ) :locref "{}{15}" :attr "pageglsnumberformat" ) 
-(indexentry :tkey (("NTNU" "\\glossaryentryfield{ntnu}{\\glsnamefont{NTNU}}{Norwegian University of Science and Technology}{\\relax }") ) :locref "{}{15}" :attr "pageglsnumberformat" ) 
-(indexentry :tkey (("NTNU" "\\glossaryentryfield{ntnu}{\\glsnamefont{NTNU}}{Norwegian University of Science and Technology}{\\relax }") ) :locref "{}{15}" :attr "pageglsnumberformat" ) 
->>>>>>> 9cc10324fa2353af96ffa07c8ce506a31559f934
