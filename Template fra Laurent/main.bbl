@@ -1,13 +1,23 @@
-\begin{thebibliography}{Jonow}
+\begin{thebibliography}{MCR80}
 
 \bibitem[•]{2006}
 •.
 \newblock •.
 \newblock {\em •}, •.
 
+\bibitem[asd]{yey}
+asdasdasd.
+\newblock asdasdasdadasdadasdgfdfgh.
+
 \bibitem[hey00]{hey}
 {\em Jonas og haavard}.
 \newblock ja, 2000.
+
+\bibitem[Ins11]{ccost}
+Ponemon Institute.
+\newblock Second annual cost of cyber crime study, benchmark study of u.s:
+  Companies.
+\newblock Technical report, Ponemon Institute, Aug 2011.
 
 \bibitem[Jonow]{jonas}
 Jonas.
@@ -17,5 +27,32 @@ Jonas.
 \bibitem[Jr06]{Nobody06}
 Nobody Jr.
 \newblock My article, 2006.
+
+\bibitem[MCR80]{mehr1980principles}
+R.I. Mehr, E.~Cammack, and T.~Rose.
+\newblock {\em Principles of insurance1!!!}
+\newblock RD Irwin, 1980.
+
+\bibitem[PD12]{washingtonpaper}
+National Protection and Programs Directorate.
+\newblock Cybersecurity insurance workshop readout report.
+\newblock {\em U.S. Department of Homeland Security}, 2012.
+
+\bibitem[PpD12]{Cyberworkshop}
+National Protection and U.S. Department of Homeland~Security programs
+  Directorate.
+\newblock Cybersecurity insurance workshop readout report, Nov 2012.
+
+\bibitem[Pra]{compworld}
+Mary~K. Pratt.
+\newblock Cyber insurance offers it peace of mind -- or maybe not.
+\newblock
+  \url{http://www.computerworld.com/s/article/9223366/Cyber_insurance_offers_IT_peace_of_mind_or_maybe_not?taxonomyId=17&pageNumber=1}.
+\newblock Accessed: 31/01/2013.
+
+\bibitem[Rob12]{robinson2012incentives}
+N.~Robinson.
+\newblock Incentives and barriers of the cyber insurance market in europe.
+\newblock 2012.
 
 \end{thebibliography}
