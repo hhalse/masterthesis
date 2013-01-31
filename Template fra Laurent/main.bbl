@@ -1,4 +1,4 @@
-\begin{thebibliography}{PpD12}
+\begin{thebibliography}{MCR80}
 
 \bibitem[•]{2006}
 •.
@@ -28,6 +28,16 @@ Jonas.
 Nobody Jr.
 \newblock My article, 2006.
 
+\bibitem[MCR80]{mehr1980principles}
+R.I. Mehr, E.~Cammack, and T.~Rose.
+\newblock {\em Principles of insurance1!!!}
+\newblock RD Irwin, 1980.
+
+\bibitem[PD12]{washingtonpaper}
+National Protection and Programs Directorate.
+\newblock Cybersecurity insurance workshop readout report.
+\newblock {\em U.S. Department of Homeland Security}, 2012.
+
 \bibitem[PpD12]{Cyberworkshop}
 National Protection and U.S. Department of Homeland~Security programs
   Directorate.
@@ -39,5 +49,10 @@ Mary~K. Pratt.
 \newblock
   \url{http://www.computerworld.com/s/article/9223366/Cyber_insurance_offers_IT_peace_of_mind_or_maybe_not?taxonomyId=17&pageNumber=1}.
 \newblock Accessed: 31/01/2013.
+
+\bibitem[Rob12]{robinson2012incentives}
+N.~Robinson.
+\newblock Incentives and barriers of the cyber insurance market in europe.
+\newblock 2012.
 
 \end{thebibliography}
