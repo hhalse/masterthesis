@@ -80,13 +80,22 @@
 \pagestyle{ruled}
 
 \include{chapter1}
+\include{currentmarketstate}
 \include{relatedwork}
 \include{relatedwork2}
-%% include here the other chapters
-
-\renewcommand*{\bibname}{References}
+\cite{hey}
+\cite{Nobody06}
+\cite{2006}
+\cite{jonas}
+\nocite{*}
 \bibliographystyle{alpha}
-\bibliography{main}
+\bibliography{referanser}
+%% include here the other chapters
+%
+
+%\renewcommand{\bibname}{References}
+%\bibliographystyle{alpha}
+%\bibliography{main}
 
 %% Uncomment the following if you have any appendix
 % \appendix
@@ -97,6 +106,4 @@
 % }
 % \renewcommand{\chaptername}{\appendixname}
 %% include below possible appendices (chapters)
-
-
 \end{document} 
