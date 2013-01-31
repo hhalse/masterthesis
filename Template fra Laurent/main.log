@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  30 JAN 2013 16:19
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  31 JAN 2013 09:43
 entering extended mode
 **main.tex
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.tex"
@@ -1675,7 +1675,7 @@ LaTeX Info: Redefining \nameref on input line 24.
 \@outlinefile=\write7
 \c@lstlisting=\count327
 
-<./figs/ntnu-logo.pdf, id=127, 241.4922pt x 52.79724pt>
+<./figs/ntnu-logo.pdf, id=131, 241.4922pt x 52.79724pt>
 File: ./figs/ntnu-logo.pdf Graphic file (type pdf)
 
 <use ./figs/ntnu-logo.pdf>
@@ -1788,7 +1788,12 @@ state.tex" [4
 
 
 
-]) [5]
+]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 11.
+
+) [5]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork.t
 ex" [6
 
@@ -1884,7 +1889,7 @@ l.91 \end{algorithm}
 LaTeX Warning: Reference `chp:example' on page 22 undefined on input line 93.
 
 ) [22]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 88.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 89.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1895,6 +1900,12 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ]
 bibitemlist
+
+Underfull \hbox (badness 1057) in paragraph at lines 37--42
+\T1/lmr/m/n/10 (+20) not.  [][]$http : / / www . computerworld . com / s / arti
+cle / 9223366 / Cyber _ insurance _$
+ []
+
 )
 
 Package natbib Warning: There were undefined citations.
@@ -1904,8 +1915,8 @@ Package natbib Warning: There were undefined citations.
 \tf@lof=\write9
 \tf@lot=\write10
 \tf@loa=\write11
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
  ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.aux"
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\abstract_engl
 ish.aux")
@@ -1918,10 +1929,10 @@ state.aux")
 ux")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork2.
 aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AA672C7BD99AFFEE3DE327635BD3AF0C;2387.
+(rerunfilecheck)             Checksum: 88FFD5997276C2A53895DB9D8F3E0EB5;2459.
 
 
 LaTeX Warning: There were undefined references.
@@ -1929,13 +1940,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 20853 strings out of 494045
- 305567 string characters out of 3145963
- 550773 words of memory out of 3000000
- 23435 multiletter control sequences out of 15000+200000
+ 20871 strings out of 494045
+ 305837 string characters out of 3145963
+ 550846 words of memory out of 3000000
+ 23448 multiletter control sequences out of 15000+200000
  105142 words of font info for 148 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  58i,13n,45p,1504b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1963,9 +1974,9 @@ rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/M
 iKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (43 pages, 433760 bytes).
+Output written on main.pdf (43 pages, 437973 bytes).
 PDF statistics:
- 542 PDF objects out of 1000 (max. 8388607)
- 126 named destinations out of 1000 (max. 500000)
- 28414 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 557 PDF objects out of 1000 (max. 8388607)
+ 131 named destinations out of 1000 (max. 500000)
+ 28422 words of extra memory for PDF output out of 29859 (max. 10000000)
 
