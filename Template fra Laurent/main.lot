@@ -5,9 +5,5 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-<<<<<<< HEAD
-\contentsline {table}{\numberline {3.1}{\ignorespaces A table}}{19}{table.3.1}
 \addvspace {10pt}
-=======
-\contentsline {table}{\numberline {3.1}{\ignorespaces A table}}{17}{table.3.1}
->>>>>>> 9cc10324fa2353af96ffa07c8ce506a31559f934
+\contentsline {table}{\numberline {4.1}{\ignorespaces A table}}{21}{table.4.1}

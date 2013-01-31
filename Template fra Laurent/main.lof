@@ -4,13 +4,7 @@
 \select@language {english}
 \addvspace {10pt}
 \addvspace {10pt}
-<<<<<<< HEAD
-\contentsline {figure}{\numberline {2.1}{\ignorespaces A figure}}{5}{figure.2.1}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces A figure}}{18}{figure.3.1}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A figure}}{7}{figure.3.1}
 \addvspace {10pt}
-=======
-\contentsline {figure}{\numberline {2.1}{\ignorespaces A figure}}{3}{figure.2.1}
-\addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces A figure}}{16}{figure.3.1}
->>>>>>> 9cc10324fa2353af96ffa07c8ce506a31559f934
+\contentsline {figure}{\numberline {4.1}{\ignorespaces A figure}}{20}{figure.4.1}
