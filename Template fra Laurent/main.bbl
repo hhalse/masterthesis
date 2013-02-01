@@ -9,6 +9,23 @@
 asdasdasd.
 \newblock asdasdasdadasdadasdgfdfgh.
 
+\bibitem[BMR09]{bandyopadhyay2009managers}
+T.~Bandyopadhyay, V.S. Mookerjee, and R.C. Rao.
+\newblock Why it managers don't go for cyber-insurance products.
+\newblock {\em Communications of the ACM}, 52(11):68--73, 2009.
+
+\bibitem[BS10]{bohme2010modeling}
+R.~B{\"o}hme and G.~Schwartz.
+\newblock Modeling cyber-insurance: Towards a unifying framework.
+\newblock {\em Proceedings of GameSec}, 2010, 2010.
+
+\bibitem[CoA]{travelers}
+Travelers Casualty and Surety~Company of~America.
+\newblock Cyberrisk.
+\newblock
+  \url{https://www.travelers.com/business-insurance/management-professional-liability/Cyber-Risk.aspx}.
+\newblock Accessed: 31/01/2013.
+
 \bibitem[hey00]{hey}
 {\em Jonas og haavard}.
 \newblock ja, 2000.
@@ -50,9 +67,24 @@ Mary~K. Pratt.
   \url{http://www.computerworld.com/s/article/9223366/Cyber_insurance_offers_IT_peace_of_mind_or_maybe_not?taxonomyId=17&pageNumber=1}.
 \newblock Accessed: 31/01/2013.
 
+\bibitem[Ris12]{evolvingcyber}
+Stratic Risk.
+\newblock Evolving cyber cover.
+\newblock
+  \url{http://www.strategic-risk.eu/Journals/2012/02/22/i/j/w/RiskFinancing_Mar12.pdf},
+  March 2012.
+\newblock Accessed: 31/01/2013.
+
 \bibitem[Rob12]{robinson2012incentives}
 N.~Robinson.
 \newblock Incentives and barriers of the cyber insurance market in europe.
 \newblock 2012.
+
+\bibitem[Wat11]{twatson}
+Tower Watson.
+\newblock Despinte increasing cyber threats, most companies are not buying
+  network liability policies.
+\newblock \url{http://www.towerswatson.com/press/4482}, May 2011.
+\newblock Accessed: 31/01/2013.
 
 \end{thebibliography}
