@@ -5,6 +5,7 @@
 \contentsline {chapter}{List of Figures}{ix}{section*.1}
 \contentsline {chapter}{List of Tables}{xi}{section*.2}
 \contentsline {chapter}{List of Algorithms}{xiii}{chapter*.3}
+<<<<<<< HEAD
 \contentsline {chapter}{\chapternumberline {1}Introduction to Cyber Insurance}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}The basics of insurability}{1}{section.1.1}
 \contentsline {chapter}{\chapternumberline {2}Current market}{5}{chapter.2}
@@ -60,3 +61,58 @@
 \contentsline {subsection}{\numberline {4.1.2}Mathematics}{21}{subsection.4.1.2}
 \contentsline {subsection}{\numberline {4.1.3}Source code example}{22}{subsection.4.1.3}
 \contentsline {chapter}{References}{25}{section*.33}
+=======
+\contentsline {chapter}{\chapternumberline {1}Current market}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Current market state}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Contract structure}{2}{section.1.2}
+\contentsline {subparagraph}{How to measure damage?}{2}{section*.4}
+\contentsline {chapter}{\chapternumberline {2}Relatedwork}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Towards Insurable Network Architectures}{3}{section.2.1}
+\contentsline {subparagraph}{Interdependent security}{4}{section*.5}
+\contentsline {subparagraph}{Correlated risks}{4}{section*.6}
+\contentsline {subparagraph}{information asymmetry}{4}{section*.7}
+\contentsline {section}{\numberline {2.2}Cyber insurance as an Incentive for Internet Security}{4}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Classical model for insurance}{5}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Interdependent security and insurance}{5}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Modeling cyber-insurance: towards a unifying Framework}{6}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Network Environment: Connected nodes}{7}{subsection.2.3.1}
+\contentsline {subparagraph}{Defense function}{7}{section*.8}
+\contentsline {subparagraph}{network topology G}{7}{section*.9}
+\contentsline {subparagraph}{Risk arrival}{8}{section*.10}
+\contentsline {subparagraph}{Attacker model}{8}{section*.11}
+\contentsline {subsection}{\numberline {2.3.2}Demand side agents}{8}{subsection.2.3.2}
+\contentsline {subparagraph}{Node control}{8}{section*.12}
+\contentsline {subparagraph}{Heterogenity}{8}{section*.13}
+\contentsline {subparagraph}{Risk Aversion}{8}{section*.14}
+\contentsline {subparagraph}{Action space}{9}{section*.15}
+\contentsline {subparagraph}{Time}{9}{section*.16}
+\contentsline {subsection}{\numberline {2.3.3}Supply side, insurers}{9}{subsection.2.3.3}
+\contentsline {subparagraph}{ Marketstructure}{9}{section*.17}
+\contentsline {subparagraph}{ Risk aversion}{9}{section*.18}
+\contentsline {subparagraph}{Markup}{9}{section*.19}
+\contentsline {subparagraph}{Contract design}{9}{section*.20}
+\contentsline {subparagraph}{Higher order risk transfer}{10}{section*.21}
+\contentsline {subsection}{\numberline {2.3.4}Information structure}{10}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Organizational Enviroment(stakeholders)}{10}{subsection.2.3.5}
+\contentsline {subparagraph}{Regulator}{11}{section*.22}
+\contentsline {subparagraph}{ICT manufacturers}{11}{section*.23}
+\contentsline {subparagraph}{Network intermediaries}{11}{section*.24}
+\contentsline {subparagraph}{security service providers}{11}{section*.25}
+\contentsline {subsection}{\numberline {2.3.6}Using this framework for a literature survey}{11}{subsection.2.3.6}
+\contentsline {subparagraph}{demand side}{11}{section*.26}
+\contentsline {subparagraph}{Supply side}{12}{section*.27}
+\contentsline {subparagraph}{Organizational Environment}{12}{section*.28}
+\contentsline {subparagraph}{Research Question}{12}{section*.29}
+\contentsline {subparagraph}{Discussion of models}{12}{section*.30}
+\contentsline {section}{\numberline {2.4}A novel cyber-insurance Model}{12}{section.2.4}
+\contentsline {section}{\numberline {2.5}A solution to the information Asymmetry Problem}{13}{section.2.5}
+\contentsline {subparagraph}{Cyber-insurance and asymmetry}{13}{section*.31}
+\contentsline {section}{\numberline {2.6}Cyber-insurance for cyber-security, A topological Take on Modulating Insurance Premiums}{14}{section.2.6}
+\contentsline {section}{\numberline {2.7}Differentiating Cyber-insurance Contracts, a topological Perspective}{14}{section.2.7}
+\contentsline {chapter}{\chapternumberline {3}Related work 2}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}First section}{17}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}First subsection with some $\mathcal {M}ath$ symbol}{17}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Mathematics}{17}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Source code example}{18}{subsection.3.1.3}
+\contentsline {chapter}{Bibliography}{21}{section*.33}
+>>>>>>> lokal

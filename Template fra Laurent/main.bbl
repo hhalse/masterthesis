@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 \begin{thebibliography}{MCR80}
+=======
+\begin{thebibliography}{BMR09}
+>>>>>>> lokal
 
 \bibitem[•]{2006}
 •.
@@ -75,11 +79,14 @@ Stratic Risk.
   March 2012.
 \newblock Accessed: 31/01/2013.
 
+<<<<<<< HEAD
 \bibitem[Rob12]{robinson2012incentives}
 N.~Robinson.
 \newblock Incentives and barriers of the cyber insurance market in europe.
 \newblock 2012.
 
+=======
+>>>>>>> lokal
 \bibitem[Wat11]{twatson}
 Tower Watson.
 \newblock Despinte increasing cyber threats, most companies are not buying
