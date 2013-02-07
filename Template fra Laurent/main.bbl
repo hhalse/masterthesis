@@ -1,17 +1,5 @@
-<<<<<<< HEAD
-\begin{thebibliography}{MCR80}
-=======
-\begin{thebibliography}{BMR09}
->>>>>>> lokal
-
-\bibitem[•]{2006}
-•.
-\newblock •.
-\newblock {\em •}, •.
-
-\bibitem[asd]{yey}
-asdasdasd.
-\newblock asdasdasdadasdadasdgfdfgh.
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{GGJ{\etalchar{+}}10}
 
 \bibitem[BMR09]{bandyopadhyay2009managers}
 T.~Bandyopadhyay, V.S. Mookerjee, and R.C. Rao.
@@ -30,9 +18,10 @@ Travelers Casualty and Surety~Company of~America.
   \url{https://www.travelers.com/business-insurance/management-professional-liability/Cyber-Risk.aspx}.
 \newblock Accessed: 31/01/2013.
 
-\bibitem[hey00]{hey}
-{\em Jonas og haavard}.
-\newblock ja, 2000.
+\bibitem[GGJ{\etalchar{+}}10]{networkgames}
+A.~Galeotti, S.~Goyal, M.O. Jackson, F.~Vega-Redondo, and L.~Yariv.
+\newblock Network games.
+\newblock {\em The review of economic studies}, 77(1):218--244, 2010.
 
 \bibitem[Ins11]{ccost}
 Ponemon Institute.
@@ -40,18 +29,9 @@ Ponemon Institute.
   Companies.
 \newblock Technical report, Ponemon Institute, Aug 2011.
 
-\bibitem[Jonow]{jonas}
-Jonas.
-\newblock Jonas tarder.
-\newblock {\em yes}, now.
-
-\bibitem[Jr06]{Nobody06}
-Nobody Jr.
-\newblock My article, 2006.
-
 \bibitem[MCR80]{mehr1980principles}
 R.I. Mehr, E.~Cammack, and T.~Rose.
-\newblock {\em Principles of insurance1!!!}
+\newblock {\em Principles of insurance}.
 \newblock RD Irwin, 1980.
 
 \bibitem[PD12]{washingtonpaper}
@@ -79,14 +59,11 @@ Stratic Risk.
   March 2012.
 \newblock Accessed: 31/01/2013.
 
-<<<<<<< HEAD
 \bibitem[Rob12]{robinson2012incentives}
 N.~Robinson.
 \newblock Incentives and barriers of the cyber insurance market in europe.
 \newblock 2012.
 
-=======
->>>>>>> lokal
 \bibitem[Wat11]{twatson}
 Tower Watson.
 \newblock Despinte increasing cyber threats, most companies are not buying

@@ -62,5 +62,95 @@ Travelers cyber insurance:
 \item business interruption and additional expenses
 \end{enumerate}
 \end{itemize}
-\subparagraph{How to measure damage?}
+\section{Economics}
+Traditional security is a public good and are usually provided by the government. 
+The threats are also originating from a small number of actors. 
+What about internet security, should it be handled by the government.
+ We do not have anti-tank gear in every house, should we have anti virus software on every computer?
+ there are strong externalities involved, if a unsecured computer joins the internet, 
+ it end up dumping costs on others, just like pollution. 
+ Lemons problem, antivirus software. because the customer cant see the difference.
+ Asymmetric information explains many market failures, low prices in lemons-markets, why sick people struggle with getting to buy insurance.
+ A good example of misaligned incentives is bank frauds in US and UK, in US the banks are the ones hold responsible, in UK it is the customers. One would think the banks in UK was better off, but they are not. Similar problems can be found in other systems, and the problem is  security failing because the people guarding a system are not the poeple suffering the costs of failure. 
+ \section{Epidemics}
+ \cite{easley2012networks}
+ The social network within a population, has a big say in determining how diseases is likely to
+  spread. it can only spread if there are contact between to persons(Nodes), the contact network.
+  The contact network for to different diseases can differ radically, e.g java viruses versus worm
+   propagating through another vulnerability. Or internet viruses versus viruses that spread through short-range wireless communication. 
+   \subsection{modeling contagion}
+   \subparagraph{branching processes}
+   first wave, a person carrying a new disease enters a network, and transmits to everyone he meets with a probability of p, he meets k-people.
+second wave, each person from the first wave now meets k new people, i.e a total of k times k and if infected passes the disease on with probability p.
+further waves are formed in the same way.
+With this simple modeling approach, we get a tree, with a root node which creates branches to new
+lvls of the tree. With low contagion probability, the infection is likely to die out quickly. 
+If the disease in a branching process ever reaches a wave where it fails to infect anyone, then it has died out. It is only two possibilities for the disease in a branching model, 
+either it dies out, or it continue to infect infinitely  many waves. These two possibilities can be
+ differentiaded by a quantity called the basic reproductive number.  $R_{0}$, this is the expected
+  number of new cases of the disease caused by one person/node. In this basic model this number is:
+   $p*k$. If $R_{0}<1$ then with probability 1 the disease dies out after a finite number of waves, if $R_{0}>1$ then it continues to infect atleast one person each wave with a probability greater than 0.
+   A interesting thing to notice about these statements, is if the $R_{0}$ is close to 1 in 
+   either way, then a small shift in the probability will change the 
+   disease status from terminating to widespread or visa versa. This suggests that around the critical value $R_{0}=1 $ it can be worht investing large amounts of effort to produce small shifts in R. 
+\subparagraph{SIR epidemic model}
+Can be applied to any network structure, preserve the basics of the branching process at the level of individual nodes, but generalize the contact structure. 
+A node goes through three potential stages: \begin{enumerate}
+\item Susceptible(S): Before the node has caught the disease.
+\item Infectious(I): once the node has caught the disease, it is infectious and can infect other susceptible neighbors with probability p.
+\item Removed(R): After a node has experienced the full infetious period, it is removed from consideration, since it no longer poses a threat.
+\end{enumerate}
+Network with directed edges. The progress of the epidemic is ontrolled by the contact network
+ structure, probability of contagion and $t_{I}$ the length of infection.
+When a node enters the I state, it remains infectious for a fixed number of steps $t_{I}$. 
+During each of these steps it has a probability of infecting its neighbours. 
+After $t_{I}$ it is removed(R). Good model for disease you can only catch once in a lifetime. 
+Important to note that in networks that do not have tree structure, the claim made earlier about $1>R_{0}>1$ does not necesarily hold anymore. The network structure is very important, 
+it can decide if a disease will spread or not.  Narrow channel example. 
+\subparagraph{Extension to SIR}
+The SIR model is simple, to make it more realistic we can add probability q of recovery, and also add different probabilities for contamination between nodes, due to stronger contact. We add periods to the infection time, early, middle and late and allow different probabilities for infecting in each of these states. 
+
+\subparagraph{Model from dynamic to static(Percolation)}
+assing a probability of infecting on every edge, calculate this at the beginning, and thus an infected
+ node has to connected to another infected node by an open edge. Think of it as fluid running through open and closed pipes. Its only the open ones who can be affected. 
+ 
+ \subparagraph{SIS epidemic model}
+ Nodes can be reinfected. Only two states, susceptible and infectious. Researchers have proved "knife-edge" results on these networks as well.
+ A SIS epidemic can be represented by a SIR model by using a "time-expanded" network. Duplicate the nodes to the next time-frame.
+ \subparagraph{SIRS Epidemic model}
+ Remain removed(immune for a fixed period of time) $t_{R}$, this model fits good with many real 
+ world diseases. It can produce oscillations in  very localized parts of the network, with patches of
+  immunity following large numbers of infections in small areas. 
+
+\section{Incentives and Information Security}
+
+
+People have realized that security failure is not only caused by technical mistakes but also misaligned incentives. When the person guarding them is not the one who suffers when the system fail, there are strong misaligned incentives. As the book \cite{anderson2010security} states, the tools and concepts of game theory and microeconomic theory are becoming just as important as the mathematics of cryptography.
+\subparagraph{Informational asymmetries}
+peer-to-peer network, these exploit network externalities to the fullest by having large member populations with a flat topology. Joining creates the possibility of collaboration with everyone. 
+it is easy to cheat.One solution, change the network topology, create clubs of nodes, 
+one need to establish trust with the club, then you can connect with outside groups through
+ your group. Social networks can also be used to create better topologies, when honest players 
+ can select their friends as neghbors., they minimize the information asymmetry present during
+  neighbor interactions. 
+Another information asymmetry in security, is due to our inability to measure software security. 
+Network science and information security, the network topology can strongly influence conflict dynamics.
+Externalities makes security problems reminiscent of environmental pollution, public goods. 
+
+
+   
+    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
 
