@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  13 FEB 2013 16:10
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  13 FEB 2013 16:30
 entering extended mode
 **main.tex
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.tex"
@@ -1729,14 +1729,10 @@ No file main.acr.
 
 ]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\introductionT
-oCyberInsurance.tex"
-Underfull \vbox (badness 4940) has occurred while \output is active []
-
- [1
+oCyberInsurance.tex" [1
 
 
-]
-[2] [3] [4]
+] [2] [3] [4]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1744,7 +1740,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.132 \\
+l.137 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1757,7 +1753,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 .
+l.138 .
        .. Random notater:
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1960,7 +1956,7 @@ am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x
 ype1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy7
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (54 pages, 439784 bytes).
+Output written on main.pdf (54 pages, 439763 bytes).
 PDF statistics:
  695 PDF objects out of 1000 (max. 8388607)
  195 named destinations out of 1000 (max. 500000)
