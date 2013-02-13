@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  13 FEB 2013 16:30
+=======
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  13 FEB 2013 16:34
+>>>>>>> master
 entering extended mode
 **main.tex
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.tex"
@@ -1769,17 +1773,20 @@ state.tex" [6
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-[8] [9] [10]) [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+[9] [10] [11]) [12]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork.t
-ex" [12
-
-
-
-]
+ex"
 Underfull \vbox (badness 1102) has occurred while \output is active []
 
- [13pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-1}) has been already used, duplicate ignored
+ [13
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1956,9 +1963,13 @@ am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x
 ype1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy7
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
+<<<<<<< HEAD
 Output written on main.pdf (54 pages, 439763 bytes).
+=======
+Output written on main.pdf (54 pages, 442777 bytes).
+>>>>>>> master
 PDF statistics:
- 695 PDF objects out of 1000 (max. 8388607)
+ 696 PDF objects out of 1000 (max. 8388607)
  195 named destinations out of 1000 (max. 500000)
  24390 words of extra memory for PDF output out of 24883 (max. 10000000)
 
