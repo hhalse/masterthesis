@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  13 FEB 2013 10:15
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  13 FEB 2013 16:06
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -1569,18 +1569,15 @@ Package glossaries Info: Writing glossary file main.acn on input line 22.
 
 LaTeX Warning: Label `sec:first_section' multiply defined.
 
-)
-No file surveyofnetworkformations.aux.
-("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork2.aux"
+) ("D:\GITREPO\masterthesis\Template fra Laurent\surveyofnetworkformations.aux"
+) ("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork2.aux"
 
 LaTeX Warning: Label `fig:example' multiply defined.
 
 
 LaTeX Warning: Label `sec:first_section' multiply defined.
 
-)
-No file networkgames.aux.
-)
+) ("D:\GITREPO\masterthesis\Template fra Laurent\networkgames.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
@@ -1595,7 +1592,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 24.
- (D:\Latex\MiKTeX\tex\latex\base\ts1cmr.fd
+
+(D:\Latex\MiKTeX\tex\latex\base\ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 24.
@@ -1652,7 +1650,7 @@ LaTeX Info: Redefining \nameref on input line 24.
 \@outlinefile=\write7
 \c@lstlisting=\count327
 
-<./figs/ntnu-logo.pdf, id=155, 241.4922pt x 52.79724pt>
+<./figs/ntnu-logo.pdf, id=139, 241.4922pt x 52.79724pt>
 File: ./figs/ntnu-logo.pdf Graphic file (type pdf)
 
 <use ./figs/ntnu-logo.pdf>
@@ -1717,13 +1715,13 @@ No file main.acr.
 ]
 ("D:\GITREPO\masterthesis\Template fra Laurent\introductionToCyberInsurance.tex
 "
-Underfull \vbox (badness 1721) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 
 ]
-[2]
+[2] [3]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1731,8 +1729,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 \\
-       
+l.107 \\
+        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1744,42 +1742,34 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 .
-      .. Random notater: One problem with cyber insurance is actors seeing i...
+l.108 .
+       .. Random notater: One problem with cyber insurance is actors seeing ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) [3] ("D:\GITREPO\masterthesis\Template fra Laurent\currentmarketstate.tex"
-[4
+) [4] ("D:\GITREPO\masterthesis\Template fra Laurent\currentmarketstate.tex"
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5
 
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
-[6]
-
-Package natbib Warning: Citation `easley2012networks' on page 7 undefined on in
-put line 76.
-
-[7]
-
-Package natbib Warning: Citation `anderson2010security' on page 8 undefined on 
-input line 128.
-
-[8]) [9] ("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.tex"
-[10
-
-
-
-]
+ [6]
+[7] [8] [9]) [10] ("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.te
+x"
 Underfull \vbox (badness 1102) has occurred while \output is active []
 
- [11pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-1}) has been already used, duplicate ignored
+ [11
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1862,33 +1852,30 @@ No file networkgames.tex.
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.bbl"
 bibitemlist
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--20
+Underfull \hbox (badness 10000) in paragraph at lines 21--26
 $\T1/lmr/m/n/10 (+20) / / www . travelers . com / business-[]insurance / manage
 ment-[]professional-[]liability /$
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 48--53
+Underfull \hbox (badness 1057) in paragraph at lines 65--70
 \T1/lmr/m/n/10 (+20) not.  [][]$http : / / www . computerworld . com / s / arti
 cle / 9223366 / Cyber _ insurance _$
  []
-
-)
-
-Class memoir Warning: The material used in the headers is too large
-(24.0pt) for the given head height (12.0pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 113.
-
-
-Package natbib Warning: There were undefined citations.
 
 [29
 
 
 
 
-]
+])
+
+Class memoir Warning: The material used in the headers is too large
+(24.0pt) for the given head height (12.0pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 113.
+
+[30]
 \tf@toc=\write8
 \tf@lof=\write9
 \tf@lot=\write10
@@ -1906,15 +1893,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
 ("D:\GITREPO\masterthesis\Template fra Laurent\networkgames.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 98FE69C42F4B3C055E7EAAC0214FF191;2591.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D0B95CAC0E9A7A9771779224DFD13C71;2909
-(rerunfilecheck)             After:  98FE69C42F4B3C055E7EAAC0214FF191;2591.
 
 LaTeX Warning: There were undefined references.
 
@@ -1924,60 +1905,30 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 20885 strings out of 494045
- 299599 string characters out of 3153222
- 549978 words of memory out of 3000000
- 23430 multiletter control sequences out of 15000+200000
+ 20888 strings out of 494045
+ 300011 string characters out of 3153222
+ 553120 words of memory out of 3000000
+ 23435 multiletter control sequences out of 15000+200000
  95054 words of font info for 139 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 58i,12n,45p,1504b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{algorithm.5.1} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.5.1} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.5.1} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.45} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.6} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.1.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.1.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.5.1.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.5.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
-replaced by a fixed one
-
-{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/
-lm/lm-mathex.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/Latex/Mi
-KTeX/fonts/enc/dvips/lm/lm-mathit.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-rm
-.enc}<D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><D:/Latex/MiKTeX/fonts/t
-ype1/public/lm/lmbx12.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmex10.pfb><D:
-/Latex/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><D:/Latex/MiKTeX/fonts/type1/pub
-lic/lm/lmmi5.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><D:/Latex/MiK
-TeX/fonts/type1/public/lm/lmr10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr7
-.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr9.pfb><D:/Latex/MiKTeX/fonts/typ
-e1/public/lm/lmri10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmss12.pfb><D:/L
-atex/MiKTeX/fonts/type1/public/lm/lmss17.pfb><D:/Latex/MiKTeX/fonts/type1/publi
-c/lm/lmssbx10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><D:/Latex/M
-iKTeX/fonts/type1/public/lm/lmsy7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lm
-tt10.pfb>
-Output written on main.pdf (47 pages, 417336 bytes).
+ 58i,12n,45p,1504b,560s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{D:/Latex/MiKTeX/fonts/enc/dvip
+s/lm/lm-mathex.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/Latex/
+MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-
+rm.enc}<D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><D:/Latex/MiKTeX/fonts
+/type1/public/lm/lmbx12.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmex10.pfb><
+D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><D:/Latex/MiKTeX/fonts/type1/p
+ublic/lm/lmmi5.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><D:/Latex/M
+iKTeX/fonts/type1/public/lm/lmr10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lm
+r7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr9.pfb><D:/Latex/MiKTeX/fonts/t
+ype1/public/lm/lmri10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmss12.pfb><D:
+/Latex/MiKTeX/fonts/type1/public/lm/lmss17.pfb><D:/Latex/MiKTeX/fonts/type1/pub
+lic/lm/lmssbx10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><D:/Latex
+/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/
+lmtt10.pfb>
+Output written on main.pdf (48 pages, 423514 bytes).
 PDF statistics:
- 626 PDF objects out of 1000 (max. 8388607)
- 173 named destinations out of 1000 (max. 500000)
- 24374 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 611 PDF objects out of 1000 (max. 8388607)
+ 167 named destinations out of 1000 (max. 500000)
+ 24342 words of extra memory for PDF output out of 24883 (max. 10000000)
 
