@@ -8,11 +8,7 @@ theft, data damage, cyber-extortion, loss of income due to denial of service att
 Traditional coverage policies rarely cover these incidents, therefore cyber-insurance is seen as a huge potential market. However, the concept of cyber-insurance has been around since the 1980s, but so far it has failed to reach its promising potential. 
   
  
-<<<<<<< HEAD
-Cyber-insurance works the same way as traditional insurance, where the insurance contract (policy) binds the insurance company to pay a specified amount to the insurance holder when certain incidents occurs. In return, the insurance holder has to pay a fixed sum (premium) to the insurance company. \cite{robinson2012incentives}
 
-    As with other insurances, the cyber-insurance contract is signed between the insurance company and the insurer. The contract clearly specifies the type of coverage of the different risks, a risk assessment of the companies vulnerability and also an evaluation of the companies security systems. These assessments are used to calculate the companies premium. \cite{robinson2012incentives} Generally, this will mean that the more secure a company is, the lower the premium costs.  
-=======
 Cyber-insurance works the same way as traditional insurance, where the insurance contract (policy)
  binds the insurance company to pay a specified amount to the insurance holder when certain incidents
   occurs. In return, the insurance holder has to pay a fixed sum (premium) to the insurance company.
@@ -21,8 +17,9 @@ Cyber-insurance works the same way as traditional insurance, where the insurance
      the insurer. The contract clearly specifies the type of coverage of the different risks, a risk
       assessment of the companies vulnerability and also an evaluation of the companies security
        systems. These assessments are used to calculate the companies premium.
- \cite{robinson2012incentives} Generally, this will mean that the more secure a company is, the lower the premium costs.  
->>>>>>> aaad1a852a51fef71c67580bc15d26bf68446c92
+
+
+ \cite{robinson2012incentives} Generally, this will mean that the security is negatively correlated with the premium costs.  
 
 
 \section{The basics of insurability}
@@ -49,7 +46,7 @@ Cyber-insurance works the same way as traditional insurance, where the insurance
    \item Limited risk of catastrophically large losses: If losses happen all at once the likelihood of
     the insurance company getting bankrupt is high. Therefore, losses are ideally independent and non-catastrophic. 
    \end{enumerate}
-    
+\section{Three main obstacles}
 Cyber-insurance fit relatively well to the general insurance model, but there are some identifiable obstacles. These obstacles can be divided in to three categories, information asymmetry, interdependent security and  correlated risk. 
 \subparagraph{Information asymmetry}
 Information asymmetry arises when one party in a transaction or a decision has more or better
@@ -64,22 +61,81 @@ The other information asymmetry scenario is called moral hazard. It occurs when 
  the contract, one party deliberately takes some action that makes the possibility of loss higher,
   i.e. choosing not to lock your door, since you have insurance. Or in the computer setting,
    deliberately visiting hostile web-pages, or not using anti virus software, firewalls or similar.
-    \cite{bohme2010modeling}
+    \cite{solutiontoinfoasym}
+    
 As we will see the information asymmetry problem is highly relevant regarding cyber insurance.
  The measuring of security is very hard to perform, and thus people have a 
  high incentive for hiding information about their security strength. 
+ Another problem arising due to information asymmetry regarding security software, 
+ is the so called lemons market. It is difficult for a security software buyer to distinguish the
+  performance(bad vs good) of different software, and thus the reasonable thing to do, is to buy the
+   cheapest. From this we see that every security software has to be sold at approximately the same
+    price, and there is no way to distinguish between good and bad software. If the cost of producing
+     good security software is to high, this problem can even result in the good ones chooses not to
+      produce, because it would not be profitable. 
+      
+      The lemon market, the problem of quality uncertainty, was first introduced in a paper \cite{lemonpaper} by the economist George Akerlof in 1970,
+       and used the market for used cars as an example.\cite{lemon} The conclusion of the paper is
+        that since the buyers lack information to distinguish a bad car(lemon) from a good
+         one(cherrie), he will not pay the price the seller wants for a cherrie,
+          and thus the lemons drives the cherries out of the market. 
 \subparagraph{Correlated risk}
-<<<<<<< HEAD
-Another big concern regarding cyber-insurance, is the correlated risk. In networks and computers standardization is very important, it enables computers to communicate, install software, the standards
 
-    
- Although there are some problem areas, such as defining loss, where it often is difficult to demonstrate the location and cause of data breaches. Cyber-insurance appears to fit in to the general model of insurance. Standardization is important for network and computers, leading to many users using the same operation systems, and other software and hardware products, hence there is a large number of similar exposure units. Power outage, DoS-attacks etc. are usually a result of accidental loss.
- \\ Further, the premiums can be priced at a affordable level. In cyber-insurance the premium level will be highly dependent upon the company's security systems and policy. This also relates to the calculable loss, where better security systems yields lower probability for incidents. \cite{robinson2012incentives}
- Another problem cyber-insurance has to face is the fact that losses might be correlated, resulting in insurance companies have to pay a large number of claims at once. Examples are policies including insurance against lost income due to denial of service of websites. If the backbone network is down for numerous reasons, every operator connected will loose the Internet connection, hence be entitled to receive compensation for the lost income.   
-=======
 Another big concern regarding cyber-insurance, is the correlated risk. In networks and computers
- standardization is very important, it enables computers to communicate, install software,
-  the standards  
+ standardization is very important, it enables computers to communicate, 
+ install and use different software. A good example is the operative systems for personal computers,
+  today we only have a small set of operative systems available for use, and these systems have been
+   standardized, such that they can communicate over the same communication channels. The standards are what makes the ICT-industry valuable, 
+   but also what makes all the threats we are facing each day possible. 
+   All these systems that uses the same standards, creates a large number of similar exposure units,
+    they share common vulnerabilities, which can be exploited at the same time. 
+This creates a significant difficulty for the cyber-insurance industry, because
+when a security breach occurs there is a high probability that it will occur to a large number of people, i.e catastrophic and extreme events occurs more likely, resulting in uneconomical supply of cyber insurance.
+If the security breach is large, it could potentially cause so much damage, that the insurers will not be able to pay all of the customers who suffered, i.e. bankruptcy.\cite{bohme2010modeling} 
+\subparagraph{Interdependent security}
+Investment in security generates positive externalities, and as public goods, this encourages to free riding. Why should I pay for security when I can just free ride on the security the rest invest in.  The problem is that the reward for a user investing in self-protection depends on the security in the rest of the network, i.e. The expected loss due to a security breach at one node, is not only
+dependent on this nodes level of investment in security, but also on the security investment done
+  by adjacent nodes, and theirs adjacent nodes and so forth. 
+  A good example of this is the amount of spam sent every day, it is dependent on the number of compromised computers, so even if you have invested in security software of some kind, you still receive lots of spam due to the fact that there are so many who has not invested. 
+  \cite{towardsInsurable}
+
+Another problem with cyber-insurance is to the determine the value of the loss. When facing a security breach there are to potential loss classes:\cite{bandyopadhyay2009managers} 
+\begin{itemize}
+\item primary losses or first-degree losses: direct loss of information or data and operating loss. 
+These arises from disuse, abuse and misuse of information.
+ And the cost of these arise from recovering, loss of revenue, 
+ PR and information sharing costs, hiring of IT-specialists etc.
+ \item Secondary losess are indirectly triggered. These are the loss of reputation, goodwill, 
+consumer confidence, competitive strength, credit rating and customer churning. 
+\end{itemize}
+The value of the loss from both these classes can be difficult to determine, and the second one is probably the most difficult. Because it is not easy to set a value on the loss of secondary losses, i.e. how many potential customers did they loose due to the reputation loss, how many customers churned, and what was their value etc.
+
+\subsection{The idea behind cyber-insurance}
+When facing risk, there are typically four options available:
+\begin{enumerate}
+\item Avoid the risk
+\item Retain the risk
+\item Self protect and mitigate the risk
+\item Transfer the risk
+\end{enumerate}
+So far the risk managment on the internet has involved methods to reduce the risks, 
+a mixture of option 2 and 3. This has lead to creation of systems and software trying to detect threats and anomalies and to protect the users and the structure from these threats. 
+But unfortunately this does not eliminate the risks completely, threats evolve over time, 
+and there will always be accidents. How can we handle this residual risk, 
+this is where Cyber-insurance comes to mind, option 4, transfer the risk to a party who willingly accept it in exchange for a fee. This is the idea behind insurance in general, 
+exchange costs of uncertain events with predictable periodical payouts, premiums.
+\cite{bolot2008cyber}
+
+ 
+
+
+ 
+
+
+
+\\
+\\
+... Random notater:
  Although there are some problem areas, such as defining loss, where it often is difficult to
   demonstrate the location and cause of data breaches. Cyber-insurance appears to fit in to
    the general model of insurance. Standardization is important for network and computers, leading to
@@ -96,16 +152,12 @@ Another big concern regarding cyber-insurance, is the correlated risk. In networ
  If the backbone network is down for numerous reasons, 
  every operator connected will loose the Internet connection, 
  hence be entitled to receive compensation for the lost income.   
->>>>>>> aaad1a852a51fef71c67580bc15d26bf68446c92
+
  
    
- 
 
+ One problem with cyber insurance is actors seeing it as a solution to the problem of being secure. Instead of investing in security, they now have a way of buying their way out. However, this problem might solve it self due to the fact that insurance companies only will indemnify the losses where victim can prove that a certain event has occurred. When it comes to cyber insurance, one often need computer forensics to generate the evidence needed. 
 
-
-\\
-\\
-... Random notater: One problem with cyber insurance is actors seeing it as a solution to the problem of being secure. Instead of investing in security, they now have a way of buying their way out. However, this problem might solve it self due to the fact that insurance companies only will indemnify the losses where victim can prove that a certain event has occurred. When it comes to cyber insurance, one often need computer forensics to generate the evidence needed. 
 
 
 

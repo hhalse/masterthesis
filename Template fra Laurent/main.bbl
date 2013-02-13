@@ -1,16 +1,39 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
 \begin{thebibliography}{GGJ{\etalchar{+}}10}
 
+<<<<<<< HEAD
+=======
+\bibitem[Ake97]{lemonpaper}
+George~A Akerlof.
+\newblock The market for" lemons": Quality uncertainty and the market
+  mechanism.
+\newblock {\em Readings in Microeconomic Theory}, page 285, 1997.
+
+>>>>>>> 1a90ecf53ae905798427ceafe87ef31f08ca9287
 \bibitem[And10]{anderson2010security}
 R.J. Anderson.
 \newblock {\em Security Engineering: A guide to building dependable distributed
   systems}.
 \newblock Wiley, 2010.
 
+<<<<<<< HEAD
+=======
+\bibitem[BL08]{bolot2008cyber}
+Jean Bolot and Marc Lelarge.
+\newblock Cyber insurance as an incentive for internet security.
+\newblock {\em Managing information risk and the economics of security}, pages
+  269--290, 2008.
+
+>>>>>>> 1a90ecf53ae905798427ceafe87ef31f08ca9287
 \bibitem[BMR09]{bandyopadhyay2009managers}
 T.~Bandyopadhyay, V.S. Mookerjee, and R.C. Rao.
 \newblock Why it managers don't go for cyber-insurance products.
 \newblock {\em Communications of the ACM}, 52(11):68--73, 2009.
+
+\bibitem[B{\"o}h10]{towardsInsurable}
+Rainer B{\"o}hme.
+\newblock Towards insurable network architectures.
+\newblock {\em Information Technology}, 2010, 2010.
 
 \bibitem[BS10]{bohme2010modeling}
 R.~B{\"o}hme and G.~Schwartz.
@@ -51,6 +74,12 @@ R.I. Mehr, E.~Cammack, and T.~Rose.
 \newblock {\em Principles of insurance}.
 \newblock RD Irwin, 1980.
 
+\bibitem[Pal12]{solutiontoinfoasym}
+Ranjan Pal.
+\newblock Cyber-insurance for cyber-security a solution to the information
+  asymmetry problem.
+\newblock May 2012.
+
 \bibitem[PD12]{washingtonpaper}
 National Protection and Programs Directorate.
 \newblock Cybersecurity insurance workshop readout report.
@@ -87,5 +116,11 @@ Tower Watson.
   network liability policies.
 \newblock \url{http://www.towerswatson.com/press/4482}, May 2011.
 \newblock Accessed: 31/01/2013.
+
+\bibitem[Wik]{lemon}
+Wikipedia.
+\newblock The market for lemons.
+\newblock \url{http://en.wikipedia.org/wiki/The_Market_for_Lemons}.
+\newblock Accessed: 13/02/2013.
 
 \end{thebibliography}
