@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  13 FEB 2013 16:34
+=======
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  15 FEB 2013 11:56
+>>>>>>> c5b042843a2befc8d31849a13b988bb54823aebd
 entering extended mode
 **main.tex
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.tex"
@@ -1563,6 +1567,7 @@ Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 Package glossaries Info: Writing glossary file main.glo on input line 22.
 \glo@acronym@file=\write6
 Package glossaries Info: Writing glossary file main.acn on input line 22.
+<<<<<<< HEAD
  ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.aux"
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\abstract_engl
 ish.aux")
@@ -1578,6 +1583,17 @@ ux")
 rkformations.aux")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork2.
 aux"
+=======
+
+("D:\GITREPO\masterthesis\Template fra Laurent\main.aux"
+("D:\GITREPO\masterthesis\Template fra Laurent\abstract_english.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\preface.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\introductionToCyberInsurance.aux
+") ("D:\GITREPO\masterthesis\Template fra Laurent\currentmarketstate.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\surveyofnetworkformations.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork2.aux"
+>>>>>>> c5b042843a2befc8d31849a13b988bb54823aebd
 
 LaTeX Warning: Label `fig:example' multiply defined.
 
@@ -1658,7 +1674,11 @@ LaTeX Info: Redefining \nameref on input line 24.
 \@outlinefile=\write7
 \c@lstlisting=\count327
 
+<<<<<<< HEAD
 <./figs/ntnu-logo.pdf, id=163, 241.4922pt x 52.79724pt>
+=======
+<./figs/ntnu-logo.pdf, id=147, 241.4922pt x 52.79724pt>
+>>>>>>> c5b042843a2befc8d31849a13b988bb54823aebd
 File: ./figs/ntnu-logo.pdf Graphic file (type pdf)
 
 <use ./figs/ntnu-logo.pdf>
@@ -1728,10 +1748,17 @@ No file main.acr.
 [17] [18
 
 ]
+<<<<<<< HEAD
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\introductionT
 oCyberInsurance.tex" [1
 
 
+=======
+("D:\GITREPO\masterthesis\Template fra Laurent\introductionToCyberInsurance.tex
+" [1
+
+
+>>>>>>> c5b042843a2befc8d31849a13b988bb54823aebd
 ] [2] [3] [4]
 
 ! LaTeX Error: There's no line here to end.
@@ -1759,13 +1786,19 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+<<<<<<< HEAD
 ) [5]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\currentmarket
 state.tex" [6
+=======
+) [5] ("D:\GITREPO\masterthesis\Template fra Laurent\currentmarketstate.tex"
+[6
+>>>>>>> c5b042843a2befc8d31849a13b988bb54823aebd
 
 
 
 ]
+<<<<<<< HEAD
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
@@ -1775,6 +1808,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [9] [10] [11]) [12]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork.t
 ex"
+=======
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+[9] [10] [11]) [12]
+("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.tex"
+>>>>>>> c5b042843a2befc8d31849a13b988bb54823aebd
 Underfull \vbox (badness 1102) has occurred while \output is active []
 
  [13
@@ -1817,6 +1860,7 @@ either increase the head height or redesign the header
 Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
  [25]
+<<<<<<< HEAD
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\surveyofnetwo
 rkformations.tex" [26
 
@@ -1832,6 +1876,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
+=======
+No file surveyofnetworkformations.tex.
+("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork2.tex" [26
+
+
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+>>>>>>> c5b042843a2befc8d31849a13b988bb54823aebd
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 42.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1841,7 +1898,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< HEAD
  [30pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+=======
+ [28pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+>>>>>>> c5b042843a2befc8d31849a13b988bb54823aebd
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1854,7 +1915,11 @@ put line 84.
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 87.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+<<<<<<< HEAD
 ) [31pdfTeX warning (ext4): destination with the same identifier (name{table.5.
+=======
+) [29pdfTeX warning (ext4): destination with the same identifier (name{table.4.
+>>>>>>> c5b042843a2befc8d31849a13b988bb54823aebd
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1862,6 +1927,7 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 l.96 \end{algorithm}
                     ]
 
+<<<<<<< HEAD
 LaTeX Warning: Reference `chp:example' on page 32 undefined on input line 98.
 
 ) [32]
@@ -1879,12 +1945,32 @@ tex") [33
 bibitemlist
 
 Underfull \hbox (badness 10000) in paragraph at lines 38--43
+=======
+LaTeX Warning: Reference `chp:example' on page 30 undefined on input line 98.
+
+) [30]
+No file networkgames.tex.
+("D:\GITREPO\masterthesis\Template fra Laurent\main.bbl"
+bibitemlist
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--49
+>>>>>>> c5b042843a2befc8d31849a13b988bb54823aebd
 $\T1/lmr/m/n/10 (+20) / / www . travelers . com / business-[]insurance / manage
 ment-[]professional-[]liability /$
  []
 
+<<<<<<< HEAD
 [35]
 Underfull \hbox (badness 1057) in paragraph at lines 88--93
+=======
+[31
+
+
+
+
+]
+Underfull \hbox (badness 1057) in paragraph at lines 114--119
+>>>>>>> c5b042843a2befc8d31849a13b988bb54823aebd
 \T1/lmr/m/n/10 (+20) not.  [][]$http : / / www . computerworld . com / s / arti
 cle / 9223366 / Cyber _ insurance _$
  []
@@ -1896,7 +1982,11 @@ Class memoir Warning: The material used in the headers is too large
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 113.
 
+<<<<<<< HEAD
 [36]
+=======
+[32]
+>>>>>>> c5b042843a2befc8d31849a13b988bb54823aebd
 \tf@toc=\write8
 \tf@lof=\write9
 \tf@lot=\write10
@@ -1923,7 +2013,11 @@ aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `main.out' has not changed.
+<<<<<<< HEAD
 (rerunfilecheck)             Checksum: 05FB4FE68F66AA8FE4EE548C4D4CA076;3063.
+=======
+(rerunfilecheck)             Checksum: B77DCAD974B077D15D960B05026FF438;2745.
+>>>>>>> c5b042843a2befc8d31849a13b988bb54823aebd
 
 
 LaTeX Warning: There were undefined references.
@@ -1934,6 +2028,7 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  20949 strings out of 494045
  307971 string characters out of 3145963
  553389 words of memory out of 3000000
@@ -1964,4 +2059,32 @@ PDF statistics:
  696 PDF objects out of 1000 (max. 8388607)
  195 named destinations out of 1000 (max. 500000)
  24390 words of extra memory for PDF output out of 24883 (max. 10000000)
+=======
+ 20939 strings out of 494045
+ 300859 string characters out of 3153222
+ 553283 words of memory out of 3000000
+ 23464 multiletter control sequences out of 15000+200000
+ 95220 words of font info for 141 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 58i,12n,45p,1504b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{D:/Latex/MiKTeX/fonts/enc/dvip
+s/lm/lm-mathex.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/Latex/
+MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-
+rm.enc}<D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><D:/Latex/MiKTeX/fonts
+/type1/public/lm/lmbx12.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmex10.pfb><
+D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><D:/Latex/MiKTeX/fonts/type1/p
+ublic/lm/lmmi5.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><D:/Latex/M
+iKTeX/fonts/type1/public/lm/lmr10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lm
+r7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr9.pfb><D:/Latex/MiKTeX/fonts/t
+ype1/public/lm/lmri10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmss12.pfb><D:
+/Latex/MiKTeX/fonts/type1/public/lm/lmss17.pfb><D:/Latex/MiKTeX/fonts/type1/pub
+lic/lm/lmssbx10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><D:/Latex
+/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/
+lmtt10.pfb>
+Output written on main.pdf (50 pages, 437839 bytes).
+PDF statistics:
+ 668 PDF objects out of 1000 (max. 8388607)
+ 185 named destinations out of 1000 (max. 500000)
+ 24358 words of extra memory for PDF output out of 24883 (max. 10000000)
+>>>>>>> c5b042843a2befc8d31849a13b988bb54823aebd
 

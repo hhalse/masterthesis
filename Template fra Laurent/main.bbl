@@ -29,6 +29,12 @@ Rainer B{\"o}hme.
 \newblock Towards insurable network architectures.
 \newblock {\em Information Technology}, 2010, 2010.
 
+\bibitem[Bro]{RTM}
+RTM~Insurance Brokers.
+\newblock Rtm's hackersforsikring.
+\newblock \url{http://www.hackerforsikring.dk/index.html }.
+\newblock Accessed: 13/02/2013.
+
 \bibitem[BS10]{bohme2010modeling}
 R.~B{\"o}hme and G.~Schwartz.
 \newblock Modeling cyber-insurance: Towards a unifying framework.
@@ -57,6 +63,12 @@ Ponemon Institute.
   Companies.
 \newblock Technical report, Ponemon Institute, Aug 2011.
 
+\bibitem[it]{dagensithackerforsikring}
+Dagens it.
+\newblock Forsikring mot hackere.
+\newblock \url{http://www.dagensit.no/arkiv/article1345297.ece }.
+\newblock Accessed: 14/02/2013.
+
 \bibitem[Jac05]{jackson2005survey}
 M.O. Jackson.
 \newblock A survey of network formation models: Stability and efficiency.
@@ -67,6 +79,20 @@ M.O. Jackson.
 R.I. Mehr, E.~Cammack, and T.~Rose.
 \newblock {\em Principles of insurance}.
 \newblock RD Irwin, 1980.
+
+\bibitem[New]{CFCunder}
+Graeme Newman.
+\newblock Cyber liability in europe: What insurers should knowl.
+\newblock
+  \url{http://www.cfcunderwriting.com/media/news-articles/european-cyber.aspx}.
+\newblock Accessed: 14/02/2013.
+
+\bibitem[Nor]{gjensidige}
+Gjensidige Nor.
+\newblock Medlemsfordeler hos gjensidige 2012 - nal.
+\newblock
+  \url{http://www.arkitektur.no/gjensidige?iid=372345&pid=NAL-Article-Files.Native-InnerFile-File}.
+\newblock Accessed: 14/02/2013.
 
 \bibitem[Pal12]{solutiontoinfoasym}
 Ranjan Pal.
