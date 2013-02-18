@@ -25,6 +25,9 @@ If the sum of all edges leaving a vertex is equal for all vertexes, then the gra
 If the sum of all edges entering a vertex is equal for all vertexes, the graph never suppress drift.
 If both then the graph is called a circulation.
  
+The game:
+The way this game works, is that we look at nodes that are mutated (A), and those who are not (B). When we apply the game to a directed graph, there are four different outcomes, a,b,c and d, which represents the interaction between the nodes, as is depicted in the figures below. (BRUK figurer fra paperet). The fixation probability is related to r=b/c in the first figure (Positive symmetric). If b is greater than c, the properties of mutant b will “propagated” in to all the other nodes, and the whole graph will eventually consists of only mutated nodes. The opposite will happen in the case where c is greater than b, leading to extinction of the mutation. 
+
 
 \begin{figure}
 \centering
