@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  18 FEB 2013 10:51
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  18 FEB 2013 10:53
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -1751,15 +1751,11 @@ or  <return>  to continue without it.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-
-Package natbib Warning: Citation `digi' on page 8 undefined on input line 44.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
 [9] [10] [11]) [12] ("D:\GITREPO\masterthesis\Template fra Laurent\nature.tex"
-<./figs/NetworkTopology-Star.png, id=450, 441.65pt x 429.605pt>
+<./figs/NetworkTopology-Star.png, id=452, 441.65pt x 429.605pt>
 File: ./figs/NetworkTopology-Star.png Graphic file (type png)
 
 <use ./figs/NetworkTopology-Star.png>
@@ -1882,8 +1878,14 @@ $\T1/lmr/m/n/10 (+20) / / www . travelers . com / business-[]insurance / manage
 ment-[]professional-[]liability /$
  []
 
+
+Underfull \hbox (badness 1635) in paragraph at lines 51--55
+[]\T1/lmr/m/n/10 (+20) digi.no.  Vil for-sikre alt og alle på nett.  [][]$http 
+: / / www . digi . no / 39107 /$
+ []
+
 [37]
-Underfull \hbox (badness 1057) in paragraph at lines 119--124
+Underfull \hbox (badness 1057) in paragraph at lines 125--130
 \T1/lmr/m/n/10 (+20) not.  [][]$http : / / www . computerworld . com / s / arti
 cle / 9223366 / Cyber _ insurance _$
  []
@@ -1894,9 +1896,6 @@ Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (12.0pt), it is recommended to
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 114.
-
-
-Package natbib Warning: There were undefined citations.
 
 [38]
 \tf@toc=\write8
@@ -1929,10 +1928,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 21003 strings out of 494045
- 302312 string characters out of 3153222
- 555373 words of memory out of 3000000
- 23491 multiletter control sequences out of 15000+200000
+ 21006 strings out of 494045
+ 302351 string characters out of 3153222
+ 555390 words of memory out of 3000000
+ 23493 multiletter control sequences out of 15000+200000
  95303 words of font info for 142 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  58i,12n,45p,1504b,561s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1950,9 +1949,9 @@ ype1/public/lm/lmri10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmss12.pfb><D:
 lic/lm/lmssbx10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><D:/Latex
 /MiKTeX/fonts/type1/public/lm/lmsy7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/
 lmtt10.pfb>
-Output written on main.pdf (56 pages, 543945 bytes).
+Output written on main.pdf (56 pages, 544792 bytes).
 PDF statistics:
- 743 PDF objects out of 1000 (max. 8388607)
- 207 named destinations out of 1000 (max. 500000)
+ 747 PDF objects out of 1000 (max. 8388607)
+ 208 named destinations out of 1000 (max. 500000)
  24403 words of extra memory for PDF output out of 24883 (max. 10000000)
 
