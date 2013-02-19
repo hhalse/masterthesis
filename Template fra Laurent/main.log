@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  19 FEB 2013 15:34
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  19 FEB 2013 15:42
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -1767,28 +1767,14 @@ you left one out. Proceed, with fingers crossed.
 
 
 
-]
+] <natureGameSingle.png, id=470, 198.7425pt x 174.6525pt>
+File: natureGameSingle.png Graphic file (type png)
 
-LaTeX Warning: File `natureGameSingle.png' not found on input line 60.
+<use natureGameSingle.png>
+Package pdftex.def Info: natureGameSingle.png used on input line 60.
+(pdftex.def)             Requested size: 364.0pt x 319.91473pt.
 
-
-! Package pdftex.def Error: File `natureGameSingle.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 ...width=1.0\textwidth]{natureGameSingle.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 60.
-(D:\Latex\MiKTeX\tex\latex\lm\t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-<./figs/NetworkTopology-Star.png, id=469, 441.65pt x 429.605pt>
+<./figs/NetworkTopology-Star.png, id=471, 441.65pt x 429.605pt>
 File: ./figs/NetworkTopology-Star.png Graphic file (type png)
 
 <use ./figs/NetworkTopology-Star.png>
@@ -1807,8 +1793,9 @@ tifier (name{figure.3.2}) has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.85 \include{nature}
-                     ] [16pdfTeX warning (ext4): destination with the same iden
-tifier (name{figure.3.3}) has been already used, duplicate ignored
+                      <D:/GITREPO/masterthesis/Template fra Laurent/natureGameS
+ingle.png>] [16pdfTeX warning (ext4): destination with the same identifier (nam
+e{figure.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1890,8 +1877,11 @@ l.45 ...emize}[topsep=-1em,parsep=0em,itemsep=0em]
 ]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 84.
- [35pdfTeX warning (ext4): destination with the same identifier (name{table.6.1
-}) has been already used, duplicate ignored
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 87.
+ (D:\Latex\MiKTeX\tex\latex\lm\t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [35pdfTeX warning (ext4): destination with the same identifier (name{table.6.
+1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1966,16 +1956,16 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 21015 strings out of 494045
- 302446 string characters out of 3153222
- 555563 words of memory out of 3000000
- 23495 multiletter control sequences out of 15000+200000
+ 21019 strings out of 494045
+ 302549 string characters out of 3153222
+ 555592 words of memory out of 3000000
+ 23499 multiletter control sequences out of 15000+200000
  95386 words of font info for 143 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  58i,12n,45p,1504b,561s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{D:/Latex/MiKTeX/fonts/enc/
-dvips/lm/lm-mathsy.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{D:/La
-tex/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-
+{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{D:/Latex/MiKTeX/fonts/enc/dvip
+s/lm/lm-mathex.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/Latex/
+MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-
 rm.enc}<D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><D:/Latex/MiKTeX/fonts
 /type1/public/lm/lmbx12.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmex10.pfb><
 D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><D:/Latex/MiKTeX/fonts/type1/p
@@ -1987,9 +1977,9 @@ ype1/public/lm/lmri10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmss12.pfb><D:
 lic/lm/lmssbx10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><D:/Latex
 /MiKTeX/fonts/type1/public/lm/lmsy7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/
 lmtt10.pfb>
-Output written on main.pdf (58 pages, 549707 bytes).
+Output written on main.pdf (58 pages, 555601 bytes).
 PDF statistics:
- 764 PDF objects out of 1000 (max. 8388607)
+ 766 PDF objects out of 1000 (max. 8388607)
  212 named destinations out of 1000 (max. 500000)
- 24403 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 24408 words of extra memory for PDF output out of 24883 (max. 10000000)
 
