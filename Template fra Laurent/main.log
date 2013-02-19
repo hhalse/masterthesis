@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  18 FEB 2013 11:04
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  19 FEB 2013 15:34
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -1755,19 +1755,60 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
 [9] [10] [11]) [12] ("D:\GITREPO\masterthesis\Template fra Laurent\nature.tex"
-<./figs/NetworkTopology-Star.png, id=452, 441.65pt x 429.605pt>
+! Missing $ inserted.
+<inserted text> 
+                $
+l.31 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[13
+
+
+
+]
+
+LaTeX Warning: File `natureGameSingle.png' not found on input line 60.
+
+
+! Package pdftex.def Error: File `natureGameSingle.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...width=1.0\textwidth]{natureGameSingle.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 60.
+(D:\Latex\MiKTeX\tex\latex\lm\t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<./figs/NetworkTopology-Star.png, id=469, 441.65pt x 429.605pt>
 File: ./figs/NetworkTopology-Star.png Graphic file (type png)
 
 <use ./figs/NetworkTopology-Star.png>
-Package pdftex.def Info: ./figs/NetworkTopology-Star.png used on input line 32.
+Package pdftex.def Info: ./figs/NetworkTopology-Star.png used on input line 69.
 
 (pdftex.def)             Requested size: 182.0pt x 177.03725pt.
- [13
+) [14pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+.1}) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.85 \include{nature}
+                     ] [15pdfTeX warning (ext4): destination with the same iden
+tifier (name{figure.3.2}) has been already used, duplicate ignored
 
-
-]) [14pdfTeX warning (ext4): destination with the same identifier (name{figure.
-3.1}) has been already used, duplicate ignored
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.85 \include{nature}
+                     ] [16pdfTeX warning (ext4): destination with the same iden
+tifier (name{figure.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1777,7 +1818,7 @@ kTopology-Star.png>]
 ("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.tex"
 Underfull \vbox (badness 1102) has occurred while \output is active []
 
- [15
+ [17
 
 
 
@@ -1790,8 +1831,8 @@ l.26 \subparagraph
                   {Interdependent security}]
 Underfull \vbox (badness 5388) has occurred while \output is active []
 
- [16]
-[17]
+ [18]
+[19]
 
 ! Package inputenc Error: Unicode char \u8:ﬁ not set up for use with LaTeX.
 
@@ -1806,7 +1847,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[18] [19] [20] [21] [22] [23] [24] [25] [26])
+[20] [21] [22] [23] [24] [25] [26] [27] [28])
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (12.0pt), it is recommended to
@@ -1816,16 +1857,16 @@ either increase the head height or redesign the header
 
 Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
- [27]
+ [29]
 ("D:\GITREPO\masterthesis\Template fra Laurent\surveyofnetworkformations.tex"
-[28
+[30
 
 
 
-] [29]) [30] ("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork2.tex"
+] [31]) [32] ("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork2.tex"
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31
+ [33
 
 
 
@@ -1839,7 +1880,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+ [34pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1849,25 +1890,22 @@ l.45 ...emize}[topsep=-1em,parsep=0em,itemsep=0em]
 ]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 84.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 87.
- (D:\Latex\MiKTeX\tex\latex\lm\t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [33pdfTeX warning (ext4): destination with the same identifier (name{table.6.
-1}) has been already used, duplicate ignored
+ [35pdfTeX warning (ext4): destination with the same identifier (name{table.6.1
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.96 \end{algorithm}
                     ]
 
-LaTeX Warning: Reference `chp:example' on page 34 undefined on input line 98.
+LaTeX Warning: Reference `chp:example' on page 36 undefined on input line 98.
 
-) [34] ("D:\GITREPO\masterthesis\Template fra Laurent\networkgames.tex")
-[35
+) [36] ("D:\GITREPO\masterthesis\Template fra Laurent\networkgames.tex")
+[37
 
 
 
-] ("D:\GITREPO\masterthesis\Template fra Laurent\main.bbl" [36
+] ("D:\GITREPO\masterthesis\Template fra Laurent\main.bbl" [38
 
 
 ]
@@ -1884,7 +1922,7 @@ Underfull \hbox (badness 1635) in paragraph at lines 51--55
 : / / www . digi . no / 39107 /$
  []
 
-[37]
+[39]
 Underfull \hbox (badness 1057) in paragraph at lines 125--130
 \T1/lmr/m/n/10 (+20) not.  [][]$http : / / www . computerworld . com / s / arti
 cle / 9223366 / Cyber _ insurance _$
@@ -1897,7 +1935,7 @@ Class memoir Warning: The material used in the headers is too large
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 114.
 
-[38]
+[40]
 \tf@toc=\write8
 \tf@lof=\write9
 \tf@lot=\write10
@@ -1928,16 +1966,16 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 21006 strings out of 494045
- 302351 string characters out of 3153222
- 555390 words of memory out of 3000000
- 23493 multiletter control sequences out of 15000+200000
- 95303 words of font info for 142 fonts, out of 3000000 for 9000
+ 21015 strings out of 494045
+ 302446 string characters out of 3153222
+ 555563 words of memory out of 3000000
+ 23495 multiletter control sequences out of 15000+200000
+ 95386 words of font info for 143 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  58i,12n,45p,1504b,561s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{D:/Latex/MiKTeX/fonts/enc/dvip
-s/lm/lm-mathex.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/Latex/
-MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-
+{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{D:/Latex/MiKTeX/fonts/enc/
+dvips/lm/lm-mathsy.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{D:/La
+tex/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-
 rm.enc}<D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><D:/Latex/MiKTeX/fonts
 /type1/public/lm/lmbx12.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmex10.pfb><
 D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><D:/Latex/MiKTeX/fonts/type1/p
@@ -1949,9 +1987,9 @@ ype1/public/lm/lmri10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmss12.pfb><D:
 lic/lm/lmssbx10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><D:/Latex
 /MiKTeX/fonts/type1/public/lm/lmsy7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/
 lmtt10.pfb>
-Output written on main.pdf (56 pages, 544792 bytes).
+Output written on main.pdf (58 pages, 549707 bytes).
 PDF statistics:
- 747 PDF objects out of 1000 (max. 8388607)
- 208 named destinations out of 1000 (max. 500000)
+ 764 PDF objects out of 1000 (max. 8388607)
+ 212 named destinations out of 1000 (max. 500000)
  24403 words of extra memory for PDF output out of 24883 (max. 10000000)
 
