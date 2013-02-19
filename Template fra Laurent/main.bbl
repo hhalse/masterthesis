@@ -47,6 +47,12 @@ Travelers Casualty and Surety~Company of~America.
   \url{https://www.travelers.com/business-insurance/management-professional-liability/Cyber-Risk.aspx}.
 \newblock Accessed: 31/01/2013.
 
+\bibitem[dig]{digi}
+digi.no.
+\newblock Vil forsikre alt og alle på nett.
+\newblock \url{http://www.digi.no/39107/vil-forsikre-alt-og-alle-paa-nett}.
+\newblock Accessed: 18/02/2013.
+
 \bibitem[EK12]{easley2012networks}
 D.~Easley and J.~Kleinberg.
 \newblock Networks, crowds, and markets: Reasoning about a highly connected
@@ -74,6 +80,11 @@ M.O. Jackson.
 \newblock A survey of network formation models: Stability and efficiency.
 \newblock {\em Group Formation in Economics: Networks, Clubs and Coalitions,
   ed. G. Demange and M. Wooders}, pages 11--57, 2005.
+
+\bibitem[LHN05]{lieberman2005evolutionary}
+Erez Lieberman, Christoph Hauert, and Martin~A Nowak.
+\newblock Evolutionary dynamics on graphs.
+\newblock {\em Nature}, 433(7023):312--316, 2005.
 
 \bibitem[MCR80]{mehr1980principles}
 R.I. Mehr, E.~Cammack, and T.~Rose.
