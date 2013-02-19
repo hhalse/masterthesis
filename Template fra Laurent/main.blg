@@ -10,7 +10,11 @@ A level-1 auxiliary file: relatedwork2.aux
 A level-1 auxiliary file: networkgames.aux
 The style file: alpha.bst
 Database file #1: referanser.bib
+Repeated entry---line 214 of file referanser.bib
+ : @article{lieberman2005evolutionary
+ :                                   ,
+I'm skipping whatever remains of this entry
 Warning--empty chapter and pages in mehr1980principles
 Warning--empty journal in solutiontoinfoasym
 Warning--empty journal in robinson2012incentives
-(There were 3 warnings)
+(There was 1 error message)
