@@ -13,6 +13,14 @@ R.J. Anderson.
   systems}.
 \newblock Wiley, 2010.
 
+\bibitem[Aud]{audestad}
+Jan~A. Audestand.
+\newblock Some aspects concerning the vulnearbility of the computerized
+  society.
+\newblock
+  \url{http://www.item.ntnu.no/_media/academics/courses/ttm6/vulnerability.pdf}.
+\newblock Accessed: 20/02/2013.
+
 \bibitem[BL08]{bolot2008cyber}
 Jean Bolot and Marc Lelarge.
 \newblock Cyber insurance as an incentive for internet security.
@@ -28,6 +36,11 @@ T.~Bandyopadhyay, V.S. Mookerjee, and R.C. Rao.
 Rainer B{\"o}hme.
 \newblock Towards insurable network architectures.
 \newblock {\em Information Technology}, 2010, 2010.
+
+\bibitem[Bol85]{barabasi}
+B.~Bollobás.
+\newblock Random graphs.
+\newblock {\em Academic Press}, 1985.
 
 \bibitem[Bro]{RTM}
 RTM~Insurance Brokers.
