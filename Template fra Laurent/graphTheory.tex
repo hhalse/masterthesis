@@ -1,0 +1,88 @@
+\chapter{Graph Theory}
+\label{chp:graphTheory} 
+
+
+\section{Graphs}
+
+Most activities in nature and society can be described using graphs, which offers an intuitive approach that can be analyzed. Railroads, water pipelines, societal relations etc. can all be described using graph theory. In addition, the Internet and other computer networks is formed and evolves according to the laws of random graphs \cite{audestad}. Graphs serves as an analytic tool \cite{audestad}, which in our case makes it possible to investigate whether there are certain graphs that might yield higher security than others. This section will provide background information on how these graphs are created, and highlight the main characteristics which are important for detecting insurable topologies. 
+
+\subsection{Basic graphs}
+
+
+There are some basic properties of graphs which is important to be familiar with. Figure \ref{fig:generalGraph} depicts the basics of an unweighted graph, meaning the edges are not given any value. In other cases, weighted edges is useful to e.g. reflect capacity constraints such as a link's maximum bandwidth. Other common definition used in the description graphs are described below \cite{audestad}:
+\begin{itemize}
+\item Edge degree: Number for edges connected with a vertex.
+\item Hub: Vertex with high edge degree.
+\item Cycle: A chain originating and terminating at the same vertex.
+\item Cluster: Subgraph of highly connected vertices.
+\item Cluster coefficient: Probability that two vertices that are adjacent to a third vertex are also adjacent.
+\item Clique: Subgraph where all vertices are adjacent (cluster coefficient = 1).
+\item Small world graph: Graph with small diameter and large cluster coefficient (e.g. the Internet and A-B graphs, described in section \ref{ABgraph}).
+\end{itemize}
+
+
+\begin{figure}
+\centering
+\begin{tabular}{@{}c@{}}
+\includegraphics[width=0.4\textwidth]{../Figures/generalGraph.png}
+\end{tabular}
+\caption{\label{fig:generalGraph} General graph \cite{audestad}}
+\end{figure}
+
+
+\subsection{Random Graphs}
+
+Regarding cyber-insurance the study of random graphs are of special concern, since we are looking for insurable topologies in computer networks(random graphs). The research on random graphs are fairly new compared in comparison with other mathematical discoveries. E-R graphs were first studied in 1959 by Erdös and Rényi, later and probably with more promising results was the graphs studied by Albert-Barabási in 1999 \cite{audestad}. 
+
+\subsubsection{Erdös-Rényi Graphs}
+E-R graphs is a network created over a fixed number $n$ of vertices, where each node connects to another of the $n-1$ vertices with a chosen 
+probability $p$. The resulting graph will on average contain $n(n-1)p/2 \approx n^{2}p/2$ edges \cite{barabasi}. 
+From analyzing the graph, the authors found some interesting properties\cite{barabasi}\cite{audestad}:
+
+\begin{itemize}
+\item If $p<n^{-2}$  then there is no edges in the graph. 
+\item If $p=c/n$ where c is a constant between $1 < c < log\: n$, which provokes a single large component to grow within the graph.
+\item If $p>(ln\: n)/n$ then the graph is completely connected. 
+\item If $p = 1/n$ triangles start forming in the graph. 
+\end{itemize}
+
+Our goal is to use a graph which models how to Internet and other computer networks are connected. A fully connected E-R graph has a good potential, since the graph will have a short diameter similar to the Internet. However, the edge degree follows a Poisson distribution, which means that the edge degree are peaking around the average value \cite{audestad}. Consequently does not E-R graphs capture the immense clustering coefficient which is present in networks such as the Internet. In other words, E-R graphs are not small world graphs, and another graph structure is needed.
+
+
+
+\subsubsection{\label{ABgraph}Albert-Barabási Graphs}
+The struckture which is believed to be most accurate regarding modeling the structure of computer networks are A-B graphs. A-B graphs are different from E-R graphs since they are scale-free, meaning that the vertices does not have an constant value throughout the entire graph. The formation of an A-B graph results in multiple hubs with a high edge degree. Albert and Barabási found that the edge degree of each vertex follows a power law distribution; meaning that the probability that the edge degree is $g$ is proportional to $g^{\gamma}$
+where $\gamma$ usually is a number between 2 and 3 \cite{audestad}. Consequently there are relatively high probability that a vertex have a very high edge degree. 
+
+A-B graphs can grow and become scale-free if every new vertex is connected to one or more existing vertices with a probability proportional to the edge degree of these vertices \cite{audestad}. The paper \cite{audestad} presents an algorithm leading to creating on A-B graphs and figure \ref{fig:ABgraphcreation} models a possible formation of a graph using the algorithm:
+
+
+\begin{itemize}
+\item A new single vertex is added to the graph.
+\item This vertex is connected to exactly two other vertices in the graph.
+\item The probability that the new vertex connects to another vertex is dependent on the edge degree of the other vertex, higher edge degree meaning higher probability
+\item There is only one edge between two vertices, and the graph does not contain loops.
+\end{itemize}
+
+
+\begin{figure}
+\centering
+\begin{tabular}{@{}c@{}}
+\includegraphics[width=0.8\textwidth]{../Figures/ABgraphcreation.png}
+\end{tabular}
+\caption{\label{fig:ABgraphcreation} Forming a A-B graph in 15 generations \cite{audestad}.}
+\end{figure}
+
+In addition to the high clustering coefficient the research found that these graphs have a fairly small diameter, which is noticeable from the graph depicted above. A-B graphs are therefore comparable to the network formation of the Internet and other computer networks. The model is therefore a good base in the search for insurable topologies. 
+
+
+Hvorfor er slike strukturer viktige å forstå for oss? 
+Som vi skal se senere oppfører hubene seg i A-B grafene som stjerne-topologier. 
+Ved å ha oversikt over sitt eget nettverk vil man kunne identifisere hvor disse stjernene befinner seg, nettopp disse er det viktig at man sikrer for å ungå spredning av virus, samt fungere som en blokkade mot andre trusler e.g. hackers. 
+
+
+
+
+
+
+
