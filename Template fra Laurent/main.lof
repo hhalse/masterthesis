@@ -5,23 +5,11 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-<<<<<<< HEAD
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Setup propagation game \cite {lieberman2005evolutionary}}}{14}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Mutant propagation game}}{15}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces A star-topology}}{16}{figure.3.3}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A star-topology \cite {lieberman2005evolutionary}. \relax }}{14}{figure.caption.14}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Figure \ref {fig:optequi} shows the socially optimal equilibrium, and \ref {fig:notoptequi} shows the non optimal equilibrium.\relax }}{15}{figure.caption.15}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Mutant propagation game\relax }}{17}{figure.caption.17}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces A figure}}{17}{figure.4.1}
-\addvspace {10pt}
-\addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces A figure}}{34}{figure.6.1}
-=======
-\contentsline {figure}{\numberline {3.1}{\ignorespaces A star-topology \cite {lieberman2005evolutionary}}}{14}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Setup propagation game \cite {lieberman2005evolutionary}}}{16}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Mutant propagation game}}{17}{figure.3.3}
-\addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces A figure}}{19}{figure.4.1}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces A figure\relax }}{19}{figure.caption.18}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces A figure}}{36}{figure.6.1}
->>>>>>> 5c452c5c81853a43100028427523d55b1a602deb
 \addvspace {10pt}
