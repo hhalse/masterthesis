@@ -8,5 +8,9 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
+<<<<<<< HEAD
 \contentsline {table}{\numberline {6.1}{\ignorespaces A table}}{35}{table.6.1}
+=======
+\contentsline {table}{\numberline {6.1}{\ignorespaces A table}}{38}{table.6.1}
+>>>>>>> 5c452c5c81853a43100028427523d55b1a602deb
 \addvspace {10pt}

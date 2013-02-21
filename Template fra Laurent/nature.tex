@@ -1,40 +1,100 @@
 \chapter{Evolutionary dynamics on graphs}
 \label{chp:nature} 
-\cite{lieberman2005evolutionary}
-Tanker fra paper:
 
-To be able to point out insurable topologies, an extensive study of different graphs and how they behave has to be conducted. Regarding security, knowledge of how viruses spread and how to use graph structures to prevent malicious hackers from entering your network is important. Evolutionary dynamics, and the research of how mutant genes spread though out a population fits in to the model of security. 
 
-From population studies \cite{lieberman2005evolutionary}, advantageous mutant e.g a virus inserted in circulation graph, will have a fixation probability equal to
+In our paper an insurable topology, is an network structure which makes it feasible for both the
+ insurer(supply side)  to offer and the customer(demand side) to acquire insurance.
+ For this to be possible there are many  difficulties to overcome,  since risks are correlated, 
+ one problem is for the insurer to be able to calculate the overall probability of casualty/infection.
+ The paper \cite{lieberman2005evolutionary} is about evolutionary dynamics and how certain structures
+can amplify or sustain evolution or drift. This is very usefull for our study of insurable topology, if one
+can determine some structures, where certain nodes have certain properties, and these structures
+then will sustain viruses from spreading, or amplify the incentive for obtaining cyberinsurance and
+antivirus, then we can possibly determine if it is an insurable topology.
+
+In the \cite{lieberman2005evolutionary} paper, they show that advantageous mutant inserted in to a
+ circulation graph, will have a fixation probability equal to
 \begin{equation}  p_{1}=\frac{(1-1/r)}{(1-1/r^{N})} \label{eq:fixation} \end{equation}
+A circulation graph is a graph that satisfy these two properties:
+\begin{enumerate}
+\item the sum of all edges leaving a vertex is equal for all vertexes
+\item the sum of all edges entering a vertex i equal for all vertexes
+\end{enumerate}
+The fixation probability determines how probable it is that the whole network will eventually be
+"infected" by the mutant. I.e. it determines the rate of evolution, which relies on both the size of the
+network and the evolution speed. 
+A probability equal to one means that every node in the network eventually will be affected by the mutant.
 
-Where the fixation probability determines the rate of evolution, which relies both on the size of the network and the evolution speed. A probability of 1 means that every node in the network eventually will be affected by the mutant.   
-
-
-Isotherm graphs are a sub-graph of circulation. 
-
-
-If $W$ is symmetric, or isotherm then the fixation probability is always \ref{eq:fixation}
-isotherm means doubly stochastic, all rows and cols sum to 1. 
-If a graph is one rooted, it has a fixation prob of $1/N$ regardless of $r$. If a graph has more then one root, its fixation probability is zero. 
-Is it possible to find graphs with fixation probability that exceeds \ref{eq:fixation}? Is it possible to suppress drift and amplify selection?
-In a star-topology \ref{fig:star} the fixation probability is\begin{equation}p_{2}=\frac{(1-1/r^{2})}{(1-1/r^{2N})} \label{eq:fixation2} \end{equation}.
+The important question that this paper answer, is if it is possible to find graphs with fixation probability that exceeds \ref{eq:fixation}?, and if so, is it possible to suppress drift and amplify selection or visa versa?
+\begin{figure}
+\centering
+\begin{tabular}{@{}c@{}}
+\includegraphics[width=0.5\textwidth]{NetworkTopology-Star.png}
+\end{tabular}
+\caption{\label{fig:star} A star-topology \cite{lieberman2005evolutionary}}
+\end{figure}
+The paper shows that in certain graphs this is possible, one example is the star topology \ref{fig:star} .
+In this topology the fixation probability is\begin{equation}p_{2}=\frac{(1-1/r^{2})}{(1-1/r^{2N})} \label{eq:fixation2} \end{equation}.
 or more generally: \begin{equation}
 p_{k}=\frac{(1-1/r^{k})}{(1-1/r^{kN})} \label{eq:fixationk}
 \end{equation}
+And as we see when comparing \ref{eq:fixation} and \ref{eq:fixation2} the selective difference is
+ amplified from $r$ to $r^{2}$, i.e. a star act as an evolutionary amplifier, favoring advantageous
+  mutants and inhibiting disadvantageous mutants.
+  
+When applying this to our scenario, cyber insurance and insurable topologies, we can use this to show
+ that if the center node is strongly secured, then the virus will be considered as disadvantageous and
+it will be inhibited from fixation with a certain probability. 
+This makes the overall risk easier to calculate for both the insurer and the nodes,
+and makes it possible and easier to calculate fair and affordable premiums. 
+It can also be used as an incentive for the center node to buy insurance or security software, 
+because it can easily be shown how probable an infection will occur. 
 
-And the selective difference is as we see amplified from $r$ to $r^{2}$. i.e. a star act as an evolutionary amplifier,
- favoring advantageous mutants and inhibiting disadvantageous mutants, tilts towards selection and against drift.
- in certain graphs, star, funnel, metafunnel, if N is large enough, fixation probability for advantageous mutant converges to 1. Fixprob for disadvantageous converges to 0.
+One could for example force the center node to buy sufficient anti virus, 
+by informing it about how likely it will be infected, and how expensive the cyber insurance will be if 
+it do not invest sufficiently in self protection. This will make the whole network more secure, 
+and the insurer can now offer insurance to the leaf nodes for a fair price with a calculable risk. 
+This could also be used to show how information about cyber-insurance or protection software will
+spread throughout a network, and if the information is advantageous, eventually all nodes will acquire
+the insurance or software.
+    
+There are other graphs where the fixation probability is equal to \ref{eq:fixationk}, funnel and
+metafunnel. And as we know from the (Kapittel om scale-free and naturlige nettverk) there are many
+toplogies in our society that are similar to these graphs.  In all of these, it can be
+shown that if N is large enough, the fixation probability for advantageous mutant converges to 1, 
+and for disadvantageous converges to 0.
+
+\subsection{Network games}
+In the paper \cite{networkgames} they show how network games evolve when the payoffs are determined not only by your own decisions, but also by your neighbours. 
+A game that is applicable to our scenario is when considering security software, 
+security software can be considered as a public good, it suffers from strategic substitutes, i.e. 
+that if your neighbour acquire it, it gives you less incentive to also acquiring the software. 
+Public goods and security also benefits from positive externalities, when one acquires the software, 
+all the neighbours benefits from it, because the risk of being infected decreases.
+Lets consider a simple game shown in this paper.
+We have an action space: $X=\{0,1\}$, where 1 can be considered as acquiring information, take vaccine, buy security software etc. And 0 is not doing so.
+Each node $i$ has a set of neighbours: $N_{i} $ and a payoff function $y_{i}=x_{i}+\bar{x}N_{i}$
+The gross payoff of the game is 1 if $y_{i}>=1$ and 0 otherwise. There is a cost of choosing the action 1, and the cost is: $0<c<1$.
+ If we look at the simple star-graph, we can easily see that there is two equilibriums, 
+ SETT INN BILDE AV DE TO EQUILIBRIUMENE(Finne et program og lage de selv????)
+ one where the center node choose 1 and leafnodes choose 0, and a second where all the leaf nodes chooses 1 and the center choose 0.
+The overall payoff in these two differe from eachother, the latter is not socially optimal because it
+ suffers from a cost equal to: $\#leaf nodes * c$ versus the first equilibrium where the total cost is only c.
+In this scenario it would have been beneficial to be able to force the network to end up in the first equilibrium. 
+ 
+
+  
+ 
+This can further improve the incentives for ac
+
 The same theory can be used to demonstrate how the aggregated security of a network is higher if the central node of a star structure is secured. 
 If we assume that implemented security is 100$\%$ efficient, no threats will propagate beyond that node i.e total security for the network is increased. 
+
+
  
 This could maybe be used to show that if we have a star, funnel, metafunnel or something, and we secure the nodes it could force the virus to die out?
 Scale-free networks have most of their connectivity clustered in a few vertices, i.e. they are potent selection amplifiers.
-More generalized, $W$ does not need to be stochastic, $w_{ij}>=0$. 
-If the sum of all edges leaving a vertex is equal for all vertexes, then the graph will never suppress selection.
-If the sum of all edges entering a vertex is equal for all vertexes, the graph never suppress drift.
-If both then the graph is called a circulation.
+
  
 The game:
 The way this game works, is that we look at nodes that are mutated (A), and those who are not (B).  
@@ -54,6 +114,7 @@ When we apply the game to a directed graph, there are four different outcomes, a
 
 In the first figure (Positive symmetric) the fixation probability is related to r=b/c. If b is greater than c, the properties of mutant b will propagate in to all the other nodes, and the whole graph will eventually consists of only mutated nodes. The opposite will happen in the case where c is greater than b, leading to extinction of the mutation. The later scenario models the situation where proper protection against a mutant i.e. a security threat is installed. If the level of security, c is higher that the strength of the security threat it will be blocked from propagating further into the network. 
 
+
 \begin{figure}
 \centering
 \begin{tabular}{@{}c@{}}
@@ -63,13 +124,26 @@ In the first figure (Positive symmetric) the fixation probability is related to 
 \end{figure}
 
 
-\begin{figure}
-\centering
-\begin{tabular}{@{}c@{}}
-\includegraphics[width=0.5\textwidth]{NetworkTopology-Star.png}
-\end{tabular}
-\caption{\label{fig:star} A star-topology}
-\end{figure}
+//
+//
+ notater:
+More generalized, $W$ does not need to be stochastic, $w_{ij}>=0$. 
+If the sum of all edges leaving a vertex is equal for all vertexes, then the graph will never suppress selection.
+If the sum of all edges entering a vertex is equal for all vertexes, the graph never suppress drift.
+If both then the graph is called a circulation.
+     
+To be able to point out insurable topologies, an extensive study of different graphs and how they behave has to be conducted. Regarding security, knowledge of how viruses spread and how to use graph structures to prevent malicious hackers from entering your network is important. Evolutionary dynamics, and the research of how mutant genes spread though out a population fits in to the model of security. 
 
+Where the fixation probability determines the rate of evolution, which relies both on the size of the network and the evolution speed. A probability of 1 means that every node in the network eventually will be affected by the mutant.   
+Isotherm graphs are a sub-graph of circulation. 
 
+If $W$ is symmetric, or isotherm then the fixation probability is always \ref{eq:fixation}
+isotherm means doubly stochastic, all rows and cols sum to 1. 
+If a graph is one rooted, it has a fixation prob of $1/N$ regardless of $r$. If a graph has more then one root, its fixation probability is zero. 
+Is it possible to find graphs with fixation probability that exceeds \ref{eq:fixation}? Is it possible to suppress drift and amplify selection?
 
+And the selective difference is as we see amplified from $r$ to . i.e. a star act as an evolutionary amplifier,
+ favoring advantageous mutants and inhibiting disadvantageous mutants, tilts towards selection and against drift.
+ 
+ 
+ in certain graphs, star, funnel, metafunnel, if N is large enough, fixation probability for advantageous mutant converges to 1. Fixprob for disadvantageous converges to 0.
