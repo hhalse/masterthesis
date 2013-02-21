@@ -5,9 +5,11 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Setup propagation game \cite {lieberman2005evolutionary}\relax }}{16}{table.caption.16}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 \contentsline {table}{\numberline {6.1}{\ignorespaces A table}}{35}{table.6.1}
@@ -21,4 +23,6 @@
 \contentsline {table}{\numberline {7.1}{\ignorespaces A table}}{39}{table.7.1}
 >>>>>>> working
 >>>>>>> 13688bc4c37f310942a1be103bf66d0cdeb00f23
+=======
+>>>>>>> lokal
 \addvspace {10pt}

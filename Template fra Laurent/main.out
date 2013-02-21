@@ -35,6 +35,7 @@
 \BOOKMARK [1][-]{section.5.1}{Survey of models of network formation: stability and efficiency}{chapter.5}% 34
 \BOOKMARK [2][-]{subsection.5.1.1}{Defining Network Games}{section.5.1}% 35
 \BOOKMARK [0][-]{chapter.6}{Related work 2}{}% 36
+<<<<<<< HEAD
 \BOOKMARK [1][-]{section.6.1}{First section}{chapter.6}% 37
 \BOOKMARK [2][-]{subsection.6.1.1}{First subsection with some Math symbol}{section.6.1}% 38
 \BOOKMARK [2][-]{subsection.6.1.2}{Mathematics}{section.6.1}% 39
@@ -74,3 +75,7 @@
 \BOOKMARK [0][-]{chapter.8}{Network Games}{}% 44
 \BOOKMARK [0][-]{section*.50}{References}{}% 45
 >>>>>>> working
+=======
+\BOOKMARK [0][-]{chapter.7}{Network Games}{}% 37
+\BOOKMARK [0][-]{section*.53}{References}{}% 38
+>>>>>>> lokal
