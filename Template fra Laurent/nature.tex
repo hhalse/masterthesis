@@ -107,19 +107,13 @@ A risk averse player would like to maximize her expected utility \ref{eq:utility
  either to remove the expected loss of casualty by acquiring self protection, or by insuring against it,
 and the expected utility of acquiring insurance is lower than the expected utility of acquiring self protection. The player would strictly prefer self protection. 
 This is one possible way of forcing the network game to end up in an insurable star topology.
+//
+Thoughts on what this fixes in a simple way...
+The insurer can now calculate the probability for catastrophic event(all nodes suffer), and now atleast has a measurement on the correlated risk. It has also limited the information asymmetry to concern only one node, the center node. It does not matter if the leaf nodes acquire security or not. Also it has now limited the interdependent security to one node, the center node.
 
-  
- 
-This can further improve the incentives for ac
-
-The same theory can be used to demonstrate how the aggregated security of a network is higher if the central node of a star structure is secured. 
-If we assume that implemented security is 100$\%$ efficient, no threats will propagate beyond that node i.e total security for the network is increased. 
-
-
- 
-This could maybe be used to show that if we have a star, funnel, metafunnel or something, and we secure the nodes it could force the virus to die out?
-Scale-free networks have most of their connectivity clustered in a few vertices, i.e. they are potent selection amplifiers.
-
+//
+//
+ notater:
  
 The game:
 The way this game works, is that we look at nodes that are mutated (A), and those who are not (B).  
@@ -149,9 +143,6 @@ In the first figure (Positive symmetric) the fixation probability is related to 
 \end{figure}
 
 
-//
-//
- notater:
 More generalized, $W$ does not need to be stochastic, $w_{ij}>=0$. 
 If the sum of all edges leaving a vertex is equal for all vertexes, then the graph will never suppress selection.
 If the sum of all edges entering a vertex is equal for all vertexes, the graph never suppress drift.
@@ -172,3 +163,8 @@ And the selective difference is as we see amplified from $r$ to . i.e. a star ac
  
  
  in certain graphs, star, funnel, metafunnel, if N is large enough, fixation probability for advantageous mutant converges to 1. Fixprob for disadvantageous converges to 0.
+ 
+ 
+The same theory can be used to demonstrate how the aggregated security of a network is higher if the central node of a star structure is secured. 
+If we assume that implemented security is 100$\%$ efficient, no threats will propagate beyond that node i.e total security for the network is increased. 
+Scale-free networks have most of their connectivity clustered in a few vertices, i.e. they are potent selection amplifiers.
