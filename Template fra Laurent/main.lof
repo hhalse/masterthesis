@@ -5,27 +5,15 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-<<<<<<< HEAD
-\contentsline {figure}{\numberline {3.1}{\ignorespaces A star-topology \cite {lieberman2005evolutionary}}}{14}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Setup propagation game \cite {lieberman2005evolutionary}}}{16}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Mutant propagation game}}{17}{figure.3.3}
-\addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces A figure}}{19}{figure.4.1}
-=======
 \contentsline {figure}{\numberline {3.1}{\ignorespaces General graph \cite {audestad}}}{14}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Forming a A-B graph in 15 generations \cite {audestad}}}{16}{figure.3.2}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Forming a A-B graph in 15 generations \cite {audestad}.}}{16}{figure.3.2}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Setup propagation game \cite {lieberman2005evolutionary}}}{18}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Mutant propagation game}}{19}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces A star-topology}}{20}{figure.4.3}
->>>>>>> working
+\contentsline {figure}{\numberline {4.1}{\ignorespaces A star-topology \cite {lieberman2005evolutionary}}}{18}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Setup propagation game \cite {lieberman2005evolutionary}}}{20}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Mutant propagation game}}{21}{figure.4.3}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces A figure}}{21}{figure.5.1}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces A figure}}{23}{figure.5.1}
 \addvspace {10pt}
-<<<<<<< HEAD
-\contentsline {figure}{\numberline {6.1}{\ignorespaces A figure}}{36}{figure.6.1}
-=======
 \addvspace {10pt}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces A figure}}{38}{figure.7.1}
->>>>>>> working
+\contentsline {figure}{\numberline {7.1}{\ignorespaces A figure}}{40}{figure.7.1}
 \addvspace {10pt}
