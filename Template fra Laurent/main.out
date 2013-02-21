@@ -13,29 +13,30 @@
 \BOOKMARK [2][-]{subsection.2.4.1}{modeling contagion}{section.2.4}% 13
 \BOOKMARK [1][-]{section.2.5}{Incentives and Information Security}{chapter.2}% 14
 \BOOKMARK [0][-]{chapter.3}{Evolutionary dynamics on graphs}{}% 15
-\BOOKMARK [0][-]{chapter.4}{Relatedwork}{}% 16
-\BOOKMARK [1][-]{section.4.1}{Towards Insurable Network Architectures}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.2}{Cyber insurance as an Incentive for Internet Security}{chapter.4}% 18
-\BOOKMARK [2][-]{subsection.4.2.1}{Classical model for insurance}{section.4.2}% 19
-\BOOKMARK [2][-]{subsection.4.2.2}{Interdependent security and insurance}{section.4.2}% 20
-\BOOKMARK [1][-]{section.4.3}{Modeling cyber-insurance: towards a unifying Framework}{chapter.4}% 21
-\BOOKMARK [2][-]{subsection.4.3.1}{Network Environment: Connected nodes}{section.4.3}% 22
-\BOOKMARK [2][-]{subsection.4.3.2}{Demand side agents}{section.4.3}% 23
-\BOOKMARK [2][-]{subsection.4.3.3}{Supply side, insurers}{section.4.3}% 24
-\BOOKMARK [2][-]{subsection.4.3.4}{Information structure}{section.4.3}% 25
-\BOOKMARK [2][-]{subsection.4.3.5}{Organizational Enviroment\(stakeholders\)}{section.4.3}% 26
-\BOOKMARK [2][-]{subsection.4.3.6}{Using this framework for a literature survey}{section.4.3}% 27
-\BOOKMARK [1][-]{section.4.4}{A novel cyber-insurance Model}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.5}{A solution to the information Asymmetry Problem}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.6}{Cyber-insurance for cyber-security, A topological Take on Modulating Insurance Premiums}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.7}{Differentiating Cyber-insurance Contracts, a topological Perspective}{chapter.4}% 31
-\BOOKMARK [0][-]{chapter.5}{Network formation: stability and efficiency}{}% 32
-\BOOKMARK [1][-]{section.5.1}{Survey of models of network formation: stability and efficiency}{chapter.5}% 33
-\BOOKMARK [2][-]{subsection.5.1.1}{Defining Network Games}{section.5.1}% 34
-\BOOKMARK [0][-]{chapter.6}{Related work 2}{}% 35
-\BOOKMARK [1][-]{section.6.1}{First section}{chapter.6}% 36
-\BOOKMARK [2][-]{subsection.6.1.1}{First subsection with some Math symbol}{section.6.1}% 37
-\BOOKMARK [2][-]{subsection.6.1.2}{Mathematics}{section.6.1}% 38
-\BOOKMARK [2][-]{subsection.6.1.3}{Source code example}{section.6.1}% 39
-\BOOKMARK [0][-]{chapter.7}{Network Games}{}% 40
-\BOOKMARK [0][-]{section*.48}{References}{}% 41
+\BOOKMARK [1][-]{subsection.3.0.1}{Network games}{chapter.3}% 16
+\BOOKMARK [0][-]{chapter.4}{Relatedwork}{}% 17
+\BOOKMARK [1][-]{section.4.1}{Towards Insurable Network Architectures}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.2}{Cyber insurance as an Incentive for Internet Security}{chapter.4}% 19
+\BOOKMARK [2][-]{subsection.4.2.1}{Classical model for insurance}{section.4.2}% 20
+\BOOKMARK [2][-]{subsection.4.2.2}{Interdependent security and insurance}{section.4.2}% 21
+\BOOKMARK [1][-]{section.4.3}{Modeling cyber-insurance: towards a unifying Framework}{chapter.4}% 22
+\BOOKMARK [2][-]{subsection.4.3.1}{Network Environment: Connected nodes}{section.4.3}% 23
+\BOOKMARK [2][-]{subsection.4.3.2}{Demand side agents}{section.4.3}% 24
+\BOOKMARK [2][-]{subsection.4.3.3}{Supply side, insurers}{section.4.3}% 25
+\BOOKMARK [2][-]{subsection.4.3.4}{Information structure}{section.4.3}% 26
+\BOOKMARK [2][-]{subsection.4.3.5}{Organizational Enviroment\(stakeholders\)}{section.4.3}% 27
+\BOOKMARK [2][-]{subsection.4.3.6}{Using this framework for a literature survey}{section.4.3}% 28
+\BOOKMARK [1][-]{section.4.4}{A novel cyber-insurance Model}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.5}{A solution to the information Asymmetry Problem}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.6}{Cyber-insurance for cyber-security, A topological Take on Modulating Insurance Premiums}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.7}{Differentiating Cyber-insurance Contracts, a topological Perspective}{chapter.4}% 32
+\BOOKMARK [0][-]{chapter.5}{Network formation: stability and efficiency}{}% 33
+\BOOKMARK [1][-]{section.5.1}{Survey of models of network formation: stability and efficiency}{chapter.5}% 34
+\BOOKMARK [2][-]{subsection.5.1.1}{Defining Network Games}{section.5.1}% 35
+\BOOKMARK [0][-]{chapter.6}{Related work 2}{}% 36
+\BOOKMARK [1][-]{section.6.1}{First section}{chapter.6}% 37
+\BOOKMARK [2][-]{subsection.6.1.1}{First subsection with some Math symbol}{section.6.1}% 38
+\BOOKMARK [2][-]{subsection.6.1.2}{Mathematics}{section.6.1}% 39
+\BOOKMARK [2][-]{subsection.6.1.3}{Source code example}{section.6.1}% 40
+\BOOKMARK [0][-]{chapter.7}{Network Games}{}% 41
+\BOOKMARK [0][-]{section*.48}{References}{}% 42
