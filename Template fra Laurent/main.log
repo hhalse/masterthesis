@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  21 FEB 2013 15:39
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  21 FEB 2013 15:41
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -1780,9 +1780,13 @@ File: ../Figures/ABgraphcreation.png Graphic file (type png)
 <use ../Figures/ABgraphcreation.png>
 Package pdftex.def Info: ../Figures/ABgraphcreation.png used on input line 71.
 (pdftex.def)             Requested size: 291.20111pt x 197.64462pt.
- [15]) [16 <D:/GITREPO/masterthesis/Figures/ABgraphcreation.png>] ("D:\GITREPO\
-masterthesis\Template fra Laurent\nature.tex" <./figs/NetworkTopology-Star.png,
- id=510, 441.65pt x 429.605pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15]) [16 <D:/GITREPO/masterthesis/Figures/ABgraphcreation.png>]
+("D:\GITREPO\masterthesis\Template fra Laurent\nature.tex"
+<./figs/NetworkTopology-Star.png, id=510, 441.65pt x 429.605pt>
 File: ./figs/NetworkTopology-Star.png Graphic file (type png)
 
 <use ./figs/NetworkTopology-Star.png>
@@ -1937,7 +1941,7 @@ X/fonts/type1/public/lm/lmri10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmss1
 2.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmss17.pfb><D:/Latex/MiKTeX/fonts/
 type1/public/lm/lmssbx10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
 <D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
-Output written on main.pdf (62 pages, 608350 bytes).
+Output written on main.pdf (62 pages, 608360 bytes).
 PDF statistics:
  827 PDF objects out of 1000 (max. 8388607)
  223 named destinations out of 1000 (max. 500000)
