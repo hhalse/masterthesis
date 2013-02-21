@@ -5,6 +5,7 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {3.1}{\ignorespaces General graph \cite {audestad}}}{14}{figure.3.1}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Forming a A-B graph in 15 generations \cite {audestad}.}}{16}{figure.3.2}
 \addvspace {10pt}
@@ -16,4 +17,16 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {7.1}{\ignorespaces A figure}}{40}{figure.7.1}
+=======
+\contentsline {figure}{\numberline {3.1}{\ignorespaces General graph \cite {audestad}\relax }}{14}{figure.caption.14}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Forming a A-B graph in 15 generations \cite {audestad}.\relax }}{16}{figure.caption.17}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces A star-topology \cite {lieberman2005evolutionary}. \relax }}{18}{figure.caption.18}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Figure \ref {fig:optequi} shows the socially optimal equilibrium, and \ref {fig:notoptequi} shows the non optimal equilibrium.\relax }}{19}{figure.caption.19}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Mutant propagation game\relax }}{21}{figure.caption.21}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces A figure\relax }}{23}{figure.caption.22}
+\addvspace {10pt}
+\addvspace {10pt}
+>>>>>>> 752fbc71bdb9b2d9eeb86e118977b5ab65a5a32f
 \addvspace {10pt}
