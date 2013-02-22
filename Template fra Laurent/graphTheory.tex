@@ -32,7 +32,7 @@ There are some basic properties of graphs which is important to be familiar with
 
 \subsection{Random Graphs}
 
-Regarding cyber-insurance the study of random graphs are of special concern, since we are looking for insurable topologies in computer networks(random graphs). The research on random graphs are fairly new compared in comparison with other mathematical discoveries. E-R graphs were first studied in 1959 by Erdös and Rényi, later and probably with more promising results was the graphs studied by Albert-Barabási in 1999 \cite{audestad}. 
+Regarding cyber-insurance the study of random graphs are of special concern, since we are looking for insurable topologies in computer networks(random graphs). The research on random graphs are fairly new compared with other mathematical discoveries. E-R graphs were first studied in 1959 by Erdös and Rényi, later and probably with more promising results was the graphs studied by Albert-Barabási in 1999 \cite{audestad}. 
 
 \subsubsection{Erdös-Rényi Graphs}
 E-R graphs is a network created over a fixed number $n$ of vertices, where each node connects to another of the $n-1$ vertices with a chosen 
@@ -41,12 +41,12 @@ From analyzing the graph, the authors found some interesting properties\cite{bar
 
 \begin{itemize}
 \item If $p<n^{-2}$  then there is no edges in the graph. 
-\item If $p=c/n$ where c is a constant between $1 < c < log\: n$, which provokes a single large component to grow within the graph.
+\item If $p=c/n$ where c is a constant between $1 < c < log\: n$, the graph will provoke a single large component to grow within the graph.
 \item If $p>(ln\: n)/n$ then the graph is completely connected. 
 \item If $p = 1/n$ triangles start forming in the graph. 
 \end{itemize}
 
-Our goal is to use a graph which models how to Internet and other computer networks are connected. A fully connected E-R graph has a good potential, since the graph will have a short diameter similar to the Internet. However, the edge degree follows a Poisson distribution, which means that the edge degree are peaking around the average value \cite{audestad}. Consequently does not E-R graphs capture the immense clustering coefficient which is present in networks such as the Internet. In other words, E-R graphs are not small world graphs, and another graph structure is needed.
+Our goal is to use a graph which models how to Internet and other computer networks are connected. A fully connected E-R graph has a good potential, since the graph will have a short diameter similar to the Internet. However, the edge degree follows a Poisson distribution, which means that the edge degree are peaking around the average value \cite{audestad}. Consequently E-R graphs does not capture the immense clustering coefficient which is present in networks such as the Internet. In other words, E-R graphs are not small world graphs, and another graph structure is needed.
 
 
 
@@ -54,7 +54,7 @@ Our goal is to use a graph which models how to Internet and other computer netwo
 The struckture which is believed to be most accurate regarding modeling the structure of computer networks are A-B graphs. A-B graphs are different from E-R graphs since they are scale-free, meaning that the vertices does not have an constant value throughout the entire graph. The formation of an A-B graph results in multiple hubs with a high edge degree. Albert and Barabási found that the edge degree of each vertex follows a power law distribution; meaning that the probability that the edge degree is $g$ is proportional to $g^{\gamma}$
 where $\gamma$ usually is a number between 2 and 3 \cite{audestad}. Consequently there are relatively high probability that a vertex have a very high edge degree. 
 
-A-B graphs can grow and become scale-free if every new vertex is connected to one or more existing vertices with a probability proportional to the edge degree of these vertices \cite{audestad}. The paper \cite{audestad} presents an algorithm leading to creating on A-B graphs and figure \ref{fig:ABgraphcreation} models a possible formation of a graph using the algorithm:
+A-B graphs can grow and become scale-free if every new vertex is connected to one or more existing vertices with a probability proportional to the edge degree of these vertices \cite{audestad}. The paper \cite{audestad} presents an algorithm creating  A-B graphs and figure \ref{fig:ABgraphcreation} models a possible formation of a graph using the algorithm:
 
 
 \begin{itemize}
@@ -73,12 +73,17 @@ A-B graphs can grow and become scale-free if every new vertex is connected to on
 \caption{\label{fig:ABgraphcreation} Forming a A-B graph in 15 generations \cite{audestad}.}
 \end{figure}
 
-In addition to the high clustering coefficient the research found that these graphs have a fairly small diameter, which is noticeable from the graph depicted above. A-B graphs are therefore comparable to the network formation of the Internet and other computer networks. The model is therefore a good base in the search for insurable topologies. 
+In addition to the high clustering coefficient the research found that these graphs have a fairly small diameter,
+ which is noticeable from the graph depicted above. 
+ A-B graphs are therefore comparable to the network formation of the Internet and other computer networks. 
+The model is therefore a good base in the search for insurable topologies. 
 
 
 Hvorfor er slike strukturer viktige å forstå for oss? 
 Som vi skal se senere oppfører hubene seg i A-B grafene som stjerne-topologier. 
-Ved å ha oversikt over sitt eget nettverk vil man kunne identifisere hvor disse stjernene befinner seg, nettopp disse er det viktig at man sikrer for å ungå spredning av virus, samt fungere som en blokkade mot andre trusler e.g. hackers. 
+Ved å ha oversikt over sitt eget nettverk vil man kunne identifisere hvor disse stjernene befinner seg, nettopp disse er det viktig at man sikrer for å ungå spredning av virus, samt fungere som en blokkade mot andre trusler e.g. hackers. (TROR DET er viktig at vi prøver å fokusere mot insurable og ikke spredning av virus.)
+så noe sånt:
+nettopp disse er viktige slik at man lettere kan kalkulere riskioen, og gi insentiver, ved hjelp av cyber insurance, til hubsa for å sikre seg eller no.
 
 
 

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  22 FEB 2013 09:22
+=======
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  22 FEB 2013 09:25
+>>>>>>> master
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -1819,19 +1823,13 @@ Package pdftex.def Info: ./figs/notoptimalequilibrium.png used on input line 90
 (pdftex.def)             Requested size: 116.47865pt x 106.4977pt.
  [19 <D:/GITREPO/masterthesis/Template fra Laurent/figs/optimalequilibrium.png>
  <D:/GITREPO/masterthesis/Template fra Laurent/figs/notoptimalequilibrium.png>]
-
-Underfull \vbox (badness 1472) has occurred while \output is active []
-
  [20]
 <natureGameSingle.png, id=557, 198.7425pt x 174.6525pt>
 File: natureGameSingle.png Graphic file (type png)
 
 <use natureGameSingle.png>
-Package pdftex.def Info: natureGameSingle.png used on input line 146.
-(pdftex.def)             Requested size: 364.0pt x 319.91473pt.
-
-Underfull \vbox (badness 3536) has occurred while \output is active []
-
+Package pdftex.def Info: natureGameSingle.png used on input line 140.
+(pdftex.def)             Requested size: 182.0pt x 159.94405pt.
  [21 <D:/GITREPO/masterthesis/Template fra Laurent/natureGameSingle.png>]) [22]
 
 ("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.tex" [23
@@ -1927,11 +1925,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
  ) 
 Here is how much of TeX's memory you used:
- 22030 strings out of 494045
- 321726 string characters out of 3153222
+ 22032 strings out of 494045
+ 321746 string characters out of 3153222
  578165 words of memory out of 3000000
  24487 multiletter control sequences out of 15000+200000
- 82790 words of font info for 124 fonts, out of 3000000 for 9000
+ 82873 words of font info for 125 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  62i,13n,94p,1504b,564s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{D:/Latex/MiKTeX/fonts/enc/dvip
@@ -1945,7 +1943,11 @@ X/fonts/type1/public/lm/lmri10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmss1
 2.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmss17.pfb><D:/Latex/MiKTeX/fonts/
 type1/public/lm/lmssbx10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
 <D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
+<<<<<<< HEAD
 Output written on main.pdf (62 pages, 608362 bytes).
+=======
+Output written on main.pdf (62 pages, 608778 bytes).
+>>>>>>> master
 PDF statistics:
  827 PDF objects out of 1000 (max. 8388607)
  223 named destinations out of 1000 (max. 500000)
