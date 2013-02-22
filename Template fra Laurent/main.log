@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  21 FEB 2013 15:41
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  22 FEB 2013 09:22
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -1920,6 +1920,10 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 888FE979BDFFD7D4CB2ABEEDC30DE8BE;3141.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
  ) 
 Here is how much of TeX's memory you used:
@@ -1941,7 +1945,7 @@ X/fonts/type1/public/lm/lmri10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmss1
 2.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmss17.pfb><D:/Latex/MiKTeX/fonts/
 type1/public/lm/lmssbx10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
 <D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
-Output written on main.pdf (62 pages, 608360 bytes).
+Output written on main.pdf (62 pages, 608362 bytes).
 PDF statistics:
  827 PDF objects out of 1000 (max. 8388607)
  223 named destinations out of 1000 (max. 500000)
