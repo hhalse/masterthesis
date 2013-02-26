@@ -17,11 +17,11 @@
 \contentsline {section}{\numberline {2.2}Contract structure}{9}{section.2.2}
 \contentsline {section}{\numberline {2.3}Economics}{10}{section.2.3}
 \contentsline {section}{\numberline {2.4}Epidemics}{10}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}modeling contagion}{10}{subsection.2.4.1}
-\contentsline {subparagraph}{branching processes}{10}{section*.7}
+\contentsline {subsection}{\numberline {2.4.1}modeling contagion}{11}{subsection.2.4.1}
+\contentsline {subparagraph}{branching processes}{11}{section*.7}
 \contentsline {subparagraph}{SIR epidemic model}{11}{section*.8}
-\contentsline {subparagraph}{Extension to SIR}{11}{section*.9}
-\contentsline {subparagraph}{Model from dynamic to static(Percolation)}{11}{section*.10}
+\contentsline {subparagraph}{Extension to SIR}{12}{section*.9}
+\contentsline {subparagraph}{Model from dynamic to static(Percolation)}{12}{section*.10}
 \contentsline {subparagraph}{SIS epidemic model}{12}{section*.11}
 \contentsline {subparagraph}{SIRS Epidemic model}{12}{section*.12}
 \contentsline {section}{\numberline {2.5}Incentives and Information Security}{12}{section.2.5}
