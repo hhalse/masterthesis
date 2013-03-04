@@ -1,16 +1,27 @@
 \chapter{Evolutionary dynamics on graphs}
 \label{chp:nature} 
 
+When investigating cyber insurance and insurable topologies, one may end up only thinking about standard risk networks, like the internet. 
+But we will try to investigate all kinds of networks, or more concrete networks where a players actions is influenced by neighbourhood structure, i.e. the network connections will affect each individual players payoff. 
+In this case there are several types of networks to consider, all social and economic interactions where an agents well being is dependent on externalities as well as her own actions, will create a sort of network.
+
+The internet is a good example, because on the internet we are "all" connected, the benefit we get from the internet is strongly dependent on this, and so is the risk we face when using the internet. 
+There are other networks as well, when an actor are developing a software product, this development process is often done by several different firms, and thus creates a development network, where everyone is dependent on the result of the others. 
+If one or more fail in some way, bankruptcy, failure to deliver at the expected time, higher cost etc. 
+Then the whole network will be affected. 
+Or in a cloud computing network, there are many different users and internet service providers, and the overall security is dependent on all of them. 
+As we see there are many different types of networks, some face direct connections, other consist of social and economical connections. But they all share some main characteristics, they are all experiencing network effects, externalities, information asymmetry, correlated risk and interdependent security. \cite{networkgames}
 
 In our paper an insurable topology, is an network structure which makes it feasible for both the
  insurer(supply side)  to offer and the customer(demand side) to acquire insurance.
  For this to be possible there are many  difficulties to overcome,  since risks are correlated, 
  one problem is for the insurer to be able to calculate the overall probability of casualty/infection.
+ 
  The paper \cite{lieberman2005evolutionary} is about evolutionary dynamics and how certain structures
 can amplify or sustain evolution or drift. This is very usefull for our study of insurable topology, if one
 can determine some structures, where certain nodes have certain properties, and these structures
-then will sustain viruses from spreading, or amplify the incentive for obtaining cyberinsurance and
-antivirus, then we can possibly determine if it is an insurable topology.
+ will have certain properties, such as sustaining viruses from spreading, or amplify the incentive for obtaining cyber-insurance and
+protection software. This information can then be used to determine if it is an insurable topology.
 
 In the \cite{lieberman2005evolutionary} paper, they show that advantageous mutant inserted in to a
  circulation graph, will have a fixation probability equal to
@@ -26,12 +37,15 @@ network and the evolution speed.
 A probability equal to one means that every node in the network eventually will be affected by the mutant.
 
 The important question that this paper answer, is if it is possible to find graphs with fixation probability that exceeds \ref{eq:fixation}?, and if so, is it possible to suppress drift and amplify selection or visa versa?
-\begin{figure}
+\begin{figure}[b]
 \centering
 \begin{tabular}{@{}c@{}}
 \includegraphics[width=0.5\textwidth]{NetworkTopology-Star.png}
 \end{tabular}
-\caption{\label{fig:star} A star-topology \cite{lieberman2005evolutionary}. }
+\caption{
+\label{fig:star} A star-topology 
+\cite{lieberman2005evolutionary} . 
+}
 \end{figure}
 
 The paper shows that in certain graphs this is possible, one example is the star topology \ref{fig:star}.
@@ -43,8 +57,12 @@ And as we see when comparing \ref{eq:fixation} and \ref{eq:fixation2} the select
  amplified from $r$ to $r^{2}$, i.e. a star act as an evolutionary amplifier, favoring advantageous
   mutants and inhibiting disadvantageous mutants.
   
-When applying this to our scenario, cyber insurance and insurable topologies, we can use this to show
- that if the center node is strongly secured, then the virus will be considered as disadvantageous and
+\subparagraph{endogenous and exogenous}
+When analyzing networks it is important to differentiate between endogenous and exogenous network structures, it is easier to analyze exogenous networks, where the structure is given from the beginning. But networks where the structure is created by endogenous decisions are more natural and real world applicable. 
+
+\subparagraph{An exogenous insurable topology}
+When applying the results from \cite{lieberman2005evolutionary} to our scenario, cyber insurance and insurable topologies, we can use this to show
+ that when given a star network structure, if the center node is strongly secured, then the virus will be considered as disadvantageous and
 it will be inhibited from fixation with a certain probability. 
 This makes the overall risk easier to calculate for both the insurer and the nodes,
 and makes it possible and easier to calculate fair and affordable premiums. 
@@ -97,7 +115,7 @@ The gross payoff of the game is 1 if $y_{i}>=1$ and 0 otherwise. There is a cost
  When we look at the star example, we easily see that there is two equilibriums \ref{fig:starequi}, one where the center node choose action 1 and the rest of the nodes choose action 0, and a second equilibrium where all the leaf nodes chooses 1 and the center choose 0.
 The overall payoff in these two differ from each other, the latter is not socially optimal because it
  suffers from a cost equal to: $\#leaf nodes*c$ versus the first equilibrium where the total cost is only $c$.
-If we could have forced to network game to end up in the socially optimal equilibrium, this would have been optimal. 
+If we could have forced the network game to end up in the socially optimal equilibrium, this would have been optimal. 
 One possibility could be for the insurer to offer cheap insurance to all the leaf nodes, and a expensive one to the center node. By expensive we mean a cost that exceeds the cost of acquiring self protection, because then a rational center node would striclty prefer buying security software, as long as the price for acquiring and maintaining it is less than the possible cost of loss.
 \begin{equation}
  U_{center}=-Probability_{casualty}*\alpha-Cost_{selfprotection}
@@ -106,28 +124,20 @@ One possibility could be for the insurer to offer cheap insurance to all the lea
 A risk averse player would like to maximize her expected utility \ref{eq:utility}. We assume that the probability of casualty is significantly smaller when acquiring self protection, versus not acquiring. If the options for a player is
  either to remove the expected loss of casualty by acquiring self protection, or by insuring against it,
 and the expected utility of acquiring insurance is lower than the expected utility of acquiring self protection. The player would strictly prefer self protection. 
-This is one possible way of forcing the network game to end up in an insurable star topology.
+This is a simple scenario, where the network formation is given in advance, exogenous network formation, 
+but it shows how a insurer can force the game to end up in the social optimal equilibrium, by using the information about how fixation probability, and informing the players. 
+And in this way creating a simple but insurable network topology. 
+
 //
 Thoughts on what this fixes in a simple way...
 The insurer can now calculate the probability for catastrophic event(all nodes suffer), and now atleast has a measurement on the correlated risk. It has also limited the information asymmetry to concern only one node, the center node. It does not matter if the leaf nodes acquire security or not. Also it has now limited the interdependent security to one node, the center node.
 
 //
-//
  notater:
  
 The game:
 The way this game works, is that we look at nodes that are mutated (A), and those who are not (B).  
-\begin{table}[h]
-\centering 
-\begin{tabular}{ l | c | r }
-  
-   & A & B \\  \hline  
-  A & a & b \\ \hline  
-  B & c & d \\
-  
-\end{tabular}
-\caption{\label{fig:gamesetup} Setup propagation game \cite{lieberman2005evolutionary}}
-\end{table}
+
 
 When we apply the game to a directed graph, there are four different outcomes, a,b,c and d, which represents the interaction between the nodes, as is depicted in the figure below\ref{fig:game}. 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  21 FEB 2013 15:37
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  4 MAR 2013 12:02
 entering extended mode
 **main.tex
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.tex"
@@ -1597,49 +1597,31 @@ Package caption Info: wrapfig package is loaded.
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\glossary.tex"
 )
 \glo@main@file=\write5
-Package glossaries Info: Writing glossary file main.glo on input line 22.
+Package glossaries Info: Writing glossary file main.glo on input line 23.
 \glo@acronym@file=\write6
-Package glossaries Info: Writing glossary file main.acn on input line 22.
- ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.aux"
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\abstract_engl
-ish.aux")
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\preface.aux")
+Package glossaries Info: Writing glossary file main.acn on input line 23.
+ ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
 
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\introductionT
-oCyberInsurance.aux")
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\currentmarket
-state.aux")
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\graphTheory.a
-ux")
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\nature.aux")
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork.a
-ux")
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\surveyofnetwo
-rkformations.aux")
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork2.
-aux")
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\networkgames.
-aux"))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 24.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1655,7 +1637,7 @@ LaTeX Font Info:    ... okay on input line 24.
 \makeMPintoPDFobject=\count328
 \everyMPtoPDFconversion=\toks60
 )
-LaTeX Info: Redefining \microtypecontext on input line 24.
+LaTeX Info: Redefining \microtypecontext on input line 25.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1670,7 +1652,7 @@ File: mt-cmr.cfg 2009/11/09 v2.0 microtype config. file: Computer Modern Roman
 (RS)
 )
 \AtBeginShipoutBox=\box73
-Package hyperref Info: Link coloring ON on input line 24.
+Package hyperref Info: Link coloring ON on input line 25.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -1682,10 +1664,10 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 24.
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.out")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.out")
 \@outlinefile=\write7
@@ -1693,200 +1675,495 @@ LaTeX Info: Redefining \nameref on input line 24.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-<./figs/ntnu-logo.pdf, id=171, 241.4922pt x 52.79724pt>
-File: ./figs/ntnu-logo.pdf Graphic file (type pdf)
-
-<use ./figs/ntnu-logo.pdf>
-Package pdftex.def Info: ./figs/ntnu-logo.pdf used on input line 30.
-(pdftex.def)             Requested size: 170.71652pt x 37.32436pt.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 30.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Calculating math sizes for size <11.49994> on input line 30
-.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11.49994> on input line 30.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8.04991> on input line 30.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.74997> on input line 30.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [1
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Håvard/masterth
-esis/masterthesis/Template fra Laurent/figs/ntnu-logo.pdf>] [2
-
-]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\abstract_engl
-ish.tex" [3
+ish.tex" [1
 
-]) [4]
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]) [2]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\preface.tex")
-[5
+[3
 
 
 
-] [6
+] [4
 
 
 ]
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.toc"
-[7]) [8]
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.lof")
-[9
 
-] [10
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
 
-]
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.lot")
-[11] [12
+\tf@toc=\write8
+[5] [6
 
 ]
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.loa")
-[13
 
-] [14
+Package hyperref Warning: old lof file detected, not used; run LaTeX again.
+
+\tf@lof=\write9
+[7] [8
+
+]
+
+Package hyperref Warning: old lot file detected, not used; run LaTeX again.
+
+\tf@lot=\write10
+[9] [10
+
+]
+
+Package hyperref Warning: old loa file detected, not used; run LaTeX again.
+
+\tf@loa=\write11
+[11
+
+] [12
 
 ]
 No file main.gls.
-[15] [16
+[13] [14
 
 ]
 No file main.acr.
-[17] [18
+[15] [16
 
 ]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\introductionT
-oCyberInsurance.tex" [1
+oCyberInsurance.tex"
+
+Package natbib Warning: Citation `washingtonpaper' on page 1 undefined on input
+ line 9.
 
 
-] [2] [3] [4]) [5]
+Package natbib Warning: Citation `robinson2012incentives' on page 1 undefined o
+n input line 17.
+
+
+Package natbib Warning: Citation `robinson2012incentives' on page 1 undefined o
+n input line 24.
+
+
+Package natbib Warning: Citation `mehr1980principles' on page 1 undefined on in
+put line 29.
+
+[1
+
+
+]
+
+Package natbib Warning: Citation `solutiontoinfoasym' on page 2 undefined on in
+put line 68.
+
+[2]
+
+Package natbib Warning: Citation `lemonpaper' on page 3 undefined on input line
+ 81.
+
+
+Package natbib Warning: Citation `lemon' on page 3 undefined on input line 82.
+
+
+Package natbib Warning: Citation `bohme2010modeling' on page 3 undefined on inp
+ut line 99.
+
+
+Package natbib Warning: Citation `towardsInsurable' on page 3 undefined on inpu
+t line 105.
+
+[3]
+
+Package natbib Warning: Citation `bandyopadhyay2009managers' on page 4 undefine
+d on input line 107.
+
+
+Package natbib Warning: Citation `bolot2008cyber' on page 4 undefined on input 
+line 132.
+
+[4]
+
+Package natbib Warning: Citation `robinson2012incentives' on page 5 undefined o
+n input line 145.
+
+) [5]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\currentmarket
 state.tex" [6
 
 
 
 ]
+
+Package natbib Warning: Citation `evolvingcyber' on page 7 undefined on input l
+ine 7.
+
+
+Package natbib Warning: Citation `Cyberworkshop' on page 7 undefined on input l
+ine 12.
+
+
+Package natbib Warning: Citation `ccost' on page 7 undefined on input line 18.
+
+
+Package natbib Warning: Citation `compworld' on page 7 undefined on input line 
+27.
+
+
+Package natbib Warning: Citation `evolvingcyber' on page 7 undefined on input l
+ine 29.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
+
+Package natbib Warning: Citation `twatson' on page 8 undefined on input line 36
+.
+
+
+Package natbib Warning: Citation `digi' on page 8 undefined on input line 44.
+
+
+Package natbib Warning: Citation `dagensithackerforsikring' on page 8 undefined
+ on input line 49.
+
+
+Package natbib Warning: Citation `gjensidige' on page 8 undefined on input line
+ 53.
+
+
+Package natbib Warning: Citation `RTM' on page 8 undefined on input line 55.
+
+
+Package natbib Warning: Citation `CFCunder' on page 8 undefined on input line 5
+9.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+
+Package natbib Warning: Citation `CFCunder' on page 8 undefined on input line 6
+9.
+
+
+Package natbib Warning: Citation `CFCunder' on page 8 undefined on input line 7
+0.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
-[9] [10] [11]) [12]
+
+Package natbib Warning: Citation `bandyopadhyay2009managers' on page 9 undefine
+d on input line 82.
+
+
+Package natbib Warning: Citation `travelers' on page 9 undefined on input line 
+86.
+
+[9]
+
+Package natbib Warning: Citation `easley2012networks' on page 10 undefined on i
+nput line 116.
+
+[10] [11]
+
+Package natbib Warning: Citation `anderson2010security' on page 12 undefined on
+ input line 168.
+
+) [12]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\graphTheory.t
-ex" [13
+ex"
+
+Package natbib Warning: Citation `audestad' on page 13 undefined on input line 
+7.
+
+
+Package natbib Warning: Citation `audestad' on page 13 undefined on input line 
+7.
+
+
+LaTeX Warning: Reference `fig:generalGraph' on page 13 undefined on input line 
+12.
+
+
+Package natbib Warning: Citation `audestad' on page 13 undefined on input line 
+12.
+
+
+LaTeX Warning: Reference `ABgraph' on page 13 undefined on input line 20.
+
+[13
 
 
 
-] <../Figures/generalGraph.png, id=476, 266.49562pt x 328.97906pt>
+] <../Figures/generalGraph.png, id=184, 266.49562pt x 328.97906pt>
 File: ../Figures/generalGraph.png Graphic file (type png)
 
 <use ../Figures/generalGraph.png>
 Package pdftex.def Info: ../Figures/generalGraph.png used on input line 27.
 (pdftex.def)             Requested size: 145.59778pt x 179.7393pt.
- [14 <C:/Users/Håvard/masterthesis/masterthesis/Figures/generalGraph.png>]
-<../Figures/ABgraphcreation.png, id=496, 395.97937pt x 268.75406pt>
+
+
+Package natbib Warning: Citation `audestad' on page 14 undefined on input line 
+29.
+
+
+Package natbib Warning: Citation `audestad' on page 14 undefined on input line 
+29.
+
+
+Package natbib Warning: Citation `audestad' on page 14 undefined on input line 
+35.
+
+
+Package natbib Warning: Citation `barabasi' on page 14 undefined on input line 
+39.
+
+
+Package natbib Warning: Citation `barabasi' on page 14 undefined on input line 
+40.
+
+
+Package natbib Warning: Citation `audestad' on page 14 undefined on input line 
+40.
+
+
+Package natbib Warning: Citation `audestad' on page 14 undefined on input line 
+49.
+
+[14 <C:/Users/Håvard/masterthesis/masterthesis/Figures/generalGraph.png>]
+
+Package natbib Warning: Citation `audestad' on page 15 undefined on input line 
+55.
+
+
+Package natbib Warning: Citation `audestad' on page 15 undefined on input line 
+57.
+
+
+Package natbib Warning: Citation `audestad' on page 15 undefined on input line 
+57.
+
+
+LaTeX Warning: Reference `fig:ABgraphcreation' on page 15 undefined on input li
+ne 57.
+
+<../Figures/ABgraphcreation.png, id=193, 395.97937pt x 268.75406pt>
 File: ../Figures/ABgraphcreation.png Graphic file (type png)
 
 <use ../Figures/ABgraphcreation.png>
 Package pdftex.def Info: ../Figures/ABgraphcreation.png used on input line 71.
 (pdftex.def)             Requested size: 291.20111pt x 197.64462pt.
- [15]) [16 <C:/Users/Håvard/masterthesis/masterthesis/Figures/ABgraphcreation.
-png>]
+
+
+Package natbib Warning: Citation `audestad' on page 15 undefined on input line 
+73.
+
+
+Package natbib Warning: Citation `audestad' on page 15 undefined on input line 
+73.
+
+[15]) [16 <C:/Users/Håvard/masterthesis/masterthesis/Figures/ABgraphcreation.p
+ng>]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\nature.tex"
-<./figs/NetworkTopology-Star.png, id=510, 441.65pt x 429.605pt>
-File: ./figs/NetworkTopology-Star.png Graphic file (type png)
 
-<use ./figs/NetworkTopology-Star.png>
-Package pdftex.def Info: ./figs/NetworkTopology-Star.png used on input line 32.
+Package natbib Warning: Citation `networkgames' on page 17 undefined on input l
+ine 13.
 
-(pdftex.def)             Requested size: 182.0pt x 177.03725pt.
+
+Package natbib Warning: Citation `lieberman2005evolutionary' on page 17 undefin
+ed on input line 20.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [17
 
 
 
-] [18 <C:/Users/Håvard/masterthesis/masterthesis/Template fra Laurent/figs/Net
-workTopology-Star.png>]
+]
+
+Package natbib Warning: Citation `lieberman2005evolutionary' on page 18 undefin
+ed on input line 26.
+
+
+LaTeX Warning: Reference `eq:fixation' on page 18 undefined on input line 39.
+
+<./figs/NetworkTopology-Star.png, id=210, 441.65pt x 429.605pt>
+File: ./figs/NetworkTopology-Star.png Graphic file (type png)
+
+<use ./figs/NetworkTopology-Star.png>
+Package pdftex.def Info: ./figs/NetworkTopology-Star.png used on input line 43.
+
+(pdftex.def)             Requested size: 182.0pt x 177.03725pt.
+
+
+Package natbib Warning: Citation `lieberman2005evolutionary' on page 18 undefin
+ed on input line 48.
+
+
+Package natbib Warning: Citation `lieberman2005evolutionary' on page 18 undefin
+ed on input line 48.
+
+
+LaTeX Warning: Reference `fig:star' on page 18 undefined on input line 51.
+
+
+LaTeX Warning: Reference `eq:fixation' on page 18 undefined on input line 56.
+
+
+LaTeX Warning: Reference `eq:fixation2' on page 18 undefined on input line 56.
+
+
+Package natbib Warning: Citation `lieberman2005evolutionary' on page 18 undefin
+ed on input line 64.
+
+[18]
+
+LaTeX Warning: Reference `eq:fixationk' on page 19 undefined on input line 80.
+
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 68.
+(hyperref)                than one, level fixed on input line 86.
 
-<./figs/optimalequilibrium.png, id=533, 784.9325pt x 717.68124pt>
+
+Package natbib Warning: Citation `networkgames' on page 19 undefined on input l
+ine 87.
+
+<./figs/optimalequilibrium.png, id=222, 784.9325pt x 717.68124pt>
 File: ./figs/optimalequilibrium.png Graphic file (type png)
 
 <use ./figs/optimalequilibrium.png>
-Package pdftex.def Info: ./figs/optimalequilibrium.png used on input line 84.
+Package pdftex.def Info: ./figs/optimalequilibrium.png used on input line 102.
 (pdftex.def)             Requested size: 116.47865pt x 106.4977pt.
 
-<./figs/notoptimalequilibrium.png, id=534, 784.9325pt x 717.68124pt>
+<./figs/notoptimalequilibrium.png, id=223, 784.9325pt x 717.68124pt>
 File: ./figs/notoptimalequilibrium.png Graphic file (type png)
 
 <use ./figs/notoptimalequilibrium.png>
-Package pdftex.def Info: ./figs/notoptimalequilibrium.png used on input line 90
-.
+Package pdftex.def Info: ./figs/notoptimalequilibrium.png used on input line 10
+8.
 (pdftex.def)             Requested size: 116.47865pt x 106.4977pt.
- [19 <C:/Users/Håvard/masterthesis/masterthesis/Template fra Laurent/figs/opti
-malequilibrium.png> <C:/Users/Håvard/masterthesis/masterthesis/Template fra La
-urent/figs/notoptimalequilibrium.png>]
-Underfull \vbox (badness 1472) has occurred while \output is active []
 
- [20]
-<natureGameSingle.png, id=557, 198.7425pt x 174.6525pt>
+
+LaTeX Warning: Reference `fig:optequi' on page 19 undefined on input line 111.
+
+
+LaTeX Warning: Reference `fig:notoptequi' on page 19 undefined on input line 11
+1.
+
+
+LaTeX Warning: Reference `fig:optequi' on page 19 undefined on input line 111.
+
+
+LaTeX Warning: Reference `fig:notoptequi' on page 19 undefined on input line 11
+1.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19 <C:/Users/Håvard/masterthesis/masterthesis/Template fra Laurent/figs/Netw
+orkTopology-Star.png>]
+
+LaTeX Warning: Reference `fig:starequi' on page 20 undefined on input line 115.
+
+
+[20 <C:/Users/Håvard/masterthesis/masterthesis/Template fra Laurent/figs/optim
+alequilibrium.png> <C:/Users/Håvard/masterthesis/masterthesis/Template fra Lau
+rent/figs/notoptimalequilibrium.png>]
+
+LaTeX Warning: Reference `eq:utility' on page 21 undefined on input line 124.
+
+
+LaTeX Warning: Reference `fig:game' on page 21 undefined on input line 142.
+
+<natureGameSingle.png, id=239, 198.7425pt x 174.6525pt>
 File: natureGameSingle.png Graphic file (type png)
 
 <use natureGameSingle.png>
-Package pdftex.def Info: natureGameSingle.png used on input line 146.
+Package pdftex.def Info: natureGameSingle.png used on input line 150.
 (pdftex.def)             Requested size: 182.0pt x 159.94405pt.
- [21 <C:/Users/Håvard/masterthesis/masterthesis/Template fra Laurent/natureGam
-eSingle.png>]) [22]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21]
+
+LaTeX Warning: Reference `eq:fixation' on page 22 undefined on input line 166.
+
+
+LaTeX Warning: Reference `eq:fixation' on page 22 undefined on input line 169.
+
+)
+Underfull \vbox (badness 1173) has occurred while \output is active []
+
+ [22 <C:/Users/Håvard/masterthesis/masterthesis/Template fra Laurent/natureGam
+eSingle.png>] [23]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork.t
-ex" [23
+ex" [24
 
 
 
 ]
+
+Package natbib Warning: Citation `bohme2010modeling' on page 25 undefined on in
+put line 17.
+
+[25]
+
+Package natbib Warning: Citation `bolot2008cyber' on page 26 undefined on input
+ line 59.
+
+
 Underfull \vbox (badness 5388) has occurred while \output is active []
 
- [24]
-[25] [26] [27] [28] [29] [30] [31] [32] [33] [34])
+ [26]
+[27] [28] [29] [30] [31] [32] [33] [34] [35] [36])
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (12.0pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 87.
+(in both cases you will find help in the memoir manual). on input line 86.
 
 
 Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
- [35]
+ [37]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\surveyofnetwo
-rkformations.tex" [36
+rkformations.tex" [38
 
 
 
-] [37]) [38]
+]
+
+Package natbib Warning: Citation `jackson2005survey' on page 39 undefined on in
+put line 9.
+
+[39]) [40]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork2.
-tex") [39
+tex") [41
 
 
 
 ]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\networkgames.
-tex" [40
+tex" [42
 
 
 
-]) [41]
+]
+
+Package natbib Warning: Citation `networkgames' on page 43 undefined on input l
+ine 15.
+
+
+Package natbib Warning: Citation `networkgames' on page 43 undefined on input l
+ine 18.
+
+) [43]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.bbl"
-[42
+[44
 
 
 ]
@@ -1903,7 +2180,7 @@ Underfull \hbox (badness 1635) in paragraph at lines 64--68
 : / / www . digi . no / 39107 /$
  []
 
-[43]
+[45]
 Underfull \hbox (badness 1057) in paragraph at lines 138--143
 \T1/lmr/m/n/10 (+20) not.  [][]$http : / / www . computerworld . com / s / arti
 cle / 9223366 / Cyber _ insurance _$
@@ -1914,15 +2191,14 @@ cle / 9223366 / Cyber _ insurance _$
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (12.0pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 115.
+(in both cases you will find help in the memoir manual). on input line 114.
 
-[44]
-\tf@toc=\write8
-\tf@lof=\write9
-\tf@lot=\write10
-\tf@loa=\write11
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
+
+Package natbib Warning: There were undefined citations.
+
+[46]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
  ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.aux"
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\abstract_engl
 ish.aux")
@@ -1942,21 +2218,39 @@ rkformations.aux")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork2.
 aux")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\networkgames.
-aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 888FE979BDFFD7D4CB2ABEEDC30DE8BE;3141.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
+aux")
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  6A697CD5D9A7C9C19FB30893B26D6E9C;3141.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 22030 strings out of 494045
- 328903 string characters out of 3145963
- 578165 words of memory out of 3000000
- 24487 multiletter control sequences out of 15000+200000
- 82790 words of font info for 124 fonts, out of 3000000 for 9000
+ 21856 strings out of 494045
+ 323962 string characters out of 3145963
+ 559066 words of memory out of 3000000
+ 24352 multiletter control sequences out of 15000+200000
+ 59791 words of font info for 107 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 62i,13n,94p,1504b,564s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,13n,94p,1504b,578s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/
@@ -1967,14 +2261,11 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss12.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/lm/lmsy7.pfb>
-Output written on main.pdf (62 pages, 608408 bytes).
+lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb>
+Output written on main.pdf (62 pages, 501809 bytes).
 PDF statistics:
- 827 PDF objects out of 1000 (max. 8388607)
- 223 named destinations out of 1000 (max. 500000)
- 19316 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 554 PDF objects out of 1000 (max. 8388607)
+ 224 named destinations out of 1000 (max. 500000)
+ 15391 words of extra memory for PDF output out of 17280 (max. 10000000)
 
