@@ -1,19 +1,32 @@
 \chapter{Network Games}
 \label{chp:networkgames} 
 
+In the paper \cite{contagion}, they come up with some interesting results regarding network formation games. 
+They set up a game where the nodes benefit from direct links, but these links also expose them for risk. 
+Each node gains a payoff of  $a$ per link it establishes, but it can establish a maximum of $\delta$ links.
+A failure occur at a node with probability $q$, and propagates on a link with probability $p$. If a nodes fail, it will receive a negative payoff of $b$, no matter how many links it has established.
 
-notater, men brukt de i nature delen :)
-When investigating cyber insurance and insurable topologies, one may end up only thinking about standard risk networks, like the internet. 
-But we will try to investigate all kinds of networks, or more concrete networks where a players actions is influenced by neighbourhood structure, i.e. the network connections will affect each individual players payoff. 
-In this case there are several types of networks to consider, all social and economic interactions where an agents well being is dependent on externalities as well as her own actions, will create a sort of network.
+The results from their model shows a situation where clustered graphs achieve a higher payoff when connected to trusted agents, compared to when connecting with random nodes. Unlike in anonymous graphs, where nodes connect to each other at random, nodes in these graphs share some information with their neighbours, which is used when deciding whether to form a link or not. 
+To further explain these results, they show that there exists a critical point, called phase transition, which occurs when nodes have a node degree of $1/p$. 
+At this point a node gets a payoff of $a/p$, to further increase the payoff the node needs to go into a region with significantly higher failure probability. 
+Because once each node establish more than $1/p$ links, the edges which propagates risk, will with high probability form a large cluster. Which results in a rise in probability of node failure, and reduces the overall wellfare.
+From this the paper say that when the minimum welfare exceeds 
+$(1+f(\delta)*a/p)
+$
+we have reached super critical payoff. Otherwise it is called sub-critical payoff. 
+Further they show that the only possible way of ending up with supercritical payoff, is by forming clustered networks consisting of cliques with slightly more than $1/p$ nodes. 
+If the nodes form an anonymous market, random linking, they can only get sub-critical payoff. 
+In other words, if the nodes can choose who they connect with, and by doing so, creating trusted clustered markets, they can achieve a higher payoff, by exceeding the critical node degree point. But in random graphs, this is not possible.  
 
-The internet is a good example, because on the internet we are "all" connected, the benefit we get from the internet is strongly dependent on this, and so is the risk we face when using the internet. 
-There are other networks as well, when an actor are developing a software product, this development process is often done by several different firms, and thus creates a development network, where everyone is dependent on the result of the others. 
-If one or more fail in some way, bankruptcy, failure to deliver at the expected time, higher cost etc. 
-Then the whole network will be affected. 
-Or in a cloud computing network, there are many different users and internet service providers, and the overall security is dependent on all of them. 
-As we see there are many different types of networks, some face direct connections, other consist of social and economical connections. But they all share some main characteristics, they are all experiencing network effects, externalities, information asymmetry, correlated risk and interdependent security. \cite{networkgames}
+The paper \cite{contagion} describes a model which seeks to capture the underlying trade-off between the benefits of adding new links and the problem with increased contagious risk. Results from the model describes a situation where clustered graphs achieve a higher payoff when connected to trusted agents. This phenomena is called super-critical payoffs. Unlike in anonymous graphs, which are completely random, nodes in these graphs share some information with their neighbors, which is used when deciding whether to connect or not. The cliques, forms a clustered network of agents which trust each other, consequently the risk of cascading failures are lower.
+Inspired by this model, we created a model which shields light on how cyber-insurance can be used in network formation to prevent cascading failures and increase an agents payoff.  
 
+\\notater
+The notion of stable, is a relaxation of pairwise nash-stability, and is defined as:
+\begin{itemize}
+\item no node can improve their payoff by deleting all its links(removing itself from the network)
+\item There is no pair of nodes, $i,j$, who are not a part of the network G, who would have gained a higher payoff by joining the network.
+\end{itemize}
 
 This paper\cite{networkgames}  provide a framework for analyzing situations when a players actions is influenced by neghbourhood structure, modeled in terms of an underlying netwrok of connections that affect payoff.
 The players are partially informed about the structure. 
