@@ -90,4 +90,5 @@
 \contentsline {chapter}{\chapternumberline {8}Network Games}{41}{chapter.8}
 \contentsline {chapter}{\chapternumberline {9}Modeling Cyber-Insurance }{43}{chapter.9}
 \contentsline {section}{\numberline {9.1}Network Formation}{43}{section.9.1}
-\contentsline {chapter}{References}{45}{section*.57}
+\contentsline {subsection}{\numberline {9.1.1}Model of handling contagion risk}{44}{subsection.9.1.1}
+\contentsline {chapter}{References}{45}{section*.58}
