@@ -34,36 +34,55 @@ This document introduces a number of ways to draw game matrices, decision and in
 
 
 
-\begin{figure}[h!]
-\begin{center}
+
+
+
+
+\begin{figure}[ h!]
+\begin{center} 
 \begin{footnotesize}
 \begin{game}{4}{4}[Firm A][Firm B]
        						 \> $IL$  	\> $I\overline{L}$ 	\> $\overline{I}L$  \> $\overline{I}\overline{L}$   \\
-$IL$     					 \> 13,13  	\> 5,5   			\> 5,10 				\> 5,0  \\
-$I\overline{L}$   			 \> 5,5  	\> 5,5    			\> 5, 0 				\> 5,0\\
-$\overline{I}L$      		 \> 10,5  	\> 0,5    			\> 10,10 				\> 0,0  \\
-$\overline{I}\overline{L}$   \> 0,5 	\> 0,5   			\> 0, 0 				\> 0,0 \\
+$IL$     					 \> $\begin{array}{l}\alpha+\beta-I_{o}-I{l} \\[0.0mm]\phantom{--}\alpha+\beta-I_{o}-I{l} \end{array}$
+							 \> $\begin{array}{l}\alpha-I_{o} \\[0.0mm]\phantom{--}\alpha-I_{o} \end{array}$
+							 \> $\begin{array}{l}\alpha+\beta-I_{o}-I{l}-r*q \\[0.0mm]\phantom{--}\alpha+\beta-r*q \end{array}$
+							 \> $\begin{array}{l}\alpha-I_{o} \\[0.0mm]\phantom{--}\alpha-r*q \end{array}$
+							 \\$I\overline{L}$
+							  \> $\begin{array}{l}\alpha-I_{o} \\[0.0mm]\phantom{--}\alpha-I_{o} \end{array}$
+							  \> $\begin{array}{l}\alpha-I_{o} \\[0.0mm]\phantom{--}\alpha-I_{o} \end{array}$
+							  \> $\begin{array}{l}\alpha-I_{o} \\[0.0mm]\phantom{--}\alpha-r*q \end{array}$
+							  \> $\begin{array}{l}\alpha-I_{o} \\[0.0mm]\phantom{--}\alpha-r*q \end{array}$
+							  \\$\overline{I}L$   
+							  \> $\begin{array}{l}\alpha+\beta-r*q \\[0.0mm]\phantom{--}\alpha+\beta-I_{o}-I{l}-r*q \end{array}$
+							  \> $\begin{array}{l}\alpha-r*q \\[0.0mm]\phantom{--}\alpha-I_{o} \end{array}$ 
+							  \> $\begin{array}{l}\alpha+\beta-2*r*q \\[0.0mm]\phantom{--}\alpha+\beta-2*r*q \end{array}$
+							  \> $\begin{array}{l}\alpha-r*q \\[0.0mm]\phantom{--}\alpha-r*q \end{array}$
+							\\$\overline{I}\overline{L}$ 
+							 \> $\begin{array}{l}\alpha-r*q \\[0.0mm]\phantom{--}\alpha-I_{o}\end{array}$
+							 \> $\begin{array}{l}\alpha-r*q \\[0.0mm]\phantom{--}\alpha-I_{o}\end{array}$
+							 \> $\begin{array}{l}\alpha-r*q \\[0.0mm]\phantom{--}\alpha-r*q \end{array}$
+							 \>$\begin{array}{l}\alpha-r*q \\[0.0mm]\phantom{--}\alpha-r*q \end{array}$
+							  \\
 \end{game}
 \end{footnotesize}
 \end{center}
 \end{figure}
 
 
-
-
 \begin{figure}[h!]
 \begin{center}
 \begin{footnotesize}
 \begin{game}{4}{4}[Firm A][Firm B]
        						 \> $IL$  	\> $I\overline{L}$ 	\> $\overline{I}L$  \> $\overline{I}\overline{L}$   \\
-$IL$     					 \> $\alpha+\beta-I_{o}-I{l}-r$ ,13  	\> 5,5   			\> 5,10 				\> 5,0  \\
-$I\overline{L}$   			 \> 5,\phantom{-}5  	\> $\begin{array}{l}\alpha+\beta-I_{o}-I{l}-r \\[0.0mm]\phantom{--}\alpha+\beta-I_{o}-I{l}-r \end{array}$  			\> 5, 0 				\> 5,0\\
-$\overline{I}L$      		 \> $\begin{array}{rl}\alpha+\beta-I_{o}-I{l}-r&\\[0.6mm]&\alpha+\beta-I_{o}-I{l}-r\end{array}$  	\> 0,5    			\> 10,10 				\> 0,0  \\
-$\overline{I}\overline{L}$   \> 0,5 	\> 0,5   			\> 0, 0 				\> 0,0 \\
+$IL$     					 \> \underline{13},\underline{13}  	\> \underline{5},5   			\> 3,10 				\> \underline{5},5  \\
+$I\overline{L}$   			 \> 5,\underline{5}  	\> \underline{5},\underline{5}    	\> \underline{5}, 0 				\> \underline{5},0\\
+$\overline{I}L$      		 \> 10,\underline{5}  	\> 0,\underline{5}    			\> 0,0 					\> 0,0  \\
+$\overline{I}\overline{L}$   \> 0,\underline{5} 	\> 0,\underline{5}   			\> 0,0 					\> 0,0 \\
 \end{game}
 \end{footnotesize}
 \end{center}
 \end{figure}
+
 
 \end{document} 
 
