@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  5 MAR 2013 10:45
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  6 MAR 2013 09:16
 entering extended mode
 **main.tex
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.tex"
@@ -1892,7 +1892,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 39--49
+Underfull \hbox (badness 10000) in paragraph at lines 38--48
 
  []
 
@@ -1905,7 +1905,7 @@ File: ../Figures/financialContagion1.png Graphic file (type png)
 
 <use ../Figures/financialContagion1.png>
 Package pdftex.def Info: ../Figures/financialContagion1.png used on input line 
-69.
+68.
 (pdftex.def)             Requested size: 145.60056pt x 100.03113pt.
 
 <../Figures/financialContagion2.png, id=717, 177.66376pt x 131.74219pt>
@@ -1913,7 +1913,7 @@ File: ../Figures/financialContagion2.png Graphic file (type png)
 
 <use ../Figures/financialContagion2.png>
 Package pdftex.def Info: ../Figures/financialContagion2.png used on input line 
-75.
+74.
 (pdftex.def)             Requested size: 133.95445pt x 99.33305pt.
 ) [45 <C:/Users/Håvard/masterthesis/masterthesis/Figures/financialContagion1.p
 ng> <C:/Users/Håvard/masterthesis/masterthesis/Figures/financialContagion2.png
