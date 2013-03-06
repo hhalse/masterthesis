@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  5 MAR 2013 11:37
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  6 MAR 2013 11:16
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -1593,35 +1593,43 @@ Package caption Info: wrapfig package is loaded.
 )
 ("D:\GITREPO\masterthesis\Template fra Laurent\glossary.tex")
 \glo@main@file=\write5
-Package glossaries Info: Writing glossary file main.glo on input line 24.
+Package glossaries Info: Writing glossary file main.glo on input line 23.
 \glo@acronym@file=\write6
-Package glossaries Info: Writing glossary file main.acn on input line 24.
+Package glossaries Info: Writing glossary file main.acn on input line 23.
 
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.aux"
 ("D:\GITREPO\masterthesis\Template fra Laurent\abstract_english.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\preface.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\introductionToCyberInsurance.aux
+") ("D:\GITREPO\masterthesis\Template fra Laurent\currentmarketstate.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\graphTheory.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\nature.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\surveyofnetworkformations.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork2.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\networkgames.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance.aux"))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
 
 (D:\Latex\MiKTeX\tex\latex\base\ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 (D:\Latex\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1637,7 +1645,7 @@ LaTeX Font Info:    ... okay on input line 26.
 \makeMPintoPDFobject=\count328
 \everyMPtoPDFconversion=\toks60
 )
-LaTeX Info: Redefining \microtypecontext on input line 26.
+LaTeX Info: Redefining \microtypecontext on input line 25.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1652,7 +1660,7 @@ File: mt-cmr.cfg 2009/11/09 v2.0 microtype config. file: Computer Modern Roman
 (RS)
 )
 \AtBeginShipoutBox=\box73
-Package hyperref Info: Link coloring ON on input line 26.
+Package hyperref Info: Link coloring ON on input line 25.
 
 (D:\Latex\MiKTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -1664,10 +1672,10 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 26.
-LaTeX Info: Redefining \ref on input line 26.
-LaTeX Info: Redefining \pageref on input line 26.
-LaTeX Info: Redefining \nameref on input line 26.
+LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.out")
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.out")
 \@outlinefile=\write7
@@ -1693,10 +1701,10 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 (D:\Latex\MiKTeX\tex\latex\microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)) [5] [6
+) [5]) [6]
+("D:\GITREPO\masterthesis\Template fra Laurent\main.lof") [7
 
-]
-("D:\GITREPO\masterthesis\Template fra Laurent\main.lof") [7] [8
+] [8
 
 ]
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.lot") [9] [10
@@ -1715,35 +1723,185 @@ No file main.acr.
 [15] [16
 
 ]
-("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance.tex"
+("D:\GITREPO\masterthesis\Template fra Laurent\introductionToCyberInsurance.tex
+" [1
+
+
+] [2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [1
+ [3]
+[4]) [5] ("D:\GITREPO\masterthesis\Template fra Laurent\currentmarketstate.tex"
+[6
+
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 21--30
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 18.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 18.
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--22
 
  []
 
-<../Figures/financialContagion1.png, id=119, 197.23688pt x 135.50626pt>
+[7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+[9] [10] [11]) [12]
+("D:\GITREPO\masterthesis\Template fra Laurent\graphTheory.tex" [13
+
+
+
+]
+<../Figures/generalGraph.png, id=478, 266.49562pt x 328.97906pt>
+File: ../Figures/generalGraph.png Graphic file (type png)
+
+<use ../Figures/generalGraph.png>
+Package pdftex.def Info: ../Figures/generalGraph.png used on input line 27.
+(pdftex.def)             Requested size: 145.59778pt x 179.7393pt.
+ [14 <D:/GITREPO/masterthesis/Figures/generalGraph.png>] <../Figures/ABgraphcre
+ation.png, id=498, 395.97937pt x 268.75406pt>
+File: ../Figures/ABgraphcreation.png Graphic file (type png)
+
+<use ../Figures/ABgraphcreation.png>
+Package pdftex.def Info: ../Figures/ABgraphcreation.png used on input line 71.
+(pdftex.def)             Requested size: 291.20111pt x 197.64462pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15]) [16 <D:/GITREPO/masterthesis/Figures/ABgraphcreation.png>]
+("D:\GITREPO\masterthesis\Template fra Laurent\nature.tex"
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17
+
+
+
+]
+<./figs/NetworkTopology-Star.png, id=519, 441.65pt x 429.605pt>
+File: ./figs/NetworkTopology-Star.png Graphic file (type png)
+
+<use ./figs/NetworkTopology-Star.png>
+Package pdftex.def Info: ./figs/NetworkTopology-Star.png used on input line 43.
+
+(pdftex.def)             Requested size: 182.0pt x 177.03725pt.
+ [18]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 86.
+
+<./figs/optimalequilibrium.png, id=539, 784.9325pt x 717.68124pt>
+File: ./figs/optimalequilibrium.png Graphic file (type png)
+
+<use ./figs/optimalequilibrium.png>
+Package pdftex.def Info: ./figs/optimalequilibrium.png used on input line 102.
+(pdftex.def)             Requested size: 116.47865pt x 106.4977pt.
+
+<./figs/notoptimalequilibrium.png, id=540, 784.9325pt x 717.68124pt>
+File: ./figs/notoptimalequilibrium.png Graphic file (type png)
+
+<use ./figs/notoptimalequilibrium.png>
+Package pdftex.def Info: ./figs/notoptimalequilibrium.png used on input line 10
+8.
+(pdftex.def)             Requested size: 116.47865pt x 106.4977pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19 <D:/GITREPO/masterthesis/Template fra Laurent/figs/NetworkTopology-Star.pn
+g>]
+[20 <D:/GITREPO/masterthesis/Template fra Laurent/figs/optimalequilibrium.png> 
+<D:/GITREPO/masterthesis/Template fra Laurent/figs/notoptimalequilibrium.png>]
+<natureGameSingle.png, id=560, 198.7425pt x 174.6525pt>
+File: natureGameSingle.png Graphic file (type png)
+
+<use natureGameSingle.png>
+Package pdftex.def Info: natureGameSingle.png used on input line 148.
+(pdftex.def)             Requested size: 182.0pt x 159.94405pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21]) [22 <D:/GITREPO/masterthesis/Template fra Laurent/natureGameSingle.png>]
+("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.tex" [23
+
+
+
+]
+Underfull \vbox (badness 5388) has occurred while \output is active []
+
+ [24]
+[25] [26] [27] [28] [29] [30] [31] [32] [33] [34])
+
+Class memoir Warning: The material used in the headers is too large
+(24.0pt) for the given head height (12.0pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 88.
+
+
+Overfull \vbox (12.0pt too high) has occurred while \output is active []
+
+ [35]
+("D:\GITREPO\masterthesis\Template fra Laurent\surveyofnetworkformations.tex"
+[36
+
+
+
+] [37]) [38] ("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork2.tex") 
+[39
+
+
+
+] ("D:\GITREPO\masterthesis\Template fra Laurent\networkgames.tex"
+[40
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41])
+[42] ("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance.tex"
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 38--48
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44]
+<../Figures/financialContagion1.png, id=716, 197.23688pt x 135.50626pt>
 File: ../Figures/financialContagion1.png Graphic file (type png)
 
 <use ../Figures/financialContagion1.png>
 Package pdftex.def Info: ../Figures/financialContagion1.png used on input line 
-44.
+68.
 (pdftex.def)             Requested size: 145.60056pt x 100.03113pt.
 
-<../Figures/financialContagion2.png, id=121, 177.66376pt x 131.74219pt>
+<../Figures/financialContagion2.png, id=717, 177.66376pt x 131.74219pt>
 File: ../Figures/financialContagion2.png Graphic file (type png)
 
 <use ../Figures/financialContagion2.png>
 Package pdftex.def Info: ../Figures/financialContagion2.png used on input line 
-50.
+74.
 (pdftex.def)             Requested size: 133.95445pt x 99.33305pt.
-) [2 <D:/GITREPO/masterthesis/Figures/financialContagion1.png> <D:/GITREPO/mast
-erthesis/Figures/financialContagion2.png>] ("D:\GITREPO\masterthesis\Template f
-ra Laurent\main.bbl"
+) [45 <D:/GITREPO/masterthesis/Figures/financialContagion1.png> <D:/GITREPO/mas
+terthesis/Figures/financialContagion2.png>] ("D:\GITREPO\masterthesis\Template 
+fra Laurent\main.bbl" [46
+
+
+]
 bibitemlist
 
 Underfull \hbox (badness 10000) in paragraph at lines 62--67
@@ -1757,52 +1915,75 @@ Underfull \hbox (badness 1635) in paragraph at lines 69--73
 : / / www . digi . no / 39107 /$
  []
 
-[3
-
-
-]
+[47]
 Underfull \hbox (badness 1057) in paragraph at lines 143--148
 \T1/lmr/m/n/10 (+20) not.  [][]$http : / / www . computerworld . com / s / arti
 cle / 9223366 / Cyber _ insurance _$
  []
 
-) [4]
+)
+
+Class memoir Warning: The material used in the headers is too large
+(24.0pt) for the given head height (12.0pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 117.
+
+[48]
 \tf@toc=\write8
 \tf@lof=\write9
 \tf@lot=\write10
 \tf@loa=\write11
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
  ("D:\GITREPO\masterthesis\Template fra Laurent\main.aux"
 ("D:\GITREPO\masterthesis\Template fra Laurent\abstract_english.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\preface.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\introductionToCyberInsurance.aux
+") ("D:\GITREPO\masterthesis\Template fra Laurent\currentmarketstate.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\graphTheory.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\nature.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\surveyofnetworkformations.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork2.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\networkgames.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 97C912095E8A74EBCEAA106DC99D1347;416.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 45C9D86DE710719297FF72C766D02063;3355
+(rerunfilecheck)             After:  F49C83B187D314100AFC9C9CA13204D5;3355.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
  ) 
 Here is how much of TeX's memory you used:
- 21568 strings out of 494045
- 312873 string characters out of 3153222
- 566240 words of memory out of 3000000
- 24300 multiletter control sequences out of 15000+200000
- 57888 words of font info for 84 fonts, out of 3000000 for 9000
+ 22031 strings out of 494045
+ 321749 string characters out of 3153222
+ 581497 words of memory out of 3000000
+ 24460 multiletter control sequences out of 15000+200000
+ 77201 words of font info for 125 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 62i,12n,94p,1504b,598s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{D:/Latex/MiKTeX/fonts/enc/dvip
-s/lm/lm-ec.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/Latex/MiKT
-eX/fonts/enc/dvips/lm/lm-mathit.enc}<D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx
-10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><D:/Latex/MiKTeX/fonts
-/type1/public/lm/lmmi10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><D
-:/Latex/MiKTeX/fonts/type1/public/lm/lmr10.pfb><D:/Latex/MiKTeX/fonts/type1/pub
-lic/lm/lmr7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr9.pfb><D:/Latex/MiKTe
-X/fonts/type1/public/lm/lmri10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy1
-0.pfb>
-Output written on main.pdf (20 pages, 213261 bytes).
+ 62i,13n,94p,1504b,599s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{section*.61} has been referenced but does not exi
+st, replaced by a fixed one
+
+{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/
+lm/lm-mathsy.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{D:/Latex/Mi
+KTeX/fonts/enc/dvips/lm/lm-rm.enc}<D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx10
+.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><D:/Latex/MiKTeX/fonts/t
+ype1/public/lm/lmmi10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><D:/
+Latex/MiKTeX/fonts/type1/public/lm/lmr10.pfb><D:/Latex/MiKTeX/fonts/type1/publi
+c/lm/lmr6.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr7.pfb><D:/Latex/MiKTeX/
+fonts/type1/public/lm/lmr8.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr9.pfb>
+<D:/Latex/MiKTeX/fonts/type1/public/lm/lmri10.pfb><D:/Latex/MiKTeX/fonts/type1/
+public/lm/lmsy10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
+Output written on main.pdf (64 pages, 620324 bytes).
 PDF statistics:
- 245 PDF objects out of 1000 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
- 15427 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 861 PDF objects out of 1000 (max. 8388607)
+ 235 named destinations out of 1000 (max. 500000)
+ 21393 words of extra memory for PDF output out of 24883 (max. 10000000)
 
