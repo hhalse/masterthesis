@@ -35,9 +35,8 @@ Inspired by this model, we created a model which shields light on how cyber-insu
 \subsection{Model of handling contagion risk}
 The model is simplified in order to show the concept of using cyber-insurance to encounter the problems with contagious risk. The model is formulated as follows. A set of $n$ agents are randomly chosen to be insured or not. They all get their own income, and by connecting to other agents they will benefit from their income, i.e. when connected both agents will increase their income. However, when connecting to another agent naturally the cost of insurance increases due to aggregated risk. If and agent connects to someone without insurance a possible risk of severe losses due to cascading failure $r$ has to be taken into account. 
 
-
 \begin{tabular}{|l|}
-  \hline
+ \hline
   $\alpha$ - an agents income\\
   $\beta$ - income from direct links \\
   $I_{o}$ - cost of insurance. \\
@@ -80,6 +79,5 @@ networks, can achieve higher, super-critical, payoff by increasing their node de
 In this model the network formation is done endogenously, and when we set up the parameters such that only insured nodes will connect, we end up with an insurable network topology. 
 In this model we have neglected the information problem, we assume that all nodes can differentiate insured versus non insured nodes. This could be difficult to realize in many real world network, but in financial transactions and in software development networks, it is reasonable to assume that the parties can acquire this type of information regarding their transactional partners.
 It is also possible to solve the information asymmetry problem by including a rule, such that no insured node will connect to anyone unless they can provide proof of insurance. This simple rule makes insurable-clustered components  evolve endogenously in the network. And is beneficial for both the insurer and the nodes, because the nodes can thus receive a super-critical payoff, and they are also insured against contagious risk.  
-
 
 
