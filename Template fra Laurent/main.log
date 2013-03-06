@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  5 MAR 2013 11:09
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  6 MAR 2013 09:16
 entering extended mode
 **main.tex
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.tex"
@@ -1605,6 +1605,21 @@ Package glossaries Info: Writing glossary file main.acn on input line 22.
 ish.aux")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\preface.aux")
 
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\introductionT
+oCyberInsurance.aux")
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\currentmarket
+state.aux")
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\graphTheory.a
+ux")
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\nature.aux")
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork.a
+ux")
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\surveyofnetwo
+rkformations.aux")
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork2.
+aux")
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\networkgames.
+aux")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\modelingCyber
 Insurance.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -1699,11 +1714,11 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)) [5]
-[6
+) [5])
+[6] ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.lof"
+) [7
 
-] ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.lof") 
-[7] [8
+] [8
 
 ]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.lot")
@@ -1750,30 +1765,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [8]
 [9] [10] [11]) [12]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\graphTheory.t
-ex"
-
-LaTeX Warning: Reference `fig:generalGraph' on page 13 undefined on input line 
-12.
-
-
-LaTeX Warning: Reference `ABgraph' on page 13 undefined on input line 20.
-
-[13
+ex" [13
 
 
 
-] <../Figures/generalGraph.png, id=277, 266.49562pt x 328.97906pt>
+] <../Figures/generalGraph.png, id=478, 266.49562pt x 328.97906pt>
 File: ../Figures/generalGraph.png Graphic file (type png)
 
 <use ../Figures/generalGraph.png>
 Package pdftex.def Info: ../Figures/generalGraph.png used on input line 27.
 (pdftex.def)             Requested size: 145.59778pt x 179.7393pt.
  [14 <C:/Users/Håvard/masterthesis/masterthesis/Figures/generalGraph.png>]
-
-LaTeX Warning: Reference `fig:ABgraphcreation' on page 15 undefined on input li
-ne 57.
-
-<../Figures/ABgraphcreation.png, id=297, 395.97937pt x 268.75406pt>
+<../Figures/ABgraphcreation.png, id=498, 395.97937pt x 268.75406pt>
 File: ../Figures/ABgraphcreation.png Graphic file (type png)
 
 <use ../Figures/ABgraphcreation.png>
@@ -1793,42 +1796,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-
-LaTeX Warning: Reference `eq:fixation' on page 18 undefined on input line 39.
-
-<./figs/NetworkTopology-Star.png, id=321, 441.65pt x 429.605pt>
+<./figs/NetworkTopology-Star.png, id=519, 441.65pt x 429.605pt>
 File: ./figs/NetworkTopology-Star.png Graphic file (type png)
 
 <use ./figs/NetworkTopology-Star.png>
 Package pdftex.def Info: ./figs/NetworkTopology-Star.png used on input line 43.
 
 (pdftex.def)             Requested size: 182.0pt x 177.03725pt.
-
-
-LaTeX Warning: Reference `fig:star' on page 18 undefined on input line 51.
-
-
-LaTeX Warning: Reference `eq:fixation' on page 18 undefined on input line 56.
-
-
-LaTeX Warning: Reference `eq:fixation2' on page 18 undefined on input line 56.
-
-[18]
-
-LaTeX Warning: Reference `eq:fixationk' on page 19 undefined on input line 80.
-
+ [18]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 86.
 
-<./figs/optimalequilibrium.png, id=337, 784.9325pt x 717.68124pt>
+<./figs/optimalequilibrium.png, id=539, 784.9325pt x 717.68124pt>
 File: ./figs/optimalequilibrium.png Graphic file (type png)
 
 <use ./figs/optimalequilibrium.png>
 Package pdftex.def Info: ./figs/optimalequilibrium.png used on input line 102.
 (pdftex.def)             Requested size: 116.47865pt x 106.4977pt.
 
-<./figs/notoptimalequilibrium.png, id=338, 784.9325pt x 717.68124pt>
+<./figs/notoptimalequilibrium.png, id=540, 784.9325pt x 717.68124pt>
 File: ./figs/notoptimalequilibrium.png Graphic file (type png)
 
 <use ./figs/notoptimalequilibrium.png>
@@ -1836,39 +1823,13 @@ Package pdftex.def Info: ./figs/notoptimalequilibrium.png used on input line 10
 8.
 (pdftex.def)             Requested size: 116.47865pt x 106.4977pt.
 
-
-LaTeX Warning: Reference `fig:optequi' on page 19 undefined on input line 111.
-
-
-LaTeX Warning: Reference `fig:notoptequi' on page 19 undefined on input line 11
-1.
-
-
-LaTeX Warning: Reference `fig:optequi' on page 19 undefined on input line 111.
-
-
-LaTeX Warning: Reference `fig:notoptequi' on page 19 undefined on input line 11
-1.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19 <C:/Users/Håvard/masterthesis/masterthesis/Template fra Laurent/figs/Netw
-orkTopology-Star.png>]
-
-LaTeX Warning: Reference `fig:starequi' on page 20 undefined on input line 115.
-
-
-[20 <C:/Users/Håvard/masterthesis/masterthesis/Template fra Laurent/figs/optim
-alequilibrium.png> <C:/Users/Håvard/masterthesis/masterthesis/Template fra Lau
-rent/figs/notoptimalequilibrium.png>]
-
-LaTeX Warning: Reference `eq:utility' on page 21 undefined on input line 124.
-
-
-LaTeX Warning: Reference `fig:game' on page 21 undefined on input line 140.
-
-<natureGameSingle.png, id=354, 198.7425pt x 174.6525pt>
+orkTopology-Star.png>] [20 <C:/Users/Håvard/masterthesis/masterthesis/Template
+ fra Laurent/figs/optimalequilibrium.png> <C:/Users/Håvard/masterthesis/master
+thesis/Template fra Laurent/figs/notoptimalequilibrium.png>]
+<natureGameSingle.png, id=560, 198.7425pt x 174.6525pt>
 File: natureGameSingle.png Graphic file (type png)
 
 <use natureGameSingle.png>
@@ -1878,15 +1839,8 @@ Package pdftex.def Info: natureGameSingle.png used on input line 148.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21]
-
-LaTeX Warning: Reference `eq:fixation' on page 22 undefined on input line 164.
-
-
-LaTeX Warning: Reference `eq:fixation' on page 22 undefined on input line 167.
-
-) [22 <C:/Users/Håvard/masterthesis/masterthesis/Template fra Laurent/natureGa
-meSingle.png>]
+[21]) [22 <C:/Users/Håvard/masterthesis/masterthesis/Template fra Laurent/natu
+reGameSingle.png>]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork.t
 ex" [23
 
@@ -1946,7 +1900,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--48
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [44]
-<../Figures/financialContagion1.png, id=534, 197.23688pt x 135.50626pt>
+<../Figures/financialContagion1.png, id=716, 197.23688pt x 135.50626pt>
 File: ../Figures/financialContagion1.png Graphic file (type png)
 
 <use ../Figures/financialContagion1.png>
@@ -1954,7 +1908,7 @@ Package pdftex.def Info: ../Figures/financialContagion1.png used on input line
 68.
 (pdftex.def)             Requested size: 145.60056pt x 100.03113pt.
 
-<../Figures/financialContagion2.png, id=535, 177.66376pt x 131.74219pt>
+<../Figures/financialContagion2.png, id=717, 177.66376pt x 131.74219pt>
 File: ../Figures/financialContagion2.png Graphic file (type png)
 
 <use ../Figures/financialContagion2.png>
@@ -2026,54 +1980,35 @@ aux")
 Insurance.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 97C912095E8A74EBCEAA106DC99D1347;416
-(rerunfilecheck)             After:  F49C83B187D314100AFC9C9CA13204D5;3355.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: F49C83B187D314100AFC9C9CA13204D5;3355.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 21970 strings out of 494045
- 326995 string characters out of 3145963
- 566301 words of memory out of 3000000
- 24414 multiletter control sequences out of 15000+200000
+ 22030 strings out of 494045
+ 328993 string characters out of 3145963
+ 581519 words of memory out of 3000000
+ 24460 multiletter control sequences out of 15000+200000
  77201 words of font info for 125 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  62i,13n,94p,1504b,599s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{figure.caption.4} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.1.1.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/enc/dvips/lm/lm-rm.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm
-/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb>
-Output written on main.pdf (64 pages, 594265 bytes).
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/
+MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/
+fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx
+12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/lm/lmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb>
+Output written on main.pdf (64 pages, 619388 bytes).
 PDF statistics:
- 680 PDF objects out of 1000 (max. 8388607)
- 236 named destinations out of 1000 (max. 500000)
- 21089 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 859 PDF objects out of 1000 (max. 8388607)
+ 234 named destinations out of 1000 (max. 500000)
+ 21393 words of extra memory for PDF output out of 24883 (max. 10000000)
 
