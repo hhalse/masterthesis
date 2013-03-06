@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {1.2}Three main obstacles}{2}{section.1.2}
 \contentsline {subparagraph}{Information asymmetry}{2}{section*.4}
 \contentsline {subparagraph}{Correlated risk}{3}{section*.5}
-\contentsline {subparagraph}{Interdependent security}{3}{section*.6}
+\contentsline {subparagraph}{Interdependent security}{4}{section*.6}
 \contentsline {subsection}{\numberline {1.2.1}The idea behind cyber-insurance}{4}{subsection.1.2.1}
 \contentsline {chapter}{\chapternumberline {2}Current market}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}Current market state}{7}{section.2.1}
@@ -93,4 +93,4 @@
 \contentsline {chapter}{\chapternumberline {9}Modeling Cyber-Insurance }{43}{chapter.9}
 \contentsline {section}{\numberline {9.1}Network Formation}{43}{section.9.1}
 \contentsline {subsection}{\numberline {9.1.1}Model of handling contagion risk}{44}{subsection.9.1.1}
-\contentsline {chapter}{References}{47}{section*.59}
+\contentsline {chapter}{References}{47}{section*.61}
