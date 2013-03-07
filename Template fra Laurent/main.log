@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  6 MAR 2013 14:23
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  6 MAR 2013 14:43
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -1756,14 +1756,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<../Figures/generalGraph.png, id=483, 266.49562pt x 328.97906pt>
+<../Figures/generalGraph.png, id=482, 266.49562pt x 328.97906pt>
 File: ../Figures/generalGraph.png Graphic file (type png)
 
 <use ../Figures/generalGraph.png>
 Package pdftex.def Info: ../Figures/generalGraph.png used on input line 27.
 (pdftex.def)             Requested size: 145.59778pt x 179.7393pt.
  [14 <D:/GITREPO/masterthesis/Figures/generalGraph.png>] <../Figures/ABgraphcre
-ation.png, id=503, 395.97937pt x 268.75406pt>
+ation.png, id=502, 395.97937pt x 268.75406pt>
 File: ../Figures/ABgraphcreation.png Graphic file (type png)
 
 <use ../Figures/ABgraphcreation.png>
@@ -1782,7 +1782,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<./figs/NetworkTopology-Star.png, id=524, 441.65pt x 429.605pt>
+<./figs/NetworkTopology-Star.png, id=523, 441.65pt x 429.605pt>
 File: ./figs/NetworkTopology-Star.png Graphic file (type png)
 
 <use ./figs/NetworkTopology-Star.png>
@@ -1794,14 +1794,14 @@ Package pdftex.def Info: ./figs/NetworkTopology-Star.png used on input line 43.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 86.
 
-<./figs/optimalequilibrium.png, id=544, 784.9325pt x 717.68124pt>
+<./figs/optimalequilibrium.png, id=543, 784.9325pt x 717.68124pt>
 File: ./figs/optimalequilibrium.png Graphic file (type png)
 
 <use ./figs/optimalequilibrium.png>
 Package pdftex.def Info: ./figs/optimalequilibrium.png used on input line 102.
 (pdftex.def)             Requested size: 116.47865pt x 106.4977pt.
 
-<./figs/notoptimalequilibrium.png, id=545, 784.9325pt x 717.68124pt>
+<./figs/notoptimalequilibrium.png, id=544, 784.9325pt x 717.68124pt>
 File: ./figs/notoptimalequilibrium.png Graphic file (type png)
 
 <use ./figs/notoptimalequilibrium.png>
@@ -1815,7 +1815,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 g>]
 [20 <D:/GITREPO/masterthesis/Template fra Laurent/figs/optimalequilibrium.png> 
 <D:/GITREPO/masterthesis/Template fra Laurent/figs/notoptimalequilibrium.png>]
-<natureGameSingle.png, id=565, 198.7425pt x 174.6525pt>
+<natureGameSingle.png, id=564, 198.7425pt x 174.6525pt>
 File: natureGameSingle.png Graphic file (type png)
 
 <use natureGameSingle.png>
@@ -1881,7 +1881,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--48
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [44]
-<../Figures/financialContagion1.png, id=721, 197.23688pt x 135.50626pt>
+<../Figures/financialContagion1.png, id=720, 197.23688pt x 135.50626pt>
 File: ../Figures/financialContagion1.png Graphic file (type png)
 
 <use ../Figures/financialContagion1.png>
@@ -1889,7 +1889,7 @@ Package pdftex.def Info: ../Figures/financialContagion1.png used on input line
 68.
 (pdftex.def)             Requested size: 145.60056pt x 100.03113pt.
 
-<../Figures/financialContagion2.png, id=722, 177.66376pt x 131.74219pt>
+<../Figures/financialContagion2.png, id=721, 177.66376pt x 131.74219pt>
 File: ../Figures/financialContagion2.png Graphic file (type png)
 
 <use ../Figures/financialContagion2.png>
@@ -1898,14 +1898,14 @@ Package pdftex.def Info: ../Figures/financialContagion2.png used on input line
 (pdftex.def)             Requested size: 133.95445pt x 99.33305pt.
  [45 <D:/GITREPO/masterthesis/Figures/financialContagion1.png> <D:/GITREPO/mast
 erthesis/Figures/financialContagion2.png>]
-<../Figures/gameTheoryModel1WithEquations.png, id=733, 923.70094pt x 132.495pt>
+<../Figures/gameTheoryModel1WithEquations.png, id=732, 923.70094pt x 132.495pt>
 File: ../Figures/gameTheoryModel1WithEquations.png Graphic file (type png)
 <use ../Figures/gameTheoryModel1WithEquations.png>
 Package pdftex.def Info: ../Figures/gameTheoryModel1WithEquations.png used on i
 nput line 91.
 (pdftex.def)             Requested size: 364.0pt x 52.2106pt.
 
-<../Figures/gameTheoryModel1WithNumbers.png, id=738, 491.58656pt x 140.02313pt>
+<../Figures/gameTheoryModel1WithNumbers.png, id=737, 491.58656pt x 140.02313pt>
 File: ../Figures/gameTheoryModel1WithNumbers.png Graphic file (type png)
 <use ../Figures/gameTheoryModel1WithNumbers.png>
 Package pdftex.def Info: ../Figures/gameTheoryModel1WithNumbers.png used on inp
@@ -1966,16 +1966,12 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 45C9D86DE710719297FF72C766D02063;3355.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
  ) 
 Here is how much of TeX's memory you used:
  22045 strings out of 494045
  322266 string characters out of 3153222
- 581836 words of memory out of 3000000
+ 581734 words of memory out of 3000000
  24470 multiletter control sequences out of 15000+200000
  77201 words of font info for 125 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -1990,9 +1986,9 @@ lic/lm/lmr6.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr7.pfb><D:/Latex/MiKTe
 X/fonts/type1/public/lm/lmr8.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr9.pf
 b><D:/Latex/MiKTeX/fonts/type1/public/lm/lmri10.pfb><D:/Latex/MiKTeX/fonts/type
 1/public/lm/lmsy10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
-Output written on main.pdf (64 pages, 664051 bytes).
+Output written on main.pdf (64 pages, 663822 bytes).
 PDF statistics:
- 874 PDF objects out of 1000 (max. 8388607)
+ 873 PDF objects out of 1000 (max. 8388607)
  237 named destinations out of 1000 (max. 500000)
  21403 words of extra memory for PDF output out of 24883 (max. 10000000)
 
