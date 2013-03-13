@@ -32,19 +32,22 @@ In other words, if the nodes can choose who they connect with, and by doing so, 
 
 Inspired by this model, we created a model which shields light on how cyber-insurance can be used in network formation to prevent cascading failures and increase an agents payoff.  
 
-\subsection{Model of handling contagion risk}
-The model is simplified in order to show the concept of using cyber-insurance to encounter the problems with contagious risk. The model is formulated as follows. A set of $n$ agents are randomly chosen to be insured or not. They all get their own income, and by connecting to other agents they will benefit from their income, i.e. when connected both agents will increase their income. However, when connecting to another agent naturally the cost of insurance increases due to aggregated risk. If and agent connects to someone without insurance a possible risk of severe losses due to cascading failure $r$ has to be taken into account. 
+\subsection{Model with parameters}
+To make this simple model more realistic, we have to create a game, an agent can be either insured or not insured, the insured ones have to pay an insurance cost$I_{0}$. Every agent starts with a fixed income, $\alpha$, to further increase their income they have to establish links to other agents. For each link they establish they receive a payoff of $\beta$. An insured node has to pay a cost of $I_{l}$ for every link he establish. The game is bidirectional, so both agents has to agree to the establishment of a link, and if both are insured, they both have to pay the cost $I_{l}$. 
+Every agent who is not insured will have a risk of failure(infected, bankruptcy, or some other type of failure), this is captured with the expected risk cost $r$. Every node who connects to an node who is not insured will also receive this cost. See \ref{tbl:simplegamepara} for an overview of the parameters. 
 
 \begin{tabular}{|l|}
  \hline
-  $\alpha$ - an agents income\\
-  $\beta$ - income from direct links \\
-  $I_{o}$ - cost of insurance. \\
-  $I_{l}$ - increased insurance cost due to risk from a direct link.\\
-  $r$ - cost of not having insurance, in case of failure.\\
-  $q$ - probability of failure. \\
+  $\alpha$ - agents fixed income\\
+  $\beta$ - income from establishing a direct link \\
+  $I_{o}$ - cost of having insurance. \\
+  $I_{l}$ - increased insurance cost per link the node establishes\\
+  $r$ - expected risk cost\\
+
   \hline
+  \label{tbl:simplegamepara}
 \end{tabular} \\
+However, when connecting to another agent naturally the cost of insurance increases due to aggregated risk. If and agent connects to someone without insurance a possible risk of severe losses due to cascading failure $r$ has to be taken into account. 
 
 Each agents payoff $ \pi$ is calculated with the following equations: 
 
