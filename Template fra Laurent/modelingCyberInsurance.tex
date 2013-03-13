@@ -5,14 +5,13 @@
 \section{Network Formation}
 
 
-
 In many scenarios agents seeks to create networks in order to directly benefit from each other. The established links might represent companies out sourcing part of their manufacturing, or cooperative agreements in the development of new software products. In addition to increase the trade-off, each of the established links represents risk of being a victim of cascading failures. The intuitive example is the spread of epidemic diseases, also  (node failures of a power grid and) financial contagion such as the one back in 2008 was a result of cascading failures. Strategic network formation using cyber-insurance can be used to prevent such situation in addition to increase the overall payoff of participants in a clustered network.
 
 
 When deciding whether to establish connection to a neighbour agent, the payoff has to be a balance between the expected earnings and the risk of the other party failing to complete the transaction. This is the reason why we seek to only download content from trusted peers and outlaw MC-gangs are consistently skeptical to enter into new agreements despite promising increased earnings, since the risk of undercover police are too high. 
 
 
-In the paper \cite{contagion}, they came up with some interesting results regarding network formation games. 
+In the paper \cite{contagion}, they come up with some interesting results regarding network formation games. 
 They set up a game where the nodes benefit from direct links, but these links also expose them for risk. 
 Each node gains a payoff of  $a$ per link it establishes, but it can establish a maximum of $\delta$ links.
 A failure occur at a node with probability $q$, and propagates on a link with probability $p$. If a nodes fail, it will receive a negative payoff of $b$, no matter how many links it has established.
@@ -31,6 +30,7 @@ In other words, if the nodes can choose who they connect with, and by doing so, 
 
 
 Inspired by this model, we created a model which shields light on how cyber-insurance can be used in network formation to prevent cascading failures and increase an agents payoff.  
+\input{verysimplemodel}
 
 \subsection{Model with parameters}
 To make this simple model more realistic, we have to create a game, an agent can be either insured or not insured, the insured ones have to pay an insurance cost$I_{0}$. Every agent starts with a fixed income, $\alpha$, to further increase their income they have to establish links to other agents. For each link they establish they receive a payoff of $\beta$. An insured node has to pay a cost of $I_{l}$ for every link he establish. The game is bidirectional, so both agents has to agree to the establishment of a link, and if both are insured, they both have to pay the cost $I_{l}$. 
@@ -60,7 +60,7 @@ Each agents payoff $ \pi$ is calculated with the following equations:
  \label{eq:payoffnotinsured}
 \end{equation} 
 By adjusting the parameter one can assure that only insured agents connects to other insured agents, and the opposite,
-that only uninsured agents connects to each other. Hence as we can see from the figure \ref{fig:fincont2} clustered
+that only uninsured agents connects to each other. Hence as we can see from the figure \ref{fig:fincont} clustered
 networks of insured agents (red) are created, and  as the paper \cite{contagion} showed, these clustered trusted
 networks, can achieve higher, super-critical, payoff by increasing their node degree past the critical point.
 
@@ -85,7 +85,7 @@ In this model we have neglected the information problem, we assume that all node
 
 It is also possible to solve the information asymmetry problem by including a rule, such that no insured node will connect to anyone unless they can provide proof of insurance. This simple rule makes insurable-clustered components  evolve endogenously in the network. Which is beneficial for both the insurer and the nodes, because the nodes can thus receive a super-critical payoff, and they are also insured against contagious risk.  
 
-Figure \ref{fig:GTmodel1equations} presents the individual payoffs in a formation game between two agents in the described model. It is assumed that both agents has to have a desire to establish a connection in order to create a link between them. This is reasonable since a company would not prefer to enter into an agreement with negative expected payoff, as in this case would be the result when an insured agent is requested a connection with someone without insurance. 
+Figure \ref{fig:GTmodel1equations} presents the individual payoffs in a formation game between two agents in the described model. It is assumed that both agents has to have a desire to establish a connection in order to create a link between them. This is reasonable since a company would not prefer to enter into an agreement with negative expected payoff. As in this case would be the result when an insured agent is requested a connection with someone without insurance. 
  
  
 \begin{figure}[h]
