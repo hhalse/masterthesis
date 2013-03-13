@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  7 MAR 2013 10:43
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  13 MAR 2013 10:06
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -1842,7 +1842,7 @@ Underfull \vbox (badness 5388) has occurred while \output is active []
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (12.0pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 87.
+(in both cases you will find help in the memoir manual). on input line 88.
 
 
 Overfull \vbox (12.0pt too high) has occurred while \output is active []
@@ -1868,7 +1868,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43])
 [44] ("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance.tex"
-
+("D:\GITREPO\masterthesis\Template fra Laurent\verysimplemodel.tex")
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [45
@@ -1884,7 +1884,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--48
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [46]
-<../Figures/financialContagion1.png, id=734, 197.23688pt x 135.50626pt>
+<../Figures/financialContagion1.png, id=736, 197.23688pt x 135.50626pt>
 File: ../Figures/financialContagion1.png Graphic file (type png)
 
 <use ../Figures/financialContagion1.png>
@@ -1892,7 +1892,7 @@ Package pdftex.def Info: ../Figures/financialContagion1.png used on input line
 68.
 (pdftex.def)             Requested size: 145.60056pt x 100.03113pt.
 
-<../Figures/financialContagion2.png, id=735, 177.66376pt x 131.74219pt>
+<../Figures/financialContagion2.png, id=737, 177.66376pt x 131.74219pt>
 File: ../Figures/financialContagion2.png Graphic file (type png)
 
 <use ../Figures/financialContagion2.png>
@@ -1901,14 +1901,14 @@ Package pdftex.def Info: ../Figures/financialContagion2.png used on input line
 (pdftex.def)             Requested size: 133.95445pt x 99.33305pt.
  [47 <D:/GITREPO/masterthesis/Figures/financialContagion1.png> <D:/GITREPO/mast
 erthesis/Figures/financialContagion2.png>]
-<../Figures/gameTheoryModel1WithEquations.png, id=745, 923.70094pt x 132.495pt>
+<../Figures/gameTheoryModel1WithEquations.png, id=747, 923.70094pt x 132.495pt>
 File: ../Figures/gameTheoryModel1WithEquations.png Graphic file (type png)
 <use ../Figures/gameTheoryModel1WithEquations.png>
 Package pdftex.def Info: ../Figures/gameTheoryModel1WithEquations.png used on i
 nput line 91.
 (pdftex.def)             Requested size: 364.0pt x 52.2106pt.
 
-<../Figures/gameTheoryModel1WithNumbers.png, id=750, 491.58656pt x 140.02313pt>
+<../Figures/gameTheoryModel1WithNumbers.png, id=752, 491.58656pt x 140.02313pt>
 File: ../Figures/gameTheoryModel1WithNumbers.png Graphic file (type png)
 <use ../Figures/gameTheoryModel1WithNumbers.png>
 Package pdftex.def Info: ../Figures/gameTheoryModel1WithNumbers.png used on inp
@@ -1944,15 +1944,15 @@ cle / 9223366 / Cyber _ insurance _$
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (12.0pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 116.
+(in both cases you will find help in the memoir manual). on input line 117.
 
 [50]
 \tf@toc=\write8
 \tf@lof=\write9
 \tf@lot=\write10
 \tf@loa=\write11
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
  ("D:\GITREPO\masterthesis\Template fra Laurent\main.aux"
 ("D:\GITREPO\masterthesis\Template fra Laurent\abstract_english.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\preface.aux")
@@ -1965,33 +1965,43 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
 ("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork2.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\networkgames.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 25318EAD60FC748B6BB09D0987F8977D;3431.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 25318EAD60FC748B6BB09D0987F8977D;3431
+(rerunfilecheck)             After:  3CA21596B1539BA23D7CC945D6AD9B22;3496.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
  ) 
 Here is how much of TeX's memory you used:
- 22049 strings out of 494045
- 322304 string characters out of 3153222
+ 22056 strings out of 494045
+ 322516 string characters out of 3153222
  581733 words of memory out of 3000000
- 24471 multiletter control sequences out of 15000+200000
+ 24473 multiletter control sequences out of 15000+200000
  77201 words of font info for 125 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  62i,13n,94p,1504b,599s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{D:/Latex/MiKTeX/fonts/enc/dvip
-s/lm/lm-mathsy.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{D:/Latex/
-MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}<D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx
-10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><D:/Latex/MiKTeX/fonts
-/type1/public/lm/lmmi10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><D
-:/Latex/MiKTeX/fonts/type1/public/lm/lmr10.pfb><D:/Latex/MiKTeX/fonts/type1/pub
-lic/lm/lmr6.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr7.pfb><D:/Latex/MiKTe
-X/fonts/type1/public/lm/lmr8.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr9.pf
-b><D:/Latex/MiKTeX/fonts/type1/public/lm/lmri10.pfb><D:/Latex/MiKTeX/fonts/type
-1/public/lm/lmsy10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
-Output written on main.pdf (66 pages, 665524 bytes).
+pdfTeX warning (dest): name{subsection.9.1.1} has been referenced but does no
+t exist, replaced by a fixed one
+
+{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/
+lm/lm-mathsy.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{D:/Latex/Mi
+KTeX/fonts/enc/dvips/lm/lm-rm.enc}<D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx10
+.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><D:/Latex/MiKTeX/fonts/t
+ype1/public/lm/lmmi10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><D:/
+Latex/MiKTeX/fonts/type1/public/lm/lmr10.pfb><D:/Latex/MiKTeX/fonts/type1/publi
+c/lm/lmr6.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr7.pfb><D:/Latex/MiKTeX/
+fonts/type1/public/lm/lmr8.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr9.pfb>
+<D:/Latex/MiKTeX/fonts/type1/public/lm/lmri10.pfb><D:/Latex/MiKTeX/fonts/type1/
+public/lm/lmsy10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
+Output written on main.pdf (66 pages, 665994 bytes).
 PDF statistics:
- 886 PDF objects out of 1000 (max. 8388607)
- 240 named destinations out of 1000 (max. 500000)
+ 889 PDF objects out of 1000 (max. 8388607)
+ 242 named destinations out of 1000 (max. 500000)
  21411 words of extra memory for PDF output out of 24883 (max. 10000000)
 
