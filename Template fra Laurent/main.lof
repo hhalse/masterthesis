@@ -17,15 +17,10 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-<<<<<<< HEAD
-\contentsline {figure}{\numberline {9.1}{\ignorespaces shows how insured agents connects with each other to form a network to achieve super-critical payoffs.\relax }}{48}{figure.caption.57}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Caption for LOF}}{49}{figure.caption.58}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{49}{figure.caption.59}
-=======
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Normal form game, showing the different strategies and the payoffs for the different outcomes. The payoff for agent A is written first, then the payoff for agent B is on the line beneath. An agent has a strategy space of size 4. \relax }}{47}{figure.caption.59}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Caption for LOF}}{49}{figure.caption.62}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Caption for LOF}}{50}{figure.caption.64}
-\contentsline {figure}{\numberline {9.4}{\ignorespaces shows how insured agents connects with each other to form a network to achieve super-critical payoffs.\relax }}{50}{figure.caption.66}
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Caption for LOF}}{51}{figure.caption.67}
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{51}{figure.caption.68}
->>>>>>> 6b9bc46bbd92f5892fc0f1b92d5f31946e38dd4e
+\contentsline {figure}{\numberline {9.1}{\ignorespaces shows how insured agents connects with each other to form a network to achieve super-critical payoffs.\relax }}{47}{figure.caption.57}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Normal form game, showing the different strategies and the payoffs for the different outcomes. The payoff for agent A is written first, then the payoff for agent B is on the line beneath. An agent has a strategy space of size 4. \relax }}{48}{figure.caption.60}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Caption for LOF}}{50}{figure.caption.63}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Caption for LOF}}{51}{figure.caption.65}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces shows how insured agents connects with each other to form a network to achieve super-critical payoffs.\relax }}{51}{figure.caption.67}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Caption for LOF}}{52}{figure.caption.68}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{52}{figure.caption.69}

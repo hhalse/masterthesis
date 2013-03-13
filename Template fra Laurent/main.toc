@@ -94,14 +94,9 @@
 \contentsline {chapter}{\chapternumberline {8}Network Games}{43}{chapter.8}
 \contentsline {chapter}{\chapternumberline {9}Modeling Cyber-Insurance }{45}{chapter.9}
 \contentsline {section}{\numberline {9.1}Network Formation}{45}{section.9.1}
-<<<<<<< HEAD
 \contentsline {section}{\numberline {9.2}Very Simple Model}{46}{section.9.2}
-\contentsline {subsection}{\numberline {9.2.1}Model of handling contagion risk}{47}{subsection.9.2.1}
-\contentsline {chapter}{References}{51}{section*.61}
-=======
-\contentsline {subsection}{\numberline {9.1.1}Model with parameters}{46}{subsection.9.1.1}
-\contentsline {subparagraph}{Two agent game}{47}{section*.58}
-\contentsline {subparagraph}{Example scenario}{48}{section*.60}
-\contentsline {subparagraph}{BRUKE DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{49}{section*.65}
-\contentsline {chapter}{References}{53}{section*.70}
->>>>>>> 6b9bc46bbd92f5892fc0f1b92d5f31946e38dd4e
+\contentsline {subsection}{\numberline {9.2.1}Model with parameters}{47}{subsection.9.2.1}
+\contentsline {subparagraph}{Two agent game}{48}{section*.59}
+\contentsline {subparagraph}{Example scenario}{49}{section*.61}
+\contentsline {subparagraph}{BRUKE DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{50}{section*.66}
+\contentsline {chapter}{References}{53}{section*.71}
