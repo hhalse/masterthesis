@@ -18,7 +18,11 @@
 \BOOKMARK [2][-]{subsection.3.1.2}{Random Graphs}{section.3.1}% 18
 \BOOKMARK [0][-]{chapter.4}{Evolutionary dynamics on graphs}{}% 19
 \BOOKMARK [1][-]{subsection.4.0.3}{Network games}{chapter.4}% 20
+<<<<<<< HEAD
 \BOOKMARK [1][-]{section.4.1}{Notater og slikt}{chapter.4}% 21
+=======
+\BOOKMARK [1][-]{section.4.1}{NOTES... random.. don't read}{chapter.4}% 21
+>>>>>>> master
 \BOOKMARK [0][-]{chapter.5}{Relatedwork}{}% 22
 \BOOKMARK [1][-]{section.5.1}{Towards Insurable Network Architectures}{chapter.5}% 23
 \BOOKMARK [1][-]{section.5.2}{Cyber insurance as an Incentive for Internet Security}{chapter.5}% 24
@@ -42,5 +46,9 @@
 \BOOKMARK [0][-]{chapter.8}{Network Games}{}% 42
 \BOOKMARK [0][-]{chapter.9}{Modeling Cyber-Insurance }{}% 43
 \BOOKMARK [1][-]{section.9.1}{Network Formation}{chapter.9}% 44
+<<<<<<< HEAD
 \BOOKMARK [2][-]{subsection.9.1.1}{Model with parameters}{section.9.1}% 45
+=======
+\BOOKMARK [2][-]{subsection.9.1.1}{Model of handling contagion risk}{section.9.1}% 45
+>>>>>>> master
 \BOOKMARK [0][-]{section*.61}{References}{}% 46
