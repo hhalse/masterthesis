@@ -36,11 +36,8 @@
 \contentsline {subparagraph}{endogenous and exogenous}{18}{section*.19}
 \contentsline {subparagraph}{An exogenous insurable topology}{19}{section*.20}
 \contentsline {subsection}{\numberline {4.0.3}Network games}{20}{subsection.4.0.3}
-<<<<<<< HEAD
 \contentsline {section}{\numberline {4.1}Notater og slikt}{21}{section.4.1}
-=======
-\contentsline {section}{\numberline {4.1}NOTES... random.. don't read}{21}{section.4.1}
->>>>>>> master
+\contentsline {section}{\numberline {4.2}NOTES... random.. don't read}{21}{section.4.2}
 \contentsline {chapter}{\chapternumberline {5}Relatedwork}{25}{chapter.5}
 \contentsline {section}{\numberline {5.1}Towards Insurable Network Architectures}{25}{section.5.1}
 \contentsline {subparagraph}{Interdependent security}{26}{section*.24}
@@ -97,10 +94,5 @@
 \contentsline {chapter}{\chapternumberline {8}Network Games}{43}{chapter.8}
 \contentsline {chapter}{\chapternumberline {9}Modeling Cyber-Insurance }{45}{chapter.9}
 \contentsline {section}{\numberline {9.1}Network Formation}{45}{section.9.1}
-<<<<<<< HEAD
 \contentsline {subsection}{\numberline {9.1.1}Model with parameters}{46}{subsection.9.1.1}
 \contentsline {chapter}{References}{51}{section*.61}
-=======
-\contentsline {subsection}{\numberline {9.1.1}Model of handling contagion risk}{46}{subsection.9.1.1}
-\contentsline {chapter}{References}{49}{section*.61}
->>>>>>> master
