@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  13 MAR 2013 19:33
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  13 MAR 2013 19:38
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -1610,18 +1610,6 @@ Package glossaries Info: Writing glossary file main.acn on input line 21.
 ("D:\GITREPO\masterthesis\Template fra Laurent\networkgames.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance.aux"
 
-LaTeX Warning: Label `fig:fincont1' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:fincont1' multiply defined.
-
-
-LaTeX Warning: Label `fig:fincont2' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:fincont2' multiply defined.
-
-
 LaTeX Warning: Label `fig:fincont' multiply defined.
 
 ))
@@ -2037,7 +2025,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
 Here is how much of TeX's memory you used:
  22124 strings out of 494045
  323916 string characters out of 3153222
- 583288 words of memory out of 3000000
+ 584126 words of memory out of 3000000
  24507 multiletter control sequences out of 15000+200000
  77715 words of font info for 131 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
