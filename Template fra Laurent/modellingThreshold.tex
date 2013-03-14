@@ -1,0 +1,51 @@
+
+\section{Game including max node degree}
+So far the model describes a scenario where the goal is to get all the insured nodes to connect with each other. As we have seen this creates a strong trusted environment for the insured nodes when the parameters are adjusted to certain values. However, in many scenarios the goal might not be to be connected to everyone. Sometimes a company wishes to reach a specific number of connections in order to receive a significant profit, which is denoted $\gamma$. Such scenario might create incentives for insured nodes to connect with non-insured, in order to reach the desired number of connections. As an example consider a software company wanting to implement a new software program, however they do not have the capacity or resources to do it alone. Their goal is to establish enough partnerships to be able to create the new program. In this game we might end up in a situation where insured agents are willing to connect with non-insured, to reach the desired number of partners. Table \ref{tbl:model3para} summarizes the added parameters. 
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lc}
+ \hline
+  $m$ - an agents desired number of connections\\
+  $L_{i}$ - connections with insured agents \\
+  $L_{ni}$ - connections with non-insured agents\\
+  $\gamma$ - an agents profit from reaching $m$ \\
+  \hline
+\end{tabular}
+\caption{Table showing the parameters added to the model \label{tbl:model3para}}
+\end{table}
+
+
+Building on the already existing model this model adds the property of a significant bonus $\gamma$ if a desired number of links $m$ are established. From here we can describe two different models, one where the insured agent first tries to connect with other insured agents, however if there are not enough insured agents it will try to establish connections with non-insured agents. The other model shows a game where the insured agent is less strict on whether the other node is insured or not. The insured agent makes a decision with regards to the equation \ref{eq:insured-noninsured}. Here \frac{\gamma}{ L_{ni} will increase as more connections are established. I.e. the more established connections the higher probability for the insured agent to connect to a non-insured agent.
+
+\subsection{Game random connection}
+Insured agents still prefer to connect to other insured agents, however, if it is not possible they will consider connecting to non-insured. As we see from equation \ref{eq:Lnotinsured} insured agents might have to establish up to $L_{ni}$ connections to non-insured agents in order to receive $\gamma$. 
+
+\begin{equation} 
+L_{ni} = m - L_{i} 
+\label{eq:Lnotinsured}
+\end{equation}
+
+
+
+
+
+
+If an insured agent wont be able to establish all the $m$ connections with other insured agents, it has to evaluate whether it is beneficial to connect to a non-insured agent. This means that $\gamma$ has to be reflected in the equation \ref{eq:insured-noninsured}, which shows the insured agents profit from connecting to a non-insured agent. To simplify the scenario we assume that each non-insured agent contribute with an extra $\frac{\gamma}{ L_{ni}}$ and end up with the following equation:
+
+\begin{equation}
+U_{i}=\alpha - I_{0} - I_{l} - r + \beta + \frac{\gamma}{ L_{ni}}
+\label{eq:insured-noninsured}
+\end{equation}
+
+An insured agent will only connect with an non-insured agent if the following is fulfilled:
+
+\begin{equation}
+\frac{\gamma}{ L_{ni}}  > r +  I_{l}
+\label{eq:gammaovernotinsured}
+\end{equation}
+
+In addition the agent has to ensure that $non-insured $\:$ agents $\:$ willing $\:$ to $\:$ connect \ge L_{ni}$ , else one will end up in a scenario where the agent takes unnecessary risk without being able to receive $\gamma$ at the end. This means that the insured agent only consider connecting to other non-insured nodes if and only if it is guaranteed that the desired number of connections will be met. 
+
+
+\subsection{Game connecting to insured first}
