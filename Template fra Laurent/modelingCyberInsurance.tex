@@ -186,12 +186,41 @@ In this particular situation with only two agents, the game will still end up in
 \end{tabular}
 \caption[Caption for LOF]{Normal form game between two agents with the parameters given in table \ref{tbl:simplegamevalue2}, the best response of a player to a given strategy is marked with an underscore.There are two pure nash equilibriums in this game,$IL,IL$ and $I\underline{L},I\underline{L}$. \label{fig:NFnumbersViolating}}
 \end{figure}
+\subsection{Modelling the game with different parameters and multiple agents}
+
+To see the outcomes of this game more clearly and to verify the multiple agent scenarios, we created a simulator that models the scenario. The rules are as described earlier, when a node is considering establishing a link it chooses to do so if the payoff it will receive is larger than the payoff it have when not establishing the link, and the decision is bilateral. 
+In the simulator a node is insured with a probability, $p$. The network formation is performed by selecting two random nodes, not neighbouring each other, then both nodes checks if they would prefer to establish a connection or not. This selection is repeated until the network are fully connected or no more nodes are willing to establish new connections.
+\subparagraph{Simulation of game with optimal parameters}
+\begin{figure}[h]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.4\linewidth]{../Figures/FirstSimulationStart.png}
+  \caption{\label{fig:firstsimulationstart} Ten nodes randomly, with probability 0.5, chosen to be either insured (green) or non-insured (red.}
+\end{subfigure}
+\quad
+\begin{subfigure}{.46\textwidth}
+  \centering
+  \includegraphics[width=0.8\linewidth]{../Figures/FirstSimulationResult.png}
+  \caption{\label{fig:firstsimulationresult} Two clustered fully connected networks. One consisting of insured agents the other consists of non-insured. The link establishment is done by following the rules described above}
+\end{subfigure}
+\caption{\label{fig:firstsimulation} The figure shows how ten nodes start out with no links, and then add links as long as they can increase their payoff, the result are two seperate cliques, one consisting of non-insured and the other of insured nodes.}
+\end{figure}
+In figure \ref{fig:firstsimulation} we see the result of a simulation with the parameters from table \ref{tbl:simplegamevalue}, with these parameters the game should end in two cliques, one with insured nodes and another with non-insured. The result are shown in figure \ref{fig:firstsimulationresult}. Our calculations where confirmed, only insured nodes connect to each other.  
+In this figure there are only included $n=10$ nodes, this is done to make the figure understandable and readable.
+The same results where confirmed when performing the simulation with larger values of n, but the resulting picture was very complex and chaotic.
+\subparagraph{Simulation of game with parameters violating equation \ref{eq:final condition}}
+\begin{figure}[h]
+\centering
+
+\includegraphics[width=0.4\textwidth]{../Figures/FirstSimulationViolatingResult.png}
+
+\caption{\label{fig:SimulationViolating} Ten nodes insured with probability 0.5, and the parameters from table \ref{tbl:simplegamevalue2}. The link insurance cost, $I_{l}$, is violating the condition in equation \ref{eq:final condition}, and the resulting network is one clique of both insured and non-insured nodes.}
+\end{figure}
 
 
-\input{modellingThreshold}
-
-
-\subparagraph{BRUKE DETTE ET ANNET STED KANSKJE? BLIR LITT RART Å HOPPE INN I DET HER}
+In this simulation, the cost of insuring a link where chosen to violate the condition that ensured optimal results, and as we see in figure \ref{fig:SimulationViolating} the result was not optimal, there are only one clique and insured nodes are connected to non-insured. 
+\subsection{DETTE ET ANNET STED KANSKJE? BLIR LITT RART Å HOPPE INN I DET HER}
 By adjusting the parameter one can assure that only insured agents connects to other insured agents, and the opposite,
 that only uninsured agents connects to each other. Hence as we can see from the figure \ref{fig:fincont} clustered
 networks of insured agents (red) are created, and  as the paper \cite{contagion} showed, these clustered trusted
