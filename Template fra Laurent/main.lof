@@ -21,14 +21,8 @@
 \contentsline {figure}{\numberline {9.2}{\ignorespaces Normal form game, showing the different strategies and the payoffs for the different outcomes. The payoff for agent A is written first, then the payoff for agent B is on the line beneath. An agent has a strategy space of size 4. \relax }}{48}{figure.caption.60}
 \contentsline {figure}{\numberline {9.3}{\ignorespaces Caption for LOF}}{50}{figure.caption.63}
 \contentsline {figure}{\numberline {9.4}{\ignorespaces Caption for LOF}}{51}{figure.caption.65}
-<<<<<<< HEAD
-\contentsline {figure}{\numberline {9.5}{\ignorespaces shows how insured agents connects with each other to form a network to achieve super-critical payoffs.\relax }}{52}{figure.caption.67}
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Caption for LOF}}{53}{figure.caption.68}
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{53}{figure.caption.69}
-=======
 \contentsline {figure}{\numberline {9.5}{\ignorespaces The figure shows how ten nodes start out with no links, and then add links as long as they can increase their payoff, the result are two seperate cliques, one consisting of non-insured and the other of insured nodes.\relax }}{52}{figure.caption.67}
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Ten nodes insured with probability 0.5, and the parameters from table \ref {tbl:simplegamevalue2}. The link insurance cost, $I_{l}$, is violating the condition in equation \ref {eq:final condition}, and the resulting network is one clique of both insured and non-insured nodes.\relax }}{52}{figure.caption.69}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces The figure shows the two possible scenarios that violates the equation \ref {eq:final condition}, \ref {fig:SimulationViolatingA} shows the result when $I_{l}<\beta -r$ and \ref {fig:SimulationViolatingB} shows the result when $I_{l}>\beta $.\relax }}{52}{figure.caption.69}
 \contentsline {figure}{\numberline {9.7}{\ignorespaces shows how insured agents connects with each other to form a network to achieve super-critical payoffs.\relax }}{53}{figure.caption.70}
 \contentsline {figure}{\numberline {9.8}{\ignorespaces Caption for LOF}}{53}{figure.caption.71}
 \contentsline {figure}{\numberline {9.9}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{54}{figure.caption.72}
->>>>>>> lokal
