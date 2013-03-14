@@ -32,10 +32,10 @@ Inspired by this model, we created a model which shields light on how cyber-insu
 
 
 
-\section{Very Simple Model}
+\section{Very Simple Model \label{section:verysimplemodel}}
 
 As a starting point the model is highly simplified in order to show the concept of how cyber-insurance can be used to create an insurable topology. Through out this chapter new features will be added to the model to make it more realistic and applicable. To begin, the model is formulated as follows.
-A set of $n$ agents are randomly chosen to be insured or not. They all get their own fixed income, and by connecting to other agents they will receive a benefit resulting in higher payoff. Non-insured agents will have a risk of failure i.e. an expected cost of failure. Therefore if an insured agents chooses to connect to a non-insured agent they will also suffer from this expected cost of failure. In other words, the model follows a rule that insured agents are only willing to connect to other insured agents and non-insured agents can only connect with each other. In addition we apply the assumption that each node goes through the whole graph to decide whether to establish a connection or not. Since the decision is bidirectional, i.e. each agent must agree to establish the connection, the resulting graph will always be two fully connected cliques, one consisting of a insured agents and the other of non-insured agents. 
+A set of $n$ agents are randomly chosen to be insured or not, as depicted in figure \ref{fig:firstmod1}. They all get their own fixed income, and by connecting to other agents they will receive a benefit resulting in higher payoff. Non-insured agents will have a risk of failure i.e. an expected cost of failure. Therefore if an insured agents chooses to connect to a non-insured agent they will also suffer from this expected cost of failure. In other words, the model follows a rule that insured agents are only willing to connect to other insured agents and non-insured agents can only connect with each other. In addition we apply the assumption that each node goes through the whole graph to decide whether to establish a connection or not. Since the decision is bidirectional, i.e. each agent must agree to establish the connection. The resulting graph will always be two fully connected cliques, one consisting of insured agents and the other of non-insured agents. 
 
 
 This dichotomy represents a trusted environment for the insured nodes, because they are able to trust each other since everyone is protected from risks such as financial catastrophe. These agents will benefit from each connection without having to worry about contagious risks from the connected agents. 
@@ -46,7 +46,7 @@ An agent in the non-insured clique will also receive the aggregated benefits fro
 \begin{subfigure}{.5\textwidth}
   \centering
   \includegraphics[width=0.4\linewidth]{../Figures/firstModelWithNoParameters1.png}
-  \caption{\label{fig:firstmod1} 15 Agents randomly choosen to be either insured (green) or non-insured (red.}
+  \caption{\label{fig:firstmod1} 15 Agents randomly choosen to be either insured (green) or non-insured (red).}
 \end{subfigure}
 \quad
 \begin{subfigure}{.46\textwidth}
@@ -54,16 +54,16 @@ An agent in the non-insured clique will also receive the aggregated benefits fro
   \includegraphics[width=0.8\linewidth]{../Figures/firstModelWithNoParameters2.png}
   \caption{\label{fig:firstmod2} Two clustered networks. One consisting of insured agents the other consists of non-insured.}
 \end{subfigure}
-\caption{\label{fig:fincont} shows how insured agents connects with each other to form a network to achieve super-critical payoffs.}
+\caption{\label{fig:fincont} shows how agents connects to eachother according to model described in section \ref{section:verysimplemodel}.}
 \end{figure}
 
 In many situations agents, such as companies are in a situation where they have to establish connections. One example can be a non-insured company needing to outsource certain tasks to remain competitive, if all the potential companies for outsourcing are insured, the company will have a strong incentive to also buy insurance in order to be able to establish a connection. Hence this model, although very simple, shows an insurable topology where insured agents benefit from being insured. 
 
-There are some limitations of the model, among others it fails to reflect the dynamics of a real world scenario, where each node will have different variables with different values. In addition, each node have a complete overview of the other nodes status. i.e. the problem with information asymmetry is not taken into account. 
+The model have some limitations, among others it is too simple to reflect the dynamics of a real world scenario, where each node will have different variables with different values. In addition, each node have a complete overview of the other nodes status. i.e. the problem with information asymmetry is not taken into account. 
 
 \subsection{Model with parameters}
-To make this simple model more realistic, we have to create a game with parameters, The characteristics of the game is as follows: an agent can be either insured or not insured, the insured ones have to pay an insurance cost $I_{0}$. Every agent starts with a fixed income, $\alpha$, to further increase their income they have to establish links to other agents. For each link they establish they receive a payoff of $\beta$. An insured node has to pay a cost of $I_{l}$ for every link he establish. The game is bidirectional, so both agents has to agree to the establishment of a link, and if both are insured, they both have to pay the cost $I_{l}$. 
-Every agent who is not insured will have a risk of failure(infected, bankruptcy, or some other type of failure), this is captured with the expected risk cost $r$. Every node who connects to an node who is not insured will also suffer from this cost. See Table \ref{tbl:simplegamepara} for an overview of the parameters. 
+To make this simple model more realistic, we have to create a game with parameters. The characteristics of the game is as follows: an agent can be either insured or not insured, the insured ones have to pay an insurance cost $I_{0}$. Every agent starts with a fixed income, $\alpha$, to further increase their income they have to establish links to other agents. For each link they establish they receive a payoff of $\beta$. An insured node has to pay a cost of $I_{l}$ for every link he establish. The game is bidirectional, so both agents has to agree to the establishment of a link, and if both are insured, they both have to pay the cost $I_{l}$. 
+Every agent who is not insured will have a risk of failure(infected, bankruptcy, or some other type of failure), this is captured with the expected risk cost $r$. Every node, insured or not who connects to a non-insured node will also suffer from this cost. See Table \ref{tbl:simplegamepara} for an overview of the parameters. 
 \begin{table}[h]
 \centering
 \begin{tabular}{lc}
@@ -78,8 +78,8 @@ Every agent who is not insured will have a risk of failure(infected, bankruptcy,
 \caption{Table showing the parameters to be used in the first model \label{tbl:simplegamepara}}
 \end{table}
 \subparagraph{Two agent game}
-To begin analysing this game, lets consider a two-person game at first. In this game the strategy space of both players consist of four different strategies. They can choose insurance or not, and to establish link or not. I.e. the different strategies are: be insured and establish link noted as: $IL$, 
-be insured and do not establish link: $I\overline{L}$. Not insured and establish link: $\overline{I}L$, and not insured and do not establish link: $\overline{IL}$.
+To begin analyzing this game, lets consider a two-person game. In this game the strategy space of both players consist of four different strategies. They can choose to purchase insurance or not, and to establish a link or not. I.e. the different strategies are: Be insured and establish link noted as: $IL$, 
+be insured and do not establish link: $I\overline{L}$. Not insured and establish link: $\overline{I}L$, and not insured and do not establish link: $\overline{IL}$. It should be noted that since the decision to establish a connection is bidirectional, both have to play a strategy wanting to establish a link for the link to be established.
 Figure \ref{fig:FirstGameTheoryModel} shows the different outcomes of this game.
 
 \begin{figure}[h]
@@ -101,8 +101,8 @@ U_{i}=\alpha - 2*r +\beta
 U_{i}=\alpha - r
 \label{eq:notinsured payoff2}
 \end{equation}
-From this equation we see that if $r>\beta$ then no connections will be made between non-insured agetents, because then they would strictly prefer the payoff from not connecting.
-If a insured agent connects to an non-insured one, he will end up with this payoff \ref{eq:insured-noninsured}. If he dont connect he will receive this payoff \ref{eq:insured-noninsured2}.
+From this equation we see that if $r>\beta$ then no connections will be made between non-insured agetents, because they would strictly prefer the payoff from not connecting.
+If an insured agent connects to a non-insured one, he will end up with this payoff \ref{eq:insured-noninsured}. If he dont connect he will receive the payoff shown in \ref{eq:insured-noninsured2}.
 \begin{equation}
 U_{i}=\alpha - I_{0} - I_{l} - r + \beta
 \label{eq:insured-noninsured}
@@ -111,7 +111,7 @@ U_{i}=\alpha - I_{0} - I_{l} - r + \beta
 U_{i}=\alpha - I_{0}
 \label{eq:insured-noninsured2}
 \end{equation}
-As we see if $I_{l}+r>\beta$ the insured one will prefer not to connect, if not he will establish connection, and since the non-insured agent is always better off when connected to an insured agent, he will accept the establishment. This is easy to see when comparing the two payoffs. Payoff of connecting to a insured one: $U_{i}=\alpha - r + \beta$ is allways higher than not connecting: $U_{i}=\alpha - r$ this holds as long as $\beta>0$.
+As we see if $I_{l}+r>\beta$ the insured one will prefer not to connect, if not he will establish connection, and since the non-insured agent is always better off when connected to an insured agent, he will accept the establishment. This is easy to see when comparing the two payoffs. Payoff of connecting to an insured one: $U_{i}=\alpha - r + \beta$ is allways higher than not connecting: $U_{i}=\alpha - r$ this holds as long as $\beta>0$.
 To ensure that only insured nodes connect to each other, we want \ref{eq:insured-noninsured2} to be larger than \ref{eq:insured-noninsured}. I.e. This has to hold:
 \begin{equation}
 I_{l}+r>\beta
@@ -138,8 +138,8 @@ In this model the network formation is done endogenously, and when following the
 In this model we have neglected the information problem, we assume that all nodes can differentiate insured versus non insured nodes. This could be difficult to realize in many real world network, but in financial transactions and in software development networks, it is reasonable to assume that the parties can acquire this type of information regarding their transactional partners. And thus they solve the information asymmetry problem by them self, by requiring proof of insurance prior to establishing a connection. This will result in insurable-clustered components  evolve endogenously in the network. Which is beneficial for both the insurer and the nodes.
 
 \subparagraph{Example scenario}
-By assigning values to the variables, we can show the outcome of the game in different scenarios. With the values from \ref{tbl:simplegamevalue}, the insurance cost of establishing a link satisfies the condition in equation \ref{eq:final condition}.
-If we play this game between two agents we can see the result in the normal form table:\ref{fig:NFnumbers}. 
+By assigning values to the variables, we can show the outcome of the game in different scenarios. With the values from table \ref{tbl:simplegamevalue}, the insurance cost of establishing a link satisfies the condition in equation \ref{eq:final condition}.
+If we play this game between two agents we can see the result in the normal form table \ref{fig:NFnumbers}. 
 We see that the results are as we expected, insured nodes will only choose to connect with other insured nodes, they are also satisfied when not connected to each other, but this is not the social optimal outcome, and since they have complete network information, they will choose to connect to each other, because they will both achieve receive a higher payoff.
 As we know, it does not matter if we consider only a two person game, because the change in payoffs when adding a link, is linear an independent of the agents degree, thus no insured agents will connect to non-insured ones.
 \begin{table}[h]
@@ -187,6 +187,8 @@ In this particular situation with only two agents, the game will still end up in
 \caption[Caption for LOF]{Normal form game between two agents with the parameters given in table \ref{tbl:simplegamevalue2}, the best response of a player to a given strategy is marked with an underscore.There are two pure nash equilibriums in this game,$IL,IL$ and $I\underline{L},I\underline{L}$. \label{fig:NFnumbersViolating}}
 \end{figure}
 
+
+\input{modellingThreshold}
 
 
 \subparagraph{BRUKE DETTE ET ANNET STED KANSKJE? BLIR LITT RART Å HOPPE INN I DET HER}
