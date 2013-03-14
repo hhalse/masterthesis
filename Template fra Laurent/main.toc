@@ -98,5 +98,8 @@
 \contentsline {subsection}{\numberline {9.2.1}Model with parameters}{47}{subsection.9.2.1}
 \contentsline {subparagraph}{Two agent game}{48}{section*.59}
 \contentsline {subparagraph}{Example scenario}{49}{section*.61}
-\contentsline {subparagraph}{BRUKE DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{50}{section*.66}
-\contentsline {chapter}{References}{53}{section*.71}
+\contentsline {subsection}{\numberline {9.2.2}Modelling the game with different parameters and multiple agents}{51}{subsection.9.2.2}
+\contentsline {subparagraph}{Simulation of game with optimal parameters}{51}{figure.caption.67}
+\contentsline {subparagraph}{Simulation of game with parameters violating equation \ref {eq:final condition}}{52}{figure.caption.69}
+\contentsline {subsection}{\numberline {9.2.3}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{52}{subsection.9.2.3}
+\contentsline {chapter}{References}{55}{section*.74}
