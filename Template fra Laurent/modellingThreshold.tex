@@ -1,0 +1,15 @@
+
+\section{Game including limiting number of connections per agent}
+So far the model describes a scenario where the goal is to get all the insured nodes to connect with each other. As we have seen this creates a strong trusted environment for the insured nodes when the parameters are adjusted to certain values. However, in many scenarios the goal might not be to be connected to everyone. Sometimes a company wishes to reach a specific number of connections in order to receive a significant profit, which is denoted $\gamma$. Such scenario might create incentives for insured nodes to connect with non-insured, in order to reach the desired number of connections. As an example consider a software company wanting to implement a new software program, however they do not have the capacity or resources to do it alone. Their goal is to establish enough partnerships to be able to create the new program. In this game we might end up in a situation where insured agents are willing to connect with non-insured, to reach the desired number of partners. Building on the already existing model this model adds the property of a significant bonus if a desired number of links $m$ are established. Insured agents still prefer to connect to other insured agents, however, if it is not possible it will consider connecting to non-insured ones. As we see from equation \ref{eq:Cnotinsured} insured agents might have to establish up to $C_{not insured}$ connections to non insured agents in order to receive $\gamma$.
+
+\begin{equation} 
+C_{not insured} = m - C_{insured} 
+\label{eq:Cnotinsured}
+\end{equation}
+
+If an insured agent wont be able to establish all the $m$ connections with other insured agents, it has to evaluate whether it is benefitial to connect to a non-insured agent. This means that $\gamma$ has to be reflected in the equation \ref{eq:insured-noninsured}. To simplify the scenario we assume that each non-insured agent contribute with an extra $\gamma / C_{ni}$.
+
+\begin{equation}
+U_{i}=\alpha - I_{0} - I_{l} - r + \beta 
+\label{eq:insured-noninsured}
+\end{equation}
