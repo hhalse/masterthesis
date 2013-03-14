@@ -132,10 +132,11 @@ For the game to end up as the one described earlier, where only insured nodes co
 \beta-r<I_{l}<\beta
 \label{eq:final condition}
 \end{equation}
-For the non-insured nodes to connect to each other, the only condition is that $\beta>r$. As long as these limitation is fulfilled, the game will end up with insured agents only establishing connections to other insured nodes, and non-insured nodes only connecting to non-insured nodes. It is easily seen that this holds for the two-agent game but also when there are multiple agents in the game.
+If the cost of insuring link is between these bounds, the insured nodes will only connect to other insured nodes. This holds for any number of players, because the relative change in payoff is linear and non-dependent on number of links already established. 
+If the condition is fulfilled the game will end up in one or two cliques, the non-insured ones will connect to each other if $\beta>r$. 
 
-In this model the network formation is done endogenously, and when following the limitation \ref{eq:final condition} we ensure that only insured nodes will connect, and we end up with an insurable network topology. 
-In this model we have neglected the information problem, we assume that all nodes can differentiate insured versus non insured nodes. This could be difficult to realize in many real world network, but in financial transactions and in software development networks, it is reasonable to assume that the parties can acquire this type of information regarding their transactional partners. And thus they solve the information asymmetry problem by them self, by requiring proof of insurance prior to establishing a connection. This will result in insurable-clustered components  evolve endogenously in the network. Which is beneficial for both the insurer and the nodes.
+In this model the network formation is done endogenously, and when following the limitation \ref{eq:final condition} we ensure that only insured nodes will connect, and end up with an insurable network topology. 
+We have neglected the information problem, we made the assumption that all nodes can differentiate insured versus non insured nodes. This could be difficult to realize in many real world network, but in financial transactions and in software development networks, it is reasonable to assume that the parties can acquire this type of information regarding their transactional partners. And thus they solve the information asymmetry problem by them self, by requiring proof of insurance prior to establishing a connection. This will result in insurable-clustered components  evolve endogenously in the network. Which is beneficial for both the insurer and the nodes.
 
 \subparagraph{Example scenario}
 By assigning values to the variables, we can show the outcome of the game in different scenarios. With the values from table \ref{tbl:simplegamevalue}, the insurance cost of establishing a link satisfies the condition in equation \ref{eq:final condition}.
@@ -163,8 +164,9 @@ As we know, it does not matter if we consider only a two person game, because th
 \end{tabular}
 \caption[Caption for LOF]{Normal form game between two agents with the parameters given in \ref{tbl:simplegamevalue}, the best response of a player to a given strategy is marked with an underscore.There are two pure nash equilibriums in this game,$IL,IL$ and $I\underline{L},I\underline{L}$. \label{fig:NFnumbers}}
 \end{figure}
-When setting the insurance cost: $I_{l}<\beta - r$ or $I_{l}>\beta$ we are violating the condition who ensured that only insured nodes connected to each other. The results are shown in Figure \ref{fig:NFnumbersViolating}. As we see there are still the same nash equilibrium, but whats interesting is the best response of an insured agent when the other agent is not insured, but both would like to establish link. This scenario has now changed, and we see that the insured agent would agree to the link establishment, this could result in an untrusted and thus an non-insurable topology. Therefore to ensure that only insured agents connect to each other, equation \ref{eq:final condition} has to be satisfied. 
-In this particular situation with only two agents, the game will still end up in one of the nash equilibriums and only insured will connect to insured. But imagine a situation with more agents, then the insured node will also connect to the non-insured ones, and thus create a non-trusted network(non-insurable topology).
+When setting the insurance cost: $I_{l}<\beta - r$ or $I_{l}>\beta$ we are violating the condition who ensured that only insured nodes connected to each other.If we let the insurance cost be: $I_{l}<\beta - r$, like in the table \ref{tbl:simplegamevalue2}, we will get the results shown in Figure \ref{fig:NFnumbersViolating}. There are still the same nash equilibriums, but the interesting part is the best response of an insured agent who want to establish link, when the other agent is not insured but also want to establish link. This scenario has now changed, and we see that the insured agent would agree to the link establishment, this will result in an untrusted and thus an non-insurable topology. A game with multiple agents, insured and non-insured, will end up in one fully connected network.
+On the other hand, if $I_{l}>\beta$, then it is easily seen that only the non-insured will connect to each other, and the insured nodes will choose not to connect to anyone because it is to costly.
+ Therefore to ensure that only insured agents connect to each other, equation \ref{eq:final condition} has to be satisfied. 
 \begin{table}[h]
 \centering
 \begin{tabular}{lc}
@@ -186,12 +188,52 @@ In this particular situation with only two agents, the game will still end up in
 \end{tabular}
 \caption[Caption for LOF]{Normal form game between two agents with the parameters given in table \ref{tbl:simplegamevalue2}, the best response of a player to a given strategy is marked with an underscore.There are two pure nash equilibriums in this game,$IL,IL$ and $I\underline{L},I\underline{L}$. \label{fig:NFnumbersViolating}}
 \end{figure}
+\subsection{Modelling network formation game}
+To verify the result of this network formation game with multiple agents, we performed different simulations.  The rules are as described earlier, when a node is considering establishing a link it chooses to do so if the payoff it will receive is larger than the payoff it have when not establishing the link, and the decision is bilateral. 
+In the simulator a node is insured with a probability, $p$. The network formation is performed by selecting two random nodes, not neighbouring each other, then both nodes checks if they would prefer to establish a connection or not. This selection is repeated until the network are fully connected or no more nodes are willing to establish new connections.
+By selecting nodes at random and checking if both of them would like to connect to each other, we relax the assumption of full network information, because now nodes only get to know if another node is insured or not, by asking them.
+\subparagraph{Simulation of game with optimal parameters}
+\begin{figure}[h]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.4\linewidth]{../Figures/FirstSimulationStart.png}
+  \caption{\label{fig:firstsimulationstart} Ten nodes randomly, with probability 0.5, chosen to be either insured (green) or non-insured (red.}
+\end{subfigure}
+\quad
+\begin{subfigure}{.46\textwidth}
+  \centering
+  \includegraphics[width=0.8\linewidth]{../Figures/FirstSimulationResult.png}
+  \caption{\label{fig:firstsimulationresult} Two clustered fully connected networks. One consisting of insured agents the other consists of non-insured. The link establishment is done by following the rules described above}
+\end{subfigure}
+\caption{\label{fig:firstsimulation} The figure shows how ten nodes start out with no links, and then add links as long as they can increase their payoff, the result are two seperate cliques, one consisting of non-insured and the other of insured nodes.}
+\end{figure}
+In figure \ref{fig:firstsimulation} we see the result of a simulation with the parameters from table \ref{tbl:simplegamevalue}, with these parameters the game should end in two cliques, one with insured nodes and another with non-insured. The result are shown in figure \ref{fig:firstsimulationresult}. Our calculations where confirmed, only insured nodes connect to each other.  
+In this figure there are only included $n=10$ nodes, this is done to make the figure understandable and readable.
+The same results where confirmed when performing the simulation with larger values of n, but the resulting picture was very complex and chaotic.
+\subparagraph{Simulation of game with parameters violating equation \ref{eq:final condition}}
+\begin{figure}[h]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+\includegraphics[width=0.4\linewidth]{../Figures/FirstSimulationViolatingResult.png}
+
+\caption{\label{fig:SimulationViolatingA} Ten nodes insured with probability 0.5, and the parameters from table \ref{tbl:simplegamevalue2}. The link insurance cost, $I_{l}$, is violating the condition in equation \ref{eq:final condition}, and the resulting network is one clique of both insured and non-insured nodes.}
+\end{subfigure}
+\quad
+\begin{subfigure}{0.46\textwidth}
+\centering
+\includegraphics[width=0.4\textwidth]{../Figures/SimulationViolating2.png}
+
+\caption{\label{fig:SimulationViolatingB} Ten nodes insured with probability 0.5, with parameters from table \ref{tbl:simplegamevalue2}, except that the link insurance cost was:, $I_{l}=11>\beta$. This resulted in a clique of only non-insured nodes. }
+\end{subfigure}
+\caption{\label{fig:SimulationViolating} The figure shows the two possible scenarios that violates the equation \ref{eq:final condition}, \ref{fig:SimulationViolatingA} shows the result when $I_{l}<\beta-r$ and \ref{fig:SimulationViolatingB} shows the result when $I_{l}>\beta$.}
+\end{figure}
+
+In this simulation, the cost of insuring a link where set so that it violated the equation \ref{eq:final condition}. The result can be seen in figure \ref{fig:SimulationViolating}, and as we concluded with earlier, the result is one clique of both insured and non-insured nodes when $I_{l}<\beta-r$. And when the insurance cost is $I_{l}>\beta$, then only non-insured nodes connect to each other, because the insurance cost per link cost more then the benefit, so the insured ones choose not to connect to any one. 
 
 
-\input{modellingThreshold}
-
-
-\subparagraph{BRUKE DETTE ET ANNET STED KANSKJE? BLIR LITT RART Å HOPPE INN I DET HER}
+\subsection{DETTE ET ANNET STED KANSKJE? BLIR LITT RART Å HOPPE INN I DET HER}
 By adjusting the parameter one can assure that only insured agents connects to other insured agents, and the opposite,
 that only uninsured agents connects to each other. Hence as we can see from the figure \ref{fig:fincont} clustered
 networks of insured agents (red) are created, and  as the paper \cite{contagion} showed, these clustered trusted
