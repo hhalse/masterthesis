@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  14 MAR 2013 15:31
 =======
 This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  14 MAR 2013 16:28
@@ -10,6 +11,9 @@ This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdf
 >>>>>>> working
 =======
 This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  15 MAR 2013 17:58
+>>>>>>> working
+=======
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  26 MAR 2013 21:22
 >>>>>>> working
 entering extended mode
 **main.tex
@@ -1635,13 +1639,7 @@ aux")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\modelingCyber
 Insurance.aux"
 
-LaTeX Warning: Label `eq:insured-noninsured' multiply defined.
-
-
-LaTeX Warning: Label `eq:insured-noninsured' multiply defined.
-
-
-LaTeX Warning: Label `eq:insured-noninsured' multiply defined.
+LaTeX Warning: Label `eq:insured-insured' multiply defined.
 
 
 LaTeX Warning: Label `eq:insured-noninsured' multiply defined.
@@ -2132,7 +2130,11 @@ Overfull \hbox (21.2481pt too wide) in paragraph at lines 7--16
  []
 
 [51 <D:/GITREPO/masterthesis/Figures/NotOptimalGameWithNumbers.png>] [52])
+<<<<<<< HEAD
 <../Figures/financialContagion1.png, id=862, 197.23688pt x 135.50626pt>
+>>>>>>> working
+=======
+[53] <../Figures/financialContagion1.png, id=870, 197.23688pt x 135.50626pt>
 >>>>>>> working
 File: ../Figures/financialContagion1.png Graphic file (type png)
 
@@ -2143,6 +2145,7 @@ Package pdftex.def Info: ../Figures/financialContagion1.png used on input line
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <../Figures/financialContagion2.png, id=843, 177.66376pt x 131.74219pt>
 =======
 <../Figures/financialContagion2.png, id=889, 177.66376pt x 131.74219pt>
@@ -2150,12 +2153,16 @@ Package pdftex.def Info: ../Figures/financialContagion1.png used on input line
 =======
 <../Figures/financialContagion2.png, id=863, 177.66376pt x 131.74219pt>
 >>>>>>> working
+=======
+<../Figures/financialContagion2.png, id=871, 177.66376pt x 131.74219pt>
+>>>>>>> working
 File: ../Figures/financialContagion2.png Graphic file (type png)
 
 <use ../Figures/financialContagion2.png>
 Package pdftex.def Info: ../Figures/financialContagion2.png used on input line 
 252.
 (pdftex.def)             Requested size: 133.95445pt x 99.33305pt.
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 <<<<<<< HEAD
@@ -2170,6 +2177,9 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 =======
  [53 <D:/GITREPO/masterthesis/Figures/financialContagion1.png> <D:/GITREPO/mast
 erthesis/Figures/financialContagion2.png>]
+=======
+
+>>>>>>> working
 <../Figures/gameTheoryModel1WithEquations.png, id=873, 923.70094pt x 132.495pt>
 >>>>>>> working
 File: ../Figures/gameTheoryModel1WithEquations.png Graphic file (type png)
@@ -2178,18 +2188,24 @@ Package pdftex.def Info: ../Figures/gameTheoryModel1WithEquations.png used on i
 nput line 266.
 (pdftex.def)             Requested size: 364.0pt x 52.2106pt.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  [53 <C:/Users/Håvard/masterthesis/masterthesis/Figures/financialContagion1.pn
 g> <C:/Users/Håvard/masterthesis/masterthesis/Figures/financialContagion2.png>
  <C:/Users/Håvard/masterthesis/masterthesis/Figures/gameTheoryModel1WithEquati
 ons.png>]
 >>>>>>> 7a99167dbdc68a647a32f877d7fc7e7225fb2fb8
+=======
+ [54 <D:/GITREPO/masterthesis/Figures/financialContagion1.png> <D:/GITREPO/mast
+erthesis/Figures/financialContagion2.png> <D:/GITREPO/masterthesis/Figures/game
+TheoryModel1WithEquations.png>]
+>>>>>>> working
 File: ../Figures/gameTheoryModel1WithNumbers.png Graphic file (type png)
-
-<use ../Figures/gameTheoryModel1WithNumbers.png>
+ <use ../Figures/gameTheoryModel1WithNumbers.png>
 Package pdftex.def Info: ../Figures/gameTheoryModel1WithNumbers.png used on inp
 ut line 279.
 (pdftex.def)             Requested size: 218.40222pt x 65.46758pt.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -2207,6 +2223,13 @@ eTheoryModel1WithEquations.png>] [54]
 ) [54]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.bbl"
 >>>>>>> 7a99167dbdc68a647a32f877d7fc7e7225fb2fb8
+=======
+) [55]
+("D:\GITREPO\masterthesis\Template fra Laurent\main.bbl" [56
+
+
+]
+>>>>>>> working
 bibitemlist
 
 Underfull \hbox (badness 10000) in paragraph at lines 62--67
@@ -2220,10 +2243,7 @@ Underfull \hbox (badness 1635) in paragraph at lines 69--73
 : / / www . digi . no / 39107 /$
  []
 
-[55
-
-
-]
+[57]
 Underfull \hbox (badness 1057) in paragraph at lines 143--148
 \T1/lmr/m/n/10 (+20) not.  [][]$http : / / www . computerworld . com / s / arti
 cle / 9223366 / Cyber _ insurance _$
@@ -2236,7 +2256,7 @@ Class memoir Warning: The material used in the headers is too large
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 113.
 
-[56]
+[58]
 \tf@toc=\write8
 \tf@lof=\write9
 \tf@lot=\write10
@@ -2294,6 +2314,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
 Here is how much of TeX's memory you used:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  22141 strings out of 494045
  324289 string characters out of 3153222
  584552 words of memory out of 3000000
@@ -2305,6 +2326,13 @@ Here is how much of TeX's memory you used:
  24516 multiletter control sequences out of 15000+200000
 >>>>>>> working
  77715 words of font info for 131 fonts, out of 3000000 for 9000
+=======
+ 22160 strings out of 494045
+ 324613 string characters out of 3153222
+ 584753 words of memory out of 3000000
+ 24521 multiletter control sequences out of 15000+200000
+ 77798 words of font info for 132 fonts, out of 3000000 for 9000
+>>>>>>> working
  715 hyphenation exceptions out of 8191
  62i,13n,94p,1504b,595s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{D:/Latex/MiKTeX/fonts/enc/
@@ -2318,8 +2346,9 @@ eX/fonts/type1/public/lm/lmr7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr8.p
 fb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr9.pfb><D:/Latex/MiKTeX/fonts/type1
 /public/lm/lmri10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><D:/Lat
 ex/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
-Output written on main.pdf (72 pages, 774179 bytes).
+Output written on main.pdf (74 pages, 779365 bytes).
 PDF statistics:
+<<<<<<< HEAD
 <<<<<<< HEAD
  1008 PDF objects out of 1200 (max. 8388607)
  270 named destinations out of 1000 (max. 500000)
@@ -2357,6 +2386,10 @@ PDF statistics:
 =======
  1023 PDF objects out of 1200 (max. 8388607)
  275 named destinations out of 1000 (max. 500000)
+=======
+ 1036 PDF objects out of 1200 (max. 8388607)
+ 280 named destinations out of 1000 (max. 500000)
+>>>>>>> working
  21471 words of extra memory for PDF output out of 24883 (max. 10000000)
 >>>>>>> working
 
