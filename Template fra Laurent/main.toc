@@ -98,14 +98,8 @@
 \contentsline {subsection}{\numberline {9.2.1}Model with parameters}{47}{subsection.9.2.1}
 \contentsline {subparagraph}{Two agent game}{48}{section*.59}
 \contentsline {subparagraph}{Example scenario}{50}{section*.61}
-<<<<<<< HEAD
-\contentsline {section}{\numberline {9.3}Game including max node degree}{51}{section.9.3}
-\contentsline {subparagraph}{BRUKE DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{52}{section*.67}
-\contentsline {chapter}{References}{55}{section*.72}
-=======
 \contentsline {subsection}{\numberline {9.2.2}Modelling network formation game}{51}{subsection.9.2.2}
 \contentsline {subparagraph}{Simulation of game with optimal parameters}{51}{figure.caption.67}
 \contentsline {subparagraph}{Simulation of game with parameters violating equation \ref {eq:final condition}}{52}{figure.caption.69}
 \contentsline {subsection}{\numberline {9.2.3}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{53}{subsection.9.2.3}
 \contentsline {chapter}{References}{55}{section*.74}
->>>>>>> 7a99167dbdc68a647a32f877d7fc7e7225fb2fb8
