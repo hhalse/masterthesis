@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  2 APR 2013 12:44
+=======
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  2 APR 2013 12:17
+>>>>>>> lokal
 entering extended mode
 **main.tex
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.tex"
@@ -1969,13 +1973,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [51 <C:/Users/Håvard/masterthesis/masterthesis/Figures/NotOptimalGameWithNumbe
 rs.png>]
+<<<<<<< HEAD
 <../Figures/FirstSimulationViolatingResult.png, id=858, 208.52907pt x 197.23688
 pt>
+=======
+<../Figures/FirstSimulationViolatingResult.png, id=858, 204.765pt x 194.97844pt
+>
+>>>>>>> lokal
 File: ../Figures/FirstSimulationViolatingResult.png Graphic file (type png)
  <use ../Figures/FirstSimulationViolatingResult.png>
 Package pdftex.def Info: ../Figures/FirstSimulationViolatingResult.png used on 
 input line 219.
-(pdftex.def)             Requested size: 72.79889pt x 68.85635pt.
+(pdftex.def)             Requested size: 72.79889pt x 69.32047pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 221.
 
@@ -2117,7 +2126,11 @@ Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files (x86)/M
 iKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 public/lm/lmsy7.pfb>
+<<<<<<< HEAD
 Output written on main.pdf (72 pages, 860966 bytes).
+=======
+Output written on main.pdf (72 pages, 860587 bytes).
+>>>>>>> lokal
 PDF statistics:
  1049 PDF objects out of 1200 (max. 8388607)
  270 named destinations out of 1000 (max. 500000)
