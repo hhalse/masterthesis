@@ -22,8 +22,9 @@
 \contentsline {figure}{\numberline {9.3}{\ignorespaces Caption for LOF}}{50}{figure.caption.63}
 \contentsline {figure}{\numberline {9.4}{\ignorespaces Caption for LOF}}{51}{figure.caption.65}
 <<<<<<< HEAD
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {9.5}{\ignorespaces shows how insured agents connects with each other to form a network to achieve super-critical payoffs.\relax }}{53}{figure.caption.68}
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Caption for LOF}}{53}{figure.caption.69}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Caption for LOF}}{54}{figure.caption.69}
 \contentsline {figure}{\numberline {9.7}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{54}{figure.caption.70}
 =======
 \contentsline {figure}{\numberline {9.5}{\ignorespaces The figure shows how ten nodes start out with no links, and then add links as long as they can increase their payoff, the result are two seperate cliques, one consisting of non-insured and the other of insured nodes.\relax }}{52}{figure.caption.67}
@@ -32,3 +33,8 @@
 \contentsline {figure}{\numberline {9.8}{\ignorespaces Caption for LOF}}{53}{figure.caption.71}
 \contentsline {figure}{\numberline {9.9}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{54}{figure.caption.72}
 >>>>>>> 7a99167dbdc68a647a32f877d7fc7e7225fb2fb8
+=======
+\contentsline {figure}{\numberline {9.5}{\ignorespaces shows how insured agents connects with each other to form a network to achieve super-critical payoffs.\relax }}{54}{figure.caption.68}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Caption for LOF}}{54}{figure.caption.69}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{55}{figure.caption.70}
+>>>>>>> working
