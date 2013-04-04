@@ -109,5 +109,5 @@
 \contentsline {subparagraph}{non-insured to insured}{54}{equation.9.15}
 \contentsline {subparagraph}{Limitations to ensure a clique of only insured}{54}{section*.75}
 \contentsline {subparagraph}{Simulations}{56}{section*.76}
-\contentsline {subsection}{\numberline {9.2.4}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{56}{subsection.9.2.4}
-\contentsline {chapter}{References}{59}{section*.84}
+\contentsline {subsection}{\numberline {9.2.4}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{57}{subsection.9.2.4}
+\contentsline {chapter}{References}{61}{section*.84}
