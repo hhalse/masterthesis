@@ -105,9 +105,15 @@
 \contentsline {subsubsection}{Four different scenarios}{53}{section*.70}
 \contentsline {subparagraph}{Insured to insured}{53}{section*.71}
 \contentsline {subparagraph}{Insured connect to non-insured}{54}{section*.72}
-\contentsline {subparagraph}{non-insured to non-insured}{54}{section*.73}
-\contentsline {subparagraph}{non-insured to insured}{54}{equation.9.15}
-\contentsline {subparagraph}{Limitations to ensure a clique of only insured}{54}{section*.75}
-\contentsline {subparagraph}{Simulations}{56}{section*.76}
-\contentsline {subsection}{\numberline {9.2.4}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{57}{subsection.9.2.4}
-\contentsline {chapter}{References}{61}{section*.84}
+\contentsline {subparagraph}{Non-insured to non-insured}{54}{section*.73}
+\contentsline {subparagraph}{Non-insured to insured}{54}{equation.9.15}
+\contentsline {subparagraph}{Limitations to ensure a clique of only insured}{55}{section*.75}
+\contentsline {subsubsection}{Simulations}{56}{section*.76}
+\contentsline {subparagraph}{Simulation conditions are met}{56}{section*.77}
+\contentsline {subparagraph}{Simulation conditions are not met}{57}{section*.80}
+\contentsline {subparagraph}{Consequences of not reaching required number of edges}{57}{section*.82}
+\contentsline {section}{\numberline {9.3}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{58}{section.9.3}
+\contentsline {section}{\numberline {9.4}Game including max node degree}{61}{section.9.4}
+\contentsline {subsection}{\numberline {9.4.1}Game random connection}{61}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {9.4.2}Game connecting to insured first}{63}{subsection.9.4.2}
+\contentsline {chapter}{References}{65}{section*.90}

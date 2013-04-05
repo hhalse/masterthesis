@@ -23,8 +23,9 @@
 \contentsline {figure}{\numberline {9.4}{\ignorespaces Caption for LOF}}{51}{figure.caption.65}
 \contentsline {figure}{\numberline {9.5}{\ignorespaces The figure shows how ten nodes start out with no links, and then add links as long as they can increase their payoff, the result are two seperate cliques, one consisting of non-insured and the other of insured nodes.\relax }}{52}{figure.caption.67}
 \contentsline {figure}{\numberline {9.6}{\ignorespaces The figure shows the two possible scenarios that violates the equation \ref {eq:final condition}, \ref {fig:SimulationViolatingA} shows the result when $I_{l}<\beta -r$ and \ref {fig:SimulationViolatingB} shows the result when $I_{l}>\beta $.\relax }}{52}{figure.caption.69}
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Two clustered fully connected networks, created by simulating with the parameters from table \ref {tbl:maxdegrevalues} One consisting of insured agents the other consists of non-insured. \relax }}{56}{figure.caption.78}
-\contentsline {figure}{\numberline {9.8}{\ignorespaces Simulation when the cost of insuring a link is just below the limits. \relax }}{57}{figure.caption.79}
-\contentsline {figure}{\numberline {9.9}{\ignorespaces shows how insured agents connects with each other to form a network to achieve super-critical payoffs.\relax }}{58}{figure.caption.80}
-\contentsline {figure}{\numberline {9.10}{\ignorespaces Caption for LOF}}{58}{figure.caption.81}
-\contentsline {figure}{\numberline {9.11}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{59}{figure.caption.82}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Two clustered fully connected networks, created by simulating with the parameters from table \ref {tbl:maxdegrevalues} One consisting of insured agents the other consists of non-insured. \relax }}{56}{figure.caption.79}
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Simulation when the cost of insuring a link is just below the limits. \relax }}{57}{figure.caption.81}
+\contentsline {figure}{\numberline {9.9}{\ignorespaces Simulation when the cost of insuring a link is just below the limits and the maximum node degree is high. \relax }}{58}{figure.caption.84}
+\contentsline {figure}{\numberline {9.10}{\ignorespaces shows how insured agents connects with each other to form a network to achieve super-critical payoffs.\relax }}{59}{figure.caption.85}
+\contentsline {figure}{\numberline {9.11}{\ignorespaces Caption for LOF}}{59}{figure.caption.86}
+\contentsline {figure}{\numberline {9.12}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{59}{figure.caption.87}
