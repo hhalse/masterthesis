@@ -410,6 +410,49 @@ With the variables from table \ref{tbl:maxdegrevalueswitherror} the resulting pa
   \caption{\label{fig:bonusviolatingWithErrors} Simulation when the cost of insuring a link is just below the limits and the maximum node degree is high. }
 \end{figure}
 
+\subsection{Game including bulk insurance discount}
+Businesses often interpret a quantum discount when purchasing multiple products. From convenience stores we are used to the slogan "buy one get one for free". This is also widely used in insurance, for example travel insurances often give discount for adding family members to the same insurance product. Therefore it is likely that insurance companies will offer a quantum discount when a company is insuring more than one connection. How insurance companies choose to formulate their discount rate might vary among the companies. One solution might be to follow a strict 5$\%$ discount per new connection, or let the discount follow a power law. However, we choose to follow a discount rule which reflects the number of connections the company have established. 
+The price for adding a new connection will follow the equation:
+
+\begin{equation}
+\frac{I_{l}}{i+1}
+\label{eq:discount0}
+\end{equation}
+
+Here, $i$ is the current number of established connections. This means that the more connections a company acquire the cheaper the connections will be. 
+If we add the new rule to the equation \ref{eq:itoi} which shows the connection between two insured nodes, we get the following equations: 
+
+\begin{equation}
+    U_{i+1}= 
+\begin{cases}
+    \alpha + \beta - I_{0} - I_{l},& \text{if } i = 0\\
+    U_{i}+\beta -\frac{I_{l}}{i+1},& \text{if }  i>0\\
+    U_{i}+\beta -\frac{I_{l}}{i+1}+\gamma,& \text{if } i=m
+    
+\end{cases}
+\label{eq:discount1}
+\end{equation}
+
+As described, for insured nodes to connect to each other, $U_{i+1} > U_{i}$. Building on the already existing model, the quantum discount slightly changes the decision process:
+\begin{eqnarray}
+U_{i}+\beta-\frac{I_{l}}{i+1}+\frac{\gamma}{m-i}&>U_{i} \nonumber \\ 
+\beta-\frac{I_{l}}{i+1}+\frac{\gamma}{m-i}&>0 \nonumber \\ 
+\beta (i+1)+\frac{\gamma}{m-i}&>\frac{I_{l}}{i+1} \nonumber \\
+\llap{$\rightarrow$\hspace{50pt}}  \beta (i+1)+\frac{\gamma (i+1)}{m-i}&>I_{l}
+\label{eq:discount2}
+\end{eqnarray}
+
+Similar calculation can be done for the other three scenarios in the game, and they all result in almost the same outcome. First of all results from having quantum discounts on new connections results in a overall higher payoff for the nodes, as long as $i>1$. Since the cost of insuring a new link becomes cheaper. This means that the nodes will have a higher incentive to create links to each other, because the left side of equation \ref{eq:discount2} yields a higher payoff than before. Which leads to a consequence that more insured nodes could connect to non-insured nodes. 
+Building on the final condition \ref{eq:final-insurance-clique-condition} in previous section, we now get:
+
+\begin{eqnarray}
+\beta+\gamma-r<\frac{I_{l}}{i+1}<\beta+\frac{\gamma}{m} \nonumber \\
+\beta(i+1)+\gamma(i+1)-r(i+1)<I_{l}<\beta(i+1)+\frac{\gamma(i+1)}{m}
+\label{eq:final-insurance-clique-condition-with-discount}
+\end{eqnarray}
+
+SJEKK OM \ref{eq:final-insurance-clique-condition-with-discount} stemmer.... 
+From equation \ref{eq:final-insurance-clique-condition-with-discount} we see that the initial variable $I_(l)$ has to be priced higher, in order to ensure that only insured nodes connects to other insured nodes (STEMMER DETTE???). However, beside this drawback, we also experience some positive effects from the modification, since the the purchase of more connections is cheaper the product might be more attractive for potential customers. 
 
 
 \section{DETTE ET ANNET STED KANSKJE? BLIR LITT RART Å HOPPE INN I DET HER}
