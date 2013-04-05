@@ -35,13 +35,11 @@ Inspired by this model, we created a model which shields light on how cyber-insu
 \section{Very Simple Model \label{section:verysimplemodel}}
 
 As a starting point the model is highly simplified in order to show the concept of how cyber-insurance can be used to create an insurable topology. Through out this chapter new features will be added to the model to make it more realistic and applicable. To begin, the model is formulated as follows.
-A set of $n$ nodes are randomly chosen to be insured or not, as depicted in figure \ref{fig:firstmod1}. They all get their own fixed income, and by connecting to other nodes they can increase their payoff due to network externalities. Non-insured nodes will have a risk of failure i.e. an expected cost of failure. Therefore if an insured node chooses to connect to a non-insured node, he will also suffer from this expected cost of failure. 
+A set of $n$ agents are randomly chosen to be insured or not, as depicted in figure \ref{fig:firstmod1}. They all get their own fixed income, and by connecting to other agents they will receive a benefit resulting in higher payoff. Non-insured agents will have a risk of failure i.e. an expected cost of failure. Therefore if an insured agents chooses to connect to a non-insured agent they will also suffer from this expected cost of failure. In other words, the model follows a rule that insured agents are only willing to connect to other insured agents and non-insured agents can only connect with each other. In addition we apply the assumption that each node goes through the whole graph to decide whether to establish a connection or not. Since the decision is bidirectional, i.e. each agent must agree to establish the connection. The resulting graph will always be two fully connected cliques, one consisting of insured agents and the other of non-insured agents. 
 
-In this simple model insured nodes are only willing to connect to other insured nodes, and non-insured can only connect to other non-insured nodes. Every node tries to connect with every other node, and since the decision is bidirectional, i.e. both nodes must agree on establishing a connection, to successfully do so. The resulting graphs will always be two fully connected cliques, one consisting of insured agents and the other of non-insured agents. 
 
-This dichotomy represents a trusted environment for the insured nodes, because they are able to trust each other, because they know that no node in the clique can be connected to a non-insured node. In this way everyone is protected from the possible risks, such as financial catastrophes, viruses, diseases etc. 
-The nodes in the trusted clique will gain a positive network externality from each of its connection, without having to worry about contagious risks from the other nodes in the clique.
-A node in the non-insured clique will also receive the aggregated benefits from his connections in the clique, however each of the connection has a probability of failure. Hence this environment is not trusted, and connection always involves some risk. 
+This dichotomy represents a trusted environment for the insured nodes, because they are able to trust each other since everyone is protected from risks such as financial catastrophe. These agents will benefit from each connection without having to worry about contagious risks from the connected agents. 
+An agent in the non-insured clique will also receive the aggregated benefits from the connections, however each of the connection has a probability of failure. Hence this environment is not trusted, and a decision on whether to connect always involves some risks. 
 
 \begin{figure}[h]
 \centering
@@ -59,8 +57,7 @@ A node in the non-insured clique will also receive the aggregated benefits from 
 \caption{\label{fig:fincont} shows how agents connects to eachother according to model described in section \ref{section:verysimplemodel}.}
 \end{figure}
 
-There are many examples of nodes needing to establish connections, one example is a firm who needs to out-source certaint tasks to remain competitive. This outsourcing involves some risks, such as, will the company deliver at the reported time, to the reported costs, what happens if they fail to deliver, if they go bankrupt etc. If the firms that are going to establish links(contracts), know that the other firms are insured, it will be easier and more secure to establish 
- One example can be a non-insured company needing to outsource certain tasks to remain competitive, if all the potential companies for outsourcing are insured, the company will have a strong incentive to also buy insurance in order to be able to establish a connection. Hence this model, although very simple, shows an insurable topology where insured agents benefit from being insured. 
+In many situations agents, such as companies are in a situation where they have to establish connections. One example can be a non-insured company needing to outsource certain tasks to remain competitive, if all the potential companies for outsourcing are insured, the company will have a strong incentive to also buy insurance in order to be able to establish a connection. Hence this model, although very simple, shows an insurable topology where insured agents benefit from being insured. 
 
 The model have some limitations, among others it is too simple to reflect the dynamics of a real world scenario, where each node will have different variables with different values. In addition, each node have a complete overview of the other nodes status. i.e. the problem with information asymmetry is not taken into account. 
 
@@ -236,13 +233,16 @@ The same results where confirmed when performing the simulation with larger valu
 In this simulation, the cost of insuring a link where violating the equation \ref{eq:final condition}. The result can be seen in figure \ref{fig:SimulationViolating}.  In figre \ref{fig:SimulationViolatingA} we see the result when $I_{l}<\beta-r$, the result is one clique of both insured and non-insured nodes . In figure \ref{fig:SimulationViolatingB} the insurance cost is $I_{l}>\beta$, and as we see only non-insured nodes connect to each other, because the insurance cost per link cost more than the benefit gained from connecting to a new node, so the insured ones choose not to connect to any one. 
 
 \subsection{Game with maximum node degree and bonus}
-In this model we introduce a maximum node degree per node, and a payoff bonus when reaching this level. This is done to make a more applicable model. Lets consider a software firm who would want to develop a product, to complete the product they need help from some other firms, because these firms have more knowledge and are specialized on other things. When the product is finished they will get paid, but not before, and to finish the product they need to cooperate with other firms.
-To model this scenario we added a bonus $\gamma$, which nodes receive when they reach their maximum node degree($m$). Except from this fact the game is as before, nodes connect to other nodes if they can reach a higher payoff by doing so.
+In this model we introduce a maximum node degree per node, and a payoff bonus when reaching this level. This is done to make a more applicable model in certain scenarios. For example, lets consider a software firm who want to develop a product. However, they do not have the required resources or knowledge to complete the product. They will need help from other firms, because they can deliver the desired knowledge or resources. When the product is finished the firm get paid, but not before, to finish the product they need to cooperate with other firms.
+To model this scenario we added a bonus $\gamma$, which represents the payoff when a node reach their desired number off established connections, i.e. their maximum node degree($m$). Except from this fact the game is as before, nodes connect to other nodes if they can reach a higher payoff by doing so. 
+
+
+
 \subsubsection{Four different scenarios}
-To further analyse this model, lets take a closer look on the four different scenarios of the game, a insured node wants to connect to another insured node, insured tries to connect to a non-insured node, non-insured tries to connect to another non-insured node, and non-insured who tries to connect to a insured node.
+To further analyze this model, lets take a closer look on the four different scenarios of the game, a insured node wants to connect to another insured node, insured tries to connect to a non-insured node, non-insured tries to connect to another non-insured node, and non-insured who tries to connect to a insured node.
 \subparagraph{Insured to insured}
-When a insured nodes tries to connect to another insured node, the node will do so if he can increase his payoff. 
-let $U_{i}$ denote the payoff of a node with node-degree $i$. When adding a link the payoff the node receives is as follows:
+When an insured node tries to connect to another insured node, the node will do so if he can increase his payoff. 
+Let $U_{i}$ denote the payoff of a node with node-degree $i$. When adding a link the payoff the node receives is as follows:
 \begin{equation}
     U_{i+1}= 
 \begin{cases}
@@ -253,16 +253,16 @@ let $U_{i}$ denote the payoff of a node with node-degree $i$. When adding a link
 \end{cases}
 \label{eq:itoi}
 \end{equation}
-For insured nodes to connect to each other, $U_{i+1} > U_{i}$. This model is very similar to the earlier model, but we need to take the bonus it receives when reaching $m$ into consideration.
-In this model this is done by adding, the bonus divided on the current degree, in the decision process of establishing link or not. 
+For insured nodes to connect to each other, $U_{i+1} > U_{i}$. This model is very similar to the earlier model, but we need to take the received bonus when reaching $m$ into consideration.
+We model this by adding, the bonus divided on the current degree, in the decision process of establishing link or not. 
 \begin{eqnarray}
 U_{i}+\beta-I_{l}+\frac{\gamma}{m-i}&>U_{i} \nonumber \\ 
 \beta-I_{l}+\frac{\gamma}{m-i}&>0 \nonumber \\ 
 \llap{$\rightarrow$\hspace{50pt}} \beta+\frac{\gamma}{m-i}&>I_{l} 
 \label{eq:itoi2}
 \end{eqnarray}
-But the bonus is not added to the current payoff before the node reach the maximum degree, as shown in equation \ref{eq:itoi}.
-In this way the model will change from the former models, because now the nodes have more incentive to connect to other nodes, and in some scenarios they will be willing to take a risk by connecting to a non-insured node that they would not have done before, due to the expected bonus. I.e. we insert some risk, because it is not certain that the nodes will obtain enough links, and if not, they will not receive their bonus, but they have already connected to the nodes.
+It should be noted that the actual bonus is not added to the current payoff before the node reach the maximum degree, as shown in equation \ref{eq:itoi}. The equation $\frac{\gamma}{ m-i}$ reflects the expected payoff from taking the risk of establishing a connection. This value increases linearly according to how close you are to reaching $m$.
+In this way the model will change from the former models, because now the nodes have more incentive to connect to other nodes, and in some scenarios they will be willing to take the risk of connecting to a non-insured node that they would not have done before, due to the expected bonus. I.e. we insert some risk, because it is not certain that the nodes will obtain enough links, and if not, they will not receive their bonus, but they have already connected to the nodes.
 
 \subparagraph{Insured connect to non-insured}
 The payoff the insured node receives in this scenario is as follows:
@@ -281,7 +281,7 @@ U_{i}+\beta-I_{l}-r+\frac{\gamma}{m-i}&>U_{i} \nonumber \\
 \beta-I_{l}-r+\frac{\gamma}{m-i}&>0 \nonumber \\ 
 \llap{$\rightarrow$\hspace{50pt}} \beta+\frac{\gamma}{m-i}-r&>I_{l} 
 \end{eqnarray}
-\subparagraph{non-insured to non-insured}
+\subparagraph{Non-insured to non-insured}
 When a non-insured node connect to another not-insured node this is the payoff they receive:
 \begin{equation}
     U_{i+1}= 
@@ -290,14 +290,15 @@ When a non-insured node connect to another not-insured node this is the payoff t
     U_{i}+\beta -r,& \text{if }  i>0\\
     U_{i}+\beta -r +\gamma,& \text{if } i=m
 \end{cases}
+\label{eq:noitonoti}
 \end{equation}
-And to establish the connection this equation has to hold:
+To establish the connection this equation has to hold:
 \begin{eqnarray}
 U_{i}+\beta-r+\frac{\gamma}{m-i}&>U_{i} \nonumber \\ 
 \beta-r+\frac{\gamma}{m-i}&>0 \nonumber \\ 
 \llap{$\rightarrow$\hspace{50pt}} \beta+\frac{\gamma}{m-i}&>r
 \end{eqnarray}
-\subparagraph{non-insured to insured}
+\subparagraph{Non-insured to insured}
 \begin{equation}
     U_{i+1}= 
 \begin{cases}
@@ -305,32 +306,35 @@ U_{i}+\beta-r+\frac{\gamma}{m-i}&>U_{i} \nonumber \\
     U_{i}+\beta,& \text{if }  i>0\\
     U_{i}+\beta +\gamma,& \text{if } i=m
 \end{cases}
+\label{eq:noitoti}
 \end{equation}
-As we this is a strictly increasing function, and thus a non-insured will always connect to an insured node if given the option, and as long as $\beta$ is positive, but this is given in the rules of the model.
+As we see, this is a strictly increasing function, and thus a non-insured will always connect to an insured node if given the option, and as long as $\beta$ is positive, but this is given in the rules of the model.
+
 \subparagraph{Limitations to ensure a clique of only insured}
-We are interested in finding insurable topologies, and one insurable topology is a clique consisting of only insured nodes. By analysing the different scenarios above we can find limitations on the cost of insuring a link, that will force the network formation game to end up in an insurable clique.
-We know that a insured node would want to connect to another ensured node if the equation \ref{eq:itoi2} is satisfied. 
-In the equation we see that the expected bonus per established link is increasing, i.e. if a insured node of degree zero is willing to connect to another insured node, then every node with a degree bigger than zero also would like to connect to another insured node. Thus to ensure that insured nodes connect to each other this equation has to hold:
-\[
+We are interested in finding insurable topologies, one candidate is a clique consisting of only insured nodes. By analyzing the different scenarios above we can find limitations on the cost of insuring a link, that will force the network formation game to end up in an insurable clique.
+We know that an insured node would want to connect to another insured node if the equation \ref{eq:itoi2} is satisfied. 
+In the equation we see that the expected bonus per established link is increasing, i.e. if an insured node of degree zero is willing to connect to another insured node, then every node with a degree higher than zero also would like to connect to another insured node. Thus to ensure that insured nodes connect to each other this equation has to hold:
+\begin{equation}
 \beta+\frac{\gamma}{m}>I_{l}
 \label{eq:conditionitoi}
-\]
+\end{equation}
 We also want to ensure that insured nodes never establishes links with non-insured nodes, from \ref{eq:itonoti} we see that this has to hold:
-\[
+\begin{equation}
 \beta+\frac{\gamma}{m-i}-r < I_{l}
-\]
+\label{eq:conditionitonoti}
+\end{equation}
 This can be simplified, we know the insured nodes with degree $m-1$ get the highest expected bonus when establishing a new link, i.e. if we can ensure that nodes with this degree do not establish links to non-insured nodes, we also know that every node with degree less than $m-1$ will not establish links to non-insured nodes. From this we get the equation:
 \begin{eqnarray}
 \beta+\frac{\gamma}{m-(m-1)}-r&<I_{l} \nonumber\\
 \llap{$\rightarrow$\hspace{50pt}} \beta+\gamma-r&<I_{l}
 \label{eq:condition-i-to-noti}
 \end{eqnarray}
-From the equations \ref{eq:conditionitoi} and \ref{eq:condition-i-to-noti} we get this final limitation on the link insurance cost:
+From the equations \ref{eq:conditionitoi} and \ref{eq:conditionitonoti} we get this final limitation on the link insurance cost:
 \begin{equation}
 \beta+\gamma-r<I_{l}<\beta+\frac{\gamma}{m}
 \label{eq:final-insurance-clique-condition}
 \end{equation}
-A important fact about this limitation is that to make it possible for the game to end up in an insurable topology equation \ref{eq:noinsuredcliqueconditon} has to be satisfied. As we see from the equation, if the risk to bonus ratio gets to small it gets more and more unlikely to ensure an insurable topology. If we think about a real world scenario where you get a bonus for establishing a fixed number of equations, you would be more willing to take a risk if the possible reward of doing so is large, this is what this equation express. 
+An important fact about this limitation is to make it possible for the game to end up in an insurable topology equation \ref{eq:noinsuredcliqueconditon} has to be satisfied. As we see from the equation, if the risk to bonus ratio gets to small it gets more and more unlikely to ensure an insurable topology. If we think about a real world scenario where you get a bonus for establishing a fixed number of equations, you would be more willing to take a risk if the possible reward of doing so is large, this is what this equation express. 
 \begin{eqnarray}
 \gamma-r &<\frac{\gamma}{m}\nonumber \\
 1-\frac{r}{\gamma}&<\frac{1}{m} \nonumber \\
@@ -338,7 +342,10 @@ A important fact about this limitation is that to make it possible for the game 
 \label{eq:noinsuredcliqueconditon}
 \end{eqnarray}
 
-\subparagraph{Simulations}
+\subsubsection{Simulations}
+We simulate how networks form when the conditions from equation \ref{eq:final-insurance-clique-condition} are met, and what happens when they are not. In addition we use the simulation to look at the consequences with regards to the payoff, when the required number of connections aren't met. 
+
+\subparagraph{Conditions are met}
 First we simulate a network formation game when the link insurance cost satisfied the equation \ref{eq:final-insurance-clique-condition}. 
 \begin{table}[h]
 \centering
@@ -363,14 +370,49 @@ First we simulate a network formation game when the link insurance cost satisfie
   \caption{\label{fig:bonusoptimal} Two clustered fully connected networks, created by simulating with the parameters from table \ref{tbl:maxdegrevalues} One consisting of insured agents the other consists of non-insured. }
 \end{figure}
 As we see in figure \ref{fig:bonusoptimal} the results where as expected, the cost of insuring a link satisfied the conditions found earlier and thus the result where two cliques, one consisting of only insured and the other of non-insured nodes.
-If we change the link insurance cost, so it is just below the limit,$I_{l}=6$, the result is as shown in figure \ref{fig:bonusviolating}. Here we see that some of the insured node have taken a risk by connecting to one non-insured node to receive their bonus.  
+
+\subparagraph{Conditions are not met}
+If we change the link insurance cost, so it is just below the limit, $I_{l}=6$, the result is quite different as depicted in figure \ref{fig:bonusviolating}. Here we see that eventhough non-insured nodes can fail and accumulate negative payoff, some of the insured nodes have taken a risk by connecting to one non-insured node to receive their bonus. 
+
 \begin{figure}[h]
 \centering
   \includegraphics[width=0.8\linewidth]{../Figures/BonusGameViolating.png}
   \caption{\label{fig:bonusviolating} Simulation when the cost of insuring a link is just below the limits. }
 \end{figure}
 
-\subsection{DETTE ET ANNET STED KANSKJE? BLIR LITT RART Å HOPPE INN I DET HER}
+
+\subparagraph{Consequences of not reaching required number of edges}
+Both of these scenarios ends up in a situation where the nodes reach their maximum node degree and therefore receive the bonus. However sometimes nodes take a risk of connecting to other nodes without being able to reach their required number of connections. This means that in certain situation one might end up getting a total $i<m$ connections which results in a much lower payoff than expected. If the variables are set close to a worst-case, such as in table \ref{tbl:maxdegrevalueswitherror} , we end up with two cliques with payoffs close too or worse than the payoff each node had initially. 
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lc}
+ \hline
+  $\alpha=10,
+  \beta=10,
+  I_{o}=5,
+  I_{l}=11,
+  r=8,
+  \gamma=25,
+  m=8
+  $
+  \\
+  \hline
+\end{tabular}
+\caption{Parameters used in simulation \label{tbl:maxdegrevalueswitherror}}
+\end{table}
+
+With the variables from table \ref{tbl:maxdegrevalueswitherror} the resulting payoffs from figure \ref{fig:bonusviolatingWithErrors} equals $6$ for each of the non-insured nodes and $-1$ for the insured nodes. In comparison, the same figure using the variables from table \ref{tbl:maxdegrevalues} results in a positive payoff $15$ for each of the nodes in the insured clique. This comparison shows the consequences of failing to achieve the required amount of connections, which might be the case if a company is trying to complete a project which requires too many external suppliers. 
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=0.6\linewidth]{../Figures/BonusGameInsuredCliqueWithErrors.png}
+  \caption{\label{fig:bonusviolatingWithErrors} Simulation when the cost of insuring a link is just below the limits and the maximum node degree is high. }
+\end{figure}
+
+
+
+\section{DETTE ET ANNET STED KANSKJE? BLIR LITT RART Å HOPPE INN I DET HER}
 By adjusting the parameter one can assure that only insured agents connects to other insured agents, and the opposite,
 that only uninsured agents connects to each other. Hence as we can see from the figure \ref{fig:fincont} clustered
 networks of insured agents (red) are created, and  as the paper \cite{contagion} showed, these clustered trusted
@@ -419,3 +461,4 @@ The following values where used: $\alpha$ = 10, $\beta$ = 10, $I_{o}$ = 5, $I_{l
 \end{figure}
 
 From the payoff matrix \ref{fig:GTmodel1} we observe two different Nash equilibrium's: One when both agents are insured and wants to connect to the other agent, and one when both are insured but does not want to establish a connection. These are the possible outcomes between the two agents, however as we can see it the social optimal solution would be for two insured agents to connect with each other, i.e they would both receive a significantly higher payoff. This demonstrates that a cluster of insured nodes would achieve higher payoffs.  
+
