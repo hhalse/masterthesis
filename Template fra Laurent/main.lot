@@ -12,8 +12,14 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \contentsline {table}{\numberline {9.1}{\ignorespaces Table showing the parameters to be used in the first model \relax }}{48}{table.caption.58}
+<<<<<<< HEAD
 \contentsline {table}{\numberline {9.2}{\ignorespaces Table showing the parameters and their assigned values \relax }}{50}{table.caption.62}
 \contentsline {table}{\numberline {9.3}{\ignorespaces Table showing the parameters and their assigned values, the insurance cost of establishing link is now violating the equation \ref {eq:final condition} \relax }}{51}{table.caption.64}
 \contentsline {table}{\numberline {9.4}{\ignorespaces Parameters used in simulation \relax }}{56}{table.caption.78}
 \contentsline {table}{\numberline {9.5}{\ignorespaces Parameters used in simulation \relax }}{58}{table.caption.83}
 \contentsline {table}{\numberline {9.6}{\ignorespaces Table showing the parameters added to the model \relax }}{62}{table.caption.88}
+=======
+\contentsline {table}{\numberline {9.2}{\ignorespaces Table showing the parameters and their assigned values \relax }}{51}{table.caption.63}
+\contentsline {table}{\numberline {9.3}{\ignorespaces Table showing the parameters and their assigned values, the insurance cost of establishing link is now violating the equation \ref {eq:final condition} \relax }}{52}{table.caption.65}
+\contentsline {table}{\numberline {9.4}{\ignorespaces Parameters used in simulation \relax }}{57}{table.caption.78}
+>>>>>>> lokal
