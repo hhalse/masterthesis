@@ -136,6 +136,140 @@ $\overline{I}\overline{L}$   \> 0,\underline{5} 	\> 0,\underline{5}   			\> 0,0 
 
 
 
+\begin{compactitem}
+\item \verb+\begin{egame}(700,300)... \end{egame}+: Creates an extensive game environment with a box of dimensions 700 horizontally by 300 vertically.
+\item \verb+\putbranch(350,250)...+: Begins a branch at location 350 horizontally, 250 vertically (middle of the box, near the top).
+\item \verb+...(3,1)...+: Specifies that for each 3 units horizontally, the line should move down 1 unit vertically.
+\item \verb+...{300}...+: Specifies that the lines should cover 300 units in the horizontal dimension
+\item \verb+...\iib{p}{1}{2}[a][b]+: Specifies 2 (ii) branches, player name p, action label 1 and payoff a on the left branch and action label 2 and payoff b on the right branch. \\
+\end{compactitem}
+
+\clearpage
+
+To add in additional components that connect to these, figure out where your branches end up and start new branches there.  Since the initial branches began at (350,250), went over 300 units, and went down 100 units (1 unit down for every 3 units over), they should end at (50,150) and (650, 150).  Lets put a branch in at the end of one of those nodes:
+\begin{verbatim}
+\putbranch(650,150)(2,1){200} \iiib{other}{$\alpha$}{$\beta$}{$\gamma$}[x,x][y,y][z,z]
+\end{verbatim}
+
+
+\begin{figure}[h]
+\begin{footnotesize}
+\begin{center}
+\begin{egame}(700,300)
+\putbranch(350,250)(3,1){300} \iib{player name}{action 1}{action 2}[payoff a][]
+\putbranch(650,150)(2,1){200} \iiib{other}{$\alpha$}{$\beta$}{$\gamma$}[x,x][y,y][z,z]
+\end{egame}
+\end{center}
+\end{footnotesize}
+\end{figure}
+
+% (I removed the payoff b above, since that is no longer a terminal node)
+% In theory, you want to stay within the bounds of your box.  In practice, that's not strictly necessary - you'll notice I have a node starting at 650 and going over 200 (to 850), whereas my box only goes to 700.  Usually that won't be a problem if you're a bit over (or under, in negative numbers), but in some cases it may cause your figure to run off the side of the page or run into other material above or below it.
+
+
+Now lets do something a bit more complicated.  The figure below uses mostly the same commands that have already been introduced, but expands them to a larger and more interesting game.  It also introduces the information set command, which puts in a horizontal info set starting at the coordinates specified of the length specified, and with a label (if you include one):
+\begin{verbatim}
+\infoset(200,400){600}{\textbf{Soviet Union}}
+\end{verbatim}
+
+\begin{figure}[h]
+\begin{footnotesize}
+\begin{center}
+\begin{egame}(1000,550)
+\putbranch(500,500)(3,1){300} \iib{\textbf{Nature}}{Strong NATO ($p$)}{Weak NATO ($1-p$)}
+\infoset(200,400){600}{\textbf{Soviet Union}}
+\putbranch(200,400)(2,1){200} \iib{}{A}{N}[][0,0,0]
+\putbranch(800,400)(2,1){200} \iib{}{A}{N}[][0,0,0]
+\putbranch(0,300)(1,1){100} \iib{\textbf{Europe}}{BD}{R}[10,-4,0][]
+\putbranch(600,300)(1,1){100} \iib{\textbf{Europe}}{BD}{R}[10,-4,0][]
+\putbranch(100,200)(1,1){100} \iib{\textbf{U.S.}}{SO}{I}[5,-8,-8][-5,-2,-2]
+\putbranch(700,200)(1,1){100} \iib{\textbf{U.S.}}{SO}{I}[5,-8,0][-5,-2,-2]
+\end{egame}
+\end{center}
+\end{footnotesize}
+\end{figure}
+
+\vspace{-.5cm}
+
+The default setting for extensive form games is to set them up vertically (as these have been) but you may also have some you'd rather do horizontally.  To do that, add \verb+\egdirection{r}+ after beginning the egame environment, and all subsequent commands will operate horizontally, moving to the right instead of down (you can also put `l' or `u' for left or up).
+
+\begin{figure}[h]
+\begin{footnotesize}
+\begin{center}
+\begin{egame}(900, 500)
+\egdirection{r}
+\putbranch(100, 250)(1,1){150}\iib{1}{U}{D}[][]
+\putbranch(250, 400)(2,1){200}\iib{2}{l}{r}[4,1][]
+\putbranch(250, 100)(2,1){200}\iib{2}{l}{r}[0,0][3,5]
+\putbranch(450, 300)(3,1){300}\iib{1}{u}{d}[6,5][8,-4]
+\end{egame}
+\end{center}
+\end{footnotesize}
+\end{figure}
+
+\clearpage
+
+Putting all these together, you can do some fancier things like signaling games, bargaining games, or other game structures.  To do the ones below, a few more commands are introduced: \\
+
+\begin{compactitem}
+\item \verb+\putbranch(50,250)(2,1)[l]...+: This overrides the `right' orientation of the game as a whole, saying that this particular branch should have a left orientation.
+\item \verb+\egalhshift=30+: This introduces a horizontal shift in the action labels.  If your labels are running into each other, or not showing up where you want, you can mess around with this a bit.
+\item \verb+\iib{City}[u]...+: This places the player label up from the node (you can also put `d', `l', `r', or `o' for down, left, right, or over the node).
+\item \verb+\iib[linecolor=green]+: Makes the lines of those branches green.\\
+\end{compactitem}
+
+\vspace{.5cm}
+
+\begin{figure}[h]
+\begin{footnotesize}
+\begin{center}
+\begin{egame}(800,300)
+\egdirection{r}
+\putbranch(400,150)(0,1){100} \iib{\textbf{N}}{Insured (p)}{Not-insured (1-p)}
+\putbranch(400,250)(1,0){350} \ib{\textbf{1}}[u]{L}
+\putbranch(400,250)(1,0)[l]{350} \ib{\textbf{}}{N}[$U_{i},U_{i}$]
+\putbranch(400,50)(1,0){350} \ib{\textbf{1}}[d]{L}
+\putbranch(400,50)(1,0)[l]{350} \ib{\textbf{}}{N}[$U_{i},U_{i}$]
+\putbranch(750,250)(2,1){150} \egalhshift=30 \iib{\textbf{2}}[u]{L}{N}[$U_{i}+\beta-I_{l},U_{i}+\beta-I_{l} $][$U_{i},U_{i}$]
+\putbranch(750,50)(2,1){150} \egalhshift=30 \iib{\textbf{2}}[d]{L}{N}[$U_{i}+\beta,U_{i}+\beta-I_{l}-r $][$U_{i},U_{i}$]
+\infoset(750,50){200}{}
+
+
+
+\end{egame}
+\end{center}
+\end{footnotesize}
+\end{figure}
+
+\vspace{.5cm}
+
+\begin{figure}[h]
+\begin{footnotesize}
+\begin{center}
+\begin{egame}(800,300)
+\egdirection{r}
+\putbranch(400,150)(0,1){100} \iib{\textbf{N}}{Insured (p)}{Not-insured (1-p)}
+\putbranch(400,250)(1,0){350} \ib{\textbf{1}}[u]{L}
+\putbranch(400,250)(1,0)[l]{350} \ib{\textbf{}}{N}[$U_{i},U_{i}$]
+\putbranch(400,50)(1,0){350} \ib{\textbf{1}}[d]{L}
+\putbranch(400,50)(1,0)[l]{350} \ib{\textbf{}}{N}[$U_{i},U_{i}$]
+\putbranch(750,250)(2,1){150} \egalhshift=30 \iib{\textbf{2}}[u]{L}{N}[$U_{i}+\beta-I_{l}-r,U_{i}+\beta$][$U_{i},U_{i}$]
+\putbranch(750,50)(2,1){150} \egalhshift=30 \iib{\textbf{2}}[d]{L}{N}[$U_{i}+\beta-r,U_{i}+\beta-r $][$U_{i},U_{i}$]
+\infoset(750,50){200}{}
+
+
+
+\end{egame}
+\end{center}
+\end{footnotesize}
+\end{figure}
+
+
+
+
+
+
+
 
 \end{document} 
 
