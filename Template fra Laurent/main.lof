@@ -7,16 +7,27 @@
 \addvspace {10pt}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces General graph \cite {audestad}.\relax }}{14}{figure.caption.14}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Forming a A-B graph in 15 generations \cite {audestad}.\relax }}{16}{figure.caption.17}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Caption for LOF}}{17}{figure.caption.19}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Caption for LOF}}{18}{figure.caption.21}
 \addvspace {10pt}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {4.1}{\ignorespaces A star-topology \cite {lieberman2005evolutionary} . \relax }}{19}{figure.caption.18}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Figure \ref {fig:optequi} shows the socially optimal equilibrium, and \ref {fig:notoptequi} shows the non optimal equilibrium.\relax }}{20}{figure.caption.21}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Mutant propagation game\relax }}{22}{figure.caption.22}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces A figure\relax }}{25}{figure.caption.23}
+=======
+\contentsline {figure}{\numberline {4.1}{\ignorespaces A star-topology \cite {lieberman2005evolutionary} . \relax }}{21}{figure.caption.22}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Figure \ref {fig:optequi} shows the socially optimal equilibrium, and \ref {fig:notoptequi} shows the non optimal equilibrium.\relax }}{22}{figure.caption.25}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Mutant propagation game\relax }}{24}{figure.caption.26}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces A figure\relax }}{27}{figure.caption.27}
+>>>>>>> working
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {9.1}{\ignorespaces shows how agents connects to eachother according to model described in section \ref {section:verysimplemodel}.\relax }}{47}{figure.caption.57}
 \contentsline {figure}{\numberline {9.2}{\ignorespaces Normal form game, showing the different strategies and the payoffs for the different outcomes. The payoff for agent A is written first, then the payoff for agent B is on the line beneath. An agent has a strategy space of size 4. \relax }}{49}{figure.caption.60}
 \contentsline {figure}{\numberline {9.3}{\ignorespaces Caption for LOF}}{51}{figure.caption.64}
@@ -29,3 +40,17 @@
 \contentsline {figure}{\numberline {9.10}{\ignorespaces shows how insured agents connects with each other to form a network to achieve super-critical payoffs.\relax }}{61}{figure.caption.86}
 \contentsline {figure}{\numberline {9.11}{\ignorespaces Caption for LOF}}{61}{figure.caption.87}
 \contentsline {figure}{\numberline {9.12}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{62}{figure.caption.88}
+=======
+\contentsline {figure}{\numberline {9.1}{\ignorespaces shows how agents connects to eachother according to model described in section \ref {section:verysimplemodel}.\relax }}{49}{figure.caption.61}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Normal form game, showing the different strategies and the payoffs for the different outcomes. The payoff for agent A is written first, then the payoff for agent B is on the line beneath. An agent has a strategy space of size 4. \relax }}{51}{figure.caption.64}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Caption for LOF}}{53}{figure.caption.68}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Caption for LOF}}{54}{figure.caption.70}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces The figure shows how ten nodes start out with no links, and then add links as long as they can increase their payoff, the result are two seperate cliques, one consisting of non-insured and the other of insured nodes.\relax }}{55}{figure.caption.72}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces The figure shows the two possible scenarios that violates the equation \ref {eq:final condition}, \ref {fig:SimulationViolatingA} shows the result when $I_{l}<\beta -r$ and \ref {fig:SimulationViolatingB} shows the result when $I_{l}>\beta $.\relax }}{55}{figure.caption.74}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Two clustered fully connected networks, created by simulating with the parameters from table \ref {tbl:maxdegrevalues} One consisting of insured agents the other consists of non-insured. \relax }}{59}{figure.caption.84}
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Simulation when the cost of insuring a link is just below the limits. \relax }}{60}{figure.caption.86}
+\contentsline {figure}{\numberline {9.9}{\ignorespaces Simulation when the cost of insuring a link is just below the limits and the maximum node degree is high. \relax }}{61}{figure.caption.89}
+\contentsline {figure}{\numberline {9.10}{\ignorespaces shows how insured agents connects with each other to form a network to achieve super-critical payoffs.\relax }}{63}{figure.caption.90}
+\contentsline {figure}{\numberline {9.11}{\ignorespaces Caption for LOF}}{63}{figure.caption.91}
+\contentsline {figure}{\numberline {9.12}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{64}{figure.caption.92}
+>>>>>>> working
