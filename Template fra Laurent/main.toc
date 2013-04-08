@@ -97,6 +97,7 @@
 \contentsline {section}{\numberline {9.2}Very Simple Model }{46}{section.9.2}
 \contentsline {subsection}{\numberline {9.2.1}Model with parameters}{47}{subsection.9.2.1}
 \contentsline {subparagraph}{Two agent game}{48}{section*.59}
+<<<<<<< HEAD
 \contentsline {subparagraph}{Example scenario}{50}{section*.61}
 \contentsline {subsection}{\numberline {9.2.2}Modelling network formation game}{51}{subsection.9.2.2}
 \contentsline {subparagraph}{Simulation of game with optimal parameters}{51}{figure.caption.67}
@@ -118,3 +119,20 @@
 \contentsline {subsection}{\numberline {9.4.1}Game random connection}{62}{subsection.9.4.1}
 \contentsline {subsection}{\numberline {9.4.2}Game connecting to insured first}{64}{subsection.9.4.2}
 \contentsline {chapter}{References}{65}{section*.90}
+=======
+\contentsline {subparagraph}{Multiple nodes}{50}{section*.61}
+\contentsline {subparagraph}{Example scenario}{51}{section*.62}
+\contentsline {subsection}{\numberline {9.2.2}Modelling network formation game}{52}{subsection.9.2.2}
+\contentsline {subparagraph}{Simulation of game with optimal parameters}{52}{figure.caption.68}
+\contentsline {subparagraph}{Simulation of game with parameters violating equation \ref {eq:final condition}}{53}{figure.caption.70}
+\contentsline {subsection}{\numberline {9.2.3}Game with maximum node degree and bonus}{54}{subsection.9.2.3}
+\contentsline {subsubsection}{Four different scenarios}{54}{section*.71}
+\contentsline {subparagraph}{Insured to insured}{54}{section*.72}
+\contentsline {subparagraph}{Insured connect to non-insured}{55}{section*.73}
+\contentsline {subparagraph}{non-insured to non-insured}{55}{section*.74}
+\contentsline {subparagraph}{non-insured to insured}{55}{equation.9.15}
+\contentsline {subparagraph}{Limitations to ensure a clique of only insured}{55}{section*.76}
+\contentsline {subparagraph}{Simulations}{57}{section*.77}
+\contentsline {subsection}{\numberline {9.2.4}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{57}{subsection.9.2.4}
+\contentsline {chapter}{References}{61}{section*.85}
+>>>>>>> lokal
