@@ -10,12 +10,19 @@ A level-1 auxiliary file: surveyofnetworkformations.aux
 A level-1 auxiliary file: relatedwork2.aux
 A level-1 auxiliary file: networkgames.aux
 A level-1 auxiliary file: modelingCyberInsurance.aux
+A level-1 auxiliary file: modellingThreshold.aux
 The style file: alpha.bst
 Database file #1: referanser.bib
 Repeated entry---line 214 of file referanser.bib
  : @article{lieberman2005evolutionary
  :                                   ,
 I'm skipping whatever remains of this entry
+Too many commas in name 1 of "Garas, A., Argyrakis, P." for entry greekStockMarket
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "Garas, A., Argyrakis, P." for entry greekStockMarket
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "Garas, A., Argyrakis, P." for entry greekStockMarket
+while executing---line 1185 of file alpha.bst
 Too many commas in name 1 of "Blumen, L., Easley, D., Kleinber, J., Kleinberg, R. anad Tardon, E." for entry contagion
 while executing---line 1185 of file alpha.bst
 Too many commas in name 1 of "Blumen, L., Easley, D., Kleinber, J., Kleinberg, R. anad Tardon, E." for entry contagion
@@ -65,7 +72,10 @@ while executing---line 1250 of file alpha.bst
 Too many commas in name 1 of "Blumen, L., Easley, D., Kleinber, J., Kleinberg, R. anad Tardon, E." for entry contagion
 while executing---line 1250 of file alpha.bst
 Warning--empty journal in contagion
+Too many commas in name 1 of "Garas, A., Argyrakis, P." for entry greekStockMarket
+while executing---line 1250 of file alpha.bst
+Warning--empty journal in greekStockMarket
 Warning--empty chapter and pages in mehr1980principles
 Warning--empty journal in solutiontoinfoasym
 Warning--empty journal in robinson2012incentives
-(There were 25 error messages)
+(There were 29 error messages)
