@@ -121,4 +121,6 @@
 \contentsline {section}{\numberline {9.4}Game including max node degree}{65}{section.9.4}
 \contentsline {subsection}{\numberline {9.4.1}Game random connection}{65}{subsection.9.4.1}
 \contentsline {subsection}{\numberline {9.4.2}Game connecting to insured first}{67}{subsection.9.4.2}
-\contentsline {chapter}{References}{69}{section*.95}
+\contentsline {chapter}{\chapternumberline {10}Similar insurance products}{69}{chapter.10}
+\contentsline {section}{\numberline {10.1}Discount by collecting insurances}{69}{section.10.1}
+\contentsline {chapter}{References}{71}{section*.95}
