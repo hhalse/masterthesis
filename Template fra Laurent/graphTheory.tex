@@ -78,13 +78,46 @@ In addition to the high clustering coefficient the research found that these gra
  A-B graphs are therefore comparable to the network formation of the Internet and other computer networks. 
 The model is therefore a good base in the search for insurable topologies. 
 
+\subsection{Real life graph structures}
+
+
+The internet, the World Wide Web, neural networks, scientific referencing and co-authorship, stock markets, airline routes, food 
+webs, and modular software systems, all tend to evolve in a way similar to that described in the examples 
+above \cite{audestad}. This section will provide some real life examples of how complex systems with huge amount of data can be described as network structures having the same characteristics as A-B graphs.
+
+\subparagraph{Stock markets} A research paper from \cite{greekStockMarket} looks at the correlation between stocks in the Greek stock market in year 1997. They compared the daily closing price of stock $i$ at day $t$, and compared the similarity of a pair of stocks $i$ and $j$ a using the correlation coefficient. The idea is that the correlation coefficient between a pair of stocks can be expressed using different distances in a graph structure. A short distance means high correlation and long distance means low correlations between the stocks. Normally this network would be shown as a fully connected graph, which will consist of $\frac{n(n-1)}{2}$ edges, and would be difficult to analyze. However the approach taken in the paper will present a clear understandable graph consisting of $(n-1)$ edges \cite{greekStockMarket}.
+
+The resulting graph is depicted in figure \ref{fig:greekStockMarket}, and show a network consisting of several clusters linked together. Instead of having to analyze a complex system with huge amount of data, this stock market can be analyzed by its topological properties, such as the high clustering coefficient, i.e a star-topology, which will among others point out which stocks have the most influence on others. 
+
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{@{}c@{}}
+\includegraphics[width=1.0\textwidth]{../Figures/greekStockMarket.jpg}
+\end{tabular}
+\caption[Caption for LOF]{Network obtained by comparing two stocks correlation coefficient in the Greek stock market (Athens Stock Exchange, ASE) in year 1997. The different colors represent the different sectors of economic activity \cite{greekStockMarket}.
+\label{fig:greekStockMarket}}
+\end{figure}
+
+
+\subparagraph{Airline routes}
+Another naturally created network which shows characteristics scale-free graphs is the visualization of airline routes. Figure \ref{fig:airlineRouteMap} shows the US route map of the American airline company, SkyWest. The characteristic clustering emerges in the figure, where a majority of the flights departs from either Denver, Chicago or San Francisco. Not surprisingly, these airports are all in the top 7 busiest airports in the US \cite{busiestAirports}, and serves as hubs for many of SkyWest flights. In the airline industry some airports are called hubs, because that's what they are, - a connection point for major parts of the network of flights. The network of flights, as depicted \ref{fig:airlineRouteMap} follows the characteristics for A-B graphs. From the graph, we see that the network are vulnerable against direct attacks, meaning if an low edge degree airport is shut down, there will be little consequence for the rest of the network. However, if one of the hubs is forced to close, it will provoke huge delays through out the whole network of flights, because many of the destinations are interconnected via the hubs. 
+
+
+\begin{figure}[h]
+\centering
+\begin{tabular}{@{}c@{}}
+\includegraphics[width=1.0\textwidth]{../Figures/airlineRoutesUSA.png}
+\end{tabular}
+\caption[Caption for LOF]{SkyWest Airline combined route map \cite{airlineRoutes}.
+\label{fig:airlineRouteMap}}
+\end{figure}
+
+Similar findings will appear in all the networks mentioned earlier in this section, and everyone will experience serious consequences if a hub in the network is failing. This is important for cyber-insurance because the networks we are analyzing tends to look like and behave according to A-B graphs. For example, transactions between companies could be compared with how the correlation between stocks in a stock market works. Further in this report we will examine how cyber-insurance could benefit from operating in a scale-free graph. 
+
 
 
 NOTES!!!
-The internet, the World Wide Web, neural networks, scientific referencing and co-authorship, food 
-webs, and modular software systems tend to evolve in a way similar to that described in the examples 
-above.
-
 Geek stockmarket graph: http://www.sciencedirect.com/science/article/pii/S037843710700221X
 
 
