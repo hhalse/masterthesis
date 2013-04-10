@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  8 APR 2013 13:50
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  10 APR 2013 12:39
 entering extended mode
 **main.tex
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.tex"
@@ -1738,17 +1738,20 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [5]
-Overfull \hbox (0.40538pt too wide) in paragraph at lines 121--121
+Overfull \hbox (0.40538pt too wide) in paragraph at lines 125--125
  [][] [][][]\T1/lmr/m/n/10 (-20) DETTE ET AN-NET STED KAN-SKJE? BLIR LITT RART 
 � HOPPE 
  []
 
 ) [6] ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.lo
-f" [7
+f"
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]) [8]
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.lot")
-[9
+ [7
+
+])
+[8] ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.lot"
+) [9
 
 ] [10
 
@@ -2046,33 +2049,26 @@ n input line 415.
  [59 <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameInsuredClique
 WithErrors.png>]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\modelingWithN
-ature.tex"
-<../Figures/SignalingGameInsured.png, id=1025, 1318.17468pt x 461.47406pt>
+ature.tex" [60]
+<../Figures/SignalingGameInsured.png, id=1033, 1318.17468pt x 461.47406pt>
 File: ../Figures/SignalingGameInsured.png Graphic file (type png)
 
 <use ../Figures/SignalingGameInsured.png>
 Package pdftex.def Info: ../Figures/SignalingGameInsured.png used on input line
- 8.
+ 12.
 (pdftex.def)             Requested size: 364.0pt x 127.43034pt.
- [60]
-<../Figures/SignalingGameNotInsured.png, id=1034, 1294.8375pt x 418.56375pt>
+ [61 <C:/Users/Håvard/masterthesis/masterthesis/Figures/SignalingGameInsured.p
+ng>] [62]
+<../Figures/SignalingGameNotInsured.png, id=1052, 1294.8375pt x 418.56375pt>
 File: ../Figures/SignalingGameNotInsured.png Graphic file (type png)
 
 <use ../Figures/SignalingGameNotInsured.png>
 Package pdftex.def Info: ../Figures/SignalingGameNotInsured.png used on input l
-ine 19.
+ine 98.
 (pdftex.def)             Requested size: 364.0pt x 117.66327pt.
- [61 <C:/Users/Håvard/masterthesis/masterthesis/Figures/SignalingGameInsured.p
-ng> <C:/Users/Håvard/masterthesis/masterthesis/Figures/SignalingGameNotInsured
-.png>] [62]
-File: ../Figures/SignalingGameInsured.png Graphic file (type png)
-
-<use ../Figures/SignalingGameInsured.png>
-Package pdftex.def Info: ../Figures/SignalingGameInsured.png used on input line
- 107.
-(pdftex.def)             Requested size: 364.0pt x 127.43034pt.
-)
-<../Figures/financialContagion1.png, id=1055, 197.23688pt x 135.50626pt>
+ [63 <C:/Users/Håvard/masterthesis/masterthesis/Figures/SignalingGameNotInsure
+d.png>] [64])
+<../Figures/financialContagion1.png, id=1082, 197.23688pt x 135.50626pt>
 File: ../Figures/financialContagion1.png Graphic file (type png)
 
 <use ../Figures/financialContagion1.png>
@@ -2080,7 +2076,7 @@ Package pdftex.def Info: ../Figures/financialContagion1.png used on input line
 474.
 (pdftex.def)             Requested size: 145.60056pt x 100.03113pt.
 
-<../Figures/financialContagion2.png, id=1056, 177.66376pt x 131.74219pt>
+<../Figures/financialContagion2.png, id=1083, 177.66376pt x 131.74219pt>
 File: ../Figures/financialContagion2.png Graphic file (type png)
 
 <use ../Figures/financialContagion2.png>
@@ -2092,17 +2088,16 @@ Package pdftex.def Info: ../Figures/financialContagion2.png used on input line
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<../Figures/gameTheoryModel1WithEquations.png, id=1058, 923.70094pt x 132.495pt
+Overfull \vbox (12.0pt too high) has occurred while \output is active []
+
+ [65]
+<../Figures/gameTheoryModel1WithEquations.png, id=1094, 923.70094pt x 132.495pt
 >
 File: ../Figures/gameTheoryModel1WithEquations.png Graphic file (type png)
  <use ../Figures/gameTheoryModel1WithEquations.png>
 Package pdftex.def Info: ../Figures/gameTheoryModel1WithEquations.png used on i
 nput line 494.
 (pdftex.def)             Requested size: 364.0pt x 52.2106pt.
-
-Overfull \vbox (12.0pt too high) has occurred while \output is active []
-
- [63]
 File: ../Figures/gameTheoryModel1WithNumbers.png Graphic file (type png)
 
 <use ../Figures/gameTheoryModel1WithNumbers.png>
@@ -2113,23 +2108,23 @@ ut line 507.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [64 <C:/Users/Håvard/masterthesis/masterthesis/Figures/financialContagion1.p
-ng> <C:/Users/Håvard/masterthesis/masterthesis/Figures/financialContagion2.png
-> <C:/Users/Håvard/masterthesis/masterthesis/Figures/gameTheoryModel1WithEquat
-ions.png>]
+[66 <C:/Users/Håvard/masterthesis/masterthesis/Figures/financialContagion1.png
+> <C:/Users/Håvard/masterthesis/masterthesis/Figures/financialContagion2.png> 
+<C:/Users/Håvard/masterthesis/masterthesis/Figures/gameTheoryModel1WithEquatio
+ns.png>])
 Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
- [65]
+ [67]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\modellingThre
 shold.tex"
 Overfull \hbox (21.2481pt too wide) in paragraph at lines 9--18
  [][] 
  []
 
-[66
+[68
 
 
-] [67]) [68]
+] [69]) [70]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.bbl"
 bibitemlist
 
@@ -2144,7 +2139,7 @@ Underfull \hbox (badness 1635) in paragraph at lines 69--73
 : / / www . digi . no / 39107 /$
  []
 
-[69
+[71
 
 
 ]
@@ -2160,7 +2155,7 @@ Class memoir Warning: The material used in the headers is too large
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 113.
 
-[70]
+[72]
 \tf@toc=\write8
 \tf@lof=\write9
 \tf@lot=\write10
@@ -2194,7 +2189,7 @@ shold.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6F9DD8A27472C150BC47BEEB365C1012;4356.
+(rerunfilecheck)             Checksum: 5A8FAA004349700271720F10481BBB89;4361.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2202,11 +2197,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 22422 strings out of 494045
- 337363 string characters out of 3145963
- 595434 words of memory out of 3000000
- 24675 multiletter control sequences out of 15000+200000
- 85558 words of font info for 147 fonts, out of 3000000 for 9000
+ 22449 strings out of 494045
+ 337753 string characters out of 3145963
+ 595999 words of memory out of 3000000
+ 24680 multiletter control sequences out of 15000+200000
+ 85807 words of font info for 150 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  62i,14n,94p,1504b,636s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Progr
@@ -2227,9 +2222,9 @@ gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files (x
 /public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
 ri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb>
-Output written on main.pdf (86 pages, 1063902 bytes).
+Output written on main.pdf (88 pages, 1075100 bytes).
 PDF statistics:
- 1271 PDF objects out of 1440 (max. 8388607)
- 346 named destinations out of 1000 (max. 500000)
+ 1304 PDF objects out of 1440 (max. 8388607)
+ 362 named destinations out of 1000 (max. 500000)
  24124 words of extra memory for PDF output out of 24883 (max. 10000000)
 

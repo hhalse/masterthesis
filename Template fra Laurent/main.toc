@@ -114,12 +114,16 @@
 \contentsline {subparagraph}{Conditions are not met}{58}{section*.81}
 \contentsline {subparagraph}{Consequences of not reaching required number of edges}{58}{section*.83}
 \contentsline {subsection}{\numberline {9.2.4}Game including bulk insurance discount}{59}{subsection.9.2.4}
-\contentsline {subsection}{\numberline {9.2.5}Nature included in the game}{61}{subsection.9.2.5}
+\contentsline {subsection}{\numberline {9.2.5}Game with incomplete information}{61}{subsection.9.2.5}
 \contentsline {subsection}{\numberline {9.2.6}Calculating the different equlibriums}{61}{subsection.9.2.6}
-\contentsline {subparagraph}{Separating equilibrium}{61}{section*.88}
-\contentsline {subparagraph}{Pooling equilibrium}{62}{section*.89}
-\contentsline {section}{\numberline {9.3}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{63}{section.9.3}
-\contentsline {section}{\numberline {9.4}Game including max node degree}{66}{section.9.4}
-\contentsline {subsection}{\numberline {9.4.1}Game random connection}{66}{subsection.9.4.1}
-\contentsline {subsection}{\numberline {9.4.2}Game connecting to insured first}{68}{subsection.9.4.2}
-\contentsline {chapter}{References}{69}{section*.96}
+\contentsline {subparagraph}{Separating equilibrium}{61}{section*.87}
+\contentsline {subparagraph}{Pooling equilibrium}{62}{section*.88}
+\contentsline {subparagraph}{Player 2 not insured, player 1's type choosen by nature}{63}{section*.89}
+\contentsline {subparagraph}{Separating equilibrium}{63}{section*.91}
+\contentsline {subparagraph}{Pooling equilibrium}{65}{section*.92}
+\contentsline {subparagraph}{Summary}{65}{section*.93}
+\contentsline {section}{\numberline {9.3}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{65}{section.9.3}
+\contentsline {section}{\numberline {9.4}Game including max node degree}{68}{section.9.4}
+\contentsline {subsection}{\numberline {9.4.1}Game random connection}{68}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {9.4.2}Game connecting to insured first}{70}{subsection.9.4.2}
+\contentsline {chapter}{References}{71}{section*.99}
