@@ -58,6 +58,13 @@ R.~B{\"o}hme and G.~Schwartz.
 \newblock Modeling cyber-insurance: Towards a unifying framework.
 \newblock {\em Proceedings of GameSec}, 2010, 2010.
 
+\bibitem[CfAPA]{airlineRoutes}
+CAPA Centre~for Asia Pacific~Aviation.
+\newblock Skywest airlines.
+\newblock
+  \url{http://centreforaviation.com/profiles/airlines/skywest-airlines-oo}.
+\newblock Accessed: 08/04/2013.
+
 \bibitem[CoA]{travelers}
 Travelers Casualty and Surety~Company of~America.
 \newblock Cyberrisk.
@@ -75,6 +82,18 @@ digi.no.
 D.~Easley and J.~Kleinberg.
 \newblock Networks, crowds, and markets: Reasoning about a highly connected
   world, 2012.
+
+\bibitem[Faa]{busiestAirports}
+faa Federal~aviation administration.
+\newblock Calendar year 2011 primary airports.
+\newblock \url{
+  http://www.faa.gov/airports/planning_capacity/passenger_allcargo_stats/passenger/media/cy11_primary_enplanements.pdf}.
+\newblock Accessed: 08/04/2013.
+
+\bibitem[Gar07]{greekStockMarket}
+Argyrakis~P. Garas, A.
+\newblock Correlation study of the athens stock exchange.
+\newblock 2007.
 
 \bibitem[GGJ{\etalchar{+}}10]{networkgames}
 A.~Galeotti, S.~Goyal, M.O. Jackson, F.~Vega-Redondo, and L.~Yariv.
@@ -158,6 +177,13 @@ Stratic Risk.
 N.~Robinson.
 \newblock Incentives and barriers of the cyber insurance market in europe.
 \newblock 2012.
+
+\bibitem[Spa]{sparebank1}
+Sparebank1.
+\newblock Spar inntil 25 % på forsikringene dine.
+\newblock
+  \url{https://www2.sparebank1.no/sr-bank/forsikring/skadeforsikring/fa-rabatt-pa-forsikringer/}.
+\newblock Accessed: 09/04/2013.
 
 \bibitem[Wat11]{twatson}
 Tower Watson.
