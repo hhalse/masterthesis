@@ -1,25 +1,18 @@
 \chapter{Graph Theory}
 \label{chp:graphTheory} 
 
+In nature and human societies there are lots of scenarios that can be described by using graphs and graph theory, from infrastructure, such as railroads, water pipelines and electricity grid, to societal relationships, disease epidemics and much more. Additionally computer networks, such as peer-to-peer networks,  number of links to/from web-sites etc, is formed and evolves according to the laws of random graphs. When one can describe a phenomenon with graphs, it is much easier to analyze and find characteristics about the phenomenon, the graph serves as an analytical tool \cite{audestad}. Our goal is to identify insurable graphs, such as graphs which yields higher security or graphs where the risk is calculable. This section will provide background information on how different graphs can be created and how they evolve.
 
-\section{Graphs}
-
-Most activities in nature and society can be described using graphs, which offers an intuitive approach that can be analyzed. Railroads, water pipelines, societal relations etc. can all be described using graph theory. In addition, the Internet and other computer networks is formed and evolves according to the laws of random graphs \cite{audestad}. Graphs serves as an analytic tool \cite{audestad}, which in our case makes it possible to investigate whether there are certain graphs that might yield higher security than others. This section will provide background information on how these graphs are created, and highlight the main characteristics which are important for detecting insurable topologies. 
-
-\subsection{Basic graphs}
-
-
-There are some basic properties of graphs which is important to be familiar with. Figure \ref{fig:generalGraph} depicts the basics of an unweighted graph, meaning the edges are not given any value. In other cases, weighted edges is useful to e.g. reflect capacity constraints such as a link's maximum bandwidth. Other common definition used in the description graphs are described below \cite{audestad}:
+There are some basic properties of graphs which is important to be familiar with. Figure \ref{fig:generalGraph} depicts the basics of an unweighted graph, the edges are not assigned any value. Weighted edges can be useful to e.g. reflect capacity constraints such as a link's maximum bandwidth, or the length of a road(edge). Other common definition used when describing graphs are listed below \cite{audestad}:
 \begin{itemize}
-\item Edge degree: Number for edges connected with a vertex.
-\item Hub: Vertex with high edge degree.
-\item Cycle: A chain originating and terminating at the same vertex.
-\item Cluster: Subgraph of highly connected vertices.
-\item Cluster coefficient: Probability that two vertices that are adjacent to a third vertex are also adjacent.
-\item Clique: Subgraph where all vertices are adjacent (cluster coefficient = 1).
+\item Edge degree: Number of edges connected with a node.
+\item Hub: Node with high edge degree.
+\item Cycle: A chain originating and terminating at the same node.
+\item Cluster: Subgraph of highly connected nodes.
+\item Cluster coefficient: Probability that two nodes that are adjacent to a third node are also adjacent.
+\item Clique: Subgraph where all nodes are adjacent (cluster coefficient = 1).
 \item Small world graph: Graph with small diameter and large cluster coefficient (e.g. the Internet and A-B graphs, described in section \ref{ABgraph}).
 \end{itemize}
-
 
 \begin{figure}[h]
 \centering
@@ -30,14 +23,12 @@ There are some basic properties of graphs which is important to be familiar with
 \end{figure}
 
 
-\subsection{Random Graphs}
-
-Regarding cyber-insurance the study of random graphs are of special concern, since we are looking for insurable topologies in computer networks(random graphs). The research on random graphs are fairly new compared with other mathematical discoveries. E-R graphs were first studied in 1959 by Erdös and Rényi, later and probably with more promising results was the graphs studied by Albert-Barabási in 1999 \cite{audestad}. 
-
-\subsubsection{Erdös-Rényi Graphs}
-E-R graphs is a network created over a fixed number $n$ of vertices, where each node connects to another of the $n-1$ vertices with a chosen 
+\section{Random Graphs}
+Cyber-insurance cover many fields, from financial transactions and outsourcing of tasks to computer networks, many of these fields share a common characteristic, they can all be described as a graph, and often a random graph. Therefore the study of random graphs are of special concern. The research on random graphs are fairly new compared to other mathematical discoveries. E-R graphs were first studied in 1959 by Erdös and Rényi, later and probably with more promising results was the graphs studied by Albert-Barabási in 1999 \cite{audestad}. 
+\subparagraph{Erdös-Rényi Graphs}
+E-R graphs is a network created between a fixed number of $n$-nodes, where each node connects to another of the $n-1$ nodes with 
 probability $p$. The resulting graph will on average contain $n(n-1)p/2 \approx n^{2}p/2$ edges \cite{barabasi}. 
-From analyzing the graph, the authors found some interesting properties\cite{barabasi}\cite{audestad}:
+By analysing the graph, the authors found some interesting properties:
 
 \begin{itemize}
 \item If $p<n^{-2}$  then there is no edges in the graph. 
@@ -46,22 +37,20 @@ From analyzing the graph, the authors found some interesting properties\cite{bar
 \item If $p = 1/n$ triangles start forming in the graph. 
 \end{itemize}
 
-Our goal is to use a graph which models how to Internet and other computer networks are connected. A fully connected E-R graph has a good potential, since the graph will have a short diameter similar to the Internet. However, the edge degree follows a Poisson distribution, which means that the edge degree are peaking around the average value \cite{audestad}. Consequently E-R graphs does not capture the immense clustering coefficient which is present in networks such as the Internet. In other words, E-R graphs are not small world graphs, and another graph structure is needed.
+A fully connected E-R graph will have a short diameter similar to the Internet, and thus could be a very good desrcription of the internet. However, the edge degree follows a Poisson distribution, which means that the edge degrees are peaking around the average value \cite{audestad}. Consequently E-R graphs does not capture the immense clustering coefficient which is present in networks such as the Internet. In other words, E-R graphs are not small world graphs, and another graph structure is needed to model computer networks.
+A interesting fact about these graphs are their vulnerability, these graphs are very vulnerable against random attacks, such as nature disasters, but robust against directed attacks. Due to the fact that if you remove all edges from one node, it does little damage, since the network is not dependent on single nodes, every node has approximately the same node degree, and it is the sum of all the nodes connections that creates the network.
 
-
-
-\subsubsection{\label{ABgraph}Albert-Barabási Graphs}
-The struckture which is believed to be most accurate regarding modeling the structure of computer networks are A-B graphs. A-B graphs are different from E-R graphs since they are scale-free, meaning that the vertices does not have an constant value throughout the entire graph. The formation of an A-B graph results in multiple hubs with a high edge degree. Albert and Barabási found that the edge degree of each vertex follows a power law distribution; meaning that the probability that the edge degree is $g$ is proportional to $g^{\gamma}$
-where $\gamma$ usually is a number between 2 and 3 \cite{audestad}. Consequently there are relatively high probability that a vertex have a very high edge degree. 
-
-A-B graphs can grow and become scale-free if every new vertex is connected to one or more existing vertices with a probability proportional to the edge degree of these vertices \cite{audestad}. The paper \cite{audestad} presents an algorithm creating  A-B graphs and figure \ref{fig:ABgraphcreation} models a possible formation of a graph using the algorithm:
-
+\subparagraph{\label{ABgraph}Albert-Barabási Graphs}
+The structure which is believed to be most accurate regarding modeling computer networks are A-B graphs. A-B graphs are different from E-R graphs since they are scale-free, meaning that the vertices does not have an constant value throughout the entire graph. The formation of an A-B graph results in multiple hubs with a high edge degree. Albert and Barabási found that the edge degree of each vertex follows a power law distribution; meaning that the probability that the edge degree is $g$ is proportional to $g^{\gamma}$
+where $\gamma$ usually is a number between 2 and 3 \cite{audestad}. Consequently there are relatively high probability that there exists some nodes that have a very high edge degree. 
+These graphs are in contrast to E-R-graphs, very vulnerable to directed attacks, because if you take out a hub, you suddenly destroyed the whole graph. But the graph is very robust against random attacks, this is why most of the networks we observe in the nature can be depicted as A-B-graphs.
+A-B graphs can grow and become scale-free if every new vertex is connected to one or more already existing node with a probability proportional to the edge degree of that node . The paper presents an algorithm that creates A-B graphs and figure \ref{fig:ABgraphcreation} shows one graph that evolved from this algorithm:
 
 \begin{itemize}
 \item A new single vertex is added to the graph.
 \item This vertex is connected to exactly two other vertices in the graph.
 \item The probability that the new vertex connects to another vertex is dependent on the edge degree of the other vertex, higher edge degree meaning higher probability
-\item There is only one edge between two vertices, and the graph does not contain loops.
+\item There is only one edge between two vertices.
 \end{itemize}
 
 
@@ -73,23 +62,18 @@ A-B graphs can grow and become scale-free if every new vertex is connected to on
 \caption{\label{fig:ABgraphcreation} Forming a A-B graph in 15 generations \cite{audestad}.}
 \end{figure}
 
-In addition to the high clustering coefficient the research found that these graphs have a fairly small diameter,
- which is noticeable from the graph depicted above. 
+In addition to the high clustering coefficient they showed that A-B-graphs have a fairly small diameter,
+ which can be seen in figure \ref{fig:ABgraphcreation}. 
  A-B graphs are therefore comparable to the network formation of the Internet and other computer networks. 
-The model is therefore a good base in the search for insurable topologies. 
-
-\subsection{Real life graph structures}
-
+ 
+\section{Real world graph structures}
 
 The internet, the World Wide Web, neural networks, scientific referencing and co-authorship, stock markets, airline routes, food 
 webs, and modular software systems, all tend to evolve in a way similar to that described in the examples 
-above \cite{audestad}. This section will provide some real life examples of how complex systems with huge amount of data can be described as network structures having the same characteristics as A-B graphs.
+above. This section will provide some real world examples of how complex systems with huge amount of data can be described as network structures having the same characteristics as A-B graphs.
+\subparagraph{Stock markets} The research paper: \cite{greekStockMarket}, analyzes the correlation between different stocks in the Greek stock market in year 1997. They compared the daily closing price of stock $i$ at day $t$, and compared the similarity of a pair of stocks $i$ and $j$ by using the correlation coefficient. The idea is that the correlation coefficient between a pair of stocks can be expressed using different distances in a graph structure. A short distance means high correlation and long distance means low correlations between the stocks. Normally this network would be shown as a fully connected graph, which will consist of $\frac{n(n-1)}{2}$ edges, and would be difficult to analyze. However the approach taken in the paper will present a clear understandable graph consisting of $(n-1)$ edges.
 
-\subparagraph{Stock markets} A research paper from \cite{greekStockMarket} looks at the correlation between stocks in the Greek stock market in year 1997. They compared the daily closing price of stock $i$ at day $t$, and compared the similarity of a pair of stocks $i$ and $j$ a using the correlation coefficient. The idea is that the correlation coefficient between a pair of stocks can be expressed using different distances in a graph structure. A short distance means high correlation and long distance means low correlations between the stocks. Normally this network would be shown as a fully connected graph, which will consist of $\frac{n(n-1)}{2}$ edges, and would be difficult to analyze. However the approach taken in the paper will present a clear understandable graph consisting of $(n-1)$ edges \cite{greekStockMarket}.
-
-The resulting graph is depicted in figure \ref{fig:greekStockMarket}, and show a network consisting of several clusters linked together. Instead of having to analyze a complex system with huge amount of data, this stock market can be analyzed by its topological properties, such as the high clustering coefficient, i.e a star-topology, which will among others point out which stocks have the most influence on others. 
-
-
+The resulting graph can be seen in figure \ref{fig:greekStockMarket}, and show a network consisting of several clusters linked together. Instead of having to analyze a complex system with huge amount of data, this stock market can be analyzed by its topological properties, such as the high clustering coefficient, i.e a star-topology, which will among others point out which stocks have the most influence on others. 
 \begin{figure}[h]
 \centering
 \begin{tabular}{@{}c@{}}
@@ -99,9 +83,8 @@ The resulting graph is depicted in figure \ref{fig:greekStockMarket}, and show a
 \label{fig:greekStockMarket}}
 \end{figure}
 
-
 \subparagraph{Airline routes}
-Another naturally created network which shows characteristics scale-free graphs is the visualization of airline routes. Figure \ref{fig:airlineRouteMap} shows the US route map of the American airline company, SkyWest. The characteristic clustering emerges in the figure, where a majority of the flights departs from either Denver, Chicago or San Francisco. Not surprisingly, these airports are all in the top 7 busiest airports in the US \cite{busiestAirports}, and serves as hubs for many of SkyWest flights. In the airline industry some airports are called hubs, because that's what they are, - a connection point for major parts of the network of flights. The network of flights, as depicted \ref{fig:airlineRouteMap} follows the characteristics for A-B graphs. From the graph, we see that the network are vulnerable against direct attacks, meaning if an low edge degree airport is shut down, there will be little consequence for the rest of the network. However, if one of the hubs is forced to close, it will provoke huge delays through out the whole network of flights, because many of the destinations are interconnected via the hubs. 
+Another real world network which shows the same characteristics as scale-free graphs is the map of airline routes. Figure \ref{fig:airlineRouteMap} shows the US route map of the American airline company, SkyWest. The characteristic clustering emerges in the figure, where a majority of the flights departs from either Denver, Chicago or San Francisco. Not surprisingly, these airports are all in the top 7 busiest airports in the US \cite{busiestAirports}, and serves as hubs for many of SkyWest flights. In the airline industry some airports are called hubs, because that's what they are, - a connection point for major parts of the network of flights. The network of flights, as depicted \ref{fig:airlineRouteMap} follows the characteristics for A-B graphs. From the graph, we see that the network are vulnerable against direct attacks, meaning if an low edge degree airport is shut down, there will be little consequence for the rest of the network. However, if one of the hubs is forced to close, it will provoke huge delays through out the whole network of flights, because many of the destinations are interconnected via the hubs. 
 
 
 \begin{figure}[h]
@@ -113,10 +96,7 @@ Another naturally created network which shows characteristics scale-free graphs 
 \label{fig:airlineRouteMap}}
 \end{figure}
 
-Similar findings will appear in all the networks mentioned earlier in this section, and everyone will experience serious consequences if a hub in the network is failing. This is important for cyber-insurance because the networks we are analyzing tends to look like and behave according to A-B graphs. For example, transactions between companies could be compared with how the correlation between stocks in a stock market works. Further in this report we will examine how cyber-insurance could benefit from operating in a scale-free graph. 
-
-
-
+Similar findings will appear in the different networks mentioned earlier in this chapter, and all of them will experience large consequences if a hub in the network stop functioning. This is important for cyber-insurance because the many of the networks we are analyzing tends to look and behave like A-B graphs. For example, transactions between companies, big companies probably have more transactions than small companies, and thus creates a hub, this can be compared with how the correlation between stocks in a stock market works. I.e. we can say that small firms correlate highly with big-firms. 
 NOTES!!!
 Geek stockmarket graph: http://www.sciencedirect.com/science/article/pii/S037843710700221X
 
