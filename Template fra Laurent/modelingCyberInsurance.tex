@@ -399,7 +399,7 @@ If we change the link insurance cost, so it is just below the limit, $I_{l}=6$, 
 
 
 \subparagraph{Consequences of not reaching required number of edges}
-Both of these scenarios ends up in a situation where the nodes reach their maximum node degree and they all receive the bonus. However each time a node chooses to connectio to another node, except when $i=m-1$, it does not know whether it will reach the maximum node degree. Hence the node might take a risk of connecting to other nodes without being able to reach their required number of connections. This means that in certain situation one might end up getting a total $i<m$ connections which results in a much lower payoff than expected. If the variables are set close to a worst-case, such as in table \ref{tbl:maxdegrevalueswitherror} , we end up with two cliques with payoffs close too or worse than the payoff each node had initially. 
+Both of these scenarios ends up in a situation where the nodes reach their maximum node degree and they all receive the bonus. However each time a node chooses to connect to another node, except when $i=m-1$, it does not know whether it will reach the maximum node degree. Hence the node might take a risk of connecting to other nodes without being able to reach their required number of connections. This means that in certain situation one might end up getting a total $i<m$ connections which results in a much lower payoff than expected. If the variables are set close to a worst-case, such as in table \ref{tbl:maxdegrevalueswitherror} , we end up with two cliques with payoffs close too or worse than the payoff each node had initially. 
 
 \begin{table}[h]
 \centering
@@ -411,7 +411,7 @@ Both of these scenarios ends up in a situation where the nodes reach their maxim
   I_{l}=11,
   r=8,
   \gamma=25,
-  m=8
+  m=11
   $
   \\
   \hline
@@ -419,7 +419,14 @@ Both of these scenarios ends up in a situation where the nodes reach their maxim
 \caption{Parameters used in simulation \label{tbl:maxdegrevalueswitherror}}
 \end{table}
 
-With the variables from table \ref{tbl:maxdegrevalueswitherror} the resulting payoffs from figure \ref{fig:bonusviolatingWithErrors} equals $6$ for each of the non-insured nodes and $-1$ for the insured nodes. In comparison, the same figure using the variables from table \ref{tbl:maxdegrevalues} results in a positive payoff $15$ for each of the nodes in the insured clique. This comparison shows the consequences of failing to achieve the required amount of connections, which might be the case if a company is trying to complete a project which requires too many external suppliers. 
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=1.0\linewidth]{../Figures/payoffWhenFulfillingAndViolatingConditionsInMaxDegreeSimulation.png}
+  \caption{\label{fig:payoffMaxDegreeSimulation} The different payoffs received when fulfilling and violating the conditions given in \ref{eq:final-insurance-clique-condition}, using the parameters from table \ref{tbl:maxdegrevalues} and \ref{tbl:maxdegrevalueswitherror}. }
+\end{figure}
+
+As depicted in figure \ref{fig:payoffMaxDegreeSimulation}, with the variables from table \ref{tbl:maxdegrevalueswitherror} the resulting payoffs from figure \ref{fig:bonusviolatingWithErrors} equals $6$ for each of the non-insured nodes and $-1$ for the insured nodes. In comparison, the same figure using the variables from table \ref{tbl:maxdegrevalues} results in a positive payoff $15$ for each of the nodes in the insured clique. This comparison shows the consequences of failing to achieve the required amount of connections, which might be the case if a company is trying to complete a project which requires too many external suppliers. 
 
 \begin{figure}[h]
 \centering
@@ -485,6 +492,11 @@ Building on the final condition \ref{eq:final-insurance-clique-condition} in pre
 
 From equation \ref{eq:final-insurance-clique-condition-with-discount} we see that the initial variable $I_(l)$ has to be priced higher, in order to ensure that only insured nodes connects to other insured nodes. However, beside this drawback, we also experience some positive effects from the modification, since the the purchase of more connections is cheaper the product might be more attractive for potential customers. 
 \input{modelingWithNature}
+
+
+
+
+
 
 \
 \
