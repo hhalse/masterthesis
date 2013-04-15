@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  12 APR 2013 13:03
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  15 APR 2013 16:47
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -1973,19 +1973,26 @@ Package pdftex.def Info: ../Figures/payoffWhenFulfillingAndViolatingConditionsI
 nMaxDegreeSimulation.png used on input line 425.
 (pdftex.def)             Requested size: 364.0pt x 43.81363pt.
 
-<../Figures/BonusGameInsuredCliqueWithErrors.png, id=874, 352.31625pt x 178.416
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[36 <D:/GITREPO/masterthesis/Figures/BonusGameInsuredClique.png>]
+<../Figures/BonusGameInsuredCliqueWithErrors.png, id=882, 352.31625pt x 178.416
 56pt>
 File: ../Figures/BonusGameInsuredCliqueWithErrors.png Graphic file (type png)
  <use ../Figures/BonusGameInsuredCliqueWithErrors.png>
 Package pdftex.def Info: ../Figures/BonusGameInsuredCliqueWithErrors.png used o
 n input line 433.
 (pdftex.def)             Requested size: 218.40222pt x 110.60077pt.
- [36 <D:/GITREPO/masterthesis/Figures/BonusGameInsuredClique.png>] [37 <D:/GITR
-EPO/masterthesis/Figures/BonusGameViolating.png> <D:/GITREPO/masterthesis/Figur
-es/payoffWhenFulfillingAndViolatingConditionsInMaxDegreeSimulation.png>] [38 <D
-:/GITREPO/masterthesis/Figures/BonusGameInsuredCliqueWithErrors.png>]
-("D:\GITREPO\masterthesis\Template fra Laurent\modelingWithNature.tex" [39]
-<../Figures/SignalingGameInsured.png, id=906, 1318.17468pt x 461.47406pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[37 <D:/GITREPO/masterthesis/Figures/BonusGameViolating.png> <D:/GITREPO/master
+thesis/Figures/payoffWhenFulfillingAndViolatingConditionsInMaxDegreeSimulation.
+png>] [38 <D:/GITREPO/masterthesis/Figures/BonusGameInsuredCliqueWithErrors.png
+>] ("D:\GITREPO\masterthesis\Template fra Laurent\modelingWithNature.tex"
+[39] <../Figures/SignalingGameInsured.png, id=907, 1318.17468pt x 461.47406pt>
 File: ../Figures/SignalingGameInsured.png Graphic file (type png)
 
 <use ../Figures/SignalingGameInsured.png>
@@ -1993,7 +2000,7 @@ Package pdftex.def Info: ../Figures/SignalingGameInsured.png used on input line
  12.
 (pdftex.def)             Requested size: 364.0pt x 127.43034pt.
  [40 <D:/GITREPO/masterthesis/Figures/SignalingGameInsured.png>] [41]
-<../Figures/SignalingGameNotInsured.png, id=925, 1294.8375pt x 418.56375pt>
+<../Figures/SignalingGameNotInsured.png, id=926, 1294.8375pt x 418.56375pt>
 File: ../Figures/SignalingGameNotInsured.png Graphic file (type png)
 
 <use ../Figures/SignalingGameNotInsured.png>
@@ -2001,7 +2008,7 @@ Package pdftex.def Info: ../Figures/SignalingGameNotInsured.png used on input l
 ine 98.
 (pdftex.def)             Requested size: 364.0pt x 117.66327pt.
  [42 <D:/GITREPO/masterthesis/Figures/SignalingGameNotInsured.png>] [43])
-<../Figures/financialContagion1.png, id=954, 197.23688pt x 135.50626pt>
+<../Figures/financialContagion1.png, id=955, 197.23688pt x 135.50626pt>
 File: ../Figures/financialContagion1.png Graphic file (type png)
 
 <use ../Figures/financialContagion1.png>
@@ -2009,7 +2016,7 @@ Package pdftex.def Info: ../Figures/financialContagion1.png used on input line
 514.
 (pdftex.def)             Requested size: 145.60056pt x 100.03113pt.
 
-<../Figures/financialContagion2.png, id=955, 177.66376pt x 131.74219pt>
+<../Figures/financialContagion2.png, id=956, 177.66376pt x 131.74219pt>
 File: ../Figures/financialContagion2.png Graphic file (type png)
 
 <use ../Figures/financialContagion2.png>
@@ -2021,7 +2028,7 @@ Package pdftex.def Info: ../Figures/financialContagion2.png used on input line
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [44]
-<../Figures/gameTheoryModel1WithEquations.png, id=966, 923.70094pt x 132.495pt>
+<../Figures/gameTheoryModel1WithEquations.png, id=967, 923.70094pt x 132.495pt>
 File: ../Figures/gameTheoryModel1WithEquations.png Graphic file (type png)
 <use ../Figures/gameTheoryModel1WithEquations.png>
 Package pdftex.def Info: ../Figures/gameTheoryModel1WithEquations.png used on i
@@ -2155,30 +2162,42 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 22493 strings out of 494045
- 331492 string characters out of 3153222
- 597807 words of memory out of 3000000
- 24710 multiletter control sequences out of 15000+200000
+ 22500 strings out of 494045
+ 331623 string characters out of 3153222
+ 599039 words of memory out of 3000000
+ 24713 multiletter control sequences out of 15000+200000
  85973 words of font info for 152 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  62i,14n,94p,1504b,636s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{D:/Latex/MiKTeX/fonts/enc/
-dvips/lm/lm-rm.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{D:/Latex/
-MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-math
-sy.enc}<D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><D:/Latex/MiKTeX/fonts
-/type1/public/lm/lmbx12.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmex10.pfb><
-D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><D:/Latex/MiKTeX/fonts/type1/p
-ublic/lm/lmmi5.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><D:/Latex/M
-iKTeX/fonts/type1/public/lm/lmmi7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lm
-mi9.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr10.pfb><D:/Latex/MiKTeX/fonts
-/type1/public/lm/lmr5.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr6.pfb><D:/L
-atex/MiKTeX/fonts/type1/public/lm/lmr7.pfb><D:/Latex/MiKTeX/fonts/type1/public/
-lm/lmr8.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr9.pfb><D:/Latex/MiKTeX/fo
-nts/type1/public/lm/lmri10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy10.pf
-b><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
-Output written on main.pdf (85 pages, 1794747 bytes).
+pdfTeX warning (dest): name{equation.6.9} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.6.3} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.61} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.60} has been referenced but does not
+ exist, replaced by a fixed one
+
+{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{D:/Latex/MiKTeX/fonts/enc/dv
+ips/lm/lm-rm.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{D:/Latex/Mi
+KTeX/fonts/enc/dvips/lm/lm-ec.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathsy
+.enc}<D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><D:/Latex/MiKTeX/fonts/t
+ype1/public/lm/lmbx12.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmex10.pfb><D:
+/Latex/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><D:/Latex/MiKTeX/fonts/type1/pub
+lic/lm/lmmi5.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><D:/Latex/MiK
+TeX/fonts/type1/public/lm/lmmi7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi
+9.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr10.pfb><D:/Latex/MiKTeX/fonts/t
+ype1/public/lm/lmr5.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr6.pfb><D:/Lat
+ex/MiKTeX/fonts/type1/public/lm/lmr7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm
+/lmr8.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr9.pfb><D:/Latex/MiKTeX/font
+s/type1/public/lm/lmri10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
+<D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
+Output written on main.pdf (85 pages, 1795291 bytes).
 PDF statistics:
- 1363 PDF objects out of 1440 (max. 8388607)
- 373 named destinations out of 1000 (max. 500000)
+ 1368 PDF objects out of 1440 (max. 8388607)
+ 377 named destinations out of 1000 (max. 500000)
  24171 words of extra memory for PDF output out of 24883 (max. 10000000)
 
