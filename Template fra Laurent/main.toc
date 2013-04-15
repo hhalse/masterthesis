@@ -63,75 +63,75 @@
 \contentsline {chapter}{\chapternumberline {6}Further work on the model}{45}{chapter.6}
 \contentsline {section}{\numberline {6.1}The connection game}{45}{section.6.1}
 \contentsline {section}{\numberline {6.2}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{46}{section.6.2}
-\contentsline {section}{\numberline {6.3}Game including max node degree}{48}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Game random connection}{48}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Game connecting to insured first}{50}{subsection.6.3.2}
-\contentsline {chapter}{\chapternumberline {7}Relatedwork}{51}{chapter.7}
-\contentsline {section}{\numberline {7.1}Towards Insurable Network Architectures}{51}{section.7.1}
-\contentsline {subparagraph}{Interdependent security}{52}{section*.63}
-\contentsline {subparagraph}{Correlated risks}{52}{section*.64}
-\contentsline {subparagraph}{information asymmetry}{52}{section*.65}
-\contentsline {section}{\numberline {7.2}Cyber insurance as an Incentive for Internet Security}{53}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Classical model for insurance}{53}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Interdependent security and insurance}{54}{subsection.7.2.2}
-\contentsline {section}{\numberline {7.3}Modeling cyber-insurance: towards a unifying Framework}{54}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Network Environment: Connected nodes}{55}{subsection.7.3.1}
-\contentsline {subparagraph}{Defense function}{55}{section*.66}
-\contentsline {subparagraph}{network topology G}{56}{section*.67}
-\contentsline {subparagraph}{Risk arrival}{56}{section*.68}
-\contentsline {subparagraph}{Attacker model}{56}{section*.69}
-\contentsline {subsection}{\numberline {7.3.2}Demand side agents}{56}{subsection.7.3.2}
-\contentsline {subparagraph}{Node control}{56}{section*.70}
-\contentsline {subparagraph}{Heterogenity}{57}{section*.71}
-\contentsline {subparagraph}{Risk Aversion}{57}{section*.72}
-\contentsline {subparagraph}{Action space}{57}{section*.73}
-\contentsline {subparagraph}{Time}{57}{section*.74}
-\contentsline {subsection}{\numberline {7.3.3}Supply side, insurers}{58}{subsection.7.3.3}
-\contentsline {subparagraph}{ Marketstructure}{58}{section*.75}
-\contentsline {subparagraph}{ Risk aversion}{58}{section*.76}
-\contentsline {subparagraph}{Markup}{58}{section*.77}
-\contentsline {subparagraph}{Contract design}{58}{section*.78}
-\contentsline {subparagraph}{Higher order risk transfer}{58}{section*.79}
-\contentsline {subsection}{\numberline {7.3.4}Information structure}{58}{subsection.7.3.4}
-\contentsline {subsection}{\numberline {7.3.5}Organizational Enviroment(stakeholders)}{59}{subsection.7.3.5}
-\contentsline {subparagraph}{Regulator}{59}{section*.80}
-\contentsline {subparagraph}{ICT manufacturers}{59}{section*.81}
-\contentsline {subparagraph}{Network intermediaries}{59}{section*.82}
-\contentsline {subparagraph}{security service providers}{60}{section*.83}
-\contentsline {subsection}{\numberline {7.3.6}Using this framework for a literature survey}{60}{subsection.7.3.6}
-\contentsline {subparagraph}{demand side}{60}{section*.84}
-\contentsline {subparagraph}{Supply side}{60}{section*.85}
-\contentsline {subparagraph}{Organizational Environment}{60}{section*.86}
-\contentsline {subparagraph}{Research Question}{60}{section*.87}
-\contentsline {subparagraph}{Discussion of models}{60}{section*.88}
-\contentsline {section}{\numberline {7.4}A novel cyber-insurance Model}{61}{section.7.4}
-\contentsline {section}{\numberline {7.5}A solution to the information Asymmetry Problem}{61}{section.7.5}
-\contentsline {subparagraph}{Cyber-insurance and asymmetry}{62}{section*.89}
-\contentsline {section}{\numberline {7.6}Cyber-insurance for cyber-security, A topological Take on Modulating Insurance Premiums}{62}{section.7.6}
-\contentsline {section}{\numberline {7.7}Differentiating Cyber-insurance Contracts, a topological Perspective}{62}{section.7.7}
-\contentsline {section}{\numberline {7.8}This was previously placed in current market }{63}{section.7.8}
-\contentsline {section}{\numberline {7.9}Contract structure}{63}{section.7.9}
-\contentsline {section}{\numberline {7.10}Economics}{64}{section.7.10}
-\contentsline {section}{\numberline {7.11}Epidemics}{64}{section.7.11}
-\contentsline {subsection}{\numberline {7.11.1}modeling contagion}{64}{subsection.7.11.1}
-\contentsline {subparagraph}{branching processes}{64}{section*.90}
-\contentsline {subparagraph}{SIR epidemic model}{65}{section*.91}
-\contentsline {subparagraph}{Extension to SIR}{65}{section*.92}
-\contentsline {subparagraph}{Model from dynamic to static(Percolation)}{65}{section*.93}
-\contentsline {subparagraph}{SIS epidemic model}{65}{section*.94}
-\contentsline {subparagraph}{SIRS Epidemic model}{66}{section*.95}
-\contentsline {section}{\numberline {7.12}Incentives and Information Security}{66}{section.7.12}
-\contentsline {subparagraph}{Informational asymmetries}{66}{section*.96}
-\contentsline {section}{\numberline {7.13}new section}{66}{section.7.13}
-\contentsline {chapter}{\chapternumberline {8}Network formation: stability and efficiency}{67}{chapter.8}
-\contentsline {section}{\numberline {8.1}Survey of models of network formation: stability and efficiency}{67}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Defining Network Games}{67}{subsection.8.1.1}
-\contentsline {subparagraph}{Players}{67}{section*.97}
-\contentsline {subparagraph}{networks}{67}{section*.98}
-\contentsline {subparagraph}{Paths and components}{67}{section*.99}
-\contentsline {subparagraph}{Value functions}{68}{section*.100}
-\contentsline {subparagraph}{Network games}{68}{section*.101}
-\contentsline {subparagraph}{Allocation rules}{68}{section*.102}
-\contentsline {chapter}{\chapternumberline {9}Related work 2}{69}{chapter.9}
-\contentsline {chapter}{\chapternumberline {10}Network Games}{71}{chapter.10}
-\contentsline {chapter}{References}{73}{section*.104}
+\contentsline {section}{\numberline {6.3}Game including max node degree}{49}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Game random connection}{49}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Game connecting to insured first}{51}{subsection.6.3.2}
+\contentsline {chapter}{\chapternumberline {7}Relatedwork}{53}{chapter.7}
+\contentsline {section}{\numberline {7.1}Towards Insurable Network Architectures}{53}{section.7.1}
+\contentsline {subparagraph}{Interdependent security}{54}{section*.63}
+\contentsline {subparagraph}{Correlated risks}{54}{section*.64}
+\contentsline {subparagraph}{information asymmetry}{54}{section*.65}
+\contentsline {section}{\numberline {7.2}Cyber insurance as an Incentive for Internet Security}{55}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Classical model for insurance}{55}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Interdependent security and insurance}{56}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Modeling cyber-insurance: towards a unifying Framework}{56}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Network Environment: Connected nodes}{57}{subsection.7.3.1}
+\contentsline {subparagraph}{Defense function}{57}{section*.66}
+\contentsline {subparagraph}{network topology G}{58}{section*.67}
+\contentsline {subparagraph}{Risk arrival}{58}{section*.68}
+\contentsline {subparagraph}{Attacker model}{58}{section*.69}
+\contentsline {subsection}{\numberline {7.3.2}Demand side agents}{58}{subsection.7.3.2}
+\contentsline {subparagraph}{Node control}{58}{section*.70}
+\contentsline {subparagraph}{Heterogenity}{59}{section*.71}
+\contentsline {subparagraph}{Risk Aversion}{59}{section*.72}
+\contentsline {subparagraph}{Action space}{59}{section*.73}
+\contentsline {subparagraph}{Time}{59}{section*.74}
+\contentsline {subsection}{\numberline {7.3.3}Supply side, insurers}{60}{subsection.7.3.3}
+\contentsline {subparagraph}{ Marketstructure}{60}{section*.75}
+\contentsline {subparagraph}{ Risk aversion}{60}{section*.76}
+\contentsline {subparagraph}{Markup}{60}{section*.77}
+\contentsline {subparagraph}{Contract design}{60}{section*.78}
+\contentsline {subparagraph}{Higher order risk transfer}{60}{section*.79}
+\contentsline {subsection}{\numberline {7.3.4}Information structure}{60}{subsection.7.3.4}
+\contentsline {subsection}{\numberline {7.3.5}Organizational Enviroment(stakeholders)}{61}{subsection.7.3.5}
+\contentsline {subparagraph}{Regulator}{61}{section*.80}
+\contentsline {subparagraph}{ICT manufacturers}{61}{section*.81}
+\contentsline {subparagraph}{Network intermediaries}{61}{section*.82}
+\contentsline {subparagraph}{security service providers}{62}{section*.83}
+\contentsline {subsection}{\numberline {7.3.6}Using this framework for a literature survey}{62}{subsection.7.3.6}
+\contentsline {subparagraph}{demand side}{62}{section*.84}
+\contentsline {subparagraph}{Supply side}{62}{section*.85}
+\contentsline {subparagraph}{Organizational Environment}{62}{section*.86}
+\contentsline {subparagraph}{Research Question}{62}{section*.87}
+\contentsline {subparagraph}{Discussion of models}{62}{section*.88}
+\contentsline {section}{\numberline {7.4}A novel cyber-insurance Model}{63}{section.7.4}
+\contentsline {section}{\numberline {7.5}A solution to the information Asymmetry Problem}{63}{section.7.5}
+\contentsline {subparagraph}{Cyber-insurance and asymmetry}{64}{section*.89}
+\contentsline {section}{\numberline {7.6}Cyber-insurance for cyber-security, A topological Take on Modulating Insurance Premiums}{64}{section.7.6}
+\contentsline {section}{\numberline {7.7}Differentiating Cyber-insurance Contracts, a topological Perspective}{64}{section.7.7}
+\contentsline {section}{\numberline {7.8}This was previously placed in current market }{65}{section.7.8}
+\contentsline {section}{\numberline {7.9}Contract structure}{65}{section.7.9}
+\contentsline {section}{\numberline {7.10}Economics}{66}{section.7.10}
+\contentsline {section}{\numberline {7.11}Epidemics}{66}{section.7.11}
+\contentsline {subsection}{\numberline {7.11.1}modeling contagion}{66}{subsection.7.11.1}
+\contentsline {subparagraph}{branching processes}{66}{section*.90}
+\contentsline {subparagraph}{SIR epidemic model}{67}{section*.91}
+\contentsline {subparagraph}{Extension to SIR}{67}{section*.92}
+\contentsline {subparagraph}{Model from dynamic to static(Percolation)}{67}{section*.93}
+\contentsline {subparagraph}{SIS epidemic model}{67}{section*.94}
+\contentsline {subparagraph}{SIRS Epidemic model}{68}{section*.95}
+\contentsline {section}{\numberline {7.12}Incentives and Information Security}{68}{section.7.12}
+\contentsline {subparagraph}{Informational asymmetries}{68}{section*.96}
+\contentsline {section}{\numberline {7.13}new section}{68}{section.7.13}
+\contentsline {chapter}{\chapternumberline {8}Network formation: stability and efficiency}{69}{chapter.8}
+\contentsline {section}{\numberline {8.1}Survey of models of network formation: stability and efficiency}{69}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Defining Network Games}{69}{subsection.8.1.1}
+\contentsline {subparagraph}{Players}{69}{section*.97}
+\contentsline {subparagraph}{networks}{69}{section*.98}
+\contentsline {subparagraph}{Paths and components}{69}{section*.99}
+\contentsline {subparagraph}{Value functions}{70}{section*.100}
+\contentsline {subparagraph}{Network games}{70}{section*.101}
+\contentsline {subparagraph}{Allocation rules}{70}{section*.102}
+\contentsline {chapter}{\chapternumberline {9}Related work 2}{71}{chapter.9}
+\contentsline {chapter}{\chapternumberline {10}Network Games}{73}{chapter.10}
+\contentsline {chapter}{References}{75}{section*.104}
