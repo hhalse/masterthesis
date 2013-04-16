@@ -62,10 +62,10 @@
 \contentsline {subparagraph}{Summary}{44}{section*.56}
 \contentsline {chapter}{\chapternumberline {6}Further work on the model}{45}{chapter.6}
 \contentsline {section}{\numberline {6.1}The connection game}{45}{section.6.1}
-\contentsline {section}{\numberline {6.2}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{46}{section.6.2}
-\contentsline {section}{\numberline {6.3}Game including max node degree}{49}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Game random connection}{49}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Game connecting to insured first}{51}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.2}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{47}{section.6.2}
+\contentsline {section}{\numberline {6.3}Game including max node degree}{50}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Game random connection}{50}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Game connecting to insured first}{52}{subsection.6.3.2}
 \contentsline {chapter}{\chapternumberline {7}Relatedwork}{53}{chapter.7}
 \contentsline {section}{\numberline {7.1}Towards Insurable Network Architectures}{53}{section.7.1}
 \contentsline {subparagraph}{Interdependent security}{54}{section*.63}
