@@ -62,7 +62,7 @@
 \contentsline {subparagraph}{Summary}{44}{section*.56}
 \contentsline {chapter}{\chapternumberline {6}Further work on the model}{45}{chapter.6}
 \contentsline {section}{\numberline {6.1}The connection game}{45}{section.6.1}
-\contentsline {section}{\numberline {6.2}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{47}{section.6.2}
+\contentsline {section}{\numberline {6.2}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{48}{section.6.2}
 \contentsline {section}{\numberline {6.3}Game including max node degree}{50}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Game random connection}{50}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Game connecting to insured first}{52}{subsection.6.3.2}
