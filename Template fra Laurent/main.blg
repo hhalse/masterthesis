@@ -4,6 +4,10 @@ A level-1 auxiliary file: preface.aux
 A level-1 auxiliary file: introductionToCyberInsurance.aux
 A level-1 auxiliary file: currentmarketstate.aux
 A level-1 auxiliary file: graphTheory.aux
+<<<<<<< HEAD
+=======
+A level-1 auxiliary file: nature.aux
+>>>>>>> master
 A level-1 auxiliary file: modelingCyberInsurance.aux
 A level-1 auxiliary file: modellingThreshold.aux
 A level-1 auxiliary file: relatedwork.aux
@@ -15,6 +19,10 @@ Database file #1: referanser.bib
 Repeated entry---line 214 of file referanser.bib
  : @article{lieberman2005evolutionary
  :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 295 of file referanser.bib
+ : @article{jackson2005survey
+ :                           ,
 I'm skipping whatever remains of this entry
 Too many commas in name 1 of "Garas, A., Argyrakis, P." for entry greekStockMarket
 while executing---line 1185 of file alpha.bst
@@ -77,4 +85,4 @@ Warning--empty journal in greekStockMarket
 Warning--empty chapter and pages in mehr1980principles
 Warning--empty journal in solutiontoinfoasym
 Warning--empty journal in robinson2012incentives
-(There were 29 error messages)
+(There were 30 error messages)
