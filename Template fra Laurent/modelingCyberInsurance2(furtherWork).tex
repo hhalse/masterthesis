@@ -58,20 +58,66 @@ Condition 3 shows us why the efficient star network is not necessarily  stable. 
 
 It should be noticed that it is more beneficial for a node to operate as a leaf node compared to being a center node, due to the cost of direct connection. In a star structure, a leaf node will only have to pay the cost of the link to the center node, and will benefit indirectly for each node connected to the center node. The center node will benefit from each new connection, however, the payoff will only be $\beta - c$ for each connection. 
 
-SKRIV Om simulering.
+\subparagraph{Insurance and connection game}
+The propositions showed here are very useful from an insurers point of view, if one has knowledge of the variables it is possible to determine how the network will evolve. And if one are able to determine the variables one can actually determine the network structure.
+From the paper we know that there exists different boundaries on the cost of establishing a new link, and how the resulting stable and efficient network will be.
+From our earlier models we know that the cost of establish a link is the insurance cost and the risk cost. From this we can show that if $\beta - \beta^2 <I_{l}<\beta \text{ and } r>\beta$ a star with only insured nodes, and no connections between non-insured nodes, are both a stable and a efficient network. If $\beta - \beta^2 <I_{l}+r<\beta \text{ and } \beta - \beta^2<I_{l} \text{ and } \beta - \beta^2<r $ the stable and efficient network is a star consisting of both insured and non-insured nodes. If $I_{l}<\beta-\beta^2$ all insured nodes will connect to every other insured node, and if $r<\beta-\beta^2$ all non-insured nodes will connect to every other non-insured node.
+And of course if $r+I_{l}<\beta-\beta^2$ the resulting network will be a clique of both insured and non-insured nodes.
+The insurer can thus determine the formation of the network by adjusting the cost parameters. 
 
-To solve the problem, one has to compensate the center node for the extra cost of creating network externalities. As described in the previous model considering bulk insurance discount, the insurance company could implement a bonus which lowers the cost for each new connection. This would lower the extra cost for the center node significantly, as it is expected that the number of nodes might be high and therefore result in a significant discount. 
-Using the discount calculation from previous models, we end up with the following equation for the star topology:
+One important thing to notice is that even if the most efficient and the stable network is a star, we can not guarantee that the network formation game will end up in a star. This is because in this game we only consider a link at a time, and not the whole network.
+Lets look at an example, the parameters are set to the values in table \ref{tbl:stablestar}, the resulting network are shown in \ref{fig:stablestar}.
+\begin{table}[h]
+\centering
+\begin{tabular}{lc}
+ \hline
+  $
+  \beta=0.9,
+  I_{l}=0.5$\\
+  \hline
+\end{tabular}
+\caption{The parameters used in the simulation in \ref{fig:stablestar} \label{tbl:stablestar}}
+\end{table}
+\begin{figure}[h]
+\centering
+  \includegraphics[width=0.5\linewidth]{../Figures/stability/Unefficientbutstablestar.png}
+  \caption{\label{fig:stablestar} The resulting network after a simulation with the parameters from table \ref{tbl:stablestar} .}
+\end{figure}
+As we see this is not an efficient star, but the network is stable. The efficient network would be to delete the link $4,6$ and adding the link $1,6$. But since we only consider a link at a time this can not be done. To show this let $U_{i}$ denote the payoff of node $i$, the payoffs of the nodes are as described in eq (\ref{eq:payoffstablestar}).
+\begin{eqnarray}
+U_{1}=4\beta+\beta^2-4c\\
+U_{2}=U_{3}=U_{5}=\beta+3\beta^2+\beta^3-c\\
+U_{4}=2\beta+3\beta^2-2c\\
+U_{6}=\beta+\beta^2+3\beta^3-c
+\label{eq:payoffstablestar}
+\end{eqnarray}
+Node $6$ would benefit from adding the link $1,6$, but node 1 is not willing to do so because then he must pay an extra cost, and since $\beta^2>\beta-c$. Thus the network is stable but not efficient. 
+In the paper \cite{jackson2005survey} they come up with this proposition:
+Consider the symmetric connections model in the case where $\beta-beta^2<c<\beta$. As the number of nodes grows, the probability that a stable state (under the
+process where each link has an equal probability of being identified) is reached with the
+efficient network structure of a star goes to 0.
+We confirmed this when running multiple simulations, when we used few nodes the resulting network often became a star, but as the number of nodes increased the network rarely was a star.
+However, the structure of the networks are very similar to a scale-free network. There are many nodes with low node degree, and few with a high node degree.
+One example of this is shown in figure \ref{fig:stablescalefree}, there are only ten nodes, but the network have the properties of a scale-free. Two nodes with degree of 4, and the rest have a degree of one or two.
+\begin{figure}[h]
+\centering
+  \includegraphics[width=0.5\linewidth]{../Figures/stability/Unefficientbutstabletwo.png}
+  \caption{\label{fig:stablescalefree} The resulting network after a simulation with the parameters from table \ref{tbl:stablestar} and ten nodes.}
+\end{figure}
+\subparagraph{Bulk insurance}
+As noted before it is not preferable to be the center node, due to the cost of all the direct links. If we consider the model with bulk insurance discount, this would lower the extra cost for the center node significantly. This could be used to increase the probability of reaching a star formation. One problem with this could be that if the incentive of having many connections are to good, then every would suddenly want to be a hub, and thus the incentive would defeat its purpose. 
 
+Using the discount formula from the previous model, we end up with the equation (eq \ref{eq:discountstar}) to achieve a efficient and stable star topology. $i$ represents the node degree.
 \begin{equation}
 \beta-\beta^2<\frac{i_{l}}{i+1}< \beta
+\label{eq:discountstar}
 \end{equation}
+An interesting property of the discount model is that the conditions for a efficient networks will change. Because
+if $\frac{I_{l}}{m-1}<\beta-\beta^2$ and $m$-represents the number of nodes in the network, then the most efficient network is a fully connected one, because then every node has minimized their costs and maximized their payoff.
+Another possibility for solving the problem with unfair costs, could be to use a shared-network cost instead. i.e. every node pays a cost equal to the total cost of the network divided on the number of nodes. 
+Similar value distribution has been analyzed by Jackson and Wolinsky in \cite{jackson1996strategic}, and is called an egalitarian allocation rule, this rule guarantees that any efficient network is also pairwise stable. But this is unfortunately a very extreme rule.
 
 
-
-where $i $ is represent the number of connections a node have established. 
-
-Although this enhancement ensures that the cost for the center node is lowered, it does not guarantee that the center node is fully compensated. To accomplish this, the insurance companies have to directly compensate the center nodes. As described earlier a star topology will create a super critical payoff, and a star topology would be beneficial for the insurance companies. Hence the insurance companies will have incentive to compensate the center nodes additionally to enable the star structure to be generated. 
 
 
 

@@ -26,12 +26,14 @@
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Signalling game with two players, player 1's type choosen by nature, player2 is insured. Player 1 have complete information, player 2 suffer from incomplete information, and act on best response functions based on beliefs. \relax }}{40}{figure.caption.49}
 \contentsline {figure}{\numberline {4.12}{\ignorespaces Signalling game with two players, player 1's type choosen by nature, player2 is not insured. Player 1 have complete information, player 2 suffer from incomplete information, and act on best response functions based on beliefs. \relax }}{42}{figure.caption.53}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Four nodes interconnected with each other.\relax }}{45}{figure.caption.57}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces shows how insured agents connects with each other to form a network to achieve super-critical payoffs.\relax }}{48}{figure.caption.58}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Caption for LOF}}{48}{figure.caption.59}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{49}{figure.caption.60}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Four nodes interconnected with each other.\relax }}{46}{figure.caption.57}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The resulting network after a simulation with the parameters from table \ref {tbl:stablestar} .\relax }}{48}{figure.caption.61}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The resulting network after a simulation with the parameters from table \ref {tbl:stablestar} and ten nodes.\relax }}{49}{figure.caption.62}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces shows how insured agents connects with each other to form a network to achieve super-critical payoffs.\relax }}{51}{figure.caption.64}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Caption for LOF}}{51}{figure.caption.65}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{51}{figure.caption.66}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces A figure\relax }}{53}{figure.caption.62}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces A figure\relax }}{57}{figure.caption.68}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
