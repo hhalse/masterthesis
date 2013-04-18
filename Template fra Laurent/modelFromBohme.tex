@@ -1,0 +1,38 @@
+\chapter{Model from Bohme}
+
+
+Our model now includes a way of analyzing indirect connectivity among nodes. Inspired by the paper from \cite{danezis2006network} we are now expanding the model to look how network formation works when the nodes have a option to include uninsured nodes in their network. Although the paper tries to observe suseptibility to sybil attacks in peer-to-peer networks, their approach on network formation is related to our insurance network. They propose a network formation game consisting of "friends" and "strangers", which is similar to "insured" vs "non-insured" nodes. 
+In a peer-to-peer network the peers selfishly tries to fulfill their communitaction needs, by establishing connections to friends or indirectly via strangers. This is similar to how companies selfishly choose to connect to other nodes with the goal of increasing their utility as much as possible. 
+
+In \cite{danezis2006network} the formation game shows how nodes routes messages between each other. The special case here is that a node does not have enough links to directly connect to everyone. We change the game variables to fit to our model, and the setup for the game is as follows:
+
+\begin{enumerate}
+
+\item There are a set of $N nodes$ which are to be connected in a graph.
+\item Each node, $n$ has a set for friends (insured nodes) $F_{n}$ which he want to connect to. The friendship is symmetric.
+\item Each node also has a \textit{link budget}, $L_{n}$ which specifies the maximum number of links a node can establish directly to friends. It is also assumed that $L_{n}<F_{n}$. Additionally, if a link is established both nodes will decrease their link budget.
+\item Given a graph of links between nodes the utility of each node is calculated using the negative sum of the length of the shortest path to all it friends. Negative sum yields higher utility as the different path lengths decreases.
+\end{enumerate}
+
+The goal is obviously to increase the utility. To accomplish this one has to communicate with friends using a minimum number of hoops. If $L_{n}=<F_{n}$ the game would have been a straightforward dominant strategy, where insured nodes only chose to connect to other insured nodes. Hence every node would receive the maximum utility. In the scenario of peer-to-peer network it is easy to understand that one cannot have direct links to every friend on a scale free network, e.g. the Internet, hence $L_{n}<F_{n}$ makes perfect sense. It is also reasonable to take the same assumption  for the insurance market, since one might not have the resources to insure every connection needed, i.e. the link budget $I_{n} < F_{n}$. Hence the nodes might take the risk of connection to non-insured nodes, since the cost of connecting to this node is free.
+
+The graph is created by a pseudo-random selection of a possible link between two nodes. If the utility increases or is stable for both, the link is created and each node decreases their link budget by one.
+
+ 
+\cite{danezis2006network} proposes two random games which interpret that nodes might have to take the risk of connecting to non-insured nodes.
+\begin{enumerate}
+\item Random model: Every node in the network initiate a set for friendships with other nodes, denoted $F$. All nodes have the same link budget $L<F$. 
+\item Unbalanced Random Mode. The same friendship graph as in the random model is created. However one of the nodes have a significantly larger link budget $(L_{0} > 2 F)$
+\end{enumerate}
+
+The first model does not result in any Nash equilibrium, it is believed that every node is eager to use their whole link budget in order to create direct connections to as many insured nodes as possible. In order to reach the rest of the insured nodes, they rely on indirect connectivity via the established connections.
+
+The unbalanced model results in a scenario where the insured nodes still wishes to connect to other insured nodes. The reason for this is claimed to be that the average shortest path in a scale-free graph is $O(log N)$, and the probability that another node, insured or not insured, is closer to to a node is roughly the same. Which means that on average an insured node will benefit from connecting to other insured nodes. 
+However, if the link budget only allows each node to only establish 1 link (except the one with a large budget), it will emerge a Nash equilibrium which is star with the rich node in the center. If the rich node is a insured node, all the other insured nodes will connect to this node. 
+
+
+
+
+
+
+

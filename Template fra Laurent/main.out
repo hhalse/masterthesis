@@ -28,36 +28,40 @@
 \BOOKMARK [2][-]{subsection.5.6.2}{Calculating the different equlibriums}{section.5.6}% 28
 \BOOKMARK [0][-]{chapter.6}{Further work on the model}{}% 29
 \BOOKMARK [1][-]{section.6.1}{The connection game}{chapter.6}% 30
-\BOOKMARK [1][-]{section.6.2}{DETTE ET ANNET STED KANSKJE? BLIR LITT RART \305 HOPPE INN I DET HER}{chapter.6}% 31
-\BOOKMARK [1][-]{section.6.3}{Game including max node degree}{chapter.6}% 32
-\BOOKMARK [2][-]{subsection.6.3.1}{Game random connection}{section.6.3}% 33
-\BOOKMARK [2][-]{subsection.6.3.2}{Game connecting to insured first}{section.6.3}% 34
-\BOOKMARK [0][-]{chapter.7}{Relatedwork}{}% 35
-\BOOKMARK [1][-]{section.7.1}{Towards Insurable Network Architectures}{chapter.7}% 36
-\BOOKMARK [1][-]{section.7.2}{Cyber insurance as an Incentive for Internet Security}{chapter.7}% 37
-\BOOKMARK [2][-]{subsection.7.2.1}{Classical model for insurance}{section.7.2}% 38
-\BOOKMARK [2][-]{subsection.7.2.2}{Interdependent security and insurance}{section.7.2}% 39
-\BOOKMARK [1][-]{section.7.3}{Modeling cyber-insurance: towards a unifying Framework}{chapter.7}% 40
-\BOOKMARK [2][-]{subsection.7.3.1}{Network Environment: Connected nodes}{section.7.3}% 41
-\BOOKMARK [2][-]{subsection.7.3.2}{Demand side agents}{section.7.3}% 42
-\BOOKMARK [2][-]{subsection.7.3.3}{Supply side, insurers}{section.7.3}% 43
-\BOOKMARK [2][-]{subsection.7.3.4}{Information structure}{section.7.3}% 44
-\BOOKMARK [2][-]{subsection.7.3.5}{Organizational Enviroment\(stakeholders\)}{section.7.3}% 45
-\BOOKMARK [2][-]{subsection.7.3.6}{Using this framework for a literature survey}{section.7.3}% 46
-\BOOKMARK [1][-]{section.7.4}{A novel cyber-insurance Model}{chapter.7}% 47
-\BOOKMARK [1][-]{section.7.5}{A solution to the information Asymmetry Problem}{chapter.7}% 48
-\BOOKMARK [1][-]{section.7.6}{Cyber-insurance for cyber-security, A topological Take on Modulating Insurance Premiums}{chapter.7}% 49
-\BOOKMARK [1][-]{section.7.7}{Differentiating Cyber-insurance Contracts, a topological Perspective}{chapter.7}% 50
-\BOOKMARK [1][-]{section.7.8}{This was previously placed in current market }{chapter.7}% 51
-\BOOKMARK [1][-]{section.7.9}{Contract structure}{chapter.7}% 52
-\BOOKMARK [1][-]{section.7.10}{Economics}{chapter.7}% 53
-\BOOKMARK [1][-]{section.7.11}{Epidemics}{chapter.7}% 54
-\BOOKMARK [2][-]{subsection.7.11.1}{modeling contagion}{section.7.11}% 55
-\BOOKMARK [1][-]{section.7.12}{Incentives and Information Security}{chapter.7}% 56
-\BOOKMARK [1][-]{section.7.13}{new section}{chapter.7}% 57
-\BOOKMARK [0][-]{chapter.8}{Network formation: stability and efficiency}{}% 58
-\BOOKMARK [1][-]{section.8.1}{Survey of models of network formation: stability and efficiency}{chapter.8}% 59
-\BOOKMARK [2][-]{subsection.8.1.1}{Defining Network Games}{section.8.1}% 60
-\BOOKMARK [0][-]{chapter.9}{Related work 2}{}% 61
-\BOOKMARK [0][-]{chapter.10}{Network Games}{}% 62
-\BOOKMARK [0][-]{section*.104}{References}{}% 63
+\BOOKMARK [0][-]{chapter.7}{Model from Bohme}{}% 31
+\BOOKMARK [1][-]{section.7.1}{DETTE ET ANNET STED KANSKJE? BLIR LITT RART \305 HOPPE INN I DET HER}{chapter.7}% 32
+\BOOKMARK [1][-]{section.7.2}{Game including max node degree}{chapter.7}% 33
+\BOOKMARK [2][-]{subsection.7.2.1}{Game random connection}{section.7.2}% 34
+\BOOKMARK [2][-]{subsection.7.2.2}{Game connecting to insured first}{section.7.2}% 35
+\BOOKMARK [0][-]{chapter.8}{Relatedwork}{}% 36
+\BOOKMARK [1][-]{section.8.1}{Towards Insurable Network Architectures}{chapter.8}% 37
+\BOOKMARK [1][-]{section.8.2}{Cyber insurance as an Incentive for Internet Security}{chapter.8}% 38
+\BOOKMARK [2][-]{subsection.8.2.1}{Classical model for insurance}{section.8.2}% 39
+\BOOKMARK [2][-]{subsection.8.2.2}{Interdependent security and insurance}{section.8.2}% 40
+\BOOKMARK [1][-]{section.8.3}{Modeling cyber-insurance: towards a unifying Framework}{chapter.8}% 41
+\BOOKMARK [2][-]{subsection.8.3.1}{Network Environment: Connected nodes}{section.8.3}% 42
+\BOOKMARK [2][-]{subsection.8.3.2}{Demand side agents}{section.8.3}% 43
+\BOOKMARK [2][-]{subsection.8.3.3}{Supply side, insurers}{section.8.3}% 44
+\BOOKMARK [2][-]{subsection.8.3.4}{Information structure}{section.8.3}% 45
+\BOOKMARK [2][-]{subsection.8.3.5}{Organizational Enviroment\(stakeholders\)}{section.8.3}% 46
+\BOOKMARK [2][-]{subsection.8.3.6}{Using this framework for a literature survey}{section.8.3}% 47
+\BOOKMARK [1][-]{section.8.4}{A novel cyber-insurance Model}{chapter.8}% 48
+\BOOKMARK [1][-]{section.8.5}{A solution to the information Asymmetry Problem}{chapter.8}% 49
+\BOOKMARK [1][-]{section.8.6}{Cyber-insurance for cyber-security, A topological Take on Modulating Insurance Premiums}{chapter.8}% 50
+\BOOKMARK [1][-]{section.8.7}{Differentiating Cyber-insurance Contracts, a topological Perspective}{chapter.8}% 51
+\BOOKMARK [1][-]{section.8.8}{This was previously placed in current market }{chapter.8}% 52
+\BOOKMARK [1][-]{section.8.9}{Contract structure}{chapter.8}% 53
+\BOOKMARK [1][-]{section.8.10}{Economics}{chapter.8}% 54
+\BOOKMARK [1][-]{section.8.11}{Epidemics}{chapter.8}% 55
+\BOOKMARK [2][-]{subsection.8.11.1}{modeling contagion}{section.8.11}% 56
+\BOOKMARK [1][-]{section.8.12}{Incentives and Information Security}{chapter.8}% 57
+\BOOKMARK [1][-]{section.8.13}{new section}{chapter.8}% 58
+\BOOKMARK [0][-]{chapter.9}{Network formation: stability and efficiency}{}% 59
+\BOOKMARK [1][-]{section.9.1}{Survey of models of network formation: stability and efficiency}{chapter.9}% 60
+\BOOKMARK [2][-]{subsection.9.1.1}{Defining Network Games}{section.9.1}% 61
+\BOOKMARK [0][-]{chapter.10}{Related work 2}{}% 62
+\BOOKMARK [0][-]{chapter.11}{Network Games}{}% 63
+\BOOKMARK [0][-]{chapter.12}{Further work on the model}{}% 64
+\BOOKMARK [1][-]{section.12.1}{The connection game}{chapter.12}% 65
+\BOOKMARK [0][-]{chapter.13}{Model from Bohme}{}% 66
+\BOOKMARK [0][-]{section*.105}{References}{}% 67
