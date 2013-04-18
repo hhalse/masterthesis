@@ -66,7 +66,7 @@ And of course if $r+I_{l}<\beta-\beta^2$ the resulting network will be a clique 
 The insurer can thus determine the formation of the network by adjusting the cost parameters. 
 
 One important thing to notice is that even if the most efficient and the stable network is a star, we can not guarantee that the network formation game will end up in a star. This is because in this game we only consider a link at a time, and not the whole network.
-Lets look at an example, the parameters are set to the values in table \ref{tbl:stablestar}, the resulting network are shown in \ref{fig:stablestar}.
+Lets consider an example, the parameters are set to the values in table \ref{tbl:stablestar}, the resulting network are shown in \ref{fig:stablestar}.
 \begin{table}[h]
 \centering
 \begin{tabular}{lc}
@@ -95,8 +95,8 @@ Node $6$ would benefit from adding the link $1,6$, but node 1 is not willing to 
 In the paper \cite{jackson2005survey} they come up with this proposition:
 Consider the symmetric connections model in the case where $\beta-beta^2<c<\beta$. As the number of nodes grows, the probability that a stable state (under the
 process where each link has an equal probability of being identified) is reached with the
-efficient network structure of a star goes to 0.
-We confirmed this when running multiple simulations, when we used few nodes the resulting network often became a star, but as the number of nodes increased the network rarely was a star.
+efficient network structure of a star goes to 0. But if a network reaches the efficient star structure, it is also pairwise stable, and will remain a star. 
+We confirmed this when running multiple simulations, when we used few nodes the resulting network often became a star, but as the number of nodes increased the network rarely was a star. 
 However, the structure of the networks are very similar to a scale-free network. There are many nodes with low node degree, and few with a high node degree.
 One example of this is shown in figure \ref{fig:stablescalefree}, there are only ten nodes, but the network have the properties of a scale-free. Two nodes with degree of 4, and the rest have a degree of one or two.
 \begin{figure}[h]
@@ -113,7 +113,12 @@ Using the discount formula from the previous model, we end up with the equation 
 \label{eq:discountstar}
 \end{equation}
 An interesting property of the discount model is that the conditions for a efficient networks will change. Because
-if $\frac{I_{l}}{m-1}<\beta-\beta^2$ and $m$-represents the number of nodes in the network, then the most efficient network is a fully connected one, because then every node has minimized their costs and maximized their payoff.
+when the node degree increases, the insurance cost might reach the critical point(show in equation (eq \ref{eq:criticaldiscount}), where it becomes benefical to establish a direct connection to every one. \begin{equation}
+\frac{I_{l}}{i+1}<\beta-\beta^2
+\label{eq:criticaldiscount}
+\end{equation}
+If this critical level is reached at a to low node degree, then it becomes very benefical to have a high node degree, and the network will be a clique with high probability. However, if the insurer are able to ensure that this critical level is only reached by nodes with a high node degree, then he can drastically increase the probability of the network ending up as a star or a network with only a few hubs. Since we know that the networks formed are similar to a scale-free network, we can use the fact that scale-free networks follow a power law distribution and say that only the ones with the highest degree will get the bonus.  
+ The insurer can then make certain that the only nodes that will reach the critical level are the hubs. If a hub reaches the critical point it will try to connect to every node. This can increase the probability of reaching a star network, when some of the nodes accept the request for establishing connection, they will maybe delete another direct connection. 
 Another possibility for solving the problem with unfair costs, could be to use a shared-network cost instead. i.e. every node pays a cost equal to the total cost of the network divided on the number of nodes. 
 Similar value distribution has been analyzed by Jackson and Wolinsky in \cite{jackson1996strategic}, and is called an egalitarian allocation rule, this rule guarantees that any efficient network is also pairwise stable. But this is unfortunately a very extreme rule.
 
