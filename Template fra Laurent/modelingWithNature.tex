@@ -1,17 +1,15 @@
 \subsection{Game with incomplete information}
 In this game we have included the problem of information asymmetry, this is done by letting nature selecting whether a player is insured or not, a player is insured with probability $p$, and not insured with probability $1-p$. 
-The game is as earlier, link establishment is a bilateral decision, and we select two random nodes each round, and check if they would like to connect to each other. The difference is that we have inserted information asymmetry, only player 1 knows the type of the other player. Both players knows their own type, but player 2 only have a belief about the type of player 1.
-
+The game is as described earlier in this chapter, link establishment is a bilateral decision, and we select two random nodes each round, and check if they would like to connect to each other. The difference is that we have inserted information asymmetry, only player 1 knows the type of the other player. Both players knows their own type, but player 2 only have a belief about the type of player 1.
 \subsection{Calculating the different equlibriums}
 In this game we have two types of players, type 1 $(t1)$: insured and type 2 $(t2)$: not insured. 
 Player 1's type is chosen randomly by nature, with probability $p$ of being type 1 and $1-p$ of being type 2.
 \begin{figure}[h]
 \centering
-
   \centering
 \includegraphics[width=1\linewidth]{../Figures/SignalingGameInsured.png}
 
-\caption{Signalling game with two players, player 1's type choosen by nature, player2 is insured. Player 1 have complete information, player 2 suffer from incomplete information, and act on beliefs. \label{fig:signalingInsured}}
+\caption{Signalling game with two players, player 1's type choosen by nature, player2 is insured. Player 1 have complete information, player 2 suffer from incomplete information, and act on best response functions based on beliefs. \label{fig:signalingInsured}}
 
 \end{figure}
 In this two person game player 1 have complete information, i.e. he knows his own and the other players type. Player 2 suffer has incomplete information and only knows his own type. 
@@ -22,8 +20,8 @@ Since player 1 will never play $N$ as type 2, there are only one possible separa
 \begin{equation}
     \sigma_{1}(t_{i})= 
 \begin{cases}
-   L,& \text{if } t1\\
-   N,& \text{if } t2  
+   N,& \text{if } t1\\
+   L,& \text{if } t2  
 \end{cases}
 \label{eq:player2belief}
 \end{equation}
@@ -56,8 +54,8 @@ For player 1 to be willing to play N when he knows player 2's best response func
 \beta<I_{l}\\
  \sigma_{1}= 
 \begin{cases}
-   L,& \text{if } t1\\
-   N,& \text{if } t2  
+   N,& \text{if } t1\\
+   L,& \text{if } t2  
 \end{cases}\\
 BR_{2}(\sigma_{1})=N
 \end{eqnarray} 
@@ -88,7 +86,7 @@ N ,& \text{if } \beta +rp -r < I_{l}
 \end{cases}
 \end{equation}
 By using this best response function, player 1 sees that as long as $\beta>I_{l}$ he will never deviate from player 2's beliefs. And it is a pooling equilibrium where both player choose $L$, as long as $\beta>I_{l}$ and $\beta +rp-r>I_{l}$.
-We also know that this: $rp-r<0$ is allways true, and thus the only pooling equilbrium is the one where both players plays L, and the condition for this is: $\beta>I_{l}$.
+We also know that this: $rp-r<0$ is allways true, and thus there also exists a pooling equilibrium where player 1, plays $L$, and player 2, plays $N$. This will occur when $\beta>I_{l}$ and $\beta+rp-r<I_{l}$.
 \subparagraph{Player 2 not insured, player 1's type choosen by nature}
 The rules of the game are as before, the only thing that has changed is the type of player 2, and thus the payoffs are different and we need to see if there exists separating and pooling equilibrium in this game as well.
 \begin{figure}[h]
@@ -97,7 +95,7 @@ The rules of the game are as before, the only thing that has changed is the type
   \centering
 \includegraphics[width=1\linewidth]{../Figures/SignalingGameNotInsured.png}
 
-\caption{TESTESTTEST}
+\caption{Signalling game with two players, player 1's type choosen by nature, player2 is not insured. Player 1 have complete information, player 2 suffer from incomplete information, and act on best response functions based on beliefs. \label{fig:signalingNotInsured}}
 
 \end{figure}
 \subparagraph{Separating equilibrium}
@@ -125,7 +123,7 @@ If $\beta>r$ then type 2 would deviate, because he could achieve a higher payoff
 \beta < r
 \label{eq:sepcondition}
 \end{equation}  
-When analyzing from player 1 type 2's perspective, for him to play L, this has to hold: $U_{i}+\beta-I_{l}-r > U_{i}$. The only way this can hold is if $\beta>I_{l}+r$. We see that equation \ref{eq:sepcondition} is violating this condition, and thus we have no separating equilibrium with the beliefs in equation \ref{eq:player2beliefnotinsured}.
+When analyzing from player 1 type 1's perspective, for him to play L, this has to hold: $U_{i}+\beta-I_{l}-r > U_{i}$. The only way this can hold is if $\beta>I_{l}+r$. We see that equation \ref{eq:sepcondition} is violating this condition, and thus we have no separating equilibrium with the beliefs in equation \ref{eq:player2beliefnotinsured}.
 Now lets look at the other possible separating equilibrium, see equation \ref{eq:player2beliefnotinsured2}.
 \begin{equation}
     \sigma_{1}(t_{i})= 
@@ -183,5 +181,5 @@ From this we get this final condition, if $\beta-I_{l}\geq r$ then there exists 
 From this we can also see that the other pooling equilibrium where both types of player 1, plays $N$, can only happen when $\beta<r \text{ and } \beta<I_l+r$.
 
 \subparagraph{Summary}
-When the game is suffering from incomplete information, we are not able to ensure that the network formation game end up in an insurable clique. We found one equilibrium where the non-insured player 2 where able to separate the two types of player 1, and when $\beta>r+I_{l}$ the resulting network is a clique of only non-insured nodes.
+When the game is suffering from incomplete information, we are not able to ensure that the network formation game end up in an insurable clique. We found one equilibrium where the non-insured player 2 where able to separate the two types of player 1, and when $\beta>r+I_{l}$ the resulting network will be a clique of only non-insured nodes.
 We also found pooling equilibriums where both types of player 1 and player 2 will connect to both non-insured and insured nodes. 
