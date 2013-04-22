@@ -10,7 +10,7 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Caption for LOF}}{15}{figure.caption.13}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Caption for LOF}}{16}{figure.caption.15}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces A star-topology \cite {lieberman2005evolutionary} . \relax }}{18}{figure.caption.16}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Figure \ref {fig:optequi} shows the socially optimal equilibrium, and \ref {fig:notoptequi} shows the non optimal equilibrium.\relax }}{19}{figure.caption.18}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Figure \ref {fig:optequi} shows the socially optimal equilibrium, and \ref {fig:notoptequi} shows the non optimal equilibrium.\relax }}{20}{figure.caption.18}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Mutant propagation game\relax }}{21}{figure.caption.20}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Shows how agents connects to eachother according to model described in section \ref {section:verysimplemodel}.\relax }}{25}{figure.caption.21}
@@ -29,11 +29,13 @@
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Four nodes interconnected with each other.\relax }}{46}{figure.caption.57}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces The resulting network after a simulation with the parameters from table \ref {tbl:stablestar} .\relax }}{48}{figure.caption.61}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces The resulting network after a simulation with the parameters from table \ref {tbl:stablestar} and ten nodes.\relax }}{49}{figure.caption.62}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces shows how insured agents connects with each other to form a network to achieve super-critical payoffs.\relax }}{51}{figure.caption.64}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Caption for LOF}}{51}{figure.caption.65}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{51}{figure.caption.66}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Two different outcomes of the simulations with parameters from table \ref {tbl:clique}.\relax }}{52}{figure.caption.66}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Two different outcomes of the simulations with parameters from table \ref {tbl:discountstar}.\relax }}{53}{figure.caption.69}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces shows how insured agents connects with each other to form a network to achieve super-critical payoffs.\relax }}{54}{figure.caption.70}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Caption for LOF}}{54}{figure.caption.71}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{54}{figure.caption.72}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces A figure\relax }}{57}{figure.caption.68}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces A figure\relax }}{59}{figure.caption.74}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

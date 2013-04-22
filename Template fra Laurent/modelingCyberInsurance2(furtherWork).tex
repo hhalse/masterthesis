@@ -18,7 +18,7 @@ lets consider the network shown in \ref{fig:connectionGame}. Node 1 in the netwo
 
 \begin{equation}
 \sum_{j\neq i}^{} \beta_{ij}^{d(ij)} - \sum_{j:ij\in g}^{} {c}_{ij}, 
-\label{connecetionGame}
+\label{eq:connecetionGame}
 \end{equation}
 
 where $d(ij)$ represents the shortest path between node $i $ and node $j $, and ${c}_{ij}$ represents node i's cost of establishing a link between the two nodes. To simplify the model we choose a symmetric connection process where $\beta$ and $c$ is set to a fixed global value. 
@@ -105,7 +105,7 @@ One example of this is shown in figure \ref{fig:stablescalefree}, there are only
   \caption{\label{fig:stablescalefree} The resulting network after a simulation with the parameters from table \ref{tbl:stablestar} and ten nodes.}
 \end{figure}
 \subparagraph{Bulk insurance}
-As noted before it is not preferable to be the center node, due to the cost of all the direct links. If we consider the model with bulk insurance discount, this would lower the extra cost for the center node significantly. This could be used to increase the probability of reaching a star formation. One problem with this could be that if the incentive of having many connections are to good, then every would suddenly want to be a hub, and thus the incentive would defeat its purpose. 
+As noted before it is not preferable to be the center node, due to the cost of all the direct links. If we consider the model with bulk insurance discount, this would lower the extra cost for the center node significantly. This could be used to increase the probability of reaching a star formation. 
 
 Using the discount formula from the previous model, we end up with the equation (eq \ref{eq:discountstar}) to achieve a efficient and stable star topology. $i$ represents the node degree.
 \begin{equation}
@@ -113,12 +113,96 @@ Using the discount formula from the previous model, we end up with the equation 
 \label{eq:discountstar}
 \end{equation}
 An interesting property of the discount model is that the conditions for a efficient networks will change. Because
-when the node degree increases, the insurance cost might reach the critical point(show in equation (eq \ref{eq:criticaldiscount}), where it becomes benefical to establish a direct connection to every one. \begin{equation}
-\frac{I_{l}}{i+1}<\beta-\beta^2
+when the node degree increases, the insurance cost might reach the critical degree $g$, see (eq \ref{eq:criticaldiscount}). 
+\begin{equation}
+\frac{I_{l}}{g}<\beta-\beta^2
 \label{eq:criticaldiscount}
 \end{equation}
-If this critical level is reached at a to low node degree, then it becomes very benefical to have a high node degree, and the network will be a clique with high probability. However, if the insurer are able to ensure that this critical level is only reached by nodes with a high node degree, then he can drastically increase the probability of the network ending up as a star or a network with only a few hubs. Since we know that the networks formed are similar to a scale-free network, we can use the fact that scale-free networks follow a power law distribution and say that only the ones with the highest degree will get the bonus.  
- The insurer can then make certain that the only nodes that will reach the critical level are the hubs. If a hub reaches the critical point it will try to connect to every node. This can increase the probability of reaching a star network, when some of the nodes accept the request for establishing connection, they will maybe delete another direct connection. 
+For this to be possible $g<n$, where $n$-represents the number of nodes in the network.
+The stability condition have changed for a node with a critical degree, the stable and efficient condition for this node is, as shown earlier, to have a direct connection to every other node. Thus if we have a star-topology both the leaf nodes and the center nodes are stable, and the center node has been compensated for its role in the network.
+
+Since the networks formed are similar to scale-free networks, we can calculate the probability of a node in the network having the degree $g$, see (eq \ref{eq:probabilitydegree}). Where $n$-represents the number of nodes in the network, $\gamma$ is the power law parameter, as described in Chapter \ref{chp:graphTheory}.
+\begin{equation}
+P(g)=ng^{-\gamma}
+\label{eq:probabilitydegree}
+\end{equation}
+When a node $i$ reaches the critical degree $g$ its optimal strategy is to connect to every node, since the payoff of direct connection is larger than any indirect connection. In general nodes prefer to connect to node with high connectivity \footnote{A node with high degree implies a node with high connectivity.}, and will thus prefer to connect to this node compared to nodes with a degree lower than $g$. In this way nodes will connect to the node who have a degree greater or equal to $g$, and remove the links to their low-degree nodes which they can instead reach through  $i$.
+Lets consider a case with $n-$nodes, and two of these nodes, $i$ and $j$, have an equal degree larger than $g$. The rest of the nodes has a degree of one or zero. If there exists a node with degree zero, it would prefer to be connected to $i$ or $j$, and so will $i$ and $j$, so this will eventually happen.
+If a node connected to $i$ are considering connecting to $j$, or visa versa, it will do so because $j$ can offer a higher connectivity than $i$. Now $j$ has a higher degree than $i$, and thus every node would prefer to connect to $j$ over $i$. This will eventually result in a star formation, with $j$ as the center node. 
+From this we get the propositions:
+\begin{proposition}
+If the probability that there exists a node with a critical degree is very high, the resulting network will with high probability end up in a network where the average degree is close to the max-degree. 
+\label{prop:clique}
+\end{proposition}
+\begin{proposition}
+If the probability that there exists a node with critical degree, is such that only a few nodes will reach this degree, then the resulting network will be a star-topology. 
+\label{prop:star}
+\end{proposition} 
+
+\subsection{Simulation}
+To see if the propositions above where true, we created a simulator. We had to relax some of the complexity of the game to make it possible to simulate. The rules of the game are as follows.
+Every round two random nodes, not neighbors, are selected, and asked if they would want to establish a link. The link establishment is a symmetric decision. If the link is added, we check if either of the nodes would prefer to delete some of their already existing links, this decision is asymmetric. This procedure is repeated as long as there are possible to add new links. 
+The payoff function of each node is as described earlier( see (eg \ref{eq:connecetionGame})), except that the cost is now dependent on the degree of the node.
+We know that if (eg \ref{eq:discountstar}) is satisfied for all $i$, then the efficient and stable state is a star. But whats of interest is when the critical degree is reached at a low degree(prop \ref{prop:clique}) or if it is only a few nodes who will reach the degree. 
+\subparagraph{Low critical node degree}
+It is reasonable to believe that if the critical degree is low, the probability of the resulting network being a star will be high. But as we will see, this is not the case. If we consider the variables and their values shown in (table \ref{tbl:clique}), $n-$ is the number of nodes. We see that (eg \ref{eq:discountstar}) is satisfied until a node is considering establish its third direct link. At this point the node has reached the critical degree, and will strictly prefer to establish direct links. This will lead to even more nodes reaching the critical degree level, and the result is that almost every node connects to every one else. The result of multiple simulations with these parameters can be seen in figure \ref{fig:discounthighdegree}.
+\begin{table}[h]
+\centering
+\begin{tabular}{lc}
+ \hline
+  $
+  n=10,
+  \beta=0.7,
+  \beta-\beta^2=0.21,
+  I_{l}=0.6$\\
+  \hline
+\end{tabular}
+\caption{The parameters used in the simulation in \ref{fig:stablestar} \label{tbl:clique}}
+\end{table}
+
+\begin{figure}[h]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.4\linewidth]{../Figures/discount/cliquetennodes.png}
+  \caption{\label{fig:discountclique} A clique consisting of ten nodes. }
+\end{subfigure}
+\quad
+\begin{subfigure}{.46\textwidth}
+  \centering
+  \includegraphics[width=0.8\linewidth]{../Figures/discount/baloontennodes.png}
+  \caption{\label{fig:discountbaloon} A network with high average node degree, but not a clique.}
+\end{subfigure}
+\caption{\label{fig:discounthighdegree} Two different outcomes of the simulations with parameters from table \ref{tbl:clique}.}
+\end{figure}
+
+\subparagraph{High critical node degree}
+To ensure that the network will form a star, we have to find parameters such that, equation (eq \ref{eq:discountstar}) is satisfied, and the probability of a node having a critical degree has to be relative low. In a network with ten nodes, the probability that there exists a node with degree, five, in a network with ten nodes, is $p=10*5^{-2}=0.4$. This is when we assume that the network follow a power-law with $\gamma=2$. With the parameters from table \ref{tbl:discountstar}, these conditions are satisifed and the resulting network can be seen in figure \ref{fig:startennodes}.
+  
+\begin{table}[h]
+\centering
+\begin{tabular}{lc}
+ \hline
+  $
+  n=10,
+  \beta=0.8,
+  \beta-\beta^2=0.16,
+  I_{l}=0.7$\\
+  \hline
+\end{tabular}
+\caption{The parameters used in the simulation in \ref{fig:startennodes} \label{tbl:discountstar}}
+\end{table}
+
+\begin{figure}[h]
+\centering
+
+  \includegraphics[width=0.9\linewidth]{../Figures/discount/startennodes.png}
+
+\caption{\label{fig:startennodes} Two different outcomes of the simulations with parameters from table \ref{tbl:discountstar}.}
+\end{figure}
+These results where confirmed by running the simulation several times, and also by running several simulations with $n \geq 10 \text{ and} n\leq 40$. In every simulation the probability of existing a node with a critical degree was set to areas between $0.2 - 0.4$. And every time it resulted in a star-topology.
+
+We also confirmed the results when running 
 Another possibility for solving the problem with unfair costs, could be to use a shared-network cost instead. i.e. every node pays a cost equal to the total cost of the network divided on the number of nodes. 
 Similar value distribution has been analyzed by Jackson and Wolinsky in \cite{jackson1996strategic}, and is called an egalitarian allocation rule, this rule guarantees that any efficient network is also pairwise stable. But this is unfortunately a very extreme rule.
 
