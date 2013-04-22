@@ -30,7 +30,21 @@ The first model does not result in any Nash equilibrium, it is believed that eve
 The unbalanced model results in a scenario where the insured nodes still wishes to connect to other insured nodes. The reason for this is claimed to be that the average shortest path in a scale-free graph is $O(log N)$, and the probability that another node, insured or not insured, is closer to to a node is roughly the same. Which means that on average an insured node will benefit from connecting to other insured nodes. 
 However, if the link budget only allows each node to only establish 1 link (except the one with a large budget), it will emerge a Nash equilibrium which is star with the rich node in the center. If the rich node is a insured node, all the other insured nodes will connect to this node. 
 
+Maa tilpasse konklusjonene her bedre..
 
+
+\begin{tikzpicture}[domain=0:4]
+    
+    \draw[->] (-0.2,0) -- (4.2,0) node[right] {$x$};
+    \draw[->] (0,-1.2) -- (0,4.2) node[above] {$f(x)$};
+    \draw[color=red] plot[id=x] function{x} 
+        node[right] {$f(x) =x$};
+    \draw[color=blue] plot[id=sin] function{sin(x)} 
+    
+        node[right] {$f(x) = \sin x$};
+    \draw[color=orange] plot[id=exp] function{0.05*exp(x)} 
+        node[right] {$f(x) = \frac{1}{20} \mathrm e^x$};
+\end{tikzpicture}
 
 
 
