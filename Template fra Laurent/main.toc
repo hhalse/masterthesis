@@ -144,4 +144,6 @@
 \contentsline {subparagraph}{Allocation rules}{82}{section*.114}
 \contentsline {chapter}{\chapternumberline {9}Related work 2}{83}{chapter.9}
 \contentsline {chapter}{\chapternumberline {10}Network Games}{85}{chapter.10}
-\contentsline {chapter}{References}{87}{section*.116}
+\contentsline {chapter}{\chapternumberline {11}Future work}{87}{chapter.11}
+\contentsline {section}{\numberline {11.1}Risk}{87}{section.11.1}
+\contentsline {chapter}{References}{89}{section*.117}

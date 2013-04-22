@@ -33,6 +33,20 @@ However, if the link budget only allows each node to only establish 1 link (exce
 Maa tilpasse konklusjonene her bedre..
 
 
+\begin{tikzpicture}[domain=0:4]
+    
+    \draw[->] (-0.2,0) -- (4.2,0) node[right] {$x$};
+    \draw[->] (0,-1.2) -- (0,4.2) node[above] {$f(x)$};
+    \draw[color=red] plot[id=x] function{x} 
+        node[right] {$f(x) =x$};
+    \draw[color=blue] plot[id=sin] function{sin(x)} 
+    
+        node[right] {$f(x) = \sin x$};
+    \draw[color=orange] plot[id=exp] function{0.05*exp(x)} 
+        node[right] {$f(x) = \frac{1}{20} \mathrm e^x$};
+\end{tikzpicture}
+
+
 
 
 
