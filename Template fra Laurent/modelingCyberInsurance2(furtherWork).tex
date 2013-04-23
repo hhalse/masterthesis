@@ -121,9 +121,9 @@ when the node degree increases, the insurance cost might reach the critical degr
 For this to be possible $g<n$, where $n$-represents the number of nodes in the network.
 The stability condition have changed for a node with a critical degree, the stable and efficient condition for this node is, as shown earlier, to have a direct connection to every other node. Thus if we have a star-topology both the leaf nodes and the center nodes are stable, and the center node has been compensated for its role in the network.
 
-Since the networks formed are similar to scale-free networks, we can calculate the probability of a node in the network having the degree $g$, see (eq \ref{eq:probabilitydegree}). Where $n$-represents the number of nodes in the network, $\gamma$ is the power law parameter, as described in Chapter \ref{chp:graphTheory}.
+Since the networks formed are similar to scale-free networks, we can calculate the probability of a node having degree $g$, see (eq \ref{eq:probabilitydegree}). $\gamma$ is the power law parameter, as described in Chapter \ref{chp:graphTheory}.
 \begin{equation}
-P(g)=ng^{-\gamma}
+P(g)=g^{-\gamma}
 \label{eq:probabilitydegree}
 \end{equation}
 When a node $i$ reaches the critical degree $g$ its optimal strategy is to connect to every node, since the payoff of direct connection is larger than any indirect connection. In general nodes prefer to connect to node with high connectivity \footnote{A node with high degree implies a node with high connectivity.}, and will thus prefer to connect to this node compared to nodes with a degree lower than $g$. In this way nodes will connect to the node who have a degree greater or equal to $g$, and remove the links to their low-degree nodes which they can instead reach through  $i$.
@@ -177,7 +177,7 @@ It is reasonable to believe that if the critical degree is low, the probability 
 \end{figure}
 
 \subparagraph{High critical node degree}
-To ensure that the network will form a star, we have to find parameters such that, equation (eq \ref{eq:discountstar}) is satisfied, and the probability of a node having a critical degree has to be relative low. In a network with ten nodes, the probability that there exists a node with degree, five, in a network with ten nodes, is $p=10*5^{-2}=0.4$. This is when we assume that the network follow a power-law with $\gamma=2$. With the parameters from table \ref{tbl:discountstar}, these conditions are satisifed and the resulting network can be seen in figure \ref{fig:startennodes}.
+To ensure that the network will form a star, we have to find parameters such that, equation (eq \ref{eq:discountstar}) is satisfied, and the probability of a node having a critical degree has to be relative low. In a network with ten nodes, the expected number of nodes with degree five in a network with ten nodes, is $E(g=5)=10*5^{-2}=0.4$. This is when we assume that the network follow a power-law with $\gamma=2$. With the parameters from table \ref{tbl:discountstar}, these conditions are satisfied and the resulting network can be seen in figure \ref{fig:startennodes}.
   
 \begin{table}[h]
 \centering
@@ -200,9 +200,8 @@ To ensure that the network will form a star, we have to find parameters such tha
 
 \caption{\label{fig:startennodes} Two different outcomes of the simulations with parameters from table \ref{tbl:discountstar}.}
 \end{figure}
-These results where confirmed by running the simulation several times, and also by running several simulations with $n \geq 10 \text{ and} n\leq 40$. In every simulation the probability of existing a node with a critical degree was set to areas between $0.2 - 0.4$. And every time it resulted in a star-topology.
+These results where confirmed by running the simulation several times, and also by running several simulations with $n \geq 10 \text{ and} n\leq 40$. In every simulation the expected number of nodes with a critical degree was set to areas between $0.2 - 0.4$. And every time it resulted in a star-topology.
 
-We also confirmed the results when running 
 Another possibility for solving the problem with unfair costs, could be to use a shared-network cost instead. i.e. every node pays a cost equal to the total cost of the network divided on the number of nodes. 
 Similar value distribution has been analyzed by Jackson and Wolinsky in \cite{jackson1996strategic}, and is called an egalitarian allocation rule, this rule guarantees that any efficient network is also pairwise stable. But this is unfortunately a very extreme rule.
 
