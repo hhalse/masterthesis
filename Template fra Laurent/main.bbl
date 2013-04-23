@@ -78,6 +78,12 @@ digi.no.
 \newblock \url{http://www.digi.no/39107/vil-forsikre-alt-og-alle-paa-nett}.
 \newblock Accessed: 18/02/2013.
 
+\bibitem[DS06]{danezis2006network}
+George Danezis and Stefan Schiffner.
+\newblock On network formation,(sybil attacks and reputation systems).
+\newblock In {\em DIMACS Workshop on Information Security Economics}, pages
+  18--19, 2006.
+
 \bibitem[EK12]{easley2012networks}
 D.~Easley and J.~Kleinberg.
 \newblock Networks, crowds, and markets: Reasoning about a highly connected
