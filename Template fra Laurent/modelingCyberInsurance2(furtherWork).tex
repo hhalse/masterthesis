@@ -177,7 +177,7 @@ It is reasonable to believe that if the critical degree is low, the probability 
 \end{figure}
 
 \subparagraph{High critical node degree}
-To ensure that the network will form a star, we have to find parameters such that, equation (eq \ref{eq:discountstar}) is satisfied, and the probability of a node having a critical degree has to be relative low. In a network with ten nodes, the expected number of nodes with degree five in a network with ten nodes, is $E(g=5)=10*5^{-2}=0.4$. This is when we assume that the network follow a power-law with $\gamma=2$. With the parameters from table \ref{tbl:discountstar}, these conditions are satisfied and the resulting network can be seen in figure \ref{fig:startennodes}.
+To ensure that the network will form a star, we have to find parameters such that, equation (eq \ref{eq:discountstar}) is satisfied, and the probability of a node having a critical degree has to be relative low. In a network with ten nodes, the expected number of nodes with degree five in a network with ten nodes, is $E(g=5)=10*5^{-2}=0.4$. This is when we assume that the network follow a power-law with $\gamma=2$. With the parameters from table \ref{tbl:discountstar}, these conditions are satisfied and the resulting network can be seen in figure \ref{fig:star:a}.
   
 \begin{table}[h]
 \centering
@@ -195,12 +195,21 @@ To ensure that the network will form a star, we have to find parameters such tha
 
 \begin{figure}[h]
 \centering
-
-  \includegraphics[width=0.9\linewidth]{../Figures/discount/startennodes.png}
-
-\caption{\label{fig:startennodes} Two different outcomes of the simulations with parameters from table \ref{tbl:discountstar}.}
+\begin{subfigure}{.9\textwidth}
+  \centering
+ \includegraphics[width=0.4\linewidth]{../Figures/discount/startennodes.png}
+  \caption{\label{fig:star:a} The result of simulating with the parameters in table \ref{tbl:discountstar}, a star with ten nodes}
+\end{subfigure}
+\quad
+  
+\begin{subfigure}{.9\textwidth}
+  \centering
+  \includegraphics[width=0.4\linewidth]{../Figures/discount/starmanynodes.png}
+  \caption{\label{fig:star:b} A star network formed when running a simulation with forty-nodes, and parameters satisfying proposition \ref{prop:star}}
+\end{subfigure}
+\caption{\label{fig:star1} Two star-network, ten- and forty-nodes, both are the result of simulations with parameters satisfying proposition \ref{prop:star}.}
 \end{figure}
-These results where confirmed by running the simulation several times, and also by running several simulations with $n \geq 10 \text{ and} n\leq 40$. In every simulation the expected number of nodes with a critical degree was set to areas between $0.2 - 0.4$. And every time it resulted in a star-topology.
+These results where confirmed by running the simulation several times, and also by running several simulations with $n \geq 10 \text{ and } n\leq 40$. In every simulation the expected number of nodes with a critical degree was set to areas between $0.2 - 0.4$. And every time it resulted in a star-topology.
 
 Another possibility for solving the problem with unfair costs, could be to use a shared-network cost instead. i.e. every node pays a cost equal to the total cost of the network divided on the number of nodes. 
 Similar value distribution has been analyzed by Jackson and Wolinsky in \cite{jackson1996strategic}, and is called an egalitarian allocation rule, this rule guarantees that any efficient network is also pairwise stable. But this is unfortunately a very extreme rule.
