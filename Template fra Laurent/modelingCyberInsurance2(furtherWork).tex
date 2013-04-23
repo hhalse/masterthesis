@@ -7,7 +7,7 @@ In the earlier model, the experienced network effects only arose from their neig
 In the previous models the utility for each node where only affected by direct variables such as $\beta$. In a real world scenario a node will be strongly affected by network externalities. Our idea is based on the paper from Jackson and Wolinsky \cite{jackson1996strategic} and a network formation game in \cite{jackson2005survey}. 
 
 \section{The connection game}
-We consider a connection game where the network effects are dependent on the whole network.  Meaning, in addition to the benefit from the direct connection, a node will also benefit from "the friends of the friend", and "the friends of the friends of the friend" etc. This is achieved by letting the payoff be calculated relative to the distance between the nodes. The network externality $\beta$ is now dependent on the number of hops to the node e.g. the benefit of a direct connection is $\beta$, the benefit of a friend of a friend is $\beta^2$ etc. We want the benefit to be decreasing with the distance, so we need this limitation: $0<\beta<1$ on $\beta$. 
+We consider a connection game where the network effects are dependent on the whole network.  Meaning, in addition to the benefit from the direct connection, a node will also benefit from "the friends of the friend", and "the friends of the friends of the friend" etc. This is achieved by letting the payoff be calculated relative to the distance between the nodes. The network externality $\beta$ is now dependent on the number of hops to the node e.g. the benefit of a direct connection is $\beta$, the benefit of a friend of a friend is $\beta^2$ etc. We want the benefit to decrease with the distance, therefore we need the limitation: $0<\beta<1$. 
 
 \begin{figure}[h]
 \centering
@@ -23,7 +23,7 @@ Lets consider the network shown in \ref{fig:connectionGame}. Node 1 in the netwo
 
 where $d(ij)$ represents the shortest path between node $i $ and node $j $, and ${c}_{ij}$ represents node i's cost of establishing a link between the two nodes. To simplify the model we choose a symmetric connection process where $\beta$ and $c$ is set to a fixed global value. 
 
-In the paper \cite{jackson1996strategic}, they analyze two different networks outcomes, one with the focus on efficiency and the other on stability. An efficient network means ending up with a network where the sum of every nodes payoff is maximized. The optimal network is of course both efficient and stable, but as we shall see there are some conflicts between efficiency and stability. In the paper they found that an efficient network is:
+In the paper \cite{jackson1996strategic}, they analyze two different networks outcomes, one with the focus on efficiency and the other on stability. An efficient network means ending up with a network where the sum of every nodes payoff is maximized. The optimal network is of course both efficient and stable, but as we shall see there are some conflicts between efficiency and stability. In the paper they found that an efficient network becomes:
 \begin{enumerate}
 \item \textit{a complete graph $g^N$ if $c<\beta - \beta^2$,}
 \item \textit{a star encompassing every node if $\beta - \beta^2 < c < \beta + \frac{(N-2)}{2}\beta^2$,}
@@ -60,7 +60,7 @@ It should be noticed that it is more beneficial for a node to operate as a leaf 
 \subparagraph{Insurance and connection game}
 The propositions showed here are very useful from an insurers point of view, if one has knowledge of the variables it is possible to determine how the network will evolve. And if one are able to determine the variables one can actually determine the network structure.
 From the paper we know that there exists different boundaries on the cost of establishing a new link, and how the resulting stable and efficient network will be.
-From our earlier models we know that the cost of establish a link is the insurance cost and the risk cost. From this we can show that if $\beta - \beta^2 <I_{l}<\beta \text{ and } r>\beta$ a star with only insured nodes, and no connections between non-insured nodes, are both a stable and a efficient network. If $\beta - \beta^2 <I_{l}+r<\beta \text{ and } \beta - \beta^2<I_{l} \text{ and } \beta - \beta^2<r $ the stable and efficient network is a star consisting of both insured and non-insured nodes. If $I_{l}<\beta-\beta^2$ all insured nodes will connect to every other insured node, and if $r<\beta-\beta^2$ all non-insured nodes will connect to every other non-insured node.
+From our earlier models we know that the cost of establish a link is the insurance cost and the risk cost. From this we can show that if $\beta - \beta^2 <I_{l}<\beta \text{ and } r>\beta$ a star with only insured nodes, and no connections between non-insured nodes, are both a stable and an efficient network. If $\beta - \beta^2 <I_{l}+r<\beta \text{ and } \beta - \beta^2<I_{l} \text{ and } \beta - \beta^2<r $ the stable and efficient network is a star consisting of both insured and non-insured nodes. If $I_{l}<\beta-\beta^2$ all insured nodes will connect to every other insured node, and if $r<\beta-\beta^2$ all non-insured nodes will connect to every other non-insured node.
 And of course if $r+I_{l}<\beta-\beta^2$ the resulting network will be a clique of both insured and non-insured nodes.
 The insurer can thus determine the formation of the network by adjusting the cost parameters. 
 
@@ -94,10 +94,7 @@ Node $6$ would benefit from adding the link $1,6$, but node 1 is not willing to 
 
 \subparagraph{Start not possible with high $n$}
 In the paper \cite{jackson2005survey} they come up with this proposition:
-Consider the symmetric connections model in the case where $\beta-beta^2<c<\beta$. As the number of nodes grows, the probability that a stable state (under the
-process where each link has an equal probability of being identified) is reached with the
-
-efficient network structure of a star goes to 0. But if a network reaches the efficient star structure, it is also pairwise stable, and will remain a star. 
+Consider the symmetric connections model in the case where $\beta-\beta^2<c<\beta$. As the number of nodes grows, the probability that a stable state (under the process where each link has an equal probability of being identified) is reached with the efficient network structure of a star goes to 0. But if a network reaches the efficient star structure, it is also pairwise stable, and will remain a star. 
 We confirmed this when running multiple simulations, when we used few nodes the resulting network often became a star, but as the number of nodes increased the network rarely was a star. 
 
 However, the structure of the networks are very similar to a scale-free network. There are many nodes with low node degree, and few with a high node degree.
@@ -129,7 +126,7 @@ Since the networks formed are similar to scale-free networks, we can calculate t
 P(g)=g^{-\gamma}
 \label{eq:probabilitydegree}
 \end{equation}
-When a node $i$ reaches the critical degree $g$ its optimal strategy is to connect to every node, since the payoff of direct connection is larger than any indirect connection. In general nodes prefer to connect to node with high connectivity \footnote{A node with high degree implies a node with high connectivity.}, and will thus prefer to connect to this node compared to nodes with a degree lower than $g$. In this way nodes will connect to the node who have a degree greater or equal to $g$, and remove the links to their low-degree nodes which they can instead reach through  $i$.
+When a node $i$ reaches the critical degree $g$ its optimal strategy is to connect to every node, since the payoff of direct connection is larger than any indirect connection. In general nodes prefer to connect to nodes with high connectivity \footnote{A node with high degree implies a node with high connectivity.}, and will thus prefer to connect to this node compared to nodes with a degree lower than $g$. In this way nodes will connect to the node who have a degree greater or equal to $g$, and remove the links to their low-degree nodes which they can instead reach through  $i$.
 Lets consider a case with $n-$nodes, and two of these nodes, $i$ and $j$, have an equal degree larger than $g$. The rest of the nodes has a degree of one or zero. If there exists a node with degree zero, it would prefer to be connected to $i$ or $j$, and so will $i$ and $j$, so this will eventually happen.
 If a node connected to $i$ are considering connecting to $j$, or visa versa, it will do so because $j$ can offer a higher connectivity than $i$. Now $j$ has a higher degree than $i$, and thus every node would prefer to connect to $j$ over $i$. This will eventually result in a star formation, with $j$ as the center node. 
 From this we get the propositions:
