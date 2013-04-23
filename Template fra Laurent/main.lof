@@ -9,10 +9,10 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Forming a A-B graph in 15 generations \cite {audestad}.\relax }}{14}{figure.caption.11}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Caption for LOF}}{15}{figure.caption.13}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Caption for LOF}}{16}{figure.caption.15}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces A star-topology \cite {lieberman2005evolutionary} . \relax }}{18}{figure.caption.16}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces A star-topology. \relax }}{18}{figure.caption.16}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Figure \ref {fig:optequi} shows the socially optimal equilibrium, and \ref {fig:notoptequi} shows the non optimal equilibrium.\relax }}{20}{figure.caption.18}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Mutant propagation game\relax }}{21}{figure.caption.20}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces A star-topology \cite {lieberman2005evolutionary} . \relax }}{25}{figure.caption.21}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces A star-topology. \relax }}{25}{figure.caption.21}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Figure \ref {fig:optequi} shows the socially optimal equilibrium, and \ref {fig:notoptequi} shows the non optimal equilibrium.\relax }}{26}{figure.caption.23}
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Mutant propagation game\relax }}{27}{figure.caption.25}
 \addvspace {10pt}
@@ -31,7 +31,7 @@
 \addvspace {10pt}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Four nodes interconnected with each other.\relax }}{52}{figure.caption.62}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces The resulting network after a simulation with the parameters from table \ref {tbl:stablestar} .\relax }}{54}{figure.caption.66}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces The resulting network after a simulation with the parameters from table \ref {tbl:stablestar} and ten nodes.\relax }}{56}{figure.caption.68}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The resulting network after a simulation with the parameters from table \ref {tbl:stablestar} and ten nodes.\relax }}{55}{figure.caption.68}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Two different outcomes of the simulations with parameters from table \ref {tbl:clique}.\relax }}{58}{figure.caption.72}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Two star-network, ten- and forty-nodes, both are the result of simulations with parameters satisfying proposition \ref {prop:star}.\relax }}{59}{figure.caption.75}
 \addvspace {10pt}

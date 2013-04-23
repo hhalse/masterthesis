@@ -70,7 +70,7 @@
 \contentsline {subparagraph}{Pairwise stability:(HVERTFALL ISH )}{53}{section*.63}
 \contentsline {subparagraph}{Insurance and connection game}{53}{section*.64}
 \contentsline {subparagraph}{Start not possible with high $n$}{55}{section*.67}
-\contentsline {subparagraph}{Bulk insurance}{55}{section*.69}
+\contentsline {subparagraph}{Bulk insurance}{56}{section*.69}
 \contentsline {subsection}{\numberline {5.1.1}Simulation}{57}{subsection.5.1.1}
 \contentsline {subparagraph}{Low critical node degree}{57}{section*.70}
 \contentsline {subparagraph}{High critical node degree}{57}{section*.73}
