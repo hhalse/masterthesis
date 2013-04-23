@@ -3,7 +3,7 @@
 
 So far our model have only considered the effects of direct connections, but in this part we will introduce the effects of indirect connections. When a node connects to a new node, the change in payoff is not just a fixed variable as earlier, but also dependent on the connections already established by the other node.
 
-In the earlier model network effects the nodes experiences, arises from their neighbours only. I.e. when a node establish a connection the change in utility is only dependent on fixed variables, and non dependent of the rest of the network.
+In the earlier model, the experienced network effects only arose from their neighbours. I.e. when a node establish a connection the change in utility is only dependent on fixed variables, and non dependent of the rest of the network.
 In the previous models the utility for each node where only affected by direct variables such as $\beta$. In a real world scenario a node will be strongly affected by network externalities. Our idea is based on the paper from Jackson and Wolinsky \cite{jackson1996strategic} and a network formation game in \cite{jackson2005survey}. 
 
 \section{The connection game}
@@ -14,7 +14,7 @@ We consider a connection game where the network effects are dependent on the who
   \includegraphics[width=0.2\linewidth]{../Figures/connectionGame.png}
   \caption{\label{fig:connectionGame} Four nodes interconnected with each other.}
 \end{figure}
-lets consider the network shown in \ref{fig:connectionGame}. Node 1 in the network will get a benefit of $\beta+\beta^{2}+\beta^{3}$ by having the connection with node 2. For this network to make sense, it is important to also include some cost of having direct connections. This is done as in earlier models, every node pay a cost for direct connections, but no cost for indirect connections. Thus the total payoff for a node is:
+Lets consider the network shown in \ref{fig:connectionGame}. Node 1 in the network will get a benefit of $\beta+\beta^{2}+\beta^{3}$ by having connected to node 2. $\beta^{2}+\beta^{3}$ represents the indirect benefits from node 3 and 4. For this network to make sense, it is important to also include some cost of having direct connections. This is done as in earlier models, every node pay a cost for direct connections, but no cost for indirect connections. Thus the total payoff for a node is:
 
 \begin{equation}
 \sum_{j\neq i}^{} \beta_{ij}^{d(ij)} - \sum_{j:ij\in g}^{} {c}_{ij}, 
@@ -23,7 +23,7 @@ lets consider the network shown in \ref{fig:connectionGame}. Node 1 in the netwo
 
 where $d(ij)$ represents the shortest path between node $i $ and node $j $, and ${c}_{ij}$ represents node i's cost of establishing a link between the two nodes. To simplify the model we choose a symmetric connection process where $\beta$ and $c$ is set to a fixed global value. 
 
-In the paper \cite{jackson1996strategic}, they analyze the stability and efficiency of a network like this. An efficient network means ending up with a network where the sum of every nodes payoff is maximized. The optimal network is of course both efficient and stable, but as we shall see there are some conflicts between efficiency and stability. In the paper they found that an efficient network is:
+In the paper \cite{jackson1996strategic}, they analyze two different networks outcomes, one with the focus on efficiency and the other on stability. An efficient network means ending up with a network where the sum of every nodes payoff is maximized. The optimal network is of course both efficient and stable, but as we shall see there are some conflicts between efficiency and stability. In the paper they found that an efficient network is:
 \begin{enumerate}
 \item \textit{a complete graph $g^N$ if $c<\beta - \beta^2$,}
 \item \textit{a star encompassing every node if $\beta - \beta^2 < c < \beta + \frac{(N-2)}{2}\beta^2$,}
@@ -39,11 +39,10 @@ Indisputable this structure provides the highest overall payoff for the network,
 \subparagraph{Pairwise stability:(HVERTFALL ISH )}
 A graph is pairwise stable if:
  \begin{enumerate}
-\item \textit{No node want to delete a link he is involved in.}
+\item \textit{No node wishes to delete a link he is involved in.}
 \item \textit{If there exists a node who want to add a link, then the node on the other end of the link do not want to establish this link.}
 \end{enumerate} 
 The limitations of pairwise stability is that we only consider one link and one pair of nodes at a time.
-
 
 When analyzing the stability of the network, by using pairwise stability, Jackson and Wolinsky found four different conditions of stability:
 
@@ -92,11 +91,15 @@ U_{6}=\beta+\beta^2+3\beta^3-c
 \label{eq:payoffstablestar}
 \end{eqnarray}
 Node $6$ would benefit from adding the link $1,6$, but node 1 is not willing to do so because then he must pay an extra cost, and since $\beta^2>\beta-c$. Thus the network is stable but not efficient. 
+
+\subparagraph{Start not possible with high $n$}
 In the paper \cite{jackson2005survey} they come up with this proposition:
 Consider the symmetric connections model in the case where $\beta-beta^2<c<\beta$. As the number of nodes grows, the probability that a stable state (under the
 process where each link has an equal probability of being identified) is reached with the
+
 efficient network structure of a star goes to 0. But if a network reaches the efficient star structure, it is also pairwise stable, and will remain a star. 
 We confirmed this when running multiple simulations, when we used few nodes the resulting network often became a star, but as the number of nodes increased the network rarely was a star. 
+
 However, the structure of the networks are very similar to a scale-free network. There are many nodes with low node degree, and few with a high node degree.
 One example of this is shown in figure \ref{fig:stablescalefree}, there are only ten nodes, but the network have the properties of a scale-free. Two nodes with degree of 4, and the rest have a degree of one or two.
 \begin{figure}[h]
@@ -215,7 +218,6 @@ Another possibility for solving the problem with unfair costs, could be to use a
 Similar value distribution has been analyzed by Jackson and Wolinsky in \cite{jackson1996strategic}, and is called an egalitarian allocation rule, this rule guarantees that any efficient network is also pairwise stable. But this is unfortunately a very extreme rule.
 
 
-
-
+\input{modelFromBohme}
 
 
