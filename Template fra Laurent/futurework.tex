@@ -27,4 +27,20 @@ When $\lambda$ have a value around 0.5, we get a curve \ref{fig:exponentialFunct
 
 read more in the paper: Uncertainty in Interdependent Security Games
 
-From this paper follows a description of how to measure risk within a network. The idea is that for a cost $c$, you can protect yourself from threats denoted $p$ outside your own LAN or corporation. However, you can still be affected by threats from non-insured nodes inside the local network. This means that as long as not every node is insured, there will be a risk $q$ for each node not insured. $p$ reflects the probability of getting affected by a risk, and $q$ represents the likelihood of spreading it to others in the local network. The paper presents a swift model for measuring the risk in you local network. The can be used to look at a single nodes utility in the decision of whether to insure or not. 
+From this paper presents a description of how to measure risk within a local network. The idea is that for a cost $c$, you can protect yourself from threats outside your own LAN or corporation. This is analogous to purchase a firewall and anti-virus software. However, you can still be affected by threats from non-insured nodes inside your own local network. This means that as long as not every node is insured, the non-insured node will introduce a risk $q$ to the local network. $p$ reflects the probability of getting affected by a risk, and $q$ represents the likelihood of spreading it to others in the local network. The paper presents a swift model for measuring the risk in you local network.
+
+\begin{equation}
+    U_{i}= 
+\begin{cases}
+    -c + (1-q)^k ,& \text{if not buying insurance} \\
+   (1-p)(1-q)^k,& \text{ifbuying insurance }  \\
+    
+    
+\end{cases}
+\label{eq:riskModel}
+\end{equation}
+ This model can be used to look at a the decision process of single node on whether to buy insurance or not. The paper presents certain conditions which creates scenarios where we end up with a network where either every node chooses to buy or every one chooses not to buy insured. 
+
+If $c<p$ then everyone will buy insurance, since this is cheaper than the expected loss. The other equilibrium where no one buys insurance, occurs when the cost of insurance is higher that the likelihood that a player fails to protect him selves, assuming that also fails to protect. i.e. $c>p(1-q)^{1-n}$
+ 
+Our model's ultimate goal is to end up with insurable topologies which are able to measure risk in networks with a mix of insured and non-insured nodes. Therefore we will not take the same approach towards handling the problem with internal risk, i.e always forcing the network to either consist of insured nodes or not not-insured nodes. Instead we want to transfer this risk to the insurance company. Each node will have the opportunity to purchase a link insurance, which compensate from any financial loss from a specific node. 
