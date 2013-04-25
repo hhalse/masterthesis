@@ -21,59 +21,6 @@
 \BOOKMARK [1][-]{section.4.1}{Network Formation Games}{chapter.4}% 21
 \BOOKMARK [1][-]{section.4.2}{Model 1 - Initial Model }{chapter.4}% 22
 \BOOKMARK [1][-]{section.4.3}{Model 2 - Including Parameters}{chapter.4}% 23
-<<<<<<< HEAD
-\BOOKMARK [2][-]{subsection.4.3.1}{Multiple nodes}{section.4.3}% 24
-\BOOKMARK [2][-]{subsection.4.3.2}{Example - meeting the conditions}{section.4.3}% 25
-\BOOKMARK [2][-]{subsection.4.3.3}{Scenario - violating the conditions}{section.4.3}% 26
-\BOOKMARK [1][-]{section.4.4}{Simulating Model 2}{chapter.4}% 27
-\BOOKMARK [1][-]{section.4.5}{Forcing non-insured nodes to buy insurance}{chapter.4}% 28
-\BOOKMARK [2][-]{subsection.4.5.1}{Violating the conditions}{section.4.5}% 29
-\BOOKMARK [1][-]{section.4.6}{Model 3 - Including maximum node degree and bonus}{chapter.4}% 30
-\BOOKMARK [2][-]{subsection.4.6.1}{Simulations}{section.4.6}% 31
-\BOOKMARK [1][-]{section.4.7}{Model 4 - Including bulk insurance discount}{chapter.4}% 32
-\BOOKMARK [2][-]{subsection.4.7.1}{Game with incomplete information}{section.4.7}% 33
-\BOOKMARK [2][-]{subsection.4.7.2}{Calculating the different equlibriums}{section.4.7}% 34
-\BOOKMARK [0][-]{chapter.5}{Further work on the model}{}% 35
-\BOOKMARK [1][-]{section.5.1}{The connection game}{chapter.5}% 36
-\BOOKMARK [2][-]{subsection.5.1.1}{Homogenous symmetric connection game}{section.5.1}% 37
-\BOOKMARK [2][-]{subsection.5.1.2}{Simulation}{section.5.1}% 38
-\BOOKMARK [0][-]{chapter.6}{Model from Bohme}{}% 39
-\BOOKMARK [1][-]{section.6.1}{DETTE ET ANNET STED KANSKJE? BLIR LITT RART \305 HOPPE INN I DET HER}{chapter.6}% 40
-\BOOKMARK [1][-]{section.6.2}{Game including max node degree}{chapter.6}% 41
-\BOOKMARK [2][-]{subsection.6.2.1}{Game random connection}{section.6.2}% 42
-\BOOKMARK [2][-]{subsection.6.2.2}{Game connecting to insured first}{section.6.2}% 43
-\BOOKMARK [0][-]{chapter.7}{Relatedwork}{}% 44
-\BOOKMARK [1][-]{section.7.1}{Towards Insurable Network Architectures}{chapter.7}% 45
-\BOOKMARK [1][-]{section.7.2}{Cyber insurance as an Incentive for Internet Security}{chapter.7}% 46
-\BOOKMARK [2][-]{subsection.7.2.1}{Classical model for insurance}{section.7.2}% 47
-\BOOKMARK [2][-]{subsection.7.2.2}{Interdependent security and insurance}{section.7.2}% 48
-\BOOKMARK [1][-]{section.7.3}{Modeling cyber-insurance: towards a unifying Framework}{chapter.7}% 49
-\BOOKMARK [2][-]{subsection.7.3.1}{Network Environment: Connected nodes}{section.7.3}% 50
-\BOOKMARK [2][-]{subsection.7.3.2}{Demand side agents}{section.7.3}% 51
-\BOOKMARK [2][-]{subsection.7.3.3}{Supply side, insurers}{section.7.3}% 52
-\BOOKMARK [2][-]{subsection.7.3.4}{Information structure}{section.7.3}% 53
-\BOOKMARK [2][-]{subsection.7.3.5}{Organizational Enviroment\(stakeholders\)}{section.7.3}% 54
-\BOOKMARK [2][-]{subsection.7.3.6}{Using this framework for a literature survey}{section.7.3}% 55
-\BOOKMARK [1][-]{section.7.4}{A novel cyber-insurance Model}{chapter.7}% 56
-\BOOKMARK [1][-]{section.7.5}{A solution to the information Asymmetry Problem}{chapter.7}% 57
-\BOOKMARK [1][-]{section.7.6}{Cyber-insurance for cyber-security, A topological Take on Modulating Insurance Premiums}{chapter.7}% 58
-\BOOKMARK [1][-]{section.7.7}{Differentiating Cyber-insurance Contracts, a topological Perspective}{chapter.7}% 59
-\BOOKMARK [1][-]{section.7.8}{This was previously placed in current market }{chapter.7}% 60
-\BOOKMARK [1][-]{section.7.9}{Contract structure}{chapter.7}% 61
-\BOOKMARK [1][-]{section.7.10}{Economics}{chapter.7}% 62
-\BOOKMARK [1][-]{section.7.11}{Epidemics}{chapter.7}% 63
-\BOOKMARK [2][-]{subsection.7.11.1}{modeling contagion}{section.7.11}% 64
-\BOOKMARK [1][-]{section.7.12}{Incentives and Information Security}{chapter.7}% 65
-\BOOKMARK [1][-]{section.7.13}{new section}{chapter.7}% 66
-\BOOKMARK [0][-]{chapter.8}{Network formation: stability and efficiency}{}% 67
-\BOOKMARK [1][-]{section.8.1}{Survey of models of network formation: stability and efficiency}{chapter.8}% 68
-\BOOKMARK [2][-]{subsection.8.1.1}{Defining Network Games}{section.8.1}% 69
-\BOOKMARK [0][-]{chapter.9}{Related work 2}{}% 70
-\BOOKMARK [0][-]{chapter.10}{Network Games}{}% 71
-\BOOKMARK [0][-]{chapter.11}{Future work}{}% 72
-\BOOKMARK [1][-]{section.11.1}{Risk}{chapter.11}% 73
-\BOOKMARK [0][-]{section*.126}{References}{}% 74
-=======
 \BOOKMARK [1][-]{section.4.4}{Solving the prisonersdilemma}{chapter.4}% 24
 \BOOKMARK [2][-]{subsection.4.4.1}{Multiple nodes}{section.4.4}% 25
 \BOOKMARK [2][-]{subsection.4.4.2}{Example - meeting the conditions}{section.4.4}% 26
@@ -124,4 +71,3 @@
 \BOOKMARK [0][-]{chapter.11}{Future work}{}% 71
 \BOOKMARK [1][-]{section.11.1}{Risk}{chapter.11}% 72
 \BOOKMARK [0][-]{section*.127}{References}{}% 73
->>>>>>> lokal
