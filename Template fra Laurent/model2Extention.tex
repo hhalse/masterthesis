@@ -1,0 +1,50 @@
+\section{Forcing non-insured nodes to buy insurance}
+
+In this section we try to find a condition which gives all nodes incentive to buy insurance. The basic idea is to create a scenario where it is beneficial for a node to be insured, i.e the non-insured nodes wants to to purchase insurance. 
+This scenario will also benefit the insurer, obviously because more nodes purchases insurance. In addition, the insurer now have incentive to handle the problem with asymmetry. In previous models, the insurer would have difficulty obtaining sufficient information to calculate a node's risk. Because the nodes would did not have incentive to provide information to the insurance company. Hence the insurance company could enter into risky contracts. Now, we have a different scenario. Since non-insured nodes want to be insured, they can be forced to give up information about their current condition, both financial and list possible risks. From the market survey, we found that companies offering cyber-insurance actually required this information. The information received can be analyzed in different ways. If the nodes provide enough information, the insurer are able to calculate the risk, and offer a premium. On the other hand, if a node acts suspiciously and tries to hide information from the insurer, the insurer have reasonable cause to not chose to insure the node. Either way, it is a seller's market, where the insurance company can dictate the outcome of the network by pricing the insurance according to equations provided in this section.  
+
+Initial conditions are equal to the previous, where every node are randomly chosen to be either insured or not. Hence we could use the same payoff matrix \ref{fig:FirstGameTheoryModel} to analyze how we could force the non-insured nodes to purchase insurance. In order to give incentive for a non-insured node to purchase insurance, the payoff has to always be higher, i.e. 
+\begin{equation}
+\textit{Utility insured node > Utility non-insured node}
+\end{equation}
+
+
+
+This means that we need to make sure that a non-insured node in any circumstances will benefit from purchasing insurance. From the payoff matrix \ref{fig:FirstGameTheoryModel} we find the different conditions. When a connection is established, we need the payoff for insured nodes to be higher than non-insured nodes: 
+
+
+\begin{eqnarray}
+\beta - I_{0} - I_{l} > \beta - r \nonumber \\ 
+\llap{$\rightarrow$\hspace{50pt}}  I_{0} + I_{l} < r 
+\label{eq:model2extention:1}
+\end{eqnarray}
+
+For the other case, when the nodes have not established any connections the following has to hold: 
+\begin{eqnarray}
+ - I_{0} > -r \nonumber \\ 
+\llap{$\rightarrow$\hspace{50pt}}  I_{0} < r 
+\label{eq:model2extention:2}
+\end{eqnarray}
+
+In addition we need to make sure that it is not beneficial for insured nodes to connect to non-insured nodes: 
+
+\begin{equation}
+I_{l}+r < \beta
+\end{equation}
+
+If these conditions are met, we are guaranteed to get a network consisting of only insured nodes. Because in any case, the non-insured nodes will get a higher payoff from purchasing insurance. It is interesting to see that both conditions are completely dependent upon how the insurance company chooses to price their products. If the insurer collects enough information to calculate an accurate risk, he could price both $I_{0}$ and $I_{l}$ to meet the conditions. Hence he forces the network to end up with every node having incentive to purchase insurance.
+
+\subsection{Violating the conditions} 
+Since the risk are difficult to calculate, there is a possibility of ending up in states where a node would actually benefit from doing the opposite. If the actual scenario ends up with the following conditions: 
+
+
+\begin{eqnarray}
+I_{0}< r \nonumber \\ 
+I_{l}> r
+\label{eq:model2extention:3}
+\end{eqnarray}
+
+Now we will have a situation where it first looks beneficial to be purchase insurance. However, as the nodes adds more connections, and pays $I_{l}$ pr connection, the node would actually be better of with not being insured. This demonstrates the importance of being able to accurately calculate the risk. 
+
+
+
