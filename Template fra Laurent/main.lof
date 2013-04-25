@@ -19,7 +19,7 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Shows how agents connects to eachother according to model described in section \ref {section:verysimplemodel}.\relax }}{31}{figure.caption.26}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Normal form game, showing the different strategies and the payoffs for the different outcomes. The payoff for agent A is written first, then the payoff for agent B is on the line beneath. An agent has a strategy space of size 4. Maa ENDRES...\relax }}{33}{figure.caption.29}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Caption for LOF}}{37}{figure.caption.34}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Caption for LOF}}{37}{figure.caption.36}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Caption for LOF}}{38}{figure.caption.36}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces The figure shows how ten nodes start out with no links, and then add links as long as they can increase their payoff, the result are two seperate cliques, one consisting of non-insured and the other of insured nodes.\relax }}{38}{figure.caption.38}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces The figure shows the two possible scenarios that violates the equation \ref {eq:final condition}, \ref {fig:SimulationViolatingA} shows the result when $I_{l}<\beta -r$ and \ref {fig:SimulationViolatingB} shows the result when $I_{l}>\beta $.\relax }}{39}{figure.caption.40}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Two clustered fully connected networks, created by simulating with the parameters from table \ref {tbl:maxdegrevalues} One consisting of insured agents the other consists of non-insured. \relax }}{45}{figure.caption.49}

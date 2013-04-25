@@ -39,36 +39,36 @@
 \contentsline {section}{\numberline {4.2}Model 1 - Initial Model }{30}{section.4.2}
 \contentsline {section}{\numberline {4.3}Model 2 - Including Parameters}{31}{section.4.3}
 \contentsline {subparagraph}{Two agent game}{32}{section*.28}
-\contentsline {subsection}{\numberline {4.3.1}Multiple nodes}{34}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Multiple nodes}{35}{subsection.4.3.1}
 \contentsline {subparagraph}{Insured to insured}{35}{section*.30}
 \contentsline {subparagraph}{Insured connect to non-insured}{35}{section*.31}
 \contentsline {subparagraph}{Non-insured to Non-insured}{35}{section*.32}
 \contentsline {subsection}{\numberline {4.3.2}Example - meeting the conditions}{36}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}Scenario - violating the conditions}{36}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}Simulating Model 2}{38}{section.4.4}
+\contentsline {section}{\numberline {4.4}Simulating Model 2}{37}{section.4.4}
 \contentsline {subparagraph}{Simulation of game with optimal parameters}{38}{figure.caption.38}
-\contentsline {subparagraph}{Simulation of game with parameters violating equation \ref {eq:final condition}}{38}{figure.caption.40}
+\contentsline {subparagraph}{Simulation of game with parameters violating equation \ref {eq:final condition}}{39}{figure.caption.40}
 \contentsline {section}{\numberline {4.5}Forcing non-insured nodes to buy insurance}{39}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Violating the conditions}{40}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.1}Violating the conditions}{41}{subsection.4.5.1}
 \contentsline {section}{\numberline {4.6}Model 3 - Including maximum node degree and bonus}{41}{section.4.6}
 \contentsline {subsubsection}{Four different scenarios}{41}{section*.41}
 \contentsline {subparagraph}{Insured to insured}{41}{section*.42}
 \contentsline {subparagraph}{Insured connect to non-insured}{42}{section*.43}
-\contentsline {subparagraph}{Non-insured to non-insured}{42}{section*.44}
+\contentsline {subparagraph}{Non-insured to non-insured}{43}{section*.44}
 \contentsline {subparagraph}{Non-insured to insured}{43}{equation.4.24}
 \contentsline {subparagraph}{Limitations to ensure a clique of only insured}{43}{section*.46}
 \contentsline {subsection}{\numberline {4.6.1}Simulations}{44}{subsection.4.6.1}
 \contentsline {subparagraph}{Simulation when conditions are met}{44}{section*.47}
-\contentsline {subparagraph}{Simulation when the parameters violates the conditions}{44}{section*.50}
-\contentsline {subparagraph}{Consequences of not reaching required number of edges}{44}{section*.52}
-\contentsline {section}{\numberline {4.7}Model 4 - Including bulk insurance discount}{45}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Game with incomplete information}{48}{subsection.4.7.1}
+\contentsline {subparagraph}{Simulation when the parameters violates the conditions}{45}{section*.50}
+\contentsline {subparagraph}{Consequences of not reaching required number of edges}{45}{section*.52}
+\contentsline {section}{\numberline {4.7}Model 4 - Including bulk insurance discount}{46}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Game with incomplete information}{49}{subsection.4.7.1}
 \contentsline {subsection}{\numberline {4.7.2}Calculating the different equlibriums}{49}{subsection.4.7.2}
 \contentsline {subparagraph}{Separating equilibrium}{49}{section*.57}
 \contentsline {subparagraph}{Pooling equilibrium}{50}{section*.58}
 \contentsline {subparagraph}{Player 2 not insured, player 1's type choosen by nature}{51}{section*.59}
 \contentsline {subparagraph}{Separating equilibrium}{51}{section*.61}
-\contentsline {subparagraph}{Pooling equilibrium}{52}{section*.62}
+\contentsline {subparagraph}{Pooling equilibrium}{53}{section*.62}
 \contentsline {subparagraph}{Summary}{53}{section*.63}
 \contentsline {chapter}{\chapternumberline {5}Further work on the model}{55}{chapter.5}
 \contentsline {section}{\numberline {5.1}The connection game}{55}{section.5.1}
