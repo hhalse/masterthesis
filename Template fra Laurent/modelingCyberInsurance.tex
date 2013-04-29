@@ -129,11 +129,10 @@ U= - I_{0}
 
 If $I_{l}+r>\beta$ the insured one will prefer not to connect, else he would prefer to establish a connection, and since the non-insured agent is always better off when connected to an insured agent, he will accept the establishment. This can be shown when comparing the two payoffs. Payoff of connecting to an insured one: $U_{i}=- r + \beta$ is allways higher than not connecting: $U_{i}= - r$, as long as $\beta>0$.
 
+
 .... UNDER HER ER TING GREIT. 
 
-
-
-
+\input{stackelberg}
 
 \subsection{Multiple nodes}
 Making the model more realistic we expanded it to apply to multiple nodes. Our goal is to find characteristic network formations that will evolve at certain conditions. 
@@ -305,8 +304,8 @@ The same results where obtained when performing the simulation with larger value
 
 In this simulation, the cost of insuring a link where violating the equation \ref{eq:final condition}. The result can be seen in figure \ref{fig:SimulationViolating}.  In figure \ref{fig:SimulationViolatingA} we see the result when $I_{l}<\beta-r$, the result is one clique of both insured and non-insured nodes. In figure \ref{fig:SimulationViolatingB} the insurance cost is $I_{l}>\beta$, and as we see only non-insured nodes connect to each other, because the insurance cost per link cost more than the benefit given from connecting to a new node, i.e. the insured ones choose not to establish any connections. 
 
-\input{model2Extention}
 
+\input{model2Extention}
 
 \section{Model 3 - Including maximum node degree and bonus}
 We keep adding new features to the model, here we introduce a maximum node degree per node, and a payoff bonus when reaching this level. This is done to make a more applicable model in certain scenarios. For example, lets consider a software company who want to develop a new product. However, they do not have the required resources or knowledge to complete the product, and will therefore need help from other companies with the desired knowledge or resources. When the product is finished the company get paid, but not before, to finish the product they need to cooperate with others.

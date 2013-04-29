@@ -59,6 +59,31 @@ $IL$     					 \> $\begin{array}{l}\alpha+\beta-I_{o}-I{l} \\[0.0mm]\phantom{--}
 \end{footnotesize}
 \end{center}
 \end{figure}
+
+
+\begin{figure}[h]
+\begin{footnotesize}
+\begin{center}
+\begin{egame}(800,850)
+\putbranch(400,400)(1,0){200} \iib[linecolor=green]{1}[o]{$\gamma_4$}{$\gamma_2$}[][]
+\putbranch(400,400)(0,1)[r]{200} \iib[linecolor=green]{1}[o]{$\gamma_1$}{$\gamma_3$}[][]
+\putbranch(400,600)(1,1)[u]{150} \iib[linecolor=blue]{2}[o]{$\omega_1$}{$\omega_2$}[][]
+\putbranch(400,200)(1,1)[d]{150} \iib[linecolor=blue]{2}[o]{$\omega_1$}{$\omega_2$}[][]
+\putbranch(200,400)(1,1)[l]{150} \iib[linecolor=blue]{2}[o]{$\omega_1$}{$\omega_2$}[][]
+\putbranch(600,400)(1,1)[r]{150} \iib[linecolor=blue]{2}[o]{$\omega_1$}{$\omega_2$}[][]
+\putbranch(250,750)(1,1)[u]{100} \iiib[linecolor=violet]{3}[o]{$\pi_1$}{$\pi_2$}{$\pi_3$}[][][]
+\putbranch(550,750)(1,1)[u]{100} \iiib[linecolor=violet]{3}[o]{$\pi_1$}{$\pi_2$}{$\pi_3$}[][][]
+\putbranch(250,50)(1,1)[d]{100} \iiib[linecolor=violet]{3}[o]{$\pi_1$}{$\pi_2$}{$\pi_3$}[][][]
+\putbranch(550,50)(1,1)[d]{100} \iiib[linecolor=violet]{3}[o]{$\pi_1$}{$\pi_2$}{$\pi_3$}[][][]
+\putbranch(750,550)(1,1)[r]{100} \iiib[linecolor=violet]{3}[o]{$\pi_1$}{$\pi_2$}{$\pi_3$}[][][]
+\putbranch(750,250)(1,1)[r]{100} \iiib[linecolor=violet]{3}[o]{$\pi_1$}{$\pi_2$}{$\pi_3$}[][][]
+\putbranch(50,550)(1,1)[l]{100} \iiib[linecolor=violet]{3}[o]{$\pi_1$}{$\pi_2$}{$\pi_3$}[][][]
+\putbranch(50,250)(1,1)[l]{100} \iiib[linecolor=violet]{3}[o]{$\pi_1$}{$\pi_2$}{$\pi_3$}[][][]
+\end{egame}
+\end{center}
+\end{footnotesize}
+\end{figure}
+
 \subparagraph{First game with numbers}
 \begin{figure}[h]
 \begin{center}
@@ -192,16 +217,24 @@ Now lets do something a bit more complicated.  The figure below uses mostly the 
 \vspace{-.5cm}
 
 The default setting for extensive form games is to set them up vertically (as these have been) but you may also have some you'd rather do horizontally.  To do that, add \verb+\egdirection{r}+ after beginning the egame environment, and all subsequent commands will operate horizontally, moving to the right instead of down (you can also put `l' or `u' for left or up).
-
+\subparagraph{FIGUR SKAL OPPDATERE SEG}
 \begin{figure}[h]
 \begin{footnotesize}
 \begin{center}
 \begin{egame}(900, 500)
 \egdirection{r}
-\putbranch(100, 250)(1,1){150}\iib{1}{U}{D}[][]
-\putbranch(250, 400)(2,1){200}\iib{2}{l}{r}[4,1][]
-\putbranch(250, 100)(2,1){200}\iib{2}{l}{r}[0,0][3,5]
-\putbranch(450, 300)(3,1){300}\iib{1}{u}{d}[6,5][8,-4]
+\putbranch(100, 300)(1,1){200}\iib{1}{$I_{1}$}{$\overline{I_{1}}$}[][]
+\putbranch(300, 500)(2,1){150}\iib{2}{$I_{2}$}{$\overline{I_{2}}$}[][]
+\putbranch(450, 575)(3,1){150}\iib{1}{$L_{1}$}{$N_{1}$}[][$0,0$]
+\putbranch(600, 625)(3,1){150}\iib{2}{$L^{I}_{2}$}{$N^{I}_{2}$}[$\beta-I_{l},\beta-I_{l}$][$0,0$]
+\putbranch(450, 425)(3,1){150}\iib{1}{$N^{I}_{1}$}{$L^{I}_{1}$}[$0,0$][]
+\putbranch(600,375)(3,1){150}\iib{2}{$L^{I}_{2}$}{$N^{I}_{2}$}[$\beta-I_{l}-r,\beta$][$0,0$]
+\putbranch(300, 100)(2,1){150}\iib{2}{$I^{I}_{2}$}{$\overline{I^{I}_{2}}$}[][]
+\putbranch(450, 175)(3,1){150}\iib{1}{$L^{II}_{1}$}{$N^{II}_{1}$}[][$0,0$]
+\putbranch(600, 225)(3,1){150}\iib{2}{$L^{II}_{2}$}{$N^{II}_{2}$}[$\beta,\beta-I_{l}-r$][$0,0$]
+\putbranch(450, 25)(3,1){150}\iib{1}{$N^{III}_{1}$}{$L^{III}_{1}$}[$0,0$][]
+\putbranch(600, -25)(3,1){150}\iib{2}{$L^{III}_{2}$}{$N^{III}_{2}$}[$\beta-r,\beta-r$][$0,0$]
+
 \end{egame}
 \end{center}
 \end{footnotesize}
