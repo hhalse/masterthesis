@@ -79,7 +79,7 @@ Every agent who is not insured will have a risk of failure(infection, bankruptcy
 \caption{Table showing the parameters to be used in the first model \label{tbl:simplegamepara}}
 \end{table}
 \subparagraph{Two agent game}
-To begin analyzing the game, lets consider a two-person game. In this game the strategy space of both players consist of four different strategies. They can choose to purchase insurance or not, and whether or not to establish a link to the other player. I.e. the different strategies are: Be insured and establish link noted as: $IL$, 
+To begin analyzing the game, lets consider a two-person game. In this game the strategy space of both players consist of four different strategies. A node can be insured or not, and choose whether to establish a connection to the other player. I.e. the different strategies are: Be insured and establish link noted as: $IL$, 
 be insured and not establish link: $I\overline{L}$. Not insured and establish link: $\overline{I}L$, and not insured and not establish link: $\overline{IL}$. It should be noted that since the decision to establish a connection is bidirectional, both have to choose a strategy where they want to establish a link, for the link to be establishment to be successful.
 Figure \ref{fig:FirstGameTheoryModel} shows the different outcomes of this game.
 
@@ -87,12 +87,22 @@ Figure \ref{fig:FirstGameTheoryModel} shows the different outcomes of this game.
 \centering
 \includegraphics[width=1.0\textwidth]{../Figures/FirstGameWithParameters.png}
 \caption{\label{fig:FirstGameTheoryModel} Normal form game, showing the different strategies and the payoffs  for the different outcomes. The payoff for agent A is written first, then the payoff for agent B is on the line beneath.
- An agent has a strategy space of size 4. }
+ An agent has a strategy space of size 4. Maa ENDRES...}
 
 \end{sidewaysfigure}
 
 
-To be able to limit correlated risk and prevent the interdependent security problem, we want to find the conditions for when a trusted clique between insured nodes is formed. To do this we have to analyze the different scenarios. 
+From the payoff matrix we can derive a single Nash equilibrium, namely for both players to play $\overline{I}L$. If we first look at firm A, we see that when firm B chooses $IL$, the best response is $\overline{I}L$, because $ \beta - I_{l} < \beta$. When firm B chooses $\overline{I}L$, the best response will again be $\overline{I}L$, because $\beta - I_{l} - r < \beta - r $. 
+The exact same results yields for firm B, hence the best response will allways be $\overline{I}L$. 
+This means that two nodes will end up in a classic prisoner's dilemma\footnote{Prisoner's dilemma was originally framed by Merrill Flood and Melvin Dresher in 1950. The dilemma expresses a situation where two players each have two options whose output depends on the simultaneous choice made by the other. In the original dilemma concerns two prisoners which separately decides whether to confess to a crime \cite{oxfordPrisonersDilemma}. It is a paradox in decision analysis which shows why two individuals might not cooperate, even if it is in their best interest to do so.}, where the best response is actually worse than the social optimal. In this case it is trivial to see that the social optimal scenario is for both nodes to choose $IL$. The reason for why we end up in $\overline{I}L$ is logical, since we assume either of the players have information about what decision the other will make. Therefore they assume the worst case, that the other node chooses not to buy insurance. Else they could risk ending up in a case where they pay $I_{l}$ without receiving any other benefit. 
+  
+  
+  ..prisoner dilema, hvorfor havner vi her(vet ikke hva den andre gjoer, tar en safe vei) 
+  ..løsning stackeshit
+  ..videre antar vi at netverket er gitt, altsaa gitt noder og tilstand, som vil si at vi ikke vil ende opp i ikke insure-link
+  
+....SLETTE DETTE NEDENFOR?!?!  
+do this we have to analyze the different scenarios. 
 When non-insured nodes connect to each other, they both end up with the payoff shown in Eq. (\ref{eq:notinsured payoff}). If they do not establish connection, they both receive the payoff shown in Eq. (\ref{eq:notinsured payoff2}).
 \begin{equation}
 U=- 2*r +\beta
@@ -118,7 +128,12 @@ U= - I_{0}
 \end{equation}
 
 If $I_{l}+r>\beta$ the insured one will prefer not to connect, else he would prefer to establish a connection, and since the non-insured agent is always better off when connected to an insured agent, he will accept the establishment. This can be shown when comparing the two payoffs. Payoff of connecting to an insured one: $U_{i}=- r + \beta$ is allways higher than not connecting: $U_{i}= - r$, as long as $\beta>0$.
+
+
+.... UNDER HER ER TING GREIT. 
+
 \input{stackelberg}
+
 \subsection{Multiple nodes}
 Making the model more realistic we expanded it to apply to multiple nodes. Our goal is to find characteristic network formations that will evolve at certain conditions. 
 \subparagraph{Insured to insured}
@@ -150,7 +165,7 @@ The payoff a insured node receives in this scenario is as follows:
 \end{equation}
 For this to happen Eq. (\ref{eq:itonoti-condition}) has to hold, a non-insured node will allways want to connect to a insured one, so this is the only condition that is needed for this to happen.
 \begin{equation}
-I_{l}+r>\beta
+I_{l}+r<\beta
 \label{eq:itonoti-condition}
 \end{equation}
 \subparagraph{Non-insured to Non-insured}
@@ -174,7 +189,7 @@ And for this link-establishment scenario to happen Eq. (\ref{eq:notitonoti-condi
 We want to find out when we will get a clique of only insured nodes.
 To achieve this we need to make sure that only insured nodes connect to each other, we want Eq. (\ref{eq:itoi-condition}), because then we know that insured nodes will connect to each other. But we also need to ensure that insured nodes do not establish connections to non-insured nodes. I.e. this has to hold:
 \begin{equation}
-I_{l}+r<\beta
+I_{l}+r>\beta
 \end{equation}
 This gives us this limitation on the parameter $I_{l}$:
 \begin{equation}
@@ -187,6 +202,8 @@ In this model the network formation is done endogenously, and when following the
 In this model we assume that every node has complete information of the network, i.e. every node knows the type of the other players. This is a very strong assumption, however in financial transactions and in software development networks, it is reasonable to assume that the parties can acquire this type of information regarding their transactional partners. For example by requiring proof of insurance prior to establishing a connection. 
 As shown, if the insurance cost is within its needed limitations, the network will evolve endogenously, and end up with an insurable-clustered component, which is beneficial for both the insurer and the nodes.
 These findings is independent of number of players, because we only consider one link at a time, and the change in payoffs is linear an independent of the nodes degree.
+
+
 \subsection{Example - meeting the conditions}
 By assigning values to the variables, we can show the outcome of the game in different scenarios. With the values from table \ref{tbl:simplegamevalue}, the insurance cost of establishing a link satisfies the condition in equation \ref{eq:final condition}.
 If we play this game between two agents we can see the result in figure \ref{fig:NFnumbers}. 
@@ -286,6 +303,9 @@ The same results where obtained when performing the simulation with larger value
 \end{figure}
 
 In this simulation, the cost of insuring a link where violating the equation \ref{eq:final condition}. The result can be seen in figure \ref{fig:SimulationViolating}.  In figure \ref{fig:SimulationViolatingA} we see the result when $I_{l}<\beta-r$, the result is one clique of both insured and non-insured nodes. In figure \ref{fig:SimulationViolatingB} the insurance cost is $I_{l}>\beta$, and as we see only non-insured nodes connect to each other, because the insurance cost per link cost more than the benefit given from connecting to a new node, i.e. the insured ones choose not to establish any connections. 
+
+
+
 
 \section{Model 3 - Including maximum node degree and bonus}
 We keep adding new features to the model, here we introduce a maximum node degree per node, and a payoff bonus when reaching this level. This is done to make a more applicable model in certain scenarios. For example, lets consider a software company who want to develop a new product. However, they do not have the required resources or knowledge to complete the product, and will therefore need help from other companies with the desired knowledge or resources. When the product is finished the company get paid, but not before, to finish the product they need to cooperate with others.
