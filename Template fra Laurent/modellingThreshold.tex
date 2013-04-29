@@ -20,7 +20,7 @@ So far the model describes a scenario where the goal is to get all the insured n
 \end{table}
 
 
-Building on the already existing model this model adds the property of a significant bonus $\gamma$ if a desired number of links $m$ are established. From here we can describe two different models, one where the insured agent first tries to connect with other insured agents, however if there are not enough insured agents it will try to establish connections with non-insured agents. The other model shows a game where the insured agent is less strict on whether the other node is insured or not. The insured agent makes a decision with regards to the equation \ref{eq:insured-noninsured}. Here $\frac{\gamma}{ L_{ni}}$ will increase as more connections are established. I.e. the more established connections the higher probability for the insured agent to connect to a non-insured agent.
+Building on the already existing model this model adds the property of a significant bonus $\gamma$ if a desired number of links $m$ are established. From here we can describe two different models, one where the insured agent first tries to connect with other insured agents, however if there are not enough insured agents it will try to establish connections with non-insured agents. The other model shows a game where the insured agent is less strict on whether the other node is insured or not. The insured agent makes a decision with regards to the Eq.(\ref{eq:insured-noninsured}). Here $\frac{\gamma}{ L_{ni}}$ will increase as more connections are established. I.e. the more established connections the higher probability for the insured agent to connect to a non-insured agent.
 
 \subsection{Game random connection}
 As described we now have possibility that insured and non-insured agents will establish a connection. This means that $\gamma$ has to be reflected in the equation relating to whether nodes, insured or not will connect. To simplify the scenario we assume that each new connection contribute with an extra $\frac{\gamma}{ m-\#l}$, which reflects an expectation of reaching $m$ connections, hence we end up with the following equations for the new game:
@@ -76,7 +76,7 @@ This means to ensure that only insured nodes connects to other insured nodes, an
 
 
 \subsection{Game connecting to insured first}
-Insured agents still prefer to connect to other insured agents, however, if it is not possible they will consider connecting to non-insured. As we see from equation \ref{eq:Lnotinsured} insured agents will have to establish $L_{ni}$ connections to non-insured agents in order to receive $\gamma$. 
+Insured agents still prefer to connect to other insured agents, however, if it is not possible they will consider connecting to non-insured. As we see from Eq.(\ref{eq:Lnotinsured}) insured agents will have to establish $L_{ni}$ connections to non-insured agents in order to receive $\gamma$. 
 
 \begin{equation} 
 L_{ni} = m - L_{i} 
