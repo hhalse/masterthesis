@@ -34,7 +34,7 @@ The fixation probability determines how probable it is that the whole network wi
 "infected" by the mutant. I.e. it determines the rate of evolution, which relies on both the size of the
 network and the evolution speed. 
 A probability equal to one means that every node in the network eventually will be affected by the mutant.
-A circulation graph is not necessarily an insurable topology, but if we can find graphs with  fixation probability that exceeds equation \ref{eq:fixation} they could possibly be considered as insurable topologies, because if we can find these graphs, then it will be possible to suppress drift and amplify selection and visa versa. 
+A circulation graph is not necessarily an insurable topology, but if we can find graphs with  fixation probability that exceeds Eq.(\ref{eq:fixation}) they could possibly be considered as insurable topologies, because if we can find these graphs, then it will be possible to suppress drift and amplify selection and visa versa. 
 \begin{figure}[b]
 \centering
 \begin{tabular}{@{}c@{}}
@@ -44,12 +44,12 @@ A circulation graph is not necessarily an insurable topology, but if we can find
 \label{fig:star} A star-topology. 
 }
 \end{figure}
-The paper shows that there exists such graphs, one example is the star topology. (see figure \ref{fig:star})
-In this topology the fixation probability is as shown in equation\ref{eq:fixation2}, or for more general see equation \ref{eq:fixationk} \begin{equation}p_{2}=\frac{(1-\frac{1}{r^{2}})}{(1-\frac{1}{r^{2N}})} \label{eq:fixation2} \end{equation}.
+The paper shows that there exists such graphs, one example is the star topology, (see Figure \ref{fig:star}).
+In this topology the fixation probability is as shown in Eq.(\ref{eq:fixation2}), or for more general see Eq.(\ref{eq:fixationk}). \begin{equation}p_{2}=\frac{(1-\frac{1}{r^{2}})}{(1-\frac{1}{r^{2N}})} \label{eq:fixation2} \end{equation}.
 or more generall: \begin{equation}
 p_{k}=\frac{(1-\frac{1}{r^{k}})}{(1-\frac{1}{r^{kN}})} \label{eq:fixationk}
 \end{equation}
- When comparing the equations \ref{eq:fixation} and \ref{eq:fixation2}, we see that the selective difference is
+ When comparing the Eq.(\ref{eq:fixation}) and Eq.(\ref{eq:fixation2}), we see that the selective difference is
  amplified from $r$ to $r^{2}$, i.e. a star act as an evolutionary amplifier, favouring advantageous
   mutants and inhibiting disadvantageous mutants.
 
@@ -80,10 +80,10 @@ The gross payoff to player $i$ is 1 if $y_{i}>=1$ and 0 otherwise. But each play
   \includegraphics[width=0.8\linewidth]{notoptimalequilibrium.png}
   \caption{\label{fig:notoptequi} Non Socially Optimal equilibrium, leaf nodes choose action 1}
 \end{subfigure}
-\caption{\label{fig:starequi} Figure \ref{fig:optequi} shows the socially optimal equilibrium, and \ref{fig:notoptequi} shows the non optimal equilibrium.}
+\caption{\label{fig:starequi} Figure \ref{fig:optequi} shows the socially optimal equilibrium, and Figure \ref{fig:notoptequi} shows the non optimal equilibrium.}
 
 \end{figure}
-When looking at \ref{fig:starequi}, we easily see that there is two equilibriums. One where the center node choose action 1 and the rest of the nodes choose action 0, and a second equilibrium where all the leaf nodes chooses 1 and the center choose 0.
+When looking at Figure \ref{fig:starequi}, we easily see that there is two equilibriums. One where the center node choose action 1 and the rest of the nodes choose action 0, and a second equilibrium where all the leaf nodes chooses 1 and the center choose 0.
 The overall payoff in these two differ from each other, the latter is not socially optimal because it
  suffers from a cost equal to: $\#leaf nodes*c$ , the first equilibrium have a total cost of only $c$.
  It would have been very good if we where able to force the game to end up in the social optimal equilibrium.
@@ -104,7 +104,7 @@ The contributes significantly to solving some of the problems with cyber-insuran
 The game:
 The way this game works, is that we look at nodes that are mutated (A), and those who are not (B).  
 
-When we apply the game to a directed graph, there are four different outcomes, a,b,c and d, which represents the interaction between the nodes, as is depicted in the figure below\ref{fig:game}. 
+When we apply the game to a directed graph, there are four different outcomes, a,b,c and d, which represents the interaction between the nodes, as is depicted in Figure \ref{fig:game} below. 
 
 In the first figure (Positive symmetric) the fixation probability is related to r=b/c. If b is greater than c, the properties of mutant b will propagate in to all the other nodes, and the whole graph will eventually consists of only mutated nodes. The opposite will happen in the case where c is greater than b, leading to extinction of the mutation. The later scenario models the situation where proper protection against a mutant i.e. a security threat is installed. If the level of security, c is higher that the strength of the security threat it will be blocked from propagating further into the network. 
 
@@ -126,8 +126,8 @@ If both then the graph is called a circulation.
 Where the fixation probability determines the rate of evolution, which relies both on the size of the network and the evolution speed. A probability of 1 means that every node in the network eventually will be affected by the mutant.   
 Isotherm graphs are a sub-graph of circulation. 
 
-If $W$ is symmetric, or isotherm then the fixation probability is always \ref{eq:fixation}
+If $W$ is symmetric, or isotherm then the fixation probability is always Eq.(\ref{eq:fixation})
 isotherm means doubly stochastic, all rows and cols sum to 1. 
 If a graph is one rooted, it has a fixation prob of $1/N$ regardless of $r$. If a graph has more then one root, its fixation probability is zero. 
-Is it possible to find graphs with fixation probability that exceeds \ref{eq:fixation}? Is it possible to suppress drift and amplify selection?
+Is it possible to find graphs with fixation probability that exceeds Eq.(\ref{eq:fixation})? Is it possible to suppress drift and amplify selection?
 

@@ -1,7 +1,7 @@
 \chapter{Further work on the model}
 \label{secondPhaseOfModelingCyberInsurance} 
 
-In the earlier model, the experienced network effects only arose from their neighbours. I.e. when a node establish a connection the change in utility where only dependent on fixed variables, and non dependent of the rest of the network. In some real world scenarios there is more realistic that a node will be strongly affected by the indirect connections to other nodes as well. Our idea is based on the paper from Jackson and Wolinsky \cite{jackson1996strategic} and a network formation game in \cite{jackson2005survey}. 
+In the earlier model, the experienced network effects only arose from their neighbours. I.e. when a node establish a connection the change in utility where only dependent on fixed variables, and non dependent of the rest of the network. In some real world scenarios there is more realistic that a node will be strongly affected by the indirect connections to other nodes as well. We apply the results from the paper from Jackson and Wolinsky \cite{jackson1996strategic} and uses a network formation game in \cite{jackson2005survey}, to study indirect networks effects in our model. 
 
 \section{The connection game}
 The benefits a player receives in this game are calculated as follows. In addition to the benefit from the direct connection, a node will also benefit from "the friends of the friend", and "the friends of the friends of the friend" etc. This is achieved by letting the payoff be calculated relative to the distance between the nodes. $\beta$ is now dependent on the minimum number of hops to the node e.g. the benefit of a direct connection is $\beta$, the benefit of a friend of a friend is $\beta^2$ etc. We want the benefit to decrease with the distance, therefore we need the limitation: $0<\beta<1$. 
@@ -65,24 +65,16 @@ One important thing to notice is that even if the most efficient and the stable 
 \subsection{Homogenous symmetric connection game}
 From this point and on, the game we will consider is a homogenous network setting where every node is considered to be insured.
 This is done because it will greatly simplify an otherwise very complex model, and because what we are analyzing from here is the resulting network structure, this is easier when only considering one homogenous cost for every node.
-Lets look at an example, the parameters are set to the values in table \ref{tbl:stablestar}, the resulting network are shown in \ref{fig:stablestar}.
-\begin{table}[h]
-\centering
-\begin{tabular}{lc}
- \hline
-  $
-  \beta=0.9,
-  I_{l}=0.5$\\
-  \hline
-\end{tabular}
-\caption{The parameters used in the simulation in \ref{fig:stablestar} \label{tbl:stablestar}}
-\end{table}
+Lets look at an example, where the parameters are set to: $\beta=0.9, I_{l}=0.5$, and the resulting network are shown in Figure \ref{fig:stablestar}.
+
+
+
 \begin{figure}[h]
 \centering
   \includegraphics[width=0.5\linewidth]{../Figures/stability/Unefficientbutstablestar.png}
-  \caption{\label{fig:stablestar} The resulting network after a simulation with the parameters from table \ref{tbl:stablestar} .}
+  \caption{\label{fig:stablestar} The resulting network after a simulation with the parameters $\beta=0.9, I_{l}=0.5$.}
 \end{figure}
-As we see this is not an efficient star, but the network is stable. The efficient network would be to delete the link $4,6$ and adding the link $1,6$. But since we only consider a link at a time this can not be done. To show this let $U_{i}$ denote the payoff of node $i$, the payoffs of the nodes are as described in eq (\ref{eq:payoffstablestar}).
+As we see this is not an efficient star, but the network is stable. The efficient network would be to delete the link $4,6$ and adding the link $1,6$. But since we only consider a link at a time this can not be done. To show this let $U_{i}$ denote the payoff of node $i$, the payoffs of the nodes are as described in Eq.(\ref{eq:payoffstablestar}).
 \begin{eqnarray}
 U_{1}=4\beta+\beta^2-4c\\
 U_{2}=U_{3}=U_{5}=\beta+3\beta^2+\beta^3-c\\
@@ -98,7 +90,7 @@ Consider the symmetric connections model in the case where $\beta-\beta^2<c<\bet
 We confirmed this when running multiple simulations, when we used few nodes the resulting network often became a star, but as the number of nodes increased the network rarely was a star. 
 
 However, the structure of the networks are very similar to a scale-free network. There are many nodes with low node degree, and few with a high node degree.
-One example of this is shown in figure \ref{fig:stablescalefree}, there are only ten nodes, but the network have the properties of a scale-free. Two nodes with degree of 4, and the rest have a degree of one or two.
+One example of this is shown in Figure \ref{fig:stablescalefree}, there are only ten nodes, but the network have the properties of a scale-free. Two nodes with degree of 4, and the rest have a degree of one or two.
 \begin{figure}[h]
 \centering
   \includegraphics[width=0.5\linewidth]{../Figures/stability/Unefficientbutstabletwo.png}
@@ -107,13 +99,13 @@ One example of this is shown in figure \ref{fig:stablescalefree}, there are only
 \subparagraph{Bulk insurance}
 As noted before it is not preferable to be the center node, due to the cost of all the direct links. If we consider the model with bulk insurance discount, this would lower the extra cost for the center node significantly. This could be used to increase the probability of reaching a star formation. 
 
-Using the discount formula from the previous model, we end up with the equation (eq \ref{eq:discountstar}) to achieve a efficient and stable star topology. $i$ represents the node degree.
+Using the discount formula from the previous model, we end up with Eq.(\ref{eq:discountstar}) to achieve a efficient and stable star topology. $i$ represents the node degree.
 \begin{equation}
 \beta-\beta^2<\frac{i_{l}}{i+1}< \beta
 \label{eq:discountstar}
 \end{equation}
 An interesting property of the discount model is that the conditions for a efficient networks will change. Because
-when the node degree increases, the insurance cost might reach the critical degree $g$, see (eq \ref{eq:criticaldiscount}). 
+when the node degree increases, the insurance cost might reach the critical degree $g$, see Eq.(\ref{eq:criticaldiscount}). 
 \begin{equation}
 \frac{I_{l}}{g}<\beta-\beta^2
 \label{eq:criticaldiscount}
@@ -121,7 +113,7 @@ when the node degree increases, the insurance cost might reach the critical degr
 For this to be possible $g<n$, where $n$-represents the number of nodes in the network.
 The stability condition have changed for a node with a critical degree, the stable and efficient condition for this node is, as shown earlier, to have a direct connection to every other node. Thus if we have a star-topology both the leaf nodes and the center nodes are stable, and the center node has been compensated for its role in the network.
 
-Since the networks formed are similar to scale-free networks, we can calculate the probability of a node having degree $g$, see (eq \ref{eq:probabilitydegree}). $\gamma$ is the power law parameter, as described in Chapter \ref{chp:graphTheory}.
+Since the networks formed are similar to scale-free networks, we can calculate the probability of a node having degree $g$, see Eq.(\ref{eq:probabilitydegree}). $\gamma$ is the power law parameter, as described in Chapter \ref{chp:graphTheory}.
 \begin{equation}
 P(g)=g^{-\gamma}
 \label{eq:probabilitydegree}
@@ -142,10 +134,10 @@ If the probability that there exists a node with critical degree, is such that o
 \subsection{Simulation}
 To see if the propositions above where true, we created a simulator. The rules of the game are as follows.
 Every round two random nodes, not neighbors, are selected, and asked if they would want to establish a link. The link establishment is a symmetric decision. If the link is added, we check if either of the nodes would prefer to delete some of their already existing links, this decision is asymmetric. This procedure is repeated as long as there are possible to add new links. 
-The payoff function of each node is as described earlier( see (eg \ref{eq:connecetionGame})), except that the cost is now dependent on the degree of the node.
-We know that if (eg \ref{eq:discountstar}) is satisfied for all $i$, then the efficient and stable state is a star. But whats of interest is when some nodes reaches the critical degree.
+The payoff function of each node is as described earlier( see Eq.(\ref{eq:connecetionGame})), except that the cost is now dependent on the degree of the node.
+We know that if Eq.(\ref{eq:discountstar}) is satisfied for all $i$, then the efficient and stable state is a star. But whats of interest is when some nodes reaches the critical degree.
 \subparagraph{Low critical node degree}
-It is reasonable to believe that if the critical degree is low, the probability of the resulting network being a star will be high. But as we will see, this is not the case. If we consider the variables and their values shown in (table \ref{tbl:clique}), $n-$ is the number of nodes. We see that (eg \ref{eq:discountstar}) is satisfied until a node is considering establish its third direct link. At this point the node has reached the critical degree, and will strictly prefer to establish direct links. This will lead to even more nodes reaching the critical degree level, and the result is that almost every node connects to every one else. Two of the resulting simulating networks with these parameters can be seen in figure \ref{fig:discounthighdegree}. As we can see from the parameters in table \ref{tbl:clique}, the critical degree is reached when a node gets a degree of two. From degree two and up, $c<\beta-\beta^{2}$. The expected number of nodes with degree of two are $E(g=2)=10*2^{-2}=2.5$. This is when we assume that the network follow a power-law with $\gamma=2$.  This is considered as a high expected number. The same observations where seen in network with more nodes, from ten to forty.
+It is reasonable to believe that if the critical degree is low, the probability of the resulting network being a star will be high. But as we will see, this is not the case. If we consider the variables and their values shown in (table \ref{tbl:clique}), $n-$ is the number of nodes. We see that Eq.(\ref{eq:discountstar}) is satisfied until a node is considering establish its third direct link. At this point the node has reached the critical degree, and will strictly prefer to establish direct links. This will lead to even more nodes reaching the critical degree level, and the result is that almost every node connects to every one else. Two of the resulting simulating networks with these parameters can be seen in Figure \ref{fig:discounthighdegree}. As we can see from the parameters in table \ref{tbl:clique}, the critical degree is reached when a node gets a degree of two. From degree two and up, $c<\beta-\beta^{2}$. The expected number of nodes with degree of two are $E(g=2)=10*2^{-2}=2.5$. This is when we assume that the network follow a power-law with $\gamma=2$.  This is considered as a high expected number. The same observations where seen in network with more nodes, from ten to forty.
 \begin{table}[h]
 \centering
 \begin{tabular}{lc}
@@ -177,7 +169,7 @@ It is reasonable to believe that if the critical degree is low, the probability 
 \end{figure}
 
 \subparagraph{High critical node degree}
-To ensure that the network will form a star, we have to find parameters such that, equation (eq \ref{eq:discountstar}) is satisfied, and the probability of a node having a critical degree has to be relative low. In a network with ten nodes, the expected number of nodes with degree five in a network with ten nodes, is $E(g=5)=10*5^{-2}=0.4$. With the parameters from table \ref{tbl:discountstar}, these conditions are satisfied and the resulting network can be seen in figure \ref{fig:star:a}.
+To ensure that the network will form a star, we have to find parameters such that, Eq.(\ref{eq:discountstar}) is satisfied, and the probability of a node having a critical degree has to be relative low. In a network with ten nodes, the expected number of nodes with degree five in a network with ten nodes, is $E(g=5)=10*5^{-2}=0.4$. With the parameters from table \ref{tbl:discountstar}, these conditions are satisfied and the resulting network can be seen in Figure \ref{fig:star:a}.
   
 \begin{table}[h]
 \centering
@@ -190,7 +182,7 @@ To ensure that the network will form a star, we have to find parameters such tha
   I_{l}=0.7$\\
   \hline
 \end{tabular}
-\caption{The parameters used in the simulation in \ref{fig:startennodes} \label{tbl:discountstar}}
+\caption{The parameters used in the simulation in \ref{fig:star:a} \label{tbl:discountstar}}
 \end{table}
 
 \begin{figure}[h]

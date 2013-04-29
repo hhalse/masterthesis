@@ -44,7 +44,7 @@ A interesting fact about these graphs are their vulnerability, these graphs are 
 The structure which is believed to be most accurate regarding modeling computer networks are A-B graphs. A-B graphs are different from E-R graphs since they are scale-free, meaning that the vertices does not have an constant value throughout the entire graph. The formation of an A-B graph results in multiple hubs with a high edge degree. Albert and Barabási found that the edge degree of each vertex follows a power law distribution; meaning that the probability that the edge degree is $g$ is proportional to $g^{-\gamma}$
 where $\gamma$ usually is a number between 2 and 3  This distribution is called a thick-tail distribution, because there is a significant probability that a node may have a very high degree. \cite{audestad}
 These graphs are in contrast to E-R-graphs, very vulnerable to directed attacks, because if you take out a hub, you suddenly destroyed the whole graph. But the graph is very robust against random attacks, this is why most of the networks we observe in the nature can be depicted as A-B-graphs.
-A-B graphs can grow and become scale-free if every new vertex is connected to one or more already existing node with a probability proportional to the edge degree of that node . The paper presents an algorithm that creates A-B graphs and figure \ref{fig:ABgraphcreation} shows one graph that evolved from this algorithm:
+A-B graphs can grow and become scale-free if every new vertex is connected to one or more already existing node with a probability proportional to the edge degree of that node . The paper presents an algorithm that creates A-B graphs and Figure \ref{fig:ABgraphcreation} shows one graph that evolved from this algorithm:
 
 \begin{itemize}
 \item A new single vertex is added to the graph.
@@ -63,7 +63,7 @@ A-B graphs can grow and become scale-free if every new vertex is connected to on
 \end{figure}
 
 In addition to the high clustering coefficient they showed that A-B-graphs have a fairly small diameter,
- which can be seen in figure \ref{fig:ABgraphcreation}. 
+ which can be seen in Figure \ref{fig:ABgraphcreation}. 
  A-B graphs are therefore comparable to the network formation of the Internet and other computer networks. 
  
 \section{Real world graph structures}
@@ -73,7 +73,7 @@ webs, and modular software systems, all tend to evolve in a way similar to that 
 above. This section will provide some real world examples of how complex systems with huge amount of data can be described as network structures having the same characteristics as A-B graphs.
 \subparagraph{Stock markets} The research paper: \cite{greekStockMarket}, analyzes the correlation between different stocks in the Greek stock market in year 1997. They compared the daily closing price of stock $i$ at day $t$, and compared the similarity of a pair of stocks $i$ and $j$ by using the correlation coefficient. The idea is that the correlation coefficient between a pair of stocks can be expressed using different distances in a graph structure. A short distance means high correlation and long distance means low correlations between the stocks. Normally this network would be shown as a fully connected graph, which will consist of $\frac{n(n-1)}{2}$ edges, and would be difficult to analyze. However the approach taken in the paper will present a clear understandable graph consisting of $(n-1)$ edges.
 
-The resulting graph can be seen in figure \ref{fig:greekStockMarket}, and show a network consisting of several clusters linked together. Instead of having to analyze a complex system with huge amount of data, this stock market can be analyzed by its topological properties, such as the high clustering coefficient, i.e a star-topology, which will among others point out which stocks have the most influence on others. 
+The resulting graph can be seen in Figure \ref{fig:greekStockMarket}, and show a network consisting of several clusters linked together. Instead of having to analyze a complex system with huge amount of data, this stock market can be analyzed by its topological properties, such as the high clustering coefficient, i.e a star-topology, which will among others point out which stocks have the most influence on others. 
 \begin{figure}[h]
 \centering
 \begin{tabular}{@{}c@{}}
@@ -84,7 +84,7 @@ The resulting graph can be seen in figure \ref{fig:greekStockMarket}, and show a
 \end{figure}
 
 \subparagraph{Airline routes}
-Another real world network which shows the same characteristics as scale-free graphs is the map of airline routes. Figure \ref{fig:airlineRouteMap} shows the US route map of the American airline company, SkyWest. The characteristic clustering emerges in the figure, where a majority of the flights departs from either Denver, Chicago or San Francisco. Not surprisingly, these airports are all in the top 7 busiest airports in the US \cite{busiestAirports}, and serves as hubs for many of SkyWest flights. In the airline industry some airports are called hubs, because that's what they are, - a connection point for major parts of the network of flights. The network of flights, as depicted \ref{fig:airlineRouteMap} follows the characteristics for A-B graphs. From the graph, we see that the network are vulnerable against direct attacks, meaning if an low edge degree airport is shut down, there will be little consequence for the rest of the network. However, if one of the hubs is forced to close, it will provoke huge delays through out the whole network of flights, because many of the destinations are interconnected via the hubs. 
+Another real world network which shows the same characteristics as scale-free graphs is the map of airline routes. Figure \ref{fig:airlineRouteMap} shows the US route map of the American airline company, SkyWest. The characteristic clustering emerges in the figure, where a majority of the flights departs from either Denver, Chicago or San Francisco. Not surprisingly, these airports are all in the top 7 busiest airports in the US \cite{busiestAirports}, and serves as hubs for many of SkyWest flights. In the airline industry some airports are called hubs, because that's what they are, - a connection point for major parts of the network of flights. The network of flights, as depicted in Figure \ref{fig:airlineRouteMap} follows the characteristics for A-B graphs. From the graph, we see that the network are vulnerable against direct attacks, meaning if an low edge degree airport is shut down, there will be little consequence for the rest of the network. However, if one of the hubs is forced to close, it will provoke huge delays through out the whole network of flights, because many of the destinations are interconnected via the hubs. 
 
 
 \begin{figure}[h]
