@@ -94,7 +94,9 @@ Figure \ref{fig:FirstGameTheoryModel} shows the different outcomes of this game.
 
 From the payoff matrix we can derive a single Nash equilibrium, namely for both players to play $\overline{I}L$. If we first look at firm A, we see that when firm B chooses $IL$, the best response is $\overline{I}L$, because $ \beta - I_{l} < \beta$. When firm B chooses $\overline{I}L$, the best response will again be $\overline{I}L$, because $\beta - I_{l} - r < \beta - r $. 
 The exact same results yields for firm B, hence the best response will allways be $\overline{I}L$. 
+
 This means that two nodes will end up in a classic prisoner's dilemma\footnote{Prisoner's dilemma was originally framed by Merrill Flood and Melvin Dresher in 1950. The dilemma expresses a situation where two players each have two options whose output depends on the simultaneous choice made by the other. In the original dilemma concerns two prisoners which separately decides whether to confess to a crime \cite{oxfordPrisonersDilemma}. It is a paradox in decision analysis which shows why two individuals might not cooperate, even if it is in their best interest to do so.}, where the best response is actually worse than the social optimal. In this case it is trivial to see that the social optimal scenario is for both nodes to choose $IL$. Still, the reason for why we end up in $\overline{I}L$ is logical, since we assume either of the players have information about what decision the other will make. Therefore they assume the worst, that the other node chooses not to buy insurance. Else they could risk ending up in a case where they pay $I_{l}$ without receiving any other benefit. 
+
   
   
   ..prisoner dilema, hvorfor havner vi her(vet ikke hva den andre gjoer, tar en safe vei) 
@@ -306,6 +308,9 @@ In this simulation, the cost of insuring a link where violating the Eq.(\ref{eq:
 
 
 \input{model2Extention}
+
+
+
 
 \section{Model 3 - Including maximum node degree and bonus}
 We keep adding new features to the model, here we introduce a maximum node degree per node, and a payoff bonus when reaching this level. This is done to make a more applicable model in certain scenarios. For example, lets consider a software company who want to develop a new product. However, they do not have the required resources or knowledge to complete the product, and will therefore need help from other companies with the desired knowledge or resources. When the product is finished the company get paid, but not before, to finish the product they need to cooperate with others.
