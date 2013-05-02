@@ -398,53 +398,104 @@ Insurance companies often interpret a quantum discount when purchasing multiple 
 
 The insurance offered is intended to the individual market and includes among others: travel insurance, household insurance, car insurance, house insurance, insurance of valuable items and yacht insurance.
 \textbf{til hit!!}
-so far our model reflects that a company have to insure each of the connections to other nodes in their network, inspired by other insurance products, we would like to introduce a discount rate following the degree of the nodes. This will make it more attractive for nodes with high degree to acquire insurance, and this could act as a incentive for other nodes to also acquire insurance. Thus this seems like a good model to include.  
+
+So far our model reflects that a company have to insure each of the links to other nodes, inspired by other insurance products, we would like to introduce a discount rate following the degree of the nodes. This will make it more attractive for nodes with high degree to acquire insurance, and this could act as a incentive for other nodes to also acquire insurance. Thus this seems like a good model to include.  
 
 How insurance companies choose to formulate their discount rate might vary. One solution might be to follow a strict 5$\%$ discount per new connection, similar to the one from Sparebank 1(REFERER TIL CHAPTER BACKGROUND), or let the discount follow a power law. However, we choose to follow a discount rule which directly reflects the number of links the node has established. 
+\subsection{Analyzis}
 The price for adding a new link follows the equation:
-
 \begin{equation}
 \frac{I_{l}}{i+1}
 \label{eq:discount0}
 \end{equation}
+Here, $i$ is the current number of established connections. This means that the more connections a node acquire the cheaper the links will be. 
+\subsubsection{Discount model}
+We start our analyzis by considering a model where only the discount are included, not the bonus, and as before we analyze the four different connection scenarios. However, it is only the scenario where insured connects to other insured nodes and insured to non-insured nodes, that has changed compared to model 2.
+\subparagraph{Insured to insured}
+When we add the discount to the conditions found in model 2 we find the condition shown in Eq. (\ref{eq:model4-discount-i-to-i}).
+\begin{equation}
+\frac{I_{l}}{i+1}<\beta
+\label{eq:model4-discount-i-to-i}
+\end{equation}
+\subparagraph{Insured to non-insured}
+For this scenario to be possible Eq. (\ref{eq:model4-discount-i-to-noti}) has to hold.
+\begin{equation}
+\frac{I_{l}}{i+1}+r<\beta
+\label{eq:model4-discount-i-to-noti}
+\end{equation}
+\subparagraph{Result and findings}
+For a insurer to be able to ensure that the network ends up in a clique with only insured nodes, we must ensure that the most expensive link establishment, i.e. the first, to another insured node can be achieved. This gives us the same condition as in model 2, i.e. $I_{l}<\beta$. 
+We also need to ensure that insured does not connect to non-insured, thus we get the final condition in Eq. (\ref{eq:})
+\begin{equation}
+m(\beta-r)<I_{l}<\beta
+\end{equation}
+This is condition is very strong, because it says that $\beta-r<\frac{1}{m}$, and as $m$ gets higher this get more and more unlikely. 
+Thus by including bulk-discount, the insurer are making it harder for himself to constrain the network formation. This is because the incentive for establishing links are higher than without discount, and thus more links will be established.
 
-Here, $i$ is the current number of established connections. This means that the more connections a company acquire the cheaper the connections will be. 
+\subsubsection{Discount and Bonus model}
+We also need to apply the discount to the model where the bonus is included, and we start out as before we analyze the four different connection scenarios. However, it is only the scenario where insured connects to other insured nodes and insured to non-insured nodes, that has changed.
+\subparagraph{Insured to insured}
+
 If we add the new rule to the Eq.(\ref{eq:itoi}) which shows the connection between two insured nodes, we get the following equations: 
 
 \begin{equation}
     U_{i+1}= 
 \begin{cases}
-    \alpha + \beta - I_{l},& \text{if } i = 0\\
+    \beta - I_{l},& \text{if } i = 0\\
     U_{i}+\beta -\frac{I_{l}}{i+1},& \text{if }  i>0\\
     U_{i}+\beta -\frac{I_{l}}{i+1}+\gamma,& \text{if } i=m
-    
 \end{cases}
 \label{eq:discount1}
 \end{equation}
+For insured to connect to each other Eq. (\ref{eq:model4-bonus-i-to-i}) has to hold.
 
-As described, for insured nodes to connect to each other, $U_{i+1} > U_{i}$. Building on the already existing model, the quantum discount slightly changes the decision process:
 \begin{eqnarray}
 U_{i}+\beta-\frac{I_{l}}{i+1}+\frac{\gamma}{m-i}&>U_{i} \nonumber \\ 
 \beta-\frac{I_{l}}{i+1}+\frac{\gamma}{m-i}&>0 \nonumber \\ 
-\beta (i+1)+\frac{\gamma}{m-i}&>\frac{I_{l}}{i+1} \nonumber \\
-\llap{$\rightarrow$\hspace{50pt}}  \beta (i+1)+\frac{\gamma (i+1)}{m-i}&>I_{l}
-\label{eq:discount2}
+\llap{$\rightarrow$\hspace{50pt}}\beta +\frac{\gamma}{m-i}&>\frac{I_{l}}{i+1}
+\label{eq:model4-bonus-i-to-i}
 \end{eqnarray}
 
-Similar calculation can be done for the other three scenarios in the game, and they all result in almost the same outcome. First of all results from having quantum discounts on new connections results in a overall higher payoff for the nodes, as long as $i>1$. Since the cost of insuring a new link becomes cheaper. This means that the nodes will have a higher incentive to create links to each other, because the left side of Eq.(\ref{eq:discount2}) yields a higher payoff than before. Which leads to a consequence that more insured nodes could connect to non-insured nodes. 
-Building on the final condition \ref{eq:final-insurance-clique-condition} in previous section, we now get:
-
+\subparagraph{insured to non-insured}
+When insured are considering connecting to non-insured, they payoff they will receive are shown in Eq. (\ref{eq:model4-bonus-i-to-ni}).
+\begin{equation}
+U_{i+1}= 
+\begin{cases}
+    \beta - I_{l}-r,& \text{if } i = 0\\
+    U_{i}+\beta -\frac{I_{l}}{i+1}-r,& \text{if }  i>0\\
+    U_{i}+\beta -\frac{I_{l}}{i+1}-r+\gamma,& \text{if } i=m
+\end{cases}
+\label{eq:model4-bonus-i-to-ni}
+\end{equation}
+For this scenario to be able to happen Eq. (\ref{eq:model4-bonus-i-to-ni-final}) has to hold.
 \begin{eqnarray}
-\beta+\gamma-r<\frac{I_{l}}{i+1}<\beta+\frac{\gamma}{m} \nonumber \\
-\beta(i+1)+\gamma(i+1)-r(i+1)<I_{l}<\beta(i+1)+\frac{\gamma(i+1)}{m}
-\label{eq:final-insurance-clique-condition-with-discount}
+U_{i}+\beta-\frac{I_{l}}{i+1}+\frac{\gamma}{m-i}-r&>U_{i} \nonumber \\ 
+\llap{$\rightarrow$\hspace{50pt}}\beta+\frac{\gamma}{m-i}&>r+\frac{I_{l}}{i+1}
+\label{eq:model4-bonus-i-to-ni-final}
 \end{eqnarray}
+\subsection{Result and findings}
+If we analyze the same scenario as in the other models, a clique of only insured nodes. The first step is to ensure that insured nodes connect to each other when the expected payoff is lowest, i.e. at node degree zero. If they are willing to establish link at this point, then they will also be willing at all degrees higher than zero.
+At degree zero there is no discount on the insurance link cost, and thus if Eq. (\ref{eq:eq:conditionitoi}) from model 3 holds, insured nodes will connect to other insured nodes.
+
+But the condition for ensuring that insured do not connect to non-insured has changed, we know if an insured node do not want to establish a link with a non-insured at degree $m-1$, then no insured node with degree lower than $m-1$ will do so either. From this we find the condition, see Eq. (\ref{eq:model4-bonus-i-not-ni})
+\begin{eqnarray}
+U_{i}+\beta-\frac{I_{l}}{m}+\frac{\gamma}{m-(m-1)}-r&<U_{i} \nonumber \\ 
+\beta+\gamma-r&<\frac{I_{l}}{m}\nonumber \\ 
+\llap{$\rightarrow$\hspace{50pt}}m(\beta +\gamma-r)&<I_{l}\nonumber
+\label{eq:model4-bonus-i-not-ni}
+\end{eqnarray}
+This is a very strong condition, because the only way this can happen is if $\beta+\gamma-r<\frac{1}{m}$.  This shows us that when the incentives for establishing links increases, it gets more and more difficult for the insurer to ensure a clique of only insured nodes. 
+The final condition for ensuring a clique of only insured nodes is shown in Eq. (\ref{eq:model4-final-condition-insured-clique}).
+
+\begin{equation}
+m(\beta +\gamma-r)<I_{l}<\beta+\frac{\gamma}{m}
+\label{eq:model4-final-condition-insured-clique}
+\end{equation}
+
+Similar calculation can be done for the other three scenarios in the game, and they all shows the same. The quantum discount in a overall higher payoff for the nodes, since the cost of insuring a new link becomes cheaper. This means that the nodes will have a higher incentive to create links to each other. Which makes it harder for the insurer to seperate insured and non-insured nodes.
 
 
-From Eq.(\ref{eq:final-insurance-clique-condition-with-discount}) we see that the initial variable $I_(l)$ has to be priced higher, in order to ensure that only insured nodes connects to other insured nodes. However, beside this drawback, we also experience some positive effects from the modification, since the the purchase of more connections is cheaper the product might be more attractive for potential customers. 
 \input{modelingWithNature}
-
-
 
 \input{modelingCyberInsurance2(furtherWork)}
 

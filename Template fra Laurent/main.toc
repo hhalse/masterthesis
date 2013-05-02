@@ -125,30 +125,39 @@
 \contentsline {subparagraph}{Consequences of not reaching required number of edges}{60}{section*.80}
 \contentsline {subsubsection}{Simulation of the results}{60}{section*.81}
 \contentsline {section}{\numberline {8.6}Model 4 - Including bulk insurance discount}{62}{section.8.6}
-\contentsline {subsection}{\numberline {8.6.1}Game with incomplete information}{64}{subsection.8.6.1}
-\contentsline {subsection}{\numberline {8.6.2}Calculating the different equlibriums}{64}{subsection.8.6.2}
-\contentsline {subparagraph}{Separating equilibrium}{64}{section*.85}
-\contentsline {subparagraph}{Pooling equilibrium}{65}{section*.86}
-\contentsline {subparagraph}{Player 2 not insured, player 1's type choosen by nature}{66}{section*.87}
-\contentsline {subparagraph}{Separating equilibrium}{66}{section*.89}
-\contentsline {subparagraph}{Pooling equilibrium}{68}{section*.90}
-\contentsline {subparagraph}{Summary}{68}{section*.91}
-\contentsline {chapter}{\chapternumberline {9}Further work on the model}{69}{chapter.9}
-\contentsline {section}{\numberline {9.1}The connection game}{69}{section.9.1}
-\contentsline {subparagraph}{Example}{69}{section*.93}
-\contentsline {subparagraph}{Pairwise stability:(HVERTFALL ISH )}{70}{section*.94}
-\contentsline {subparagraph}{Insurance and connection game}{71}{section*.95}
-\contentsline {subsection}{\numberline {9.1.1}Homogenous symmetric connection game}{72}{subsection.9.1.1}
-\contentsline {subparagraph}{Star not possible with high $n$}{73}{section*.97}
-\contentsline {subparagraph}{Bulk insurance}{74}{section*.99}
-\contentsline {subsection}{\numberline {9.1.2}Simulation}{75}{subsection.9.1.2}
-\contentsline {subparagraph}{Low critical node degree}{75}{section*.100}
-\contentsline {subparagraph}{High critical node degree}{75}{section*.103}
-\contentsline {chapter}{\chapternumberline {10}Model from Bohme}{79}{chapter.10}
-\contentsline {section}{\numberline {10.1}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{81}{section.10.1}
-\contentsline {section}{\numberline {10.2}Game including max node degree}{83}{section.10.2}
-\contentsline {subsection}{\numberline {10.2.1}Game random connection}{83}{subsection.10.2.1}
-\contentsline {subsection}{\numberline {10.2.2}Game connecting to insured first}{85}{subsection.10.2.2}
-\contentsline {chapter}{\chapternumberline {11}Future work}{87}{chapter.11}
-\contentsline {section}{\numberline {11.1}Risk}{87}{section.11.1}
-\contentsline {chapter}{References}{91}{section*.112}
+\contentsline {subsection}{\numberline {8.6.1}Analyzis}{62}{subsection.8.6.1}
+\contentsline {subsubsection}{Discount model}{63}{section*.84}
+\contentsline {subparagraph}{Insured to insured}{63}{section*.85}
+\contentsline {subparagraph}{Insured to non-insured}{63}{section*.86}
+\contentsline {subparagraph}{Result and findings}{63}{section*.87}
+\contentsline {subsubsection}{Discount and Bonus model}{63}{section*.88}
+\contentsline {subparagraph}{Insured to insured}{64}{section*.89}
+\contentsline {subparagraph}{insured to non-insured}{64}{section*.90}
+\contentsline {subsection}{\numberline {8.6.2}Result and findings}{64}{subsection.8.6.2}
+\contentsline {subsection}{\numberline {8.6.3}Game with incomplete information}{65}{subsection.8.6.3}
+\contentsline {subsection}{\numberline {8.6.4}Calculating the different equlibriums}{65}{subsection.8.6.4}
+\contentsline {subparagraph}{Separating equilibrium}{65}{section*.92}
+\contentsline {subparagraph}{Pooling equilibrium}{67}{section*.93}
+\contentsline {subparagraph}{Player 2 not insured, player 1's type choosen by nature}{67}{section*.94}
+\contentsline {subparagraph}{Separating equilibrium}{68}{section*.96}
+\contentsline {subparagraph}{Pooling equilibrium}{69}{section*.97}
+\contentsline {subparagraph}{Summary}{70}{section*.98}
+\contentsline {chapter}{\chapternumberline {9}Further work on the model}{71}{chapter.9}
+\contentsline {section}{\numberline {9.1}The connection game}{71}{section.9.1}
+\contentsline {subparagraph}{Example}{71}{section*.100}
+\contentsline {subparagraph}{Pairwise stability:(HVERTFALL ISH )}{72}{section*.101}
+\contentsline {subparagraph}{Insurance and connection game}{73}{section*.102}
+\contentsline {subsection}{\numberline {9.1.1}Homogenous symmetric connection game}{74}{subsection.9.1.1}
+\contentsline {subparagraph}{Star not possible with high $n$}{75}{section*.104}
+\contentsline {subparagraph}{Bulk insurance}{76}{section*.106}
+\contentsline {subsection}{\numberline {9.1.2}Simulation}{77}{subsection.9.1.2}
+\contentsline {subparagraph}{Low critical node degree}{77}{section*.107}
+\contentsline {subparagraph}{High critical node degree}{77}{section*.110}
+\contentsline {chapter}{\chapternumberline {10}Model from Bohme}{81}{chapter.10}
+\contentsline {section}{\numberline {10.1}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{83}{section.10.1}
+\contentsline {section}{\numberline {10.2}Game including max node degree}{85}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}Game random connection}{85}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {10.2.2}Game connecting to insured first}{87}{subsection.10.2.2}
+\contentsline {chapter}{\chapternumberline {11}Future work}{89}{chapter.11}
+\contentsline {section}{\numberline {11.1}Risk}{89}{section.11.1}
+\contentsline {chapter}{References}{93}{section*.119}
