@@ -173,125 +173,65 @@ And for this link-establishment scenario to happen Eq.(\ref{eq:notitonoti-condit
 \beta>r
 \label{eq:notitonoti-condition}
 \end{equation}
-We want to find when different network structures evolve, one good starting point for this is a clique of only insured nodes. For this to happen, first of all insured nodes must connect to each other, i.e. Eq.(\ref{eq:itoi-condition}) has to hold. But we also need to ensure that insured nodes do not establish links with non-insured nodes. I.e. this has to hold:
+We want to find the conditions for when different network structures will evolve, for example a clique of only insured nodes. For this to happen, all insured nodes must connect to each other, i.e. Eq.(\ref{eq:itoi-condition}) has to hold. But we also need to ensure that insured nodes do not establish links with non-insured nodes. I.e. this has to hold:
 \begin{equation}
 I_{l}+r>\beta
 \end{equation}
-This gives us the limitation shown in Eq. (\ref{eq:final condition}) on insurance link cost.
+This gives us the limitation shown in Eq. (\ref{eq:final condition}) on the insurance link cost.
 \begin{equation}
 \beta-r<I_{l}<\beta
 \label{eq:final condition}
 \end{equation}
-If the condition is fulfilled the game will end up with a clique of only insured nodes, and another clique of non-insured nodes if: $\beta>r$. 
+As we see from the condition, if the link insurance cost is between the two boundaries all insured nodes will connect with each other, and no other nodes. If the link insurance cost is greater than $\beta$, then no insured node will establish any links. And if it is below $\beta-r$, then the insured nodes will also connect to the non-insured ones.
+It should also be noticed that as long as $r<\beta$, then the non-insured nodes will connect to each other. 
 
-\subsubsection{Result and findings}
+\subsection{Result and findings}
+From the analyzis we found different conditions on the link establishment process. If Eq. (\ref{eq:final condition}) is fulfilled, then the network will end up with one clique of only insured nodes. The non-insured nodes will end up in another clique if the risk of connecting to another non-insured node is less than the benefit of establishing link( $r<\beta$).
+If the link insurance cost and risk of connecting to non-insured nodes is less than the benefit($I_{l}+r<\beta$), then insured nodes will also connect to non-insured nodes. And the network will end up in one giant clique.
 
-As shown, if the insurance cost is within its needed limitations, the network will evolve endogenously, and end up with an insurable-clustered component, which is beneficial for both the insurer and the nodes.
 These findings is independent of number of players, because we only consider one link at a time, and the change in payoffs is linear an independent of the nodes degree.
-\begin{table}[h]
-\centering
-\begin{tabular}{lc}
- \hline
-  $\beta=10,
-  I_{o}=5,
-  I_{l}=3,
-  r=8$\\
-  \hline
-\end{tabular}
-\caption{Table showing the parameters and their assigned values \label{tbl:simplegamevalue}}
-\end{table}
-
-On the other hand, if $I_{l}>\beta$, then it is easily seen that only the non-insured will connect to each other, and the insured nodes will not choose to connect to anyone because it is to expensive.
- 
-\begin{table}[h]
-\centering
-\begin{tabular}{lc}
- \hline
-  $\beta=10,
-  I_{o}=5,
-  I_{l}=1,
-  r=8$\\
-  \hline
-\end{tabular}
-\caption{Table showing the parameters and their assigned values, the insurance cost of establishing link is now violating Eq.(\ref{eq:final condition}) \label{tbl:simplegamevalue2}}
-\end{table}
-\section{Simulating Model 2}
+\subparagraph{Simulation of the results}
 To verify the result of this network formation game with multiple nodes, we performed different simulations. The network formation is performed by selecting two random nodes, not neighbouring each other, then both nodes checks whether they would prefer to establish a connection or not. The rules are as described earlier, when a node is considering establishing a link it chooses to do so if the payoff received is larger than the payoff he already poses, and the decision is bilateral. 
 In the simulator a node is insured with a probability, $p$. This selection is repeated until the network are fully connected or no more nodes are willing to establish new connections.
 By selecting nodes at random and checking if both of them would like to connect to each other, we relax the assumption of full network information, because now nodes only get to know if another node is insured or not, by asking them.
 
-\subparagraph{Simulation of game with optimal parameters}
 \begin{figure}[h]
 \centering
 \begin{subfigure}{.5\textwidth}
   \centering
   \includegraphics[width=0.4\linewidth]{../Figures/FirstSimulationStart.png}
-  \caption{\label{fig:firstsimulationstart} Ten nodes randomly, with probability 0.5, chosen to be either insured (green) or non-insured (red.}
+  \caption{\label{fig:firstsimulation:a} Ten nodes randomly, with probability 0.5, chosen to be either insured (green) or non-insured (red.}
 \end{subfigure}
 \quad
 \begin{subfigure}{.46\textwidth}
   \centering
   \includegraphics[width=0.8\linewidth]{../Figures/FirstSimulationResult.png}
-  \caption{\label{fig:firstsimulationresult} Two clustered fully connected networks. One consisting of insured agents the other consists of non-insured. The link establishment is done by following the rules described above}
+  \caption{\label{fig:firstsimulation:b} Two clustered fully connected networks. One consisting of insured agents the other consists of non-insured. The link establishment is done by following the rules described above}
 \end{subfigure}
-\caption{\label{fig:firstsimulation} The figure shows how ten nodes start out with no links, and then add links as long as they can increase their payoff, the result are two seperate cliques, one consisting of non-insured and the other of insured nodes.}
+\caption{\label{fig:firstsimulation} The figure shows the resulting network from a simulation with parameters: $\beta=0.9$, $I_{l}=r=0.5$.}
 \end{figure}
-In Figure \ref{fig:firstsimulation} we see the result of a simulation with the parameters from table \ref{tbl:simplegamevalue}. Since these parameter values holds for the condition Eq.(\ref{eq:final condition}), the game should end up in two cliques, one with insured nodes and another with non-insured. The result are shown in Figure \ref{fig:firstsimulationresult}, and confirms our calculations where only insured nodes connect to each other.  
+In Figure \ref{fig:firstsimulation} we see the result of a simulation with the parameters: $\beta=0.9$, $I_{l}=r=0.5$. With these parameters the Eq.(\ref{eq:final condition}) holds, and $r<\beta$, thus the network formation game ends up in two cliques, one with insured nodes and another with non-insured. The result are shown in Figure \ref{fig:firstsimulation:b}, and confirms our calculations.
 In this figure there are only included $n=10$ nodes, this is done to make the figure readable and easy to understand.
 The same results where obtained when performing the simulation with larger values of n, however the resulting printouts was very complex and chaotic.
 
-
-\subparagraph{Simulation of game with parameters violating Eq.(\ref{eq:final condition})}
+In the next simulations, the parameters where chosen to violate the Eq.(\ref{eq:final condition}). The result can be seen in Figure \ref{fig:SimulationViolating}.  In figure \ref{fig:SimulationViolating:a} we see the result when $I_{l}<\beta-r$, the result is one clique of both insured and non-insured nodes. In figure \ref{fig:SimulationViolating:b} the insurance cost is $I_{l}>\beta$, and as we see only non-insured nodes connect to each other, because the insurance cost per link cost more than the benefit given from connecting to a new node, i.e. the insured ones choose not to establish any connections. 
 \begin{figure}[h]
 \centering
 \begin{subfigure}{.5\textwidth}
   \centering
 \includegraphics[width=0.4\linewidth]{../Figures/FirstSimulationViolatingResult.png}
 
-\caption{\label{fig:SimulationViolatingA} Ten nodes insured with probability 0.5, and the parameters from table \ref{tbl:simplegamevalue2}. The link insurance cost, $I_{l}$, is violating the condition in Eq.(\ref{eq:final condition}), and the resulting network is one clique of both insured and non-insured nodes.}
+\caption{\label{fig:SimulationViolating:a} Ten nodes insured with probability 0.5, the parameters where: $\beta=0.9$, $I_{l}=0.3$ and $r=0.5$. I.e. the link insurance cost, $I_{l}$, is violating the condition in Eq.(\ref{eq:final condition}), and the resulting network is one clique of both insured and non-insured nodes.}
 \end{subfigure}
 \quad
 \begin{subfigure}{0.46\textwidth}
 \centering
 \includegraphics[width=0.4\textwidth]{../Figures/SimulationViolating2.png}
 
-\caption{\label{fig:SimulationViolatingB} Ten nodes insured with probability 0.5, with parameters from table \ref{tbl:simplegamevalue2}, except that the link insurance cost was:, $I_{l}=11>\beta$. This resulted in a clique of only non-insured nodes. }
+\caption{\label{fig:SimulationViolating:b} Ten nodes insured with probability 0.5, with parameters as before, except for the link insurance cost:$I_{l}=0.95$. This resulted in a clique of only non-insured nodes. }
 \end{subfigure}
-\caption{\label{fig:SimulationViolating} The figure shows the two possible scenarios that violates the Eq.(\ref{eq:final condition}), \ref{fig:SimulationViolatingA} shows the result when $I_{l}<\beta-r$ and \ref{fig:SimulationViolatingB} shows the result when $I_{l}>\beta$.}
+\caption{\label{fig:SimulationViolating} The figure shows the two possible scenarios that violates the Eq.(\ref{eq:final condition}), \ref{fig:SimulationViolating:a} shows the result when $I_{l}<\beta-r$ and \ref{fig:SimulationViolating:b} shows the result when $I_{l}>\beta$.}
 \end{figure}
-
-In this simulation, the cost of insuring a link where violating the Eq.(\ref{eq:final condition}). The result can be seen in Figure \ref{fig:SimulationViolating}.  In figure \ref{fig:SimulationViolatingA} we see the result when $I_{l}<\beta-r$, the result is one clique of both insured and non-insured nodes. In figure \ref{fig:SimulationViolatingB} the insurance cost is $I_{l}>\beta$, and as we see only non-insured nodes connect to each other, because the insurance cost per link cost more than the benefit given from connecting to a new node, i.e. the insured ones choose not to establish any connections. 
-  
-....SLETTE DETTE NEDENFOR?!?!  
-do this we have to analyze the different scenarios. 
-When non-insured nodes connect to each other, they both end up with the payoff shown in Eq. (\ref{eq:notinsured payoff}). If they do not establish connection, they both receive the payoff shown in Eq. (\ref{eq:notinsured payoff2}).
-\begin{equation}
-U=- 2*r +\beta
-\label{eq:notinsured payoff}
-\end{equation}
-
-\begin{equation}
-U=- r
-\label{eq:notinsured payoff2}
-\end{equation}
-
-From this equation we see that if $r>\beta$ then no connections will be made between non-insured nodes, because they would strictly prefer the payoff from not connecting.
-If an insured node connects to a non-insured one, he will end up with the payoff in Eq.(\ref{eq:insured-noninsured0}). If he do not connect he will receive the payoff shown in Eq.(\ref{eq:insured-noninsured2}).
-
-\begin{equation}
-U= - I_{0} - I_{l} - r + \beta
-\label{eq:insured-noninsured0}
-\end{equation}
-
-\begin{equation}
-U= - I_{0}
-\label{eq:insured-noninsured2}
-\end{equation}
-
-If $I_{l}+r>\beta$ the insured one will prefer not to connect, else he would prefer to establish a connection, and since the non-insured agent is always better off when connected to an insured agent, he will accept the establishment. This can be shown when comparing the two payoffs. Payoff of connecting to an insured one: $U_{i}=- r + \beta$ is allways higher than not connecting: $U_{i}= - r$, as long as $\beta>0$.
-
-
-.... UNDER HER ER TING GREIT. 
 
 \input{model2Extention}
 
