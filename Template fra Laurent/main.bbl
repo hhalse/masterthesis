@@ -21,11 +21,17 @@ Jan~A. Audestand.
   \url{http://www.item.ntnu.no/_media/academics/courses/ttm6/vulnerability.pdf}.
 \newblock Accessed: 20/02/2013.
 
-\bibitem[BL08]{bolot2008cyber}
+\bibitem[BL08a]{bolot2008cyber}
 Jean Bolot and Marc Lelarge.
 \newblock Cyber insurance as an incentive for internet security.
 \newblock {\em Managing information risk and the economics of security}, pages
   269--290, 2008.
+
+\bibitem[BL08b]{bolot2008new}
+Jean~C Bolot and Marc Lelarge.
+\newblock A new perspective on internet security using insurance.
+\newblock In {\em INFOCOM 2008. The 27th Conference on Computer Communications.
+  IEEE}, pages 1948--1956. IEEE, 2008.
 
 \bibitem[Blu11]{contagion}
 Easley D. Kleinber J. Kleinberg R. anad Tardon~E. Blumen, L.
@@ -64,6 +70,13 @@ CAPA Centre~for Asia Pacific~Aviation.
 \newblock
   \url{http://centreforaviation.com/profiles/airlines/skywest-airlines-oo}.
 \newblock Accessed: 08/04/2013.
+
+\bibitem[Chu]{playstation}
+Emily Chung.
+\newblock Playstation data breach deemed in 'top 5 ever'.
+\newblock \url{
+  http://www.cbc.ca/news/business/story/2011/04/27/technology-playstation-data-breach.html}.
+\newblock Accessed: 2/05/2013.
 
 \bibitem[CoA]{travelers}
 Travelers Casualty and Surety~Company of~America.

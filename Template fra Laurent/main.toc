@@ -4,6 +4,7 @@
 \select@language {english}
 \contentsline {chapter}{List of Figures}{xi}{section*.1}
 \contentsline {chapter}{List of Tables}{xiii}{section*.2}
+<<<<<<< HEAD
 \contentsline {chapter}{\chapternumberline {1}Introduction to Cyber Insurance}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}The basics of insurability}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}The idea behind cyber-insurance}{2}{section.1.2}
@@ -161,3 +162,170 @@
 \contentsline {chapter}{\chapternumberline {11}Future work}{89}{chapter.11}
 \contentsline {section}{\numberline {11.1}Risk}{89}{section.11.1}
 \contentsline {chapter}{References}{93}{section*.119}
+=======
+\contentsline {part}{\partnumberline {I}Introduction}{1}{part.1}
+\contentsline {chapter}{\chapternumberline {1}Introduction to Cyber Insurance}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}General insurance}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Cyber-insurance}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Obstacles in cyber-insurance}{5}{subsection.1.2.1}
+\contentsline {subparagraph}{Information asymmetry}{5}{section*.4}
+\contentsline {subparagraph}{Correlated risk}{6}{section*.5}
+\contentsline {subparagraph}{Interdependent security}{6}{section*.6}
+\contentsline {subparagraph}{Calculating loss}{7}{section*.7}
+\contentsline {subparagraph}{Cyber-insurance instead of security}{7}{section*.8}
+\contentsline {section}{\numberline {1.3}Insurable topology}{7}{section.1.3}
+\contentsline {section}{\numberline {1.4}A small summary}{7}{section.1.4}
+\contentsline {chapter}{\chapternumberline {2}The cyber-insurance market}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Current market state}{9}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}The UK and US market}{10}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}The Norwegian market}{11}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Future market}{11}{section.2.2}
+\contentsline {subparagraph}{notes...}{12}{section*.9}
+\contentsline {part}{\partnumberline {II}Prestudy}{13}{part.2}
+\contentsline {chapter}{\chapternumberline {3}Graph Theory}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Random Graphs}{16}{section.3.1}
+\contentsline {subparagraph}{Erd\IeC {\"o}s-R\IeC {\'e}nyi Graphs}{16}{section*.12}
+\contentsline {subparagraph}{Albert-Barab\IeC {\'a}si Graphs}{17}{section*.13}
+\contentsline {section}{\numberline {3.2}Real world graph structures}{18}{section.3.2}
+\contentsline {subparagraph}{Stock markets}{18}{section*.15}
+\contentsline {subparagraph}{Airline routes}{19}{section*.17}
+\contentsline {section}{\numberline {3.3}Evolutionary dynamics on graphs}{20}{section.3.3}
+\contentsline {subparagraph}{Star-network as an insurable topology}{23}{section*.20}
+\contentsline {subparagraph}{From a insurers point of view}{23}{section*.22}
+\contentsline {section}{\numberline {3.4}Notater og slikt}{24}{section.3.4}
+\contentsline {section}{\numberline {3.5}NOTES... random.. don't read}{24}{section.3.5}
+\contentsline {chapter}{\chapternumberline {4}Network formation: stability and efficiency}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}Survey of models of network formation: stability and efficiency}{27}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Defining Network Games}{27}{subsection.4.1.1}
+\contentsline {subparagraph}{Players}{27}{section*.24}
+\contentsline {subparagraph}{networks}{27}{section*.25}
+\contentsline {subparagraph}{Paths and components}{27}{section*.26}
+\contentsline {subparagraph}{Value functions}{28}{section*.27}
+\contentsline {subparagraph}{Network games}{28}{section*.28}
+\contentsline {subparagraph}{Allocation rules}{28}{section*.29}
+\contentsline {chapter}{\chapternumberline {5}Network Games}{29}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Relatedwork}{31}{chapter.6}
+\contentsline {section}{\numberline {6.1}Towards Insurable Network Architectures}{31}{section.6.1}
+\contentsline {subparagraph}{Interdependent security}{32}{section*.31}
+\contentsline {subparagraph}{Correlated risks}{32}{section*.32}
+\contentsline {subparagraph}{information asymmetry}{32}{section*.33}
+\contentsline {section}{\numberline {6.2}Cyber insurance as an Incentive for Internet Security}{33}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Classical model for insurance}{33}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Interdependent security and insurance}{34}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Modeling cyber-insurance: towards a unifying Framework}{34}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Network Environment: Connected nodes}{35}{subsection.6.3.1}
+\contentsline {subparagraph}{Defense function}{35}{section*.34}
+\contentsline {subparagraph}{network topology G}{36}{section*.35}
+\contentsline {subparagraph}{Risk arrival}{36}{section*.36}
+\contentsline {subparagraph}{Attacker model}{36}{section*.37}
+\contentsline {subsection}{\numberline {6.3.2}Demand side agents}{36}{subsection.6.3.2}
+\contentsline {subparagraph}{Node control}{36}{section*.38}
+\contentsline {subparagraph}{Heterogenity}{37}{section*.39}
+\contentsline {subparagraph}{Risk Aversion}{37}{section*.40}
+\contentsline {subparagraph}{Action space}{37}{section*.41}
+\contentsline {subparagraph}{Time}{37}{section*.42}
+\contentsline {subsection}{\numberline {6.3.3}Supply side, insurers}{38}{subsection.6.3.3}
+\contentsline {subparagraph}{ Marketstructure}{38}{section*.43}
+\contentsline {subparagraph}{ Risk aversion}{38}{section*.44}
+\contentsline {subparagraph}{Markup}{38}{section*.45}
+\contentsline {subparagraph}{Contract design}{38}{section*.46}
+\contentsline {subparagraph}{Higher order risk transfer}{38}{section*.47}
+\contentsline {subsection}{\numberline {6.3.4}Information structure}{38}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.5}Organizational Enviroment(stakeholders)}{39}{subsection.6.3.5}
+\contentsline {subparagraph}{Regulator}{39}{section*.48}
+\contentsline {subparagraph}{ICT manufacturers}{39}{section*.49}
+\contentsline {subparagraph}{Network intermediaries}{39}{section*.50}
+\contentsline {subparagraph}{security service providers}{40}{section*.51}
+\contentsline {subsection}{\numberline {6.3.6}Using this framework for a literature survey}{40}{subsection.6.3.6}
+\contentsline {subparagraph}{demand side}{40}{section*.52}
+\contentsline {subparagraph}{Supply side}{40}{section*.53}
+\contentsline {subparagraph}{Organizational Environment}{40}{section*.54}
+\contentsline {subparagraph}{Research Question}{40}{section*.55}
+\contentsline {subparagraph}{Discussion of models}{40}{section*.56}
+\contentsline {section}{\numberline {6.4}A novel cyber-insurance Model}{41}{section.6.4}
+\contentsline {section}{\numberline {6.5}A solution to the information Asymmetry Problem}{41}{section.6.5}
+\contentsline {subparagraph}{Cyber-insurance and asymmetry}{42}{section*.57}
+\contentsline {section}{\numberline {6.6}Cyber-insurance for cyber-security, A topological Take on Modulating Insurance Premiums}{42}{section.6.6}
+\contentsline {section}{\numberline {6.7}Differentiating Cyber-insurance Contracts, a topological Perspective}{42}{section.6.7}
+\contentsline {section}{\numberline {6.8}This was previously placed in current market }{43}{section.6.8}
+\contentsline {section}{\numberline {6.9}Contract structure}{43}{section.6.9}
+\contentsline {section}{\numberline {6.10}Economics}{44}{section.6.10}
+\contentsline {section}{\numberline {6.11}Epidemics}{44}{section.6.11}
+\contentsline {subsection}{\numberline {6.11.1}modeling contagion}{44}{subsection.6.11.1}
+\contentsline {subparagraph}{branching processes}{44}{section*.58}
+\contentsline {subparagraph}{SIR epidemic model}{45}{section*.59}
+\contentsline {subparagraph}{Extension to SIR}{45}{section*.60}
+\contentsline {subparagraph}{Model from dynamic to static(Percolation)}{45}{section*.61}
+\contentsline {subparagraph}{SIS epidemic model}{45}{section*.62}
+\contentsline {subparagraph}{SIRS Epidemic model}{46}{section*.63}
+\contentsline {section}{\numberline {6.12}Incentives and Information Security}{46}{section.6.12}
+\contentsline {subparagraph}{Informational asymmetries}{46}{section*.64}
+\contentsline {section}{\numberline {6.13}Related work 2}{46}{section.6.13}
+\contentsline {section}{\numberline {6.14}new section}{47}{section.6.14}
+\contentsline {chapter}{\chapternumberline {7}Methodology}{49}{chapter.7}
+\contentsline {section}{\numberline {7.1}Game Theory}{49}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Nash Equlibrium}{49}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Price of Anarchy}{49}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Social Optimal}{49}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Steckleberg game}{49}{subsection.7.1.4}
+\contentsline {section}{\numberline {7.2}Netlogo}{49}{section.7.2}
+\contentsline {part}{\partnumberline {III}Own Contribution}{51}{part.3}
+\contentsline {chapter}{\chapternumberline {8}Modeling Cyber-Insurance }{53}{chapter.8}
+\contentsline {section}{\numberline {8.1}Network Formation Games}{53}{section.8.1}
+\contentsline {section}{\numberline {8.2}Model 1 - Initial Model }{54}{section.8.2}
+\contentsline {section}{\numberline {8.3}Model 2 - Including Parameters}{55}{section.8.3}
+\contentsline {subparagraph}{Two agent game}{56}{section*.68}
+\contentsline {section}{\numberline {8.4}Solving the prisonersdilemma}{59}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Multiple nodes}{59}{subsection.8.4.1}
+\contentsline {subparagraph}{Insured to insured}{59}{section*.71}
+\contentsline {subparagraph}{Insured connect to non-insured}{60}{section*.72}
+\contentsline {subparagraph}{Non-insured to Non-insured}{61}{section*.73}
+\contentsline {subsection}{\numberline {8.4.2}Example - meeting the conditions}{61}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.3}Scenario - violating the conditions}{62}{subsection.8.4.3}
+\contentsline {section}{\numberline {8.5}Simulating Model 2}{63}{section.8.5}
+\contentsline {subparagraph}{Simulation of game with optimal parameters}{63}{figure.caption.79}
+\contentsline {subparagraph}{Simulation of game with parameters violating Eq.(\ref {eq:final condition})}{64}{figure.caption.81}
+\contentsline {section}{\numberline {8.6}Forcing non-insured nodes to buy insurance}{65}{section.8.6}
+\contentsline {subsection}{\numberline {8.6.1}Violating the conditions}{66}{subsection.8.6.1}
+\contentsline {section}{\numberline {8.7}Model 3 - Including maximum node degree and bonus}{66}{section.8.7}
+\contentsline {subsubsection}{Four different scenarios}{67}{section*.82}
+\contentsline {subparagraph}{Insured to insured}{67}{section*.83}
+\contentsline {subparagraph}{Insured connect to non-insured}{68}{section*.84}
+\contentsline {subparagraph}{Non-insured to non-insured}{68}{section*.85}
+\contentsline {subparagraph}{Non-insured to insured}{68}{equation.8.25}
+\contentsline {subparagraph}{Limitations to ensure a clique of only insured}{69}{section*.87}
+\contentsline {subsection}{\numberline {8.7.1}Simulations}{70}{subsection.8.7.1}
+\contentsline {subparagraph}{Simulation when conditions are met}{70}{section*.88}
+\contentsline {subparagraph}{Simulation when the parameters violates the conditions}{70}{section*.91}
+\contentsline {subparagraph}{Consequences of not reaching required number of edges}{70}{section*.93}
+\contentsline {section}{\numberline {8.8}Model 4 - Including bulk insurance discount}{72}{section.8.8}
+\contentsline {subsection}{\numberline {8.8.1}Game with incomplete information}{74}{subsection.8.8.1}
+\contentsline {subsection}{\numberline {8.8.2}Calculating the different equlibriums}{74}{subsection.8.8.2}
+\contentsline {subparagraph}{Separating equilibrium}{74}{section*.98}
+\contentsline {subparagraph}{Pooling equilibrium}{76}{section*.99}
+\contentsline {subparagraph}{Player 2 not insured, player 1's type choosen by nature}{76}{section*.100}
+\contentsline {subparagraph}{Separating equilibrium}{77}{section*.102}
+\contentsline {subparagraph}{Pooling equilibrium}{78}{section*.103}
+\contentsline {subparagraph}{Summary}{79}{section*.104}
+\contentsline {chapter}{\chapternumberline {9}Further work on the model}{81}{chapter.9}
+\contentsline {section}{\numberline {9.1}The connection game}{81}{section.9.1}
+\contentsline {subparagraph}{Example}{81}{section*.106}
+\contentsline {subparagraph}{Pairwise stability:(HVERTFALL ISH )}{82}{section*.107}
+\contentsline {subparagraph}{Insurance and connection game}{83}{section*.108}
+\contentsline {subsection}{\numberline {9.1.1}Homogenous symmetric connection game}{84}{subsection.9.1.1}
+\contentsline {subparagraph}{Star not possible with high $n$}{85}{section*.110}
+\contentsline {subparagraph}{Bulk insurance}{86}{section*.112}
+\contentsline {subsection}{\numberline {9.1.2}Simulation}{87}{subsection.9.1.2}
+\contentsline {subparagraph}{Low critical node degree}{87}{section*.113}
+\contentsline {subparagraph}{High critical node degree}{87}{section*.116}
+\contentsline {chapter}{\chapternumberline {10}Model from Bohme}{91}{chapter.10}
+\contentsline {section}{\numberline {10.1}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{93}{section.10.1}
+\contentsline {section}{\numberline {10.2}Game including max node degree}{95}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}Game random connection}{95}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {10.2.2}Game connecting to insured first}{97}{subsection.10.2.2}
+\contentsline {part}{\partnumberline {IV}Summary}{99}{part.4}
+\contentsline {chapter}{\chapternumberline {11}Future work}{101}{chapter.11}
+\contentsline {section}{\numberline {11.1}Risk}{101}{section.11.1}
+\contentsline {chapter}{\chapternumberline {12}Conclusion}{105}{chapter.12}
+\contentsline {chapter}{References}{107}{section*.126}
+>>>>>>> 4fafab3c18c8c05b01d97dc6811160d44e7e617d
