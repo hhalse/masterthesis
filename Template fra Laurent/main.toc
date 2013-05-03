@@ -112,60 +112,68 @@
 \contentsline {section}{\numberline {7.2}Netlogo}{49}{section.7.2}
 \contentsline {part}{\partnumberline {III}Own Contribution}{51}{part.3}
 \contentsline {chapter}{\chapternumberline {8}Modeling Cyber-Insurance }{53}{chapter.8}
-\contentsline {section}{\numberline {8.1}Network Formation Games}{53}{section.8.1}
-\contentsline {section}{\numberline {8.2}Model 1 - Initial Model }{54}{section.8.2}
-\contentsline {section}{\numberline {8.3}Model 2 - Including Parameters}{55}{section.8.3}
-\contentsline {subparagraph}{Two agent game}{56}{section*.68}
-\contentsline {section}{\numberline {8.4}Solving the prisonersdilemma}{59}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}Multiple nodes}{59}{subsection.8.4.1}
-\contentsline {subparagraph}{Insured to insured}{59}{section*.71}
-\contentsline {subparagraph}{Insured connect to non-insured}{60}{section*.72}
-\contentsline {subparagraph}{Non-insured to Non-insured}{61}{section*.73}
-\contentsline {subsection}{\numberline {8.4.2}Example - meeting the conditions}{61}{subsection.8.4.2}
-\contentsline {subsection}{\numberline {8.4.3}Scenario - violating the conditions}{62}{subsection.8.4.3}
-\contentsline {section}{\numberline {8.5}Simulating Model 2}{63}{section.8.5}
-\contentsline {subparagraph}{Simulation of game with optimal parameters}{63}{figure.caption.79}
-\contentsline {subparagraph}{Simulation of game with parameters violating Eq.(\ref {eq:final condition})}{64}{figure.caption.81}
-\contentsline {section}{\numberline {8.6}Forcing non-insured nodes to buy insurance}{65}{section.8.6}
-\contentsline {subsection}{\numberline {8.6.1}Violating the conditions}{66}{subsection.8.6.1}
-\contentsline {section}{\numberline {8.7}Model 3 - Including maximum node degree and bonus}{66}{section.8.7}
-\contentsline {subsubsection}{Four different scenarios}{67}{section*.82}
-\contentsline {subparagraph}{Insured to insured}{67}{section*.83}
-\contentsline {subparagraph}{Insured connect to non-insured}{68}{section*.84}
-\contentsline {subparagraph}{Non-insured to non-insured}{68}{section*.85}
-\contentsline {subparagraph}{Non-insured to insured}{68}{equation.8.25}
-\contentsline {subparagraph}{Limitations to ensure a clique of only insured}{69}{section*.87}
-\contentsline {subsection}{\numberline {8.7.1}Simulations}{70}{subsection.8.7.1}
-\contentsline {subparagraph}{Simulation when conditions are met}{70}{section*.88}
-\contentsline {subparagraph}{Simulation when the parameters violates the conditions}{70}{section*.91}
-\contentsline {subparagraph}{Consequences of not reaching required number of edges}{70}{section*.93}
-\contentsline {section}{\numberline {8.8}Model 4 - Including bulk insurance discount}{72}{section.8.8}
-\contentsline {subsection}{\numberline {8.8.1}Game with incomplete information}{74}{subsection.8.8.1}
-\contentsline {subsection}{\numberline {8.8.2}Calculating the different equlibriums}{74}{subsection.8.8.2}
-\contentsline {subparagraph}{Separating equilibrium}{74}{section*.98}
-\contentsline {subparagraph}{Pooling equilibrium}{76}{section*.99}
-\contentsline {subparagraph}{Player 2 not insured, player 1's type choosen by nature}{76}{section*.100}
-\contentsline {subparagraph}{Separating equilibrium}{77}{section*.102}
-\contentsline {subparagraph}{Pooling equilibrium}{78}{section*.103}
-\contentsline {subparagraph}{Summary}{79}{section*.104}
-\contentsline {chapter}{\chapternumberline {9}Further work on the model}{81}{chapter.9}
-\contentsline {section}{\numberline {9.1}The connection game}{81}{section.9.1}
-\contentsline {subparagraph}{Example}{81}{section*.106}
-\contentsline {subparagraph}{Pairwise stability:(HVERTFALL ISH )}{82}{section*.107}
-\contentsline {subparagraph}{Insurance and connection game}{83}{section*.108}
-\contentsline {subsection}{\numberline {9.1.1}Homogenous symmetric connection game}{84}{subsection.9.1.1}
-\contentsline {subparagraph}{Star not possible with high $n$}{85}{section*.110}
-\contentsline {subparagraph}{Bulk insurance}{86}{section*.112}
-\contentsline {subsection}{\numberline {9.1.2}Simulation}{87}{subsection.9.1.2}
-\contentsline {subparagraph}{Low critical node degree}{87}{section*.113}
-\contentsline {subparagraph}{High critical node degree}{87}{section*.116}
-\contentsline {chapter}{\chapternumberline {10}Model from Bohme}{91}{chapter.10}
-\contentsline {section}{\numberline {10.1}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{93}{section.10.1}
-\contentsline {section}{\numberline {10.2}Game including max node degree}{95}{section.10.2}
-\contentsline {subsection}{\numberline {10.2.1}Game random connection}{95}{subsection.10.2.1}
-\contentsline {subsection}{\numberline {10.2.2}Game connecting to insured first}{97}{subsection.10.2.2}
-\contentsline {part}{\partnumberline {IV}Summary}{99}{part.4}
-\contentsline {chapter}{\chapternumberline {11}Future work}{101}{chapter.11}
-\contentsline {section}{\numberline {11.1}Risk}{101}{section.11.1}
-\contentsline {chapter}{\chapternumberline {12}Conclusion}{105}{chapter.12}
-\contentsline {chapter}{References}{107}{section*.126}
+\contentsline {subparagraph}{FLYTT DETTE TIL BACKGROUND og referer til det n\IeC {\r a}r vi viser at cliques er bra}{53}{section*.66}
+\contentsline {section}{\numberline {8.1}Model 1 - Initial Model }{54}{section.8.1}
+\contentsline {section}{\numberline {8.2}Model 2 - Including Parameters}{55}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Characteristics of the model}{56}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Two nodes scenario}{56}{subsection.8.2.2}
+\contentsline {section}{\numberline {8.3}Solving the prisonersdilemma}{58}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Multiple nodes}{59}{subsection.8.3.1}
+\contentsline {subsubsection}{Assumptions}{59}{section*.71}
+\contentsline {subsubsection}{Analyzis}{60}{section*.72}
+\contentsline {subparagraph}{Insured to insured}{60}{section*.73}
+\contentsline {subparagraph}{Non-insured to insured}{60}{section*.74}
+\contentsline {subparagraph}{Insured connect to non-insured}{60}{section*.75}
+\contentsline {subparagraph}{Non-insured to Non-insured}{60}{section*.76}
+\contentsline {subsection}{\numberline {8.3.2}Result and findings}{61}{subsection.8.3.2}
+\contentsline {subparagraph}{Simulation of the results}{61}{section*.77}
+\contentsline {section}{\numberline {8.4}Forcing non-insured nodes to buy insurance(FIX!!!!!!!!)}{62}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Violating the conditions}{64}{subsection.8.4.1}
+\contentsline {section}{\numberline {8.5}Model 3 - Including maximum node degree and bonus}{65}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Analyzis}{65}{subsection.8.5.1}
+\contentsline {subparagraph}{Insured to insured}{66}{section*.80}
+\contentsline {subparagraph}{Insured connect to non-insured}{66}{section*.81}
+\contentsline {subparagraph}{Non-insured to non-insured}{66}{section*.82}
+\contentsline {subparagraph}{Non-insured to insured}{67}{equation.8.22}
+\contentsline {subsection}{\numberline {8.5.2}Result and findings}{67}{subsection.8.5.2}
+\contentsline {subparagraph}{Consequences of not reaching required number of edges}{68}{section*.84}
+\contentsline {subsubsection}{Simulation of the results}{68}{section*.85}
+\contentsline {section}{\numberline {8.6}Model 4 - Including bulk insurance discount}{70}{section.8.6}
+\contentsline {subsection}{\numberline {8.6.1}Analyzis}{70}{subsection.8.6.1}
+\contentsline {subsubsection}{Discount model}{71}{section*.88}
+\contentsline {subparagraph}{Insured to insured}{71}{section*.89}
+\contentsline {subparagraph}{Insured to non-insured}{71}{section*.90}
+\contentsline {subparagraph}{Result and findings}{71}{section*.91}
+\contentsline {subsubsection}{Discount and Bonus model}{71}{section*.92}
+\contentsline {subparagraph}{Insured to insured}{72}{section*.93}
+\contentsline {subparagraph}{insured to non-insured}{72}{section*.94}
+\contentsline {subsection}{\numberline {8.6.2}Result and findings}{72}{subsection.8.6.2}
+\contentsline {subsection}{\numberline {8.6.3}Game with incomplete information}{73}{subsection.8.6.3}
+\contentsline {subsection}{\numberline {8.6.4}Calculating the different equlibriums}{73}{subsection.8.6.4}
+\contentsline {subparagraph}{Separating equilibrium}{73}{section*.96}
+\contentsline {subparagraph}{Pooling equilibrium}{75}{section*.97}
+\contentsline {subparagraph}{Player 2 not insured, player 1's type choosen by nature}{75}{section*.98}
+\contentsline {subparagraph}{Separating equilibrium}{76}{section*.100}
+\contentsline {subparagraph}{Pooling equilibrium}{77}{section*.101}
+\contentsline {subparagraph}{Summary}{78}{section*.102}
+\contentsline {chapter}{\chapternumberline {9}Further work on the model}{79}{chapter.9}
+\contentsline {section}{\numberline {9.1}The connection game}{79}{section.9.1}
+\contentsline {subparagraph}{Example}{79}{section*.104}
+\contentsline {subparagraph}{Pairwise stability:(HVERTFALL ISH )}{80}{section*.105}
+\contentsline {subparagraph}{Insurance and connection game}{81}{section*.106}
+\contentsline {subsection}{\numberline {9.1.1}Homogenous symmetric connection game}{82}{subsection.9.1.1}
+\contentsline {subparagraph}{Star not possible with high $n$}{83}{section*.108}
+\contentsline {subparagraph}{Bulk insurance}{84}{section*.110}
+\contentsline {subsection}{\numberline {9.1.2}Simulation}{85}{subsection.9.1.2}
+\contentsline {subparagraph}{Low critical node degree}{85}{section*.111}
+\contentsline {subparagraph}{High critical node degree}{85}{section*.114}
+\contentsline {chapter}{\chapternumberline {10}Model from Bohme}{89}{chapter.10}
+\contentsline {section}{\numberline {10.1}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{91}{section.10.1}
+\contentsline {section}{\numberline {10.2}Game including max node degree}{93}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}Game random connection}{93}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {10.2.2}Game connecting to insured first}{95}{subsection.10.2.2}
+\contentsline {part}{\partnumberline {IV}Summary}{97}{part.4}
+\contentsline {chapter}{\chapternumberline {11}Future work}{99}{chapter.11}
+\contentsline {section}{\numberline {11.1}Risk}{99}{section.11.1}
+\contentsline {chapter}{\chapternumberline {12}Conclusion}{103}{chapter.12}
+\contentsline {chapter}{References}{105}{section*.124}
