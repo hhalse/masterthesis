@@ -1,5 +1,5 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{GGJ{\etalchar{+}}10}
+\begin{thebibliography}{NRTV07}
 
 \bibitem[Ake97]{lemonpaper}
 George~A Akerlof.
@@ -172,6 +172,11 @@ Gjensidige Nor.
 \newblock
   \url{http://www.arkitektur.no/gjensidige?iid=372345&pid=NAL-Article-Files.Native-InnerFile-File}.
 \newblock Accessed: 14/02/2013.
+
+\bibitem[NRTV07]{nisan2007algorithmic}
+Noam Nisan, Tim Roughgarden, Eva Tardos, and Vijay~V Vazirani.
+\newblock {\em Algorithmic game theory}.
+\newblock Cambridge University Press, 2007.
 
 \bibitem[Pal12]{solutiontoinfoasym}
 Ranjan Pal.
