@@ -135,6 +135,7 @@
 \contentsline {subparagraph}{Insured to insured}{64}{section*.89}
 \contentsline {subparagraph}{insured to non-insured}{64}{section*.90}
 \contentsline {subsection}{\numberline {8.6.2}Result and findings}{64}{subsection.8.6.2}
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {8.6.3}Game with incomplete information}{65}{subsection.8.6.3}
 \contentsline {subsection}{\numberline {8.6.4}Calculating the different equlibriums}{65}{subsection.8.6.4}
 \contentsline {subparagraph}{Separating equilibrium}{65}{section*.92}
@@ -397,3 +398,32 @@
 \contentsline {chapter}{References}{107}{section*.126}
 >>>>>>> 4fafab3c18c8c05b01d97dc6811160d44e7e617d
 >>>>>>> 5c1829208e36c88e011b810af847b0b853a11786
+=======
+\contentsline {section}{\numberline {8.7}Model with incomplete information}{65}{section.8.7}
+\contentsline {subsection}{\numberline {8.7.1}Analyzis}{65}{subsection.8.7.1}
+\contentsline {subparagraph}{Node 2 is insured}{65}{section*.91}
+\contentsline {subparagraph}{Separating equilibrium}{66}{section*.93}
+\contentsline {subparagraph}{Pooling equilibrium}{67}{section*.94}
+\contentsline {subparagraph}{Node 2 not insured}{68}{section*.95}
+\contentsline {subparagraph}{Separating equilibrium}{68}{section*.97}
+\contentsline {subparagraph}{Pooling equilibrium}{69}{section*.98}
+\contentsline {subparagraph}{Result and findings}{70}{section*.99}
+\contentsline {section}{\numberline {8.8}Model 5-The connection game}{70}{section.8.8}
+\contentsline {subparagraph}{Example}{70}{section*.101}
+\contentsline {subparagraph}{Pairwise stability:(HVERTFALL ISH )}{72}{section*.102}
+\contentsline {section}{\numberline {8.9}Insurance and connection game}{72}{section.8.9}
+\contentsline {subsection}{\numberline {8.9.1}Homogenous symmetric connection game}{73}{subsection.8.9.1}
+\contentsline {subparagraph}{Star not possible with high $n$}{74}{section*.104}
+\contentsline {subparagraph}{Bulk insurance}{74}{section*.106}
+\contentsline {subsection}{\numberline {8.9.2}Simulation}{76}{subsection.8.9.2}
+\contentsline {subparagraph}{Low critical node degree}{76}{section*.107}
+\contentsline {subparagraph}{High critical node degree}{76}{section*.110}
+\contentsline {chapter}{\chapternumberline {9}Model from Bohme}{79}{chapter.9}
+\contentsline {section}{\numberline {9.1}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{81}{section.9.1}
+\contentsline {section}{\numberline {9.2}Game including max node degree}{83}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Game random connection}{83}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Game connecting to insured first}{85}{subsection.9.2.2}
+\contentsline {chapter}{\chapternumberline {10}Future work}{87}{chapter.10}
+\contentsline {section}{\numberline {10.1}Risk}{87}{section.10.1}
+\contentsline {chapter}{References}{91}{section*.119}
+>>>>>>> lokal

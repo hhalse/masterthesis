@@ -59,19 +59,19 @@
 \BOOKMARK [1][-]{section.8.6}{Model 4 - Including bulk insurance discount}{chapter.8}% 58
 \BOOKMARK [2][-]{subsection.8.6.1}{Analyzis}{section.8.6}% 59
 \BOOKMARK [2][-]{subsection.8.6.2}{Result and findings}{section.8.6}% 60
-\BOOKMARK [2][-]{subsection.8.6.3}{Game with incomplete information}{section.8.6}% 61
-\BOOKMARK [2][-]{subsection.8.6.4}{Calculating the different equlibriums}{section.8.6}% 62
-\BOOKMARK [0][-]{chapter.9}{Further work on the model}{}% 63
-\BOOKMARK [1][-]{section.9.1}{The connection game}{chapter.9}% 64
-\BOOKMARK [2][-]{subsection.9.1.1}{Homogenous symmetric connection game}{section.9.1}% 65
-\BOOKMARK [2][-]{subsection.9.1.2}{Simulation}{section.9.1}% 66
-\BOOKMARK [0][-]{chapter.10}{Model from Bohme}{}% 67
-\BOOKMARK [1][-]{section.10.1}{DETTE ET ANNET STED KANSKJE? BLIR LITT RART \305 HOPPE INN I DET HER}{chapter.10}% 68
-\BOOKMARK [1][-]{section.10.2}{Game including max node degree}{chapter.10}% 69
-\BOOKMARK [2][-]{subsection.10.2.1}{Game random connection}{section.10.2}% 70
-\BOOKMARK [2][-]{subsection.10.2.2}{Game connecting to insured first}{section.10.2}% 71
-\BOOKMARK [0][-]{chapter.11}{Future work}{}% 72
-\BOOKMARK [1][-]{section.11.1}{Risk}{chapter.11}% 73
+\BOOKMARK [1][-]{section.8.7}{Model with incomplete information}{chapter.8}% 61
+\BOOKMARK [2][-]{subsection.8.7.1}{Analyzis}{section.8.7}% 62
+\BOOKMARK [1][-]{section.8.8}{Model 5-The connection game}{chapter.8}% 63
+\BOOKMARK [1][-]{section.8.9}{Insurance and connection game}{chapter.8}% 64
+\BOOKMARK [2][-]{subsection.8.9.1}{Homogenous symmetric connection game}{section.8.9}% 65
+\BOOKMARK [2][-]{subsection.8.9.2}{Simulation}{section.8.9}% 66
+\BOOKMARK [0][-]{chapter.9}{Model from Bohme}{}% 67
+\BOOKMARK [1][-]{section.9.1}{DETTE ET ANNET STED KANSKJE? BLIR LITT RART \305 HOPPE INN I DET HER}{chapter.9}% 68
+\BOOKMARK [1][-]{section.9.2}{Game including max node degree}{chapter.9}% 69
+\BOOKMARK [2][-]{subsection.9.2.1}{Game random connection}{section.9.2}% 70
+\BOOKMARK [2][-]{subsection.9.2.2}{Game connecting to insured first}{section.9.2}% 71
+\BOOKMARK [0][-]{chapter.10}{Future work}{}% 72
+\BOOKMARK [1][-]{section.10.1}{Risk}{chapter.10}% 73
 \BOOKMARK [0][-]{section*.119}{References}{}% 74
 =======
 \BOOKMARK [-1][-]{part.1}{Introduction}{}% 3
