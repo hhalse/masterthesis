@@ -1,9 +1,5 @@
-\chapter{Further work on the model}
-\label{secondPhaseOfModelingCyberInsurance} 
-
-In the earlier model, the experienced network effects only arose from their neighbours. I.e. when a node establish a connection the change in utility where only dependent on fixed variables, and non dependent of the rest of the network. In some real world scenarios there is more realistic that a node will be strongly affected by the indirect connections to other nodes as well. We apply the results from the paper from Jackson and Wolinsky \cite{jackson1996strategic} and uses a network formation game in \cite{jackson2005survey}, to study indirect networks effects in our model. 
-
-\section{The connection game}
+\section{Model 5-The connection game}
+In the earlier model, the experienced network effects only arose from their neighbours. I.e. when a node established a connection the change in utility where only dependent on fixed variables, and non dependent of the rest of the network. In some real world scenarios there is more realistic that a node will be strongly affected by the indirect connections to other nodes as well, social connection networks are good examples of such networks. We apply the results from the paper from Jackson and Wolinsky \cite{jackson1996strategic} and uses a network formation game in \cite{jackson2005survey}, to study indirect networks effects in our model. 
 The benefits a player receives in this game are calculated as follows. In addition to the benefit from the direct connection, a node will also benefit from "the friends of the friend", and "the friends of the friends of the friend" etc. This is achieved by letting the payoff be calculated relative to the distance between the nodes. $\beta$ is now dependent on the minimum number of hops to the node e.g. the benefit of a direct connection is $\beta$, the benefit of a friend of a friend is $\beta^2$ etc. We want the benefit to decrease with the distance, therefore we need the limitation: $0<\beta<1$. 
 \begin{figure}[h]
 \centering
@@ -19,17 +15,14 @@ The benefits a player receives in this game are calculated as follows. In additi
 
 where $d(ij)$ represents the shortest path between node $i $ and node $j $, and ${c}_{ij}$ represents node i's cost of establishing a link between the two nodes. To simplify the model we choose a symmetric connection process where $\beta$ and $c$ is set to a fixed global value. 
 
-In the paper \cite{jackson1996strategic}, they analyze two different networks outcomes, one with the focus on efficiency and the other on stability. An efficient network means ending up with a network where the sum of every nodes payoff is maximized. The optimal network is of course both efficient and stable, but as we shall see there are some conflicts between efficiency and stability. In the paper they found that an efficient network is:
+In the paper \cite{jackson1996strategic}, they analyze two different networks outcomes, one with the focus on efficiency and the other on  pairwise stability. An efficient network means ending up with a network where the sum of every nodes payoff is maximized. The optimal network is of course both efficient and stable, but as we shall see there are some conflicts between efficiency and stability. In the paper they found that an efficient network is:
 \begin{enumerate}
 \item \textit{a complete graph $g^N$ if $c<\beta - \beta^2$,}
 \item \textit{a star encompassing every node if $\beta - \beta^2 < c < \beta + \frac{(N-2)}{2}\beta^2$,}
 \item \textit{an empty network(no links) if $\beta + \frac{(N-2)}{2}\beta^2 < c$.}
 \end{enumerate}
 
-Proposition 1, says that when the cost of insuring a link is low, it would be more beneficial for every node, to have a direct connection to another node, compared to an indirect connection.
-Proposition 3, when the insurance cost is high, it is best to not have any connections at all.
-
-The most efficient structure is created in the intermediate cost of insuring links, and ends up in a star structure which encompasses every node. A star structure have the characteristics of minimizing the average path length and uses the minimum number of links($N-1$) required for including every node to the network. 
+The most efficient structure is created in the intermediate cost of insuring links, and ends up in a star structure which encompasses every node. A star structure have the characteristics of minimizing the average path length and uses the minimum number of links($N-1$) required for including every node. 
 Indisputable this structure provides the highest overall payoff for the network, but this network is not necessarily stable, as we will show later on.
 
 \subparagraph{Pairwise stability:(HVERTFALL ISH )}
@@ -40,7 +33,7 @@ A graph is pairwise stable if:
 \end{enumerate} 
 The limitations of pairwise stability is that we only consider one link and one pair of nodes at a time.
 
-When analyzing the stability of the network, by using pairwise stability, Jackson and Wolinsky found four different stability conditions:
+When analyzing the stability of the network, by using the definition of pairwise stability, Jackson and Wolinsky found four different stability conditions:
 
 \begin{enumerate}
 \item \textit{a pairwise stable network consists of at most one (non-empty) component,}
@@ -49,13 +42,13 @@ When analyzing the stability of the network, by using pairwise stability, Jackso
 \item \textit{if $\beta < c$ , any pairwise stable network which is nonempty is such that each player has at least two links and thus be inefficient. }
 \end{enumerate}
 We see that the stability condition 2, is the same as the efficiency condition 1, and thus if this condition is fulfilled, the network is both stable and efficient. 
-Condition 3 shows us why the efficient star network is not necessarily  stable. If $\beta \geq c <   \beta + \frac{(N-2)}{2}\beta^2$ then the efficient network will be a star, but it is not stable.
+Condition 3 shows us why the efficient star network is not necessarily  stable. If $\beta \leq c <   \beta + \frac{(N-2)}{2}\beta^2$ then the efficient network will be a star, but it is not stable.
 
 It should be noticed that it is more beneficial for a node to operate as a leaf node compared to being a center node, due to the cost of direct connection. In a star structure, a leaf node will only have to pay the cost of the link to the center node, and will benefit indirectly for each node connected to the center node. The center node will benefit from each new connection, however, the payoff will only be $\beta - c$ for each connection. 
 
-\subparagraph{Insurance and connection game}
-The propositions showed here are very useful from an insurers point of view, if one has knowledge of the variables it is possible to determine how the network will evolve. And if one are able to determine the variables one can actually determine the network structure.
-From the paper we know that there exists different boundaries on the cost of establishing a new link, and how the resulting stable and efficient network will be.
+\section{Insurance and connection game}
+The findings about efficiency and stability are very useful for our model, because if one has knowledge of the different variables it is possible to determine how the network will evolve. And if one are able to determine the variables one can actually determine the network structure.
+From the papers we know that there exists different boundaries on the cost of establishing a new link, and how the resulting stable and efficient network will be.
 From our earlier models we know that the cost of establish a link is the insurance cost and the risk cost. From this we can show that if $\beta - \beta^2 <I_{l}<\beta \text{ and } r>\beta$ a star with only insured nodes, and no connections between non-insured nodes, are both a stable and an efficient network. If $\beta - \beta^2 <I_{l}+r<\beta \text{ and } \beta - \beta^2<I_{l} \text{ and } \beta - \beta^2<r $ the stable and efficient network is a star consisting of both insured and non-insured nodes. If $I_{l}<\beta-\beta^2$ all insured nodes will connect to every other insured node, and if $r<\beta-\beta^2$ all non-insured nodes will connect to every other non-insured node.
 And of course if $r+I_{l}<\beta-\beta^2$ the resulting network will be a clique of both insured and non-insured nodes.
 The insurer can thus determine the formation of the network by adjusting the cost parameters. 
@@ -64,8 +57,8 @@ One important thing to notice is that even if the most efficient and the stable 
 
 \subsection{Homogenous symmetric connection game}
 From this point and on, the game we will consider is a homogenous network setting where every node is considered to be insured.
-This is done because it will greatly simplify an otherwise very complex model, and because what we are analyzing from here is the resulting network structure, this is easier when only considering one homogenous cost for every node.
-Lets look at an example, where the parameters are set to: $\beta=0.9, I_{l}=0.5$, and the resulting network are shown in Figure \ref{fig:stablestar}.
+This is done because it will greatly simplify an otherwise very complex model, and because what we are analyzing  is the resulting network structure, this is easier when only considering one homogenous cost for every node.
+Lets look at an example, where the parameters are set to: $\beta=0.9, I_{l}=0.5$, the resulting network are shown in Figure \ref{fig:stablestar}.
 
 
 

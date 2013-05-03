@@ -25,17 +25,16 @@
 \contentsline {figure}{\numberline {8.5}{\ignorespaces The figure shows the two possible scenarios that violates the Eq.(\ref {eq:final condition}), \ref {fig:SimulationViolating:a} shows the result when $I_{l}<\beta -r$ and \ref {fig:SimulationViolating:b} shows the result when $I_{l}>\beta $.\relax }}{55}{figure.caption.75}
 \contentsline {figure}{\numberline {8.6}{\ignorespaces Two cliques, one consisting of insured agents the other consists of non-insured. All nodes have reached their goal. \relax }}{61}{figure.caption.82}
 \contentsline {figure}{\numberline {8.7}{\ignorespaces Simulation when the cost of insuring a link is just below the limits. \relax }}{61}{figure.caption.83}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Signalling game with two players, player 1's type choosen by nature, player2 is insured. Player 1 have complete information, player 2 suffer from incomplete information, and act on best response functions based on beliefs. \relax }}{66}{figure.caption.91}
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Signalling game with two players, player 1's type choosen by nature, player2 is not insured. Player 1 have complete information, player 2 suffer from incomplete information, and act on best response functions based on beliefs. \relax }}{68}{figure.caption.95}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Signalling game with two nodes, node 1's type choosen by nature, node 2 is insured. node 1 have complete information, node 2 suffer from incomplete information, and act on best response functions based on beliefs. \relax }}{66}{figure.caption.92}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Signalling game with two nodes, node 1's type choosen by nature, node2 is not insured. Node 1 have complete information, node 2 suffer from incomplete information, and act on best response functions based on beliefs. \relax }}{68}{figure.caption.96}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Four nodes interconnected with each other.\relax }}{71}{figure.caption.100}
+\contentsline {figure}{\numberline {8.11}{\ignorespaces The resulting network after a simulation with the parameters $\beta =0.9, I_{l}=0.5$.\relax }}{73}{figure.caption.103}
+\contentsline {figure}{\numberline {8.12}{\ignorespaces The resulting network after a simulation with the parameters from table \ref {tbl:stablestar} and ten nodes.\relax }}{75}{figure.caption.105}
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Two different outcomes of the simulations with parameters from table \ref {tbl:clique}.\relax }}{77}{figure.caption.109}
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Two star-network, ten- and forty-nodes, both are the result of simulations with parameters satisfying proposition \ref {prop:star}.\relax }}{78}{figure.caption.112}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Four nodes interconnected with each other.\relax }}{71}{figure.caption.99}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces The resulting network after a simulation with the parameters $\beta =0.9, I_{l}=0.5$.\relax }}{74}{figure.caption.103}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces The resulting network after a simulation with the parameters from table \ref {tbl:stablestar} and ten nodes.\relax }}{75}{figure.caption.105}
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Two different outcomes of the simulations with parameters from table \ref {tbl:clique}.\relax }}{78}{figure.caption.109}
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Two star-network, ten- and forty-nodes, both are the result of simulations with parameters satisfying proposition \ref {prop:star}.\relax }}{79}{figure.caption.112}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces shows how insured agents connects with each other to form a network to achieve super-critical payoffs.\relax }}{81}{figure.caption.113}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Caption for LOF}}{81}{figure.caption.114}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{82}{figure.caption.115}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {10.1}{\ignorespaces shows how insured agents connects with each other to form a network to achieve super-critical payoffs.\relax }}{83}{figure.caption.113}
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Caption for LOF}}{83}{figure.caption.114}
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{84}{figure.caption.115}
-\addvspace {10pt}
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Figure showing the distribution of Eq.( \ref {eq:distributionFunction}). \relax }}{90}{figure.caption.117}
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Figure showing the distribution of Eq.( \ref {eq:distributionFunction}). \relax }}{88}{figure.caption.117}
