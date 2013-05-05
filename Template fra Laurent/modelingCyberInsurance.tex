@@ -190,7 +190,32 @@ From the analyzis we found different conditions on the link establishment proces
 If the link insurance cost and risk of connecting to non-insured nodes is less than the benefit($I_{l}+r<\beta$), then insured nodes will also connect to non-insured nodes. And the network will end up in one giant clique.
 
 These findings is independent of number of players, because we only consider one link at a time, and the change in payoffs is linear an independent of the nodes degree.
-\subparagraph{Simulation of the results}
+\subparagraph{Stability versus efficiency}
+When measuring stability in this model, it is easily seen that since the change in payoff when adding links is linear, and non-dependent on the nodes degree, the resulting network will be pairwise-stable. It also follows from the defintion of a nash equilibrium, that the resulting network is a equilibrium, since every player have best responded to the other players best responses, and no node can increase its payoff by single handedly changing a strategy. 
+To calculate the efficiency we need to sum up the overall payoff, and compare it with the maximum possible payoff.  The total payoff can be calculated as in Eq. (\ref{eq:model2-total-payoff-general}), where $\sum I \times I$ represents the sum of payoffs achieved from links between insured nodes. $\sum I \times \overline{I}$ the sum of payoffs achieved from links between non-insured and insured, and $\sum \overline{I} \times \overline{I}$, the sum of payfoss achieved from links between non-insured and non-insured nodes. 
+\begin{equation}
+U_{total}=\sum I \times I+\sum \overline{I}\times\overline{I}+\sum I\times\overline{I}
+\label{eq:model2-total-payoff-general}
+\end{equation}
+When the parameters are inserted in Eq. (\ref{eq:model2-total-payoff-general}), we get the Eq. (\ref{eq:}), where $N_{I} \text{ and } N_{\overline{I}}$, represents the number of insured and non-insured nodes in the network.
+\begin{equation}
+U_{total}=N_{I}(N_{I}-1)(\beta-I_{l})+N_{\overline{I}}(N_{\overline{I}}-1)(\beta-r)+N_{I}N_{\overline{I}}(2\beta-r-I_{l})
+\label{eq:model2-total-payoff}
+\end{equation}
+If we calculate the overall payoff for a network with one-clique of insured and another with non-insured, i.e. Eq. (\ref{eq:final condition}) has to hold and $r<\beta$. The total payoff is as shown in Eq. (\ref{eq:model2-two-cliques-payoff}).
+\begin{equation}
+U_{total}=N_{I}(N_{I}-1)(\beta-I_{l})+N_{\overline{I}}(N_{\overline{I}}-1)(\beta-r)
+\label{eq:model2-two-cliques-payoff}
+\end{equation}
+However, this is not the socially best outcome, because in this scenario, $2\beta>r+I_{l}$, will always be true. Thus the socially best outcome would have been one clique, with both insured and non-insured nodes. The price of stability is shown in Eq. (\ref{eq:model2-pos}).
+\begin{equation}
+PoS=\frac{N_{I}(N_{I}-1)(\beta-I_{l})+N_{\overline{I}}(N_{\overline{I}}-1)(\beta-r)}{N_{I}(N_{I}-1)(\beta-I_{l})+N_{\overline{I}}(N_{\overline{I}}-1)(\beta-r)+N_{I}N_{\overline{I}}(2\beta-r-I_{l})}
+\label{eq:model2-pos}
+\end{equation}
+From this we see that the only scenario where the insurer are able to seperate the two types of nodes, and have an efficient and stable outcome, is when there are only links between insured, or between non-insured, or no links at all.
+This can only happen when $2\beta<I_{l}+r$, and $I_{l}>\beta+\beta-r$ or $r>\beta+\beta-I_{l}$ or if both $I_{l} \text{and }r$ is larger than $\beta$.
+
+\subsubsection{Simulation of the results}
 To verify the result of this network formation game with multiple nodes, we performed different simulations. The network formation is performed by selecting two random nodes, not neighbouring each other, then both nodes checks whether they would prefer to establish a connection or not. The rules are as described earlier, when a node is considering establishing a link it chooses to do so if the payoff received is larger than the payoff he already poses, and the decision is bilateral. 
 In the simulator a node is insured with a probability, $p$. This selection is repeated until the network are fully connected or no more nodes are willing to establish new connections.
 By selecting nodes at random and checking if both of them would like to connect to each other, we relax the assumption of full network information, because now nodes only get to know if another node is insured or not, by asking them.
