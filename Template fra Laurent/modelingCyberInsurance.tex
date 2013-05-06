@@ -216,7 +216,8 @@ From this we see that the only scenario where the insurer are able to seperate t
 This can only happen when $2\beta<I_{l}+r$, and $I_{l}>\beta+\beta-r$ or $r>\beta+\beta-I_{l}$ or if both $I_{l} \text{and }r$ is larger than $\beta$.
 
 \subsubsection{Simulation of the results}
-To verify the result of this network formation game with multiple nodes, we performed different simulations. The network formation is performed by selecting two random nodes, not neighbouring each other, then both nodes checks whether they would prefer to establish a connection or not. The rules are as described earlier, when a node is considering establishing a link it chooses to do so if the payoff received is larger than the payoff he already poses, and the decision is bilateral. 
+To verify the result of this network formation game with multiple nodes, we performed different simulations. The network formation is performed by selecting two random nodes, not neighbouring each other, then both nodes checks whether they would prefer to establish a connection or not. 
+The rules are as described earlier, when a node is considering establishing a link it chooses to do so if the payoff received is larger than the payoff he already poses, and the decision is bilateral.
 In the simulator a node is insured with a probability, $p$. This selection is repeated until the network are fully connected or no more nodes are willing to establish new connections.
 By selecting nodes at random and checking if both of them would like to connect to each other, we relax the assumption of full network information, because now nodes only get to know if another node is insured or not, by asking them.
 
@@ -450,12 +451,24 @@ For this scenario to be possible Eq. (\ref{eq:model4-discount-i-to-noti}) has to
 \end{equation}
 \subparagraph{Result and findings}
 For a insurer to be able to ensure that the network ends up in a clique with only insured nodes, we must ensure that the most expensive link establishment, i.e. the first, to another insured node can be achieved. This gives us the same condition as in model 2, i.e. $I_{l}<\beta$. 
-We also need to ensure that insured does not connect to non-insured, thus we get the final condition in Eq. (\ref{eq:})
+We also need to ensure that insured does not connect to non-insured, thus we get the final condition in Eq. (\ref{eq:model4-discount-condition-only-insured}), where $N_{I}$ is the number of insured nodes in the network.
 \begin{equation}
-m(\beta-r)<I_{l}<\beta
+(N_{I}-1)(\beta-r)<I_{l}<\beta
+\label{eq:model4-discount-condition-only-insured}
 \end{equation}
-This is condition is very strong, because it says that $\beta-r<\frac{1}{m}$, and as $m$ gets higher this get more and more unlikely. 
+This is condition is very strong, because it says that $\beta-r<\frac{1}{N_{I}-1}$, and as the number of insured nodes gets higher this get more and more unlikely. 
 Thus by including bulk-discount, the insurer are making it harder for himself to constrain the network formation. This is because the incentive for establishing links are higher than without discount, and thus more links will be established.
+\subparagraph{Price of Stability versus efficiency}
+If we compare the total payoff equation in this model, see Eq. (\ref{eq:model4-discount-total-payoff}), with the one in model 2(Eq. (\ref{eq:model2-total-payoff})). We see that what has changed is the cost for insured nodes, and thus the payoff generated from links between insured nodes has increased, and so have the payoff received from links between insured and non-insured nodes. 
+As we know, in a scenario where the insurer sets the cost, such that the network will end up in two cliques, the payoff received from links between insured and non-insured are zero. This potential payoff, in a scenario where there are two cliques, can be described like this: $(N_{I}N_{\overline{I}}\beta+N_{I}(-\sum_{i=N_{I}}^{N_{\overline{I}}-1}\frac{I_{l}}{i}))$, and as long as $(N_{I}N_{\overline{I}}\beta>N_{I}(-\sum_{i=N_{I}}^{N_{\overline{I}}-1}\frac{I_{l}}{i}))$ it would have been socially optimal to have one-clique of both insured and non-insured nodes.
+When the cost of establishing links decreases and the insurer forces the network formation to end up in two cliques, the price of stability will increase compared to the price of stability in model 2. 
+This is because the incentive for establishing links has increased, and thus for the insurer to be able to constrain the network formation, the cost of establishing links has to be higher.
+
+%{eq:model2-total-payoff-general}
+\begin{equation}
+U_{total}=(N_{I}(N_{I}-1)\beta-N_{I} \sum_{i=1}^{N_{I}-1} \frac{I_{l}}{i})+(N_{\overline{I}}(N_{\overline{I}}-1)(\beta-r))+(N_{I}N_{\overline{I}}\beta+N_{I}(-\sum_{i=N_{I}}^{N_{\overline{I}}-1}\frac{I_{l}}{i}))
+\label{eq:model4-discount-total-payoff}
+\end{equation}
 
 \subsubsection{Discount and Bonus model}
 We also need to apply the discount to the model where the bonus is included, and we start out as before we analyze the four different connection scenarios. However, it is only the scenario where insured connects to other insured nodes and insured to non-insured nodes, that has changed.
@@ -517,7 +530,7 @@ m(\beta +\gamma-r)<I_{l}<\beta+\frac{\gamma}{m}
 \label{eq:model4-final-condition-insured-clique}
 \end{equation}
 
-Similar calculation can be done for the other three scenarios in the game, and they all shows the same. The quantum discount in a overall higher payoff for the nodes, since the cost of insuring a new link becomes cheaper. This means that the nodes will have a higher incentive to create links to each other. Which makes it harder for the insurer to seperate insured and non-insured nodes.
+Similar calculation can be done for the other three scenarios in the game, and they all show the same. The quantum discount results in a overall higher payoff for the nodes, since the cost of insuring a new link becomes cheaper. This means that the nodes will have a higher incentive to create links to each other. Which makes it harder for the insurer to seperate insured and non-insured nodes.
 
 
 \input{modelingWithNature}

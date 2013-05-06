@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  5 MAY 2013 12:15
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  6 MAY 2013 14:07
 entering extended mode
 **main.tex
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.tex"
@@ -1602,6 +1602,8 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 \rot@float@box=\box72
 \rot@mess@toks=\toks59
 )
+\c@cnj=\count324
+
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\glossary.tex"
 )
 \glo@main@file=\write5
@@ -1656,16 +1658,16 @@ LaTeX Font Info:    ... okay on input line 24.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count324
+\scratchcounter=\count325
 \scratchdimen=\dimen210
 \scratchbox=\box73
-\nofMPsegments=\count325
-\nofMParguments=\count326
+\nofMPsegments=\count326
+\nofMParguments=\count327
 \everyMPshowfont=\toks60
-\MPscratchCnt=\count327
+\MPscratchCnt=\count328
 \MPscratchDim=\dimen211
-\MPnumerator=\count328
-\makeMPintoPDFobject=\count329
+\MPnumerator=\count329
+\makeMPintoPDFobject=\count330
 \everyMPtoPDFconversion=\toks61
 )
 LaTeX Info: Redefining \microtypecontext on input line 24.
@@ -1691,7 +1693,7 @@ Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count330
+\c@section@level=\count331
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -1702,7 +1704,7 @@ LaTeX Info: Redefining \nameref on input line 24.
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.out")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.out")
 \@outlinefile=\write7
-\c@lstlisting=\count331
+\c@lstlisting=\count332
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1732,7 +1734,7 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [7]
 [8]
-Overfull \hbox (0.40538pt too wide) in paragraph at lines 163--163
+Overfull \hbox (0.40538pt too wide) in paragraph at lines 164--164
  [][] [][][]\T1/lmr/m/n/10 (-20) DETTE ET AN-NET STED KAN-SKJE? BLIR LITT RART 
 � HOPPE 
  []
@@ -1975,7 +1977,7 @@ File: ../Figures/FirstSimulationStart.png Graphic file (type png)
 
 <use ../Figures/FirstSimulationStart.png>
 Package pdftex.def Info: ../Figures/FirstSimulationStart.png used on input line
- 227.
+ 228.
 (pdftex.def)             Requested size: 72.79889pt x 69.80452pt.
 
 <../Figures/FirstSimulationResult.png, id=1064, 375.65344pt x 240.14719pt>
@@ -1983,7 +1985,7 @@ File: ../Figures/FirstSimulationResult.png Graphic file (type png)
 
 <use ../Figures/FirstSimulationResult.png>
 Package pdftex.def Info: ../Figures/FirstSimulationResult.png used on input lin
-e 233.
+e 234.
 (pdftex.def)             Requested size: 133.95445pt x 85.63576pt.
 
 
@@ -1995,17 +1997,17 @@ t>
 File: ../Figures/FirstSimulationViolatingResult.png Graphic file (type png)
  <use ../Figures/FirstSimulationViolatingResult.png>
 Package pdftex.def Info: ../Figures/FirstSimulationViolatingResult.png used on 
-input line 247.
+input line 248.
 (pdftex.def)             Requested size: 72.79889pt x 69.32047pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 249.
+(Font)              <9> on input line 250.
 
 <../Figures/SimulationViolating2.png, id=1083, 238.64156pt x 223.58531pt>
 File: ../Figures/SimulationViolating2.png Graphic file (type png)
 
 <use ../Figures/SimulationViolating2.png>
 Package pdftex.def Info: ../Figures/SimulationViolating2.png used on input line
- 254.
+ 255.
 (pdftex.def)             Requested size: 66.97595pt x 62.75015pt.
 
 
@@ -2030,7 +2032,7 @@ File: ../Figures/BonusGameInsuredClique.png Graphic file (type png)
 
 <use ../Figures/BonusGameInsuredClique.png>
 Package pdftex.def Info: ../Figures/BonusGameInsuredClique.png used on input li
-ne 396.
+ne 397.
 (pdftex.def)             Requested size: 291.20111pt x 145.91293pt.
 
 
@@ -2041,7 +2043,7 @@ File: ../Figures/BonusGameViolating.png Graphic file (type png)
 
 <use ../Figures/BonusGameViolating.png>
 Package pdftex.def Info: ../Figures/BonusGameViolating.png used on input line 4
-06.
+07.
 (pdftex.def)             Requested size: 291.20111pt x 170.08652pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2049,131 +2051,113 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [62 <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameInsuredClique
 .png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameViolating.pn
 g>]
-[63]
+[63] [64] [65]
 
-LaTeX Warning: Reference `eq:' on page 64 undefined on input line 453.
+LaTeX Warning: Reference `eq:eq:conditionitoi' on page 66 undefined on input li
+ne 516.
 
 
-Underfull \vbox (badness 3029) has occurred while \output is active []
-
- [64]
-
-LaTeX Warning: Reference `eq:eq:conditionitoi' on page 65 undefined on input li
-ne 503.
-
-[65]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\modelingWithN
-ature.tex"
-<../Figures/SignalingGameInsured.png, id=1213, 1318.17468pt x 461.47406pt>
+ature.tex" [66pdfTeX warning (ext4): destination with the same identifier (name
+{equation.7.42}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.5 \subsection
+               {Analyzis}]
+<../Figures/SignalingGameInsured.png, id=1223, 1318.17468pt x 461.47406pt>
 File: ../Figures/SignalingGameInsured.png Graphic file (type png)
 
 <use ../Figures/SignalingGameInsured.png>
 Package pdftex.def Info: ../Figures/SignalingGameInsured.png used on input line
  14.
 (pdftex.def)             Requested size: 364.0pt x 127.43034pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[66pdfTeX warning (ext4): destination with the same identifier (name{equation.7
-.41}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.21 \subparagraph
-                  {Separating equilibrium}] [67 <C:/Users/Håvard/masterthesis/
-masterthesis/Figures/SignalingGameInsured.png>]
-<../Figures/SignalingGameNotInsured.png, id=1231, 1294.8375pt x 418.56375pt>
+ [67 <C:/Users/Håvard/masterthesis/masterthesis/Figures/SignalingGameInsured.p
+ng>] [68]
+<../Figures/SignalingGameNotInsured.png, id=1243, 1294.8375pt x 418.56375pt>
 File: ../Figures/SignalingGameNotInsured.png Graphic file (type png)
 
 <use ../Figures/SignalingGameNotInsured.png>
 Package pdftex.def Info: ../Figures/SignalingGameNotInsured.png used on input l
 ine 100.
 (pdftex.def)             Requested size: 364.0pt x 117.66327pt.
- [68] [69 <C:/Users/Håvard/masterthesis/masterthesis/Figures/SignalingGameNotI
-nsured.png>] [70])
+ [69 <C:/Users/Håvard/masterthesis/masterthesis/Figures/SignalingGameNotInsure
+d.png>] [70])
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\modelingCyber
-Insurance2(furtherWork).tex"
-<../Figures/connectionGame.png, id=1271, 103.13531pt x 93.34875pt>
+Insurance2(furtherWork).tex" [71]
+<../Figures/connectionGame.png, id=1282, 103.13531pt x 93.34875pt>
 File: ../Figures/connectionGame.png Graphic file (type png)
 
 <use ../Figures/connectionGame.png>
-Package pdftex.def Info: ../Figures/connectionGame.png used on input line 6.
+Package pdftex.def Info: ../Figures/connectionGame.png used on input line 9.
 (pdftex.def)             Requested size: 72.79889pt x 65.89206pt.
 
+Underfull \vbox (badness 1735) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[71] [72 <C:/Users/Håvard/masterthesis/masterthesis/Figures/connectionGame.png
->] [73]
-<../Figures/stability/Unefficientbutstablestar.png, id=1302, 271.0125pt x 224.3
+ [72 <C:/Users/Håvard/masterthesis/masterthesis/Figures/connectionGame.png>] [
+73] [74]
+<../Figures/stability/Unefficientbutstablestar.png, id=1311, 271.0125pt x 224.3
 3812pt>
 File: ../Figures/stability/Unefficientbutstablestar.png Graphic file (type png)
 
  <use ../Figures/stability/Unefficientbutstablestar.png>
 Package pdftex.def Info: ../Figures/stability/Unefficientbutstablestar.png used
- on input line 67.
+ on input line 70.
 (pdftex.def)             Requested size: 182.0pt x 150.66176pt.
- [74 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stability/Unefficientb
+ [75 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stability/Unefficientb
 utstablestar.png>]
-<../Figures/stability/Unefficientbutstabletwo.png, id=1311, 563.10374pt x 459.9
+<../Figures/stability/Unefficientbutstabletwo.png, id=1322, 563.10374pt x 459.9
 6844pt>
 File: ../Figures/stability/Unefficientbutstabletwo.png Graphic file (type png)
  <use ../Figures/stability/Unefficientbutstabletwo.png>
 Package pdftex.def Info: ../Figures/stability/Unefficientbutstabletwo.png used 
-on input line 89.
+on input line 92.
 (pdftex.def)             Requested size: 182.0pt x 148.6668pt.
 
 
-LaTeX Warning: Reference `tbl:stablestar' on page 75 undefined on input line 90
+LaTeX Warning: Reference `tbl:stablestar' on page 76 undefined on input line 93
 .
 
 
-LaTeX Warning: Reference `tbl:stablestar' on page 75 undefined on input line 90
+LaTeX Warning: Reference `tbl:stablestar' on page 76 undefined on input line 93
 .
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[75] [76 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stability/Uneffici
-entbutstabletwo.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<../Figures/discount/cliquetennodes.png, id=1341, 264.23718pt x 263.48438pt>
+[76 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stability/Unefficientbu
+tstabletwo.png>] [77]
+<../Figures/discount/cliquetennodes.png, id=1352, 264.23718pt x 263.48438pt>
 File: ../Figures/discount/cliquetennodes.png Graphic file (type png)
 
 <use ../Figures/discount/cliquetennodes.png>
 Package pdftex.def Info: ../Figures/discount/cliquetennodes.png used on input l
-ine 152.
+ine 161.
 (pdftex.def)             Requested size: 72.79889pt x 72.58908pt.
 
-<../Figures/discount/baloontennodes.png, id=1342, 426.09187pt x 253.69781pt>
+<../Figures/discount/baloontennodes.png, id=1353, 426.09187pt x 253.69781pt>
 File: ../Figures/discount/baloontennodes.png Graphic file (type png)
 
 <use ../Figures/discount/baloontennodes.png>
 Package pdftex.def Info: ../Figures/discount/baloontennodes.png used on input l
-ine 158.
+ine 167.
 (pdftex.def)             Requested size: 133.95445pt x 79.75652pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[77]
-<../Figures/discount/startennodes.png, id=1358, 413.29407pt x 411.78844pt>
+[78]
+<../Figures/discount/startennodes.png, id=1367, 413.29407pt x 411.78844pt>
 File: ../Figures/discount/startennodes.png Graphic file (type png)
 
 <use ../Figures/discount/startennodes.png>
 Package pdftex.def Info: ../Figures/discount/startennodes.png used on input lin
-e 185.
+e 194.
 (pdftex.def)             Requested size: 131.03711pt x 130.56229pt.
 
-<../Figures/discount/starmanynodes.png, id=1361, 880.28876pt x 881.2925pt>
+<../Figures/discount/starmanynodes.png, id=1370, 880.28876pt x 881.2925pt>
 File: ../Figures/discount/starmanynodes.png Graphic file (type png)
 
 <use ../Figures/discount/starmanynodes.png>
 Package pdftex.def Info: ../Figures/discount/starmanynodes.png used on input li
-ne 192.
+ne 201.
 (pdftex.def)             Requested size: 131.03711pt x 131.17961pt.
 
 
@@ -2181,42 +2165,42 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\modelFromBohm
-e.tex" [78 <C:/Users/Håvard/masterthesis/masterthesis/Figures/discount/cliquet
+e.tex" [79 <C:/Users/Håvard/masterthesis/masterthesis/Figures/discount/cliquet
 ennodes.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/discount/baloo
-ntennodes.png>] [79 <C:/Users/Håvard/masterthesis/masterthesis/Figures/discoun
+ntennodes.png>] [80 <C:/Users/Håvard/masterthesis/masterthesis/Figures/discoun
 t/startennodes.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/discoun
-t/starmanynodes.png>] [80
+t/starmanynodes.png>] [81
 
-] [81])) [82]
-<../Figures/financialContagion1.png, id=1403, 197.23688pt x 135.50626pt>
+])) [82]
+<../Figures/financialContagion1.png, id=1408, 197.23688pt x 135.50626pt>
 File: ../Figures/financialContagion1.png Graphic file (type png)
 
 <use ../Figures/financialContagion1.png>
 Package pdftex.def Info: ../Figures/financialContagion1.png used on input line 
-541.
+554.
 (pdftex.def)             Requested size: 145.60056pt x 100.03113pt.
 
-<../Figures/financialContagion2.png, id=1404, 177.66376pt x 131.74219pt>
+<../Figures/financialContagion2.png, id=1409, 177.66376pt x 131.74219pt>
 File: ../Figures/financialContagion2.png Graphic file (type png)
 
 <use ../Figures/financialContagion2.png>
 Package pdftex.def Info: ../Figures/financialContagion2.png used on input line 
-547.
+560.
 (pdftex.def)             Requested size: 133.95445pt x 99.33305pt.
 
-<../Figures/gameTheoryModel1WithEquations.png, id=1406, 923.70094pt x 132.495pt
+<../Figures/gameTheoryModel1WithEquations.png, id=1411, 923.70094pt x 132.495pt
 >
 File: ../Figures/gameTheoryModel1WithEquations.png Graphic file (type png)
  <use ../Figures/gameTheoryModel1WithEquations.png>
 Package pdftex.def Info: ../Figures/gameTheoryModel1WithEquations.png used on i
-nput line 561.
+nput line 574.
 (pdftex.def)             Requested size: 364.0pt x 52.2106pt.
 
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (12.0pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 567.
+(in both cases you will find help in the memoir manual). on input line 580.
 
 
 Overfull \vbox (12.0pt too high) has occurred while \output is active []
@@ -2225,11 +2209,11 @@ Overfull \vbox (12.0pt too high) has occurred while \output is active []
 g> <C:/Users/Håvard/masterthesis/masterthesis/Figures/financialContagion2.png>
  <C:/Users/Håvard/masterthesis/masterthesis/Figures/gameTheoryModel1WithEquati
 ons.png>]
-<../Figures/gameTheoryModel1WithNumbers.png, id=1419, 986.9372pt x 295.85532pt>
+<../Figures/gameTheoryModel1WithNumbers.png, id=1424, 986.9372pt x 295.85532pt>
 File: ../Figures/gameTheoryModel1WithNumbers.png Graphic file (type png)
 <use ../Figures/gameTheoryModel1WithNumbers.png>
 Package pdftex.def Info: ../Figures/gameTheoryModel1WithNumbers.png used on inp
-ut line 574.
+ut line 587.
 (pdftex.def)             Requested size: 218.40222pt x 65.46758pt.
 ) [84 <C:/Users/Håvard/masterthesis/masterthesis/Figures/gameTheoryModel1WithN
 umbers.png>]
@@ -2248,7 +2232,7 @@ x" [88
 
 
 
-] <../Figures/exponentialFunction.png, id=1454, 1003.75pt x 803.0pt>
+] <../Figures/exponentialFunction.png, id=1459, 1003.75pt x 803.0pt>
 File: ../Figures/exponentialFunction.png Graphic file (type png)
 
 <use ../Figures/exponentialFunction.png>
@@ -2336,22 +2320,19 @@ x"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 86A50E0641EF00121F4E556810A61C51;5882.
+(rerunfilecheck)             Checksum: 1BCFF256A5F60B83566A092F22C940EF;5882.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
  ) 
 Here is how much of TeX's memory you used:
- 22752 strings out of 494045
- 344025 string characters out of 3145963
- 603297 words of memory out of 3000000
- 24822 multiletter control sequences out of 15000+200000
- 95291 words of font info for 160 fonts, out of 3000000 for 9000
+ 22757 strings out of 494045
+ 344084 string characters out of 3145963
+ 603564 words of memory out of 3000000
+ 24831 multiletter control sequences out of 15000+200000
+ 94948 words of font info for 157 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  62i,14n,94p,1504b,632s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Progr
@@ -2373,9 +2354,9 @@ gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr5.pfb><C:/Program Files (x
 r9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb>
-Output written on main.pdf (109 pages, 2011205 bytes).
+Output written on main.pdf (109 pages, 2015592 bytes).
 PDF statistics:
- 1690 PDF objects out of 1728 (max. 8388607)
- 482 named destinations out of 1000 (max. 500000)
+ 1695 PDF objects out of 1728 (max. 8388607)
+ 484 named destinations out of 1000 (max. 500000)
  25361 words of extra memory for PDF output out of 29859 (max. 10000000)
 
