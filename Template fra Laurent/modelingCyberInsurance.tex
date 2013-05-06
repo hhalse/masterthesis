@@ -27,11 +27,17 @@ In other words, if the nodes can choose who they connect with, and by doing so, 
 Inspired by this model, we are step wise building a model which shields light on how cyber-insurance can be used in network formation games to prevent cascading failures and increase an agents payoff.  
 
 \section{Model 1 - Initial Model \label{section:verysimplemodel}}
+\begin{figure}[h]
+\centering
 
+  \includegraphics[width=0.9\linewidth]{../Figures/modeloverview.png}
+  \caption{\label{fig:Overview-of-models} The figure show an overview of the different models we have created, and how they relate to each other. For every step, there are added some new features to the model.}
+
+\end{figure}
 There are many examples of nodes needing to establish connections, one example is a company needing to out-source certain tasks to remain competitive. This outsourcing involves some risks, such as, will the company deliver at the reported time, to the reported costs, what happens if they fail to deliver, what if they go bankrupt etc. If the companies that are going to establish links(cooperative contracts), know that the other firms are insured, it will be more secure and reliable to enter into an cooperative agreement. In this way trusted cliques can evolve. The firms benefit from connecting to other insured firms, and the insurance company can offer fair prices to the insured companies, because the risk is calculable in a trusted clique.
 
 As a starting point the model is highly simplified in order to show the concept of how cyber-insurance can be used to create an insurable topology. We assume that every node has complete network information, i.e. it knows how many nodes that exists, if they are insured or not. The link establishment process is bidirectional, meaning both nodes must agree to establish the connection.
-Through out this chapter new features will be added to the model to make it more realistic and applicable. 
+Through out this chapter new features will be added to the model to make it more realistic and applicable, an overview of the different models can be seen in Figure \ref{fig:Overview-of-models}.
 
 A set of $n$ nodes are randomly chosen to be insured or not, as depicted in Figure \ref{fig:firstmod1}. They all get their own fixed income, and by connecting to other nodes they can increase their payoff. Non-insured nodes will have a risk of failure i.e. an expected cost of failure. Therefore if an insured agents chooses to connect to a non-insured nodes they will also suffer from this expected cost of failure. To simplify the decision process, the model follows a rule that only allows insured to connect to other insured agents and non-insured agents can only connect with each other. 
 
@@ -388,7 +394,8 @@ When a node establishes a link, it does not know whether it will reach the maxim
 \llap{$\rightarrow$\hspace{50pt}}1-\frac{1}{m}&<\frac{r}{\gamma}
 \label{eq:noinsuredcliqueconditon}
 \end{eqnarray}
-
+\subparagraph{Efficiency and Stability( SKRIVE NOE OM DETTE, selvom det er vanskelig å analysere}
+In this model, the incentive for establishing links has been increased. And thus to maintain a stable network with two cliques, the cost of link establishment has to be increased, compared to model 2. This increased incentive may result in a higher price of stability. 
 \subsubsection{Simulation of the results}
 In our first simulation we have set the variables such that Eq.(\ref{eq:final-insurance-clique-condition}) are satisfied. The parameters are set to the following: $\beta=0.9, I_{l}=0.7, r=0.5, \gamma=0.2 \text{ and }m=5$.
 
