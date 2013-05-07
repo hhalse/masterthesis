@@ -1,9 +1,8 @@
-\chapter{Further work on the model}
-\label{secondPhaseOfModelingCyberInsurance} 
+\section{Model 5-The connection game}
+In the earlier model, the experienced network effects only arose from their neighbours. I.e. when a node established a connection the change in utility where only dependent on fixed variables, and non dependent of the rest of the network. In some real world scenarios there is more realistic that a node will be strongly affected by the indirect connections to other nodes as well, social connection networks are good examples of such networks. 
 
-In the earlier model, the experienced network effects only arose from their neighbours. I.e. when a node establish a connection the change in utility where only dependent on fixed variables, and non dependent of the rest of the network. In some real world scenarios there is more realistic that a node will be strongly affected by the indirect connections to other nodes as well. We apply the results from the paper from Jackson and Wolinsky \cite{jackson1996strategic} and uses a network formation game in \cite{jackson2005survey}, to study indirect networks effects in our model. 
+We apply the results from the paper from Jackson and Wolinsky \cite{jackson1996strategic} and uses a network formation game in \cite{jackson2005survey}, to study indirect networks effects in our model. 
 
-\section{The connection game}
 The benefits a player receives in this game are calculated as follows. In addition to the benefit from the direct connection, a node will also benefit from "the friends of the friend", and "the friends of the friends of the friend" etc. This is achieved by letting the payoff be calculated relative to the distance between the nodes. $\beta$ is now dependent on the minimum number of hops to the node e.g. the benefit of a direct connection is $\beta$, the benefit of a friend of a friend is $\beta^2$ etc. We want the benefit to decrease with the distance, therefore we need the limitation: $0<\beta<1$. 
 \begin{figure}[h]
 \centering
@@ -19,17 +18,14 @@ The benefits a player receives in this game are calculated as follows. In additi
 
 where $d(ij)$ represents the shortest path between node $i $ and node $j $, and ${c}_{ij}$ represents node i's cost of establishing a link between the two nodes. To simplify the model we choose a symmetric connection process where $\beta$ and $c$ is set to a fixed global value. 
 
-In the paper \cite{jackson1996strategic}, they analyze two different networks outcomes, one with the focus on efficiency and the other on stability. An efficient network means ending up with a network where the sum of every nodes payoff is maximized. The optimal network is of course both efficient and stable, but as we shall see there are some conflicts between efficiency and stability. In the paper they found that an efficient network is:
+In the paper \cite{jackson1996strategic}, they analyze two different networks outcomes, one with the focus on efficiency and the other on  pairwise stability. An efficient network means ending up with a network where the sum of every nodes payoff is maximized. The optimal network is of course both efficient and stable, but as we shall see there are some conflicts between efficiency and stability. In the paper they found that an efficient network is:
 \begin{enumerate}
 \item \textit{a complete graph $g^N$ if $c<\beta - \beta^2$,}
 \item \textit{a star encompassing every node if $\beta - \beta^2 < c < \beta + \frac{(N-2)}{2}\beta^2$,}
 \item \textit{an empty network(no links) if $\beta + \frac{(N-2)}{2}\beta^2 < c$.}
 \end{enumerate}
 
-Proposition 1, says that when the cost of insuring a link is low, it would be more beneficial for every node, to have a direct connection to another node, compared to an indirect connection.
-Proposition 3, when the insurance cost is high, it is best to not have any connections at all.
-
-The most efficient structure is created in the intermediate cost of insuring links, and ends up in a star structure which encompasses every node. A star structure have the characteristics of minimizing the average path length and uses the minimum number of links($N-1$) required for including every node to the network. 
+The most efficient structure is created in the intermediate cost of insuring links, and ends up in a star structure which encompasses every node. A star structure have the characteristics of minimizing the average path length and uses the minimum number of links($N-1$) required for including every node. 
 Indisputable this structure provides the highest overall payoff for the network, but this network is not necessarily stable, as we will show later on.
 
 \subparagraph{Pairwise stability:(HVERTFALL ISH )}
@@ -40,7 +36,7 @@ A graph is pairwise stable if:
 \end{enumerate} 
 The limitations of pairwise stability is that we only consider one link and one pair of nodes at a time.
 
-When analyzing the stability of the network, by using pairwise stability, Jackson and Wolinsky found four different stability conditions:
+When analyzing the stability of the network, by using the definition of pairwise stability, Jackson and Wolinsky found four different stability conditions:
 
 \begin{enumerate}
 \item \textit{a pairwise stable network consists of at most one (non-empty) component,}
@@ -49,13 +45,13 @@ When analyzing the stability of the network, by using pairwise stability, Jackso
 \item \textit{if $\beta < c$ , any pairwise stable network which is nonempty is such that each player has at least two links and thus be inefficient. }
 \end{enumerate}
 We see that the stability condition 2, is the same as the efficiency condition 1, and thus if this condition is fulfilled, the network is both stable and efficient. 
-Condition 3 shows us why the efficient star network is not necessarily  stable. If $\beta \geq c <   \beta + \frac{(N-2)}{2}\beta^2$ then the efficient network will be a star, but it is not stable.
+Condition 3 shows us why the efficient star network is not necessarily  stable. If $\beta \leq c <   \beta + \frac{(N-2)}{2}\beta^2$ then the efficient network will be a star, but it is not stable.
 
 It should be noticed that it is more beneficial for a node to operate as a leaf node compared to being a center node, due to the cost of direct connection. In a star structure, a leaf node will only have to pay the cost of the link to the center node, and will benefit indirectly for each node connected to the center node. The center node will benefit from each new connection, however, the payoff will only be $\beta - c$ for each connection. 
 
-\subparagraph{Insurance and connection game}
-The propositions showed here are very useful from an insurers point of view, if one has knowledge of the variables it is possible to determine how the network will evolve. And if one are able to determine the variables one can actually determine the network structure.
-From the paper we know that there exists different boundaries on the cost of establishing a new link, and how the resulting stable and efficient network will be.
+\section{Insurance and connection game}
+The findings about efficiency and stability are very useful for our model, because if one has knowledge of the different variables it is possible to determine how the network will evolve. And if one are able to determine the variables one can actually determine the network structure.
+From the papers we know that there exists different boundaries on the cost of establishing a new link, and how the resulting stable and efficient network will be.
 From our earlier models we know that the cost of establish a link is the insurance cost and the risk cost. From this we can show that if $\beta - \beta^2 <I_{l}<\beta \text{ and } r>\beta$ a star with only insured nodes, and no connections between non-insured nodes, are both a stable and an efficient network. If $\beta - \beta^2 <I_{l}+r<\beta \text{ and } \beta - \beta^2<I_{l} \text{ and } \beta - \beta^2<r $ the stable and efficient network is a star consisting of both insured and non-insured nodes. If $I_{l}<\beta-\beta^2$ all insured nodes will connect to every other insured node, and if $r<\beta-\beta^2$ all non-insured nodes will connect to every other non-insured node.
 And of course if $r+I_{l}<\beta-\beta^2$ the resulting network will be a clique of both insured and non-insured nodes.
 The insurer can thus determine the formation of the network by adjusting the cost parameters. 
@@ -64,8 +60,8 @@ One important thing to notice is that even if the most efficient and the stable 
 
 \subsection{Homogenous symmetric connection game}
 From this point and on, the game we will consider is a homogenous network setting where every node is considered to be insured.
-This is done because it will greatly simplify an otherwise very complex model, and because what we are analyzing from here is the resulting network structure, this is easier when only considering one homogenous cost for every node.
-Lets look at an example, where the parameters are set to: $\beta=0.9, I_{l}=0.5$, and the resulting network are shown in Figure \ref{fig:stablestar}.
+This is done because it will greatly simplify an otherwise very complex model, and because what we are analyzing  is the resulting network structure, this is easier when only considering one homogenous cost for every node.
+Lets look at an example, where the parameters are set to: $\beta=0.9, I_{l}=0.5$, the resulting network are shown in Figure \ref{fig:stablestar}.
 
 
 
@@ -119,25 +115,31 @@ P(g)=g^{-\gamma}
 \label{eq:probabilitydegree}
 \end{equation}
 When a node $i$ reaches the critical degree $g$ its optimal strategy is to connect to every node, since the payoff of direct connection is larger than any indirect connection. In general nodes prefer to connect to nodes with high connectivity \footnote{A node with high degree implies a node with high connectivity.}, and will thus prefer to connect to this node compared to nodes with a degree lower than $g$. In this way nodes will connect to the node who have a degree greater or equal to $g$, and remove the links to their low-degree nodes which they can instead reach through  $i$.
+
 Lets consider a case with $n-$nodes, and two of these nodes, $i$ and $j$, have an equal degree larger than $g$. The rest of the nodes has a degree of one or zero. If there exists a node with degree zero, it would prefer to be connected to $i$ or $j$, and so will $i$ and $j$, so this will eventually happen.
-If a node connected to $i$ are considering connecting to $j$, or visa versa, it will do so because $j$ can offer a higher connectivity than $i$. Now $j$ has a higher degree than $i$, and thus every node would prefer to connect to $j$ over $i$. This will eventually result in a star formation, with $j$ as the center node. 
+If a node connected to $i$ are considering connecting to $j$, or visa versa, it will do so because $j$ can offer a higher connectivity than $i$. Now $j$ has a higher degree than $i$, and thus every node would prefer to connect to $j$ over $i$. This will eventually result in a star formation, with $j$ as the center node.
 From this we get the propositions:
-\begin{proposition}
-If the probability that there exists a node with a critical degree is very high, the resulting network will with high probability end up in a network where the average degree is close to the max-degree. 
+\begin{cnj}
+If the probability that there exists a node with a critical degree is high, the resulting network will with high probability end up in a network where the average degree is close to the max-degree, i.e. a clique or almost a clique.
 \label{prop:clique}
-\end{proposition}
-\begin{proposition}
-If the probability that there exists a node with critical degree, is such that only a few nodes will reach this degree, then the resulting network will be a star-topology. 
+\end{cnj}
+
+\begin{cnj}
+If the probability that there exists a node with critical degree, is such that only a few nodes will reach this degree, then the resulting network will be a star-topology or other similar network structures. 
 \label{prop:star}
-\end{proposition} 
+\end{cnj} 
 
 \subsection{Simulation}
-To see if the propositions above where true, we created a simulator. The rules of the game are as follows.
+To see if the conjectures above where true, we created a simulator. The rules of the simulator are as follows.
 Every round two random nodes, not neighbors, are selected, and asked if they would want to establish a link. The link establishment is a symmetric decision. If the link is added, we check if either of the nodes would prefer to delete some of their already existing links, this decision is asymmetric. This procedure is repeated as long as there are possible to add new links. 
 The payoff function of each node is as described earlier( see Eq.(\ref{eq:connecetionGame})), except that the cost is now dependent on the degree of the node.
 We know that if Eq.(\ref{eq:discountstar}) is satisfied for all $i$, then the efficient and stable state is a star. But whats of interest is when some nodes reaches the critical degree.
-\subparagraph{Low critical node degree}
-It is reasonable to believe that if the critical degree is low, the probability of the resulting network being a star will be high. But as we will see, this is not the case. If we consider the variables and their values shown in (table \ref{tbl:clique}), $n-$ is the number of nodes. We see that Eq.(\ref{eq:discountstar}) is satisfied until a node is considering establish its third direct link. At this point the node has reached the critical degree, and will strictly prefer to establish direct links. This will lead to even more nodes reaching the critical degree level, and the result is that almost every node connects to every one else. Two of the resulting simulating networks with these parameters can be seen in Figure \ref{fig:discounthighdegree}. As we can see from the parameters in table \ref{tbl:clique}, the critical degree is reached when a node gets a degree of two. From degree two and up, $c<\beta-\beta^{2}$. The expected number of nodes with degree of two are $E(g=2)=10*2^{-2}=2.5$. This is when we assume that the network follow a power-law with $\gamma=2$.  This is considered as a high expected number. The same observations where seen in network with more nodes, from ten to forty.
+
+For the simulations to be realizable, we had to set the number of nodes to 20, or else the computational time was to high. For every critical degree, from three to nineteen, we ran 50 simulations, and noted the resulting network formation. The results can be seen in XXXX. And as we see from the figure, the probability of the resulting network being a star, suddenly increases from zero to 42\% at critical degree five to six, and then jumps from 42 to 70-, 86-,96-, 98- \% at critical degree six to nine. These results confirms our conjectures, and show that the discount can drastically increase the probability of the network ending up in a star. 
+From the simulations we also observed that as the critical degree is increased, the probability of the resulting network being a clique, drastically decreases. From degree seven and up, the network ended up being a scale-free or some variant of a star, with 99 \% probability.
+\subparagraph{Low critical node degree, KANSKJE FJERNE DETTE HER OG neste subpara}
+To explain why a network where the critical node degree is set to a low degree, ends up in a clique, 
+ lets consider the variables and their values shown in (table \ref{tbl:clique}), $n-$ is the number of nodes. We see that Eq.(\ref{eq:discountstar}) is satisfied until a node is considering establish its third direct link. At this point the node has reached the critical degree, and will strictly prefer to establish direct links. This will lead to even more nodes reaching the critical degree level, and the result is that almost every node connects to every one else. Two of the resulting simulating networks with these parameters can be seen in Figure \ref{fig:discounthighdegree}. As we can see from the parameters in table \ref{tbl:clique}, the critical degree is reached when a node gets a degree of two. From degree two and up, $c<\beta-\beta^{2}$. The expected number of nodes with degree of two are $E(g=2)=10*2^{-2}=2.5$. This is when we assume that the network follow a power-law with $\gamma=2$.
 \begin{table}[h]
 \centering
 \begin{tabular}{lc}
@@ -201,12 +203,11 @@ To ensure that the network will form a star, we have to find parameters such tha
 \end{subfigure}
 \caption{\label{fig:star1} Two star-network, ten- and forty-nodes, both are the result of simulations with parameters satisfying proposition \ref{prop:star}.}
 \end{figure}
-These results where confirmed by running the simulation several times, and also by running several simulations with $n \geq 10 \text{ and } n\leq 40$. In every simulation the expected number of nodes with a critical degree was set to areas between $0.2 - 0.4$. And every time it resulted in a star-topology.
+
 
 Another possibility for solving the problem with unfair costs, could be to use a shared-network cost instead. i.e. every node pays a cost equal to the total cost of the network divided on the number of nodes. 
 Similar value distribution has been analyzed by Jackson and Wolinsky in \cite{jackson1996strategic}, and is called an egalitarian allocation rule, this rule guarantees that any efficient network is also pairwise stable. But this is unfortunately a very extreme rule.
 
 
-\input{modelFromBohme}
 
 
