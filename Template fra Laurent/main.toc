@@ -39,12 +39,11 @@
 \contentsline {subsection}{\numberline {4.1.3}Cyber-insurance for cyber-security, A Topological Take on Modulating Insurance Premiums - FJERNES ETTERHVERT}{24}{subsection.4.1.3}
 \contentsline {subsection}{\numberline {4.1.4}Differentiating Cyber-insurance Contracts, a topological Perspective - FJERNES ETTERHVERT}{24}{subsection.4.1.4}
 \contentsline {section}{\numberline {4.2}Cyber insurance as an Incentive for Internet Security-PAPER fjern overskrift..}{25}{section.4.2}
-\contentsline {section}{\numberline {4.3}Networkformation}{25}{section.4.3}
-\contentsline {section}{\numberline {4.4}NOTATER!!!!! ASDASDASDASDASDASDASDASDSAD}{26}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}This was previously placed in current market }{26}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Contract structure}{26}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Economics}{27}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Epidemics}{27}{subsection.4.4.4}
+\contentsline {section}{\numberline {4.3}NOTATER!!!!! ASDASDASDASDASDASDASDASDSAD}{26}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}This was previously placed in current market }{26}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Contract structure}{26}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Economics}{27}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Epidemics}{27}{subsection.4.3.4}
 \contentsline {subsubsection}{modeling contagion}{27}{section*.22}
 \contentsline {subparagraph}{branching processes}{27}{section*.23}
 \contentsline {subparagraph}{SIR epidemic model}{28}{section*.24}
@@ -52,13 +51,13 @@
 \contentsline {subparagraph}{Model from dynamic to static(Percolation)}{28}{section*.26}
 \contentsline {subparagraph}{SIS epidemic model}{28}{section*.27}
 \contentsline {subparagraph}{SIRS Epidemic model}{29}{section*.28}
-\contentsline {subsection}{\numberline {4.4.5}Incentives and Information Security}{29}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.3.5}Incentives and Information Security}{29}{subsection.4.3.5}
 \contentsline {subparagraph}{Informational asymmetries}{29}{section*.29}
-\contentsline {subsection}{\numberline {4.4.6}Towards Insurable Network Architectures}{29}{subsection.4.4.6}
+\contentsline {subsection}{\numberline {4.3.6}Towards Insurable Network Architectures}{29}{subsection.4.3.6}
 \contentsline {subparagraph}{Interdependent security}{30}{section*.30}
 \contentsline {subparagraph}{Correlated risks}{30}{section*.31}
 \contentsline {subparagraph}{information asymmetry}{30}{section*.32}
-\contentsline {subsection}{\numberline {4.4.7}Modeling cyber-insurance: towards a unifying Framework}{30}{subsection.4.4.7}
+\contentsline {subsection}{\numberline {4.3.7}Modeling cyber-insurance: towards a unifying Framework}{30}{subsection.4.3.7}
 \contentsline {subsubsection}{Network Environment: Connected nodes}{31}{section*.33}
 \contentsline {subparagraph}{Defense function}{32}{section*.34}
 \contentsline {subparagraph}{network topology G}{32}{section*.35}
@@ -82,23 +81,23 @@
 \contentsline {subparagraph}{ICT manufacturers}{36}{section*.53}
 \contentsline {subparagraph}{Network intermediaries}{36}{section*.54}
 \contentsline {subparagraph}{security service providers}{36}{section*.55}
-\contentsline {subsection}{\numberline {4.4.8}Using this framework for a literature survey}{36}{subsection.4.4.8}
+\contentsline {subsection}{\numberline {4.3.8}Using this framework for a literature survey}{36}{subsection.4.3.8}
 \contentsline {subparagraph}{demand side}{36}{section*.56}
 \contentsline {subparagraph}{Supply side}{36}{section*.57}
 \contentsline {subparagraph}{Organizational Environment}{36}{section*.58}
 \contentsline {subparagraph}{Research Question}{36}{section*.59}
 \contentsline {subparagraph}{Discussion of models}{37}{section*.60}
-\contentsline {subsection}{\numberline {4.4.9}A novel cyber-insurance Model}{37}{subsection.4.4.9}
-\contentsline {subsection}{\numberline {4.4.10}Cyber-insurance for cyber-security, A topological Take on Modulating Insurance Premiums}{37}{subsection.4.4.10}
-\contentsline {subsection}{\numberline {4.4.11}Differentiating Cyber-insurance Contracts, a topological Perspective}{38}{subsection.4.4.11}
-\contentsline {section}{\numberline {4.5}Cyber insurance as an Incentive for Internet Security}{38}{section.4.5}
+\contentsline {subsection}{\numberline {4.3.9}A novel cyber-insurance Model}{37}{subsection.4.3.9}
+\contentsline {subsection}{\numberline {4.3.10}Cyber-insurance for cyber-security, A topological Take on Modulating Insurance Premiums}{37}{subsection.4.3.10}
+\contentsline {subsection}{\numberline {4.3.11}Differentiating Cyber-insurance Contracts, a topological Perspective}{38}{subsection.4.3.11}
+\contentsline {section}{\numberline {4.4}Cyber insurance as an Incentive for Internet Security}{38}{section.4.4}
 \contentsline {subsubsection}{Classical model for insurance}{39}{section*.61}
 \contentsline {subsubsection}{Interdependent security and insurance}{39}{section*.62}
-\contentsline {subsection}{\numberline {4.5.1}A solution to the information Asymmetry Problem}{39}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.4.1}A solution to the information Asymmetry Problem}{39}{subsection.4.4.1}
 \contentsline {subparagraph}{Cyber-insurance and asymmetry}{40}{section*.63}
-\contentsline {subsection}{\numberline {4.5.2}Model from Bohme}{41}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Related work 2 UBRUKELIG!}{42}{subsection.4.5.3}
-\contentsline {section}{\numberline {4.6}Related work 2}{44}{section.4.6}
+\contentsline {subsection}{\numberline {4.4.2}Model from Bohme}{41}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Related work 2 UBRUKELIG!}{42}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Related work 2}{44}{section.4.5}
 \contentsline {chapter}{\chapternumberline {5}Network formation: stability and efficiency}{45}{chapter.5}
 \contentsline {section}{\numberline {5.1}Survey of models of network formation: stability and efficiency}{45}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Defining Network Games}{45}{subsection.5.1.1}
