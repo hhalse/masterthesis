@@ -1,25 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  7 MAY 2013 11:12
-=======
-=======
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  7 MAY 2013 10:42
-=======
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  7 MAY 2013 11:40
->>>>>>> working
-<<<<<<< HEAD
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-=======
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  7 MAY 2013 16:32
->>>>>>> working
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  7 MAY 2013 16:33
->>>>>>> lokal
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  7 MAY 2013 16:53
 entering extended mode
 **main.tex
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.tex"
@@ -1623,37 +1602,39 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 \rot@float@box=\box72
 \rot@mess@toks=\toks59
 )
-(D:\Latex\MiKTeX\tex\latex\pgfplots\pgfplots.sty
-(D:\Latex\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgfplots\pgfplots.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.revision.tex"
+)
 Package: pgfplots 2013/03/17 v1.8 Data Visualization (1.8-3-gaf58a29)
-
-(D:\Latex\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
-(D:\Latex\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
-(D:\Latex\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
-(D:\Latex\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.te
+x"
 \pgfutil@everybye=\toks60
 )
-(D:\Latex\MiKTeX\tex\generic\pgf\utilities\pgfutil-latex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def
+"
 \pgfutil@abb=\box73
-
-(D:\Latex\MiKTeX\tex\latex\ms\everyshi.sty
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(D:\Latex\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
 Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
 ))
 Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
-
-(D:\Latex\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
-(D:\Latex\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
-(D:\Latex\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
+"
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
-
-(D:\Latex\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+"
 \pgfkeys@pathtoks=\toks61
 \pgfkeys@temptoks=\toks62
 
-(D:\Latex\MiKTeX\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.c
+ode.tex"
 \pgfkeys@tmptoks=\toks63
 ))
 \pgf@x=\dimen210
@@ -1671,32 +1652,37 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 \c@pgf@countc=\count326
 \c@pgf@countd=\count327
 
-(D:\Latex\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
 
-(D:\Latex\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.d
+ef"
 File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
 
-(D:\Latex\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-p
+df.def"
 File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 )))
-(D:\Latex\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.
+code.tex"
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
 \pgfsyssoftpath@smallbuffer@items=\count328
 \pgfsyssoftpath@bigbuffer@items=\count329
 )
-(D:\Latex\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.
+code.tex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-(D:\Latex\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
+"
 Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
-
-(D:\Latex\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
-(D:\Latex\MiKTeX\tex\generic\pgf\math\pgfmathcalc.code.tex
-(D:\Latex\MiKTeX\tex\generic\pgf\math\pgfmathutil.code.tex)
-(D:\Latex\MiKTeX\tex\generic\pgf\math\pgfmathparser.code.tex
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
+"
 \pgfmath@dimen=\dimen218
 \pgfmath@count=\count330
 \pgfmath@box=\box74
@@ -1704,18 +1690,27 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 \pgfmath@stack@operand=\toks65
 \pgfmath@stack@operation=\toks66
 )
-(D:\Latex\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.code.tex
-(D:\Latex\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex)
-(D:\Latex\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex)
-(D:\Latex\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.random.code.tex)
-(D:\Latex\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex)
-(D:\Latex\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.base.code.tex)
-(D:\Latex\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.round.code.tex)
-(D:\Latex\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex)))
-(D:\Latex\MiKTeX\tex\generic\pgf\math\pgfmathfloat.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.
+tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic
+.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigo
+nometric.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.rando
+m.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.compa
+rison.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.
+code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round
+.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.
+code.tex")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count331
 ))
-(D:\Latex\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.co
+de.tex"
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
 \pgf@picminx=\dimen219
 \pgf@picmaxx=\dimen220
@@ -1733,95 +1728,117 @@ Normal \dimen register pool exhausted, switching to extended pool.
 \pgf@zx=\dimen258
 \pgf@zy=\dimen259
 )
-(D:\Latex\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconst
+ruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
 \pgf@path@lastx=\dimen260
 \pgf@path@lasty=\dimen261
 )
-(D:\Latex\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage
+.code.tex"
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
 \pgf@shorten@end@additional=\dimen262
 \pgf@shorten@start@additional=\dimen263
 )
-(D:\Latex\MiKTeX\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.co
+de.tex"
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
 \pgfpic=\box75
 \pgf@hbox=\box76
 \pgf@layerbox@main=\box77
 \pgf@picture@serial@count=\count332
 )
-(D:\Latex\MiKTeX\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicst
+ate.code.tex"
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
 \pgflinewidth=\dimen264
 )
-(D:\Latex\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransform
+ations.code.tex"
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
 \pgf@pt@x=\dimen265
 \pgf@pt@y=\dimen266
 \pgf@pt@temp=\dimen267
 )
-(D:\Latex\MiKTeX\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.cod
+e.tex"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(D:\Latex\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.c
+ode.tex"
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(D:\Latex\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathproce
+ssing.code.tex"
 File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
 )
-(D:\Latex\MiKTeX\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.co
+de.tex"
 File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 )
-(D:\Latex\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.cod
+e.tex"
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
 \pgf@max=\dimen268
 \pgf@sys@shading@range@num=\count333
 )
-(D:\Latex\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.cod
+e.tex"
 File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 
-(D:\Latex\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.
+code.tex"
 File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
 \pgfexternal@startupbox=\box78
 ))
-(D:\Latex\MiKTeX\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.co
+de.tex"
 File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
 )
-(D:\Latex\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretranspare
+ncy.code.tex"
 File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
 )
-(D:\Latex\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.
+code.tex"
 File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 )))
-(D:\Latex\MiKTeX\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.cod
+e.tex"
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
 \pgfnodeparttextbox=\box79
 )
-(D:\Latex\MiKTeX\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.
+tex"
 File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
-(D:\Latex\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
+-0-65.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen269
 \pgf@nodesepend=\dimen270
 )
-(D:\Latex\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
+-1-18.sty"
 Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 ))
-(D:\Latex\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
-(D:\Latex\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
-(D:\Latex\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex))
-(D:\Latex\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
+)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.te
+x"
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
 \pgffor@iter=\dimen271
 \pgffor@skip=\dimen272
 \pgffor@stack=\toks67
 \pgffor@toks=\toks68
 ))
-(D:\Latex\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.cod
+e.tex"
 Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 
-(D:\Latex\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothan
+dlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \pgf@plot@mark@count=\count334
 \pgfplotmarksize=\dimen273
@@ -1839,7 +1856,8 @@ File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \tikznumberofcurrentchild=\count337
 \tikz@fig@count=\count338
 
-(D:\Latex\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.cod
+e.tex"
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 \pgfmatrixcurrentrow=\count339
 \pgfmatrixcurrentcolumn=\count340
@@ -1847,11 +1865,12 @@ File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 )
 \tikz@expandcount=\count342
 
-(D:\Latex\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopath
-s.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
-))) (D:\Latex\MiKTeX\tex\generic\pgfplots\pgfplots.code.tex
-(D:\Latex\MiKTeX\tex\generic\pgfplots\pgfplotscore.code.tex
+)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplotscore.code.tex"
 \t@pgfplots@toka=\toks69
 \t@pgfplots@tokb=\toks70
 \t@pgfplots@tokc=\toks71
@@ -1859,82 +1878,102 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
 \c@pgfplots@coordindex=\count343
 \c@pgfplots@scanlineindex=\count344
 
-(D:\Latex\MiKTeX\tex\generic\pgfplots\sys\pgfplotssysgeneric.code.tex))
-(D:\Latex\MiKTeX\tex\generic\pgfplots\libs\pgfplotslibrary.code.tex)
-(D:\Latex\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_loader.
-code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\sys\pgfplotssysgeneric
+.code.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\libs\pgfplotslibrary.c
+ode.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
+soldpgfsupp_loader.code.tex"
 Package pgfplots: loading complementary code for your PGF version...
 
-(D:\Latex\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_misc.co
-de.tex)
-(D:\Latex\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_pgfkeys
-.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
+soldpgfsupp_misc.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
+soldpgfsupp_pgfkeys.code.tex"
 \pgfkeys@pathtoks=\toks72
 \pgfkeys@temptoks=\toks73
 
-(D:\Latex\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_pgfkeys
-filtered.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
+soldpgfsupp_pgfkeysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks74
 ))
-(D:\Latex\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_pgfmath
-float.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
+soldpgfsupp_pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count345
 )
-(D:\Latex\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_pgflibr
-aryplothandlers.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
+soldpgfsupp_pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2012/09/11 v2.10 (rcs-revision 1.17)
 \pgf@plot@mark@count=\count346
 \pgfplotmarksize=\dimen281
 )
-(D:\Latex\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_pgflibr
-aryfpu.code.tex)
-(D:\Latex\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_pgfcore
-scopes.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
+soldpgfsupp_pgflibraryfpu.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
+soldpgfsupp_pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2012/11/30  (rcs-revision 1.38)
 \pgfpic=\box82
 \pgf@hbox=\box83
 \pgf@layerbox@main=\box84
 \pgf@picture@serial@count=\count347
 )
-(D:\Latex\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_pgfcore
-layers.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\oldpgfcompatib\pgfplot
+soldpgfsupp_pgfcorelayers.code.tex"
 File: pgfcorelayers.code.tex 2012/11/07  (rcs-revision 1.5)
 ))
-(D:\Latex\MiKTeX\tex\generic\pgfplots\util\pgfplotsutil.code.tex
-(D:\Latex\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsliststructure.code.
-tex)
-(D:\Latex\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsliststructureext.co
-de.tex)
-(D:\Latex\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsarray.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotsutil.code
+.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplots
+liststructure.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplots
+liststructureext.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplots
+array.code.tex"
 \c@pgfplotsarray@tmp=\count348
 )
-(D:\Latex\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsmatrix.code.tex)
-(D:\Latex\MiKTeX\tex\generic\pgfplots\numtable\pgfplotstableshared.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplots
+matrix.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\numtable\pgfplotstable
+shared.code.tex"
 \c@pgfplotstable@counta=\count349
 \t@pgfplotstable@a=\toks75
 )
-(D:\Latex\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsdeque.code.tex)
-(D:\Latex\MiKTeX\tex\generic\pgfplots\util\pgfplotsbinary.code.tex
-(D:\Latex\MiKTeX\tex\generic\pgfplots\util\pgfplotsbinary.data.code.tex))
-(D:\Latex\MiKTeX\tex\generic\pgfplots\util\pgfplotsutil.verb.code.tex)
-(D:\Latex\MiKTeX\tex\generic\pgfplots\libs\pgflibrarypgfplots.surfshading.code.
-tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\liststructure\pgfplots
+deque.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotsbinary.co
+de.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotsbinary.da
+ta.code.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotsutil.verb
+.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\libs\pgflibrarypgfplot
+s.surfshading.code.tex"
 \c@pgfplotslibrarysurf@no=\count350
 
-(D:\Latex\MiKTeX\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfshading.pgfsys
--pdftex.def)))
-(D:\Latex\MiKTeX\tex\generic\pgfplots\util\pgfplotscolormap.code.tex
-(D:\Latex\MiKTeX\tex\generic\pgfplots\util\pgfplotscolor.code.tex))
-(D:\Latex\MiKTeX\tex\generic\pgfplots\pgfplotsstackedplots.code.tex)
-(D:\Latex\MiKTeX\tex\generic\pgfplots\pgfplotsplothandlers.code.tex
-(D:\Latex\MiKTeX\tex\generic\pgfplots\pgfplotsmeshplothandler.code.tex))
-(D:\Latex\MiKTeX\tex\generic\pgfplots\pgfplots.scaling.code.tex)
-(D:\Latex\MiKTeX\tex\generic\pgfplots\pgfplotscoordprocessing.code.tex)
-(D:\Latex\MiKTeX\tex\generic\pgfplots\pgfplotsticks.code.tex)
-(D:\Latex\MiKTeX\tex\generic\pgfplots\pgfplots.paths.code.tex)
-(D:\Latex\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecora
-tions.code.tex
-(D:\Latex\MiKTeX\tex\generic\pgf\modules\pgfmoduledecorations.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\sys\pgflibrarypgfplots
+.surfshading.pgfsys-pdftex.def")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotscolormap.
+code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\util\pgfplotscolor.cod
+e.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsstackedplots.c
+ode.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsplothandlers.c
+ode.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsmeshplothandle
+r.code.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.scaling.code.
+tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplotscoordprocessin
+g.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplotsticks.code.tex
+")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.paths.code.te
+x")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarydecorations.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduledecoration
+s.code.tex"
 \pgfdecoratedcompleteddistance=\dimen282
 \pgfdecoratedremainingdistance=\dimen283
 \pgfdecoratedinputsegmentcompleteddistance=\dimen284
@@ -1946,14 +1985,14 @@ tions.code.tex
 )
 \tikz@lib@dec@box=\box85
 )
-(D:\Latex\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecora
-tions.pathmorphing.code.tex
-(D:\Latex\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pa
-thmorphing.code.tex))
-(D:\Latex\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecora
-tions.pathreplacing.code.tex
-(D:\Latex\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pa
-threplacing.code.tex))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarydecorations.pathmorphing.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgfli
+brarydecorations.pathmorphing.code.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibrarydecorations.pathreplacing.code.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgfli
+brarydecorations.pathreplacing.code.tex"))
 \pgfplots@numplots=\count352
 \pgfplots@xmin@reg=\dimen289
 \pgfplots@xmax@reg=\dimen290
@@ -1962,22 +2001,22 @@ threplacing.code.tex))
 \pgfplots@zmin@reg=\dimen293
 \pgfplots@zmax@reg=\dimen294
 )
-(D:\Latex\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryplotma
-rks.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
+s\tikzlibraryplotmarks.code.tex"
 File: tikzlibraryplotmarks.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 
-(D:\Latex\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplotmar
+ks.code.tex"
 File: pgflibraryplotmarks.code.tex 2010/10/15 v2.10 (rcs-revision 1.12)
 )))
 \c@cnj=\count353
 
-<<<<<<< HEAD
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\glossary.tex"
 )
-\glo@main@file=\write5
-Package glossaries Info: Writing glossary file main.glo on input line 22.
-\glo@acronym@file=\write6
-Package glossaries Info: Writing glossary file main.acn on input line 22.
+\glo@main@file=\write6
+Package glossaries Info: Writing glossary file main.glo on input line 24.
+\glo@acronym@file=\write7
+Package glossaries Info: Writing glossary file main.acn on input line 24.
  ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.aux"
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\abstract_engl
 ish.aux")
@@ -1991,12 +2030,8 @@ state.aux")
 ux")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork.a
 ux")
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork2.
-aux")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\surveyofnetwo
 rkformations.aux")
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\networkgames.
-aux")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\modelingCyber
 Insurance.aux")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\SummaryOfResu
@@ -2005,42 +2040,6 @@ lts.aux")
 shold.aux")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\futurework.au
 x"))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 24.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
-=======
-("D:\GITREPO\masterthesis\Template fra Laurent\glossary.tex")
-\glo@main@file=\write6
-Package glossaries Info: Writing glossary file main.glo on input line 24.
-\glo@acronym@file=\write7
-Package glossaries Info: Writing glossary file main.acn on input line 24.
-
-("D:\GITREPO\masterthesis\Template fra Laurent\main.aux"
-("D:\GITREPO\masterthesis\Template fra Laurent\abstract_english.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\preface.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\introductionToCyberInsurance.aux
-") ("D:\GITREPO\masterthesis\Template fra Laurent\currentmarketstate.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\graphTheory.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\surveyofnetworkformations.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\networkgames.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\methodology.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\SummaryOfResults.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\modellingThreshold.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\futurework.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
@@ -2055,9 +2054,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 26.
-
-(D:\Latex\MiKTeX\tex\latex\base\ts1cmr.fd
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 26.
@@ -2105,25 +2102,12 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-<<<<<<< HEAD
-LaTeX Info: Redefining \nameref on input line 24.
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.out")
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.out")
-\@outlinefile=\write7
-\c@lstlisting=\count332
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: rotating package is loaded.
-Package caption Info: End \AtBeginDocument code.
-=======
 LaTeX Info: Redefining \nameref on input line 26.
 LaTeX Info: Redefining \ref on input line 26.
 LaTeX Info: Redefining \pageref on input line 26.
 LaTeX Info: Redefining \nameref on input line 26.
-("D:\GITREPO\masterthesis\Template fra Laurent\main.out")
-("D:\GITREPO\masterthesis\Template fra Laurent\main.out")
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.out")
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.out")
 \@outlinefile=\write8
 \c@lstlisting=\count361
 Package caption Info: Begin \AtBeginDocument code.
@@ -2136,9 +2120,6 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.8} into y
 our preamble.
  on input line 26.
-
-[1
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
 
 [1
 
@@ -2164,31 +2145,12 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [7]
-[8]
-Overfull \hbox (0.40538pt too wide) in paragraph at lines 171--171
-<<<<<<< HEAD
-=======
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 24.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 24.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 24.
- [7] [8]
-<<<<<<< HEAD
-Overfull \hbox (0.40538pt too wide) in paragraph at lines 179--179
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-Overfull \hbox (0.40538pt too wide) in paragraph at lines 182--182
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
->>>>>>> lokal
+Overfull \hbox (0.40538pt too wide) in paragraph at lines 172--172
  [][] [][][]\T1/lmr/m/n/10 (-20) DETTE ET AN-NET STED KAN-SKJE? BLIR LITT RART 
 � HOPPE 
  []
 
-) [9] [10
+[8]) [9] [10
 
 ]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.lof"
@@ -2196,8 +2158,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
 
-LaTeX Warning: Reference `tbl:stablestar' on page xii undefined on input line 3
-0.
+LaTeX Warning: Reference `tbl:stablestar' on page xii undefined on input line 2
+9.
 
 ) [12]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.lot")
@@ -2238,22 +2200,7 @@ Underfull \vbox (badness 5592) has occurred while \output is active []
  [9]
 [10]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\graphTheory.t
-<<<<<<< HEAD
-ex" <../Figures/generalGraph.png, id=679, 266.49562pt x 328.97906pt>
-=======
-[10] [11
-
-
-] [12] ("D:\GITREPO\masterthesis\Template fra Laurent\graphTheory.tex"
-<<<<<<< HEAD
-<../Figures/generalGraph.png, id=719, 266.49562pt x 328.97906pt>
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-<../Figures/generalGraph.png, id=731, 266.49562pt x 328.97906pt>
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-ex" <../Figures/generalGraph.png, id=658, 266.49562pt x 328.97906pt>
->>>>>>> lokal
+ex" <../Figures/generalGraph.png, id=660, 266.49562pt x 328.97906pt>
 File: ../Figures/generalGraph.png Graphic file (type png)
 
 <use ../Figures/generalGraph.png>
@@ -2268,19 +2215,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [12 <C:/Users/Håvard/masterthesis/masterthesis/Figures/generalGraph.png>] <.
-<<<<<<< HEAD
-./Figures/ABgraphcreation.png, id=700, 395.97937pt x 268.75406pt>
-=======
-] [14 <D:/GITREPO/masterthesis/Figures/generalGraph.png>]
-<<<<<<< HEAD
-<../Figures/ABgraphcreation.png, id=739, 395.97937pt x 268.75406pt>
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-<../Figures/ABgraphcreation.png, id=751, 395.97937pt x 268.75406pt>
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-./Figures/ABgraphcreation.png, id=679, 395.97937pt x 268.75406pt>
->>>>>>> lokal
+./Figures/ABgraphcreation.png, id=681, 395.97937pt x 268.75406pt>
 File: ../Figures/ABgraphcreation.png Graphic file (type png)
 
 <use ../Figures/ABgraphcreation.png>
@@ -2290,19 +2225,7 @@ Package pdftex.def Info: ../Figures/ABgraphcreation.png used on input line 60.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-[13] <../Figures/greekStockMarket.jpg, id=710, 465.59787pt x 322.97655pt>
-=======
-[15] <../Figures/greekStockMarket.jpg, id=749, 465.59787pt x 322.97655pt>
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-[15] <../Figures/greekStockMarket.jpg, id=761, 465.59787pt x 322.97655pt>
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-[13] <../Figures/greekStockMarket.jpg, id=689, 465.59787pt x 322.97655pt>
->>>>>>> lokal
+[13] <../Figures/greekStockMarket.jpg, id=691, 465.59787pt x 322.97655pt>
 File: ../Figures/greekStockMarket.jpg Graphic file (type jpg)
 
 <use ../Figures/greekStockMarket.jpg>
@@ -2311,20 +2234,7 @@ Package pdftex.def Info: ../Figures/greekStockMarket.jpg used on input line 80.
 (pdftex.def)             Requested size: 364.0pt x 252.49727pt.
  [14 <C:/Users/Håvard/masterthesis/masterthesis/Figures/ABgraphcreation.png>] 
 [15 <C:/Users/Håvard/masterthesis/masterthesis/Figures/greekStockMarket.jpg>]
-<<<<<<< HEAD
-<../Figures/airlineRoutesUSA.png, id=728, 663.22781pt x 383.93437pt>
-=======
- [16 <D:/GITREPO/masterthesis/Figures/ABgraphcreation.png>] [17 <D:/GITREPO/mas
-terthesis/Figures/greekStockMarket.jpg>]
-<<<<<<< HEAD
-<../Figures/airlineRoutesUSA.png, id=768, 663.22781pt x 383.93437pt>
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-<../Figures/airlineRoutesUSA.png, id=780, 663.22781pt x 383.93437pt>
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-<../Figures/airlineRoutesUSA.png, id=707, 663.22781pt x 383.93437pt>
->>>>>>> lokal
+<../Figures/airlineRoutesUSA.png, id=709, 663.22781pt x 383.93437pt>
 File: ../Figures/airlineRoutesUSA.png Graphic file (type png)
 
 <use ../Figures/airlineRoutesUSA.png>
@@ -2334,60 +2244,21 @@ Package pdftex.def Info: ../Figures/airlineRoutesUSA.png used on input line 93.
 
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\nature.tex"
 [16 <C:/Users/Håvard/masterthesis/masterthesis/Figures/airlineRoutesUSA.png>]
-<<<<<<< HEAD
-[17] <../Figures/aStar.png, id=752, 235.63031pt x 222.07968pt>
-=======
-("D:\GITREPO\masterthesis\Template fra Laurent\nature.tex" [18 <D:/GITREPO/mast
-erthesis/Figures/airlineRoutesUSA.png>] [19]
-<<<<<<< HEAD
-<../Figures/aStar.png, id=791, 235.63031pt x 222.07968pt>
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-<../Figures/aStar.png, id=803, 235.63031pt x 222.07968pt>
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-[17] <../Figures/aStar.png, id=732, 235.63031pt x 222.07968pt>
->>>>>>> lokal
+[17] <../Figures/aStar.png, id=734, 235.63031pt x 222.07968pt>
 File: ../Figures/aStar.png Graphic file (type png)
 
 <use ../Figures/aStar.png>
 Package pdftex.def Info: ../Figures/aStar.png used on input line 44.
 (pdftex.def)             Requested size: 182.0pt x 171.53389pt.
-<<<<<<< HEAD
-<<<<<<< HEAD
- [18 <C:/Users/Håvard/masterthesis/masterthesis/Figures/aStar.png>]
-<./figs/optimalequilibrium.png, id=770, 784.9325pt x 717.68124pt>
-=======
- [20 <D:/GITREPO/masterthesis/Figures/aStar.png>]
-<<<<<<< HEAD
-<./figs/optimalequilibrium.png, id=809, 784.9325pt x 717.68124pt>
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-<./figs/optimalequilibrium.png, id=821, 784.9325pt x 717.68124pt>
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
  [18 <C:/Users/Håvard/masterthesis/masterthesis/Figures/aStar.png>] [19]
-<./figs/optimalequilibrium.png, id=759, 784.9325pt x 717.68124pt>
->>>>>>> lokal
+<./figs/optimalequilibrium.png, id=761, 784.9325pt x 717.68124pt>
 File: ./figs/optimalequilibrium.png Graphic file (type png)
 
 <use ./figs/optimalequilibrium.png>
 Package pdftex.def Info: ./figs/optimalequilibrium.png used on input line 94.
 (pdftex.def)             Requested size: 116.47865pt x 106.4977pt.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<./figs/notoptimalequilibrium.png, id=771, 784.9325pt x 717.68124pt>
-=======
-<./figs/notoptimalequilibrium.png, id=810, 784.9325pt x 717.68124pt>
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-<./figs/notoptimalequilibrium.png, id=822, 784.9325pt x 717.68124pt>
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-<./figs/notoptimalequilibrium.png, id=760, 784.9325pt x 717.68124pt>
->>>>>>> lokal
+<./figs/notoptimalequilibrium.png, id=762, 784.9325pt x 717.68124pt>
 File: ./figs/notoptimalequilibrium.png Graphic file (type png)
 
 <use ./figs/notoptimalequilibrium.png>
@@ -2403,39 +2274,7 @@ ex" [22
 
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-[19] [20 <C:/Users/Håvard/masterthesis/masterthesis/Template fra Laurent/figs/
-optimalequilibrium.png> <C:/Users/Håvard/masterthesis/masterthesis/Template fr
-a Laurent/figs/notoptimalequilibrium.png>]
-<natureGameSingle.png, id=793, 198.7425pt x 174.6525pt>
-=======
-[21] [22 <D:/GITREPO/masterthesis/Template fra Laurent/figs/optimalequilibrium.
-png> <D:/GITREPO/masterthesis/Template fra Laurent/figs/notoptimalequilibrium.p
-<<<<<<< HEAD
-ng>] <natureGameSingle.png, id=832, 198.7425pt x 174.6525pt>
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-ng>] <natureGameSingle.png, id=844, 198.7425pt x 174.6525pt>
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-File: natureGameSingle.png Graphic file (type png)
-
-<use natureGameSingle.png>
-Package pdftex.def Info: natureGameSingle.png used on input line 115.
-(pdftex.def)             Requested size: 182.0pt x 159.94405pt.
-) [21 <C:/Users/Håvard/masterthesis/masterthesis/Template fra Laurent/natureGa
-meSingle.png>]
-Overfull \hbox (108.02776pt too wide) in paragraph at lines 103--105
-[]\T1/lmr/m/n/10 (-20) NOTES!!! Geek stock-mar-ket graph: http://www.sciencedir
-ect.com/science/article/pii/S037843710700221X 
- []
-
-) [22]
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork.t
-ex"
-=======
 ]
->>>>>>> lokal
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedworkFi
 nal.tex"
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2459,56 +2298,19 @@ Underfull \vbox (badness 1484) has occurred while \output is active []
 [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\modelFromBohm
 e.tex" [41]) [42]) [43]
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork2.
-tex") [44
-
-
-]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\surveyofnetwo
-rkformations.tex" [45
+rkformations.tex" [44
 
 
 
-]) [46]
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\networkgames.
-tex"
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [47
-
-
-
-])
-[48]
+] [45]) [46]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\modelingCyber
-<<<<<<< HEAD
-Insurance.tex"
-<../Figures/modeloverview.png, id=1022, 462.22687pt x 355.3275pt>
-=======
-]
-[51] [52]
-("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance.tex"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<../Figures/modeloverview.png, id=1076, 462.22687pt x 355.3275pt>
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-File: ../Figures/modeloverview.png Graphic file (type png)
-
-<use ../Figures/modeloverview.png>
-Package pdftex.def Info: ../Figures/modeloverview.png used on input line 15.
-=======
-<../Figures/modeloverview.png, id=1070, 462.22687pt x 355.3275pt>
-=======
-<../Figures/modeloverview.png, id=1082, 462.22687pt x 355.3275pt>
->>>>>>> working
-=======
-Insurance.tex" [49
+Insurance.tex" [47
 
 
 
 ]
-<../Figures/modeloverview.png, id=1008, 462.22687pt x 355.3275pt>
->>>>>>> lokal
+<../Figures/modeloverview.png, id=999, 462.22687pt x 355.3275pt>
 File: ../Figures/modeloverview.png Graphic file (type png)
 
 <use ../Figures/modeloverview.png>
@@ -2518,31 +2320,11 @@ Package pdftex.def Info: ../Figures/modeloverview.png used on input line 27.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[50]
+[48]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< HEAD
-] [50 <C:/Users/Håvard/masterthesis/masterthesis/Figures/modeloverview.png>]
-<../Figures/firstModelWithNoParameters1.png, id=1035, 143.78719pt x 144.54pt>
-=======
-] [54 <D:/GITREPO/masterthesis/Figures/modeloverview.png>]
-<<<<<<< HEAD
-<<<<<<< HEAD
-<../Figures/firstModelWithNoParameters1.png, id=1090, 143.78719pt x 144.54pt>
-=======
-<../Figures/firstModelWithNoParameters1.png, id=1085, 143.78719pt x 144.54pt>
->>>>>>> working
-<<<<<<< HEAD
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-=======
-<../Figures/firstModelWithNoParameters1.png, id=1097, 143.78719pt x 144.54pt>
->>>>>>> working
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
- [51 <C:/Users/Håvard/masterthesis/masterthesis/Figures/modeloverview.png>]
-<../Figures/firstModelWithNoParameters1.png, id=1022, 143.78719pt x 144.54pt>
->>>>>>> lokal
+ [49 <C:/Users/Håvard/masterthesis/masterthesis/Figures/modeloverview.png>]
+<../Figures/firstModelWithNoParameters1.png, id=1013, 143.78719pt x 144.54pt>
 File: ../Figures/firstModelWithNoParameters1.png Graphic file (type png)
 
 <use ../Figures/firstModelWithNoParameters1.png>
@@ -2550,11 +2332,7 @@ Package pdftex.def Info: ../Figures/firstModelWithNoParameters1.png used on inp
 ut line 47.
 (pdftex.def)             Requested size: 72.79889pt x 73.18068pt.
 
-<<<<<<< HEAD
-<../Figures/firstModelWithNoParameters2.png, id=1098, 184.43906pt x 99.37125pt>
-=======
-<../Figures/firstModelWithNoParameters2.png, id=1023, 184.43906pt x 99.37125pt>
->>>>>>> lokal
+<../Figures/firstModelWithNoParameters2.png, id=1014, 184.43906pt x 99.37125pt>
 File: ../Figures/firstModelWithNoParameters2.png Graphic file (type png)
 <use ../Figures/firstModelWithNoParameters2.png>
 Package pdftex.def Info: ../Figures/firstModelWithNoParameters2.png used on inp
@@ -2563,7 +2341,7 @@ ut line 53.
 
 Underfull \vbox (badness 1286) has occurred while \output is active []
 
- [52 <C:/Users/Håvard/masterthesis/masterthesis/Figures/firstModelWithNoParame
+ [50 <C:/Users/Håvard/masterthesis/masterthesis/Figures/firstModelWithNoParame
 ters1.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/firstModelWithNo
 Parameters2.png>]
 
@@ -2571,55 +2349,19 @@ Package caption Warning: \label without proper \caption on input line 82.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tbl:simplegamepara' on page 53 undefined on input lin
+LaTeX Warning: Reference `tbl:simplegamepara' on page 51 undefined on input lin
 e 71.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<../Figures/FirstGameWithParameters.png, id=1097, 1220.30907pt x 344.03531pt>
->>>>>>> working
-<<<<<<< HEAD
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-=======
-<../Figures/FirstGameWithParameters.png, id=1109, 1220.30907pt x 344.03531pt>
->>>>>>> working
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-<../Figures/FirstGameWithParameters.png, id=1034, 1220.30907pt x 344.03531pt>
->>>>>>> lokal
+<../Figures/FirstGameWithParameters.png, id=1025, 1220.30907pt x 344.03531pt>
 File: ../Figures/FirstGameWithParameters.png Graphic file (type png)
 
 <use ../Figures/FirstGameWithParameters.png>
 Package pdftex.def Info: ../Figures/FirstGameWithParameters.png used on input l
 ine 90.
 (pdftex.def)             Requested size: 550.0pt x 155.06119pt.
- [53] [54 <C:/Users/Håvard/masterthesis/masterthesis/Figures/FirstGameWithPara
+ [51] [52 <C:/Users/Håvard/masterthesis/masterthesis/Figures/FirstGameWithPara
 meters.png>]
-<<<<<<< HEAD
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\stackelberg.t
-ex" <../Figures/stackelberggame.png, id=1063, 855.94781pt x 761.09344pt>
-=======
- [56] [57 <D:/GITREPO/masterthesis/Figures/FirstGameWithParameters.png>]
-("D:\GITREPO\masterthesis\Template fra Laurent\stackelberg.tex"
-<../Figures/stackelberggame.png, id=1117, 855.94781pt x 761.09344pt>
-=======
-ine 78.
-(pdftex.def)             Requested size: 550.0pt x 155.06119pt.
- [56] [57] [58 <D:/GITREPO/masterthesis/Figures/FirstGameWithParameters.png>]
-<<<<<<< HEAD
-<../Figures/stackelberggame.png, id=1121, 855.94781pt x 761.09344pt>
->>>>>>> working
-<<<<<<< HEAD
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-=======
-<../Figures/stackelberggame.png, id=1133, 855.94781pt x 761.09344pt>
->>>>>>> working
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-<../Figures/stackelberggame.png, id=1053, 855.94781pt x 761.09344pt>
->>>>>>> lokal
+<../Figures/stackelberggame.png, id=1043, 855.94781pt x 761.09344pt>
 File: ../Figures/stackelberggame.png Graphic file (type png)
 
 <use ../Figures/stackelberggame.png>
@@ -2630,402 +2372,122 @@ Package pdftex.def Info: ../Figures/stackelberggame.png used on input line 116.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[55] [56 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stackelberggame.pn
-g>] [57]
+[53] [54 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stackelberggame.pn
+g>] [55]
 
-<<<<<<< HEAD
-LaTeX Warning: Reference `eq:' on page 62 undefined on input line 202.
+LaTeX Warning: Reference `eq:' on page 56 undefined on input line 214.
 
-<<<<<<< HEAD
-[62] <../Figures/FirstSimulationStart.png, id=1175, 219.82124pt x 210.7875pt>
->>>>>>> working
-<<<<<<< HEAD
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-=======
-[62] <../Figures/FirstSimulationStart.png, id=1186, 219.82124pt x 210.7875pt>
->>>>>>> working
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-LaTeX Warning: Reference `eq:' on page 58 undefined on input line 212.
-
-[58] <../Figures/FirstSimulationStart.png, id=1103, 219.82124pt x 210.7875pt>
->>>>>>> lokal
+[56] <../Figures/FirstSimulationStart.png, id=1095, 219.82124pt x 210.7875pt>
 File: ../Figures/FirstSimulationStart.png Graphic file (type png)
 
 <use ../Figures/FirstSimulationStart.png>
 Package pdftex.def Info: ../Figures/FirstSimulationStart.png used on input line
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
- 216.
+ 242.
 (pdftex.def)             Requested size: 72.79889pt x 69.80452pt.
 
-<<<<<<< HEAD
-<../Figures/FirstSimulationResult.png, id=1114, 375.65344pt x 240.14719pt>
-=======
-<../Figures/FirstSimulationResult.png, id=1169, 375.65344pt x 240.14719pt>
-=======
- 228.
-(pdftex.def)             Requested size: 72.79889pt x 69.80452pt.
-
-<../Figures/FirstSimulationResult.png, id=1176, 375.65344pt x 240.14719pt>
->>>>>>> working
-<<<<<<< HEAD
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-=======
- 230.
-(pdftex.def)             Requested size: 72.79889pt x 69.80452pt.
-
-<../Figures/FirstSimulationResult.png, id=1187, 375.65344pt x 240.14719pt>
->>>>>>> working
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
- 240.
-(pdftex.def)             Requested size: 72.79889pt x 69.80452pt.
-
-<../Figures/FirstSimulationResult.png, id=1104, 375.65344pt x 240.14719pt>
->>>>>>> lokal
+<../Figures/FirstSimulationResult.png, id=1096, 375.65344pt x 240.14719pt>
 File: ../Figures/FirstSimulationResult.png Graphic file (type png)
 
 <use ../Figures/FirstSimulationResult.png>
 Package pdftex.def Info: ../Figures/FirstSimulationResult.png used on input lin
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-e 222.
-=======
-e 246.
->>>>>>> lokal
+e 248.
 (pdftex.def)             Requested size: 133.95445pt x 85.63576pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<<<<<<< HEAD
-<../Figures/FirstSimulationViolatingResult.png, id=1184, 204.765pt x 194.97844p
->>>>>>> working
-<<<<<<< HEAD
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-=======
-e 236.
-(pdftex.def)             Requested size: 133.95445pt x 85.63576pt.
-
-<../Figures/FirstSimulationViolatingResult.png, id=1195, 204.765pt x 194.97844p
->>>>>>> working
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-<../Figures/FirstSimulationViolatingResult.png, id=1112, 204.765pt x 194.97844p
->>>>>>> lokal
+<../Figures/FirstSimulationViolatingResult.png, id=1104, 204.765pt x 194.97844p
 t>
 File: ../Figures/FirstSimulationViolatingResult.png Graphic file (type png)
  <use ../Figures/FirstSimulationViolatingResult.png>
 Package pdftex.def Info: ../Figures/FirstSimulationViolatingResult.png used on 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-input line 236.
+input line 263.
 (pdftex.def)             Requested size: 72.79889pt x 69.32047pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 238.
+(Font)              <9> on input line 265.
 
-<<<<<<< HEAD
-<../Figures/SimulationViolating2.png, id=1133, 238.64156pt x 223.58531pt>
-=======
-<../Figures/SimulationViolating2.png, id=1188, 238.64156pt x 223.58531pt>
-=======
-input line 248.
-=======
-input line 251.
->>>>>>> working
-(pdftex.def)             Requested size: 72.79889pt x 69.32047pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 253.
-
-<<<<<<< HEAD
-<../Figures/SimulationViolating2.png, id=1187, 238.64156pt x 223.58531pt>
->>>>>>> working
-<<<<<<< HEAD
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-=======
-<../Figures/SimulationViolating2.png, id=1198, 238.64156pt x 223.58531pt>
->>>>>>> working
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-input line 260.
-(pdftex.def)             Requested size: 72.79889pt x 69.32047pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 262.
-
-<../Figures/SimulationViolating2.png, id=1115, 238.64156pt x 223.58531pt>
->>>>>>> lokal
+<../Figures/SimulationViolating2.png, id=1107, 238.64156pt x 223.58531pt>
 File: ../Figures/SimulationViolating2.png Graphic file (type png)
 
 <use ../Figures/SimulationViolating2.png>
 Package pdftex.def Info: ../Figures/SimulationViolating2.png used on input line
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
- 243.
-=======
- 255.
->>>>>>> working
-=======
- 258.
->>>>>>> working
-=======
- 267.
->>>>>>> lokal
+ 270.
 (pdftex.def)             Requested size: 66.97595pt x 62.75015pt.
- [59]
+ [57]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\model2Extenti
-on.tex" [60 <C:/Users/Håvard/masterthesis/masterthesis/Figures/FirstSimulation
+on.tex" [58 <C:/Users/Håvard/masterthesis/masterthesis/Figures/FirstSimulation
 Start.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/FirstSimulationR
-<<<<<<< HEAD
-esult.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [60 <C:/Users/Håvard/masterthesis/masterthesis/Figures/FirstSimulationViolati
-ngResult.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/SimulationVio
-lating2.png>]) [61]
-=======
-("D:\GITREPO\masterthesis\Template fra Laurent\model2Extention.tex" [63 <D:/GIT
-REPO/masterthesis/Figures/FirstSimulationStart.png> <D:/GITREPO/masterthesis/Fi
-<<<<<<< HEAD
-gures/FirstSimulationResult.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [64 <D:/GITREPO/masterthesis/Figures/FirstSimulationViolatingResult.png> <D:/G
-ITREPO/masterthesis/Figures/SimulationViolating2.png>]) [65]
-=======
-gures/FirstSimulationResult.png>] [64 <D:/GITREPO/masterthesis/Figures/FirstSim
-ulationViolatingResult.png> <D:/GITREPO/masterthesis/Figures/SimulationViolatin
-g2.png>]) [65]
->>>>>>> working
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<<<<<<< HEAD
- [62]
-[63] [64]
-<../Figures/BonusGameInsuredClique.png, id=1207, 354.57469pt x 177.66376pt>
-=======
- [66]
-[67] [68]
-<../Figures/BonusGameInsuredClique.png, id=1273, 354.57469pt x 177.66376pt>
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
 esult.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/FirstSimulationV
 iolatingResult.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/Simulat
 ionViolating2.png>]
 Underfull \vbox (badness 4205) has occurred while \output is active []
 
- [61])
-[62] [63] [64] [65]
-<../Figures/BonusGameInsuredClique.png, id=1197, 354.57469pt x 177.66376pt>
->>>>>>> lokal
+ [59])
+[60] [61] [62] [63]
+<../Figures/BonusGameInsuredClique.png, id=1190, 354.57469pt x 177.66376pt>
 File: ../Figures/BonusGameInsuredClique.png Graphic file (type png)
 
 <use ../Figures/BonusGameInsuredClique.png>
 Package pdftex.def Info: ../Figures/BonusGameInsuredClique.png used on input li
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-ne 386.
-=======
-ne 398.
->>>>>>> working
-=======
-ne 404.
->>>>>>> working
+ne 416.
 (pdftex.def)             Requested size: 291.20111pt x 145.91293pt.
-
-
-<<<<<<< HEAD
- [65]
-<../Figures/BonusGameViolating.png, id=1219, 349.305pt x 204.01219pt>
-=======
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[69] <../Figures/BonusGameViolating.png, id=1285, 349.305pt x 204.01219pt>
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-ne 410.
-(pdftex.def)             Requested size: 291.20111pt x 145.91293pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<../Figures/BonusGameViolating.png, id=1201, 349.305pt x 204.01219pt>
->>>>>>> lokal
+ [64 <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameInsuredClique
+.png>]
+<../Figures/BonusGameViolating.png, id=1202, 349.305pt x 204.01219pt>
 File: ../Figures/BonusGameViolating.png Graphic file (type png)
 
 <use ../Figures/BonusGameViolating.png>
 Package pdftex.def Info: ../Figures/BonusGameViolating.png used on input line 4
-<<<<<<< HEAD
-<<<<<<< HEAD
-08.
->>>>>>> working
-=======
-15.
->>>>>>> working
-=======
-20.
->>>>>>> lokal
+27.
 (pdftex.def)             Requested size: 291.20111pt x 170.08652pt.
- [66] [67 <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameInsuredC
-lique.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameViolati
-ng.png>] [68]
-Underfull \vbox (badness 1874) has occurred while \output is active []
+ [65 <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameViolating.png
+>] [66] [67]
 
- [69]
-[70]
+LaTeX Warning: Reference `eq:eq:conditionitoi' on page 68 undefined on input li
+ne 538.
 
-<<<<<<< HEAD
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<<<<<<< HEAD
-[66 <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameInsuredClique.
-png>]
-Underfull \vbox (badness 1796) has occurred while \output is active []
-
- [67 <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameViolating.png
->] [68]
-[69]
-=======
-[70 <D:/GITREPO/masterthesis/Figures/BonusGameInsuredClique.png>] [71 <D:/GITRE
-PO/masterthesis/Figures/BonusGameViolating.png>] [72]
-Underfull \vbox (badness 3780) has occurred while \output is active []
-
- [73]
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-
-<<<<<<< HEAD
-LaTeX Warning: Reference `eq:eq:conditionitoi' on page 70 undefined on input li
-=======
-LaTeX Warning: Reference `eq:eq:conditionitoi' on page 74 undefined on input li
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-<<<<<<< HEAD
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-ne 505.
-=======
-LaTeX Warning: Reference `eq:eq:conditionitoi' on page 71 undefined on input li
-ne 529.
->>>>>>> lokal
-
-
+[68]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\modelingWithN
-ature.tex" [71pdfTeX warning (ext4): destination with the same identifier (name
-{equation.7.42}) has been already used, duplicate ignored
+ature.tex" [69pdfTeX warning (ext4): destination with the same identifier (name
+{equation.6.42}) has been already used, duplicate ignored
 
-<<<<<<< HEAD
-=======
-ne 517.
-=======
-ne 526.
->>>>>>> working
-
-[74pdfTeX warning (ext4): destination with the same identifier (name{equation.8
-.42}) has been already used, duplicate ignored
-
->>>>>>> working
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-<<<<<<< HEAD
-l.1 \section
-            {Model with incomplete information}]
-<../Figures/SignalingGameInsured.png, id=1274, 1318.17468pt x 461.47406pt>
-=======
-l.544 
-      ] ("D:\GITREPO\masterthesis\Template fra Laurent\modelingWithNature.tex"
-<../Figures/SignalingGameInsured.png, id=1340, 1318.17468pt x 461.47406pt>
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.5 \subsection
-               {Analyzis}]
-<../Figures/SignalingGameInsured.png, id=1264, 1318.17468pt x 461.47406pt>
->>>>>>> lokal
+l.8 \subparagraph
+                 {Node 2 is insured}]
+<../Figures/SignalingGameInsured.png, id=1256, 1318.17468pt x 461.47406pt>
 File: ../Figures/SignalingGameInsured.png Graphic file (type png)
 
 <use ../Figures/SignalingGameInsured.png>
 Package pdftex.def Info: ../Figures/SignalingGameInsured.png used on input line
  14.
 (pdftex.def)             Requested size: 364.0pt x 127.43034pt.
-<<<<<<< HEAD
-<<<<<<< HEAD
- [71 <C:/Users/Håvard/masterthesis/masterthesis/Figures/SignalingGameInsured.p
-ng>] [72]
-<../Figures/SignalingGameNotInsured.png, id=1293, 1294.8375pt x 418.56375pt>
-=======
- [75 <D:/GITREPO/masterthesis/Figures/SignalingGameInsured.png>] [76]
-<../Figures/SignalingGameNotInsured.png, id=1358, 1294.8375pt x 418.56375pt>
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
- [72 <C:/Users/Håvard/masterthesis/masterthesis/Figures/SignalingGameInsured.p
-ng>] [73]
-<../Figures/SignalingGameNotInsured.png, id=1284, 1294.8375pt x 418.56375pt>
->>>>>>> lokal
+ [70 <C:/Users/Håvard/masterthesis/masterthesis/Figures/SignalingGameInsured.p
+ng>] [71]
+<../Figures/SignalingGameNotInsured.png, id=1278, 1294.8375pt x 418.56375pt>
 File: ../Figures/SignalingGameNotInsured.png Graphic file (type png)
 
 <use ../Figures/SignalingGameNotInsured.png>
 Package pdftex.def Info: ../Figures/SignalingGameNotInsured.png used on input l
 ine 101.
 (pdftex.def)             Requested size: 364.0pt x 117.66327pt.
-<<<<<<< HEAD
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<<<<<<< HEAD
-[73] [74 <C:/Users/Håvard/masterthesis/masterthesis/Figures/SignalingGameNotIn
-sured.png>])
+ [72 <C:/Users/Håvard/masterthesis/masterthesis/Figures/SignalingGameNotInsure
+d.png>] [73])
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\modelingCyber
-Insurance2(furtherWork).tex" [75]
-<../Figures/connectionGame.png, id=1333, 103.13531pt x 93.34875pt>
-=======
-[77] [78 <D:/GITREPO/masterthesis/Figures/SignalingGameNotInsured.png>]
-[79])
-("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance2(furtherW
-ork).tex" <../Figures/connectionGame.png, id=1399, 103.13531pt x 93.34875pt>
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
- [74 <C:/Users/Håvard/masterthesis/masterthesis/Figures/SignalingGameNotInsure
-d.png>] [75])
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\modelingCyber
-Insurance2(furtherWork).tex" [76]
-<../Figures/connectionGame.png, id=1322, 103.13531pt x 93.34875pt>
->>>>>>> lokal
+Insurance2(furtherWork).tex" [74]
+<../Figures/connectionGame.png, id=1315, 103.13531pt x 93.34875pt>
 File: ../Figures/connectionGame.png Graphic file (type png)
 
 <use ../Figures/connectionGame.png>
 Package pdftex.def Info: ../Figures/connectionGame.png used on input line 9.
 (pdftex.def)             Requested size: 72.79889pt x 65.89206pt.
-<<<<<<< HEAD
 
 Underfull \vbox (badness 1735) has occurred while \output is active []
 
-<<<<<<< HEAD
- [76 <C:/Users/Håvard/masterthesis/masterthesis/Figures/connectionGame.png>] [
-77] [78]
-<../Figures/stability/Unefficientbutstablestar.png, id=1363, 271.0125pt x 224.3
-=======
- [80 <D:/GITREPO/masterthesis/Figures/connectionGame.png>] [81] [82]
-<../Figures/stability/Unefficientbutstablestar.png, id=1428, 271.0125pt x 224.3
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
- [77 <C:/Users/Håvard/masterthesis/masterthesis/Figures/connectionGame.png>] [
-78] [79]
-<../Figures/stability/Unefficientbutstablestar.png, id=1352, 271.0125pt x 224.3
->>>>>>> lokal
+ [75 <C:/Users/Håvard/masterthesis/masterthesis/Figures/connectionGame.png>] [
+76] [77]
+<../Figures/stability/Unefficientbutstablestar.png, id=1345, 271.0125pt x 224.3
 3812pt>
 File: ../Figures/stability/Unefficientbutstablestar.png Graphic file (type png)
 
@@ -3033,37 +2495,9 @@ File: ../Figures/stability/Unefficientbutstablestar.png Graphic file (type png)
 Package pdftex.def Info: ../Figures/stability/Unefficientbutstablestar.png used
  on input line 70.
 (pdftex.def)             Requested size: 182.0pt x 150.66176pt.
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
- [79 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stability/Unefficientb
+ [78 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stability/Unefficientb
 utstablestar.png>]
-<../Figures/stability/Unefficientbutstabletwo.png, id=1374, 563.10374pt x 459.9
-=======
-=======
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
- [83 <D:/GITREPO/masterthesis/Figures/stability/Unefficientbutstablestar.png>]
-<<<<<<< HEAD
-<<<<<<< HEAD
-<../Figures/stability/Unefficientbutstabletwo.png, id=1429, 563.10374pt x 459.9
-=======
-<../Figures/stability/Unefficientbutstabletwo.png, id=1430, 563.10374pt x 459.9
->>>>>>> working
-<<<<<<< HEAD
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-=======
-<../Figures/stability/Unefficientbutstabletwo.png, id=1438, 563.10374pt x 459.9
->>>>>>> working
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
- [80 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stability/Unefficientb
-utstablestar.png>]
-<../Figures/stability/Unefficientbutstabletwo.png, id=1363, 563.10374pt x 459.9
->>>>>>> lokal
+<../Figures/stability/Unefficientbutstabletwo.png, id=1356, 563.10374pt x 459.9
 6844pt>
 File: ../Figures/stability/Unefficientbutstabletwo.png Graphic file (type png)
  <use ../Figures/stability/Unefficientbutstabletwo.png>
@@ -3072,40 +2506,16 @@ on input line 92.
 (pdftex.def)             Requested size: 182.0pt x 148.6668pt.
 
 
-LaTeX Warning: Reference `tbl:stablestar' on page 81 undefined on input line 93
+LaTeX Warning: Reference `tbl:stablestar' on page 79 undefined on input line 93
 .
 
 
-LaTeX Warning: Reference `tbl:stablestar' on page 81 undefined on input line 93
+LaTeX Warning: Reference `tbl:stablestar' on page 79 undefined on input line 93
 .
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-[80 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stability/Unefficientbu
-tstabletwo.png>] [81]
-<../Figures/discount/cliquetennodes.png, id=1403, 264.23718pt x 263.48438pt>
-=======
-[84 <D:/GITREPO/masterthesis/Figures/stability/Unefficientbutstabletwo.png>]
-<<<<<<< HEAD
-[85]
-<<<<<<< HEAD
-<../Figures/discount/cliquetennodes.png, id=1458, 264.23718pt x 263.48438pt>
-=======
-<../Figures/discount/cliquetennodes.png, id=1460, 264.23718pt x 263.48438pt>
->>>>>>> working
-<<<<<<< HEAD
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-=======
-[85] [86]
-<../Figures/discount/cliquetennodes.png, id=1474, 264.23718pt x 263.48438pt>
->>>>>>> working
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-[81 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stability/Unefficientbu
-tstabletwo.png>] [82]
-<../Figures/discount/cliquetennodes.png, id=1392, 264.23718pt x 263.48438pt>
->>>>>>> lokal
+[79 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stability/Unefficientbu
+tstabletwo.png>] [80]
+<../Figures/discount/cliquetennodes.png, id=1385, 264.23718pt x 263.48438pt>
 File: ../Figures/discount/cliquetennodes.png Graphic file (type png)
 
 <use ../Figures/discount/cliquetennodes.png>
@@ -3113,19 +2523,7 @@ Package pdftex.def Info: ../Figures/discount/cliquetennodes.png used on input l
 ine 161.
 (pdftex.def)             Requested size: 72.79889pt x 72.58908pt.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<../Figures/discount/baloontennodes.png, id=1404, 426.09187pt x 253.69781pt>
-=======
-<<<<<<< HEAD
-<../Figures/discount/baloontennodes.png, id=1459, 426.09187pt x 253.69781pt>
-=======
-<../Figures/discount/baloontennodes.png, id=1475, 426.09187pt x 253.69781pt>
->>>>>>> working
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-<../Figures/discount/baloontennodes.png, id=1393, 426.09187pt x 253.69781pt>
->>>>>>> lokal
+<../Figures/discount/baloontennodes.png, id=1386, 426.09187pt x 253.69781pt>
 File: ../Figures/discount/baloontennodes.png Graphic file (type png)
 
 <use ../Figures/discount/baloontennodes.png>
@@ -3133,32 +2531,11 @@ Package pdftex.def Info: ../Figures/discount/baloontennodes.png used on input l
 ine 167.
 (pdftex.def)             Requested size: 133.95445pt x 79.75652pt.
 
-<<<<<<< HEAD
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-[82]
-<../Figures/discount/startennodes.png, id=1418, 413.29407pt x 411.78844pt>
-=======
-[86]
-<<<<<<< HEAD
-<../Figures/discount/startennodes.png, id=1473, 413.29407pt x 411.78844pt>
-=======
-<../Figures/discount/startennodes.png, id=1475, 413.29407pt x 411.78844pt>
->>>>>>> working
-<<<<<<< HEAD
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-=======
-<../Figures/discount/startennodes.png, id=1483, 413.29407pt x 411.78844pt>
->>>>>>> working
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-[83]
-<../Figures/discount/startennodes.png, id=1408, 413.29407pt x 411.78844pt>
->>>>>>> lokal
+[81]
+<../Figures/discount/startennodes.png, id=1400, 413.29407pt x 411.78844pt>
 File: ../Figures/discount/startennodes.png Graphic file (type png)
 
 <use ../Figures/discount/startennodes.png>
@@ -3166,28 +2543,7 @@ Package pdftex.def Info: ../Figures/discount/startennodes.png used on input lin
 e 267.
 (pdftex.def)             Requested size: 131.03711pt x 130.56229pt.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<../Figures/discount/starmanynodes.png, id=1421, 880.28876pt x 881.2925pt>
-=======
-=======
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-<<<<<<< HEAD
-<../Figures/discount/starmanynodes.png, id=1476, 880.28876pt x 881.2925pt>
-=======
-<../Figures/discount/starmanynodes.png, id=1478, 880.28876pt x 881.2925pt>
->>>>>>> working
-<<<<<<< HEAD
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-=======
-<../Figures/discount/starmanynodes.png, id=1486, 880.28876pt x 881.2925pt>
->>>>>>> working
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-<../Figures/discount/starmanynodes.png, id=1411, 880.28876pt x 881.2925pt>
->>>>>>> lokal
+<../Figures/discount/starmanynodes.png, id=1403, 880.28876pt x 881.2925pt>
 File: ../Figures/discount/starmanynodes.png Graphic file (type png)
 
 <use ../Figures/discount/starmanynodes.png>
@@ -3198,305 +2554,71 @@ ne 274.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-) <../Figures/financialContagion1.png, id=1429, 197.23688pt x 135.50626pt>
-=======
-=======
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-<<<<<<< HEAD
-) <../Figures/financialContagion1.png, id=1484, 197.23688pt x 135.50626pt>
-=======
-) <../Figures/financialContagion1.png, id=1486, 197.23688pt x 135.50626pt>
->>>>>>> working
-<<<<<<< HEAD
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-=======
-) [87 <D:/GITREPO/masterthesis/Figures/discount/cliquetennodes.png> <D:/GITREPO
-/masterthesis/Figures/discount/baloontennodes.png>] [88]
-<../Figures/financialContagion1.png, id=1508, 197.23688pt x 135.50626pt>
->>>>>>> working
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-) <../Figures/financialContagion1.png, id=1419, 197.23688pt x 135.50626pt>
->>>>>>> lokal
+[82 <C:/Users/Håvard/masterthesis/masterthesis/Figures/discount/cliquetennodes
+.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/discount/baloontennod
+es.png>] [83]) [84 <C:/Users/Håvard/masterthesis/masterthesis/Figures/discount
+/startennodes.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/discount
+/starmanynodes.png>]
+<../Figures/financialContagion1.png, id=1428, 197.23688pt x 135.50626pt>
 File: ../Figures/financialContagion1.png Graphic file (type png)
 
 <use ../Figures/financialContagion1.png>
 Package pdftex.def Info: ../Figures/financialContagion1.png used on input line 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-543.
+576.
 (pdftex.def)             Requested size: 145.60056pt x 100.03113pt.
 
-<<<<<<< HEAD
-<../Figures/financialContagion2.png, id=1430, 177.66376pt x 131.74219pt>
-=======
-<../Figures/financialContagion2.png, id=1485, 177.66376pt x 131.74219pt>
-=======
-555.
-(pdftex.def)             Requested size: 145.60056pt x 100.03113pt.
-
-<../Figures/financialContagion2.png, id=1487, 177.66376pt x 131.74219pt>
->>>>>>> working
-<<<<<<< HEAD
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-=======
-564.
-(pdftex.def)             Requested size: 145.60056pt x 100.03113pt.
-
-<../Figures/financialContagion2.png, id=1509, 177.66376pt x 131.74219pt>
->>>>>>> working
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-567.
-(pdftex.def)             Requested size: 145.60056pt x 100.03113pt.
-
-<../Figures/financialContagion2.png, id=1420, 177.66376pt x 131.74219pt>
->>>>>>> lokal
+<../Figures/financialContagion2.png, id=1429, 177.66376pt x 131.74219pt>
 File: ../Figures/financialContagion2.png Graphic file (type png)
 
 <use ../Figures/financialContagion2.png>
 Package pdftex.def Info: ../Figures/financialContagion2.png used on input line 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-549.
-=======
-561.
->>>>>>> working
-=======
-570.
->>>>>>> working
-=======
-573.
->>>>>>> lokal
+582.
 (pdftex.def)             Requested size: 133.95445pt x 99.33305pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-Class memoir Warning: The material used in the headers is too large
-(24.0pt) for the given head height (12.0pt), it is recommended to
-either increase the head height or redesign the header
-<<<<<<< HEAD
-(in both cases you will find help in the memoir manual). on input line 558.
-=======
-(in both cases you will find help in the memoir manual). on input line 570.
->>>>>>> working
-
-
-Overfull \vbox (12.0pt too high) has occurred while \output is active []
-
-<<<<<<< HEAD
- [83 <C:/Users/Håvard/masterthesis/masterthesis/Figures/discount/cliquetennode
-s.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/discount/baloontenno
-des.png>]
-<../Figures/gameTheoryModel1WithEquations.png, id=1439, 923.70094pt x 132.495pt
-=======
- [87 <D:/GITREPO/masterthesis/Figures/discount/cliquetennodes.png> <D:/GITREPO/
-masterthesis/Figures/discount/baloontennodes.png>]
-<<<<<<< HEAD
-<../Figures/gameTheoryModel1WithEquations.png, id=1493, 923.70094pt x 132.495pt
-=======
-<../Figures/gameTheoryModel1WithEquations.png, id=1495, 923.70094pt x 132.495pt
->>>>>>> working
-<<<<<<< HEAD
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-=======
-<../Figures/gameTheoryModel1WithEquations.png, id=1511, 923.70094pt x 132.495pt
->>>>>>> working
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-[84 <C:/Users/Håvard/masterthesis/masterthesis/Figures/discount/cliquetennodes
-.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/discount/baloontennod
-es.png>]
-<../Figures/gameTheoryModel1WithEquations.png, id=1428, 923.70094pt x 132.495pt
->>>>>>> lokal
+<../Figures/gameTheoryModel1WithEquations.png, id=1431, 923.70094pt x 132.495pt
 >
 File: ../Figures/gameTheoryModel1WithEquations.png Graphic file (type png)
  <use ../Figures/gameTheoryModel1WithEquations.png>
 Package pdftex.def Info: ../Figures/gameTheoryModel1WithEquations.png used on i
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-nput line 563.
-=======
-nput line 575.
->>>>>>> working
-=======
-nput line 584.
->>>>>>> working
-=======
-nput line 587.
->>>>>>> lokal
+nput line 596.
 (pdftex.def)             Requested size: 364.0pt x 52.2106pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-[84 <C:/Users/Håvard/masterthesis/masterthesis/Figures/discount/startennodes.p
-ng> <C:/Users/Håvard/masterthesis/masterthesis/Figures/discount/starmanynodes.
-png>]
-<../Figures/gameTheoryModel1WithNumbers.png, id=1451, 986.9372pt x 295.85532pt>
-=======
-=======
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-[88 <D:/GITREPO/masterthesis/Figures/discount/startennodes.png> <D:/GITREPO/mas
-terthesis/Figures/discount/starmanynodes.png>]
-<<<<<<< HEAD
-<../Figures/gameTheoryModel1WithNumbers.png, id=1505, 986.9372pt x 295.85532pt>
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
+<../Figures/gameTheoryModel1WithNumbers.png, id=1436, 986.9372pt x 295.85532pt>
 File: ../Figures/gameTheoryModel1WithNumbers.png Graphic file (type png)
 <use ../Figures/gameTheoryModel1WithNumbers.png>
 Package pdftex.def Info: ../Figures/gameTheoryModel1WithNumbers.png used on inp
-ut line 576.
-=======
-<../Figures/gameTheoryModel1WithNumbers.png, id=1507, 986.9372pt x 295.85532pt>
-File: ../Figures/gameTheoryModel1WithNumbers.png Graphic file (type png)
-<use ../Figures/gameTheoryModel1WithNumbers.png>
-Package pdftex.def Info: ../Figures/gameTheoryModel1WithNumbers.png used on inp
-ut line 588.
->>>>>>> working
-=======
-
-Class memoir Warning: The material used in the headers is too large
-(24.0pt) for the given head height (12.0pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 592.
-
-
-Overfull \vbox (12.0pt too high) has occurred while \output is active []
-
- [89]
-<../Figures/gameTheoryModel1WithNumbers.png, id=1522, 986.9372pt x 295.85532pt>
-File: ../Figures/gameTheoryModel1WithNumbers.png Graphic file (type png)
-<use ../Figures/gameTheoryModel1WithNumbers.png>
-Package pdftex.def Info: ../Figures/gameTheoryModel1WithNumbers.png used on inp
-ut line 597.
->>>>>>> working
+ut line 609.
 (pdftex.def)             Requested size: 218.40222pt x 65.46758pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [90 <D:/GITREPO/masterthesis/Figures/discount/startennodes.png> <D:/GITREPO/ma
-sterthesis/Figures/discount/starmanynodes.png>]
 Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
-<<<<<<< HEAD
  [85 <C:/Users/Håvard/masterthesis/masterthesis/Figures/financialContagion1.pn
 g> <C:/Users/Håvard/masterthesis/masterthesis/Figures/financialContagion2.png>
  <C:/Users/Håvard/masterthesis/masterthesis/Figures/gameTheoryModel1WithEquati
-ons.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/gameTheoryModel1Wi
-thNumbers.png>]
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\SummaryOfResu
-lts.tex" [86
-=======
- [91 <D:/GITREPO/masterthesis/Figures/financialContagion1.png> <D:/GITREPO/mast
-erthesis/Figures/financialContagion2.png> <D:/GITREPO/masterthesis/Figures/game
-TheoryModel1WithEquations.png> <D:/GITREPO/masterthesis/Figures/gameTheoryModel
-1WithNumbers.png>] ("D:\GITREPO\masterthesis\Template fra Laurent\SummaryOfResu
-lts.tex"
-[92
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-
-Overfull \vbox (12.0pt too high) has occurred while \output is active []
-
- [85 <C:/Users/Håvard/masterthesis/masterthesis/Figures/discount/startennodes.
-png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/discount/starmanynodes
-.png>]
-<../Figures/gameTheoryModel1WithNumbers.png, id=1440, 986.9372pt x 295.85532pt>
-File: ../Figures/gameTheoryModel1WithNumbers.png Graphic file (type png)
-<use ../Figures/gameTheoryModel1WithNumbers.png>
-Package pdftex.def Info: ../Figures/gameTheoryModel1WithNumbers.png used on inp
-ut line 600.
-(pdftex.def)             Requested size: 218.40222pt x 65.46758pt.
-) [86 <C:/Users/Håvard/masterthesis/masterthesis/Figures/financialContagion1.p
-ng> <C:/Users/Håvard/masterthesis/masterthesis/Figures/financialContagion2.png
-> <C:/Users/Håvard/masterthesis/masterthesis/Figures/gameTheoryModel1WithEquat
-ions.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/gameTheoryModel1W
-ithNumbers.png>]
+ons.png>]) [86 <C:/Users/Håvard/masterthesis/masterthesis/Figures/gameTheoryMo
+del1WithNumbers.png>]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\SummaryOfResu
 lts.tex"
 Underfull \vbox (badness 10000) has occurred while \output is active []
->>>>>>> lokal
 
  [87
 
 
-<<<<<<< HEAD
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<<<<<<< HEAD
- [87]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-=======
->>>>>>> lokal
 
 ])
 [88] [89]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\modellingThre
 shold.tex"
-=======
- [93])
-[94] ("D:\GITREPO\masterthesis\Template fra Laurent\modellingThreshold.tex"
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
 Overfull \hbox (21.2481pt too wide) in paragraph at lines 10--19
  [][] 
  []
 
-<<<<<<< HEAD
 [90
 
 
 ] [91]) [92]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\futurework.te
-<<<<<<< HEAD
-x" <../Figures/exponentialFunction.png, id=1501, 1003.75pt x 803.0pt>
-=======
-=======
-[95
-
-
-] [96]) [97] ("D:\GITREPO\masterthesis\Template fra Laurent\futurework.tex"
-[98
-
-
-
-<<<<<<< HEAD
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-<<<<<<< HEAD
-] <../Figures/exponentialFunction.png, id=1556, 1003.75pt x 803.0pt>
-=======
-] <../Figures/exponentialFunction.png, id=1558, 1003.75pt x 803.0pt>
->>>>>>> working
-<<<<<<< HEAD
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-=======
-] <../Figures/exponentialFunction.png, id=1578, 1003.75pt x 803.0pt>
->>>>>>> working
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-x" <../Figures/exponentialFunction.png, id=1487, 1003.75pt x 803.0pt>
->>>>>>> lokal
+x" <../Figures/exponentialFunction.png, id=1488, 1003.75pt x 803.0pt>
 File: ../Figures/exponentialFunction.png Graphic file (type png)
 
 <use ../Figures/exponentialFunction.png>
@@ -3507,7 +2629,6 @@ Package pdftex.def Info: ../Figures/exponentialFunction.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
 [93
 
 
@@ -3516,10 +2637,6 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ng>]) [95]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.bbl"
 [96
-=======
-[99]) [100 <D:/GITREPO/masterthesis/Figures/exponentialFunction.png>] [101]
-("D:\GITREPO\masterthesis\Template fra Laurent\main.bbl" [102
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
 
 
 ]
@@ -3530,11 +2647,7 @@ $\T1/lmr/m/n/10 (+20) / / www . travelers . com / business-[]insurance / manage
 ment-[]professional-[]liability /$
  []
 
-<<<<<<< HEAD
 [97]
-=======
-[103]
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
 Underfull \hbox (badness 1635) in paragraph at lines 96--100
 []\T1/lmr/m/n/10 (+20) digi.no.  Vil for-sikre alt og alle p� nett.  [][]$http 
 : / / www . digi . no / 39107 /$
@@ -3546,11 +2659,7 @@ Underfull \hbox (badness 1735) in paragraph at lines 113--118
 year 2011 pri-mary air-
  []
 
-<<<<<<< HEAD
 [98]
-=======
-[104]
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
 Underfull \hbox (badness 1057) in paragraph at lines 216--221
 \T1/lmr/m/n/10 (+20) not.  [][]$http : / / www . computerworld . com / s / arti
 cle / 9223366 / Cyber _ insurance _$
@@ -3561,23 +2670,18 @@ cle / 9223366 / Cyber _ insurance _$
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (12.0pt), it is recommended to
 either increase the head height or redesign the header
-<<<<<<< HEAD
-(in both cases you will find help in the memoir manual). on input line 121.
-=======
-(in both cases you will find help in the memoir manual). on input line 128.
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
+(in both cases you will find help in the memoir manual). on input line 122.
 
 
 Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
-<<<<<<< HEAD
 [99]
-\tf@toc=\write8
-\tf@lof=\write9
-\tf@lot=\write10
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
+\tf@toc=\write9
+\tf@lof=\write10
+\tf@lot=\write11
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
  ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.aux"
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\abstract_engl
 ish.aux")
@@ -3591,12 +2695,8 @@ state.aux")
 ux")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork.a
 ux")
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork2.
-aux")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\surveyofnetwo
 rkformations.aux")
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\networkgames.
-aux")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\modelingCyber
 Insurance.aux")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\SummaryOfResu
@@ -3605,80 +2705,24 @@ lts.aux")
 shold.aux")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\futurework.au
 x"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
 Package rerunfilecheck Info: File `main.out' has not changed.
-<<<<<<< HEAD
-(rerunfilecheck)             Checksum: 74E7E6892FD3E7C55B836E56EB5989A8;6043.
-=======
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
-=======
-[105]
-\tf@toc=\write9
-\tf@lof=\write10
-\tf@lot=\write11
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
- ("D:\GITREPO\masterthesis\Template fra Laurent\main.aux"
-("D:\GITREPO\masterthesis\Template fra Laurent\abstract_english.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\preface.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\introductionToCyberInsurance.aux
-") ("D:\GITREPO\masterthesis\Template fra Laurent\currentmarketstate.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\graphTheory.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\surveyofnetworkformations.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\networkgames.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\methodology.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\SummaryOfResults.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\modellingThreshold.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\futurework.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6387E80A4F184E961ABFE890112E65BF;6415.
+(rerunfilecheck)             Checksum: 6B3839AD2F3FE80BB0445FD94C0D3641;5710.
 
 
 LaTeX Warning: There were undefined references.
 
-<<<<<<< HEAD
-Package rerunfilecheck Info: Checksums for `main.out':
-<<<<<<< HEAD
-(rerunfilecheck)             Before: 24D50C8DA6526467E5BD17EEFE85E515;6505
-(rerunfilecheck)             After:  7E0159E8BA406CED4CD98CE6D8E2D2CE;6575.
-=======
-(rerunfilecheck)             Before: A57BAFC8973B2791FF583D6995B759D9;6409
-(rerunfilecheck)             After:  97445128A2F0B0F5C6893F67105A2074;6415.
->>>>>>> working
-=======
->>>>>>> working
-
-<<<<<<< HEAD
-LaTeX Warning: There were undefined references.
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-(rerunfilecheck)             Checksum: 13A8FCA35CC0EA6E8F2EC418F233A231;5822.
->>>>>>> lokal
-
-<<<<<<< HEAD
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
  ) 
 Here is how much of TeX's memory you used:
- 22786 strings out of 494045
- 345003 string characters out of 3145963
- 604485 words of memory out of 3000000
- 24835 multiletter control sequences out of 15000+200000
- 95078 words of font info for 158 fonts, out of 3000000 for 9000
+ 38298 strings out of 494045
+ 749815 string characters out of 3145963
+ 1033525 words of memory out of 3000000
+ 40019 multiletter control sequences out of 15000+200000
+ 95410 words of font info for 162 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 62i,14n,94p,1504b,632s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,14n,94p,1504b,1821s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/MiKTeX 2.9/
@@ -3698,79 +2742,9 @@ gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr5.pfb><C:/Program Files (x
 r9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb>
-<<<<<<< HEAD
-Output written on main.pdf (113 pages, 2066033 bytes).
+Output written on main.pdf (113 pages, 2059144 bytes).
 PDF statistics:
-<<<<<<< HEAD
- 1739 PDF objects out of 2073 (max. 8388607)
- 499 named destinations out of 1000 (max. 500000)
- 25358 words of extra memory for PDF output out of 29859 (max. 10000000)
-=======
- 1797 PDF objects out of 2073 (max. 8388607)
- 513 named destinations out of 1000 (max. 500000)
- 28486 words of extra memory for PDF output out of 29859 (max. 10000000)
-=======
- 22840 strings out of 494045
- 338157 string characters out of 3153222
- 606598 words of memory out of 3000000
- 24866 multiletter control sequences out of 15000+200000
- 105353 words of font info for 168 fonts, out of 3000000 for 9000
-=======
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
- ) 
-Here is how much of TeX's memory you used:
- 38377 strings out of 494045
- 740010 string characters out of 3153222
- 1034681 words of memory out of 3000000
- 40059 multiletter control sequences out of 15000+200000
- 105685 words of font info for 172 fonts, out of 3000000 for 9000
->>>>>>> working
- 715 hyphenation exceptions out of 8191
- 69i,14n,94p,1504b,1821s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{table.caption.130} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.133} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.132} has been referenced but does no
-t exist, replaced by a fixed one
-
-{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{D:/Latex/MiKTeX/fonts/enc/dv
-ips/lm/lm-rm.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{D:/Latex/Mi
-KTeX/fonts/enc/dvips/lm/lm-ec.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathsy
-.enc}<D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><D:/Latex/MiKTeX/fonts/t
-ype1/public/lm/lmbx12.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmex10.pfb><D:
-/Latex/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><D:/Latex/MiKTeX/fonts/type1/pub
-lic/lm/lmmi5.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><D:/Latex/MiK
-TeX/fonts/type1/public/lm/lmmi7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi
-9.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr10.pfb><D:/Latex/MiKTeX/fonts/t
-ype1/public/lm/lmr5.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr6.pfb><D:/Lat
-ex/MiKTeX/fonts/type1/public/lm/lmr7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm
-/lmr8.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr9.pfb><D:/Latex/MiKTeX/font
-s/type1/public/lm/lmri10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-<D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
-Output written on main.pdf (119 pages, 2073824 bytes).
-PDF statistics:
-<<<<<<< HEAD
- 1800 PDF objects out of 2073 (max. 8388607)
- 518 named destinations out of 1000 (max. 500000)
- 28478 words of extra memory for PDF output out of 29859 (max. 10000000)
->>>>>>> working
-<<<<<<< HEAD
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
-=======
-=======
- 1821 PDF objects out of 2073 (max. 8388607)
- 524 named destinations out of 1000 (max. 500000)
- 28490 words of extra memory for PDF output out of 29859 (max. 10000000)
->>>>>>> working
->>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
-=======
-Output written on main.pdf (113 pages, 2063521 bytes).
-PDF statistics:
- 1726 PDF objects out of 1728 (max. 8388607)
- 502 named destinations out of 1000 (max. 500000)
- 25321 words of extra memory for PDF output out of 29859 (max. 10000000)
->>>>>>> lokal
+ 1729 PDF objects out of 2073 (max. 8388607)
+ 506 named destinations out of 1000 (max. 500000)
+ 25317 words of extra memory for PDF output out of 29859 (max. 10000000)
 
