@@ -24,66 +24,63 @@
 \BOOKMARK [2][-]{subsection.4.1.1}{Defining Network Games}{section.4.1}% 24
 \BOOKMARK [0][-]{chapter.5}{Network Games}{part.2}% 25
 \BOOKMARK [0][-]{chapter.6}{Relatedwork}{part.2}% 26
-\BOOKMARK [1][-]{section.6.1}{Towards Insurable Network Architectures}{chapter.6}% 27
-\BOOKMARK [1][-]{section.6.2}{Cyber insurance as an Incentive for Internet Security}{chapter.6}% 28
-\BOOKMARK [2][-]{subsection.6.2.1}{Classical model for insurance}{section.6.2}% 29
-\BOOKMARK [2][-]{subsection.6.2.2}{Interdependent security and insurance}{section.6.2}% 30
-\BOOKMARK [1][-]{section.6.3}{Modeling cyber-insurance: towards a unifying Framework}{chapter.6}% 31
-\BOOKMARK [2][-]{subsection.6.3.1}{Network Environment: Connected nodes}{section.6.3}% 32
-\BOOKMARK [2][-]{subsection.6.3.2}{Demand side agents}{section.6.3}% 33
-\BOOKMARK [2][-]{subsection.6.3.3}{Supply side, insurers}{section.6.3}% 34
-\BOOKMARK [2][-]{subsection.6.3.4}{Information structure}{section.6.3}% 35
-\BOOKMARK [2][-]{subsection.6.3.5}{Organizational Enviroment\(stakeholders\)}{section.6.3}% 36
-\BOOKMARK [2][-]{subsection.6.3.6}{Using this framework for a literature survey}{section.6.3}% 37
-\BOOKMARK [1][-]{section.6.4}{A novel cyber-insurance Model}{chapter.6}% 38
-\BOOKMARK [1][-]{section.6.5}{A solution to the information Asymmetry Problem}{chapter.6}% 39
-\BOOKMARK [1][-]{section.6.6}{Cyber-insurance for cyber-security, A topological Take on Modulating Insurance Premiums}{chapter.6}% 40
-\BOOKMARK [1][-]{section.6.7}{Differentiating Cyber-insurance Contracts, a topological Perspective}{chapter.6}% 41
-\BOOKMARK [1][-]{section.6.8}{This was previously placed in current market }{chapter.6}% 42
-\BOOKMARK [1][-]{section.6.9}{Contract structure}{chapter.6}% 43
-\BOOKMARK [1][-]{section.6.10}{Economics}{chapter.6}% 44
-\BOOKMARK [1][-]{section.6.11}{Epidemics}{chapter.6}% 45
-\BOOKMARK [2][-]{subsection.6.11.1}{modeling contagion}{section.6.11}% 46
-\BOOKMARK [1][-]{section.6.12}{Incentives and Information Security}{chapter.6}% 47
-\BOOKMARK [1][-]{section.6.13}{Related work 2}{chapter.6}% 48
-\BOOKMARK [1][-]{section.6.14}{new section}{chapter.6}% 49
-\BOOKMARK [0][-]{chapter.7}{Methodology}{part.2}% 50
-\BOOKMARK [1][-]{section.7.1}{Game Theory}{chapter.7}% 51
-\BOOKMARK [2][-]{subsection.7.1.1}{Nash Equlibrium}{section.7.1}% 52
-\BOOKMARK [2][-]{subsection.7.1.2}{Price of Anarchy}{section.7.1}% 53
-\BOOKMARK [2][-]{subsection.7.1.3}{Social Optimal}{section.7.1}% 54
-\BOOKMARK [2][-]{subsection.7.1.4}{Steckleberg game}{section.7.1}% 55
-\BOOKMARK [1][-]{section.7.2}{Netlogo}{chapter.7}% 56
-\BOOKMARK [-1][-]{part.3}{Own Contribution}{}% 57
-\BOOKMARK [0][-]{chapter.8}{Modeling Cyber-Insurance }{part.3}% 58
-\BOOKMARK [1][-]{section.8.1}{Model 1 - Initial Model }{chapter.8}% 59
-\BOOKMARK [1][-]{section.8.2}{Model 2 - Including Parameters}{chapter.8}% 60
-\BOOKMARK [2][-]{subsection.8.2.1}{Characteristics of the model}{section.8.2}% 61
-\BOOKMARK [2][-]{subsection.8.2.2}{Two nodes scenario}{section.8.2}% 62
-\BOOKMARK [1][-]{section.8.3}{Solving the prisonersdilemma}{chapter.8}% 63
-\BOOKMARK [2][-]{subsection.8.3.1}{Multiple nodes}{section.8.3}% 64
-\BOOKMARK [2][-]{subsection.8.3.2}{Result and findings}{section.8.3}% 65
-\BOOKMARK [1][-]{section.8.4}{Forcing non-insured nodes to buy insurance\(FIX!!!!!!!!\)}{chapter.8}% 66
-\BOOKMARK [2][-]{subsection.8.4.1}{Violating the conditions}{section.8.4}% 67
-\BOOKMARK [1][-]{section.8.5}{Model 3 - Including maximum node degree and bonus}{chapter.8}% 68
-\BOOKMARK [2][-]{subsection.8.5.1}{Analyzis}{section.8.5}% 69
-\BOOKMARK [2][-]{subsection.8.5.2}{Result and findings}{section.8.5}% 70
-\BOOKMARK [1][-]{section.8.6}{Model 4 - Including bulk insurance discount}{chapter.8}% 71
-\BOOKMARK [2][-]{subsection.8.6.1}{Analyzis}{section.8.6}% 72
-\BOOKMARK [2][-]{subsection.8.6.2}{Result and findings}{section.8.6}% 73
-\BOOKMARK [2][-]{subsection.8.6.3}{Game with incomplete information}{section.8.6}% 74
-\BOOKMARK [2][-]{subsection.8.6.4}{Calculating the different equlibriums}{section.8.6}% 75
-\BOOKMARK [0][-]{chapter.9}{Further work on the model}{part.3}% 76
-\BOOKMARK [1][-]{section.9.1}{The connection game}{chapter.9}% 77
-\BOOKMARK [2][-]{subsection.9.1.1}{Homogenous symmetric connection game}{section.9.1}% 78
-\BOOKMARK [2][-]{subsection.9.1.2}{Simulation}{section.9.1}% 79
-\BOOKMARK [0][-]{chapter.10}{Model from Bohme}{part.3}% 80
-\BOOKMARK [1][-]{section.10.1}{DETTE ET ANNET STED KANSKJE? BLIR LITT RART \305 HOPPE INN I DET HER}{chapter.10}% 81
-\BOOKMARK [1][-]{section.10.2}{Game including max node degree}{chapter.10}% 82
-\BOOKMARK [2][-]{subsection.10.2.1}{Game random connection}{section.10.2}% 83
-\BOOKMARK [2][-]{subsection.10.2.2}{Game connecting to insured first}{section.10.2}% 84
-\BOOKMARK [-1][-]{part.4}{Summary}{}% 85
-\BOOKMARK [0][-]{chapter.11}{Future work}{part.4}% 86
-\BOOKMARK [1][-]{section.11.1}{Risk}{chapter.11}% 87
-\BOOKMARK [0][-]{chapter.12}{Conclusion}{part.4}% 88
-\BOOKMARK [0][-]{section*.124}{References}{part.4}% 89
+\BOOKMARK [1][-]{section.6.1}{Cyber-Insurance}{chapter.6}% 27
+\BOOKMARK [2][-]{subsection.6.1.1}{Paper from Bohme}{section.6.1}% 28
+\BOOKMARK [2][-]{subsection.6.1.2}{A novel cyber-insurance Model - FJERNES ETTERHVERT}{section.6.1}% 29
+\BOOKMARK [2][-]{subsection.6.1.3}{Cyber-insurance for cyber-security, A Topological Take on Modulating Insurance Premiums - FJERNES ETTERHVERT}{section.6.1}% 30
+\BOOKMARK [2][-]{subsection.6.1.4}{Differentiating Cyber-insurance Contracts, a topological Perspective - FJERNES ETTERHVERT}{section.6.1}% 31
+\BOOKMARK [2][-]{subsection.6.1.5}{Towards Insurable Network Architectures}{section.6.1}% 32
+\BOOKMARK [2][-]{subsection.6.1.6}{Modeling cyber-insurance: towards a unifying Framework}{section.6.1}% 33
+\BOOKMARK [2][-]{subsection.6.1.7}{Using this framework for a literature survey}{section.6.1}% 34
+\BOOKMARK [2][-]{subsection.6.1.8}{A novel cyber-insurance Model}{section.6.1}% 35
+\BOOKMARK [2][-]{subsection.6.1.9}{Cyber-insurance for cyber-security, A topological Take on Modulating Insurance Premiums}{section.6.1}% 36
+\BOOKMARK [2][-]{subsection.6.1.10}{Differentiating Cyber-insurance Contracts, a topological Perspective}{section.6.1}% 37
+\BOOKMARK [2][-]{subsection.6.1.11}{Cyber insurance as an Incentive for Internet Security}{section.6.1}% 38
+\BOOKMARK [2][-]{subsection.6.1.12}{A solution to the information Asymmetry Problem}{section.6.1}% 39
+\BOOKMARK [1][-]{section.6.2}{Networkformation}{chapter.6}% 40
+\BOOKMARK [2][-]{subsection.6.2.1}{Related work 2}{section.6.2}% 41
+\BOOKMARK [1][-]{section.6.3}{NOTES!!!!! This was previously placed in current market }{chapter.6}% 42
+\BOOKMARK [2][-]{subsection.6.3.1}{Contract structure}{section.6.3}% 43
+\BOOKMARK [2][-]{subsection.6.3.2}{Economics}{section.6.3}% 44
+\BOOKMARK [2][-]{subsection.6.3.3}{Epidemics}{section.6.3}% 45
+\BOOKMARK [2][-]{subsection.6.3.4}{Incentives and Information Security}{section.6.3}% 46
+\BOOKMARK [0][-]{chapter.7}{Methodology}{part.2}% 47
+\BOOKMARK [1][-]{section.7.1}{Game Theory}{chapter.7}% 48
+\BOOKMARK [2][-]{subsection.7.1.1}{Nash Equlibrium}{section.7.1}% 49
+\BOOKMARK [2][-]{subsection.7.1.2}{Price of Anarchy}{section.7.1}% 50
+\BOOKMARK [2][-]{subsection.7.1.3}{Social Optimal}{section.7.1}% 51
+\BOOKMARK [2][-]{subsection.7.1.4}{Steckleberg game}{section.7.1}% 52
+\BOOKMARK [1][-]{section.7.2}{Netlogo}{chapter.7}% 53
+\BOOKMARK [-1][-]{part.3}{Own Contribution}{}% 54
+\BOOKMARK [0][-]{chapter.8}{Modeling Cyber-Insurance }{part.3}% 55
+\BOOKMARK [1][-]{section.8.1}{Model 1 - Initial Model }{chapter.8}% 56
+\BOOKMARK [1][-]{section.8.2}{Model 2 - Including Parameters}{chapter.8}% 57
+\BOOKMARK [2][-]{subsection.8.2.1}{Characteristics of the model}{section.8.2}% 58
+\BOOKMARK [2][-]{subsection.8.2.2}{Two nodes scenario}{section.8.2}% 59
+\BOOKMARK [1][-]{section.8.3}{Solving the prisonersdilemma}{chapter.8}% 60
+\BOOKMARK [2][-]{subsection.8.3.1}{Multiple nodes}{section.8.3}% 61
+\BOOKMARK [2][-]{subsection.8.3.2}{Result and findings}{section.8.3}% 62
+\BOOKMARK [1][-]{section.8.4}{Forcing non-insured nodes to buy insurance\(FIX!!!!!!!!\)}{chapter.8}% 63
+\BOOKMARK [2][-]{subsection.8.4.1}{Violating the conditions}{section.8.4}% 64
+\BOOKMARK [1][-]{section.8.5}{Model 3 - Including maximum node degree and bonus}{chapter.8}% 65
+\BOOKMARK [2][-]{subsection.8.5.1}{Analyzis}{section.8.5}% 66
+\BOOKMARK [2][-]{subsection.8.5.2}{Result and findings}{section.8.5}% 67
+\BOOKMARK [1][-]{section.8.6}{Model 4 - Including bulk insurance discount}{chapter.8}% 68
+\BOOKMARK [2][-]{subsection.8.6.1}{Analyzis}{section.8.6}% 69
+\BOOKMARK [2][-]{subsection.8.6.2}{Result and findings}{section.8.6}% 70
+\BOOKMARK [2][-]{subsection.8.6.3}{Game with incomplete information}{section.8.6}% 71
+\BOOKMARK [2][-]{subsection.8.6.4}{Calculating the different equlibriums}{section.8.6}% 72
+\BOOKMARK [0][-]{chapter.9}{Further work on the model}{part.3}% 73
+\BOOKMARK [1][-]{section.9.1}{The connection game}{chapter.9}% 74
+\BOOKMARK [2][-]{subsection.9.1.1}{Homogenous symmetric connection game}{section.9.1}% 75
+\BOOKMARK [2][-]{subsection.9.1.2}{Simulation}{section.9.1}% 76
+\BOOKMARK [0][-]{chapter.10}{Model from Bohme}{part.3}% 77
+\BOOKMARK [1][-]{section.10.1}{DETTE ET ANNET STED KANSKJE? BLIR LITT RART \305 HOPPE INN I DET HER}{chapter.10}% 78
+\BOOKMARK [1][-]{section.10.2}{Game including max node degree}{chapter.10}% 79
+\BOOKMARK [2][-]{subsection.10.2.1}{Game random connection}{section.10.2}% 80
+\BOOKMARK [2][-]{subsection.10.2.2}{Game connecting to insured first}{section.10.2}% 81
+\BOOKMARK [-1][-]{part.4}{Summary}{}% 82
+\BOOKMARK [0][-]{chapter.11}{Future work}{part.4}% 83
+\BOOKMARK [1][-]{section.11.1}{Risk}{chapter.11}% 84
+\BOOKMARK [0][-]{chapter.12}{Conclusion}{part.4}% 85
+\BOOKMARK [0][-]{section*.131}{References}{part.4}% 86

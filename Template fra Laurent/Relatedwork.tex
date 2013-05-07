@@ -3,16 +3,13 @@
 
 
 
-\begin{figure}
-\centering
-% dummy figure replacement 
-\begin{tabular}{@{}c@{}}
-\rule{.5\textwidth}{.5\textwidth} \\
-\end{tabular}
-\caption{\label{fig:example}A figure}
-\end{figure}
+\section{Cyber-Insurance}
+\subsection{Paper from Bohme}
+\input{relatedworkFinal}
 
-\section{Towards Insurable Network Architectures}\label{sec:first_section}
+
+
+\subsection{Towards Insurable Network Architectures}\label{sec:first_section}
 
 \cite{bohme2010modeling}
 A trusted component or system is one you can insure.
@@ -55,72 +52,8 @@ Therefore it is hard impose a more resilient(insurable) architecture on the agen
 
 Uses GT to model incentives of the different agents. 
 
-\section{Cyber insurance as an Incentive for Internet Security}
-\cite{bolot2008cyber}
-so far the risk management on the internet has involved methods to reduce the
-risks(firewalls, ids, prevention etc.) but not eliminate risk. Is it logical to buy
-insurance to protect the internet and its users.
-An important thing to notice when insuring internet, 
-is that the entities on the internet are correlated, 
-which means insurance claims will likely be correlated. Risks are interdependent, 
-decision by an entity to invest in security affects the risks of others.
-Key result: using insurance would increase the overall security. 
-Act as an powerful incentive, which pushes entities over the threshold where they invest in self-protection.
- Insurance should be an important component of risk management in the internet.
-
-Four typical options available in the face of risks. 
-1. avoid the risk 2. retain 3. self protect and mitigate 4. transfer the risk.
-Most entities in the internet have choses a mix of 2 and 3. This has lead to 
-lots of systems trying to detect threats and anomalies(both malicious and accidental)
- and to protect the users and the structure from these.
-but this does not eliminate risk, threats evolve over time and there is allways accidents.
-How to handle this residual risk?
-Option 4, transfer the risk to another entity who willingly accept it(hedging),
- insure in exchange for a fee. Allows for predictable payouts for uncertain events.
-But does this makes sense for the internet, benefits, to whom? and to what extent?
-
-How to model insurance and computing premiums. avoid ruin the insurer. Actuarial approach.
- Economic approach:  premium should be negative correlated to the amount
-invested in security by the entity. Users can chose to invest c or not in security
-solutions. Shown that in the 2 user case in absence of insurance, there is a NE
-in a good state, if c is low enough. These result have been extended to a
-network setting. This paper starts out by adding insurance to the two person game,
- then the n-users network, where damages spread among the users. 
- They show that if premium discriminates about investment in protection.
-  Insurance is a strong incentive to invest in security.
-   Also show how insurance can be a mechanism to facilitate the deployment of security
-    investments by taking advantage network effects such as treshold or tipping point dynamics. 
-    Uses simple models. 
-
-Using cyber insurance as a way to handle residual risk started out early in the 90's. 
-Software and insurance sold as packages. 
- More recently insurance companies started offering standalone products.
-  A challenging problem is the correlation between risks, interdependent risks(risk that depend on the behavior of others).
-
-\subsection{Classical model for insurance}
-agents try to maximize some kind of expected utility function, and are risk averse.
-$u[w_{0}-\pi]=E[u[w_{0}+X]]$
-
-Investments for an agent is either self protect and or insurance.
-If insurance premium is not negatively correlated to the self protection, we get moral hazard. Because if not, insurance will disincourage self protection.
-In this way insurance can co-exist with selfprotection.
-\subsection{Interdependent security and insurance}
-In presence of interdependent risks, the reward for a user investing in self-protection depends on the security in the rest of the network.
-Discrete choice, invest or not. loss occurs directly or indirectly. Cost of investing is c. This avoids the direct loss completely. 
-In summary, insurance provides incentives for a
-small fraction of the population to invest in self-protection, which in turn induces the rest
-of the population to invest in self-protection as well, leading to the desirable state where
-all users in the network are self-protected. Furthermore, the parameter y provides a way
-to multiply the benefits of insurance, by lowering the initial fraction of the self-protected
-population needed to reach the desirable state.
-This paper shows that insurance provides significant benefits to network of users facing correlated, 
-interdependent risks. Insurance is a powerful mechanism to promote network-wide changes, i.e lead to self protection.
-How to estimate damage? This is very hard on the internet. 
-This paper shows how it is economical rational for entities to prefer a relatively 
-insecure system to a more secure, and that the adoption of security investments follows treshold/tipping point dynamics. 
-And that insurance is a powerful incentive to push the users over the treshold.
-
-\section{Modeling cyber-insurance: towards a unifying Framework}
+\subsection{Modeling cyber-insurance: towards a unifying Framework}
+\cite{bohme2010modeling}
 proposes a framework to classify models of cyber-insurance. Uses a common terminology, 
 and deals with cyber-risk in a unified way.(combines the three risk properties, interdepenedent security
 , correlated risk, information asymmetri.)
@@ -157,7 +90,7 @@ what can be answered with models of cyber insurance markets?
 
 \end{enumerate}
 
-\subsection{Network Environment: Connected nodes}
+\subsubsection{Network Environment: Connected nodes}
 Two properties distinguish cyber-insurance from regular insurance.
 \begin{enumerate}
 \item Interconnected devices in a network, this generates value, therefore risk and loss analysis must take this into account. 
@@ -200,7 +133,7 @@ Interdependent risk is usually modeled on the demand side,
 existing literature assume attacks are perfomed by "nature" rather than strategic players.
  But attackers react to agents and insurers decisions. this paper models attackers as
   players. but it might be hard to choose reasonable assumptions and parameters for their capability. They could be modeled as an additional class of players or a special type of agents.
-\subsection{Demand side agents}
+\subsubsection{Demand side agents}
 Make security decisions for one or more nodes. When buying full coverage of risks, permits
  the agent to exchange uncertain future costs with a predictable premium. 
  \subparagraph{Node control}
@@ -238,7 +171,7 @@ A simple first step would be to consider platform diversity and switching(f.eks 
 \subparagraph{Time}
 Simple models, single shot. i.e all choices are set only once by all agents(not necessarily at the same time.)
 This may not be enough when risk propagation is present. To avoid ambiguity the order should be specified in the model formulation, f.eks from the center of a star-shaped to its leaves.
-\subsection{Supply side, insurers}
+\subsubsection{Supply side, insurers}
 Modeling decisions: monopoly, oligopoly or competition? Homogenous or heterogenous?
 The dominant model used in literature is naive, homogenous and competitive insurer market. 
 It is important to include these as players. 
@@ -260,7 +193,7 @@ These are inadequate for cyber-risk, because thei may generate an incentive for 
 to cause a cyber attack.
 
 exploit derivatives. Links payout of financial instrument to the discovery of vulnerabilities in systems. This is better than cat-bonds. 
-\subsection{Information structure}
+\subsubsection{Information structure}
 Symmetric and asymmetric. Leads to adverse selection if the insurer cant distinguish
  between the agents. Moral hazzard occurs if agents could undertake actions that affect
   the probability of loss ex post. Also information about security is hard to gather and
@@ -273,7 +206,7 @@ Symmetric and asymmetric. Leads to adverse selection if the insurer cant disting
     From classical economics, insurers have to ways of creating the contract when they cannot distinguish the agents, pooling or seperating(agents sort them self out).
     there is practically understood and observable that strong disincentives keep information sharing below socially optiimal levels. Relevant information may not exist, 
     but it is often the case that it exists but is not available to the decision maker.
-\subsection{Organizational Enviroment(stakeholders)}
+\subsubsection{Organizational Enviroment(stakeholders)}
 four relevant attributes: regulator, ICT manufacturers, network intermediaries and security service providers. How to include these into models of cyber-insurance markets?
 \subparagraph{Regulator}
 Government/governmental authority, with power to impose regulation. Important for policy analysis.
@@ -325,9 +258,109 @@ for instance network topology.( This is what we will try to grasp, let the topol
 final observation: researchers write about how insurers will improve infomartion about security, but does not give any examples that reflects this. Affect agents choices of network products, but existing models of contracts do not reflect these choices. aggregate info about security(obtained from claims), but they do not model it parametrically. etc.....
 
 
-\section{A novel cyber-insurance Model}
+\subsection{A novel cyber-insurance Model}
+\cite{pal2011aegis}
 eliminate threats which cannot be tackled through traditional means, such as AV. Risks arrise due to both security attacks and non-security related failures. This paper analyzes cyber-insurance solutions when a user faces risks due to both of these. Propose a model called "Aegis", user accepts a fraction of loss recovery and transfers the rest.Mathematically show that only under conditoons when buying cyber-insurance  is mandatory.
-\section{A solution to the information Asymmetry Problem}
+
+
+
+\subsection{Cyber-insurance for cyber-security, A topological Take on Modulating Insurance Premiums}
+\cite{pal2012cyberinsurance}
+Adopts a topological perspective in proposing a mechanism that accounts for the positive
+ externalities, network location of users, and provide appropriate way to proportionally allocate
+  fines/rebates on user premiums. Uses GT to prove. Consider a monopolistic cyber-insurer, prodividing
+   full coverage. Each client is risk averse. A users investment and location in network determines
+    his risk type. Each user has a utility function dependent on the rest of the users. 
+    Node centrality, maps to the externality effects a node has on other network nodes. Uses
+    eigenvectors and bonacich papers. both these assign relative importance scores to all nodes, based on the concept of connections.  
+
+
+\subsection{Differentiating Cyber-insurance Contracts, a topological Perspective}
+
+\cite{paldifferentiating}
+Important to discriminate network users on insurance contracts. prevent adverse selection, partly
+ inernalizing the negative externalities of interdependent security, achieving maximum social welfare
+ , helping a risk-averse insurer to distribute costs of holding safety capital among its clients, and
+  insurers sustaining a fixed amount of profit per contract.
+Important to find a way to properly discriminate.
+The paper propose a technique based on the topological location of users that allows cyber-insurers to
+ appropriately contract discrimanate their clients. Consider single cyber-insurer providing full or
+  partial coverage. Insurer have complete information about the topology.
+  Discriminates on Bonacich/eigenvector centralities.
+
+
+
+
+\subsection{Cyber insurance as an Incentive for Internet Security}
+\cite{bolot2008cyber}
+so far the risk management on the internet has involved methods to reduce the
+risks(firewalls, ids, prevention etc.) but not eliminate risk. Is it logical to buy
+insurance to protect the internet and its users.
+An important thing to notice when insuring internet, 
+is that the entities on the internet are correlated, 
+which means insurance claims will likely be correlated. Risks are interdependent, 
+decision by an entity to invest in security affects the risks of others.
+Key result: using insurance would increase the overall security. 
+Act as an powerful incentive, which pushes entities over the threshold where they invest in self-protection.
+ Insurance should be an important component of risk management in the internet.
+
+Four typical options available in the face of risks. 
+1. avoid the risk 2. retain 3. self protect and mitigate 4. transfer the risk.
+Most entities in the internet have choses a mix of 2 and 3. This has lead to 
+lots of systems trying to detect threats and anomalies(both malicious and accidental)
+ and to protect the users and the structure from these.
+but this does not eliminate risk, threats evolve over time and there is allways accidents.
+How to handle this residual risk?
+Option 4, transfer the risk to another entity who willingly accept it(hedging),
+ insure in exchange for a fee. Allows for predictable payouts for uncertain events.
+But does this makes sense for the internet, benefits, to whom? and to what extent?
+
+How to model insurance and computing premiums. avoid ruin the insurer. Actuarial approach.
+ Economic approach:  premium should be negative correlated to the amount
+invested in security by the entity. Users can chose to invest c or not in security
+solutions. Shown that in the 2 user case in absence of insurance, there is a NE
+in a good state, if c is low enough. These result have been extended to a
+network setting. This paper starts out by adding insurance to the two person game,
+ then the n-users network, where damages spread among the users. 
+ They show that if premium discriminates about investment in protection.
+  Insurance is a strong incentive to invest in security.
+   Also show how insurance can be a mechanism to facilitate the deployment of security
+    investments by taking advantage network effects such as treshold or tipping point dynamics. 
+    Uses simple models. 
+
+Using cyber insurance as a way to handle residual risk started out early in the 90's. 
+Software and insurance sold as packages. 
+ More recently insurance companies started offering standalone products.
+  A challenging problem is the correlation between risks, interdependent risks(risk that depend on the behavior of others).
+
+\subsubsection{Classical model for insurance}
+agents try to maximize some kind of expected utility function, and are risk averse.
+$u[w_{0}-\pi]=E[u[w_{0}+X]]$
+
+Investments for an agent is either self protect and or insurance.
+If insurance premium is not negatively correlated to the self protection, we get moral hazard. Because if not, insurance will disincourage self protection.
+In this way insurance can co-exist with selfprotection.
+
+
+\subsubsection{Interdependent security and insurance}
+In presence of interdependent risks, the reward for a user investing in self-protection depends on the security in the rest of the network.
+Discrete choice, invest or not. loss occurs directly or indirectly. Cost of investing is c. This avoids the direct loss completely. 
+In summary, insurance provides incentives for a
+small fraction of the population to invest in self-protection, which in turn induces the rest
+of the population to invest in self-protection as well, leading to the desirable state where
+all users in the network are self-protected. Furthermore, the parameter y provides a way
+to multiply the benefits of insurance, by lowering the initial fraction of the self-protected
+population needed to reach the desirable state.
+This paper shows that insurance provides significant benefits to network of users facing correlated, 
+interdependent risks. Insurance is a powerful mechanism to promote network-wide changes, i.e lead to self protection.
+How to estimate damage? This is very hard on the internet. 
+This paper shows how it is economical rational for entities to prefer a relatively 
+insecure system to a more secure, and that the adoption of security investments follows treshold/tipping point dynamics. 
+And that insurance is a powerful incentive to push the users over the treshold.
+
+
+\subsection{A solution to the information Asymmetry Problem}
+REFERENCE??! 
 AV and other security software reduces the risk, but does not remove it completely. Cyber-insurance,
  residueal risk elimination. But a problem with this is information asymmetry. This paper proposes
   three mechanisms to resolve this problem. Mechanisms based on the principal agent problem,
@@ -354,7 +387,7 @@ Even the best software available have false-positive, false-negative. And threat
 \item[5] Security software suffer from lemons market. 
 \end{itemize}
  \subparagraph{Cyber-insurance and asymmetry}
- insurers are inable to disttinguish high and low risk users, i.e adverse selection.
+ insurers are unable to disttinguish high and low risk users, i.e adverse selection.
  users undertaking actions, i.e moral hazard. 
  
  Difficult for insurers to gather information about applications, software installed, security habbits
@@ -363,30 +396,34 @@ Even the best software available have false-positive, false-negative. And threat
 Users in general invest to little in self-defense relative to the socially efficient lvl due to the
  free-rider problem(externatlities).  Thus the challenge to improving overall network security lies in
   incentivizing end users to invest in sufficient amount of self defense.
-\section{Cyber-insurance for cyber-security, A topological Take on Modulating Insurance Premiums}
-Adopts a topological perspective in proposing a mechanism that accounts for the positive
- externalities, network location of users, and provide appropriate way to proportionally allocate
-  fines/rebates on user premiums. Uses GT to prove. Consider a monopolistic cyber-insurer, prodividing
-   full coverage. Each client is risk averse. A users investment and location in network determines
-    his risk type. Each user has a utility function dependent on the rest of the users. 
-    Node centrality, maps to the externality effects a node has on other network nodes. Uses
-    eigenvectors and bonacich papers. both these assign relative importance scores to all nodes, based on the concept of connections.  
 
-\section{Differentiating Cyber-insurance Contracts, a topological Perspective}
-Important to discriminate network users on insurance contracts. prevent adverse selection, partly
- inernalizing the negative externalities of interdependent security, achieving maximum social welfare
- , helping a risk-averse insurer to distribute costs of holding safety capital among its clients, and
-  insurers sustaining a fixed amount of profit per contract.
-Important to find a way to properly discriminate.
-The paper propose a technique based on the topological location of users that allows cyber-insurers to
- appropriately contract discrimanate their clients. Consider single cyber-insurer providing full or
-  partial coverage. Insurer have complete information about the topology.
-  Discriminates on Bonacich/eigenvector centralities.
+%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Networkformation}
+%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Related work 2}
+Virus and worm propagation on the Internet can be modeled as epidemic spreads. 
+When we look a 2-agent model we can observe correlation between one agents choice of investing in 
+protection. If agent 1 has a connection to agent 2, the probability of agent 2 being contagion is 
+strongly correlated to the choice of agent 1. In the case where agent 1 invests in protection,
+ agent 2 will not be infected. However, if chooses not to invest in protection, the probability 
+ of infection for agent 2 is p.
+ After a number of equations the authors conclude that in presence of insurance, the optimal 
+ strategy for all users is to invest in self-protecting services as long as this cost is low
+  enough.
+
+Further the authors looks at the situation where the cost of selv-protection is different for 
+different agents (heterogeneous users) in a complete graph (n-n). The conclusion states that
+ insurance increase the adoption for a fraction of the users, which creates the cascading effect
+ that the rest of the users also gains benefit from investing in insurance. We end up in a state
+  where everyone in the network are self-protected. 
+
+In star shaped graphs (i.e. hubs), it is obvious that the network will decrease the probability
+ contagion dramatically by investing in self-protection measures. The authors also assumes that it
+ is likely that the other low connectivity nodes will follow the hub and adopt self-protection. 
 
 
-
-
-\section{This was previously placed in current market }
+\section{NOTES!!!!! This was previously placed in current market }
 When facing a security breach there are two potential loss classes:
 Primary losses, also called first-degree loss. Meaning a direct loss of information or data and operating loss. 
 Which arises from unuse, disuse, abuse and misuse of information.
@@ -399,7 +436,7 @@ and generally contribute to an even higher cost \cite{bandyopadhyay2009managers}
 
 Both classes can be covered by cyber-insurance, and usually will these contracts based on the same two classes, i.e you have to get an insurance for both. 
 Here is an example contract from \cite{travelers}.
-\section{Contract structure}
+\subsection{Contract structure}
 Travelers cyber-insurance:
 \begin{itemize}
 \item Liability insurance. \begin{enumerate}
@@ -417,7 +454,7 @@ Travelers cyber-insurance:
 \item business interruption and additional expenses
 \end{enumerate}
 \end{itemize}
-\section{Economics}
+\subsection{Economics}
 Traditional security is a public good and are usually provided by the government. 
 The threats are also originating from a small number of actors. 
 What about internet security, should it be handled by the government.
@@ -427,13 +464,13 @@ What about internet security, should it be handled by the government.
  Lemons problem, antivirus software. because the customer cant see the difference.
  Asymmetric information explains many market failures, low prices in lemons-markets, why sick people struggle with getting to buy insurance.
  A good example of misaligned incentives is bank frauds in US and UK, in US the banks are the ones hold responsible, in UK it is the customers. One would think the banks in UK was better off, but they are not. Similar problems can be found in other systems, and the problem is  security failing because the people guarding a system are not the poeple suffering the costs of failure. 
- \section{Epidemics}
+ \subsection{Epidemics}
  \cite{easley2012networks}
  The social network within a population, has a big say in determining how diseases is likely to
   spread. it can only spread if there are contact between to persons(Nodes), the contact network.
   The contact network for to different diseases can differ radically, e.g java viruses versus worm
    propagating through another vulnerability. Or internet viruses versus viruses that spread through short-range wireless communication. 
-   \subsection{modeling contagion}
+   \subsubsection{modeling contagion}
    \subparagraph{branching processes}
    first wave, a person carrying a new disease enters a network, and transmits to everyone he meets with a probability of p, he meets k-people.
 second wave, each person from the first wave now meets k new people, i.e a total of k times k and if infected passes the disease on with probability p.
@@ -477,7 +514,7 @@ assing a probability of infecting on every edge, calculate this at the beginning
  world diseases. It can produce oscillations in  very localized parts of the network, with patches of
   immunity following large numbers of infections in small areas. 
 
-\section{Incentives and Information Security}
+\subsection{Incentives and Information Security}
 
 
 People have realized that security failure is not only caused by technical mistakes but also misaligned incentives. When the person guarding them is not the one who suffers when the system fail, there are strong misaligned incentives. As the book \cite{anderson2010security} states, the tools and concepts of game theory and microeconomic theory are becoming just as important as the mathematics of cryptography.
@@ -492,7 +529,8 @@ Another information asymmetry in security, is due to our inability to measure so
 Network science and information security, the network topology can strongly influence conflict dynamics.
 Externalities makes security problems reminiscent of environmental pollution, public goods. 
 
-\input{relatedwork2}
-
 ......End of the stuff from current market.....
-\section{new section}
+
+
+
+
