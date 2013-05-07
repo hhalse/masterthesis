@@ -9,6 +9,7 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
+<<<<<<< HEAD
 \contentsline {table}{\numberline {7.1}{\ignorespaces The parameters used in the simulation in \ref {fig:stablestar} \relax }}{82}{table.caption.120}
 \contentsline {table}{\numberline {7.2}{\ignorespaces The parameters used in the simulation in \ref {fig:star:a} \relax }}{83}{table.caption.123}
 \addvspace {10pt}
@@ -36,4 +37,10 @@
 =======
 \contentsline {table}{\numberline {9.1}{\ignorespaces Table showing the parameters added to the model \relax }}{95}{table.caption.138}
 >>>>>>> 2ef0ae37c4d24b653e32cf7b08f1a814ab75319c
+=======
+\contentsline {table}{\numberline {7.1}{\ignorespaces The parameters used in the simulation in \ref {fig:stablestar} \relax }}{83}{table.caption.123}
+\contentsline {table}{\numberline {7.2}{\ignorespaces The parameters used in the simulation in \ref {fig:star:a} \relax }}{84}{table.caption.126}
+\addvspace {10pt}
+\contentsline {table}{\numberline {8.1}{\ignorespaces Table showing the parameters added to the model \relax }}{90}{table.caption.132}
+>>>>>>> lokal
 \addvspace {10pt}
