@@ -9,20 +9,8 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {7.1}{\ignorespaces The parameters used in the simulation in \ref {fig:stablestar} \relax }}{82}{table.caption.120}
-\contentsline {table}{\numberline {7.2}{\ignorespaces The parameters used in the simulation in \ref {fig:star:a} \relax }}{83}{table.caption.123}
+\contentsline {table}{\numberline {7.1}{\ignorespaces The parameters used in the simulation in \ref {fig:stablestar} \relax }}{83}{table.caption.123}
+\contentsline {table}{\numberline {7.2}{\ignorespaces The parameters used in the simulation in \ref {fig:star:a} \relax }}{84}{table.caption.126}
 \addvspace {10pt}
-<<<<<<< HEAD
-\contentsline {table}{\numberline {8.1}{\ignorespaces Table showing the parameters added to the model \relax }}{90}{table.caption.128}
-=======
-<<<<<<< HEAD
-\contentsline {table}{\numberline {8.1}{\ignorespaces The parameters used in the simulation in \ref {fig:stablestar} \relax }}{86}{table.caption.122}
-\contentsline {table}{\numberline {8.2}{\ignorespaces The parameters used in the simulation in \ref {fig:star:a} \relax }}{87}{table.caption.125}
-=======
-\contentsline {table}{\numberline {8.1}{\ignorespaces The parameters used in the simulation in \ref {fig:stablestar} \relax }}{86}{table.caption.124}
-\contentsline {table}{\numberline {8.2}{\ignorespaces The parameters used in the simulation in \ref {fig:star:a} \relax }}{87}{table.caption.127}
->>>>>>> working
-\addvspace {10pt}
-\contentsline {table}{\numberline {9.1}{\ignorespaces Table showing the parameters added to the model \relax }}{93}{table.caption.132}
->>>>>>> 88757dd332f0f0c578996c75d2ffa4a3cc53e39d
+\contentsline {table}{\numberline {8.1}{\ignorespaces Table showing the parameters added to the model \relax }}{90}{table.caption.132}
 \addvspace {10pt}

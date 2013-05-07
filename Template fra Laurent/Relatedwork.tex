@@ -6,7 +6,134 @@
 \section{Cyber-Insurance}
 \input{relatedworkFinal}
 
+\section{Cyber insurance as an Incentive for Internet Security-PAPER fjern overskrift..}
+In the paper \cite{bolot2008cyber}, they talk about how risk management on the internet only have involved methods to reduce the risks, such as firewalls, intrusion detection systems, anti virus etc. But none of these have managed to remove the risk completely. In general there are four possible ways of removing risk: avoid it, retain it, self protect and mitigate it or transfer the risk. And most entities on the internet have chosen a mix of of retaining and mitigate by self protecting. 
 
+Unfortunately, these solutions does not eliminate risk completely, and threats evolve over time. Thus, the only option for completely removing the risk, is to transfer it to a party who willingly accepts it, in exchange for a fee. The keyresult of this paper is that they show that cyber-insurance will result in overall higher payoff. Because when the premiums discriminates users based on the investment in self protection, it will act as an strong incentive to acquire self protection. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Networkformation}
+%%%%%%%%%%%%%%%%%%%%
+The paper \cite{danezis2006network} describes an interesting network formation games. Although the paper tries to observe suseptibility to sybil attacks in peer-to-peer networks, their approach on network formation can be related to our thesis. In the game they come up with, nodes are either friends or strangers. And the goal of the nodes is to selfishly try to fulfill their communication needs. Their needs is to communicate with as many as possible of their friends. This can be achieved by either direct or indirect connections. Every node has a link budget, i.e. a maximum number of links they can establish, and a set of friends they want to connect to. 
+They proposes two random games where nodes might have to take the risk of connecting to non-insured nodes.
+\begin{enumerate}
+\item Random model: Every node in the network initiate a set for friendships with other nodes, denoted $F$. All nodes have the same link budget $L<F$. 
+\item Unbalanced Random Mode. The same friendship graph as in the random model is created. However one of the nodes have a significantly larger link budget $(L_{0} > 2 F)$
+\end{enumerate}
+The first model does not result in any equilibrium, except the one where friends only connect to other friends.
+The other model shows some new insights, when the link budget is comparable with their number of friends, most still choose to only connect to friends. However, when the link budget is set to only one link, except for the rich node. Then the resulting equilibrium is a star topology. 
+
+
+
+\section{NOTATER!!!!! ASDASDASDASDASDASDASDASDSAD}
+\subsection{This was previously placed in current market }
+When facing a security breach there are two potential loss classes:
+Primary losses, also called first-degree loss. Meaning a direct loss of information or data and operating loss. 
+Which arises from unuse, disuse, abuse and misuse of information.
+ The cost related to this losses comes from recovering, loss of revenue, 
+ PR and information sharing, hiring of IT-specialists etc. 
+Secondary loss is indirectly triggered. Such as loss of reputation, goodwill, 
+consumer confidence, competitive strength, credit rating and customer churn. 
+These claims arise from loss of external parties, sensitive data, 
+and generally contribute to an even higher cost \cite{bandyopadhyay2009managers}.
+
+Both classes can be covered by cyber-insurance, and usually will these contracts based on the same two classes, i.e you have to get an insurance for both. 
+Here is an example contract from \cite{travelers}.
+\subsection{Contract structure}
+Travelers cyber-insurance:
+\begin{itemize}
+\item Liability insurance. \begin{enumerate}
+\item Network and Information Security Liability
+\item communications and Media Liability
+\item Regulatory Defense Expenses
+\end{enumerate}
+\item First party insuring agreements: \begin{enumerate}
+\item Crisis managment event expenses
+\item Security breach remediation and notification expenses
+\item computer program and electronic data restoration expenses
+\item computer fraud
+\item fund transfer fraud
+\item e-commerce extortion
+\item business interruption and additional expenses
+\end{enumerate}
+\end{itemize}
+\subsection{Economics}
+Traditional security is a public good and are usually provided by the government. 
+The threats are also originating from a small number of actors. 
+What about internet security, should it be handled by the government.
+ We do not have anti-tank gear in every house, should we have anti virus software on every computer?
+ there are strong externalities involved, if a unsecured computer joins the internet, 
+ it end up dumping costs on others, just like pollution. 
+ Lemons problem, antivirus software. because the customer cant see the difference.
+ Asymmetric information explains many market failures, low prices in lemons-markets, why sick people struggle with getting to buy insurance.
+ A good example of misaligned incentives is bank frauds in US and UK, in US the banks are the ones hold responsible, in UK it is the customers. One would think the banks in UK was better off, but they are not. Similar problems can be found in other systems, and the problem is  security failing because the people guarding a system are not the poeple suffering the costs of failure. 
+ \subsection{Epidemics}
+ \cite{easley2012networks}
+ The social network within a population, has a big say in determining how diseases is likely to
+  spread. it can only spread if there are contact between to persons(Nodes), the contact network.
+  The contact network for to different diseases can differ radically, e.g java viruses versus worm
+   propagating through another vulnerability. Or internet viruses versus viruses that spread through short-range wireless communication. 
+   \subsubsection{modeling contagion}
+   \subparagraph{branching processes}
+   first wave, a person carrying a new disease enters a network, and transmits to everyone he meets with a probability of p, he meets k-people.
+second wave, each person from the first wave now meets k new people, i.e a total of k times k and if infected passes the disease on with probability p.
+further waves are formed in the same way.
+With this simple modeling approach, we get a tree, with a root node which creates branches to new
+lvls of the tree. With low contagion probability, the infection is likely to die out quickly. 
+If the disease in a branching process ever reaches a wave where it fails to infect anyone, then it has died out. It is only two possibilities for the disease in a branching model, 
+either it dies out, or it continue to infect infinitely  many waves. These two possibilities can be
+ differentiaded by a quantity called the basic reproductive number.  $R_{0}$, this is the expected
+  number of new cases of the disease caused by one person/node. In this basic model this number is:
+   $p*k$. If $R_{0}<1$ then with probability 1 the disease dies out after a finite number of waves, if $R_{0}>1$ then it continues to infect atleast one person each wave with a probability greater than 0.
+   A interesting thing to notice about these statements, is if the $R_{0}$ is close to 1 in 
+   either way, then a small shift in the probability will change the 
+   disease status from terminating to widespread or visa versa. This suggests that around the critical value $R_{0}=1 $ it can be worht investing large amounts of effort to produce small shifts in R. 
+\subparagraph{SIR epidemic model}
+Can be applied to any network structure, preserve the basics of the branching process at the level of individual nodes, but generalize the contact structure. 
+A node goes through three potential stages: \begin{enumerate}
+\item Susceptible(S): Before the node has caught the disease.
+\item Infectious(I): once the node has caught the disease, it is infectious and can infect other susceptible neighbors with probability p.
+\item Removed(R): After a node has experienced the full infetious period, it is removed from consideration, since it no longer poses a threat.
+\end{enumerate}
+Network with directed edges. The progress of the epidemic is ontrolled by the contact network
+ structure, probability of contagion and $t_{I}$ the length of infection.
+When a node enters the I state, it remains infectious for a fixed number of steps $t_{I}$. 
+During each of these steps it has a probability of infecting its neighbours. 
+After $t_{I}$ it is removed(R). Good model for disease you can only catch once in a lifetime. 
+Important to note that in networks that do not have tree structure, the claim made earlier about $1>R_{0}>1$ does not necesarily hold anymore. The network structure is very important, 
+it can decide if a disease will spread or not.  Narrow channel example. 
+\subparagraph{Extension to SIR}
+The SIR model is simple, to make it more realistic we can add probability q of recovery, and also add different probabilities for contamination between nodes, due to stronger contact. We add periods to the infection time, early, middle and late and allow different probabilities for infecting in each of these states. 
+
+\subparagraph{Model from dynamic to static(Percolation)}
+assing a probability of infecting on every edge, calculate this at the beginning, and thus an infected
+ node has to connected to another infected node by an open edge. Think of it as fluid running through open and closed pipes. Its only the open ones who can be affected. 
+ 
+ \subparagraph{SIS epidemic model}
+ Nodes can be reinfected. Only two states, susceptible and infectious. Researchers have proved "knife-edge" results on these networks as well.
+ A SIS epidemic can be represented by a SIR model by using a "time-expanded" network. Duplicate the nodes to the next time-frame.
+ \subparagraph{SIRS Epidemic model}
+ Remain removed(immune for a fixed period of time) $t_{R}$, this model fits good with many real 
+ world diseases. It can produce oscillations in  very localized parts of the network, with patches of
+  immunity following large numbers of infections in small areas. 
+
+\subsection{Incentives and Information Security}
+
+
+People have realized that security failure is not only caused by technical mistakes but also misaligned incentives. When the person guarding them is not the one who suffers when the system fail, there are strong misaligned incentives. As the book \cite{anderson2010security} states, the tools and concepts of game theory and microeconomic theory are becoming just as important as the mathematics of cryptography.
+\subparagraph{Informational asymmetries}
+peer-to-peer network, these exploit network externalities to the fullest by having large member populations with a flat topology. Joining creates the possibility of collaboration with everyone. 
+it is easy to cheat.One solution, change the network topology, create clubs of nodes, 
+one need to establish trust with the club, then you can connect with outside groups through
+ your group. Social networks can also be used to create better topologies, when honest players 
+ can select their friends as neghbors., they minimize the information asymmetry present during
+  neighbor interactions. 
+Another information asymmetry in security, is due to our inability to measure software security. 
+Network science and information security, the network topology can strongly influence conflict dynamics.
+Externalities makes security problems reminiscent of environmental pollution, public goods. 
+
+......End of the stuff from current market.....
 
 \subsection{Towards Insurable Network Architectures}\label{sec:first_section}
 
@@ -287,11 +414,7 @@ The paper propose a technique based on the topological location of users that al
   partial coverage. Insurer have complete information about the topology.
   Discriminates on Bonacich/eigenvector centralities.
 
-
-
-
-\subsection{Cyber insurance as an Incentive for Internet Security}
-\cite{bolot2008cyber}
+\section{Cyber insurance as an Incentive for Internet Security}
 so far the risk management on the internet has involved methods to reduce the
 risks(firewalls, ids, prevention etc.) but not eliminate risk. Is it logical to buy
 insurance to protect the internet and its users.
@@ -357,7 +480,6 @@ This paper shows how it is economical rational for entities to prefer a relative
 insecure system to a more secure, and that the adoption of security investments follows treshold/tipping point dynamics. 
 And that insurance is a powerful incentive to push the users over the treshold.
 
-
 \subsection{A solution to the information Asymmetry Problem}
 REFERENCE??! 
 AV and other security software reduces the risk, but does not remove it completely. Cyber-insurance,
@@ -395,18 +517,11 @@ Even the best software available have false-positive, false-negative. And threat
 Users in general invest to little in self-defense relative to the socially efficient lvl due to the
  free-rider problem(externatlities).  Thus the challenge to improving overall network security lies in
   incentivizing end users to invest in sufficient amount of self defense.
-
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Networkformation}
-%%%%%%%%%%%%%%%%%%%%
-
-
-\input{modelFromBohme}
-\subsection{Related work 2}
+  
+  \input{modelFromBohme}
+  
+  
+\subsection{Related work 2 UBRUKELIG!}
 Virus and worm propagation on the Internet can be modeled as epidemic spreads. 
 When we look a 2-agent model we can observe correlation between one agents choice of investing in 
 protection. If agent 1 has a connection to agent 2, the probability of agent 2 being contagion is 
@@ -426,137 +541,3 @@ different agents (heterogeneous users) in a complete graph (n-n). The conclusion
 In star shaped graphs (i.e. hubs), it is obvious that the network will decrease the probability
  contagion dramatically by investing in self-protection measures. The authors also assumes that it
  is likely that the other low connectivity nodes will follow the hub and adopt self-protection. 
-
-\subsection{Contagion Paper}
-
-\subparagraph{FLYTT DETTE TIL BACKGROUND og referer til det når vi viser at cliques er bra}
-The paper \cite{contagion} come up with some interesting results regarding network formation games. 
-They set up a game where the nodes benefit from direct links, but these links also expose them for risk. 
-Each node gains a payoff of  $a$ per link it establishes, but it can establish a maximum of $\delta$ links.
-A failure occur at a node with probability $q$, and propagates on a link with probability $p$. If a node fail, it will receive a negative payoff of $b$, no matter how many links it has established.
-
-The results from their model shows a situation where clustered graphs achieve a higher payoff when connected to trusted agents, compared to when connecting with random nodes. Unlike in anonymous graphs, where nodes connect to each other at random, nodes in these graphs share some information with their neighbors, which is used when deciding whether to form a link or not. 
-To further explain these results, they show that there exists a critical point, called \textit{phase transition}, which occurs when nodes have a node degree of $\frac{1}{p}$. 
-At this point a node gets a payoff of  $\frac{a}{p}$, and to further increase the payoff the node needs to go into a region with significantly higher failure probability. 
-Because once each node establish more than $\frac{1}{p}$ links, the contagious edges, will with high probability form a large cluster. Which results in a rise in probability of node failure, and reduces the overall welfare.
-From this the paper say that when the minimum welfare exceeds 
-$(1+f(\delta)*\frac{a}{p})$
-we have reached super critical payoff. Otherwise it is called sub-critical payoff. 
-Further they show that the only possible way of ending up with supercritical payoff, is by forming clustered networks consisting of cliques with slightly more than $\frac{1}{p}$ nodes. 
-If the nodes form an anonymous market, random linking, they can only get sub-critical payoff. 
-In other words, if the nodes can choose who they connect with, and by doing so, creating trusted clustered markets, they can achieve a higher payoff, by exceeding the critical node degree point. But in random graphs, this is not possible. 
-
-
-
-
-\section{NOTES!!!!! This was previously placed in current market }
-When facing a security breach there are two potential loss classes:
-Primary losses, also called first-degree loss. Meaning a direct loss of information or data and operating loss. 
-Which arises from unuse, disuse, abuse and misuse of information.
- The cost related to this losses comes from recovering, loss of revenue, 
- PR and information sharing, hiring of IT-specialists etc. 
-Secondary loss is indirectly triggered. Such as loss of reputation, goodwill, 
-consumer confidence, competitive strength, credit rating and customer churn. 
-These claims arise from loss of external parties, sensitive data, 
-and generally contribute to an even higher cost \cite{bandyopadhyay2009managers}.
-
-Both classes can be covered by cyber-insurance, and usually will these contracts based on the same two classes, i.e you have to get an insurance for both. 
-Here is an example contract from \cite{travelers}.
-\subsection{Contract structure}
-Travelers cyber-insurance:
-\begin{itemize}
-\item Liability insurance. \begin{enumerate}
-\item Network and Information Security Liability
-\item communications and Media Liability
-\item Regulatory Defense Expenses
-\end{enumerate}
-\item First party insuring agreements: \begin{enumerate}
-\item Crisis managment event expenses
-\item Security breach remediation and notification expenses
-\item computer program and electronic data restoration expenses
-\item computer fraud
-\item fund transfer fraud
-\item e-commerce extortion
-\item business interruption and additional expenses
-\end{enumerate}
-\end{itemize}
-\subsection{Economics}
-Traditional security is a public good and are usually provided by the government. 
-The threats are also originating from a small number of actors. 
-What about internet security, should it be handled by the government.
- We do not have anti-tank gear in every house, should we have anti virus software on every computer?
- there are strong externalities involved, if a unsecured computer joins the internet, 
- it end up dumping costs on others, just like pollution. 
- Lemons problem, antivirus software. because the customer cant see the difference.
- Asymmetric information explains many market failures, low prices in lemons-markets, why sick people struggle with getting to buy insurance.
- A good example of misaligned incentives is bank frauds in US and UK, in US the banks are the ones hold responsible, in UK it is the customers. One would think the banks in UK was better off, but they are not. Similar problems can be found in other systems, and the problem is  security failing because the people guarding a system are not the poeple suffering the costs of failure. 
- \subsection{Epidemics}
- \cite{easley2012networks}
- The social network within a population, has a big say in determining how diseases is likely to
-  spread. it can only spread if there are contact between to persons(Nodes), the contact network.
-  The contact network for to different diseases can differ radically, e.g java viruses versus worm
-   propagating through another vulnerability. Or internet viruses versus viruses that spread through short-range wireless communication. 
-   \subsubsection{modeling contagion}
-   \subparagraph{branching processes}
-   first wave, a person carrying a new disease enters a network, and transmits to everyone he meets with a probability of p, he meets k-people.
-second wave, each person from the first wave now meets k new people, i.e a total of k times k and if infected passes the disease on with probability p.
-further waves are formed in the same way.
-With this simple modeling approach, we get a tree, with a root node which creates branches to new
-lvls of the tree. With low contagion probability, the infection is likely to die out quickly. 
-If the disease in a branching process ever reaches a wave where it fails to infect anyone, then it has died out. It is only two possibilities for the disease in a branching model, 
-either it dies out, or it continue to infect infinitely  many waves. These two possibilities can be
- differentiaded by a quantity called the basic reproductive number.  $R_{0}$, this is the expected
-  number of new cases of the disease caused by one person/node. In this basic model this number is:
-   $p*k$. If $R_{0}<1$ then with probability 1 the disease dies out after a finite number of waves, if $R_{0}>1$ then it continues to infect atleast one person each wave with a probability greater than 0.
-   A interesting thing to notice about these statements, is if the $R_{0}$ is close to 1 in 
-   either way, then a small shift in the probability will change the 
-   disease status from terminating to widespread or visa versa. This suggests that around the critical value $R_{0}=1 $ it can be worht investing large amounts of effort to produce small shifts in R. 
-\subparagraph{SIR epidemic model}
-Can be applied to any network structure, preserve the basics of the branching process at the level of individual nodes, but generalize the contact structure. 
-A node goes through three potential stages: \begin{enumerate}
-\item Susceptible(S): Before the node has caught the disease.
-\item Infectious(I): once the node has caught the disease, it is infectious and can infect other susceptible neighbors with probability p.
-\item Removed(R): After a node has experienced the full infetious period, it is removed from consideration, since it no longer poses a threat.
-\end{enumerate}
-Network with directed edges. The progress of the epidemic is ontrolled by the contact network
- structure, probability of contagion and $t_{I}$ the length of infection.
-When a node enters the I state, it remains infectious for a fixed number of steps $t_{I}$. 
-During each of these steps it has a probability of infecting its neighbours. 
-After $t_{I}$ it is removed(R). Good model for disease you can only catch once in a lifetime. 
-Important to note that in networks that do not have tree structure, the claim made earlier about $1>R_{0}>1$ does not necesarily hold anymore. The network structure is very important, 
-it can decide if a disease will spread or not.  Narrow channel example. 
-\subparagraph{Extension to SIR}
-The SIR model is simple, to make it more realistic we can add probability q of recovery, and also add different probabilities for contamination between nodes, due to stronger contact. We add periods to the infection time, early, middle and late and allow different probabilities for infecting in each of these states. 
-
-\subparagraph{Model from dynamic to static(Percolation)}
-assing a probability of infecting on every edge, calculate this at the beginning, and thus an infected
- node has to connected to another infected node by an open edge. Think of it as fluid running through open and closed pipes. Its only the open ones who can be affected. 
- 
- \subparagraph{SIS epidemic model}
- Nodes can be reinfected. Only two states, susceptible and infectious. Researchers have proved "knife-edge" results on these networks as well.
- A SIS epidemic can be represented by a SIR model by using a "time-expanded" network. Duplicate the nodes to the next time-frame.
- \subparagraph{SIRS Epidemic model}
- Remain removed(immune for a fixed period of time) $t_{R}$, this model fits good with many real 
- world diseases. It can produce oscillations in  very localized parts of the network, with patches of
-  immunity following large numbers of infections in small areas. 
-
-\subsection{Incentives and Information Security}
-
-
-People have realized that security failure is not only caused by technical mistakes but also misaligned incentives. When the person guarding them is not the one who suffers when the system fail, there are strong misaligned incentives. As the book \cite{anderson2010security} states, the tools and concepts of game theory and microeconomic theory are becoming just as important as the mathematics of cryptography.
-\subparagraph{Informational asymmetries}
-peer-to-peer network, these exploit network externalities to the fullest by having large member populations with a flat topology. Joining creates the possibility of collaboration with everyone. 
-it is easy to cheat.One solution, change the network topology, create clubs of nodes, 
-one need to establish trust with the club, then you can connect with outside groups through
- your group. Social networks can also be used to create better topologies, when honest players 
- can select their friends as neghbors., they minimize the information asymmetry present during
-  neighbor interactions. 
-Another information asymmetry in security, is due to our inability to measure software security. 
-Network science and information security, the network topology can strongly influence conflict dynamics.
-Externalities makes security problems reminiscent of environmental pollution, public goods. 
-
-......End of the stuff from current market.....
-
-
-
-

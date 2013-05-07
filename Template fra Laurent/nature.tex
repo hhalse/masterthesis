@@ -13,28 +13,31 @@ In our paper an insurable topology, is an network structure which makes it feasi
  insurer(supply side)  to offer and the customer(demand side) to acquire insurance.
  For this to be possible there are many  difficulties to overcome,  one example are the correlated risks, from the insurers point of view, the problem is to be able to calculate the overall probability of casualty/infection, which can be very difficult without graph theory. 
 
-
-
- The paper \cite{lieberman2005evolutionary} is about evolutionary dynamics and how certain structures
-can amplify or sustain evolution or drift\footnote{Drift is the opposite of selective evolution
-, it is when the network/structure evolve and change at random}. To be able to find insurable topologies, an extensive study of different graphs and how they behave has to be conducted. Regarding security, knowledge of how viruses spread and how to use graph structures to prevent malicious hackers from entering your network is important. Evolutionary dynamics, and the research of how mutant genes spread though out a population is a very useful field when looking for an insurable topology. 
-If one can determine some structures, where some nodes are advantageous/disadvantageous , then these structures will have certain properties, such as sustaining viruses from spreading, or amplify the incentive for obtaining cyber-insurance and
-protection software. If one could identify these nodes and networks, then this information could  be used to determine if it is an insurable topology.
+ The paper \cite{lieberman2005evolutionary} is about evolutionary dynamics and how some structures
+can amplify or sustain evolution and drift\footnote{Drift is the opposite of selective evolution
+, it is when the network/structure evolve and change at random}.  Regarding security, knowledge of how viruses spread and how to use graph structures to prevent malicious hackers from entering your network is important. Evolutionary dynamics, and the research of how mutant genes spread though out a population is a very useful field when looking for an insurable topology. 
+If we can determine some structures, where some nodes are advantageous/disadvantageous , then these structures will have properties, such as sustaining viruses from spreading, or amplify the incentive for obtaining cyber-insurance and
+protection software. And these could maybe be considered as insurable topologies.
 
 In the \cite{lieberman2005evolutionary} paper, they show that mutants inserted in to a
  circulation graph, will have a fixation probability equal to
-\begin{equation}  p_{1}=\frac{(1-\frac{1}{r})}{(1-\frac{1}{r^{N}})} \label{eq:fixation} \end{equation}
+\begin{equation}  
+p_{1}=\frac{(1-\frac{1}{r})}{(1-\frac{1}{r^{N}})}
+ \label{eq:fixation} 
+\end{equation}
 Where $r$ represents the relative fitness of the mutant, if it is advantageous it will have a certain chance of fixation, and disadvantageous mutants will have a chance of extinction. 
-A circulation graph is a graph that satisfy these two properties:
+A circulation graph is a graph that satisfy these two properties: 
 \begin{enumerate}
 \item the sum of all edges leaving a vertex is equal for all vertexes
 \item the sum of all edges entering a vertex i equal for all vertexes
 \end{enumerate}
+I.e. a clique is a circulation graph, and the probability of fixation is as in Eq. (\ref{eq:fixation}).
 The fixation probability determines how probable it is that the whole network will eventually be
-"infected" by the mutant. I.e. it determines the rate of evolution, which relies on both the size of the
+"infected" by the mutant. It determines the rate of evolution, which relies on both the size of the
 network and the evolution speed. 
+If the relative fitness of the nodes are high, then the probability of fixation will be low.
 A probability equal to one means that every node in the network eventually will be affected by the mutant.
-A circulation graph is not necessarily an insurable topology, but if we can find graphs with  fixation probability that exceeds Eq.(\ref{eq:fixation}) they could possibly be considered as insurable topologies, because if we can find these graphs, then it will be possible to suppress drift and amplify selection and visa versa. 
+A circulation graph is not the best insurable topology, but since the probability of fixation can be calculated, it is an insurable topology. If we can find graphs with  fixation probability that exceeds Eq.(\ref{eq:fixation}) they could possibly be considered as insurable topologies, because if we can find these graphs, then it will be possible to further suppress drift and amplify selection and visa versa. 
 \begin{figure}[b]
 \centering
 \begin{tabular}{@{}c@{}}
@@ -54,13 +57,30 @@ p_{k}=\frac{(1-\frac{1}{r^{k}})}{(1-\frac{1}{r^{kN}})} \label{eq:fixationk}
   mutants and inhibiting disadvantageous mutants.
 
 There exists other graphs where the fixation probability is equal to \ref{eq:fixationk}, examples are super-stars, such as funnels and
-metafunnels. These are just more complex star networks. This paper shows,  that the super-stars if N is large enough, the fixation probability for an advantageous mutant converges to 1, 
+metafunnels. These are just more complex star networks. This paper shows,  that as N get large, the super-stars will have fixation probability, for an advantageous mutant, that converges to 1, 
 and for disadvantageous converges to 0. 
 As we know from chapter \ref{chp:graphTheory}, there are many
-topologies in our society that are so called scale-free. Scale-free networks have most of their connectivity clustered in a few verices, the star and the super-stars are all scale-free, and scale-free networks are potent selection amplifiers.
+topologies in our society that are so called scale-free. Scale-free networks have most of their connectivity clustered in a few verices, very similar to a star, and these networks can also be considered as potent selection amplifiers.
+\subparagraph{Benefits of cliques}
+The paper \cite{contagion} find some interesting results regarding network formation games. 
+They set up a game where the nodes benefit from direct links, but these links also expose them for risk. 
+Each node gains a payoff of  $a$ per link it establishes, but it can establish a maximum of $\delta$ links.
+A failure occur at a node with probability $q$, and propagates on a link with probability $p$. If a node fail, it will receive a negative payoff of $b$, no matter how many links it has established.
+
+The results from their model shows a situation where clustered graphs achieve a higher payoff when connected to trusted agents, compared to when connecting with random nodes. Unlike in anonymous graphs, where nodes connect to each other at random, nodes in these graphs share some information with their neighbors, which is used when deciding whether to form a link or not. 
+To further explain these results, they show that there exists a critical point, called \textit{phase transition}, which occurs when nodes have a node degree of $\frac{1}{p}$. 
+At this point a node gets a payoff of  $\frac{a}{p}$, and to further increase the payoff the node needs to go into a region with significantly higher failure probability. 
+Because once each node establish more than $\frac{1}{p}$ links, the contagious edges, will with high probability form a large cluster. Which results in a rise in probability of node failure, and reduces the overall welfare.
+From this the paper say that when the minimum welfare exceeds 
+$(1+f(\delta)*\frac{a}{p})$
+we have reached super critical payoff. Otherwise it is called sub-critical payoff. 
+Further they show that the only possible way of ending up with supercritical payoff, is by forming clustered networks consisting of cliques with slightly more than $\frac{1}{p}$ nodes. 
+If the nodes form an anonymous market, random linking, they can only get sub-critical payoff. 
+In other words, if the nodes can choose who they connect with, and by doing so, creating trusted clustered markets, they can achieve a higher payoff, by exceeding the critical node degree point. But in random graphs, this is not possible. 
+
 
 \subparagraph{Star-network as an insurable topology}
-The paper \cite{networkgames} shows how network games evolve when the payoffs are determined not only by your own decisions, but also by your neighbours. This can be used to analyze the insurable-topology, star network, further. One of the games they analyzes is simple but highly relevant for our paper, a public goods game. A good example of a public goods is security product, because it suffers from strategic substitutes, i.e. if your neighbour acquire the security product, you have less incentive of also acquiring the security product, because when he acquire it, he gets more secure, but so do you, due to the positive externalities of the product.
+The paper \cite{networkgames} shows how network games evolve when the payoffs are determined not only by your own decisions, but also by your neighbours. This can be used to analyze the star network further. One of the games they analyzes is simple but highly relevant for our paper, a public goods game. A good example of a public goods is security product. A security product  suffers from strategic substitutes, i.e. if your neighbour acquire the security product, you have less incentive of also acquiring the security product. This is because when he acquire it, he gets more secure, but so do you, due to the positive externalities of the product.
 
 Lets consider a simple game shown in this paper,
 We have an action space: $X=\{0,1\}$, where 1 can be considered as acquiring information, take vaccine, buy security software etc. And 0 is not doing so.
@@ -97,37 +117,3 @@ but it shows how a insurer can, by using the results from \cite{lieberman2005evo
 The contributes significantly to solving some of the problems with cyber-insurance. The problems with information asymmetry and interdependent risk problem has been reduced, since if the insurer knows the network structure, he can calculate the probabilities of failures and catastrophic events, the most important information he needs is how secure the center node is. If he also can ensure that the center node is secure, the interdependent risk problem is limited to only one node, the center node. All this result in a simple but insurable network topology.
 
    
-\section{Notater og slikt}
-
-\section{NOTES... random.. don't read}
- 
-The game:
-The way this game works, is that we look at nodes that are mutated (A), and those who are not (B).  
-
-When we apply the game to a directed graph, there are four different outcomes, a,b,c and d, which represents the interaction between the nodes, as is depicted in Figure \ref{fig:game} below. 
-
-In the first figure (Positive symmetric) the fixation probability is related to r=b/c. If b is greater than c, the properties of mutant b will propagate in to all the other nodes, and the whole graph will eventually consists of only mutated nodes. The opposite will happen in the case where c is greater than b, leading to extinction of the mutation. The later scenario models the situation where proper protection against a mutant i.e. a security threat is installed. If the level of security, c is higher that the strength of the security threat it will be blocked from propagating further into the network. 
-
-
-\begin{figure}[h]
-\centering
-\begin{tabular}{@{}c@{}}
-\includegraphics[width=0.5\textwidth]{natureGameSingle.png}
-\end{tabular}
-\caption{\label{fig:game} Mutant propagation game}
-\end{figure}
-
-More generalized, $W$ does not need to be stochastic, $w_{ij}>=0$. 
-If the sum of all edges leaving a vertex is equal for all vertexes, then the graph will never suppress selection.
-If the sum of all edges entering a vertex is equal for all vertexes, the graph never suppress drift.
-If both then the graph is called a circulation.
-     
-
-Where the fixation probability determines the rate of evolution, which relies both on the size of the network and the evolution speed. A probability of 1 means that every node in the network eventually will be affected by the mutant.   
-Isotherm graphs are a sub-graph of circulation. 
-
-If $W$ is symmetric, or isotherm then the fixation probability is always Eq.(\ref{eq:fixation})
-isotherm means doubly stochastic, all rows and cols sum to 1. 
-If a graph is one rooted, it has a fixation prob of $1/N$ regardless of $r$. If a graph has more then one root, its fixation probability is zero. 
-Is it possible to find graphs with fixation probability that exceeds Eq.(\ref{eq:fixation})? Is it possible to suppress drift and amplify selection?
-
