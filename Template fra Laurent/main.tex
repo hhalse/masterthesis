@@ -4,7 +4,7 @@
 \usepackage{blindtext}
 \usepackage{subcaption}
 \usepackage{rotating}
-
+\newtheorem{cnj}{Conjecture}
 
 \title{Cyber Insurance} % The title of your assignement; NB use \newlinetitle to start a newline
 \author{Håvard Halse \\Jonas Hoemsnes} % Your firstname and lastname
@@ -77,8 +77,7 @@
 
 \pagenumbering{arabic}
 \pagestyle{ruled}
-%Part 1: Introduction
-\part{Introduction}
+%Part 1: Background
 \include{introductionToCyberInsurance}
 \include{currentmarketstate}
 
@@ -91,13 +90,13 @@
 \include{methodology}
 %Part 3: Contributions/Modelene vaare
 \part{Own Contribution}
-\include{modelingCyberInsurance}
-\include{modellingThreshold}
 
-%Part 4: Discussion results conclusion
-\part{Summary}
+\include{modelingCyberInsurance}
+\include{SummaryOfResults}
+\include{modellingThreshold}
+%Discussion results conclusion
+
 \include{futurework}
-\include{conclusion}
 %appendix
 %references
 
