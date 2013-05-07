@@ -42,6 +42,7 @@
 =======
 \contentsline {figure}{\numberline {8.3}{\ignorespaces Normal form game, showing the different strategies and the payoffs for the different outcomes. The payoff are written in this order, A then B's. An agent has a strategy space of size 4. Maa ENDRES, FIKS NAVN IKKE FIRM, MEN NODE\relax }}{58}{figure.caption.77}
 \contentsline {figure}{\numberline {8.4}{\ignorespaces Leader follower game, first player 1 chooses to insure or not, then player 2, and then they choose to establish link or not in the same order.\relax }}{59}{figure.caption.79}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {8.5}{\ignorespaces The figure shows the resulting network from a simulation with parameters: $\beta =0.9$, $I_{l}=r=0.5$.\relax }}{63}{figure.caption.88}
 \contentsline {figure}{\numberline {8.6}{\ignorespaces The figure shows the two possible scenarios that violates the Eq.(\ref {eq:final condition}), \ref {fig:SimulationViolating:a} shows the result when $I_{l}<\beta -r$ and \ref {fig:SimulationViolating:b} shows the result when $I_{l}>\beta $.\relax }}{64}{figure.caption.89}
 \contentsline {figure}{\numberline {8.7}{\ignorespaces Two cliques, one consisting of insured agents the other consists of non-insured. All nodes have reached their goal. \relax }}{70}{figure.caption.97}
@@ -59,4 +60,26 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {10.1}{\ignorespaces Figure showing the distribution of Eq.( \ref {eq:distributionFunction}). \relax }}{98}{figure.caption.133}
+>>>>>>> working
+=======
+\contentsline {figure}{\numberline {8.5}{\ignorespaces The figure shows the resulting network from a simulation with parameters: $\beta =0.9$, $I_{l}=r=0.5$.\relax }}{63}{figure.caption.89}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces The figure shows the two possible scenarios that violates the Eq.(\ref {eq:final condition}), \ref {fig:SimulationViolating:a} shows the result when $I_{l}<\beta -r$ and \ref {fig:SimulationViolating:b} shows the result when $I_{l}>\beta $.\relax }}{64}{figure.caption.91}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Two cliques, one consisting of insured agents the other consists of non-insured. All nodes have reached their goal. \relax }}{70}{figure.caption.99}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Simulation when the cost of insuring a link is just below the limits. \relax }}{71}{figure.caption.101}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Signalling game with two nodes, node 1's type choosen by nature, node 2 is insured. Node 1 have complete information, node 2 suffer from incomplete information, and act on best response functions based on beliefs. \relax }}{75}{figure.caption.111}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Signalling game with two nodes, node 1's type choosen by nature, node2 is not insured. Node 1 have complete information, node 2 suffer from incomplete information, and act on best response functions based on beliefs. \relax }}{78}{figure.caption.115}
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Four nodes interconnected with each other.\relax }}{80}{figure.caption.119}
+\contentsline {figure}{\numberline {8.12}{\ignorespaces The resulting network after a simulation with the parameters $\beta =0.9, I_{l}=0.5$.\relax }}{83}{figure.caption.122}
+\contentsline {figure}{\numberline {8.13}{\ignorespaces The resulting network after a simulation with the parameters from table \ref {tbl:stablestar} and ten nodes.\relax }}{84}{figure.caption.124}
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Two different outcomes of the simulations with parameters from table \ref {tbl:clique}.\relax }}{87}{figure.caption.128}
+\contentsline {figure}{\numberline {8.15}{\ignorespaces Show probability of the network ending up in a star given different critical degrees.\relax }}{88}{figure.caption.129}
+\contentsline {figure}{\numberline {8.16}{\ignorespaces Show probability of the network ending up in a star-like structure, given different critical degrees.\relax }}{88}{figure.caption.130}
+\contentsline {figure}{\numberline {8.17}{\ignorespaces Show probability of the network ending up in a clique, given different critical degrees.\relax }}{89}{figure.caption.131}
+\contentsline {figure}{\numberline {8.18}{\ignorespaces Two star-network, ten- and forty-nodes, both are the result of simulations with parameters satisfying proposition \ref {prop:star}.\relax }}{90}{figure.caption.134}
+\contentsline {figure}{\numberline {8.19}{\ignorespaces shows how insured agents connects with each other to form a network to achieve super-critical payoffs.\relax }}{91}{figure.caption.135}
+\contentsline {figure}{\numberline {8.20}{\ignorespaces Caption for LOF}}{91}{figure.caption.136}
+\contentsline {figure}{\numberline {8.21}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{91}{figure.caption.137}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Figure showing the distribution of Eq.( \ref {eq:distributionFunction}). \relax }}{100}{figure.caption.139}
 >>>>>>> working
