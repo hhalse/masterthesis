@@ -170,6 +170,79 @@ To explain why a network where the critical node degree is set to a low degree, 
 \caption{\label{fig:discounthighdegree} Two different outcomes of the simulations with parameters from table \ref{tbl:clique}.}
 \end{figure}
 
+
+\begin{figure}
+\begin{tikzpicture}
+\begin{axis}[
+x tick label style={
+	/pgf/number format/1000 sep=},
+	ylabel=Probability of star,
+	xlabel=Critical degree,
+enlargelimits=0.0,
+legend style={at={(0.5,-0.15)},
+anchor=north,legend columns=-1},
+ybar,
+bar width=7pt,
+]
+\addplot
+coordinates {
+(3,0.0) (4,0.0) (5,0.0) (6,0.42) (7,0.86) 
+(8,0.96) (9,0.98) (10,0.94) (11,0.70) (12,0.64)
+ (13,0.667) (14,0.3) (15,0.3) 
+(16,0.16) (17,0.12) (18,0.08) (19,0.16) };
+\end{axis}
+\end{tikzpicture}
+\caption{\label{fig:PlotStar} Show probability of the network ending up in a star given different critical degrees.}
+\end{figure}
+
+\begin{figure}
+\begin{tikzpicture}
+\begin{axis}[
+x tick label style={
+	/pgf/number format/1000 sep=},
+	ylabel=Probability of star,
+	xlabel=Critical degree,
+enlargelimits=0.0,
+legend style={at={(0.5,-0.15)},
+anchor=north,legend columns=-1},
+ybar,
+bar width=7pt,
+]
+\addplot
+coordinates {
+(3,0.0) (4,0.0) (5,0.02) (6,0.66) (7,0.98) 
+(8,0.98) (9,0.98) (10,1.00) (11,0.90) (12,0.96)
+ (13,1) (14,0.7) (15,0.66) 
+(16,0.76) (17,0.60) (18,0.76) (19,0.74) };
+\end{axis}
+\end{tikzpicture}
+\caption{\label{fig:PlotStarIsj} Show probability of the network ending up in a star-like structure, given different critical degrees.}
+\end{figure}
+
+\begin{figure}
+\begin{tikzpicture}
+\begin{axis}[
+x tick label style={
+	/pgf/number format/1000 sep=},
+	ylabel=Probability of star,
+	xlabel=Critical degree,
+enlargelimits=0.0,
+legend style={at={(0.5,-0.15)},
+anchor=north,legend columns=-1},
+ybar,
+bar width=7pt,
+]
+\addplot
+coordinates {
+(3,1.0) (4,1.0) (5,0.52) (6,0.22) (7,0.0) 
+(8,0.02) (9,0.0) (10,0.00) (11,0.02) (12,0.0)
+ (13,0.0) (14,0.04) (15,0.02) 
+(16,0.0) (17,0.0) (18,0.00) (19,0.0) };
+\end{axis}
+\end{tikzpicture}
+\caption{\label{fig:PlotClique} Show probability of the network ending up in a clique, given different critical degrees.}
+\end{figure}
+
 \subparagraph{High critical node degree}
 To ensure that the network will form a star, we have to find parameters such that, Eq.(\ref{eq:discountstar}) is satisfied, and the probability of a node having a critical degree has to be relative low. In a network with ten nodes, the expected number of nodes with degree five in a network with ten nodes, is $E(g=5)=10*5^{-2}=0.4$. With the parameters from table \ref{tbl:discountstar}, these conditions are satisfied and the resulting network can be seen in Figure \ref{fig:star:a}.
   
