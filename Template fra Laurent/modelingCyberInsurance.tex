@@ -6,25 +6,7 @@ In many scenarios nodes seeks to create networks in order to directly benefit fr
 
 When deciding whether to establish connection to a neighbor agent, the payoff has to be higher in the balance between the expected earnings and the risk of the other party failing to complete the transaction. This is the reason why we seek to only download content from trusted peers and outlaw MC-gangs are consistently skeptical to enter into new agreements despite promising increased earnings, since the risk of undercover police are too high. 
 
-\subparagraph{FLYTT DETTE TIL BACKGROUND og referer til det når vi viser at cliques er bra}
-The paper \cite{contagion} come up with some interesting results regarding network formation games. 
-They set up a game where the nodes benefit from direct links, but these links also expose them for risk. 
-Each node gains a payoff of  $a$ per link it establishes, but it can establish a maximum of $\delta$ links.
-A failure occur at a node with probability $q$, and propagates on a link with probability $p$. If a nodes fail, it will receive a negative payoff of $b$, no matter how many links it has established.
-
-The results from their model shows a situation where clustered graphs achieve a higher payoff when connected to trusted agents, compared to when connecting with random nodes. Unlike in anonymous graphs, where nodes connect to each other at random, nodes in these graphs share some information with their neighbors, which is used when deciding whether to form a link or not. 
-To further explain these results, they show that there exists a critical point, called \textit{phase transition}, which occurs when nodes have a node degree of $frac{1}{p}$. 
-At this point a node gets a payoff of $frac{a}{p}$, and to further increase the payoff the node needs to go into a region with significantly higher failure probability. 
-Because once each node establish more than $frac{1}{p}$ links, the contagious edges, will with high probability form a large cluster. Which results in a rise in probability of node failure, and reduces the overall welfare.
-From this the paper say that when the minimum welfare exceeds 
-$(1+f(\delta)*frac{a}{p})$
-we have reached super critical payoff. Otherwise it is called sub-critical payoff. 
-Further they show that the only possible way of ending up with supercritical payoff, is by forming clustered networks consisting of cliques with slightly more than $frac{1}{p}$ nodes. 
-If the nodes form an anonymous market, random linking, they can only get sub-critical payoff. 
-In other words, if the nodes can choose who they connect with, and by doing so, creating trusted clustered markets, they can achieve a higher payoff, by exceeding the critical node degree point. But in random graphs, this is not possible. 
-
-
-Inspired by this model, we are step wise building a model which shields light on how cyber-insurance can be used in network formation games to prevent cascading failures and increase an agents payoff.  
+Inspired by the model in paper \cite{contagion} [SKRIV OM SÅ DET PASSER... DEN ER BESKREVET I RELATED WORK], we are step wise building a model which shields light on how cyber-insurance can be used in network formation games to prevent cascading failures and increase an agents payoff.  
 
 \section{Model 1 - Initial Model \label{section:verysimplemodel}}
 \begin{figure}[h]
