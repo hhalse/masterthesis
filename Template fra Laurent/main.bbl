@@ -189,6 +189,24 @@ National Protection and Programs Directorate.
 \newblock Cybersecurity insurance workshop readout report.
 \newblock {\em U.S. Department of Homeland Security}, 2012.
 
+\bibitem[PGP11]{pal2011aegis}
+Ranjan Pal, Leana Golubchik, and Konstantinos Psounis.
+\newblock Aegis a novel cyber-insurance model.
+\newblock In {\em Decision and Game Theory for Security}, pages 131--150.
+  Springer, 2011.
+
+\bibitem[PH]{paldifferentiating}
+Ranjan Pal and Pan Hui.
+\newblock On differentiating cyber-insurance contracts a topological
+  perspective.
+
+\bibitem[PH12]{pal2012cyberinsurance}
+Ranjan Pal and Pan Hui.
+\newblock Cyberinsurance for cybersecurity a topological take on modulating
+  insurance premiums.
+\newblock {\em ACM SIGMETRICS Performance Evaluation Review}, 40(3):86--88,
+  2012.
+
 \bibitem[PpD12]{Cyberworkshop}
 National Protection and U.S. Department of Homeland~Security programs
   Directorate.

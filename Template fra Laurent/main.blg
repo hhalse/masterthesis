@@ -9,9 +9,9 @@ A level-1 auxiliary file: networkgames.aux
 A level-1 auxiliary file: relatedwork.aux
 A level-1 auxiliary file: methodology.aux
 A level-1 auxiliary file: modelingCyberInsurance.aux
+A level-1 auxiliary file: SummaryOfResults.aux
 A level-1 auxiliary file: modellingThreshold.aux
 A level-1 auxiliary file: futurework.aux
-A level-1 auxiliary file: conclusion.aux
 The style file: alpha.bst
 Database file #1: referanser.bib
 Repeated entry---line 214 of file referanser.bib
@@ -82,5 +82,7 @@ while executing---line 1250 of file alpha.bst
 Warning--empty journal in greekStockMarket
 Warning--empty chapter and pages in mehr1980principles
 Warning--empty journal in solutiontoinfoasym
+Warning--empty journal in paldifferentiating
+Warning--empty year in paldifferentiating
 Warning--empty journal in robinson2012incentives
 (There were 30 error messages)
