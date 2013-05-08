@@ -1,4 +1,4 @@
-\chapter{Future work}
+\section{Future work Notater}
 \label{chp:futurework} 
 \subparagraph{TA MED DETTE?}
 As second important open problem is mapping our simple model to reality
@@ -9,7 +9,7 @@ ters in real world networks is not a short path merely existing, but also being
 able to nd it within some reasonable time (social networks in particular are
 navigable [7]). Modifying the friendship graph and link budgets to full those
 requirements is an important next step
-\section{Risk}
+\subsection{Risk}
 In our model we used an additive risk parameter, meaning that each connection to a non-insured node adds a fixed negative value $r$ to the node's utility. It is reasonable to assume that the probability of failure increases if a node accepts more and more non-insured nodes. However, whether the risk parameter increases according to an additive distribution is difficult to confirm. Hence the decision of using additive risk was take due to the simplicity of the function and the fact that we do not know for sure how the distribution actually looks like. The probability might as well be multiplicative, exponential or logarithmic. Although it is highly uncertain, we believe that the risk parameter will follow an exponential distribution similar to the one in Eq.(\ref{eq:distributionFunction}).
 
 \begin{equation}

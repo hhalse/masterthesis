@@ -169,12 +169,17 @@
 \contentsline {subparagraph}{Low critical node degree, KANSKJE FJERNE DETTE HER OG neste subpara}{83}{section*.122}
 \contentsline {subparagraph}{High critical node degree}{83}{section*.125}
 \contentsline {section}{\numberline {7.9}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{84}{section.7.9}
-\contentsline {chapter}{\chapternumberline {8}Summary of results/conclusion}{87}{chapter.8}
-\contentsline {subparagraph}{DEtte flyttet jeg til Introen i modellene}{88}{section*.131}
-\contentsline {section}{\numberline {8.1}Game including max node degree}{90}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Game random connection}{90}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Game connecting to insured first}{92}{subsection.8.1.2}
-\contentsline {chapter}{\chapternumberline {9}Future work}{93}{chapter.9}
-\contentsline {subparagraph}{TA MED DETTE?}{93}{section*.133}
-\contentsline {section}{\numberline {9.1}Risk}{93}{section.9.1}
-\contentsline {chapter}{References}{97}{section*.136}
+\contentsline {chapter}{\chapternumberline {8}Summary}{87}{chapter.8}
+\contentsline {section}{\numberline {8.1}Discussion}{87}{section.8.1}
+\contentsline {section}{\numberline {8.2}Conclusion}{88}{section.8.2}
+\contentsline {subparagraph}{One paragraph stating what you researched and what your original contribution to the field is, after that brake into sections}{88}{section*.131}
+\contentsline {subsection}{\numberline {8.2.1}One section on what you researched and how you did it}{88}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}One section on what are the main findings were\IeC {\textellipsis } showinglinks across chapters (this explains why you chose thestructure you did)}{89}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}One section on possible areas for future research}{89}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}Final section reminding readers of the original contributionand significance of your research to your field}{90}{subsection.8.2.4}
+\contentsline {subparagraph}{TIPS og TRIKS til konklusjon}{90}{section*.132}
+\contentsline {subparagraph}{AVOID this in conclsuion}{90}{section*.133}
+\contentsline {section}{\numberline {8.3}Future work Notater}{91}{section.8.3}
+\contentsline {subparagraph}{TA MED DETTE?}{91}{section*.134}
+\contentsline {subsection}{\numberline {8.3.1}Risk}{91}{subsection.8.3.1}
+\contentsline {chapter}{References}{95}{section*.137}
