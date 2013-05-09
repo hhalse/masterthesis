@@ -168,15 +168,20 @@
 \contentsline {subparagraph}{Bulk insurance}{79}{section*.124}
 \contentsline {subsection}{\numberline {6.8.2}Simulation}{80}{subsection.6.8.2}
 \contentsline {subparagraph}{Results and findings}{81}{section*.125}
-\contentsline {subparagraph}{Low critical node degree, KANSKJE FJERNE DETTE HER OG neste subpara}{83}{section*.130}
+\contentsline {subparagraph}{Low critical node degree, KANSKJE FJERNE DETTE HER OG neste subpara}{82}{section*.130}
 \contentsline {subparagraph}{High critical node degree}{84}{section*.133}
-\contentsline {section}{\numberline {6.9}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{84}{section.6.9}
-\contentsline {chapter}{\chapternumberline {7}Summary of results/conclusion}{89}{chapter.7}
-\contentsline {subparagraph}{DEtte flyttet jeg til Introen i modellene}{90}{section*.139}
-\contentsline {section}{\numberline {7.1}Game including max node degree}{92}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Game random connection}{92}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Game connecting to insured first}{94}{subsection.7.1.2}
-\contentsline {chapter}{\chapternumberline {8}Future work}{95}{chapter.8}
-\contentsline {subparagraph}{TA MED DETTE?}{95}{section*.141}
-\contentsline {section}{\numberline {8.1}Risk}{95}{section.8.1}
-\contentsline {chapter}{References}{99}{section*.144}
+\contentsline {section}{\numberline {6.9}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{85}{section.6.9}
+\contentsline {chapter}{\chapternumberline {7}Summary}{89}{chapter.7}
+\contentsline {section}{\numberline {7.1}Discussion}{89}{section.7.1}
+\contentsline {section}{\numberline {7.2}Conclusion}{90}{section.7.2}
+\contentsline {subparagraph}{One paragraph stating what you researched and what your original contribution to the field is, after that brake into sections}{90}{section*.139}
+\contentsline {subsection}{\numberline {7.2.1}One section on what you researched and how you did it}{90}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}One section on what are the main findings were\IeC {\textellipsis } showinglinks across chapters (this explains why you chose thestructure you did)}{91}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}One section on possible areas for future research}{91}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Final section reminding readers of the original contributionand significance of your research to your field}{92}{subsection.7.2.4}
+\contentsline {subparagraph}{TIPS og TRIKS til konklusjon}{92}{section*.140}
+\contentsline {subparagraph}{AVOID this in conclsuion}{92}{section*.141}
+\contentsline {section}{\numberline {7.3}Future work Notater}{93}{section.7.3}
+\contentsline {subparagraph}{TA MED DETTE?}{93}{section*.142}
+\contentsline {subsection}{\numberline {7.3.1}Risk}{93}{subsection.7.3.1}
+\contentsline {chapter}{References}{97}{section*.145}

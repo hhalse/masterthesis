@@ -29,13 +29,12 @@
 \contentsline {figure}{\numberline {6.13}{\ignorespaces The resulting network after a simulation with the parameters from table \ref {tbl:stablestar} and ten nodes.\relax }}{79}{figure.caption.123}
 \contentsline {figure}{\numberline {6.14}{\ignorespaces Shows the probability of the network ending up in a star given different critical degrees.\relax }}{81}{figure.caption.126}
 \contentsline {figure}{\numberline {6.15}{\ignorespaces Shows the probability of the network ending up in a clique, given different critical degrees.\relax }}{82}{figure.caption.127}
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Shows the comparison between the probability of the network ending up in a star (blue) or clique (red), given different critical degrees.\relax }}{82}{figure.caption.128}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Shows the comparison between the probability of the network ending up in a star (blue) or clique (red), given different critical degrees.\relax }}{83}{figure.caption.128}
 \contentsline {figure}{\numberline {6.17}{\ignorespaces Shows the probability of the network ending up in a scale-free structure, given different critical degrees.\relax }}{83}{figure.caption.129}
 \contentsline {figure}{\numberline {6.18}{\ignorespaces Two different outcomes of the simulations with parameters from table \ref {tbl:clique}.\relax }}{84}{figure.caption.132}
 \contentsline {figure}{\numberline {6.19}{\ignorespaces Two star-network, ten- and forty-nodes, both are the result of simulations with parameters satisfying proposition \ref {prop:star}.\relax }}{85}{figure.caption.135}
 \contentsline {figure}{\numberline {6.20}{\ignorespaces shows how insured agents connects with each other to form a network to achieve super-critical payoffs.\relax }}{86}{figure.caption.136}
 \contentsline {figure}{\numberline {6.21}{\ignorespaces Caption for LOF}}{86}{figure.caption.137}
-\contentsline {figure}{\numberline {6.22}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{86}{figure.caption.138}
+\contentsline {figure}{\numberline {6.22}{\ignorespaces Shows equilibrium's in the resulting payoff matrix.\relax }}{87}{figure.caption.138}
 \addvspace {10pt}
-\addvspace {10pt}
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Figure showing the distribution of Eq.( \ref {eq:distributionFunction}). \relax }}{96}{figure.caption.142}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Figure showing the distribution of Eq.( \ref {eq:distributionFunction}). \relax }}{94}{figure.caption.143}
