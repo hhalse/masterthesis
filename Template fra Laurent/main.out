@@ -38,7 +38,6 @@
 \BOOKMARK [2][-]{subsection.4.4.1}{A solution to the information Asymmetry Problem}{section.4.4}% 38
 \BOOKMARK [2][-]{subsection.4.4.2}{Model from Bohme}{section.4.4}% 39
 \BOOKMARK [2][-]{subsection.4.4.3}{Related work 2 UBRUKELIG!}{section.4.4}% 40
-<<<<<<< HEAD
 \BOOKMARK [0][-]{chapter.5}{Network formation: stability and efficiency}{}% 41
 \BOOKMARK [1][-]{section.5.1}{Survey of models of network formation: stability and efficiency}{chapter.5}% 42
 \BOOKMARK [2][-]{subsection.5.1.1}{Defining Network Games}{section.5.1}% 43
@@ -63,48 +62,13 @@
 \BOOKMARK [2][-]{subsection.6.8.1}{Homogenous symmetric connection game}{section.6.8}% 62
 \BOOKMARK [2][-]{subsection.6.8.2}{Simulation}{section.6.8}% 63
 \BOOKMARK [1][-]{section.6.9}{DETTE ET ANNET STED KANSKJE? BLIR LITT RART \305 HOPPE INN I DET HER}{chapter.6}% 64
-\BOOKMARK [0][-]{chapter.7}{Summary of results/conclusion}{}% 65
-\BOOKMARK [1][-]{section.7.1}{Game including max node degree}{chapter.7}% 66
-\BOOKMARK [2][-]{subsection.7.1.1}{Game random connection}{section.7.1}% 67
-\BOOKMARK [2][-]{subsection.7.1.2}{Game connecting to insured first}{section.7.1}% 68
-\BOOKMARK [0][-]{chapter.8}{Future work}{}% 69
-\BOOKMARK [1][-]{section.8.1}{Risk}{chapter.8}% 70
-\BOOKMARK [0][-]{section*.144}{References}{}% 71
-=======
-\BOOKMARK [1][-]{section.4.5}{Related work 2}{chapter.4}% 41
-\BOOKMARK [0][-]{chapter.5}{Network formation: stability and efficiency}{}% 42
-\BOOKMARK [1][-]{section.5.1}{Survey of models of network formation: stability and efficiency}{chapter.5}% 43
-\BOOKMARK [2][-]{subsection.5.1.1}{Defining Network Games}{section.5.1}% 44
-\BOOKMARK [0][-]{chapter.6}{Network Games}{}% 45
-\BOOKMARK [0][-]{chapter.7}{Modeling Cyber-Insurance }{}% 46
-\BOOKMARK [1][-]{section.7.1}{Model 1 - Initial Model }{chapter.7}% 47
-\BOOKMARK [1][-]{section.7.2}{Model 2 - Including Parameters}{chapter.7}% 48
-\BOOKMARK [2][-]{subsection.7.2.1}{Two nodes scenario}{section.7.2}% 49
-\BOOKMARK [2][-]{subsection.7.2.2}{Multiple nodes}{section.7.2}% 50
-\BOOKMARK [2][-]{subsection.7.2.3}{Result and findings}{section.7.2}% 51
-\BOOKMARK [1][-]{section.7.3}{Forcing non-insured nodes to buy insurance\(FIX!!!!!!!!\)}{chapter.7}% 52
-\BOOKMARK [2][-]{subsection.7.3.1}{Violating the conditions}{section.7.3}% 53
-\BOOKMARK [1][-]{section.7.4}{Model 3 - Including maximum node degree and bonus}{chapter.7}% 54
-\BOOKMARK [2][-]{subsection.7.4.1}{Analyzis}{section.7.4}% 55
-\BOOKMARK [2][-]{subsection.7.4.2}{Result and findings}{section.7.4}% 56
-\BOOKMARK [1][-]{section.7.5}{Model 4 - Including bulk insurance discount}{chapter.7}% 57
-\BOOKMARK [2][-]{subsection.7.5.1}{Analyzis}{section.7.5}% 58
-\BOOKMARK [2][-]{subsection.7.5.2}{Result and findings}{section.7.5}% 59
-\BOOKMARK [1][-]{section.7.6}{Model with incomplete information}{chapter.7}% 60
-\BOOKMARK [2][-]{subsection.7.6.1}{Analyzis}{section.7.6}% 61
-\BOOKMARK [1][-]{section.7.7}{Model 5-The connection game}{chapter.7}% 62
-\BOOKMARK [1][-]{section.7.8}{Insurance and connection game}{chapter.7}% 63
-\BOOKMARK [2][-]{subsection.7.8.1}{Homogenous symmetric connection game}{section.7.8}% 64
-\BOOKMARK [2][-]{subsection.7.8.2}{Simulation}{section.7.8}% 65
-\BOOKMARK [1][-]{section.7.9}{DETTE ET ANNET STED KANSKJE? BLIR LITT RART \305 HOPPE INN I DET HER}{chapter.7}% 66
-\BOOKMARK [0][-]{chapter.8}{Summary}{}% 67
-\BOOKMARK [1][-]{section.8.1}{Discussion}{chapter.8}% 68
-\BOOKMARK [1][-]{section.8.2}{Conclusion}{chapter.8}% 69
-\BOOKMARK [2][-]{subsection.8.2.1}{One section on what you researched and how you did it}{section.8.2}% 70
-\BOOKMARK [2][-]{subsection.8.2.2}{One section on what are the main findings were\203 showinglinks across chapters \(this explains why you chose thestructure you did\)}{section.8.2}% 71
-\BOOKMARK [2][-]{subsection.8.2.3}{One section on possible areas for future research}{section.8.2}% 72
-\BOOKMARK [2][-]{subsection.8.2.4}{Final section reminding readers of the original contributionand significance of your research to your field}{section.8.2}% 73
-\BOOKMARK [1][-]{section.8.3}{Future work Notater}{chapter.8}% 74
-\BOOKMARK [2][-]{subsection.8.3.1}{Risk}{section.8.3}% 75
-\BOOKMARK [0][-]{section*.137}{References}{}% 76
->>>>>>> lokal
+\BOOKMARK [0][-]{chapter.7}{Summary}{}% 65
+\BOOKMARK [1][-]{section.7.1}{Discussion}{chapter.7}% 66
+\BOOKMARK [1][-]{section.7.2}{Conclusion}{chapter.7}% 67
+\BOOKMARK [2][-]{subsection.7.2.1}{One section on what you researched and how you did it}{section.7.2}% 68
+\BOOKMARK [2][-]{subsection.7.2.2}{One section on what are the main findings were\203 showinglinks across chapters \(this explains why you chose thestructure you did\)}{section.7.2}% 69
+\BOOKMARK [2][-]{subsection.7.2.3}{One section on possible areas for future research}{section.7.2}% 70
+\BOOKMARK [2][-]{subsection.7.2.4}{Final section reminding readers of the original contributionand significance of your research to your field}{section.7.2}% 71
+\BOOKMARK [1][-]{section.7.3}{Future work Notater}{chapter.7}% 72
+\BOOKMARK [2][-]{subsection.7.3.1}{Risk}{section.7.3}% 73
+\BOOKMARK [0][-]{section*.145}{References}{}% 74
