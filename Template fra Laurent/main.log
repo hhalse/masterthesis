@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  9 MAY 2013 08:51
-=======
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  9 MAY 2013 08:57
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  9 MAY 2013 09:00
 entering extended mode
 **main.tex
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.tex"
@@ -1606,14 +1602,9 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 \rot@float@box=\box72
 \rot@mess@toks=\toks59
 )
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgfplots\pgfplots.sty"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgfplots\pgfplots.revision.tex"
 )
-=======
-(D:\Latex\MiKTeX\tex\latex\pgfplots\pgfplots.sty
-(D:\Latex\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex)
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
 Package: pgfplots 2013/03/17 v1.8 Data Visualization (1.8-3-gaf58a29)
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
@@ -2026,7 +2017,6 @@ File: pgflibraryplotmarks.code.tex 2010/10/15 v2.10 (rcs-revision 1.12)
 Package glossaries Info: Writing glossary file main.glo on input line 24.
 \glo@acronym@file=\write7
 Package glossaries Info: Writing glossary file main.acn on input line 24.
-<<<<<<< HEAD
  ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.aux"
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\abstract_engl
 ish.aux")
@@ -2048,20 +2038,6 @@ Insurance.aux")
 lts.aux")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\futurework.au
 x"))
-=======
-
-("D:\GITREPO\masterthesis\Template fra Laurent\main.aux"
-("D:\GITREPO\masterthesis\Template fra Laurent\abstract_english.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\preface.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\introductionToCyberInsurance.aux
-") ("D:\GITREPO\masterthesis\Template fra Laurent\currentmarketstate.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\graphTheory.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\surveyofnetworkformations.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\SummaryOfResults.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\futurework.aux"))
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
@@ -2076,12 +2052,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 26.
-<<<<<<< HEAD
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
-=======
-
-(D:\Latex\MiKTeX\tex\latex\base\ts1cmr.fd
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 26.
@@ -2225,14 +2196,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 5592) has occurred while \output is active []
 
  [9]
-<<<<<<< HEAD
 [10]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\graphTheory.t
-ex" <../Figures/generalGraph.png, id=679, 266.49562pt x 328.97906pt>
-=======
-[10] ("D:\GITREPO\masterthesis\Template fra Laurent\graphTheory.tex"
-<../Figures/generalGraph.png, id=679, 266.49562pt x 328.97906pt>
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
+ex" <../Figures/generalGraph.png, id=680, 266.49562pt x 328.97906pt>
 File: ../Figures/generalGraph.png Graphic file (type png)
 
 <use ../Figures/generalGraph.png>
@@ -2246,13 +2212,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-<<<<<<< HEAD
 ] [12 <C:/Users/Håvard/masterthesis/masterthesis/Figures/generalGraph.png>] <.
-./Figures/ABgraphcreation.png, id=700, 395.97937pt x 268.75406pt>
-=======
-] [12 <D:/GITREPO/masterthesis/Figures/generalGraph.png>]
-<../Figures/ABgraphcreation.png, id=700, 395.97937pt x 268.75406pt>
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
+./Figures/ABgraphcreation.png, id=701, 395.97937pt x 268.75406pt>
 File: ../Figures/ABgraphcreation.png Graphic file (type png)
 
 <use ../Figures/ABgraphcreation.png>
@@ -2262,21 +2223,16 @@ Package pdftex.def Info: ../Figures/ABgraphcreation.png used on input line 60.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13] <../Figures/greekStockMarket.jpg, id=710, 465.59787pt x 322.97655pt>
+[13] <../Figures/greekStockMarket.jpg, id=711, 465.59787pt x 322.97655pt>
 File: ../Figures/greekStockMarket.jpg Graphic file (type jpg)
 
 <use ../Figures/greekStockMarket.jpg>
 Package pdftex.def Info: ../Figures/greekStockMarket.jpg used on input line 80.
 
 (pdftex.def)             Requested size: 364.0pt x 252.49727pt.
-<<<<<<< HEAD
  [14 <C:/Users/Håvard/masterthesis/masterthesis/Figures/ABgraphcreation.png>] 
 [15 <C:/Users/Håvard/masterthesis/masterthesis/Figures/greekStockMarket.jpg>]
-=======
- [14 <D:/GITREPO/masterthesis/Figures/ABgraphcreation.png>] [15 <D:/GITREPO/mas
-terthesis/Figures/greekStockMarket.jpg>]
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
-<../Figures/airlineRoutesUSA.png, id=728, 663.22781pt x 383.93437pt>
+<../Figures/airlineRoutesUSA.png, id=729, 663.22781pt x 383.93437pt>
 File: ../Figures/airlineRoutesUSA.png Graphic file (type png)
 
 <use ../Figures/airlineRoutesUSA.png>
@@ -2284,34 +2240,23 @@ Package pdftex.def Info: ../Figures/airlineRoutesUSA.png used on input line 93.
 
 (pdftex.def)             Requested size: 364.0pt x 210.71346pt.
 
-<<<<<<< HEAD
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\nature.tex"
 [16 <C:/Users/Håvard/masterthesis/masterthesis/Figures/airlineRoutesUSA.png>]
-[17] <../Figures/aStar.png, id=753, 235.63031pt x 222.07968pt>
-=======
-("D:\GITREPO\masterthesis\Template fra Laurent\nature.tex" [16 <D:/GITREPO/mast
-erthesis/Figures/airlineRoutesUSA.png>] [17]
-<../Figures/aStar.png, id=753, 235.63031pt x 222.07968pt>
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
+[17] <../Figures/aStar.png, id=754, 235.63031pt x 222.07968pt>
 File: ../Figures/aStar.png Graphic file (type png)
 
 <use ../Figures/aStar.png>
 Package pdftex.def Info: ../Figures/aStar.png used on input line 44.
 (pdftex.def)             Requested size: 182.0pt x 171.53389pt.
-<<<<<<< HEAD
  [18 <C:/Users/Håvard/masterthesis/masterthesis/Figures/aStar.png>] [19]
-<./figs/optimalequilibrium.png, id=780, 784.9325pt x 717.68124pt>
-=======
- [18 <D:/GITREPO/masterthesis/Figures/aStar.png>]
-[19] <./figs/optimalequilibrium.png, id=780, 784.9325pt x 717.68124pt>
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
+<./figs/optimalequilibrium.png, id=781, 784.9325pt x 717.68124pt>
 File: ./figs/optimalequilibrium.png Graphic file (type png)
 
 <use ./figs/optimalequilibrium.png>
 Package pdftex.def Info: ./figs/optimalequilibrium.png used on input line 94.
 (pdftex.def)             Requested size: 116.47865pt x 106.4977pt.
 
-<./figs/notoptimalequilibrium.png, id=781, 784.9325pt x 717.68124pt>
+<./figs/notoptimalequilibrium.png, id=782, 784.9325pt x 717.68124pt>
 File: ./figs/notoptimalequilibrium.png Graphic file (type png)
 
 <use ./figs/notoptimalequilibrium.png>
@@ -2361,13 +2306,9 @@ rkformations.tex" [44
 Insurance.tex" [47
 
 
-<<<<<<< HEAD
 
 ]
-<../Figures/modeloverview.png, id=1018, 462.22687pt x 355.3275pt>
-=======
-] <../Figures/modeloverview.png, id=1018, 462.22687pt x 355.3275pt>
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
+<../Figures/modeloverview.png, id=1019, 462.22687pt x 355.3275pt>
 File: ../Figures/modeloverview.png Graphic file (type png)
 
 <use ../Figures/modeloverview.png>
@@ -2380,12 +2321,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [48]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< HEAD
  [49 <C:/Users/Håvard/masterthesis/masterthesis/Figures/modeloverview.png>]
-=======
- [49 <D:/GITREPO/masterthesis/Figures/modeloverview.png>]
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
-<../Figures/firstModelWithNoParameters1.png, id=1032, 143.78719pt x 144.54pt>
+<../Figures/firstModelWithNoParameters1.png, id=1033, 143.78719pt x 144.54pt>
 File: ../Figures/firstModelWithNoParameters1.png Graphic file (type png)
 
 <use ../Figures/firstModelWithNoParameters1.png>
@@ -2393,7 +2330,7 @@ Package pdftex.def Info: ../Figures/firstModelWithNoParameters1.png used on inp
 ut line 47.
 (pdftex.def)             Requested size: 72.79889pt x 73.18068pt.
 
-<../Figures/firstModelWithNoParameters2.png, id=1033, 184.43906pt x 99.37125pt>
+<../Figures/firstModelWithNoParameters2.png, id=1034, 184.43906pt x 99.37125pt>
 File: ../Figures/firstModelWithNoParameters2.png Graphic file (type png)
 <use ../Figures/firstModelWithNoParameters2.png>
 Package pdftex.def Info: ../Figures/firstModelWithNoParameters2.png used on inp
@@ -2413,20 +2350,16 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `tbl:simplegamepara' on page 51 undefined on input lin
 e 71.
 
-<../Figures/FirstGameWithParameters.png, id=1044, 1220.30907pt x 344.03531pt>
+<../Figures/FirstGameWithParameters.png, id=1045, 1220.30907pt x 344.03531pt>
 File: ../Figures/FirstGameWithParameters.png Graphic file (type png)
 
 <use ../Figures/FirstGameWithParameters.png>
 Package pdftex.def Info: ../Figures/FirstGameWithParameters.png used on input l
 ine 90.
 (pdftex.def)             Requested size: 550.0pt x 155.06119pt.
-<<<<<<< HEAD
  [51] [52 <C:/Users/Håvard/masterthesis/masterthesis/Figures/FirstGameWithPara
 meters.png>]
-=======
- [51] [52 <D:/GITREPO/masterthesis/Figures/FirstGameWithParameters.png>]
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
-<../Figures/stackelberggame.png, id=1062, 855.94781pt x 761.09344pt>
+<../Figures/stackelberggame.png, id=1063, 855.94781pt x 761.09344pt>
 File: ../Figures/stackelberggame.png Graphic file (type png)
 
 <use ../Figures/stackelberggame.png>
@@ -2442,7 +2375,7 @@ g>] [55]
 
 LaTeX Warning: Reference `eq:' on page 56 undefined on input line 214.
 
-[56] <../Figures/FirstSimulationStart.png, id=1114, 219.82124pt x 210.7875pt>
+[56] <../Figures/FirstSimulationStart.png, id=1122, 219.82124pt x 210.7875pt>
 File: ../Figures/FirstSimulationStart.png Graphic file (type png)
 
 <use ../Figures/FirstSimulationStart.png>
@@ -2450,7 +2383,7 @@ Package pdftex.def Info: ../Figures/FirstSimulationStart.png used on input line
  242.
 (pdftex.def)             Requested size: 72.79889pt x 69.80452pt.
 
-<../Figures/FirstSimulationResult.png, id=1115, 375.65344pt x 240.14719pt>
+<../Figures/FirstSimulationResult.png, id=1123, 375.65344pt x 240.14719pt>
 File: ../Figures/FirstSimulationResult.png Graphic file (type png)
 
 <use ../Figures/FirstSimulationResult.png>
@@ -2462,7 +2395,7 @@ e 248.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<../Figures/FirstSimulationViolatingResult.png, id=1123, 204.765pt x 194.97844p
+<../Figures/FirstSimulationViolatingResult.png, id=1131, 204.765pt x 194.97844p
 t>
 File: ../Figures/FirstSimulationViolatingResult.png Graphic file (type png)
  <use ../Figures/FirstSimulationViolatingResult.png>
@@ -2472,7 +2405,7 @@ input line 263.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 265.
 
-<../Figures/SimulationViolating2.png, id=1126, 238.64156pt x 223.58531pt>
+<../Figures/SimulationViolating2.png, id=1134, 238.64156pt x 223.58531pt>
 File: ../Figures/SimulationViolating2.png Graphic file (type png)
 
 <use ../Figures/SimulationViolating2.png>
@@ -2490,20 +2423,16 @@ Underfull \vbox (badness 4205) has occurred while \output is active []
 
  [59])
 [60] [61] [62] [63]
-<../Figures/BonusGameInsuredClique.png, id=1209, 354.57469pt x 177.66376pt>
+<../Figures/BonusGameInsuredClique.png, id=1227, 354.57469pt x 177.66376pt>
 File: ../Figures/BonusGameInsuredClique.png Graphic file (type png)
 
 <use ../Figures/BonusGameInsuredClique.png>
 Package pdftex.def Info: ../Figures/BonusGameInsuredClique.png used on input li
 ne 416.
 (pdftex.def)             Requested size: 291.20111pt x 145.91293pt.
-<<<<<<< HEAD
  [64 <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameInsuredClique
 .png>]
-=======
- [64 <D:/GITREPO/masterthesis/Figures/BonusGameInsuredClique.png>]
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
-<../Figures/BonusGameViolating.png, id=1221, 349.305pt x 204.01219pt>
+<../Figures/BonusGameViolating.png, id=1241, 349.305pt x 204.01219pt>
 File: ../Figures/BonusGameViolating.png Graphic file (type png)
 
 <use ../Figures/BonusGameViolating.png>
@@ -2525,49 +2454,35 @@ ature.tex" [69pdfTeX warning (ext4): destination with the same identifier (name
                                                   \fi \fi 
 l.8 \subparagraph
                  {Node 2 is insured}]
-<../Figures/SignalingGameInsured.png, id=1275, 1318.17468pt x 461.47406pt>
+<../Figures/SignalingGameInsured.png, id=1305, 1318.17468pt x 461.47406pt>
 File: ../Figures/SignalingGameInsured.png Graphic file (type png)
 
 <use ../Figures/SignalingGameInsured.png>
 Package pdftex.def Info: ../Figures/SignalingGameInsured.png used on input line
  14.
 (pdftex.def)             Requested size: 364.0pt x 127.43034pt.
-<<<<<<< HEAD
  [70 <C:/Users/Håvard/masterthesis/masterthesis/Figures/SignalingGameInsured.p
 ng>] [71]
-=======
- [70 <D:/GITREPO/masterthesis/Figures/SignalingGameInsured.png>] [71]
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
-<../Figures/SignalingGameNotInsured.png, id=1297, 1294.8375pt x 418.56375pt>
+<../Figures/SignalingGameNotInsured.png, id=1329, 1294.8375pt x 418.56375pt>
 File: ../Figures/SignalingGameNotInsured.png Graphic file (type png)
 
 <use ../Figures/SignalingGameNotInsured.png>
 Package pdftex.def Info: ../Figures/SignalingGameNotInsured.png used on input l
 ine 101.
 (pdftex.def)             Requested size: 364.0pt x 117.66327pt.
-<<<<<<< HEAD
  [72 <C:/Users/Håvard/masterthesis/masterthesis/Figures/SignalingGameNotInsure
 d.png>] [73])
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\modelingCyber
 Insurance2(furtherWork).tex" [74]
-=======
- [72 <D:/GITREPO/masterthesis/Figures/SignalingGameNotInsured.png>] [73])
-("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance2(furtherW
-ork).tex" [74]
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
-<../Figures/connectionGame.png, id=1334, 103.13531pt x 93.34875pt>
+<../Figures/connectionGame.png, id=1369, 103.13531pt x 93.34875pt>
 File: ../Figures/connectionGame.png Graphic file (type png)
 
 <use ../Figures/connectionGame.png>
 Package pdftex.def Info: ../Figures/connectionGame.png used on input line 9.
 (pdftex.def)             Requested size: 72.79889pt x 65.89206pt.
-<<<<<<< HEAD
  [75 <C:/Users/Håvard/masterthesis/masterthesis/Figures/connectionGame.png>] [
 76] [77]
-=======
- [75 <D:/GITREPO/masterthesis/Figures/connectionGame.png>] [76] [77]
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
-<../Figures/stability/Unefficientbutstablestar.png, id=1364, 271.0125pt x 224.3
+<../Figures/stability/Unefficientbutstablestar.png, id=1400, 271.0125pt x 224.3
 3812pt>
 File: ../Figures/stability/Unefficientbutstablestar.png Graphic file (type png)
 
@@ -2575,13 +2490,9 @@ File: ../Figures/stability/Unefficientbutstablestar.png Graphic file (type png)
 Package pdftex.def Info: ../Figures/stability/Unefficientbutstablestar.png used
  on input line 70.
 (pdftex.def)             Requested size: 182.0pt x 150.66176pt.
-<<<<<<< HEAD
  [78 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stability/Unefficientb
 utstablestar.png>]
-=======
- [78 <D:/GITREPO/masterthesis/Figures/stability/Unefficientbutstablestar.png>]
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
-<../Figures/stability/Unefficientbutstabletwo.png, id=1375, 563.10374pt x 459.9
+<../Figures/stability/Unefficientbutstabletwo.png, id=1412, 563.10374pt x 459.9
 6844pt>
 File: ../Figures/stability/Unefficientbutstabletwo.png Graphic file (type png)
  <use ../Figures/stability/Unefficientbutstabletwo.png>
@@ -2597,14 +2508,39 @@ LaTeX Warning: Reference `tbl:stablestar' on page 79 undefined on input line 93
 LaTeX Warning: Reference `tbl:stablestar' on page 79 undefined on input line 93
 .
 
-<<<<<<< HEAD
 [79 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stability/Unefficientbu
-tstabletwo.png>] [80] [81] [82] [83]
-=======
-[79 <D:/GITREPO/masterthesis/Figures/stability/Unefficientbutstabletwo.png>]
-[80] [81] [82] [83]
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
-<../Figures/discount/cliquetennodes.png, id=1426, 264.23718pt x 263.48438pt>
+tstabletwo.png>] [80]
+
+LaTeX Warning: Reference `fig:PlotStar' on page 81 undefined on input line 139.
+
+
+
+LaTeX Warning: Reference `fig:PlotStarIsj' on page 81 undefined on input line 1
+39.
+
+
+LaTeX Warning: Reference `fig:PlotClique' on page 81 undefined on input line 13
+9.
+
+
+LaTeX Warning: Reference `fig:PlotStar' on page 81 undefined on input line 139.
+
+
+
+LaTeX Warning: Reference `fig:PlotClique' on page 81 undefined on input line 16
+6.
+
+[81]
+
+LaTeX Warning: Reference `fig:PlotStarVsClique' on page 82 undefined on input l
+ine 194.
+
+
+LaTeX Warning: Reference `fig:PlotStarIsj' on page 82 undefined on input line 2
+25.
+
+[82] [83]
+<../Figures/discount/cliquetennodes.png, id=1461, 264.23718pt x 263.48438pt>
 File: ../Figures/discount/cliquetennodes.png Graphic file (type png)
 
 <use ../Figures/discount/cliquetennodes.png>
@@ -2612,7 +2548,7 @@ Package pdftex.def Info: ../Figures/discount/cliquetennodes.png used on input l
 ine 274.
 (pdftex.def)             Requested size: 72.79889pt x 72.58908pt.
 
-<../Figures/discount/baloontennodes.png, id=1427, 426.09187pt x 253.69781pt>
+<../Figures/discount/baloontennodes.png, id=1462, 426.09187pt x 253.69781pt>
 File: ../Figures/discount/baloontennodes.png Graphic file (type png)
 
 <use ../Figures/discount/baloontennodes.png>
@@ -2620,7 +2556,7 @@ Package pdftex.def Info: ../Figures/discount/baloontennodes.png used on input l
 ine 280.
 (pdftex.def)             Requested size: 133.95445pt x 79.75652pt.
 
-<../Figures/discount/startennodes.png, id=1435, 413.29407pt x 411.78844pt>
+<../Figures/discount/startennodes.png, id=1470, 413.29407pt x 411.78844pt>
 File: ../Figures/discount/startennodes.png Graphic file (type png)
 
 <use ../Figures/discount/startennodes.png>
@@ -2628,7 +2564,7 @@ Package pdftex.def Info: ../Figures/discount/startennodes.png used on input lin
 e 310.
 (pdftex.def)             Requested size: 131.03711pt x 130.56229pt.
 
-<../Figures/discount/starmanynodes.png, id=1438, 880.28876pt x 881.2925pt>
+<../Figures/discount/starmanynodes.png, id=1473, 880.28876pt x 881.2925pt>
 File: ../Figures/discount/starmanynodes.png Graphic file (type png)
 
 <use ../Figures/discount/starmanynodes.png>
@@ -2639,7 +2575,6 @@ ne 317.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
 [84 <C:/Users/Håvard/masterthesis/masterthesis/Figures/discount/cliquetennodes
 .png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/discount/baloontennod
 es.png>])
@@ -2648,15 +2583,7 @@ Overfull \vbox (12.0pt too high) has occurred while \output is active []
  [85 <C:/Users/Håvard/masterthesis/masterthesis/Figures/discount/startennodes.
 png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/discount/starmanynodes
 .png>]
-=======
-[84 <D:/GITREPO/masterthesis/Figures/discount/cliquetennodes.png> <D:/GITREPO/m
-asterthesis/Figures/discount/baloontennodes.png>])
-Overfull \vbox (12.0pt too high) has occurred while \output is active []
-
- [85 <D:/GITREPO/masterthesis/Figures/discount/startennodes.png> <D:/GITREPO/ma
-sterthesis/Figures/discount/starmanynodes.png>]
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
-<../Figures/financialContagion1.png, id=1459, 197.23688pt x 135.50626pt>
+<../Figures/financialContagion1.png, id=1496, 197.23688pt x 135.50626pt>
 File: ../Figures/financialContagion1.png Graphic file (type png)
 
 <use ../Figures/financialContagion1.png>
@@ -2664,7 +2591,7 @@ Package pdftex.def Info: ../Figures/financialContagion1.png used on input line
 576.
 (pdftex.def)             Requested size: 145.60056pt x 100.03113pt.
 
-<../Figures/financialContagion2.png, id=1460, 177.66376pt x 131.74219pt>
+<../Figures/financialContagion2.png, id=1497, 177.66376pt x 131.74219pt>
 File: ../Figures/financialContagion2.png Graphic file (type png)
 
 <use ../Figures/financialContagion2.png>
@@ -2672,7 +2599,7 @@ Package pdftex.def Info: ../Figures/financialContagion2.png used on input line
 582.
 (pdftex.def)             Requested size: 133.95445pt x 99.33305pt.
 
-<../Figures/gameTheoryModel1WithEquations.png, id=1462, 923.70094pt x 132.495pt
+<../Figures/gameTheoryModel1WithEquations.png, id=1499, 923.70094pt x 132.495pt
 >
 File: ../Figures/gameTheoryModel1WithEquations.png Graphic file (type png)
  <use ../Figures/gameTheoryModel1WithEquations.png>
@@ -2680,7 +2607,7 @@ Package pdftex.def Info: ../Figures/gameTheoryModel1WithEquations.png used on i
 nput line 596.
 (pdftex.def)             Requested size: 364.0pt x 52.2106pt.
 
-<../Figures/gameTheoryModel1WithNumbers.png, id=1467, 986.9372pt x 295.85532pt>
+<../Figures/gameTheoryModel1WithNumbers.png, id=1504, 986.9372pt x 295.85532pt>
 File: ../Figures/gameTheoryModel1WithNumbers.png Graphic file (type png)
 <use ../Figures/gameTheoryModel1WithNumbers.png>
 Package pdftex.def Info: ../Figures/gameTheoryModel1WithNumbers.png used on inp
@@ -2709,19 +2636,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [91]
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 54.
 
-<<<<<<< HEAD
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )) [92]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\futurework.te
-x" <../Figures/exponentialFunction.png, id=1506, 1003.75pt x 803.0pt>
-=======
-(D:\Latex\MiKTeX\tex\latex\lm\ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) [92]
-("D:\GITREPO\masterthesis\Template fra Laurent\futurework.tex"
-<../Figures/exponentialFunction.png, id=1506, 1003.75pt x 803.0pt>
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
+x" <../Figures/exponentialFunction.png, id=1544, 1003.75pt x 803.0pt>
 File: ../Figures/exponentialFunction.png Graphic file (type png)
 
 <use ../Figures/exponentialFunction.png>
@@ -2739,15 +2658,10 @@ Underfull \vbox (badness 1325) has occurred while \output is active []
 
 
 ])
-<<<<<<< HEAD
 [94 <C:/Users/Håvard/masterthesis/masterthesis/Figures/exponentialFunction.png
 >] [95]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.bbl"
 [96
-=======
-[94 <D:/GITREPO/masterthesis/Figures/exponentialFunction.png>] [95]
-("D:\GITREPO\masterthesis\Template fra Laurent\main.bbl" [96
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
 
 
 ]
@@ -2793,7 +2707,6 @@ This document will not have a glossary.
 \tf@lot=\write11
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
-<<<<<<< HEAD
  ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.aux"
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\abstract_engl
 ish.aux")
@@ -2815,19 +2728,6 @@ Insurance.aux")
 lts.aux")
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\futurework.au
 x"))
-=======
- ("D:\GITREPO\masterthesis\Template fra Laurent\main.aux"
-("D:\GITREPO\masterthesis\Template fra Laurent\abstract_english.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\preface.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\introductionToCyberInsurance.aux
-") ("D:\GITREPO\masterthesis\Template fra Laurent\currentmarketstate.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\graphTheory.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\surveyofnetworkformations.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\SummaryOfResults.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\futurework.aux"))
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
 Package rerunfilecheck Info: File `main.out' has not changed.
@@ -2836,62 +2736,177 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
  ) 
 Here is how much of TeX's memory you used:
- 38344 strings out of 494045
-<<<<<<< HEAD
- 750610 string characters out of 3145963
-=======
- 739067 string characters out of 3153222
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
- 1038738 words of memory out of 3000000
+ 38389 strings out of 494045
+ 751235 string characters out of 3145963
+ 1038217 words of memory out of 3000000
  40071 multiletter control sequences out of 15000+200000
  95775 words of font info for 163 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  69i,19n,94p,1504b,2049s stack positions out of 5000i,500n,10000p,200000b,50000s
-<<<<<<< HEAD
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)
-/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvip
-s/lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.
-enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/lm/lmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi9.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/lm/lmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/lm/lmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr
-8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/lm/lmsy7.pfb>
-Output written on main.pdf (113 pages, 2063581 bytes).
-=======
-{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{D:/Latex/MiKTeX/fonts/enc/dvi
-ps/lm/lm-mathit.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{D:/Latex/MiK
-TeX/fonts/enc/dvips/lm/lm-mathex.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-ec.
-enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}<D:/Latex/MiKTeX/fonts/ty
-pe1/public/lm/lmbx10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><D:/
-Latex/MiKTeX/fonts/type1/public/lm/lmex10.pfb><D:/Latex/MiKTeX/fonts/type1/publ
-ic/lm/lmmi10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><D:/Latex/MiK
-TeX/fonts/type1/public/lm/lmmi6.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi
-7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><D:/Latex/MiKTeX/fonts/t
-ype1/public/lm/lmr10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr5.pfb><D:/La
-tex/MiKTeX/fonts/type1/public/lm/lmr6.pfb><D:/Latex/MiKTeX/fonts/type1/public/l
-m/lmr7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr8.pfb><D:/Latex/MiKTeX/fon
-ts/type1/public/lm/lmr9.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmri10.pfb><
-D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><D:/Latex/MiKTeX/fonts/type1/p
-ublic/lm/lmsy7.pfb>
-Output written on main.pdf (113 pages, 2063878 bytes).
->>>>>>> b4de09d9d95f43e0979b61039299cc32568b5960
+pdfTeX warning (dest): name{figure.caption.130} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.126} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.124} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.69} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.76} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.75} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.74} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.120} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.70} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.115} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.60} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.59} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.55} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.43} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.107} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.42} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.41} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.39} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.12} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.37} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.36} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.35} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.34} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.97} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.96} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.31} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.24} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.32} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.30} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.27} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.29} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.22} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.21} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.20} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.87} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.14} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.13} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.11} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.8} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.6} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.4} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.3} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.8.1} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.123} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.10} has been referenced but does not exi
+st, replaced by a fixed one
+
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts
+/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/
+lm/lm-ec.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.en
+c}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+lm/lmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi9.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/lm/lmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/lm/lmsy7.pfb>
+Output written on main.pdf (113 pages, 2067454 bytes).
 PDF statistics:
- 1747 PDF objects out of 2073 (max. 8388607)
- 503 named destinations out of 1000 (max. 500000)
+ 1795 PDF objects out of 2073 (max. 8388607)
+ 548 named destinations out of 1000 (max. 500000)
  25853 words of extra memory for PDF output out of 29859 (max. 10000000)
 
