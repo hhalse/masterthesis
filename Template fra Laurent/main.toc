@@ -117,7 +117,7 @@
 \contentsline {subsection}{\numberline {7.2.2}One section on what are the main findings were\IeC {\textellipsis } showinglinks across chapters (this explains why you chose thestructure you did)}{78}{subsection.7.2.2}
 \contentsline {subsection}{\numberline {7.2.3}One section on possible areas for future research}{79}{subsection.7.2.3}
 \contentsline {subsection}{\numberline {7.2.4}Final section reminding readers of the original contributionand significance of your research to your field}{79}{subsection.7.2.4}
-\contentsline {subparagraph}{TIPS og TRIKS til konklusjon}{79}{section*.99}
+\contentsline {subparagraph}{TIPS og TRIKS til konklusjon}{80}{section*.99}
 \contentsline {subparagraph}{AVOID this in conclsuion}{80}{section*.100}
 \contentsline {section}{\numberline {7.3}Future work Notater}{81}{section.7.3}
 \contentsline {subparagraph}{TA MED DETTE?}{81}{section*.101}
