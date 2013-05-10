@@ -483,10 +483,10 @@ For this scenario to be possible Eq. (\ref{eq:model4-discount-i-to-noti}) has to
 For an insurer to be able to ensure that the network ends up in a clique with only insured nodes, we must ensure that the most expensive link establishment, i.e. the first, to another insured node can be achieved. This gives us the same condition as in model 2, i.e. $I_{l}<\beta$. 
 We also need to ensure that insured nodes does not connect to non-insured, thus we get the final condition in Eq. (\ref{eq:model4-discount-condition-only-insured}), where $N_{I}$ is the number of insured nodes in the network.
 \begin{equation}
-(N_{I}-1)(\beta-r)<I_{l}<\beta
+(N_{I})(\beta-r)<I_{l}<\beta
 \label{eq:model4-discount-condition-only-insured}
 \end{equation}
-This is condition is very strong, because it says that $\beta-r<\frac{1}{N_{I}-1}$, and as the number of insured nodes gets higher this get more and more unlikely. 
+This is condition is very strong, because it says that $\beta-r<\frac{\beta}{N_{I}}$, and as the number of insured nodes gets higher this get more and more unlikely. 
 Thus by including bulk-discount, the insurer are making it harder for himself to constrain the network formation. This is because the incentive for establishing links are higher than without discount, and thus more links will be established.
 \subparagraph{Price of Stability versus efficiency}
 If we compare the total payoff equation in this model, see Eq.(\ref{eq:model4-discount-total-payoff}), with the one in model 2 (Eq.(\ref{eq:model2-total-payoff})). We see that the cost for insured nodes has changed, and therefore the payoff generated from links between insured nodes has increased, and so have the payoff received from links between insured and non-insured nodes. 
@@ -545,7 +545,7 @@ U_{i}+\beta-\frac{I_{l}}{i+1}+\frac{\gamma}{m-i}-r&>U_{i} \nonumber \\
 
 \subsection{Result and findings}
 If we analyze the same scenario as in the other models, namely a clique of only insured nodes. The first step is to ensure that insured nodes connect to each other when the expected payoff is lowest, i.e. at node degree zero. If they are willing to establish link at this point, then they will also be willing at all degrees higher than zero.
-At degree zero there is no discount on the insurance link cost, and thus if Eq.(\ref{eq:eq:conditionitoi}) from model 3 holds, insured nodes will connect to other insured nodes.
+At degree zero there is no discount on the insurance link cost, and thus if Eq.(\ref{eq:conditionitoi}) from model 3 holds, insured nodes will connect to other insured nodes.
 
 However the condition for ensuring that insured nodes do not connect to non-insured has changed, we know if an insured node do not want to establish a link with a non-insured at degree $m-1$, then no insured node with degree lower than $m-1$ will either do so. From this we find the condition, see Eq.(\ref{eq:model4-bonus-i-not-ni})
 \begin{eqnarray}
