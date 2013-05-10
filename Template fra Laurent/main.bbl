@@ -252,4 +252,9 @@ Wikipedia.
 \newblock \url{http://en.wikipedia.org/wiki/The_Market_for_Lemons}.
 \newblock Accessed: 13/02/2013.
 
+\bibitem[Wil]{netlogo}
+Uri Wilensky.
+\newblock Netlog, programmable modeling enviroment.
+\newblock Accessed: 15/02/2013.
+
 \end{thebibliography}
