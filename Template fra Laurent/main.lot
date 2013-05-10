@@ -8,4 +8,9 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
+<<<<<<< HEAD
+\contentsline {table}{\numberline {6.1}{\ignorespaces The parameters used in the simulation in \ref {fig:stablestar} \relax }}{88}{table.caption.127}
+\contentsline {table}{\numberline {6.2}{\ignorespaces The parameters used in the simulation in \ref {fig:star:a} \relax }}{88}{table.caption.130}
+=======
+>>>>>>> 0e7f80460219712b894c0eeeb21783dd30398959
 \addvspace {10pt}

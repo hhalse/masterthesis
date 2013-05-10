@@ -35,6 +35,159 @@
 \contentsline {subparagraph}{From a insurers point of view}{22}{section*.22}
 \contentsline {chapter}{\chapternumberline {4}Relatedwork}{25}{chapter.4}
 \contentsline {section}{\numberline {4.1}Cyber-Insurance}{25}{section.4.1}
+<<<<<<< HEAD
+\contentsline {subsection}{\numberline {4.1.1}Paper from Bohme - SKAL FJERNES ETTERHVERT}{25}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}A novel cyber-insurance Model - FJERNES ETTERHVERT}{26}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Cyber-insurance for cyber-security, A Topological Take on Modulating Insurance Premiums - FJERNES ETTERHVERT}{26}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Differentiating Cyber-insurance Contracts, a topological Perspective - FJERNES ETTERHVERT}{26}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Cyber insurance as an Incentive for Internet Security-PAPER fjern overskrift..}{27}{section.4.2}
+\contentsline {section}{\numberline {4.3}NOTATER!!!!! ASDASDASDASDASDASDASDASDSAD}{28}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}This was previously placed in current market }{28}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Contract structure}{28}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Economics}{29}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Epidemics}{29}{subsection.4.3.4}
+\contentsline {subsubsection}{modeling contagion}{29}{section*.23}
+\contentsline {subparagraph}{branching processes}{29}{section*.24}
+\contentsline {subparagraph}{SIR epidemic model}{30}{section*.25}
+\contentsline {subparagraph}{Extension to SIR}{30}{section*.26}
+\contentsline {subparagraph}{Model from dynamic to static(Percolation)}{30}{section*.27}
+\contentsline {subparagraph}{SIS epidemic model}{30}{section*.28}
+\contentsline {subparagraph}{SIRS Epidemic model}{31}{section*.29}
+\contentsline {subsection}{\numberline {4.3.5}Incentives and Information Security}{31}{subsection.4.3.5}
+\contentsline {subparagraph}{Informational asymmetries}{31}{section*.30}
+\contentsline {subsection}{\numberline {4.3.6}Towards Insurable Network Architectures}{31}{subsection.4.3.6}
+\contentsline {subparagraph}{Interdependent security}{32}{section*.31}
+\contentsline {subparagraph}{Correlated risks}{32}{section*.32}
+\contentsline {subparagraph}{information asymmetry}{32}{section*.33}
+\contentsline {subsection}{\numberline {4.3.7}Modeling cyber-insurance: towards a unifying Framework}{32}{subsection.4.3.7}
+\contentsline {subsubsection}{Network Environment: Connected nodes}{33}{section*.34}
+\contentsline {subparagraph}{Defense function}{34}{section*.35}
+\contentsline {subparagraph}{network topology G}{34}{section*.36}
+\contentsline {subparagraph}{Risk arrival}{34}{section*.37}
+\contentsline {subparagraph}{Attacker model}{34}{section*.38}
+\contentsline {subsubsection}{Demand side agents}{35}{section*.39}
+\contentsline {subparagraph}{Node control}{35}{section*.40}
+\contentsline {subparagraph}{Heterogenity}{35}{section*.41}
+\contentsline {subparagraph}{Risk Aversion}{35}{section*.42}
+\contentsline {subparagraph}{Action space}{35}{section*.43}
+\contentsline {subparagraph}{Time}{36}{section*.44}
+\contentsline {subsubsection}{Supply side, insurers}{36}{section*.45}
+\contentsline {subparagraph}{ Marketstructure}{36}{section*.46}
+\contentsline {subparagraph}{ Risk aversion}{36}{section*.47}
+\contentsline {subparagraph}{Markup}{36}{section*.48}
+\contentsline {subparagraph}{Contract design}{36}{section*.49}
+\contentsline {subparagraph}{Higher order risk transfer}{36}{section*.50}
+\contentsline {subsubsection}{Information structure}{37}{section*.51}
+\contentsline {subsubsection}{Organizational Enviroment(stakeholders)}{37}{section*.52}
+\contentsline {subparagraph}{Regulator}{37}{section*.53}
+\contentsline {subparagraph}{ICT manufacturers}{38}{section*.54}
+\contentsline {subparagraph}{Network intermediaries}{38}{section*.55}
+\contentsline {subparagraph}{security service providers}{38}{section*.56}
+\contentsline {subsection}{\numberline {4.3.8}Using this framework for a literature survey}{38}{subsection.4.3.8}
+\contentsline {subparagraph}{demand side}{38}{section*.57}
+\contentsline {subparagraph}{Supply side}{38}{section*.58}
+\contentsline {subparagraph}{Organizational Environment}{38}{section*.59}
+\contentsline {subparagraph}{Research Question}{38}{section*.60}
+\contentsline {subparagraph}{Discussion of models}{39}{section*.61}
+\contentsline {subsection}{\numberline {4.3.9}A novel cyber-insurance Model}{39}{subsection.4.3.9}
+\contentsline {subsection}{\numberline {4.3.10}Cyber-insurance for cyber-security, A topological Take on Modulating Insurance Premiums}{39}{subsection.4.3.10}
+\contentsline {subsection}{\numberline {4.3.11}Differentiating Cyber-insurance Contracts, a topological Perspective}{40}{subsection.4.3.11}
+\contentsline {section}{\numberline {4.4}Cyber insurance as an Incentive for Internet Security}{40}{section.4.4}
+\contentsline {subsubsection}{Classical model for insurance}{41}{section*.62}
+\contentsline {subsubsection}{Interdependent security and insurance}{41}{section*.63}
+\contentsline {subsection}{\numberline {4.4.1}A solution to the information Asymmetry Problem}{41}{subsection.4.4.1}
+\contentsline {subparagraph}{Cyber-insurance and asymmetry}{42}{section*.64}
+\contentsline {subsection}{\numberline {4.4.2}Model from Bohme}{43}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Related work 2 UBRUKELIG!}{44}{subsection.4.4.3}
+\contentsline {chapter}{\chapternumberline {5}Methodology}{47}{chapter.5}
+\contentsline {section}{\numberline {5.1}Game Theory}{47}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Nash Equlibrium}{47}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Price of Anarchy}{47}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Social Optimal}{47}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Steckleberg game}{47}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Netlogo}{47}{section.5.2}
+\contentsline {part}{\partnumberline {II}Own Contribution}{49}{part.2}
+\contentsline {chapter}{\chapternumberline {6}Modeling Cyber-Insurance }{51}{chapter.6}
+\contentsline {subparagraph}{Insurable topology}{51}{section*.66}
+\contentsline {subparagraph}{Introduction to the modeling.}{52}{section*.67}
+\contentsline {section}{\numberline {6.1}Model 1 - Initial Model }{52}{section.6.1}
+\contentsline {section}{\numberline {6.2}Model 2 - Including Parameters}{54}{section.6.2}
+\contentsline {subsubsection}{Characteristics of the model}{55}{section*.70}
+\contentsline {subsection}{\numberline {6.2.1}Two nodes scenario}{55}{subsection.6.2.1}
+\contentsline {subsubsection}{Solving the prisonersdilemma}{57}{section*.73}
+\contentsline {subsection}{\numberline {6.2.2}Multiple nodes}{57}{subsection.6.2.2}
+\contentsline {subsubsection}{Assumptions}{57}{section*.75}
+\contentsline {subsubsection}{Analyzis}{58}{section*.76}
+\contentsline {subparagraph}{Insured to insured}{58}{section*.77}
+\contentsline {subparagraph}{Non-insured to insured}{59}{section*.78}
+\contentsline {subparagraph}{Insured to non-insured}{59}{section*.79}
+\contentsline {subparagraph}{Non-insured to Non-insured}{59}{section*.80}
+\contentsline {subparagraph}{Forming a trusted clique}{59}{section*.81}
+\contentsline {subsection}{\numberline {6.2.3}Result and findings}{60}{subsection.6.2.3}
+\contentsline {subparagraph}{Stability versus efficiency}{60}{section*.82}
+\contentsline {subsubsection}{Simulation of the results}{61}{section*.83}
+\contentsline {subparagraph}{Secound Simulation}{61}{section*.85}
+\contentsline {section}{\numberline {6.3}Forcing non-insured nodes to buy insurance(FIX!!!!!!!!)}{62}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Violating the conditions}{64}{subsection.6.3.1}
+\contentsline {section}{\numberline {6.4}Model 3 - Including maximum node degree and bonus}{64}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Analyzis}{65}{subsection.6.4.1}
+\contentsline {subparagraph}{Insured to insured}{65}{section*.87}
+\contentsline {subparagraph}{Insured connect to non-insured}{66}{section*.88}
+\contentsline {subparagraph}{Non-insured to non-insured}{66}{section*.89}
+\contentsline {subparagraph}{Non-insured to insured}{66}{equation.6.26}
+\contentsline {subsection}{\numberline {6.4.2}Result and findings}{66}{subsection.6.4.2}
+\contentsline {subparagraph}{Consequences of not reaching required number of edges}{68}{section*.91}
+\contentsline {subparagraph}{Efficiency and Stability( SKRIVE NOE OM DETTE, selvom det er vanskelig \IeC {\r a} analysere}{68}{section*.92}
+\contentsline {subsubsection}{Simulation of the results}{68}{section*.93}
+\contentsline {subparagraph}{Second simulation}{69}{section*.95}
+\contentsline {section}{\numberline {6.5}Model 4 - Including bulk insurance discount}{69}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Analyzis}{70}{subsection.6.5.1}
+\contentsline {subsubsection}{Discount model}{70}{section*.97}
+\contentsline {subparagraph}{Insured to insured}{70}{section*.98}
+\contentsline {subparagraph}{Insured to non-insured}{71}{section*.99}
+\contentsline {subparagraph}{Result and findings}{71}{section*.100}
+\contentsline {subparagraph}{Price of Stability versus efficiency}{71}{section*.101}
+\contentsline {subsubsection}{Discount and Bonus model}{72}{section*.102}
+\contentsline {subparagraph}{Insured to insured}{72}{section*.103}
+\contentsline {subparagraph}{Insured to non-insured}{72}{section*.104}
+\contentsline {subsection}{\numberline {6.5.2}Result and findings}{72}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}Model with incomplete information}{73}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Analyzis}{74}{subsection.6.6.1}
+\contentsline {subparagraph}{Node 2 is insured}{74}{section*.105}
+\contentsline {subparagraph}{Separating equilibrium}{74}{section*.107}
+\contentsline {subparagraph}{Pooling equilibrium}{75}{section*.108}
+\contentsline {subparagraph}{Node 2 not insured}{76}{section*.109}
+\contentsline {subparagraph}{Separating equilibrium}{76}{section*.111}
+\contentsline {subparagraph}{Pooling equilibrium}{77}{section*.112}
+\contentsline {subparagraph}{Result and findings}{78}{section*.113}
+\contentsline {section}{\numberline {6.7}Model 5-The connection game}{79}{section.6.7}
+\contentsline {subparagraph}{Example}{79}{section*.115}
+\contentsline {subparagraph}{Pairwise stability:(HVERTFALL ISH )}{80}{section*.116}
+\contentsline {section}{\numberline {6.8}Insurance and connection game}{81}{section.6.8}
+\contentsline {subsection}{\numberline {6.8.1}Homogenous symmetric connection game}{82}{subsection.6.8.1}
+\contentsline {subparagraph}{Star not possible with high $n$}{82}{section*.118}
+\contentsline {subparagraph}{Bulk insurance}{83}{section*.120}
+\contentsline {subsection}{\numberline {6.8.2}Simulation}{84}{subsection.6.8.2}
+\contentsline {subparagraph}{Results and findings}{85}{section*.121}
+\contentsline {subparagraph}{Low critical node degree, KANSKJE FJERNE DETTE HER OG neste subpara}{86}{section*.126}
+\contentsline {subparagraph}{High critical node degree}{88}{section*.129}
+\contentsline {section}{\numberline {6.9}DETTE ET ANNET STED KANSKJE? BLIR LITT RART \IeC {\r A} HOPPE INN I DET HER}{89}{section.6.9}
+\contentsline {part}{\partnumberline {III}Summary}{93}{part.3}
+\contentsline {chapter}{\chapternumberline {7}Summary}{95}{chapter.7}
+\contentsline {section}{\numberline {7.1}Discussion}{95}{section.7.1}
+\contentsline {section}{\numberline {7.2}Conclusion}{96}{section.7.2}
+\contentsline {subparagraph}{One paragraph stating what you researched and what your original contribution to the field is, after that brake into sections}{96}{section*.136}
+\contentsline {subsection}{\numberline {7.2.1}One section on what you researched and how you did it}{96}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}One section on what are the main findings were\IeC {\textellipsis } showinglinks across chapters (this explains why you chose thestructure you did)}{97}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}One section on possible areas for future research}{97}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Final section reminding readers of the original contributionand significance of your research to your field}{98}{subsection.7.2.4}
+\contentsline {subparagraph}{TIPS og TRIKS til konklusjon}{98}{section*.137}
+\contentsline {subparagraph}{AVOID this in conclsuion}{98}{section*.138}
+\contentsline {section}{\numberline {7.3}Future work Notater}{99}{section.7.3}
+\contentsline {subparagraph}{TA MED DETTE?}{99}{section*.139}
+\contentsline {subsection}{\numberline {7.3.1}Risk}{99}{subsection.7.3.1}
+\contentsline {chapter}{References}{103}{section*.142}
+=======
 \contentsline {subsection}{\numberline {4.1.1}Summary}{27}{subsection.4.1.1}
 \contentsline {chapter}{\chapternumberline {5}Methodology}{29}{chapter.5}
 \contentsline {section}{\numberline {5.1}Game Theory}{29}{section.5.1}
@@ -123,3 +276,4 @@
 \contentsline {subparagraph}{Husk!!!}{79}{section*.101}
 \contentsline {subsection}{\numberline {7.3.1}Risk}{79}{subsection.7.3.1}
 \contentsline {chapter}{References}{83}{section*.104}
+>>>>>>> 0e7f80460219712b894c0eeeb21783dd30398959
