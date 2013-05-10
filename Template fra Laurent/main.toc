@@ -108,18 +108,17 @@
 \contentsline {subsubsection}{Results and findings}{67}{section*.88}
 \contentsline {subparagraph}{Example figures from the simulation.}{69}{figure.caption.94}
 \contentsline {part}{\partnumberline {III}Summary}{73}{part.3}
-\contentsline {chapter}{\chapternumberline {7}Summary}{75}{chapter.7}
-\contentsline {section}{\numberline {7.1}Discussion}{75}{section.7.1}
-\contentsline {section}{\numberline {7.2}Conclusion}{77}{section.7.2}
-\contentsline {subparagraph}{One paragraph stating what you researched and what your original contribution to the field is, after that brake into sections}{77}{section*.97}
-\contentsline {subsection}{\numberline {7.2.1}One section on what you researched and how you did it}{77}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}One section on what are the main findings were\IeC {\textellipsis } showinglinks across chapters (this explains why you chose thestructure you did)}{77}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}One section on possible areas for future research}{78}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Final section reminding readers of the original contributionand significance of your research to your field}{78}{subsection.7.2.4}
-\contentsline {subparagraph}{TIPS og TRIKS til konklusjon}{78}{section*.98}
-\contentsline {subparagraph}{AVOID this in conclsuion}{79}{section*.99}
-\contentsline {section}{\numberline {7.3}Future work Notater}{80}{section.7.3}
-\contentsline {subparagraph}{TA MED DETTE?}{80}{section*.100}
-\contentsline {subparagraph}{Husk!!!}{80}{section*.101}
-\contentsline {subsection}{\numberline {7.3.1}Risk}{80}{subsection.7.3.1}
-\contentsline {chapter}{References}{83}{section*.104}
+\contentsline {chapter}{\chapternumberline {7}Discussion}{75}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Conclusion}{79}{chapter.8}
+\contentsline {subparagraph}{One paragraph stating what you researched and what your original contribution to the field is, after that brake into sections}{79}{section*.97}
+\contentsline {subsection}{\numberline {8.0.3}One section on what you researched and how you did it}{79}{subsection.8.0.3}
+\contentsline {subsection}{\numberline {8.0.4}One section on what are the main findings were\IeC {\textellipsis } showinglinks across chapters (this explains why you chose thestructure you did)}{79}{subsection.8.0.4}
+\contentsline {subsection}{\numberline {8.0.5}One section on possible areas for future research}{80}{subsection.8.0.5}
+\contentsline {subsection}{\numberline {8.0.6}Final section reminding readers of the original contributionand significance of your research to your field}{80}{subsection.8.0.6}
+\contentsline {subparagraph}{TIPS og TRIKS til konklusjon}{80}{section*.98}
+\contentsline {subparagraph}{AVOID this in conclsuion}{81}{section*.99}
+\contentsline {section}{\numberline {8.1}Future work Notater}{82}{section.8.1}
+\contentsline {subparagraph}{TA MED DETTE?}{82}{section*.100}
+\contentsline {subparagraph}{Husk!!!}{82}{section*.101}
+\contentsline {subsection}{\numberline {8.1.1}Risk}{82}{subsection.8.1.1}
+\contentsline {chapter}{References}{85}{section*.104}
