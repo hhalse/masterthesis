@@ -1,4 +1,4 @@
-\section{Model 5-The connection game}
+\section{Model 5 - The connection game}
 In the earlier model, the experienced network effects only arose from their neighbours. I.e. when a node established a connection the change in utility where only dependent on fixed variables, and not dependent of the rest of the network. In most real world scenarios there is more realistic that a node will also be strongly affected by the indirect connections to other nodes. Social relationships between nodes are good examples of such networks, where they offer benefits in terms of favors, information etc. 
 
 We apply the results from the paper from Jackson and Wolinsky \cite{jackson1996strategic} and uses a network formation game in \cite{jackson2005survey}, to study indirect networks effects in our model. 
@@ -144,6 +144,8 @@ legend style={at={(0.5,-0.15)},
 anchor=north,legend columns=-1},
 ybar,
 bar width=7pt,
+ymax=1.1,
+xmin=2,
 ]
 \addplot
 coordinates {
@@ -171,6 +173,8 @@ legend style={at={(0.5,-0.15)},
 anchor=north,legend columns=-1},
 ybar,
 bar width=7pt,
+ymax=1.1,
+xmin=2,
 ]
 \addplot
 coordinates {
@@ -191,6 +195,8 @@ An interesting comparison can be made between the emergence of a star versus a c
 \begin{tikzpicture}
     \begin{axis}[
         xlabel=Critical degree,
+        ymax=1.1,
+        xmin=2,
         ylabel=Probability]
     \addplot[smooth,mark=*,blue] plot coordinates {
         (3,0.0) (4,0.0) (5,0.0) (6,0.42) (7,0.86) 
@@ -228,6 +234,8 @@ legend style={at={(0.5,-0.15)},
 anchor=north,legend columns=-1},
 ybar,
 bar width=7pt,
+ymax=1.1,
+xmin=2,
 ]
 \addplot
 coordinates {
