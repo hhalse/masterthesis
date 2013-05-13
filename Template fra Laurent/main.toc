@@ -44,63 +44,63 @@
 \contentsline {subparagraph}{Subgame-perfect equilibrium}{30}{section*.26}
 \contentsline {subparagraph}{Socially optimal}{30}{section*.27}
 \contentsline {subparagraph}{Price of stability}{30}{section*.28}
+\contentsline {subparagraph}{Bayesian game}{30}{section*.29}
 \contentsline {section}{\numberline {5.2}Netlogo}{30}{section.5.2}
-\contentsline {subparagraph}{Bayesian game}{30}{section*.31}
 \contentsline {part}{\partnumberline {II}Own Contributions}{33}{part.2}
 \contentsline {chapter}{\chapternumberline {6}Modeling Cyber-Insurance }{35}{chapter.6}
 \contentsline {subparagraph}{Insurable topology}{35}{section*.33}
-\contentsline {subparagraph}{Introduction to the modeling.}{36}{section*.34}
-\contentsline {section}{\numberline {6.1}Model 1 - Initial Model }{36}{section.6.1}
-\contentsline {section}{\numberline {6.2}Model 2 - Including Parameters}{38}{section.6.2}
-\contentsline {subsubsection}{Characteristics of the model}{39}{section*.37}
+\contentsline {subparagraph}{Pairwise stability}{36}{section*.34}
+\contentsline {subparagraph}{Introduction to the modeling.}{36}{section*.35}
+\contentsline {section}{\numberline {6.1}Model 1 - Initial Model }{37}{section.6.1}
+\contentsline {section}{\numberline {6.2}Model 2 - Including Parameters}{39}{section.6.2}
+\contentsline {subsubsection}{Characteristics of the model}{39}{section*.38}
 \contentsline {subsection}{\numberline {6.2.1}Two nodes scenario}{39}{subsection.6.2.1}
-\contentsline {subsubsection}{Solving the prisonersdilemma}{41}{section*.40}
-\contentsline {subsection}{\numberline {6.2.2}Multiple nodes}{41}{subsection.6.2.2}
-\contentsline {subsubsection}{Assumptions}{41}{section*.42}
-\contentsline {subsubsection}{Analyzis}{42}{section*.43}
-\contentsline {subparagraph}{Insured to insured}{42}{section*.44}
-\contentsline {subparagraph}{Non-insured to insured}{43}{section*.45}
-\contentsline {subparagraph}{Insured to non-insured}{43}{section*.46}
-\contentsline {subparagraph}{Non-insured to Non-insured}{43}{section*.47}
-\contentsline {subparagraph}{Forming a trusted clique}{43}{section*.48}
+\contentsline {subsubsection}{Solving the prisonersdilemma}{40}{section*.41}
+\contentsline {subsection}{\numberline {6.2.2}Multiple nodes}{42}{subsection.6.2.2}
+\contentsline {subsubsection}{Assumptions}{42}{section*.43}
+\contentsline {subsubsection}{Analyzis}{43}{section*.44}
+\contentsline {subparagraph}{Insured to insured}{43}{section*.45}
+\contentsline {subparagraph}{Non-insured to insured}{43}{section*.46}
+\contentsline {subparagraph}{Insured to non-insured}{43}{section*.47}
+\contentsline {subparagraph}{Non-insured to Non-insured}{44}{section*.48}
+\contentsline {subparagraph}{Forming a trusted clique}{44}{section*.49}
 \contentsline {subsection}{\numberline {6.2.3}Result and findings}{44}{subsection.6.2.3}
-\contentsline {subparagraph}{Stability versus efficiency}{44}{section*.49}
-\contentsline {subsubsection}{Simulation of the results}{45}{section*.50}
-\contentsline {subparagraph}{Secound Simulation}{45}{section*.52}
+\contentsline {subparagraph}{Stability versus efficiency}{44}{section*.50}
+\contentsline {subsubsection}{Simulation of the results}{45}{section*.51}
+\contentsline {subparagraph}{Secound Simulation}{46}{section*.53}
 \contentsline {section}{\numberline {6.3}Model 3 - Including maximum node degree and bonus}{46}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Analyzis}{47}{subsection.6.3.1}
-\contentsline {subparagraph}{Insured to insured}{47}{section*.54}
-\contentsline {subparagraph}{Insured connect to non-insured}{48}{section*.55}
-\contentsline {subparagraph}{Non-insured to non-insured}{48}{section*.56}
-\contentsline {subparagraph}{Non-insured to insured}{48}{equation.6.21}
+\contentsline {subparagraph}{Insured to insured}{48}{section*.55}
+\contentsline {subparagraph}{Insured connect to non-insured}{48}{section*.56}
+\contentsline {subparagraph}{Non-insured to non-insured}{49}{section*.57}
+\contentsline {subparagraph}{Non-insured to insured}{49}{equation.6.21}
 \contentsline {subsection}{\numberline {6.3.2}Result and findings}{49}{subsection.6.3.2}
-\contentsline {subparagraph}{Consequences of not reaching required number of edges}{50}{section*.58}
-\contentsline {subparagraph}{Efficiency and Stability( SKRIVE NOE OM DETTE, selvom det er vanskelig \IeC {\r a} analysere}{50}{section*.59}
-\contentsline {subsubsection}{Simulation of the results}{50}{section*.60}
-\contentsline {subparagraph}{Second simulation}{51}{section*.62}
+\contentsline {subparagraph}{Consequences of not reaching required number of edges}{50}{section*.59}
+\contentsline {subparagraph}{Efficiency and Stability( SKRIVE NOE OM DETTE, selvom det er vanskelig \IeC {\r a} analysere}{51}{section*.60}
+\contentsline {subsubsection}{Simulation of the results}{51}{section*.61}
+\contentsline {subparagraph}{Second simulation}{51}{section*.63}
 \contentsline {section}{\numberline {6.4}Model 4 - Including bulk insurance discount}{52}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Analyzis}{52}{subsection.6.4.1}
-\contentsline {subsubsection}{Discount model}{53}{section*.64}
-\contentsline {subparagraph}{Insured to insured}{53}{section*.65}
-\contentsline {subparagraph}{Insured to non-insured}{53}{section*.66}
-\contentsline {subparagraph}{Result and findings}{53}{section*.67}
-\contentsline {subparagraph}{Price of Stability versus efficiency}{53}{section*.68}
-\contentsline {subsubsection}{Discount and Bonus model}{54}{section*.69}
-\contentsline {subparagraph}{Insured to insured}{54}{section*.70}
-\contentsline {subparagraph}{Insured to non-insured}{54}{section*.71}
+\contentsline {subsection}{\numberline {6.4.1}Analyzis}{53}{subsection.6.4.1}
+\contentsline {subsubsection}{Discount model}{53}{section*.65}
+\contentsline {subparagraph}{Insured to insured}{53}{section*.66}
+\contentsline {subparagraph}{Insured to non-insured}{53}{section*.67}
+\contentsline {subparagraph}{Result and findings}{53}{section*.68}
+\contentsline {subparagraph}{Price of Stability versus efficiency}{54}{section*.69}
+\contentsline {subsubsection}{Discount and Bonus model}{54}{section*.70}
+\contentsline {subparagraph}{Insured to insured}{54}{section*.71}
+\contentsline {subparagraph}{Insured to non-insured}{55}{section*.72}
 \contentsline {subsection}{\numberline {6.4.2}Result and findings}{55}{subsection.6.4.2}
-\contentsline {section}{\numberline {6.5}Model with incomplete information}{55}{section.6.5}
+\contentsline {section}{\numberline {6.5}Model with incomplete information}{56}{section.6.5}
 \contentsline {subsection}{\numberline {6.5.1}Analyzis}{56}{subsection.6.5.1}
-\contentsline {subparagraph}{Node 2 is insured}{56}{section*.72}
-\contentsline {subparagraph}{Separating equilibrium}{56}{section*.74}
-\contentsline {subparagraph}{Pooling equilibrium}{58}{section*.75}
-\contentsline {subparagraph}{Node 2 not insured}{58}{section*.76}
-\contentsline {subparagraph}{Separating equilibrium}{58}{section*.78}
-\contentsline {subparagraph}{Pooling equilibrium}{60}{section*.79}
-\contentsline {subparagraph}{Result and findings}{60}{section*.80}
+\contentsline {subparagraph}{Node 2 is insured}{56}{section*.73}
+\contentsline {subparagraph}{Separating equilibrium}{57}{section*.75}
+\contentsline {subparagraph}{Pooling equilibrium}{58}{section*.76}
+\contentsline {subparagraph}{Node 2 not insured}{58}{section*.77}
+\contentsline {subparagraph}{Separating equilibrium}{59}{section*.79}
+\contentsline {subparagraph}{Pooling equilibrium}{60}{section*.80}
+\contentsline {subparagraph}{Result and findings}{60}{section*.81}
 \contentsline {section}{\numberline {6.6}Model 5-The connection game}{61}{section.6.6}
-\contentsline {subparagraph}{Example}{61}{section*.82}
-\contentsline {subparagraph}{Pairwise stability:(HVERTFALL ISH )}{62}{section*.83}
+\contentsline {subparagraph}{Example}{62}{section*.83}
 \contentsline {subsection}{\numberline {6.6.1}Insurance and connection game}{63}{subsection.6.6.1}
 \contentsline {subsection}{\numberline {6.6.2}Homogenous symmetric connection game}{64}{subsection.6.6.2}
 \contentsline {subparagraph}{Star not possible with high $n$}{65}{section*.85}
@@ -108,36 +108,18 @@
 \contentsline {subsubsection}{Results and findings}{67}{section*.88}
 \contentsline {subparagraph}{Example figures from the simulation.}{69}{figure.caption.94}
 \contentsline {part}{\partnumberline {III}Summary}{73}{part.3}
-<<<<<<< HEAD
-\contentsline {chapter}{\chapternumberline {7}Discussion}{75}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Conclusion}{79}{chapter.8}
-\contentsline {subparagraph}{One paragraph stating what you researched and what your original contribution to the field is, after that brake into sections}{79}{section*.97}
-\contentsline {subsection}{\numberline {8.0.3}One section on what you researched and how you did it}{79}{subsection.8.0.3}
-\contentsline {subsection}{\numberline {8.0.4}One section on what are the main findings were\IeC {\textellipsis } showinglinks across chapters (this explains why you chose thestructure you did)}{79}{subsection.8.0.4}
-\contentsline {subsection}{\numberline {8.0.5}One section on possible areas for future research}{80}{subsection.8.0.5}
-\contentsline {subsection}{\numberline {8.0.6}Final section reminding readers of the original contributionand significance of your research to your field}{80}{subsection.8.0.6}
-\contentsline {subparagraph}{TIPS og TRIKS til konklusjon}{80}{section*.98}
-\contentsline {subparagraph}{AVOID this in conclsuion}{81}{section*.99}
-\contentsline {section}{\numberline {8.1}Future work Notater}{82}{section.8.1}
-\contentsline {subparagraph}{TA MED DETTE?}{82}{section*.100}
-\contentsline {subparagraph}{Husk!!!}{82}{section*.101}
-\contentsline {subsection}{\numberline {8.1.1}Risk}{82}{subsection.8.1.1}
-\contentsline {chapter}{References}{85}{section*.104}
-=======
-\contentsline {chapter}{\chapternumberline {7}Summary}{75}{chapter.7}
-\contentsline {section}{\numberline {7.1}Discussion}{75}{section.7.1}
+\contentsline {section}{\numberline {6.7}Discussion}{75}{section.6.7}
 \contentsline {subparagraph}{notater om diskusjon}{75}{section*.97}
-\contentsline {section}{\numberline {7.2}Conclusion}{78}{section.7.2}
-\contentsline {subparagraph}{One paragraph stating what you researched and what your original contribution to the field is, after that brake into sections}{78}{section*.98}
-\contentsline {subsection}{\numberline {7.2.1}One section on what you researched and how you did it}{78}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}One section on what are the main findings were\IeC {\textellipsis } showinglinks across chapters (this explains why you chose thestructure you did)}{78}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}One section on possible areas for future research}{79}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Final section reminding readers of the original contributionand significance of your research to your field}{79}{subsection.7.2.4}
+\contentsline {chapter}{\chapternumberline {7}Conclusion}{79}{chapter.7}
+\contentsline {subparagraph}{One paragraph stating what you researched and what your original contribution to the field is, after that brake into sections}{79}{section*.98}
+\contentsline {subsection}{\numberline {7.0.1}One section on what you researched and how you did it}{79}{subsection.7.0.1}
+\contentsline {subsection}{\numberline {7.0.2}One section on what are the main findings were\IeC {\textellipsis } showinglinks across chapters (this explains why you chose thestructure you did)}{79}{subsection.7.0.2}
+\contentsline {subsection}{\numberline {7.0.3}One section on possible areas for future research}{80}{subsection.7.0.3}
+\contentsline {subsection}{\numberline {7.0.4}Final section reminding readers of the original contributionand significance of your research to your field}{80}{subsection.7.0.4}
 \contentsline {subparagraph}{TIPS og TRIKS til konklusjon}{80}{section*.99}
-\contentsline {subparagraph}{AVOID this in conclsuion}{80}{section*.100}
-\contentsline {section}{\numberline {7.3}Future work Notater}{81}{section.7.3}
-\contentsline {subparagraph}{TA MED DETTE?}{81}{section*.101}
-\contentsline {subparagraph}{Husk!!!}{81}{section*.102}
-\contentsline {subsection}{\numberline {7.3.1}Risk}{81}{subsection.7.3.1}
+\contentsline {subparagraph}{AVOID this in conclsuion}{81}{section*.100}
+\contentsline {section}{\numberline {7.1}Future work Notater}{82}{section.7.1}
+\contentsline {subparagraph}{TA MED DETTE?}{82}{section*.101}
+\contentsline {subparagraph}{Husk!!!}{82}{section*.102}
+\contentsline {subsection}{\numberline {7.1.1}Risk}{82}{subsection.7.1.1}
 \contentsline {chapter}{References}{85}{section*.105}
->>>>>>> 43b0d5013fbb3cf23466474bb816628e4e5e3b91
