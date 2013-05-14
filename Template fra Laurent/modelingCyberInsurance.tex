@@ -1,11 +1,14 @@
 \chapter{Modeling Cyber-Insurance }
 \label{chp:modelingCyberInsurance} 
 
-In many scenarios nodes seeks to create networks in order to directly benefit from each other. The established links might represent companies out sourcing part of their manufacturing, or cooperative agreements in the development of new software products. In addition to increase the trade-off, each of the established links represents risk of being a victim of cascading failures. The intuitive example is the spread of epidemic diseases, also node failures of a power grid and financial contagion such as the one back in 2008 was a result of cascading failures. Strategic network formation using cyber-insurance can be used to prevent such situation in addition to increase the overall payoff of participants in a clustered network.
+There is little doubt that it is necessary for companies and people to establish connections to each other. Without collaboration between nodes everyone would stand on their own, and our world would be extremely ineffective. Established connections might represent companies out sourcing part of their manufacturing, or cooperative agreements in the development of new software products. The later represents a scenario where a company does not have sufficient resources to develop the product alone, and hence collaborates with other companies to create the product. Each new connection is made with the intention of increasing the utility for a company. However, each connection also comes with a risk, which often is difficult to measure. Here, an intuitive example is the spread of epidemic diseases, also node failures of a power grid and financial contagion such as the one back in 2008 was a result of cascading failures. Strategic network formation using cyber-insurance can be used to prevent such situation in addition to increase the overall payoff of participants in a clustered network.
+
 
 When deciding whether to establish connection to a neighbor agent, the payoff has to be higher in the balance between the expected earnings and the risk of the other party failing to complete the transaction. This is the reason why we seek to only download content from trusted peers and outlaw MC-gangs are consistently skeptical to enter into new agreements despite promising increased earnings, since the risk of undercover police are too high. 
 
 The model from \cite{contagion} described in the related work chapter introduces a model where each node benefit from direct links to other nodes. However establishing a link will expose them to a risk if the node is not protected. Information about other nodes status (in our case, insured or not) will help nodes to guarantee cliques consisting of only the insnured nodes. According to the paper, such cliques will result in super critical payoff for every node connected. 
+
+
 \subparagraph{Insurable topology}
 One of the problems with cyber-insurance is to define and calculate the risks, because the network structure is undefined. If an insurer where able to predict the network structure, the calculations of overall risk would be realizable, and even better if the insurer where able to force some more robust network structures to evolve. 
 Examples of such structures are as described in the graph theory chapter, scale-free network, which have been proven to be very robust against random attacks. Star-topologies, or star-like topologies such, which have a fixation probability that exceeds the fixation probability of circulation graphs. Star structures also have the nice property of minimizing the average path length, i.e. minimizing the cost spent on establishing links.
@@ -13,6 +16,14 @@ In our thesis we define an insurable topology as a structure which enables the i
 The two main types of insurable topologies we will focus on are the clique and star-like structures. Since both of these have been identified to have calculable fixation probability. They also have other properties that are desirable for the insurer, such as the possibility of amplifying or suppress selection and drift. This is very desirable, because if the insurer is able to ensure that the nodes have a certain security level, especially the center node, then he can ensure that viruses does not spread.
 The clique has the nice property of being able to achieve super critical payoff, as showed in \cite{contagion}. 
 
+
+\subparagraph{Pairwise stability}
+Another aspect of the network formation, is whether the final network will be stable or not. Stable means that at the network is in a state where no nodes have incentive to add or delete a link. In our models we use the concept of pairwise stability. Formally, a graph is pairwise stable if:
+ \begin{enumerate}
+\item \textit{No node wishes to delete a link he is involved in.}
+\item \textit{If there exists a node who want to add a link, then the node on the other end of the link do not want to establish this link.}
+\end{enumerate} 
+It is important that our models will create networks that fulfills the criteria listed above, and ends up as a stable network. Unless, the networks can change, and hence the insurer cannot calculate the risks properly.
 
 \subparagraph{Introduction to the modeling.}
 There are many examples of nodes needing to establish connections, one example is a company needing to out-source certain tasks to remain competitive. This outsourcing involves some risks, such as, will the company deliver at the reported time, to the reported costs, what happens if they fail to deliver, what if they go bankrupt etc. If the companies that are going to establish links(cooperative contracts), know that the other firms are insured, it will be more secure and reliable to enter into an cooperative agreement. In this way trusted cliques can evolve. The firms benefit from connecting to other insured firms, and the insurance company can offer fair prices to the insured companies, because the risk is calculable in a trusted clique.
@@ -88,7 +99,7 @@ be insured and not establish link: $I\overline{L}$. Not insured and establish li
 \begin{sidewaysfigure} 
 \centering
 \includegraphics[width=1.0\textwidth]{../Figures/FirstGameWithParameters.png}
-\caption{\label{fig:FirstGameTheoryModel} Normal form game, showing the different strategies and the payoffs  for the different outcomes. The payoff are written in this order, A then B's. An agent has a strategy space of size 4. Maa ENDRES, FIKS NAVN IKKE FIRM, MEN NODE}
+\caption{\label{fig:FirstGameTheoryModel} Normal form game, showing the different strategies and the payoffs  for the different outcomes. The payoff are written in this order, A then B's. An agent has a strategy space of size 4.}
 \end{sidewaysfigure}
 
 As long as both $I_{l} \text{ and } r$ is less than $\beta$, the only nash equilibrium in Figure \ref{fig:FirstGameTheoryModel} is when both nodes chooses $\overline{I}L$. If we first look at node A, we see that when node B chooses $IL$, the best response is $\overline{I}L$, because $ \beta >\beta- I_{l}$ . And since the game is symmetric, the same holds for node B. 

@@ -26,37 +26,36 @@
 \BOOKMARK [0][-]{chapter.6}{Modeling Cyber-Insurance }{part.2}% 26
 \BOOKMARK [1][-]{section.6.1}{Model 1 - Initial Model }{chapter.6}% 27
 \BOOKMARK [1][-]{section.6.2}{Model 2 - Including Parameters}{chapter.6}% 28
-\BOOKMARK [2][-]{section*.37}{Characteristics of the model}{section.6.2}% 29
+\BOOKMARK [2][-]{section*.38}{Characteristics of the model}{section.6.2}% 29
 \BOOKMARK [2][-]{subsection.6.2.1}{Two nodes scenario}{section.6.2}% 30
-\BOOKMARK [3][-]{section*.40}{Solving the prisonersdilemma}{subsection.6.2.1}% 31
+\BOOKMARK [3][-]{section*.41}{Solving the prisonersdilemma}{subsection.6.2.1}% 31
 \BOOKMARK [2][-]{subsection.6.2.2}{Multiple nodes}{section.6.2}% 32
-\BOOKMARK [3][-]{section*.42}{Assumptions}{subsection.6.2.2}% 33
-\BOOKMARK [3][-]{section*.43}{Analyzis}{subsection.6.2.2}% 34
+\BOOKMARK [3][-]{section*.43}{Assumptions}{subsection.6.2.2}% 33
+\BOOKMARK [3][-]{section*.44}{Analyzis}{subsection.6.2.2}% 34
 \BOOKMARK [2][-]{subsection.6.2.3}{Result and findings}{section.6.2}% 35
-\BOOKMARK [3][-]{section*.50}{Simulation of the results}{subsection.6.2.3}% 36
+\BOOKMARK [3][-]{section*.51}{Simulation of the results}{subsection.6.2.3}% 36
 \BOOKMARK [1][-]{section.6.3}{Model 3 - Including maximum node degree and bonus}{chapter.6}% 37
 \BOOKMARK [2][-]{subsection.6.3.1}{Analyzis}{section.6.3}% 38
 \BOOKMARK [2][-]{subsection.6.3.2}{Result and findings}{section.6.3}% 39
-\BOOKMARK [3][-]{section*.60}{Simulation of the results}{subsection.6.3.2}% 40
+\BOOKMARK [3][-]{section*.61}{Simulation of the results}{subsection.6.3.2}% 40
 \BOOKMARK [1][-]{section.6.4}{Model 4 - Including bulk insurance discount}{chapter.6}% 41
 \BOOKMARK [2][-]{subsection.6.4.1}{Analyzis}{section.6.4}% 42
-\BOOKMARK [3][-]{section*.64}{Discount model}{subsection.6.4.1}% 43
-\BOOKMARK [3][-]{section*.69}{Discount and Bonus model}{subsection.6.4.1}% 44
+\BOOKMARK [3][-]{section*.65}{Discount model}{subsection.6.4.1}% 43
+\BOOKMARK [3][-]{section*.70}{Discount and Bonus model}{subsection.6.4.1}% 44
 \BOOKMARK [2][-]{subsection.6.4.2}{Result and findings}{section.6.4}% 45
 \BOOKMARK [1][-]{section.6.5}{Model with incomplete information}{chapter.6}% 46
 \BOOKMARK [2][-]{subsection.6.5.1}{Analyzis}{section.6.5}% 47
-\BOOKMARK [1][-]{section.6.6}{Model 5-The connection game}{chapter.6}% 48
+\BOOKMARK [1][-]{section.6.6}{Model 5 - The connection game}{chapter.6}% 48
 \BOOKMARK [2][-]{subsection.6.6.1}{Insurance and connection game}{section.6.6}% 49
 \BOOKMARK [2][-]{subsection.6.6.2}{Homogenous symmetric connection game}{section.6.6}% 50
 \BOOKMARK [3][-]{section*.88}{Results and findings}{subsection.6.6.2}% 51
 \BOOKMARK [-1][-]{part.3}{Summary}{}% 52
-\BOOKMARK [0][-]{chapter.7}{Summary}{part.3}% 53
-\BOOKMARK [1][-]{section.7.1}{Discussion}{chapter.7}% 54
-\BOOKMARK [1][-]{section.7.2}{Conclusion}{chapter.7}% 55
-\BOOKMARK [2][-]{subsection.7.2.1}{One section on what you researched and how you did it}{section.7.2}% 56
-\BOOKMARK [2][-]{subsection.7.2.2}{One section on what are the main findings were\203 showinglinks across chapters \(this explains why you chose thestructure you did\)}{section.7.2}% 57
-\BOOKMARK [2][-]{subsection.7.2.3}{One section on possible areas for future research}{section.7.2}% 58
-\BOOKMARK [2][-]{subsection.7.2.4}{Final section reminding readers of the original contributionand significance of your research to your field}{section.7.2}% 59
-\BOOKMARK [1][-]{section.7.3}{Future work Notater}{chapter.7}% 60
-\BOOKMARK [2][-]{subsection.7.3.1}{Risk}{section.7.3}% 61
-\BOOKMARK [0][-]{section*.105}{References}{part.3}% 62
+\BOOKMARK [0][-]{section.6.7}{Discussion}{part.3}% 53
+\BOOKMARK [0][-]{chapter.7}{Conclusion}{part.3}% 54
+\BOOKMARK [1][-]{subsection.7.0.1}{One section on what you researched and how you did it}{chapter.7}% 55
+\BOOKMARK [2][-]{subsection.7.0.2}{One section on what are the main findings were\203 showinglinks across chapters \(this explains why you chose thestructure you did\)}{subsection.7.0.1}% 56
+\BOOKMARK [2][-]{subsection.7.0.3}{One section on possible areas for future research}{subsection.7.0.1}% 57
+\BOOKMARK [2][-]{subsection.7.0.4}{Final section reminding readers of the original contributionand significance of your research to your field}{subsection.7.0.1}% 58
+\BOOKMARK [1][-]{section.7.1}{Future work Notater}{chapter.7}% 59
+\BOOKMARK [2][-]{subsection.7.1.1}{Risk}{section.7.1}% 60
+\BOOKMARK [0][-]{section*.105}{References}{part.3}% 61
