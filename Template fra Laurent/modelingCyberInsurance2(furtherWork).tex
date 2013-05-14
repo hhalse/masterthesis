@@ -285,6 +285,24 @@ In Figure \ref{fig:star1} we see one example of a scalefree network, and the sta
 Another possibility for solving the problem with unfair costs, could be to use a shared-network cost instead. i.e. every node pays a cost equal to the total cost of the network divided on the number of nodes. 
 Similar value distribution has been analyzed by Jackson and Wolinsky in \cite{jackson1996strategic}, and is called an egalitarian allocation rule, this rule guarantees that any efficient network is also pairwise stable. But this is unfortunately a very extreme rule.
 
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+	ylabel=Price of Anarchy,
+	ymin=0.0,
+	xlabel=Critical degree]
+\addplot [smooth,mark=*,blue] plot coordinates {
+
+(3,1) (4,1) (5,0.95) (6,0.9) (7,0.95) 
+(8,0.993) (9,0.994) (10,0.98) (11,0.92) (12,0.90)
+ (13,0.84) (14,0.82) (15,0.81) 
+(16,0.82) (17,0.8) (18,0.74) (19,0.79) };
+\addlegendentry{$PoA$}
+\end{axis}
+\end{tikzpicture}
+\caption{\label{fig:PlotStarIsj} Shows the probability of the network ending up in a scale-free structure, given different critical degrees.}
+\end{figure}
 
 
 
