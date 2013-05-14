@@ -1,30 +1,34 @@
 \chapter{Introduction to Cyber Insurance}
 \label{chp:introductionToCyberInsurance} 
 
+\section{Motivation}
+Security breaches are increasingly prevalent in the Internet age causing huge financial losses
+for companies and their users. Cyber-insurance is a powerful economic concept that can help
+companies in the fight against such malicious behavior. Earlier research suggests that cyber-
+insurance has failed to reach its promising potential, although the concept of cyber-insurance has
+been around since the 1980s. The researchers claims that a functional model for cyber-insurance has to handle its unique problems regarding interdependent security, correlated-risk and asymmetrical-information. These challenges can be described and analyzed by network graphs, and positively some graphs will yield overall higher security (insurable topologies) than other graphs. In order to cater for cyber-insurance, it is essential to understand how to create new or transform existing networks to insurable topologies.
 
-Cyber-insurance is an insurance product used to transfer financial risk
-associated with computer and network related incidents over to a third party.
- Coverages provided by cyber-insurance policies may include property loss and
-theft, data damage, cyber-extortion, loss of income due to denial of service attacks or computer failures \cite{washingtonpaper}.
-Traditional coverage policies rarely cover these incidents, therefore cyber-insurance is seen as a huge potential market. Although the concept of cyber-insurance has been around since the 1980s, it has failed to reach its promising potential. There might be several reasons for this slow development, however, it is believed that the main reason so far, is that no model deals with all the unique problems of cyber-insurance at once. In addition to the known difficulties of insurance, cyber-insurance has to deal with the problem of nodes asymmetric information, correlated risk and interdependent security \cite{networkgames}. These three problem areas will be discussed in detail later in \ref{threemainobstacles}. First let's have a look at the similarities of normal insurances and cyber-insurance. 
-  
-The basics principles of cyber-insurance relates to traditional insurance, where the insurance contract (policy)
- binds the insurance company to pay a specified amount to the insurance holder in case certain incidents
-  occurs. In return, the insurance holder has to pay a fixed sum (premium) to the insurance company
+\section{Problem definition}
+Cyber-insurance is an insurance product used to transfer financial risk, associated with computer and network related incidents, over to a third party.
+In this project, the goal is to find the current state of the cyber-insurance market. Study and characterize graphs that describe insurable topologies. And build a model, which can be related to different real world scenarios, of network formation which gives rise to such topologies.
+\section{Readers guide}
+
+
+\section{Cyber insurance in general}
+Cyber-insurance is an insurance product used to transfer financial risk, associated with computer and network related incidents, over to a third party.
+ Coverage’s provided by cyber-insurance policies may include property loss and theft, data damage, cyber-extortion, loss of income due to denial of service attacks or computer failures 
+ \cite{washingtonpaper}.
+Traditional coverage policies rarely cover these incidents, therefore cyber-insurance is seen as a huge potential market.
+
+Although the concept of cyber-insurance has been around since the 1980s, it has failed to reach its promising potential. There might be several reasons for this slow development, however, it is believed that the main reason so far, is that no model deals with all the unique problems of cyber-insurance at once. In addition to the known difficulties of insurance, cyber-insurance has to deal with the problem of asymmetric information, correlated risk and interdependent security \cite{networkgames}. These three problem areas will be discussed in detail later in \ref{threemainobstacles}. First, let us have a look at the similarities of normal insurances and cyber-insurance. 
+
+The basics principles of cyber-insurance relates to traditional insurance, where the insurance contract (policy) binds the insurance company to pay a specified amount to the insurance holder when incidents occur. In return, the insurance holder has to pay a fixed sum (premium) to the insurance company
    \cite{robinson2012incentives}.
-    As with other insurances, the cyber-insurance contract is signed between the insurance company and
-     the insurer. The contract clearly specifies the type of coverage of the different risks, a risk
-      assessment of the companies vulnerability and also an evaluation of the companies security
-       systems. These assessments are used to calculate the companies premium \cite{robinson2012incentives}. Generally, this means that the security is negatively correlated with the premium costs. Better security means lower price on the insurance premium. 
-
-\section{General insurance}
-
+    As with other insurances, cyber-insurance contracts is signed between the insurance company and the insurer. The contract clearly specifies the type of coverage of the different risks, a risk assessment of the companies’ vulnerability and an evaluation of the companies’ security systems. These assessments are used to calculate the companies premium \cite{robinson2012incentives}. Generally, this means that the security is negatively correlated with the premium costs. Better security means lower price on the insurance premium.
 
 Generally, from the perceptive of the insurance company an insurable risks possesses seven distinct characteristics \cite{mehr1980principles}: 
    \begin{enumerate}
-   \item Large number of similar exposure units: Insurance companies is based on the principle of
-    pooling resources, where insurance policies are offered to individual members of a large class,
-     meaning the more insurers the predicted losses is closer to the actual losses. 
+   \item Large number of similar exposure units: Insurance is based on the principle of pooling resources, where insurance policies are offered to individual members of a large class, meaning the more customers, the closer the predicted losses will get to the actual losses.
    \item Definite loss: A loss should take place at a known time, in a known place and from a known
     cause. Incidents such as a fire or car crash, are examples where these terms are easy to verify.
    \item Accidental loss: The event that triggers a claim should not be 
@@ -42,9 +46,58 @@ Generally, from the perceptive of the insurance company an insurable risks posse
    \item Limited risk of catastrophically large losses: If losses happen all at once the likelihood of
     the insurance company getting bankrupt is high. Therefore, losses are ideally independent and non-catastrophic. 
    \end{enumerate}
+   
+As we will see, cyber-insurance fit relatively well to the general insurance model, however there are many identifiable obstacles. We will take a look at some of them, especially the three  main obstacles in cyber-insurance, which can be divided into three categories: information asymmetry, interdependent security and  correlated risk. 
+\subparagraph{Information asymmetry}
+Information asymmetry arises when one side in a transaction or a decision has more or better information than the other party. There are two different cases of information asymmetry. The first one is called adverse selection, where one party simply has less information regarding the performance of the transaction. A good example is when buying health insurance, if a person with bad health purchases insurance, and the information about her health is not available to the insurer, we have a classical adverse selection scenario. A similar case for the security industry occur when buying insurance for your computer, and the insurance company has no way of confirming whether your computer is "healthy", i.e. not contaminated, or if it is infected. 
+The other information asymmetry scenario is called moral hazard. It occurs after the signing of the contract, if one party deliberately takes some action that makes the possibility of loss higher, i.e. choosing not to lock your door, since you have insurance. Or in the computer setting, deliberately visiting hostile web-pages, or not using anti-virus software, firewalls or other self-protection software.
+    \cite{solutiontoinfoasym}
+    
+As we see, the information asymmetry problem is highly relevant regarding cyber insurance. Measuring the level of security is very hard, and people will often have an incentive for hiding information about their security level. Another problem arising due to information asymmetry, is the so called lemons market 
+\footnote{Lemon market, the problem of quality uncertainty, was first introduced in a paper \cite{lemonpaper} by the economist George Akerlof in 1970,and used the market for used cars as an example.\cite{lemon} The conclusion of the paper is that since the buyers lack information to distinguish a bad car(lemon) from a good one(cherrie), the buyer will not pay the price the seller wants for a cherrie, and the seller will not sell a cherrie for the price of a lemon, and thus the lemons drives the cherries out of the market.}
+. 
+It is difficult for a security software buyer to distinguish the performance of different software products, and thus the reasonable thing to do, is to buy the cheapest. Thus, the good security products has to charge the same price as the bad. If the cost of producing good security software is too high, the problem can even result in abandoning the production of good software, because it would not be profitable.
+
+      
+\subparagraph{Correlated risk}
+
+Another big concern regarding cyber-insurance, is the correlated risk. Among others, the problem occurs due to the need of standards. Standardization is an important part of computers and computer networks, it enables computers to communicate, install and use different software. A good example is the operative systems for personal computers, today we only have a small set of operative systems available for use, and these systems are standardized, so they can communicate over the same communication channels. The standards generates a lot of the value in the ICT-industry, but it also makes large extents of threats possible. All systems that uses the same standards, creates a large number of similar exposure units, they share common vulnerabilities, which could be exploited at the same time. As we see this violates the insurance characteristic of limited risk of catastrophically large losses.  
+This creates a significant difficulty for the cyber-insurance industry, because when a security breach occurs there is a high probability that it will occur to a large number of people, i.e. catastrophic and extreme events occur with a higher probability than in the regular insurance business. To compensate for the price of cyber-insurance must be higher, but this violate the characteristics of affordable premiums and large losses. 
+If the security breach is large, it could even potentially cause so much damage, that the insurers will not be able to pay all of the customers who suffered, and they could go bankrupt.\cite{bohme2010modeling}
+
+
+\subparagraph{Interdependent security}
+Another big concern in the ICT-industry is interdependent security, you are not only dependent on your own investment in security, but also everyone else’s. 
+Investment in security generates positive externalities, and as public goods, this encourages to free riding. Why should I pay for security when I can just free ride on security invested by others? The problem is that the reward for a user investing in self-protection depends on the security in the rest of the network. i.e. The expected loss due to a security breach at one node, is not only dependent on this nodes level of investment in security, but also on the security investment done by adjacent nodes, and theirs adjacent nodes and so forth. A good example of this is the amount of spam sent every day, which is dependent on the number of compromised computers. Meaning if you have invested in security software of some kind, you still receive lots of spam because there are a variety of people who have not invested
+ \cite{towardsInsurable}.
  
+\subparagraph{Calculating losses} Another concern regarding cyber-insurance relates to characteristic of calculating the loss. When facing a security breach there are two potential loss classes:\cite{bandyopadhyay2009managers,mehr1980principles} 
+\begin{itemize}
+\item primary losses or first-degree losses: direct loss of information or data and operating loss. 
+These arises from disuse, abuse or misuse of information.
+ And the cost of these arise from recovering, loss of revenue, 
+ PR and information sharing costs, hiring of IT-specialists etc.
+ \item Secondary losses are indirectly triggered. These are the loss of reputation, goodwill, 
+consumer confidence, competitive strength, credit rating and customer churning. 
+\end{itemize}
+The value of the loss from both these classes can be difficult to determine, although the second one is probably the most difficult. Because it is challenging to put a value on i.e. how many potential customers did they loose due to the reputation loss, how many customers churned, and what was their value etc.
+It could also be difficult to determine when the loss happened, where and what caused it.
+
+
+\subparagraph{Cyber-insurance instead of security}
+Another problem with cyber-insurance is actors seeing it as a solution to the problem of being secure. Instead of investing in security, they now have a way of buying their way out. 
+However, as the paper \cite{bolot2008cyber} shows, this problem might be solved with the right pricing options. Meaning that the insurance companies can create pricing models which makes it economical beneficial to invest in security and cyber-insurance. Cyber-insurance could also be used as an incentive for buying security. Such model will also make sense for the insurance company, since better security systems yields lower probability for incidents.
+
+
+\section{A small summary}
+Er det noe poeng?
+summary of related work  
+
+short presentation of what to come. "glidende overgang til current market".
+
+\subparagraph{NOTATER}
  \section{Cyber-insurance}
-When facing risk, there are typically four options available [A new perspective on internet security using insurance.. Bolot Lelarge]:
+When facing risk, there are typically four options available \cite{bolot2008new}
 \begin{enumerate}
 \item Avoid the risk
 \item Retain the risk
@@ -55,157 +108,4 @@ So far the risk management for computer networks have introduced methods to redu
 a mixture of option 2 and 3. This has lead to creation of systems and software trying to detect threats and anomalies and to protect the users and the structure from these threats. Anti-virus software is also a good example of a system which perform self protection and hence mitigate the risk of becoming a victim of malicious attacks.
 
 Unfortunately these types of systems does not eliminate the risk. Threats evolve over time, and there will always be accidents and security flaws. Cyber-insurance acts in the domain of the fourth option, and seeks to answer the question; -how can one handle this residual risk. The basic idea for cyber-insurance and insurance in general is to transfer the risk to a party who willingly accept it in exchange for a predictable periodical fee, namely premiums \cite{bolot2008cyber}. 
-   
-\subsection{Obstacles in cyber-insurance}
-\label{threemainobstacles}
-As we have seen, cyber-insurance fit relatively well to the general insurance model, however there are some identifiable obstacles. These obstacles can be divided in to three categories, information asymmetry, interdependent security and  correlated risk. 
-\subparagraph{Information asymmetry}
-Information asymmetry arises when one side in a transaction or a decision has more or better
- information than the other party. There are two different cases of information asymmetry, the first
-  one is called adverse selection, where one party simply has less information regarding the performance of
-   the transaction. A good example is when buying health insurance, if a person with bad health purchases
-    insurance, and the information about her health is not available to the insurer, we have a
-     classical adverse selection scenario. A similar case for the security industry occur when buying
-      insurance for your computer, and the insurance company has no way of confirming whether your
-       computer is "healthy", i.e. not contaminated, or if it is infected. 
-The other information asymmetry scenario is called moral hazard. It occurs when after the signing of
- the contract, one party deliberately takes some action that makes the possibility of loss higher,
-  i.e. choosing not to lock your door, since you have insurance. Or in the computer setting,
-   deliberately visiting hostile web-pages, or not using anti virus software, firewalls or other self-protection software.
-    \cite{solutiontoinfoasym}
-    
-As we will see the information asymmetry problem is highly relevant regarding cyber insurance.
- Measuring the level of security is very hard, in addition will often people have an incentive for hiding information about their security strength. Because they might end up in a scenario where they describes what their weaknesses are, and thus the difficulty of successfully attacking them are lowered. 
- Another problem arising due to information asymmetry, 
- is the so called lemons market \footnote{Lemon market, the problem of quality uncertainty, was first introduced in a paper \cite{lemonpaper} by the economist George Akerlof in 1970,
-       and used the market for used cars as an example.\cite{lemon} The conclusion of the paper is
-        that since the buyers lack information to distinguish a bad car(lemon) from a good
-         one(cherrie), the buyer will not pay the price the seller wants for a cherrie, 
-         and the seller will not sell a cherrie for the price of a lemon, 
-         and thus the lemons drives the cherries out of the market.}. It is difficult for a security software buyer to distinguish the
-  performance(bad vs good) of different software products, and thus the reasonable thing to do, is to buy the
-   cheapest. From this we see that every security software has to be sold at approximately the same
-    price, and there is no way to distinguish good and bad software. If the cost of producing
-     good security software is to high, the problem can even result in abandoning the production of good software, because it would not be profitable. 
-      
-      
-\subparagraph{Correlated risk}
 
-Another big concern regarding cyber-insurance, is the correlated risk. Among others the problem occurs due to the need of standards. Standardization is an important part of computers and computer networks, it enables computers to communicate, install and use different software. A good example is the operative systems for personal computers,
-  today we only have a small set of operative systems available for use, and these systems have been
-   standardized, such that they can communicate over the same communication channels, such as HTTP/IP. The standards are what makes the ICT-industry valuable, 
-   but also what makes the possible extent of the  threats so large. 
-   All these systems that uses the same standards, creates a large number of similar exposure units,
-    they share common vulnerabilities, which can be exploited at the same time. 
-    
-    
-  A different scenario is natural disasters, If the backbone network is down for numerous reasons, 
- every operator connected will loose the Internet connection, 
- hence be entitled to receive compensation for the lost income.   
- 
-This creates a significant difficulty for the cyber-insurance industry, because
-when a security breach occurs there is a high probability that it will occur to a large number of people, i.e catastrophic and extreme events occurs more likely, resulting in extremely high expenses.
-If the security breach is large, it could potentially cause so much damage, that the insurers will not be able to pay all of the customers who suffered, i.e. they go bankrupt.\cite{bohme2010modeling} 
-
-\subparagraph{Interdependent security}
-Investment in security generates positive externalities, and as public goods, this encourages to free riding. Why should I pay for security when I can just free ride on security invested by others.  The problem is that the reward for a user investing in self-protection depends on the security in the rest of the network, i.e. The expected loss due to a security breach at one node, is not only
-dependent on this nodes level of investment in security, but also on the security investment done
-  by adjacent nodes, and theirs adjacent nodes and so forth. 
-  A good example of this is the amount of spam sent every day, which is dependent on the number of compromised computers. Meaning if you have invested in security software of some kind, you still receive lots of spam due to the fact that there are a variety of people who have not invested \cite{towardsInsurable}.
-
-\subparagraph{Calculating loss} Another concern regarding cyber-insurance relates to characteristic of calculating loss from \cite{mehr1980principles}. When facing a security breach there are to potential loss classes:\cite{bandyopadhyay2009managers} 
-\begin{itemize}
-\item primary losses or first-degree losses: direct loss of information or data and operating loss. 
-These arises from disuse, abuse or misuse of information.
- And the cost of these arise from recovering, loss of revenue, 
- PR and information sharing costs, hiring of IT-specialists etc.
- \item Secondary losses are indirectly triggered. These are the loss of reputation, goodwill, 
-consumer confidence, competitive strength, credit rating and customer churning. 
-\end{itemize}
-The value of the loss from both these classes can be difficult to determine, although the second one is probably the most difficult. Because it is challenging to put a value on i.e. how many potential customers did they loose due to the reputation loss, how many customers churned, and what was their value etc.
-
-\subparagraph{Cyber-insurance instead of security}
-One problem with cyber-insurance is actors seeing it as a solution to the problem of being secure. Instead of investing in security, they now have a way of buying their way out. 
-However, this problem might solve it self with the right pricing options. Meaning that the insurance companies can create pricing models which makes it economical beneficial to invest in security. Such model will also make sense for the insurance company, since better security systems yields lower probability for incidents.
-Similar pricing models are common through out the insurance industry, e.g. the bonuses a car driver might be offered due to no accidents for some time or being above a certain age etc. will lower the price the insurance premium.  
-
-\section{Insurable topology}
-THIS IS WHAT WE MEAN BY AN INSURABLE TOPOLOGY 
-
-
-\section{A small summary}
-Add a small summary here..
-summary of related work  
-
-short presentation of what to come. "glidende overgang til current market".
-
-%\Blindtext[3][1]
-
-%\begin{figure}
-%\centering
-%% dummy figure replacement 
-%\begin{tabular}{@{}c@{}}
-%\rule{.5\textwidth}{.5\textwidth} \\
-%\end{tabular}
-%\caption{\label{fig:example}A figure}
-%\end{figure}
-
-%\section{First section}\label{sec:first_section}
-
-%\subsection{First subsection with some \texorpdfstring{$\mathcal{M}ath$}{Math} symbol}\label{sec:first_ssection}
-
-%\blindtext
-%\begin{itemize}[topsep=-1em,parsep=0em,itemsep=0em] % see http://mirror.ctan.org/macros/latex/contrib/enumitem/enumitem.pdf for details about the parameters
-% \item item1
-% \item item2
-% \item ...
-%\end{itemize}
-
-%\subsection{Mathematics}
-
-%\blindmathtrue
-%\blindtext
-
-%\begin{proposition}\label{def:a_proposition}
-%A proposition... (similar environments include: theorem, corrolary, conjecture, lemma)
-
-%\end{proposition}
-
-%\begin{proof}
-%\vspace*{-1em} % Adjust the space when parskip is set to 1em
-%And its proof.
-%\end{proof}
-
-%\begin{table}
-%\caption{\label{tab:example}A table}
-%\centering
-%\begin{tabular}[b]{| c | c | c | c | c |}
-%\hline
-%a & b & c & d & e \\ \hline
-%f & g & h & i & j \\ \hline
-%k & l & m & n & o \\ \hline
-%p & q & r & s & t \\ \hline
-%u & v & w & x & y \\ \hline
-%z & æ & ø & å &   \\ \hline
-%\end{tabular} 
-%\end{table}
-
-%\subsection{Source code example}
-
-% \floatname{algorithm}{Source code} % if you want to rename 'Algorithm' to 'Source code'
-%\begin{algorithm}[h]
-%  \caption{The Hello World! program in Java.}
-%  \label{hello_world}
-  % alternatively you may use algorithmic, or lstlisting from the listings package
-%  \begin{verbatim}
-  
-%class HelloWorldApp {
-%  public static void main(String[] args) {
-%    //Display the string
-%    System.out.println("Hello World!");
-%  }
-%}
-%\end{verbatim}
-%\end{algorithm}
-
-%You can refer to figures using the predefined command like \fref{fig:example}, to pages like \pref{fig:example}, to tables like \tref{tab:example}, to chapters like %\Cref{chp:example} and to sections like \Sref{sec:first_section} and you may define similar commands to refer to proposition, algorithms etc.
