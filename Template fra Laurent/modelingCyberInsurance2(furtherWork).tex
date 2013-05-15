@@ -1,5 +1,5 @@
-\section{Model 5 - The connection game}
-In the earlier model, the experienced network effects only arose from their neighbours. I.e. when a node established a connection the change in utility where only dependent on fixed variables, and not dependent of the rest of the network. In most real world scenarios there is more realistic that a node will also be strongly affected by the indirect connections to other nodes. Social relationships between nodes are good examples of such networks, where they offer benefits in terms of favors, information etc. 
+\section{Model 5: Network externalities}
+In the earlier models, the experienced network effects only arose from their neighbours. I.e. when a node established a connection the change in utility were only dependent on fixed variables, and not dependent of the rest of the network. In many real world scenarios it is more realistic that a node will also be strongly affected by the indirect connections to other nodes. Social relationships between nodes are good examples of such networks, where they offer benefits in terms of favors, information etc. 
 
 We apply the results from the paper from Jackson and Wolinsky \cite{jackson1996strategic} and uses a network formation game in \cite{jackson2005survey}, to study indirect networks effects in our model. 
 
@@ -9,7 +9,7 @@ The benefits a player receives in this game are calculated as follows. In additi
   \includegraphics[width=0.2\linewidth]{../Figures/connectionGame.png}
   \caption{\label{fig:connectionGame} Four nodes interconnected with each other.}
 \end{figure}
-\subparagraph{Example}Lets consider the network shown in \ref{fig:connectionGame}. Node 1 and node 4, in the network will receive a benefit of $\beta+\beta^{2}+\beta^{3}$ by being connected with node 2 and 3. $\beta^{2}+\beta^{3}$ represents the indirect benefits from node 3 and 4. Node 2 and 3 receives a benefit of $\beta+\beta+\beta^{2}$. For this network to make sense, it is important to also include some cost of having direct connections, or else the rational thing would be to establish a link with everyone. This is done as in earlier models, every node pay a cost for direct connections, but no cost for indirect connections. Thus the total payoff for a node is:
+\subparagraph{Example:}Lets consider the network shown in \ref{fig:connectionGame}. Node 1 and node 4, in the network will receive a benefit of $\beta+\beta^{2}+\beta^{3}$ by being connected with node 2 and 3. $\beta^{2}+\beta^{3}$ represents the indirect benefits from node 3 and 4. Node 2 and 3 receives a benefit of $\beta+\beta+\beta^{2}$. For this network to make sense, it is important to also include some cost of having direct connections, or else the rational thing would be to establish a link with everyone. This is done as in earlier models, every node pay a cost for direct connections, but no cost for indirect connections. Thus the total payoff for a node is:
 
 \begin{equation}
 \sum_{j\neq i}^{} \beta_{ij}^{d(ij)} - \sum_{j:ij\in g}^{} {c}_{ij}, 
@@ -26,7 +26,7 @@ In the paper \cite{jackson1996strategic}, they analyze two different networks ou
 \end{enumerate}
 
 The most efficient structure is created in the intermediate cost of insuring links, and ends up in a star structure which encompasses every node. A star structure have the characteristics of minimizing the average path length and uses the minimum number of links($N-1$) required for including every node. 
-Indisputable this structure provides the highest overall payoff for the network, but this network is not necessarily stable, as it fails to fulfill the criteria of pairwise stability.
+Indisputable this structure provides the highest overall payoff for the network, but this network is not necessarily stable.
 
 
 When analyzing the stability of the network, by using the definition of pairwise stability, Jackson and Wolinsky found four different stability conditions:
@@ -73,7 +73,7 @@ U_{6}=\beta+\beta^2+3\beta^3-c
 \end{eqnarray}
 Node $6$ would benefit from adding the link $1,6$, but node 1 is not willing to do so because then he must pay an extra cost, and since $\beta^2>\beta-c$. Thus the network is stable but not efficient. 
 
-\subparagraph{Star not possible with high $n$}
+\subparagraph{Star not possible with high $n$.}
 In the paper \cite{jackson2005survey} they come up with the following proposition:
 Consider the symmetric connections model in the case where $\beta-\beta^2<c<\beta$. As the number of nodes grows, the probability that a stable state (under the process where each link has an equal probability of being identified) is reached with the efficient network structure of a star goes to 0. But if a network reaches the efficient star structure, it is also pairwise stable, and will remain a star. 
 We confirmed this when running multiple simulations, when we used few nodes the resulting network often became a star, but as the number of nodes increased the network rarely was a star. 
@@ -144,8 +144,6 @@ legend style={at={(0.5,-0.15)},
 anchor=north,legend columns=-1},
 ybar,
 bar width=7pt,
-ymax=1.1,
-xmin=2,
 ]
 \addplot
 coordinates {
@@ -173,8 +171,6 @@ legend style={at={(0.5,-0.15)},
 anchor=north,legend columns=-1},
 ybar,
 bar width=7pt,
-ymax=1.1,
-xmin=2,
 ]
 \addplot
 coordinates {
@@ -195,8 +191,6 @@ An interesting comparison can be made between the emergence of a star versus a c
 \begin{tikzpicture}
     \begin{axis}[
         xlabel=Critical degree,
-        ymax=1.1,
-        xmin=2,
         ylabel=Probability]
     \addplot[smooth,mark=*,blue] plot coordinates {
         (3,0.0) (4,0.0) (5,0.0) (6,0.42) (7,0.86) 
@@ -219,7 +213,7 @@ An interesting comparison can be made between the emergence of a star versus a c
     \caption{\label{fig:PlotStarVsClique} Shows the comparison between the probability of the network ending up in a star (blue) or clique (red), given different critical degrees.}
 \end{figure}
 
-As we see in Figure \ref{fig:PlotStar}, when the critical degree gets closer to the number of nodes in the network, the probability of the network evolving into a star decreases. However, in Figure \ref{fig:PlotStarIsj}, we have plotted the probability of the network evolving into a network where only a few($two to four$) nodes end up with a high degree, but not a critical degree. And as we see occurs with high probability from critical degree six and up. These networks are so called scale-free networks, because there are a few hubs, that connects the rest of the networks. 
+As we see in Figure \ref{fig:PlotStar}, when the critical degree gets closer to the number of nodes in the network, the probability of the network evolving into a star decreases. However, in Figure \ref{fig:PlotStarIsj}, we have plotted the probability of the network evolving into a network where only a few($two to four$) nodes end up with a high degree, but not a critical degree. And as we see, this occurs with high probability from critical degree six and up. These networks are so called scale-free networks, because there are a few hubs, that connects the rest of the networks. The reason why we end up with scale-free network is because nodes prefer to be connected with nodes with high connectivity, and thus will delete links to nodes with low connectivity. This is very similar to the simple model that creates scale-free networks, where the probability of connecting to a node is proportional with the degree of the node.
 
 \begin{figure}
 \centering
@@ -234,8 +228,6 @@ legend style={at={(0.5,-0.15)},
 anchor=north,legend columns=-1},
 ybar,
 bar width=7pt,
-ymax=1.1,
-xmin=2,
 ]
 \addplot
 coordinates {
@@ -247,8 +239,35 @@ coordinates {
 \end{tikzpicture}
 \caption{\label{fig:PlotStarIsj} Shows the probability of the network ending up in a scale-free structure, given different critical degrees.}
 \end{figure}
+\subparagraph{Price of Anarchy.}
+Another interesting thing is the average price of anarchy as function of the critical degree. The price of anarchy where calculated by taking the average total payoffs and dividing on the optimal payoff. The result can be seen in Figure \ref{fig:plotpriceofanarchy}. 
 
-\subparagraph{Example figures from the simulation.}
+We see that the price of anarchy for the first critical degrees is one, and then decreases until degree six, and at seven it increases again. This is because at degree one to five, the socially optimal structure is a clique, at degree six, a clique and a star, are almost equally good, and at degree seven and up a star-structure is the socially optimal outcome. 
+In other words, when the cost is low, degree one to five, then a clique is the optimal structure, and from degree seven and up a star is the optimal structure. 
+
+This is very good for our findings, because not only have we showed that at a critical degree of seven and up, the network will with high probability be a star or a star like structure, but a star is also the socially optimal structure. And when the probability of reaching a clique is high, then the socially optimal structure also is a clique. 
+
+
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+	ylabel=Price of Anarchy,
+	ymin=0.0,
+	xlabel=Critical degree]
+\addplot [smooth,mark=*,blue] plot coordinates {
+
+(3,1) (4,1) (5,0.95) (6,0.9) (7,0.95) 
+(8,0.993) (9,0.994) (10,0.98) (11,0.92) (12,0.90)
+ (13,0.84) (14,0.82) (15,0.81) 
+(16,0.82) (17,0.8) (18,0.74) (19,0.79) };
+\addlegendentry{$PoA(g)$}
+\end{axis}
+\end{tikzpicture}
+\caption{\label{fig:plotpriceofanarchy} Shows the price of anarchy as a function of critical degree}
+\end{figure}
+\subparagraph{Example structures from the simulation.}
 \begin{figure}[h]
 \centering
 \begin{subfigure}{.9\textwidth}
@@ -283,8 +302,7 @@ In Figure \ref{fig:star1} we see one example of a scalefree network, and the sta
 \caption{\label{fig:star1} Two different outcomes from running simulations with a high critical degree.}
 \end{figure}
 
-Another possibility for solving the problem with unfair costs, could be to use a shared-network cost instead. i.e. every node pays a cost equal to the total cost of the network divided on the number of nodes. 
-Similar value distribution has been analyzed by Jackson and Wolinsky in \cite{jackson1996strategic}, and is called an egalitarian allocation rule, this rule guarantees that any efficient network is also pairwise stable. But this is unfortunately a very extreme rule.
+
 
 
 
