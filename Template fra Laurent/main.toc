@@ -29,10 +29,10 @@
 \contentsline {section}{\numberline {5.1}Real world graph structures}{17}{section.5.1}
 \contentsline {subparagraph}{Stock markets.}{17}{section*.9}
 \contentsline {subparagraph}{Airline routes.}{18}{section*.11}
-\contentsline {section}{\numberline {5.2}Network Structures}{19}{section.5.2}
+\contentsline {section}{\numberline {5.2}Network Structures}{20}{section.5.2}
 \contentsline {subparagraph}{Benefits of cliques}{22}{section*.14}
 \contentsline {subparagraph}{Star-network as an insurable topology}{23}{section*.15}
-\contentsline {subparagraph}{From a insurers point of view}{24}{section*.17}
+\contentsline {subparagraph}{From a insurers point of view}{23}{section*.17}
 \contentsline {chapter}{\chapternumberline {6}Combining cyber-insurance and network formation}{25}{chapter.6}
 \contentsline {chapter}{\chapternumberline {7}Methodology}{27}{chapter.7}
 \contentsline {section}{\numberline {7.1}Graph}{27}{section.7.1}
