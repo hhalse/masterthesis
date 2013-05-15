@@ -16,6 +16,7 @@
 \contentsline {figure}{\numberline {5.3}{\ignorespaces The figure shows a screen capture of netlogo, while we are running one of our simulations.\relax }}{28}{figure.caption.29}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces The figure shows how the code interface in netlogo looks like.\relax }}{29}{figure.caption.30}
 \addvspace {10pt}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {6.1}{\ignorespaces The figure show an overview of the different models we have created, and how they relate to each other. For every step, there are added some new features to the model.\relax }}{33}{figure.caption.34}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Shows how agents connects to eachother according to model described in section \ref {section:verysimplemodel}.\relax }}{34}{figure.caption.35}
 \contentsline {figure}{\numberline {6.3}{\ignorespaces Normal form game, showing the different strategies and the payoffs for the different outcomes. The payoff are written in this order, A then B's. An agent has a strategy space of size 4.\relax }}{37}{figure.caption.38}
@@ -37,3 +38,27 @@
 \contentsline {figure}{\numberline {6.19}{\ignorespaces Two different outcomes from running simulations with a high critical degree.\relax }}{68}{figure.caption.93}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Figure showing the distribution of Eq.( \ref {eq:distributionFunction}). \relax }}{77}{figure.caption.100}
+=======
+\contentsline {figure}{\numberline {6.1}{\ignorespaces The figure show an overview of the different models we have created, and how they relate to each other. For every step, there are added some new features to the model.\relax }}{37}{figure.caption.35}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Shows how agents connects to eachother according to model described in section \ref {section:verysimplemodel}.\relax }}{38}{figure.caption.36}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Normal form game, showing the different strategies and the payoffs for the different outcomes. The payoff are written in this order, A then B's. An agent has a strategy space of size 4.\relax }}{40}{figure.caption.38}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Leader follower game, first player 1 chooses to insure or not, then player 2, and then they choose to establish link or not in the same order.\relax }}{42}{figure.caption.40}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces The figure shows the resulting network from a simulation with parameters: $\beta =0.9$, $I_{l}=r=0.5$.\relax }}{46}{figure.caption.50}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces The figure shows the two possible scenarios that violates the Eq.(\ref {eq:final condition}), \ref {fig:SimulationViolating:a} shows the result when $I_{l}<\beta -r$ and \ref {fig:SimulationViolating:b} shows the result when $I_{l}>\beta $.\relax }}{46}{figure.caption.51}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Signalling game with two nodes, node 1's type choosen by nature, node 2 is insured. Node 1 have complete information, node 2 suffer from incomplete information, and act on best response functions based on beliefs. \relax }}{47}{figure.caption.53}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Signalling game with two nodes, node 1's type choosen by nature, node2 is not insured. Node 1 have complete information, node 2 suffer from incomplete information, and act on best response functions based on beliefs. \relax }}{49}{figure.caption.57}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Two cliques, one consisting of insured agents the other consists of non-insured. All nodes have reached their goal. \relax }}{56}{figure.caption.64}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces To possible outcomes, when insured nodes are willing to take a risk of connecting to non-insured nodes, to receive their bonus. Figure $a$ shows a scenario where one non-insured node has connected to more than one insured node, thus not a socially optimal outcome. Figure $b$ shows the optimal outcome. \relax }}{58}{figure.caption.65}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Four nodes interconnected with each other.\relax }}{63}{figure.caption.70}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces The resulting network after a simulation with the parameters $\beta =0.9, I_{l}=0.5$.\relax }}{65}{figure.caption.72}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces The resulting network after a simulation with the parameters described earlier and ten nodes.\relax }}{66}{figure.caption.74}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Shows the probability of the network ending up in a star given different critical degrees.\relax }}{69}{figure.caption.77}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Shows the probability of the network ending up in a clique, given different critical degrees.\relax }}{69}{figure.caption.78}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Shows the comparison between the probability of the network ending up in a star (blue) or clique (red), given different critical degrees.\relax }}{70}{figure.caption.79}
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Shows the probability of the network ending up in a scale-free structure, given different critical degrees.\relax }}{71}{figure.caption.80}
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Shows the price of anarchy as a function of critical degree\relax }}{72}{figure.caption.82}
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Two different outcomes of the simulations where the critical degree is low\relax }}{73}{figure.caption.84}
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Two different outcomes from running simulations with a high critical degree.\relax }}{74}{figure.caption.85}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Figure showing the distribution of Eq.( \ref {eq:distributionFunction}). \relax }}{85}{figure.caption.94}
+>>>>>>> lokal
