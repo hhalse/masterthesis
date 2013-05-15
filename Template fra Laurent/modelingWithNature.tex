@@ -2,12 +2,12 @@
 \label{Model with incomplete information}
 An interesting scenario to model is when the nodes lack information about the other nodes type. The way we model this is by letting nature selecting whether a player is insured or not, a node is insured with probability $p$, and not insured with probability $1-p$. 
 All nodes know their own type, but in the link establishment process there are only one node who knows the type of the other. The other node only know the probability of the other node being insured or not. 
-What we want to find is if it possible for the nodes with incomplete information to distinguish a insured node from a non-insured one. In order to form insurable topologies although we have a scenario with incomplete information. 
-\subsection{Analyzis}
-When facing a game like this, there exists two types of equilibriums, one where node 2 is able to seperate node 1's type, seperating equilibrium. The another where he can seperate them, pooling equilibrium. 
-In this game we have two types of node, type 1 $(t1)$: insured and type 2 $(t2)$: not insured. 
+We want to see if it is possible for the nodes with incomplete information to distinguish an insured node from a non-insured one. 
+\subsection{Analysis}
+When facing a game like this, there exists two types of equilibriums, one where node 2 is able to seperate node 1's type, called separating equilibrium. And another where he is not able to separate them, called pooling equilibrium. 
+We have two types of node, type 1 $(t1)$: insured and type 2 $(t2)$: not insured. 
 \subparagraph{Node 2 is insured.}
-Since every node knows their own type, there are two different games to model, one where node 2 is insured, and the other where he is not insured. We start with the one where he is insured.
+There are two different games to model, one where node 2 is insured, and the other where he is not insured. We start with the one where he is insured.
 Node 1's type is chosen randomly by nature, with probability $p$ of being type 1 and $1-p$ of being type 2.
 \begin{figure}[h]
 \centering
@@ -188,10 +188,9 @@ From this we get this final condition, if $\beta-I_{l}\geq r$ then there exists 
 From this we see that the other pooling equilibrium where both types of node 1, plays $N$, will only occur when $\beta<r \text{ and } \beta<I_l+r$.
 
 \subparagraph{Result and findings.}
-When one player lack knowledge about the other player, we only found two scenarios where he could separate the two types of the other node. This is possible when player 2 is insured and $\beta<I_{l}$. He can then separate the insured and non-insured types of the other node, because it is only the non-insured node who would want to establish link. Since $\beta<I_{l}$ his best response is to not establish any link.
+When one player lack knowledge about the other player, we were only able to find two scenarios where he could separate the two types of the other node. This is possible when player 2 is insured and $\beta<I_{l}$. He can then separate the insured and non-insured types of the other node, because it is only the non-insured node who would want to establish link. Since $\beta<I_{l}$ his best response is to not establish any link.
 
-The other scenario where the node with incomplete information are able to seperate is when he is not insured, and $r<\beta<I_{l}+r$. In this scenario it is only the non-insured node who would want to establish a link, and this is beneficial for both. Thus in this scenario the game will end up with a link between two non-insured nodes.
-
+The other scenario where the node with incomplete information are able to separate is when he is not insured, and $r<\beta<I_{l}+r$. In this scenario it is only the non-insured node who would want to establish a link. Thus in this scenario the game will end up with a link between two non-insured nodes.
 
 We where also able to find some pooling equilibriums, if the node with incomplete information is insured, a link will be established if $\beta+rp-r>I_{l}$. However, if $I_{l}<\beta \text{ but } I_{l}>\beta+rp-r$, then the pooling equilibrium will be that node 1 wants to establish link, but node 2 rejects.
 A pooling equilibrium where both nodes want to establish a link, occur when node 2 is not insured and $\beta-I_{l}>r$. If $\beta<r$ there will be a pooling equilibrium where both players choose not to establish link. 
