@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  16 MAY 2013 15:13
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  16 MAY 2013 15:27
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -2612,15 +2612,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
  38292 strings out of 494045
  738904 string characters out of 3153222
- 1037415 words of memory out of 3000000
+ 1038405 words of memory out of 3000000
  40143 multiletter control sequences out of 15000+200000
  110185 words of font info for 178 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -2642,7 +2639,7 @@ D:/Latex/MiKTeX/fonts/type1/public/lm/lmss12.pfb><D:/Latex/MiKTeX/fonts/type1/p
 ublic/lm/lmss17.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><D:/Lat
 ex/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><D:/Latex/MiKTeX/fonts/type1/public/
 lm/lmsy7.pfb>
-Output written on main.pdf (99 pages, 2111759 bytes).
+Output written on main.pdf (99 pages, 2111790 bytes).
 PDF statistics:
  1474 PDF objects out of 1728 (max. 8388607)
  379 named destinations out of 1000 (max. 500000)
