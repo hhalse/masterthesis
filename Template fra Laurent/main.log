@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  15 MAY 2013 16:22
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  16 MAY 2013 15:13
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -1959,10 +1959,8 @@ Package glossaries Info: Writing glossary file main.acn on input line 24.
 ("D:\GITREPO\masterthesis\Template fra Laurent\introductionToCyberInsurance.aux
 ") ("D:\GITREPO\masterthesis\Template fra Laurent\currentmarketstate.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\newApproachToTheProblem.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\graphTheory.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\combiningRelatedworkAndCyberInsu
-rance.aux") ("D:\GITREPO\masterthesis\Template fra Laurent\methodology.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\methodology.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\SummaryOfResults.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\futurework.aux"))
@@ -2048,7 +2046,7 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.8} into y
 our preamble.
  on input line 28.
 
-<./figs/ntnu-logo.pdf, id=246, 241.4922pt x 52.79724pt>
+<./figs/ntnu-logo.pdf, id=242, 241.4922pt x 52.79724pt>
 File: ./figs/ntnu-logo.pdf Graphic file (type pdf)
 
 <use ./figs/ntnu-logo.pdf>
@@ -2166,25 +2164,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12])
-[13] ("D:\GITREPO\masterthesis\Template fra Laurent\newApproachToTheProblem.tex
-" [14
+[13] ("D:\GITREPO\masterthesis\Template fra Laurent\graphTheory.tex" [14
 
 
 
-]) [15] ("D:\GITREPO\masterthesis\Template fra Laurent\graphTheory.tex"
-[16
-
-
-
-] [17] <../Figures/greekStockMarket.jpg, id=644, 465.59787pt x 322.97655pt>
+]
+[15] <../Figures/greekStockMarket.jpg, id=630, 465.59787pt x 322.97655pt>
 File: ../Figures/greekStockMarket.jpg Graphic file (type jpg)
 
 <use ../Figures/greekStockMarket.jpg>
 Package pdftex.def Info: ../Figures/greekStockMarket.jpg used on input line 17.
 
 (pdftex.def)             Requested size: 364.0pt x 252.49727pt.
- [18 <D:/GITREPO/masterthesis/Figures/greekStockMarket.jpg>]
-<../Figures/airlineRoutesUSA.png, id=656, 663.22781pt x 383.93437pt>
+ [16 <D:/GITREPO/masterthesis/Figures/greekStockMarket.jpg>]
+<../Figures/airlineRoutesUSA.png, id=642, 663.22781pt x 383.93437pt>
 File: ../Figures/airlineRoutesUSA.png Graphic file (type png)
 
 <use ../Figures/airlineRoutesUSA.png>
@@ -2195,28 +2188,28 @@ Package pdftex.def Info: ../Figures/airlineRoutesUSA.png used on input line 30.
 ("D:\GITREPO\masterthesis\Template fra Laurent\nature.tex"
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19 <D:/GITREPO/masterthesis/Figures/airlineRoutesUSA.png>]
+ [17 <D:/GITREPO/masterthesis/Figures/airlineRoutesUSA.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
-<../Figures/aStar.png, id=679, 235.63031pt x 222.07968pt>
+ [18]
+<../Figures/aStar.png, id=666, 235.63031pt x 222.07968pt>
 File: ../Figures/aStar.png Graphic file (type png)
 
 <use ../Figures/aStar.png>
 Package pdftex.def Info: ../Figures/aStar.png used on input line 39.
 (pdftex.def)             Requested size: 182.0pt x 171.53389pt.
- [21]
+ [19]
 Underfull \vbox (badness 1048) has occurred while \output is active []
 
- [22 <D:/GITREPO/masterthesis/Figures/aStar.png>]
-<./figs/optimalequilibrium.png, id=705, 440.39531pt x 441.14813pt>
+ [20 <D:/GITREPO/masterthesis/Figures/aStar.png>]
+<./figs/optimalequilibrium.png, id=692, 440.39531pt x 441.14813pt>
 File: ./figs/optimalequilibrium.png Graphic file (type png)
 
 <use ./figs/optimalequilibrium.png>
 Package pdftex.def Info: ./figs/optimalequilibrium.png used on input line 89.
 (pdftex.def)             Requested size: 116.47865pt x 116.67482pt.
 
-<./figs/notoptimalequilibrium.png, id=706, 421.575pt x 422.32782pt>
+<./figs/notoptimalequilibrium.png, id=693, 421.575pt x 422.32782pt>
 File: ./figs/notoptimalequilibrium.png Graphic file (type png)
 
 <use ./figs/notoptimalequilibrium.png>
@@ -2227,73 +2220,67 @@ Package pdftex.def Info: ./figs/notoptimalequilibrium.png used on input line 95
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23])) [24 <D:/GITREPO/masterthesis/Template fra Laurent/figs/optimalequilibriu
-m.png> <D:/GITREPO/masterthesis/Template fra Laurent/figs/notoptimalequilibrium
-.png>]
-("D:\GITREPO\masterthesis\Template fra Laurent\combiningRelatedworkAndCyberInsu
-rance.tex") [25
+[21]) [22 <D:/GITREPO/masterthesis/Template fra Laurent/figs/optimalequilibrium
+.png> <D:/GITREPO/masterthesis/Template fra Laurent/figs/notoptimalequilibrium.
+png>]) [23] ("D:\GITREPO\masterthesis\Template fra Laurent\methodology.tex"
+[24
 
 
 
-] ("D:\GITREPO\masterthesis\Template fra Laurent\methodology.tex" [26
-
-
-
-] <../Figures/generalGraph.png, id=739, 266.49562pt x 328.97906pt>
+] <../Figures/generalGraph.png, id=726, 266.49562pt x 328.97906pt>
 File: ../Figures/generalGraph.png Graphic file (type png)
 
 <use ../Figures/generalGraph.png>
-Package pdftex.def Info: ../Figures/generalGraph.png used on input line 19.
+Package pdftex.def Info: ../Figures/generalGraph.png used on input line 21.
 (pdftex.def)             Requested size: 145.59778pt x 179.7393pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27] [28 <D:/GITREPO/masterthesis/Figures/generalGraph.png>]
-<../Figures/ABgraphcreation.png, id=758, 395.97937pt x 268.75406pt>
+[25] [26 <D:/GITREPO/masterthesis/Figures/generalGraph.png>]
+<../Figures/ABgraphcreation.png, id=745, 395.97937pt x 268.75406pt>
 File: ../Figures/ABgraphcreation.png Graphic file (type png)
 
 <use ../Figures/ABgraphcreation.png>
-Package pdftex.def Info: ../Figures/ABgraphcreation.png used on input line 59.
+Package pdftex.def Info: ../Figures/ABgraphcreation.png used on input line 61.
 (pdftex.def)             Requested size: 291.20111pt x 197.64462pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29] [30 <D:/GITREPO/masterthesis/Figures/ABgraphcreation.png>]
-<../Figures/netlogoexample.png, id=782, 517.935pt x 639.13782pt>
+[27] [28 <D:/GITREPO/masterthesis/Figures/ABgraphcreation.png>]
+<../Figures/netlogoexample.png, id=765, 517.935pt x 639.13782pt>
 File: ../Figures/netlogoexample.png Graphic file (type png)
 
 <use ../Figures/netlogoexample.png>
-Package pdftex.def Info: ../Figures/netlogoexample.png used on input line 110.
+Package pdftex.def Info: ../Figures/netlogoexample.png used on input line 112.
 (pdftex.def)             Requested size: 327.59778pt x 404.27786pt.
 
-<../Figures/netlogocodeexample.png, id=783, 515.67656pt x 652.68843pt>
+<../Figures/netlogocodeexample.png, id=766, 515.67656pt x 652.68843pt>
 File: ../Figures/netlogocodeexample.png Graphic file (type png)
 
 <use ../Figures/netlogocodeexample.png>
 Package pdftex.def Info: ../Figures/netlogocodeexample.png used on input line 1
-16.
+18.
 (pdftex.def)             Requested size: 327.59778pt x 414.65173pt.
+ [29]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [31] [32 <D:/GITREPO/masterthesis/Figures/netlogoexample.png>] [33 <D:/GITREP
+) [30] [31 <D:/GITREPO/masterthesis/Figures/netlogoexample.png>] [32 <D:/GITREP
 O/masterthesis/Figures/netlogocodeexample.png>]
 ("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance.tex"
-[34
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33
 
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [35]
-<../Figures/modeloverview.png, id=813, 465.23813pt x 340.27126pt>
+<../Figures/modeloverview.png, id=799, 465.23813pt x 340.27126pt>
 File: ../Figures/modeloverview.png Graphic file (type png)
 
 <use ../Figures/modeloverview.png>
@@ -2303,11 +2290,11 @@ Package pdftex.def Info: ../Figures/modeloverview.png used on input line 25.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[36]
+[34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37 <D:/GITREPO/masterthesis/Figures/modeloverview.png>]
-<../Figures/firstModelWithNoParameters1.png, id=827, 143.78719pt x 144.54pt>
+ [35 <D:/GITREPO/masterthesis/Figures/modeloverview.png>]
+<../Figures/firstModelWithNoParameters1.png, id=814, 143.78719pt x 144.54pt>
 File: ../Figures/firstModelWithNoParameters1.png Graphic file (type png)
 
 <use ../Figures/firstModelWithNoParameters1.png>
@@ -2315,7 +2302,7 @@ Package pdftex.def Info: ../Figures/firstModelWithNoParameters1.png used on inp
 ut line 45.
 (pdftex.def)             Requested size: 72.79889pt x 73.18068pt.
 
-<../Figures/firstModelWithNoParameters2.png, id=828, 184.43906pt x 99.37125pt>
+<../Figures/firstModelWithNoParameters2.png, id=815, 184.43906pt x 99.37125pt>
 File: ../Figures/firstModelWithNoParameters2.png Graphic file (type png)
 
 <use ../Figures/firstModelWithNoParameters2.png>
@@ -2329,17 +2316,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 3229) has occurred while \output is active []
 
- [38 <D:/GITREPO/masterthesis/Figures/firstModelWithNoParameters1.png> <D:/GITR
+ [36 <D:/GITREPO/masterthesis/Figures/firstModelWithNoParameters1.png> <D:/GITR
 EPO/masterthesis/Figures/firstModelWithNoParameters2.png>]
-<../Figures/FirstGameWithParameters.png, id=839, 1260.20813pt x 293.59688pt>
+<../Figures/FirstGameWithParameters.png, id=826, 1260.20813pt x 293.59688pt>
 File: ../Figures/FirstGameWithParameters.png Graphic file (type png)
 
 <use ../Figures/FirstGameWithParameters.png>
 Package pdftex.def Info: ../Figures/FirstGameWithParameters.png used on input l
 ine 84.
 (pdftex.def)             Requested size: 550.0pt x 128.1347pt.
- [39] [40 <D:/GITREPO/masterthesis/Figures/FirstGameWithParameters.png>]
-<../Figures/stackelberggame.png, id=857, 855.94781pt x 761.09344pt>
+ [37] [38 <D:/GITREPO/masterthesis/Figures/FirstGameWithParameters.png>]
+<../Figures/stackelberggame.png, id=844, 855.94781pt x 761.09344pt>
 File: ../Figures/stackelberggame.png Graphic file (type png)
 
 <use ../Figures/stackelberggame.png>
@@ -2350,14 +2337,14 @@ Package pdftex.def Info: ../Figures/stackelberggame.png used on input line 115.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[41] [42 <D:/GITREPO/masterthesis/Figures/stackelberggame.png>] [43]
+[39] [40 <D:/GITREPO/masterthesis/Figures/stackelberggame.png>] [41]
 Overfull \hbox (1.02483pt too wide) in paragraph at lines 215--217
-\T1/lmr/m/n/10 (-20) When the pa-ram-e-ters are in-serted in Eq.([][]8.11[][]),
- we get the Eq.([][]8.12[][]), where $\OML/lmm/m/it/10 N[][]N[]$\T1/lmr/m/n/10 
+\T1/lmr/m/n/10 (-20) When the pa-ram-e-ters are in-serted in Eq.([][]6.11[][]),
+ we get the Eq.([][]6.12[][]), where $\OML/lmm/m/it/10 N[][]N[]$\T1/lmr/m/n/10 
 (-20) ,
  []
 
-[44] <../Figures/FirstSimulationStart.png, id=909, 219.82124pt x 210.7875pt>
+[42] <../Figures/FirstSimulationStart.png, id=896, 219.82124pt x 210.7875pt>
 File: ../Figures/FirstSimulationStart.png Graphic file (type png)
 
 <use ../Figures/FirstSimulationStart.png>
@@ -2365,7 +2352,7 @@ Package pdftex.def Info: ../Figures/FirstSimulationStart.png used on input line
  244.
 (pdftex.def)             Requested size: 72.79889pt x 69.80452pt.
 
-<../Figures/FirstSimulationResult.png, id=910, 375.65344pt x 240.14719pt>
+<../Figures/FirstSimulationResult.png, id=897, 375.65344pt x 240.14719pt>
 File: ../Figures/FirstSimulationResult.png Graphic file (type png)
 
 <use ../Figures/FirstSimulationResult.png>
@@ -2377,7 +2364,7 @@ e 250.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<../Figures/FirstSimulationViolatingResult.png, id=918, 204.765pt x 194.97844pt
+<../Figures/FirstSimulationViolatingResult.png, id=905, 204.765pt x 194.97844pt
 >
 File: ../Figures/FirstSimulationViolatingResult.png Graphic file (type png)
  <use ../Figures/FirstSimulationViolatingResult.png>
@@ -2387,37 +2374,37 @@ input line 265.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 267.
 
-<../Figures/SimulationViolating2.png, id=921, 238.64156pt x 223.58531pt>
+<../Figures/SimulationViolating2.png, id=908, 238.64156pt x 223.58531pt>
 File: ../Figures/SimulationViolating2.png Graphic file (type png)
 
 <use ../Figures/SimulationViolating2.png>
 Package pdftex.def Info: ../Figures/SimulationViolating2.png used on input line
  272.
 (pdftex.def)             Requested size: 66.97595pt x 62.75015pt.
- [45]
-("D:\GITREPO\masterthesis\Template fra Laurent\modelingWithNature.tex" [46 <D:/
+ [43]
+("D:\GITREPO\masterthesis\Template fra Laurent\modelingWithNature.tex" [44 <D:/
 GITREPO/masterthesis/Figures/FirstSimulationStart.png> <D:/GITREPO/masterthesis
 /Figures/FirstSimulationResult.png> <D:/GITREPO/masterthesis/Figures/FirstSimul
 ationViolatingResult.png> <D:/GITREPO/masterthesis/Figures/SimulationViolating2
 .png>]
-<../Figures/SignalingGameInsured.png, id=942, 1318.17468pt x 461.47406pt>
+<../Figures/SignalingGameInsured.png, id=929, 1318.17468pt x 461.47406pt>
 File: ../Figures/SignalingGameInsured.png Graphic file (type png)
 
 <use ../Figures/SignalingGameInsured.png>
 Package pdftex.def Info: ../Figures/SignalingGameInsured.png used on input line
  15.
 (pdftex.def)             Requested size: 364.0pt x 127.43034pt.
- [47 <D:/GITREPO/masterthesis/Figures/SignalingGameInsured.png>] [48]
-<../Figures/SignalingGameNotInsured.png, id=963, 1294.8375pt x 418.56375pt>
+ [45 <D:/GITREPO/masterthesis/Figures/SignalingGameInsured.png>] [46]
+<../Figures/SignalingGameNotInsured.png, id=949, 1294.8375pt x 418.56375pt>
 File: ../Figures/SignalingGameNotInsured.png Graphic file (type png)
 
 <use ../Figures/SignalingGameNotInsured.png>
 Package pdftex.def Info: ../Figures/SignalingGameNotInsured.png used on input l
 ine 102.
 (pdftex.def)             Requested size: 364.0pt x 117.66327pt.
- [49 <D:/GITREPO/masterthesis/Figures/SignalingGameNotInsured.png>] [50]) [51] 
-[52] [53] [54] [55]
-<../Figures/BonusGameInsuredClique.png, id=1046, 354.57469pt x 177.66376pt>
+ [47 <D:/GITREPO/masterthesis/Figures/SignalingGameNotInsured.png>] [48]) [49] 
+[50] [51] [52] [53]
+<../Figures/BonusGameInsuredClique.png, id=1033, 354.57469pt x 177.66376pt>
 File: ../Figures/BonusGameInsuredClique.png Graphic file (type png)
 
 <use ../Figures/BonusGameInsuredClique.png>
@@ -2427,8 +2414,8 @@ ne 425.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56 <D:/GITREPO/masterthesis/Figures/BonusGameInsuredClique.png>]
-<../Figures/BonusGameViolating.png, id=1057, 268.00125pt x 310.15875pt>
+ [54 <D:/GITREPO/masterthesis/Figures/BonusGameInsuredClique.png>]
+<../Figures/BonusGameViolating.png, id=1044, 268.00125pt x 310.15875pt>
 File: ../Figures/BonusGameViolating.png Graphic file (type png)
 
 <use ../Figures/BonusGameViolating.png>
@@ -2436,23 +2423,23 @@ Package pdftex.def Info: ../Figures/BonusGameViolating.png used on input line 4
 44.
 (pdftex.def)             Requested size: 163.79889pt x 189.56097pt.
 
-<../Figures/BonusGameViolatingOptimal.png, id=1058, 292.84406pt x 192.72pt>
+<../Figures/BonusGameViolatingOptimal.png, id=1045, 292.84406pt x 192.72pt>
 File: ../Figures/BonusGameViolatingOptimal.png Graphic file (type png)
 
 <use ../Figures/BonusGameViolatingOptimal.png>
 Package pdftex.def Info: ../Figures/BonusGameViolatingOptimal.png used on input
  line 450.
 (pdftex.def)             Requested size: 163.79889pt x 107.79893pt.
- [57] [58 <D:/GITREPO/masterthesis/Figures/BonusGameViolating.png> <D:/GITREPO/
-masterthesis/Figures/BonusGameViolatingOptimal.png>] [59] [60]
+ [55] [56 <D:/GITREPO/masterthesis/Figures/BonusGameViolating.png> <D:/GITREPO/
+masterthesis/Figures/BonusGameViolatingOptimal.png>] [57] [58]
 ("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance2(furtherW
-ork).tex" [61pdfTeX warning (ext4): destination with the same identifier (name{
-equation.8.64}) has been already used, duplicate ignored
+ork).tex" [59pdfTeX warning (ext4): destination with the same identifier (name{
+equation.6.64}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.3 
-    ] <../Figures/connectionGame.png, id=1111, 103.13531pt x 93.34875pt>
+    ] <../Figures/connectionGame.png, id=1098, 103.13531pt x 93.34875pt>
 File: ../Figures/connectionGame.png Graphic file (type png)
 
 <use ../Figures/connectionGame.png>
@@ -2461,8 +2448,8 @@ Package pdftex.def Info: ../Figures/connectionGame.png used on input line 9.
 
 Underfull \vbox (badness 1735) has occurred while \output is active []
 
- [62 <D:/GITREPO/masterthesis/Figures/connectionGame.png>] [63]
-<../Figures/stability/Unefficientbutstablestar.png, id=1134, 271.0125pt x 224.3
+ [60 <D:/GITREPO/masterthesis/Figures/connectionGame.png>] [61]
+<../Figures/stability/Unefficientbutstablestar.png, id=1121, 271.0125pt x 224.3
 3812pt>
 File: ../Figures/stability/Unefficientbutstablestar.png Graphic file (type png)
 
@@ -2474,8 +2461,8 @@ Package pdftex.def Info: ../Figures/stability/Unefficientbutstablestar.png used
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[64]
-<../Figures/stability/Unefficientbutstabletwo.png, id=1142, 563.10374pt x 459.9
+[62]
+<../Figures/stability/Unefficientbutstabletwo.png, id=1129, 563.10374pt x 459.9
 6844pt>
 File: ../Figures/stability/Unefficientbutstabletwo.png Graphic file (type png)
  <use ../Figures/stability/Unefficientbutstabletwo.png>
@@ -2486,10 +2473,10 @@ on input line 85.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[65 <D:/GITREPO/masterthesis/Figures/stability/Unefficientbutstablestar.png>]
-[66 <D:/GITREPO/masterthesis/Figures/stability/Unefficientbutstabletwo.png>]
-[67] [68] [69] [70]
-<../Figures/Clique-20-nodes.png, id=1196, 251.43938pt x 240.9pt>
+[63 <D:/GITREPO/masterthesis/Figures/stability/Unefficientbutstablestar.png>]
+[64 <D:/GITREPO/masterthesis/Figures/stability/Unefficientbutstabletwo.png>]
+[65] [66] [67] [68]
+<../Figures/Clique-20-nodes.png, id=1183, 251.43938pt x 240.9pt>
 File: ../Figures/Clique-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Clique-20-nodes.png>
@@ -2497,7 +2484,7 @@ Package pdftex.def Info: ../Figures/Clique-20-nodes.png used on input line 275.
 
 (pdftex.def)             Requested size: 229.31744pt x 219.70454pt.
 
-<../Figures/Clique-ish-20-nodes.png, id=1197, 368.1253pt x 396.7322pt>
+<../Figures/Clique-ish-20-nodes.png, id=1184, 368.1253pt x 396.7322pt>
 File: ../Figures/Clique-ish-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Clique-ish-20-nodes.png>
@@ -2508,14 +2495,14 @@ Package pdftex.def Info: ../Figures/Clique-ish-20-nodes.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../Figures/Star-20-nodes.png, id=1200, 752.8125pt x 752.8125pt>
+<../Figures/Star-20-nodes.png, id=1187, 752.8125pt x 752.8125pt>
 File: ../Figures/Star-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Star-20-nodes.png>
 Package pdftex.def Info: ../Figures/Star-20-nodes.png used on input line 292.
 (pdftex.def)             Requested size: 229.31744pt x 229.31456pt.
 
-<../Figures/Scalefree-20-nodes.png, id=1201, 752.8125pt x 752.8125pt>
+<../Figures/Scalefree-20-nodes.png, id=1188, 752.8125pt x 752.8125pt>
 File: ../Figures/Scalefree-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Scalefree-20-nodes.png>
@@ -2529,43 +2516,43 @@ LaTeX Warning: Float too large for page by 2.62912pt on input line 303.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)) [71] [72 <D:/GITREPO/masterthesis/Figures/Clique-20-nodes.png> <D:/GITREPO/m
-asterthesis/Figures/Clique-ish-20-nodes.png>] [73 <D:/GITREPO/masterthesis/Figu
+)) [69] [70 <D:/GITREPO/masterthesis/Figures/Clique-20-nodes.png> <D:/GITREPO/m
+asterthesis/Figures/Clique-ish-20-nodes.png>] [71 <D:/GITREPO/masterthesis/Figu
 res/Star-20-nodes.png> <D:/GITREPO/masterthesis/Figures/Scalefree-20-nodes.png>
-] ("D:\GITREPO\masterthesis\Template fra Laurent\SummaryOfResults.tex" [74
+] ("D:\GITREPO\masterthesis\Template fra Laurent\SummaryOfResults.tex" [72
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75]
+ [73]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76]
-[77] [78
+ [74]
+[75] [76
 
 ]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 45.
 
-[79] [80]
+[77] [78]
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 75.
  (D:\Latex\MiKTeX\tex\latex\lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) [81]
-("D:\GITREPO\masterthesis\Template fra Laurent\futurework.tex" [82
+)) [79]
+("D:\GITREPO\masterthesis\Template fra Laurent\futurework.tex" [80
 
 
 ]
-<../Figures/exponentialFunction.png, id=1267, 1003.75pt x 803.0pt>
+<../Figures/exponentialFunction.png, id=1254, 1003.75pt x 803.0pt>
 File: ../Figures/exponentialFunction.png Graphic file (type png)
 
 <use ../Figures/exponentialFunction.png>
 Package pdftex.def Info: ../Figures/exponentialFunction.png used on input line 
 40.
 (pdftex.def)             Requested size: 182.0pt x 145.59975pt.
- [83 <D:/GITREPO/masterthesis/Figures/exponentialFunction.png>]) [84]
+ [81 <D:/GITREPO/masterthesis/Figures/exponentialFunction.png>]) [82]
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.bbl"
 bibitemlist
 
@@ -2574,7 +2561,7 @@ $\T1/lmr/m/n/10 (+20) / / www . travelers . com / business-[]insurance / manage
 ment-[]professional-[]liability /$
  []
 
-[85
+[83
 
 
 ]
@@ -2589,7 +2576,7 @@ Underfull \hbox (badness 1735) in paragraph at lines 113--118
 year 2011 pri-mary air-
  []
 
-[86]
+[84]
 Underfull \hbox (badness 1057) in paragraph at lines 216--221
 \T1/lmr/m/n/10 (+20) not.  [][]$http : / / www . computerworld . com / s / arti
 cle / 9223366 / Cyber _ insurance _$
@@ -2600,29 +2587,27 @@ cle / 9223366 / Cyber _ insurance _$
 Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
-[87]
+[85]
 \tf@toc=\write9
 \tf@lof=\write10
 \tf@lot=\write11
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
  ("D:\GITREPO\masterthesis\Template fra Laurent\main.aux"
 ("D:\GITREPO\masterthesis\Template fra Laurent\abstract_english.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\preface.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\introductionToCyberInsurance.aux
 ") ("D:\GITREPO\masterthesis\Template fra Laurent\currentmarketstate.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\newApproachToTheProblem.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\graphTheory.aux")
-("D:\GITREPO\masterthesis\Template fra Laurent\combiningRelatedworkAndCyberInsu
-rance.aux") ("D:\GITREPO\masterthesis\Template fra Laurent\methodology.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\methodology.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\SummaryOfResults.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\futurework.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 51283FD1C6421A1F68FE03CF56575BE7;4371.
+(rerunfilecheck)             Checksum: 497925BC803D09C02C18981C4B3A8D7D;4288.
 
 
 LaTeX Warning: There were undefined references.
@@ -2630,13 +2615,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 131.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 38316 strings out of 494045
- 740168 string characters out of 3153222
- 1040657 words of memory out of 3000000
- 40150 multiletter control sequences out of 15000+200000
+ 38292 strings out of 494045
+ 738904 string characters out of 3153222
+ 1037415 words of memory out of 3000000
+ 40143 multiletter control sequences out of 15000+200000
  110185 words of font info for 178 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  69i,19n,94p,1504b,2049s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2657,9 +2642,9 @@ D:/Latex/MiKTeX/fonts/type1/public/lm/lmss12.pfb><D:/Latex/MiKTeX/fonts/type1/p
 ublic/lm/lmss17.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><D:/Lat
 ex/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><D:/Latex/MiKTeX/fonts/type1/public/
 lm/lmsy7.pfb>
-Output written on main.pdf (101 pages, 2113270 bytes).
+Output written on main.pdf (99 pages, 2111759 bytes).
 PDF statistics:
- 1487 PDF objects out of 1728 (max. 8388607)
- 382 named destinations out of 1000 (max. 500000)
- 28301 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1474 PDF objects out of 1728 (max. 8388607)
+ 379 named destinations out of 1000 (max. 500000)
+ 28293 words of extra memory for PDF output out of 29859 (max. 10000000)
 
