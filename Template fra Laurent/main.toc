@@ -91,7 +91,7 @@
 \contentsline {subsection}{\numberline {6.6.1}Insurance and connection game}{60}{subsection.6.6.1}
 \contentsline {subsection}{\numberline {6.6.2}Homogenous symmetric connection game}{60}{subsection.6.6.2}
 \contentsline {subparagraph}{Star not possible with high $n$.}{61}{section*.71}
-\contentsline {subparagraph}{Bulk insurance}{62}{section*.73}
+\contentsline {subparagraph}{Bulk insurance.}{61}{section*.73}
 \contentsline {subsubsection}{Results and findings}{63}{section*.74}
 \contentsline {subparagraph}{Price of Anarchy.}{65}{section*.79}
 \contentsline {subparagraph}{Example structures from the simulation.}{67}{figure.caption.82}
@@ -111,3 +111,6 @@
 \contentsline {subparagraph}{Husk!!!}{78}{section*.90}
 \contentsline {subsection}{\numberline {7.1.1}Risk}{78}{subsection.7.1.1}
 \contentsline {chapter}{References}{81}{section*.93}
+\vspace {1em}\noindent \bfseries Appendices\par \vspace {-.5em}
+\contentsline {appendix}{\chapternumberline {A}Models}{85}{appendix.A}
+\contentsline {section}{\numberline {A.1}Model-5: Network externalities}{85}{section.A.1}
