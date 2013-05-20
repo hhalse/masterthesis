@@ -1,18 +1,17 @@
 \section{Network Structures}
 
-Just like stock markets and airline routes, the cyber-insurance market can be described using graphs. The structure it takes are dependent on all the nodes and how they connect with each other. The way they choose to connect can be manipulated by the insurer, which will is the purpose of our modeling work. However, first we need to shield light on what kind of graph structures that would be desirable to force upon the cyber-insurance market.
+Just like stock markets and airline routes, the cyber-insurance market can be described using graphs. The structure that will evolve is dependent on all the nodes and how they connect with each other. The insurer can determine the cost of establishing link, and thus sort of determine which nodes will connect to each other. This is what we will try to achieve in our models. However, first we need to shield light on what kind of graph structures that would be desirable to force upon the cyber-insurance market.
 
-To find the proper structure, many different scenarios needs to be covered. In the network a node's actions are influenced by their neighborhood structure, i.e. the network connections will affect each individual nodes payoff. Meaning that nodes are dependent on each other, and the probability of cascading failures are highly relevant. -If one or more fail, e.g. bankruptcy, failure to deliver at the expected time, higher cost etc. Then the whole network will be affected. In this case there are several types of networks to consider, all social and economic interactions where an agents well being is dependent on externalities as well as their own actions, is a network worth considering.
+To find the proper structure, many different scenarios needs to be covered. In the network a node's actions are influenced by their neighborhood structure, i.e. the network connections will affect each individual nodes payoff. Meaning that nodes are dependent on each other, and the probability of cascading failures are highly relevant. -If one or more fail, e.g. bankruptcy, failure to deliver at the expected time, system shut down, huge delays, higher cost etc. Then the whole network will be affected. In this case there are several types of networks to consider, all social and economic interactions where an agents well being is dependent on externalities as well as their own actions, is a network worth considering.
 
-
-We found several interesting papers originated in evolutionary studies and disease contagion, which described the different characteristics in certain graph structures. More general results describing the benefits from star-shaped graphs and cliques where found. In common they showed characteristics which could be used to make it feasible for both the insurer to offer - and the customer to acquire insurance. In addition papers describing network formation processes was in particular interest for our modeling work. 
+We found several interesting papers originated in evolutionary studies and disease epidemics, which described  characteristics in different graph structures. The ones we found appropriate where those who described the benefits of star- and clique-shaped graphs. These graphs showed characteristics who could be used to make it feasible for both the insurer to offer - and the customer to acquire insurance. In addition papers describing network formation games was also interesting for our modelling. 
 
  The paper \cite{lieberman2005evolutionary} is about evolutionary dynamics and how some structures
 can amplify or sustain evolution and drift\footnote{Drift is the opposite of selective evolution
-, it is when the network/structure evolve and change at random}. One aspect of cyber-insurance is risk, and knowledge of how for example viruses spread in a network and how to use graph structures to prevent malicious hackers from entering your network is important. Evolutionary dynamics, and the research of how mutant genes spread though out a population as described in the paper is analogous to this issue.
+, it is when the network/structure evolve and change at random}. One aspect of cyber-insurance is risk, and knowledge of how, for example ,viruses spread in a network and how to use graph structures to prevent, both hackers from entering and virus from spreading is important. Evolutionary dynamics, and the research of how mutant genes spread through out a population, as described in the paper is analogous, to this issue.
 If we can determine some structures, where certain nodes are advantageous/disadvantageous, then these structures will have properties, such as sustaining viruses from spreading, or amplify the incentive for obtaining cyber-insurance. 
 
-In the \cite{lieberman2005evolutionary} paper, they show that mutants inserted in to a
+The paper \cite{lieberman2005evolutionary}, show that mutants inserted in to a
  circulation graph, will have a fixation probability equal to
 \begin{equation}  
 p_{1}=\frac{(1-\frac{1}{r})}{(1-\frac{1}{r^{N}})}
@@ -24,15 +23,15 @@ A circulation graph is a graph that satisfy these two properties:
 \item The sum of all edges leaving a vertex is equal for all vertexes
 \item The sum of all edges entering a vertex i equal for all vertexes
 \end{enumerate}
-I.e. a clique is a circulation graph, and the probability of fixation is as in Eq. (\ref{eq:fixation}).
+A clique is a good example of a circulation graph, and the probability of fixation is as in Eq. (\ref{eq:fixation}).
 The fixation probability determines how probable it is that the whole network will eventually be
 "infected" by the mutant. It determines the rate of evolution, which relies on both the size of the
 network and the evolution speed. 
 If the relative fitness of the nodes are high, then the probability of fixation will be low.
 A probability equal to one means that every node in the network eventually will be affected by the mutant.
 
-An essential part of cyber-insurance is for the insurer to be able to calculate the overall risk of the instance requesting to be insured. 
-As we shall see there are structures which will provide a higher utility than circulation graphs, however since the probability of fixation can be calculated, it will be easier for the insurer to calculate the risk. If we can find graphs with fixation probability that exceeds Eq.(\ref{eq:fixation}) it would be possible to further suppress drift and amplify selection and visa versa. 
+An essential part of cyber-insurance is for the insurer to be able to calculate the overall risk of the instance requesting to be insured. Since the probability of fixation can be calculated in circulation graphs, if the insurer knows that the instance is part of a circulation graph, it is possible for the insurer to calculate the probability of fixation in that network. 
+If we can find graphs with fixation probability that exceeds Eq.(\ref{eq:fixation}) it is even better, because then the insurer are not only able to calculate the overall probability of fixation, but to also show that the probability of fixation are higher than the one for circulation graphs.
 \begin{figure}[b]
 \centering
 \begin{tabular}{@{}c@{}}
@@ -57,7 +56,6 @@ As exemplified earlier in this chapter, we know that there are many
 topologies in our society that are so called scale-free graphs. These graphs have most of their connectivity clustered in a few verities, which are very similar to a star, and these networks can also be considered as potent selection amplifiers. 
 
 
-\subparagraph{Benefits of cliques}
 The paper \cite{contagion} present interesting results regarding network formation games. 
 They set up a game where the nodes benefit from direct links, but these links also expose them for risk. 
 Each node gains a payoff of $a$ per link it establishes, but it can establish a maximum of $\delta$ links.
@@ -74,7 +72,6 @@ However, if the nodes form an anonymous market, by random linking, they can only
 In other words, if the nodes can choose who they connect with, and by doing so, creating trusted clustered markets, they can achieve a higher payoff, by exceeding the critical node degree point. 
 
 
-\subparagraph{Star-network as an insurable topology}
 The paper \cite{networkgames} shows how network games evolve when the payoffs are determined not only by your own decisions, but also by your neighbors. This can be used to analyze the star network further. They analyze a game on public good, which is simple but highly relevant for our work. A good example of a public goods is security product. A security product suffers from strategic substitutes, i.e. if your neighbor acquire the security product, you have less incentive of also acquiring the security product. This is because when he acquire it, he gets more secure, and so do you, due to the positive externalities of the product.
 
 The game is set up like this:
@@ -104,22 +101,22 @@ The overall payoff in these two differ from each other, the latter is not social
  It would have been beneficial if we where able to force the game to always end up in the social optimal equilibrium.
 
 
-\subparagraph{From a insurers point of view}
-If a insurance company could identify these star-structures, and force them to end up in the social optimal equilibrium it would have been very beneficial for both the insurer and the customers.
-First of all if the insurer could identify these structures, he could calculate the overall probability of fixation by a diseased mutant(virus, worm, trojan or other failures) as shown earlier. If they could ensure that the center node is protected they could also calculate the probability of the diseased mutant being extinguished from the network.
-One possibility of achieving this could be by offering very cheap insurance to the leaf nodes, and giving the center node an incentive to acquire security product, by informing the center node about the probability of failure unless he acquires security. And offer him a very good rebate if acquire the security product, and a very expensive insurance if not. In this way the insurer could force a rational center node to getting both insurance and security product, and thus securing the whole network.
+\subparagraph{From a insurers point of view.}
+If a insurance company could identify these star-structures, and force them to end up in the social optimal equilibrium, i.e. minimize the overall cost of link establishment, it would have been very beneficial for both the insurer and the customers.
+First of all if the insurer could identify these structures, he could calculate the overall probability of fixation by a diseased mutant(virus, worm, trojan or other failures). If they could ensure that the center node is protected they could also calculate the probability of the diseased mutant being extinguished from the network, and possibly being able to almost ensure that the network is secure. 
+One possibility of achieving this could be by offering very cheap insurance to the leaf nodes, and giving the center node an incentive to acquire security product, by informing the center node about the probability of failure unless he acquires security. And offer him a very good rebate if he acquires the security product, and a very expensive insurance if not. In this way the insurer could force a rational center node into getting both insurance and a security product, and thus securing the whole network.
 
 This is a simple scenario, analyzing an exogenous network formation \footnote{Exogenous: The network formation is given. Endogenous: The structure originates from within the network, i.e. the opposite of exogenous}, 
-but it shows how a insurer can, by using the results from \cite{lieberman2005evolutionary}, force the game to end up in the social optimal equilibrium, and also how the insurer can calculate the probabilities of failure. 
-The contributes significantly to solving some of the problems with cyber-insurance. The problems with information asymmetry and interdependent risk problem has been reduced, since if the insurer knows the network structure, he can calculate the probabilities of failures and catastrophic events, the most important information he needs is how secure the center node is. If he also can ensure that the center node is secure, the interdependent risk problem is limited to only one node, the center node. 
+but it shows how a insurer can, force a star network to end up in the social optimal cost equilibrium. And how he can use this to provide better overall security for everyone. We also showed how the insurer can calculate the probabilities of failure in circulation-, star-, funnel-, meta-funnel- and super star,-graphs.   And how nodes forming a trusted clique, can achieve a higher payoff than nodes in an untrusted clique. 
+All this could contribute significantly to solving some of the problems with cyber-insurance. The problems with information asymmetry and interdependent risk problem has been reduced, since if the insurer knows the network structure, he can calculate the probabilities of failures and catastrophic events. If the network is a star and he can ensure that the center node is secure, the interdependent risk problem is limited to the security of the center node. 
 
 \section{Research Question}
-So far our thesis have introduced cyber-insurance, presented related work on the issues regarding cyber-insurance and this the last chapter have presented different graph structures and briefly introduced the idea of network formation. Generally the models in the related work section have taken different approaches to problems regarding cyber-insurance and analyzed the outcome to see how well they contribute. Our approach does the opposite, in this chapter we have reviled different structures (star and clique) which will benefit both the insurer and nodes in a cyber-insurance market. We will combine the knowledge of these structures and network formation to investigate whether it is possible for the insurer to control the formation of the cyber-insurance network. Our approach will focus on endogenous formation by controlling the cost parameters for the insurer. Basically, we know that if the insurance premium is high, no one will buy it. On the other hand, if it is free, everyone would benefit from having one, and clique formations will emerge. We want to determine whether it is possible to find the intersections, which will create the desired structures where both the insurer and their customers will benefit from cyber-insurances. 
-
-
+So far, our thesis have introduced cyber-insurance, presented related work on the issues regarding cyber-insurance and this chapter have presented the properties of different graph structures and briefly introduced the idea of network formation. Generally, the papers in the related work section have presented different models to try solving the problems with cyber-insurance. Nevertheless, as we have seen, the cyber-insurance market still fails to evolve completely, despite all the solutions presented in different papers. This is why we have chosen to take a different approach.
+In this chapter, we have shown some structures, especially the star and clique, which will generate benefit for both the insurer and customers in a cyber-insurance market. We will combine the knowledge of these structures and network formation to investigate whether it is possible for the insurer to force these structures to evolve endogenously. We will focus on how the insurer can determine the resulting formation by adjusting the parameter he can control, i.e. the insurance cost. We know that if the insurance premium is high, no one will buy it. On the other hand, if it is too low, everyone would benefit from having insurance, and insured nodes will make risky decisions, such as connecting to risky nodes. We will try to determine whether it is possible to find the intersections, where the desired structures will be create, and both the insurer and their customers will benefit from this.
 
 
 \subparagraph{NOTES. research question}
 All the other models to this...
 We will try a new approach...
 Combine knowledge of graphs, and network formation. We will investigate whether it is possible for the insurer to control the formation of the cyber-insurance network. So that we end up with a star or clique. Our approach will focus endogendous formation by controlling the cost parameters for the insurer. Hence if the insurance premium is high, no one will buy it. On the other hand, if it is free, everyone would benefit from having one, and clique formations will emerge. We are interested in finding the intersections, where both the insurer and their customers will benefit from cyber-insurances. 
+
