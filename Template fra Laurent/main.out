@@ -1,54 +1,48 @@
 \BOOKMARK [0][-]{section*.1}{List of Figures}{}% 1
-\BOOKMARK [0][-]{section*.2}{List of Tables}{}% 2
-\BOOKMARK [0][-]{chapter.1}{Introduction to Cyber Insurance}{}% 3
-\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.2}{Problem definition}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.3}{Readers guide}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.4}{Insurance and cyber-insurance}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.5}{The cyber-insurance market}{chapter.1}% 8
-\BOOKMARK [0][-]{chapter.2}{Relatedwork}{}% 9
-\BOOKMARK [1][-]{section.2.1}{Cyber-Insurance}{chapter.2}% 10
-\BOOKMARK [2][-]{subsection.2.1.1}{Summary}{section.2.1}% 11
-\BOOKMARK [0][-]{chapter.3}{Graphs and Network Formation}{}% 12
-\BOOKMARK [1][-]{section.3.1}{Real world graph structures}{chapter.3}% 13
-\BOOKMARK [1][-]{section.3.2}{Network Structures}{chapter.3}% 14
-\BOOKMARK [1][-]{section.3.3}{Research Question}{chapter.3}% 15
-\BOOKMARK [0][-]{chapter.4}{Methodology}{}% 16
-\BOOKMARK [1][-]{section.4.1}{Graph}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.2}{Random Graphs}{chapter.4}% 18
-\BOOKMARK [1][-]{section.4.3}{Game Theory}{chapter.4}% 19
-\BOOKMARK [1][-]{section.4.4}{Netlogo}{chapter.4}% 20
-\BOOKMARK [0][-]{chapter.5}{Modeling Cyber-Insurance }{}% 21
-\BOOKMARK [1][-]{section.5.1}{Model 1: Initial Model }{chapter.5}% 22
-\BOOKMARK [1][-]{section.5.2}{Model 2: Including Parameters}{chapter.5}% 23
-\BOOKMARK [2][-]{subsection.5.2.1}{Characteristics of the model}{section.5.2}% 24
-\BOOKMARK [3][-]{section*.40}{Two nodes scenario}{subsection.5.2.1}% 25
-\BOOKMARK [2][-]{subsection.5.2.2}{Multiple nodes}{section.5.2}% 26
-\BOOKMARK [3][-]{section*.44}{Assumptions}{subsection.5.2.2}% 27
-\BOOKMARK [3][-]{section*.45}{Analysis}{subsection.5.2.2}% 28
-\BOOKMARK [2][-]{subsection.5.2.3}{Result and findings}{section.5.2}% 29
-\BOOKMARK [3][-]{section*.52}{Simulation of the results}{subsection.5.2.3}% 30
-\BOOKMARK [1][-]{section.5.3}{Model 2b: Model with incomplete information}{chapter.5}% 31
-\BOOKMARK [2][-]{subsection.5.3.1}{Analysis}{section.5.3}% 32
-\BOOKMARK [1][-]{section.5.4}{Model 3: Including maximum node degree and bonus}{chapter.5}% 33
-\BOOKMARK [2][-]{subsection.5.4.1}{Analysis}{section.5.4}% 34
-\BOOKMARK [2][-]{subsection.5.4.2}{Result and findings}{section.5.4}% 35
-\BOOKMARK [3][-]{section*.66}{Simulation of the results}{subsection.5.4.2}% 36
-\BOOKMARK [1][-]{section.5.5}{Model 4: Including bulk insurance discount}{chapter.5}% 37
-\BOOKMARK [2][-]{subsection.5.5.1}{Analysis}{section.5.5}% 38
-\BOOKMARK [3][-]{section*.69}{Discount model}{subsection.5.5.1}% 39
-\BOOKMARK [3][-]{section*.72}{Discount and Bonus model}{subsection.5.5.1}% 40
-\BOOKMARK [2][-]{subsection.5.5.2}{Result and findings}{section.5.5}% 41
-\BOOKMARK [1][-]{section.5.6}{Model 5: Network externalities}{chapter.5}% 42
-\BOOKMARK [2][-]{subsection.5.6.1}{Insurance and connection game}{section.5.6}% 43
-\BOOKMARK [2][-]{subsection.5.6.2}{Homogenous symmetric connection game}{section.5.6}% 44
-\BOOKMARK [3][-]{section*.79}{Results and findings}{subsection.5.6.2}% 45
-\BOOKMARK [1][-]{section.5.7}{Discussion}{chapter.5}% 46
-\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 47
-\BOOKMARK [1][-]{subsection.6.0.1}{One section on what you researched and how you did it}{chapter.6}% 48
-\BOOKMARK [2][-]{subsection.6.0.2}{One section on what are the main findings were\203 showinglinks across chapters \(this explains why you chose thestructure you did\)}{subsection.6.0.1}% 49
-\BOOKMARK [2][-]{subsection.6.0.3}{One section on possible areas for future research}{subsection.6.0.1}% 50
-\BOOKMARK [2][-]{subsection.6.0.4}{Final section reminding readers of the original contributionand significance of your research to your field}{subsection.6.0.1}% 51
-\BOOKMARK [1][-]{section.6.1}{Future work Notater}{chapter.6}% 52
-\BOOKMARK [2][-]{subsection.6.1.1}{Risk}{section.6.1}% 53
-\BOOKMARK [0][-]{section*.98}{References}{}% 54
+\BOOKMARK [0][-]{chapter.1}{Introduction to Cyber Insurance}{}% 2
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Problem definition}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{Readers guide}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.4}{Insurance and cyber-insurance}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.5}{The cyber-insurance market}{chapter.1}% 7
+\BOOKMARK [0][-]{chapter.2}{Relatedwork}{}% 8
+\BOOKMARK [1][-]{section.2.1}{Cyber-Insurance}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.1.1}{Summary}{section.2.1}% 10
+\BOOKMARK [0][-]{chapter.3}{Graphs and Network Formation}{}% 11
+\BOOKMARK [1][-]{section.3.1}{Real world graph structures}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.2}{Network Structures}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.3}{Research Question}{chapter.3}% 14
+\BOOKMARK [0][-]{chapter.4}{Methodology}{}% 15
+\BOOKMARK [1][-]{section.4.1}{Graph}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.2}{Random Graphs}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.3}{Game Theory}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.4}{Netlogo}{chapter.4}% 19
+\BOOKMARK [0][-]{chapter.5}{Modeling Cyber-Insurance }{}% 20
+\BOOKMARK [1][-]{section.5.1}{Model 1: Initial Model }{chapter.5}% 21
+\BOOKMARK [1][-]{section.5.2}{Model 2: Including Parameters}{chapter.5}% 22
+\BOOKMARK [2][-]{subsection.5.2.1}{Characteristics of the model}{section.5.2}% 23
+\BOOKMARK [3][-]{section*.37}{Two nodes scenario}{subsection.5.2.1}% 24
+\BOOKMARK [2][-]{subsection.5.2.2}{Multiple nodes}{section.5.2}% 25
+\BOOKMARK [3][-]{section*.41}{Assumptions}{subsection.5.2.2}% 26
+\BOOKMARK [3][-]{section*.42}{Analysis}{subsection.5.2.2}% 27
+\BOOKMARK [2][-]{subsection.5.2.3}{Result and findings}{section.5.2}% 28
+\BOOKMARK [3][-]{section*.49}{Simulation of the results}{subsection.5.2.3}% 29
+\BOOKMARK [1][-]{section.5.3}{Model 2b: Model with incomplete information}{chapter.5}% 30
+\BOOKMARK [2][-]{subsection.5.3.1}{Analysis}{section.5.3}% 31
+\BOOKMARK [1][-]{section.5.4}{Model 3: Including maximum node degree and bonus}{chapter.5}% 32
+\BOOKMARK [2][-]{subsection.5.4.1}{Analysis}{section.5.4}% 33
+\BOOKMARK [2][-]{subsection.5.4.2}{Result and findings}{section.5.4}% 34
+\BOOKMARK [3][-]{section*.63}{Simulation of the results}{subsection.5.4.2}% 35
+\BOOKMARK [1][-]{section.5.5}{Model 4: Including bulk insurance discount}{chapter.5}% 36
+\BOOKMARK [2][-]{subsection.5.5.1}{Analysis}{section.5.5}% 37
+\BOOKMARK [3][-]{section*.66}{Discount model}{subsection.5.5.1}% 38
+\BOOKMARK [3][-]{section*.69}{Discount and Bonus model}{subsection.5.5.1}% 39
+\BOOKMARK [2][-]{subsection.5.5.2}{Result and findings}{section.5.5}% 40
+\BOOKMARK [1][-]{section.5.6}{Model 5: Network externalities}{chapter.5}% 41
+\BOOKMARK [2][-]{subsection.5.6.1}{Insurance and connection game}{section.5.6}% 42
+\BOOKMARK [2][-]{subsection.5.6.2}{Homogenous symmetric connection game}{section.5.6}% 43
+\BOOKMARK [3][-]{section*.76}{Results and findings}{subsection.5.6.2}% 44
+\BOOKMARK [0][-]{chapter.6}{Summary}{}% 45
+\BOOKMARK [1][-]{section.6.1}{Discussion}{chapter.6}% 46
+\BOOKMARK [1][-]{section.6.2}{Conclusion}{chapter.6}% 47
+\BOOKMARK [0][-]{section*.89}{References}{}% 48

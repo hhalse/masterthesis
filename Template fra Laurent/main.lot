@@ -7,5 +7,11 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
+<<<<<<< HEAD
 \contentsline {table}{\numberline {5.1}{\ignorespaces Table showing the different parameters\relax }}{37}{table.caption.39}
+=======
+\addvspace {10pt}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Table showing the different parameters\relax }}{37}{table.caption.32}
+\addvspace {10pt}
+>>>>>>> 8731e796b8c105ce840c83a22d9e4206d9d21379
 \addvspace {10pt}
