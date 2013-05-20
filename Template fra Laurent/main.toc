@@ -29,88 +29,87 @@
 \contentsline {subparagraph}{Stock markets.}{15}{section*.9}
 \contentsline {subparagraph}{Airline routes.}{16}{section*.11}
 \contentsline {section}{\numberline {4.2}Network Structures}{18}{section.4.2}
-\contentsline {subparagraph}{Benefits of cliques}{20}{section*.14}
-\contentsline {subparagraph}{Star-network as an insurable topology}{21}{section*.15}
-\contentsline {subparagraph}{From a insurers point of view}{22}{section*.17}
-\contentsline {chapter}{\chapternumberline {5}Methodology}{23}{chapter.5}
-\contentsline {section}{\numberline {5.1}Graph}{23}{section.5.1}
-\contentsline {section}{\numberline {5.2}Random Graphs}{23}{section.5.2}
-\contentsline {subparagraph}{Erd\IeC {\"o}s-R\IeC {\'e}nyi Graphs}{24}{section*.19}
-\contentsline {subparagraph}{Albert-Barab\IeC {\'a}si Graphs}{25}{section*.20}
-\contentsline {section}{\numberline {5.3}Game Theory}{25}{section.5.3}
-\contentsline {subparagraph}{One shot game}{26}{section*.22}
-\contentsline {subparagraph}{Nash Equilibrium}{26}{section*.23}
-\contentsline {subparagraph}{Stackelberg}{26}{section*.24}
-\contentsline {subparagraph}{Subgame-perfect equilibrium}{27}{section*.25}
-\contentsline {subparagraph}{Socially optimal}{27}{section*.26}
-\contentsline {subparagraph}{Price of stability}{27}{section*.27}
-\contentsline {subparagraph}{Bayesian game}{27}{section*.28}
-\contentsline {section}{\numberline {5.4}Netlogo}{27}{section.5.4}
-\contentsline {chapter}{\chapternumberline {6}Modeling Cyber-Insurance }{31}{chapter.6}
-\contentsline {subparagraph}{Introduction to the modeling.}{32}{section*.31}
-\contentsline {section}{\numberline {6.1}Model 1: Initial Model }{32}{section.6.1}
-\contentsline {section}{\numberline {6.2}Model 2: Including Parameters}{34}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Characteristics of the model}{34}{subsection.6.2.1}
-\contentsline {subsubsection}{Two nodes scenario}{35}{section*.35}
-\contentsline {subparagraph}{Introducing time.}{35}{section*.37}
-\contentsline {subsection}{\numberline {6.2.2}Multiple nodes}{37}{subsection.6.2.2}
-\contentsline {subsubsection}{Assumptions}{37}{section*.39}
-\contentsline {subsubsection}{Analysis}{38}{section*.40}
-\contentsline {subparagraph}{Insured to insured.}{38}{section*.41}
-\contentsline {subparagraph}{Non-insured to insured.}{39}{section*.42}
-\contentsline {subparagraph}{Insured to non-insured.}{39}{section*.43}
-\contentsline {subparagraph}{Non-insured to Non-insured.}{39}{section*.44}
-\contentsline {subparagraph}{Forming a trusted clique.}{39}{section*.45}
-\contentsline {subsection}{\numberline {6.2.3}Result and findings}{40}{subsection.6.2.3}
-\contentsline {subparagraph}{Stability and efficiency}{40}{section*.46}
-\contentsline {subsubsection}{Simulation of the results}{41}{section*.47}
-\contentsline {section}{\numberline {6.3}Model 2b: Model with incomplete information}{42}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Analysis}{43}{subsection.6.3.1}
-\contentsline {subparagraph}{Node 2 is insured.}{43}{section*.50}
-\contentsline {subparagraph}{Separating equilibrium.}{43}{section*.52}
-\contentsline {subparagraph}{Pooling equilibrium.}{44}{section*.53}
-\contentsline {subparagraph}{Node 2 not insured.}{45}{section*.54}
-\contentsline {subparagraph}{Separating equilibrium.}{45}{section*.56}
-\contentsline {subparagraph}{Pooling equilibrium.}{47}{section*.57}
-\contentsline {subparagraph}{Result and findings.}{47}{section*.58}
-\contentsline {section}{\numberline {6.4}Model 3: Including maximum node degree and bonus}{48}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Analysis}{48}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Result and findings}{50}{subsection.6.4.2}
-\contentsline {subparagraph}{Consequences of not reaching required number of edges.}{51}{section*.59}
-\contentsline {subparagraph}{Efficiency and Stability.}{51}{section*.60}
-\contentsline {subsubsection}{Simulation of the results}{52}{section*.61}
-\contentsline {section}{\numberline {6.5}Model 4: Including bulk insurance discount}{53}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Analysis}{54}{subsection.6.5.1}
-\contentsline {subsubsection}{Discount model}{55}{section*.64}
-\contentsline {subparagraph}{Result and findings}{55}{section*.65}
-\contentsline {subparagraph}{Stability and efficiency}{55}{section*.66}
-\contentsline {subsubsection}{Discount and Bonus model}{56}{section*.67}
-\contentsline {subsection}{\numberline {6.5.2}Result and findings}{57}{subsection.6.5.2}
-\contentsline {section}{\numberline {6.6}Model 5: Network externalities}{58}{section.6.6}
-\contentsline {subparagraph}{Example:}{58}{section*.69}
-\contentsline {subsection}{\numberline {6.6.1}Insurance and connection game}{60}{subsection.6.6.1}
-\contentsline {subsection}{\numberline {6.6.2}Homogenous symmetric connection game}{60}{subsection.6.6.2}
-\contentsline {subparagraph}{Star not possible with high $n$.}{61}{section*.71}
-\contentsline {subparagraph}{Bulk insurance.}{61}{section*.73}
-\contentsline {subsubsection}{Results and findings}{63}{section*.74}
-\contentsline {subparagraph}{Price of Anarchy.}{65}{section*.79}
-\contentsline {subparagraph}{Example structures from the simulation.}{67}{figure.caption.82}
-\contentsline {section}{\numberline {6.7}Discussion}{70}{section.6.7}
-\contentsline {subparagraph}{notater om diskusjon}{70}{section*.84}
-\contentsline {chapter}{\chapternumberline {7}Conclusion}{75}{chapter.7}
-\contentsline {subparagraph}{One paragraph stating what you researched and what your original contribution to the field is, after that brake into sections}{75}{section*.85}
-\contentsline {subsection}{\numberline {7.0.1}One section on what you researched and how you did it}{75}{subsection.7.0.1}
-\contentsline {subsection}{\numberline {7.0.2}One section on what are the main findings were\IeC {\textellipsis } showinglinks across chapters (this explains why you chose thestructure you did)}{75}{subsection.7.0.2}
-\contentsline {subsection}{\numberline {7.0.3}One section on possible areas for future research}{76}{subsection.7.0.3}
-\contentsline {subsection}{\numberline {7.0.4}Final section reminding readers of the original contributionand significance of your research to your field}{76}{subsection.7.0.4}
-\contentsline {subparagraph}{TIPS og TRIKS til konklusjon}{76}{section*.86}
-\contentsline {subparagraph}{AVOID this in conclsuion}{77}{section*.87}
-\contentsline {section}{\numberline {7.1}Future work Notater}{78}{section.7.1}
-\contentsline {subparagraph}{TA MED DETTE?}{78}{section*.88}
-\contentsline {subparagraph}{Connection game}{78}{section*.89}
-\contentsline {subparagraph}{Husk!!!}{78}{section*.90}
-\contentsline {subsection}{\numberline {7.1.1}Risk}{78}{subsection.7.1.1}
-\contentsline {chapter}{References}{81}{section*.93}
+\contentsline {subparagraph}{From a insurers point of view}{22}{section*.15}
+\contentsline {section}{\numberline {4.3}Research Question}{22}{section.4.3}
+\contentsline {chapter}{\chapternumberline {5}Methodology}{25}{chapter.5}
+\contentsline {section}{\numberline {5.1}Graph}{25}{section.5.1}
+\contentsline {section}{\numberline {5.2}Random Graphs}{26}{section.5.2}
+\contentsline {subparagraph}{Erd\IeC {\"o}s-R\IeC {\'e}nyi Graphs.}{26}{section*.17}
+\contentsline {subparagraph}{Albert-Barab\IeC {\'a}si Graphs.}{27}{section*.18}
+\contentsline {section}{\numberline {5.3}Game Theory}{28}{section.5.3}
+\contentsline {subparagraph}{One shot game}{28}{section*.20}
+\contentsline {subparagraph}{Nash Equilibrium}{29}{section*.21}
+\contentsline {subparagraph}{Stackelberg}{29}{section*.22}
+\contentsline {subparagraph}{Subgame-perfect equilibrium}{29}{section*.23}
+\contentsline {subparagraph}{Socially optimal}{29}{section*.24}
+\contentsline {subparagraph}{Price of stability}{29}{section*.25}
+\contentsline {subparagraph}{Bayesian game}{29}{section*.26}
+\contentsline {section}{\numberline {5.4}Netlogo}{29}{section.5.4}
+\contentsline {chapter}{\chapternumberline {6}Modeling Cyber-Insurance }{33}{chapter.6}
+\contentsline {subparagraph}{Introduction to the modeling.}{34}{section*.29}
+\contentsline {section}{\numberline {6.1}Model 1: Initial Model }{34}{section.6.1}
+\contentsline {section}{\numberline {6.2}Model 2: Including Parameters}{36}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Characteristics of the model}{36}{subsection.6.2.1}
+\contentsline {subsubsection}{Two nodes scenario}{37}{section*.33}
+\contentsline {subparagraph}{Introducing time.}{37}{section*.35}
+\contentsline {subsection}{\numberline {6.2.2}Multiple nodes}{39}{subsection.6.2.2}
+\contentsline {subsubsection}{Assumptions}{39}{section*.37}
+\contentsline {subsubsection}{Analysis}{40}{section*.38}
+\contentsline {subparagraph}{Insured to insured.}{40}{section*.39}
+\contentsline {subparagraph}{Non-insured to insured.}{41}{section*.40}
+\contentsline {subparagraph}{Insured to non-insured.}{41}{section*.41}
+\contentsline {subparagraph}{Non-insured to Non-insured.}{41}{section*.42}
+\contentsline {subparagraph}{Forming a trusted clique.}{41}{section*.43}
+\contentsline {subsection}{\numberline {6.2.3}Result and findings}{42}{subsection.6.2.3}
+\contentsline {subparagraph}{Stability and efficiency}{42}{section*.44}
+\contentsline {subsubsection}{Simulation of the results}{43}{section*.45}
+\contentsline {section}{\numberline {6.3}Model 2b: Model with incomplete information}{44}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Analysis}{45}{subsection.6.3.1}
+\contentsline {subparagraph}{Node 2 is insured.}{45}{section*.48}
+\contentsline {subparagraph}{Separating equilibrium.}{45}{section*.50}
+\contentsline {subparagraph}{Pooling equilibrium.}{46}{section*.51}
+\contentsline {subparagraph}{Node 2 not insured.}{47}{section*.52}
+\contentsline {subparagraph}{Separating equilibrium.}{47}{section*.54}
+\contentsline {subparagraph}{Pooling equilibrium.}{49}{section*.55}
+\contentsline {subparagraph}{Result and findings.}{49}{section*.56}
+\contentsline {section}{\numberline {6.4}Model 3: Including maximum node degree and bonus}{50}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Analysis}{50}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Result and findings}{52}{subsection.6.4.2}
+\contentsline {subparagraph}{Consequences of not reaching required number of edges.}{53}{section*.57}
+\contentsline {subparagraph}{Efficiency and Stability.}{53}{section*.58}
+\contentsline {subsubsection}{Simulation of the results}{54}{section*.59}
+\contentsline {section}{\numberline {6.5}Model 4: Including bulk insurance discount}{55}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Analysis}{56}{subsection.6.5.1}
+\contentsline {subsubsection}{Discount model}{57}{section*.62}
+\contentsline {subparagraph}{Result and findings}{57}{section*.63}
+\contentsline {subparagraph}{Stability and efficiency}{57}{section*.64}
+\contentsline {subsubsection}{Discount and Bonus model}{58}{section*.65}
+\contentsline {subsection}{\numberline {6.5.2}Result and findings}{59}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}Model 5: Network externalities}{60}{section.6.6}
+\contentsline {subparagraph}{Example:}{60}{section*.67}
+\contentsline {subsection}{\numberline {6.6.1}Insurance and connection game}{62}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Homogenous symmetric connection game}{62}{subsection.6.6.2}
+\contentsline {subparagraph}{Star not possible with high $n$.}{63}{section*.69}
+\contentsline {subparagraph}{Bulk insurance.}{63}{section*.71}
+\contentsline {subsubsection}{Results and findings}{65}{section*.72}
+\contentsline {subparagraph}{Price of Anarchy.}{67}{section*.77}
+\contentsline {subparagraph}{Example structures from the simulation.}{69}{figure.caption.80}
+\contentsline {section}{\numberline {6.7}Discussion}{72}{section.6.7}
+\contentsline {subparagraph}{notater om diskusjon}{72}{section*.82}
+\contentsline {chapter}{\chapternumberline {7}Conclusion}{77}{chapter.7}
+\contentsline {subparagraph}{One paragraph stating what you researched and what your original contribution to the field is, after that brake into sections}{77}{section*.83}
+\contentsline {subsection}{\numberline {7.0.1}One section on what you researched and how you did it}{77}{subsection.7.0.1}
+\contentsline {subsection}{\numberline {7.0.2}One section on what are the main findings were\IeC {\textellipsis } showinglinks across chapters (this explains why you chose thestructure you did)}{77}{subsection.7.0.2}
+\contentsline {subsection}{\numberline {7.0.3}One section on possible areas for future research}{78}{subsection.7.0.3}
+\contentsline {subsection}{\numberline {7.0.4}Final section reminding readers of the original contributionand significance of your research to your field}{78}{subsection.7.0.4}
+\contentsline {subparagraph}{TIPS og TRIKS til konklusjon}{78}{section*.84}
+\contentsline {subparagraph}{AVOID this in conclsuion}{79}{section*.85}
+\contentsline {section}{\numberline {7.1}Future work Notater}{80}{section.7.1}
+\contentsline {subparagraph}{TA MED DETTE?}{80}{section*.86}
+\contentsline {subparagraph}{Connection game}{80}{section*.87}
+\contentsline {subparagraph}{Husk!!!}{80}{section*.88}
+\contentsline {subsection}{\numberline {7.1.1}Risk}{80}{subsection.7.1.1}
+\contentsline {chapter}{References}{83}{section*.91}
 \vspace {1em}\noindent \bfseries Appendices\par \vspace {-.5em}
-\contentsline {appendix}{\chapternumberline {A}Models}{85}{appendix.A}
-\contentsline {section}{\numberline {A.1}Model-5: Network externalities}{85}{section.A.1}
+\contentsline {appendix}{\chapternumberline {A}Models}{87}{appendix.A}
+\contentsline {section}{\numberline {A.1}Model-5: Network externalities}{87}{section.A.1}
