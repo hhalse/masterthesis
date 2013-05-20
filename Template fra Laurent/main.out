@@ -17,50 +17,6 @@
 \BOOKMARK [0][-]{chapter.4}{Graphs and Network Formation}{}% 17
 \BOOKMARK [1][-]{section.4.1}{Real world graph structures}{chapter.4}% 18
 \BOOKMARK [1][-]{section.4.2}{Network Structures}{chapter.4}% 19
-<<<<<<< HEAD
-\BOOKMARK [0][-]{chapter.5}{Methodology}{}% 20
-\BOOKMARK [1][-]{section.5.1}{Graph}{chapter.5}% 21
-\BOOKMARK [1][-]{section.5.2}{Random Graphs}{chapter.5}% 22
-\BOOKMARK [1][-]{section.5.3}{Game Theory}{chapter.5}% 23
-\BOOKMARK [1][-]{section.5.4}{Netlogo}{chapter.5}% 24
-\BOOKMARK [0][-]{chapter.6}{Modeling Cyber-Insurance }{}% 25
-\BOOKMARK [1][-]{section.6.1}{Model 1: Initial Model }{chapter.6}% 26
-\BOOKMARK [1][-]{section.6.2}{Model 2: Including Parameters}{chapter.6}% 27
-\BOOKMARK [2][-]{subsection.6.2.1}{Characteristics of the model}{section.6.2}% 28
-\BOOKMARK [3][-]{section*.35}{Two nodes scenario}{subsection.6.2.1}% 29
-\BOOKMARK [2][-]{subsection.6.2.2}{Multiple nodes}{section.6.2}% 30
-\BOOKMARK [3][-]{section*.39}{Assumptions}{subsection.6.2.2}% 31
-\BOOKMARK [3][-]{section*.40}{Analysis}{subsection.6.2.2}% 32
-\BOOKMARK [2][-]{subsection.6.2.3}{Result and findings}{section.6.2}% 33
-\BOOKMARK [3][-]{section*.47}{Simulation of the results}{subsection.6.2.3}% 34
-\BOOKMARK [1][-]{section.6.3}{Model 2b: Model with incomplete information}{chapter.6}% 35
-\BOOKMARK [2][-]{subsection.6.3.1}{Analysis}{section.6.3}% 36
-\BOOKMARK [1][-]{section.6.4}{Model 3: Including maximum node degree and bonus}{chapter.6}% 37
-\BOOKMARK [2][-]{subsection.6.4.1}{Analysis}{section.6.4}% 38
-\BOOKMARK [2][-]{subsection.6.4.2}{Result and findings}{section.6.4}% 39
-\BOOKMARK [3][-]{section*.61}{Simulation of the results}{subsection.6.4.2}% 40
-\BOOKMARK [1][-]{section.6.5}{Model 4: Including bulk insurance discount}{chapter.6}% 41
-\BOOKMARK [2][-]{subsection.6.5.1}{Analysis}{section.6.5}% 42
-\BOOKMARK [3][-]{section*.64}{Discount model}{subsection.6.5.1}% 43
-\BOOKMARK [3][-]{section*.67}{Discount and Bonus model}{subsection.6.5.1}% 44
-\BOOKMARK [2][-]{subsection.6.5.2}{Result and findings}{section.6.5}% 45
-\BOOKMARK [1][-]{section.6.6}{Model 5: Network externalities}{chapter.6}% 46
-\BOOKMARK [2][-]{subsection.6.6.1}{Insurance and connection game}{section.6.6}% 47
-\BOOKMARK [2][-]{subsection.6.6.2}{Homogenous symmetric connection game}{section.6.6}% 48
-\BOOKMARK [3][-]{section*.74}{Results and findings}{subsection.6.6.2}% 49
-\BOOKMARK [1][-]{section.6.7}{Discussion}{chapter.6}% 50
-\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 51
-\BOOKMARK [1][-]{subsection.7.0.1}{One section on what you researched and how you did it}{chapter.7}% 52
-\BOOKMARK [2][-]{subsection.7.0.2}{One section on what are the main findings were\203 showinglinks across chapters \(this explains why you chose thestructure you did\)}{subsection.7.0.1}% 53
-\BOOKMARK [2][-]{subsection.7.0.3}{One section on possible areas for future research}{subsection.7.0.1}% 54
-\BOOKMARK [2][-]{subsection.7.0.4}{Final section reminding readers of the original contributionand significance of your research to your field}{subsection.7.0.1}% 55
-\BOOKMARK [1][-]{section.7.1}{Future work Notater}{chapter.7}% 56
-\BOOKMARK [2][-]{subsection.7.1.1}{Risk}{section.7.1}% 57
-\BOOKMARK [0][-]{section*.93}{References}{}% 58
-\BOOKMARK [0][-]{appendix.A}{Models}{}% 59
-\BOOKMARK [1][-]{section.A.1}{Model-5: Network externalities}{appendix.A}% 60
-<<<<<<< HEAD
-=======
 \BOOKMARK [1][-]{section.4.3}{Research Question}{chapter.4}% 20
 \BOOKMARK [0][-]{chapter.5}{Methodology}{}% 21
 \BOOKMARK [1][-]{section.5.1}{Graph}{chapter.5}% 22
@@ -101,6 +57,5 @@
 \BOOKMARK [1][-]{section.7.1}{Future work Notater}{chapter.7}% 57
 \BOOKMARK [2][-]{subsection.7.1.1}{Risk}{section.7.1}% 58
 \BOOKMARK [0][-]{section*.93}{References}{}% 59
->>>>>>> 1d9136153870e3319a5cc835dfe5216a2e56b920
-=======
->>>>>>> lokal
+\BOOKMARK [0][-]{appendix.A}{Models}{}% 60
+\BOOKMARK [1][-]{section.A.1}{Model-5: Network externalities}{appendix.A}% 61
