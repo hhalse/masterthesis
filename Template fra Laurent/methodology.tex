@@ -1,8 +1,10 @@
 \chapter{Methodology}
 
 
+Our approach requires some basic understanding on graph theory, in addition game theory will be used to explain and prove our assumptions in our modeling work. To be able to visually confirm that our assumptions where correct, we created simulators using NetLogo. 
+
 \section{Graph}
-There are some basic properties of graphs which is important to be familiar with. Figure \ref{fig:generalGraph} depicts the basics of an unweighted graph, the edges are not assigned any value. Weighted edges can be useful to e.g. reflect capacity constraints such as a link's maximum bandwidth, or the length of a road(edge). Other common definition used when describing graphs are listed below \cite{audestad}:
+As described earlier, graphs works as analytically tools when studying complex systems, and we will use graphs extensively throughout this thesis. Therefore it is important to establish a understanding of basic properties of graphs. Figure \ref{fig:generalGraph} depicts the basics of an unweighted graph, where the edges are not assigned any value. Weighted edges can be useful to e.g. reflect capacity constraints such as a link's maximum bandwidth, or the length of a road(edge). Other common definition used when describing graphs are listed below \cite{audestad}:
 \begin{itemize}
 \item Edge degree: Number of edges connected with a node.
 \item Hub: Node with high edge degree.
@@ -24,9 +26,9 @@ There are some basic properties of graphs which is important to be familiar with
 
 \section{Random Graphs}
 Cyber-insurance cover many fields, from financial transactions and outsourcing of tasks to computer networks, many of these fields share a common characteristic, they can all be described as a graph, and often a random graph. Therefore the study of random graphs are of special concern. The research on random graphs are fairly new compared to other mathematical discoveries. E-R graphs were first studied in 1959 by Erdös and Rényi, later and probably with more promising results was the graphs studied by Albert-Barabási in 1999 \cite{audestad}. 
-\subparagraph{Erdös-Rényi Graphs}
+\subparagraph{Erdös-Rényi Graphs.}
 E-R graphs is a network created between a fixed number of $n$-nodes, where each node connects to another of the $n-1$ nodes with 
-probability $p$. The resulting graph will on average contain $n(n-1)p/2 \approx n^{2}p/2$ edges \cite{barabasi}. 
+probability $p$. The resulting graph will on average contain $\frac{n(n-1)p}{2} \approx \frac{n^{2}p}{2}$ edges \cite{barabasi}. 
 By analysing the graph, the authors found some interesting properties:
 
 \begin{itemize}
@@ -36,10 +38,10 @@ By analysing the graph, the authors found some interesting properties:
 \item If $p = 1/n$ triangles start forming in the graph. 
 \end{itemize}
 
-A fully connected E-R graph will have a short diameter similar to the Internet, and thus could be a very good desrcription of the internet. However, the edge degree follows a Poisson distribution, which means that the edge degrees are peaking around the average value \cite{audestad}. Consequently E-R graphs does not capture the immense clustering coefficient which is present in networks such as the Internet. In other words, E-R graphs are not small world graphs, and another graph structure is needed to model computer networks.
-A interesting fact about these graphs are their vulnerability, these graphs are very vulnerable against random attacks, such as nature disasters, but robust against directed attacks. Due to the fact that if you remove all edges from one node, it does little damage, since the network is not dependent on single nodes, every node has approximately the same node degree, and it is the sum of all the nodes connections that creates the network.
+A fully connected E-R graph will have a short diameter similar to the Internet, and thus could be a very good description of structures similar to the internet. However, the edge degree follows a Poisson distribution, which means that the edge degrees are peaking around the average value \cite{audestad}. Consequently E-R graphs does not capture the immense clustering coefficient which is present in networks such as the Internet. In other words, E-R graphs are not small world graphs, and another graph structure is needed to model computer networks.
+An interesting fact about these graphs are their vulnerability. These graphs are very vulnerable against random attacks, such as nature disasters, but robust against directed attacks. Due to the fact that if you remove all edges from one node, it does little damage, since the network is not dependent on single nodes. Every node has approximately the same node degree, and it is the sum of all the nodes connections that creates the network.
 
-\subparagraph{\label{ABgraph}Albert-Barabási Graphs}
+\subparagraph{\label{ABgraph}Albert-Barabási Graphs.}
 The structure which is believed to be most accurate regarding modeling computer networks are A-B graphs. A-B graphs are different from E-R graphs since they are scale-free, meaning that the vertices does not have an constant value throughout the entire graph. The formation of an A-B graph results in multiple hubs with a high edge degree. Albert and Barabási found that the edge degree of each vertex follows a power law distribution; meaning that the probability that the edge degree is $g$ is proportional to $g^{-\gamma}$
 where $\gamma$ usually is a number between 2 and 3  This distribution is called a thick-tail distribution, because there is a significant probability that a node may have a very high degree. \cite{audestad}
 These graphs are in contrast to E-R-graphs, very vulnerable to directed attacks, because if you take out a hub, you suddenly destroyed the whole graph. But the graph is very robust against random attacks, this is why most of the networks we observe in the nature can be depicted as A-B-graphs.
