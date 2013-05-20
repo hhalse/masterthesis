@@ -97,19 +97,8 @@
 \contentsline {section}{\numberline {7.1}Discussion}{73}{section.7.1}
 \contentsline {subparagraph}{Limitations and future work}{75}{section*.81}
 \contentsline {section}{\numberline {7.2}Conclusion}{76}{section.7.2}
-\contentsline {subparagraph}{One paragraph stating what you researched and what your original contribution to the field is, after that brake into sections}{76}{section*.82}
-\contentsline {subsection}{\numberline {7.2.1}One section on what you researched and how you did it}{76}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}One section on what are the main findings were\IeC {\textellipsis } showinglinks across chapters (this explains why you chose thestructure you did)}{76}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}One section on possible areas for future research}{77}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Final section reminding readers of the original contributionand significance of your research to your field}{77}{subsection.7.2.4}
-\contentsline {subparagraph}{TIPS og TRIKS til konklusjon}{77}{section*.83}
-\contentsline {subparagraph}{AVOID this in conclsuion}{78}{section*.84}
-\contentsline {section}{\numberline {7.3}Future work Notater}{79}{section.7.3}
-\contentsline {subparagraph}{TA MED DETTE?}{79}{section*.85}
-\contentsline {subparagraph}{Connection game}{79}{section*.86}
-\contentsline {subparagraph}{Husk!!!}{79}{section*.87}
-\contentsline {subsection}{\numberline {7.3.1}Risk}{79}{subsection.7.3.1}
-\contentsline {chapter}{References}{83}{section*.90}
+\contentsline {subparagraph}{AVOID this in conclsuion}{77}{section*.82}
+\contentsline {chapter}{References}{79}{section*.84}
 \vspace {1em}\noindent \bfseries Appendices\par \vspace {-.5em}
-\contentsline {appendix}{\chapternumberline {A}Models}{87}{appendix.A}
-\contentsline {section}{\numberline {A.1}Model-5: Network externalities}{87}{section.A.1}
+\contentsline {appendix}{\chapternumberline {A}Models}{83}{appendix.A}
+\contentsline {section}{\numberline {A.1}Model-5: Network externalities}{83}{section.A.1}
