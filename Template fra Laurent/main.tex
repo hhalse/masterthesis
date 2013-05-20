@@ -5,7 +5,7 @@
 \usepackage{subcaption}
 \usepackage{rotating}
 \usepackage{pgfplots}
-
+\usepackage{listings} 
 \newtheorem{cnj}{Conjecture}
 
 \title{Cyber Insurance \& Insurable Topologies} % The title of your assignement; NB use \newlinetitle to start a newline
@@ -87,7 +87,9 @@
 \include{introductionToCyberInsurance}
 \include{currentmarketstate}
 \include{relatedwork}
+\include{newApproachToTheProblem}
 \include{graphTheory}
+\include{combiningRelatedworkAndCyberInsurance}
 \include{methodology}
 
 %Part 2: Contributions/Modelene vaare
@@ -101,6 +103,7 @@
 
 \include{futurework}
 %appendix
+
 %references
 
 
@@ -111,19 +114,21 @@
 \bibliography{referanser}
 
 %% include here the other chapters
-
+%\begin{appendices}
+%\include{Appendix}
+%\end{appendices}
 
 
 
 %% Uncomment the following if you have any appendix
-% \appendix
-% \addtocontents{toc}{%
-%  \protect\vspace{1em}% 
-%  \protect\noindent \bfseries \appendixtocname\protect\par
-%  \protect\vspace{-.5em}%
-% }
-% \renewcommand{\chaptername}{\appendixname}
+\appendix
+ \addtocontents{toc}{%
+  \protect\vspace{1em}% 
+  \protect\noindent \bfseries \appendixtocname\protect\par
+  \protect\vspace{-.5em}%
+ }
+ \renewcommand{\chaptername}{\appendixname}
 %% include below possible appendices (chapters)
-
+\include{Appendix}
 
 \end{document} 
