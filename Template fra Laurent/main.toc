@@ -111,3 +111,6 @@
 \contentsline {subparagraph}{Husk!!!}{78}{section*.90}
 \contentsline {subsection}{\numberline {7.1.1}Risk}{78}{subsection.7.1.1}
 \contentsline {chapter}{References}{81}{section*.93}
+\vspace {1em}\noindent \bfseries Appendices\par \vspace {-.5em}
+\contentsline {appendix}{\chapternumberline {A}Models}{85}{appendix.A}
+\contentsline {section}{\numberline {A.1}Model-5: Network externalities}{85}{section.A.1}
