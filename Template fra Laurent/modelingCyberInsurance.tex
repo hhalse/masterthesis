@@ -1,23 +1,13 @@
 \chapter{Modeling Cyber-Insurance }
 \label{chp:modelingCyberInsurance} 
 
-In many scenarios nodes seeks to create networks in order to directly benefit from each other. The established links might represent companies out sourcing part of their manufacturing, or cooperative agreements in the development of new software products. In addition to increase the trade-off, each of the established links represents risk of being a victim of cascading failures. The intuitive example is the spread of epidemic diseases, also node failures of a power grid and financial contagion such as the one back in 2008 was a result of cascading failures. Strategic network formation using cyber-insurance can be used to prevent such situation in addition to increase the overall payoff of participants in a clustered network.
+There are many examples of nodes needing to establish connections, one example is a company outsourcing tasks to remain competitive. This operation involves some risks, such as, will the company deliver at the reported time, to the reported costs, what happens if they fail to deliver, what if they go bankrupt etc. Basically, when deciding whether to establish a connection to a neighbor node, the payoff has to be higher in the balance between the expected earnings and the risk of the other party failing to complete the transaction.
 
-When deciding whether to establish connection to a neighbor agent, the payoff has to be higher in the balance between the expected earnings and the risk of the other party failing to complete the transaction. This is the reason why we seek to only download content from trusted peers and outlaw MC-gangs are consistently skeptical to enter into new agreements despite promising increased earnings, since the risk of undercover police are too high. 
-
-The model from \cite{contagion} described in the related work chapter introduces a model where each node benefit from direct links to other nodes. However establishing a link will expose them to a risk if the node is not protected. Information about other nodes status (in our case, insured or not) will help nodes to guarantee cliques consisting of only the insnured nodes. According to the paper, such cliques will result in super critical payoff for every node connected. 
-
-One of the problems with cyber-insurance is to define and calculate the risks, because the network structure is undefined. If an insurer where able to predict the network structure, the calculations of overall risk would be realizable, and even better if the insurer where able to force some more robust network structures to evolve. 
-Examples of such structures are as described in the graph theory chapter, scale-free network, which have been proven to be very robust against random attacks. Star-topologies, or star-like topologies, have a fixation probability that exceeds the fixation probability of circulation graphs. Star structures also have the nice property of minimizing the average path length, i.e. minimizing the cost spent on establishing links.
-In our thesis we want to find structures who can be analyzed by the insurer.
-The two main types of structures we will focus on are the clique and star-like structures. Since both of these have been identified to have calculable fixation probability. They also have other properties that are desirable for the insurer, such as the possibility of amplifying or suppress selection and drift. This is very desirable, because if the insurer is able to ensure that the nodes have a certain security level, especially the center node, then he can ensure that viruses does not spread.
-The clique has the nice property of being able to achieve super critical payoff, as showed in \cite{contagion}. 
-
-
-\subparagraph{Introduction to the modeling.}
-There are many examples of nodes needing to establish connections, one example is a company needing to out-source certain tasks to remain competitive. This outsourcing involves some risks, such as, will the company deliver at the reported time, to the reported costs, what happens if they fail to deliver, what if they go bankrupt etc. If the companies that are going to establish links(cooperative contracts), know that the other firms are insured, it will be more secure and reliable to enter into an cooperative agreement. In this way trusted cliques can evolve. The firms benefit from connecting to other insured firms, and the insurance company can offer fair prices to the insured companies, because the risk is calculable in a trusted clique.
-
-So our goal with the models are to find out how and when different networks evolve, and how the insurer can ensure that this will happen, by adjusting the parameter he can control, the insurance cost. 
+From the insurers point of view, a problem with cyber-insurance is to define and calculate risk, because the network structure is undefined. If an insurer where able to predict the network structure, the calculations of overall risk would be realizable. The situation could be even better if the insurer could force a chosen robust network structure to evolve. Hence ensuring a higher total payoff for the network.
+Examples of such structures are as described in the graph theory chapter, scale-free network, star-structures and cliques. As a summary, scale-free networks have proven to be very robust against random attacks. Star-topologies, or star-like topologies, have a fixation probability that exceeds the fixation probability of circulation graphs. Star structures also have a desirable property of minimizing the average path length, i.e. minimizing the cost spent on establishing links. Finally, the clique has a nice property of being able to achieve super critical payoff, as showed in \cite{contagion}.
+In our thesis we want to focus on the clique and star/star-like structures for the following reasons: Both have been identified to have calculable fixation probability. They also have other properties that are desirable for the insurer, such as the possibility of amplifying or suppress selection and drift. This is favorable, because if the insurer is able to ensure that the nodes have a certain security level, especially the center node, one can prevent that viruses spread to other nodes.
+ 
+Our goal with the models is to find out how and when these networks evolve, and most importantly how the insurer, by adjusting the \textit{insurance cost} can ensure that the network formation in fact will happen.
 
 In this chapter we will start out with a simple model, model 1: Initial Model, and adding new features to make the models more realistic and applicable to real world scenarios. An overview of the models we have created can be seen in Figure \ref{fig:Overview-of-models}. For some of the models we created a simulator, to show and confirm the result of our calculations. This was done for model- 2,3 and 5. 
 \begin{figure}[h]
@@ -31,9 +21,9 @@ In this chapter we will start out with a simple model, model 1: Initial Model, a
 
 As a starting point the model is highly simplified in order to show the concept of how cyber-insurance can be used to separate insured and non-insured nodes into two cliques. We assume that every node has complete network information, i.e. it knows how many nodes that exists, and whether they are insured or not. The link establishment process is bidirectional, meaning both nodes must agree to establish the connection.
 
-For the first model, we assume a set of $n$ nodes that are randomly chosen to be insured or not, as depicted in Figure \ref{fig:firstmod1}. They all get their own fixed income, and by connecting to other nodes they can increase their payoff. Non-insured nodes will have a risk of failure, which we model as an expected cost of failure. Therefore if an insured agents chooses to connect to a non-insured nodes they will also suffer from this expected cost of failure. To simplify the decision process, the model follows a rule that only allows insured to connect to other insured agents and non-insured agents can only connect with each other. The resulting graph will be two fully connected cliques, one consisting of insured agents and the other of non-insured agents, as shown in Figure  \ref{fig:firstmod2}. 
+For the first model, we assume a set of $n$ nodes that are randomly chosen to be insured or not, as depicted in Figure \ref{fig:firstmod1}. They all get their own fixed income, and by connecting to other nodes they can increase their payoff. Non-insured nodes will have a risk of failure, which we model as an expected cost of failure. Therefore, if an insured node choose to connect to non-insured nodes they will also suffer from this expected cost of failure. To simplify the decision process, the model follows a rule that only allows insured to connect to other insured agents and non-insured agents can only connect with each other. The resulting graph will be two fully connected cliques, one consisting of insured agents and the other of non-insured agents, as shown in Figure  \ref{fig:firstmod2}. 
 
-This dichotomy represents a trusted environment for the insured nodes, because they know that each node in the clique is insured against risk. These nodes will benefit from each connection without having to worry about contagious risks from the connected nodes. 
+This dichotomy represents a trusted environment for the insured nodes, because they know that each node in the clique is insured against risks. These nodes will benefit from each connection without having to worry about contagious risks from the connected nodes. 
 A node in the non-insured clique will also experience a change in payoff from the links it has established, however each of the links has a probability of failure. Hence this environment is not trusted, and a link establishment will always involve some risk. 
 
 The first model, although very simple, shows an topology where insured agents benefit from being insured, and are candidates to achieve super critical payoffs as described in \cite{contagion}.
@@ -55,14 +45,14 @@ The first model, although very simple, shows an topology where insured agents be
 \end{figure}
  
 \section{Model 2: Including Parameters}
-The first model is highly simplified and suffer from many limitations, among others it is too simple to reflect the dynamics of a real world scenario, where nodes will have different variables with different values. To improve this model we have to introduce parameters, that can be adjusted and reflects real world scenarios.
+The first model is highly simplified and suffer from many limitations, among others it is too simple to reflect the dynamics of a real world scenario, where nodes will have different variables with different values. To improve the model we have to introduce parameters, that can be adjusted and reflects real world scenarios.
 It is fair to assume that the insured nodes must pay an insurance premium, and this premium should be dependent on the number of links the node establishes. When two insured nodes establish a link between each other, they both have to pay a premium, this is to make the game more fair, and more realistic. For example if the two nodes had different insurance companies, then both companies would charge them for insuring the link.
-When a node, insured or not, establish a link to a non-insured node, this involves a risk, and this risk will be represented as an expected risk cost. However, if the changes in payoff when establishing a link is only negative, then no node would want to establish links. Thus nodes will also receive a positive change in payoff when establishing different links. 
+When a node, insured or not, establish a link to a non-insured node, risk is present. This risk will be represented as an expected risk cost. Logically, if the changes in payoff when establishing a link is only negative, then no node would want to establish links. Thus nodes will also receive a positive change in payoff when establishing links to other. Among others, this reflect the scenario when receiving benefits from being in a cooperation. 
 
-\subsection{Characteristics of the model}
+\paragraph{Characteristics of the model.}
 
 The process of establishing link is a bidirectional decision. 
- The insurance premium is $I_{l}$, the expected risk cost is represented by $r$. $\beta$ represents the benefit of establishing a link.  
+ The different parameters is denoted as follows: The insurance premium is $I_{l}$, the expected risk cost is represented by $r$. $\beta$ represents the benefit of establishing a link.  
 Table \ref{tbl:simplegamepara} presents an overview of the parameters. 
 \begin{table}[h]
 \centering
@@ -75,8 +65,8 @@ Table \ref{tbl:simplegamepara} presents an overview of the parameters.
 \end{tabular}
 \caption{\label{tbl:simplegamepara} Table showing the different parameters}
 \end{table}
-\subsubsection{Two nodes scenario}
-As a starting point lets look at the scenario involving only two nodes. In this game the strategy space of both players consist of four different strategies. A node can be insured or not, and choose whether to establish a link to the other node. I.e. the different strategies are: Be insured and establish link noted as: $IL$, 
+\subsection{Two nodes scenario}
+As a starting point for this model which includes parameters, we consider the simplest scenario involving only two nodes. In this game the strategy space of both players consist of four different strategies. A node can be insured or not, and choose whether to establish a link to the other node. I.e. the different strategies are: Be insured and establish link noted as: $IL$, 
 be insured and not establish link: $I\overline{L}$. Not insured and establish link: $\overline{I}L$, and not insured and not establish link: $\overline{IL}$. It should be noted that since the decision to establish a connection is bidirectional, both have to choose a strategy where they want to establish a link, for the link establishment to be successful. Hence we end up with the game as shown in Figure \ref{fig:FirstGameTheoryModel}.
 
 \begin{sidewaysfigure} 
@@ -86,12 +76,10 @@ be insured and not establish link: $I\overline{L}$. Not insured and establish li
 \end{sidewaysfigure}
 
 As long as both $I_{l} \text{ and } r$ is less than $\beta$, the only nash equilibrium in Figure \ref{fig:FirstGameTheoryModel} is when both nodes chooses $\overline{I}L$. If we first look at node A, we see that when node B chooses $IL$, the best response is $\overline{I}L$, because $ \beta >\beta- I_{l}$ . And since the game is symmetric, the same holds for node B. 
-When one of the nodes chooses $\overline{I}L$, the best response will be $\overline{I}L$, because $\beta - r>\beta - I_{l} - r  $. 
-And thus the only nash equilibrium is when both nodes play $\overline{I}L$.
+When one of the nodes chooses $\overline{I}L$, the best response will be $\overline{I}L$, because $\beta - r>\beta - I_{l} - r  $, and thus the only nash equilibrium is when both nodes play $\overline{I}L$.
 
-This means that two nodes will end up in a classic prisoner's dilemma
-\footnote{Prisoner's dilemma was originally framed by Merrill Flood and Melvin Dresher in 1950. The dilemma expresses a situation where two players each have two options whose output depends on the simultaneous choice made by the other. The original dilemma concerns two prisoners which separately decides whether to confess to a crime \cite{oxfordPrisonersDilemma}.
-It is a paradox in decision analysis which shows why two individuals might not cooperate, even if it is in their best interest to do so.}, where the best response is actually worse than the social optimal. In this case it is trivial to see that the social optimal scenario is for both nodes to choose $IL$, as long as $I_{l}<r$. However, the nodes will choose not to buy insurance. Or else they could risk ending up in a situation where only one of them pays the cost of insurance. 
+This means that two nodes will end up in a classic prisoner's dilemma\footnote{Prisoner's dilemma was originally framed by Merrill Flood and Melvin Dresher in 1950. The dilemma expresses a situation where two players each have two options whose output depends on the simultaneous choice made by the other. The original dilemma concerns two prisoners which separately decides whether to confess to a crime \cite{oxfordPrisonersDilemma}.
+It is a paradox in decision analysis which shows why two individuals might not cooperate, even if it is in their best interest to do so.}, where the best response is actually worse than the social optimal. In this case it is trivial to see that the social optimal scenario for both nodes to choose $IL$, as long as $I_{l}<r$. However, the nodes will choose not to buy insurance since they could risk ending up in a situation where only one of them pays the cost of insurance, and therefore only adding a cost without gaining any benefit. 
 
   
 \subparagraph{Introducing time.}
@@ -99,14 +87,14 @@ It is a paradox in decision analysis which shows why two individuals might not c
 One possibility for solving the problem where the two nodes end up choosing not to acquire insurance is to introduce a leader follower game. In this game the players does not act at the same time, but in a given order, and they can observe the other players action.
 If we consider a game with only two players, player one select strategy, insure or not, first. Then after observing this action player two chooses if he would like to insure or not. Then they choose if they would establish link or not, in the same order.
 In this type of game the leader, will benefit from a first mover advantage, because he can now force the game in the direction he prefers.
-We solve this by using backward induction on the extensiveform game, shown in Figure \ref{fig:stackelberg}, and finding all the different subgame equilibrias. We assume that Eq. (\ref{eq:stackelbergcondition}) holds. When we have worked our way back to player 1's first decision, Insure or not, we have this subgame equilibria:$(L_{1},\overline{L^{I}_{1}},\overline{L^{II}_{1}},L^{III}_{1}), (I_{2},\overline{I^{I}_{2}},L_{2}L^{I}_{2},\overline{L^{II}_{2}},L^{III}_{2})$
-This means that player 1 now what will happen if he chooses to acquire insurance or not, if he acquires, he will get payoff: $\beta-I_{l}$, if does not acquire, he gets: $\beta-r$. And as long as $I_{l}<r$, he will chose to acquire insurance, and by doing this forcing the game to end up in an equilibrium where both players acquires insurance and would like to establish link.
+We solve this by using backward induction on the extensiveform game, shown in Figure \ref{fig:stackelberg}, and finding all the different subgame equilibrias. We assume that Eq. (\ref{eq:stackelbergcondition}) holds. As we can see from figure \ref{fig:stackelberg}, when we have worked our way back to player 1's first decision, insure or not, we have the following subgame equilibria:$(L_{1},\overline{L^{I}_{1}},\overline{L^{II}_{1}},L^{III}_{1}), (I_{2},\overline{I^{I}_{2}},L_{2}L^{I}_{2},\overline{L^{II}_{2}},L^{III}_{2})$
+This means that player 1 know what will happen if he chooses to acquire insurance or not, if he acquires, he will get payoff: $\beta-I_{l}$, if does not acquire, he gets: $\beta-r$. Which means that as long as $I_{l}<r$, he will chose to acquire insurance, and by doing so forcing the game to end up in an equilibrium where both players acquires insurance and would like to establish link.
 \begin{equation}
 I_{l}<\beta \text{ and } I_{l}>\beta-r \text{ and } r<\beta
 \label{eq:stackelbergcondition}
 \end{equation}
 
-From this we see that if the insurance price are set to the right amount, the first player can force the outcome of the game to be the socially optimal outcome. 
+From this we see that if the insurance price are set to the right amount, the first player would choose to purchase insurance and will force the outcome of the game to be the socially optimal outcome. 
 The problem with this way of solving the problem is that it is very hard to solve for  multiple nodes, because the extensive form game becomes extremely complicated. And that we are forcing the nodes to act in a given order. This is not done in the other models.
  
 
