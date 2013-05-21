@@ -31,19 +31,19 @@
 \contentsline {section}{\numberline {3.3}Research Question}{22}{section.3.3}
 \contentsline {subparagraph}{NOTES. research question}{23}{section*.19}
 \contentsline {chapter}{\chapternumberline {4}Methodology}{25}{chapter.4}
-\contentsline {section}{\numberline {4.1}Graph}{25}{section.4.1}
-\contentsline {section}{\numberline {4.2}Random Graphs}{26}{section.4.2}
+\contentsline {section}{\numberline {4.1}Graphs}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}Random Graphs}{25}{section.4.2}
 \contentsline {subparagraph}{Erd\IeC {\"o}s-R\IeC {\'e}nyi Graphs.}{26}{section*.21}
 \contentsline {subparagraph}{Albert-Barab\IeC {\'a}si Graphs.}{27}{section*.22}
 \contentsline {section}{\numberline {4.3}Game Theory}{28}{section.4.3}
 \contentsline {subparagraph}{One shot game}{28}{section*.24}
-\contentsline {subparagraph}{Nash Equilibrium}{29}{section*.25}
+\contentsline {subparagraph}{Nash Equilibrium}{28}{section*.25}
 \contentsline {subparagraph}{Stackelberg}{29}{section*.26}
 \contentsline {subparagraph}{Subgame-perfect equilibrium}{29}{section*.27}
 \contentsline {subparagraph}{Socially optimal}{29}{section*.28}
 \contentsline {subparagraph}{Price of Anarchy}{29}{section*.29}
 \contentsline {subparagraph}{Bayesian game}{29}{section*.30}
-\contentsline {section}{\numberline {4.4}Netlogo}{30}{section.4.4}
+\contentsline {section}{\numberline {4.4}Netlogo}{29}{section.4.4}
 \contentsline {chapter}{\chapternumberline {5}Modeling Cyber-Insurance }{33}{chapter.5}
 \contentsline {subparagraph}{Introduction to the modeling.}{34}{section*.33}
 \contentsline {section}{\numberline {5.1}Model 1: Initial Model }{34}{section.5.1}
@@ -95,7 +95,7 @@
 \contentsline {subparagraph}{Example structures from the simulation.}{69}{figure.caption.84}
 \contentsline {chapter}{\chapternumberline {6}Summary}{73}{chapter.6}
 \contentsline {section}{\numberline {6.1}Discussion}{73}{section.6.1}
-\contentsline {subparagraph}{Limitations and future work}{75}{section*.86}
+\contentsline {subparagraph}{Limitations and future work}{76}{section*.86}
 \contentsline {section}{\numberline {6.2}Conclusion}{76}{section.6.2}
 \contentsline {subparagraph}{AVOID this in conclsuion}{77}{section*.87}
 \contentsline {chapter}{References}{79}{section*.89}
