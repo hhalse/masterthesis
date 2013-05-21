@@ -31,17 +31,17 @@
 \contentsline {section}{\numberline {3.3}Research Question}{22}{section.3.3}
 \contentsline {subparagraph}{NOTES. research question}{23}{section*.19}
 \contentsline {chapter}{\chapternumberline {4}Methodology}{25}{chapter.4}
-\contentsline {section}{\numberline {4.1}Graph}{25}{section.4.1}
-\contentsline {section}{\numberline {4.2}Random Graphs}{26}{section.4.2}
+\contentsline {section}{\numberline {4.1}Graphs}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}Random Graphs}{25}{section.4.2}
 \contentsline {subparagraph}{Erd\IeC {\"o}s-R\IeC {\'e}nyi Graphs.}{26}{section*.21}
 \contentsline {subparagraph}{Albert-Barab\IeC {\'a}si Graphs.}{27}{section*.22}
 \contentsline {section}{\numberline {4.3}Game Theory}{28}{section.4.3}
 \contentsline {subparagraph}{One shot game}{28}{section*.24}
-\contentsline {subparagraph}{Nash Equilibrium}{29}{section*.25}
+\contentsline {subparagraph}{Nash Equilibrium}{28}{section*.25}
 \contentsline {subparagraph}{Stackelberg}{29}{section*.26}
 \contentsline {subparagraph}{Subgame-perfect equilibrium}{29}{section*.27}
 \contentsline {subparagraph}{Socially optimal}{29}{section*.28}
-\contentsline {subparagraph}{Price of stability}{29}{section*.29}
+\contentsline {subparagraph}{Price of Anarchy}{29}{section*.29}
 \contentsline {subparagraph}{Bayesian game}{29}{section*.30}
 \contentsline {section}{\numberline {4.4}Netlogo}{29}{section.4.4}
 \contentsline {chapter}{\chapternumberline {5}Modeling Cyber-Insurance }{33}{chapter.5}
@@ -94,8 +94,14 @@
 \contentsline {subparagraph}{Example structures from the simulation.}{68}{figure.caption.83}
 \contentsline {chapter}{\chapternumberline {6}Summary}{73}{chapter.6}
 \contentsline {section}{\numberline {6.1}Discussion}{73}{section.6.1}
+<<<<<<< HEAD
 \contentsline {subparagraph}{Limitations and future work}{75}{section*.85}
+=======
+\contentsline {subparagraph}{Limitations and future work}{76}{section*.86}
+>>>>>>> a2c3df9cfbd794998f174c7c2dfcc1cc2a2bf16b
 \contentsline {section}{\numberline {6.2}Conclusion}{76}{section.6.2}
 \contentsline {subparagraph}{AVOID this in conclsuion}{77}{section*.86}
 \contentsline {chapter}{References}{79}{section*.88}
 \vspace {1em}\noindent \bfseries Appendices\par \vspace {-.5em}
+\contentsline {appendix}{\chapternumberline {A}Models}{83}{appendix.A}
+\contentsline {section}{\numberline {A.1}Model-5: Network externalities}{83}{section.A.1}
