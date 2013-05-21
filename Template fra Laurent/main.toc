@@ -31,17 +31,17 @@
 \contentsline {section}{\numberline {3.3}Research Question}{22}{section.3.3}
 \contentsline {subparagraph}{NOTES. research question}{23}{section*.19}
 \contentsline {chapter}{\chapternumberline {4}Methodology}{25}{chapter.4}
-\contentsline {section}{\numberline {4.1}Graph}{25}{section.4.1}
-\contentsline {section}{\numberline {4.2}Random Graphs}{26}{section.4.2}
+\contentsline {section}{\numberline {4.1}Graphs}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}Random Graphs}{25}{section.4.2}
 \contentsline {subparagraph}{Erd\IeC {\"o}s-R\IeC {\'e}nyi Graphs.}{26}{section*.21}
 \contentsline {subparagraph}{Albert-Barab\IeC {\'a}si Graphs.}{27}{section*.22}
 \contentsline {section}{\numberline {4.3}Game Theory}{28}{section.4.3}
 \contentsline {subparagraph}{One shot game}{28}{section*.24}
-\contentsline {subparagraph}{Nash Equilibrium}{29}{section*.25}
+\contentsline {subparagraph}{Nash Equilibrium}{28}{section*.25}
 \contentsline {subparagraph}{Stackelberg}{29}{section*.26}
 \contentsline {subparagraph}{Subgame-perfect equilibrium}{29}{section*.27}
 \contentsline {subparagraph}{Socially optimal}{29}{section*.28}
-\contentsline {subparagraph}{Price of stability}{29}{section*.29}
+\contentsline {subparagraph}{Price of Anarchy}{29}{section*.29}
 \contentsline {subparagraph}{Bayesian game}{29}{section*.30}
 \contentsline {section}{\numberline {4.4}Netlogo}{29}{section.4.4}
 \contentsline {chapter}{\chapternumberline {5}Modeling Cyber-Insurance }{33}{chapter.5}
@@ -50,24 +50,24 @@
 \contentsline {paragraph}{Characteristics of the model.}{36}{section*.35}
 \contentsline {subsection}{\numberline {5.2.1}Two nodes scenario}{36}{subsection.5.2.1}
 \contentsline {subparagraph}{Introducing time.}{38}{section*.38}
-\contentsline {subsection}{\numberline {5.2.2}Multiple nodes}{38}{subsection.5.2.2}
-\contentsline {subsubsection}{Assumptions}{38}{section*.40}
+\contentsline {subsection}{\numberline {5.2.2}Multiple nodes}{39}{subsection.5.2.2}
+\contentsline {subsubsection}{Assumptions}{39}{section*.40}
 \contentsline {subsubsection}{Analysis}{40}{section*.41}
 \contentsline {subparagraph}{Insured to insured.}{40}{section*.42}
 \contentsline {subparagraph}{Non-insured to insured.}{40}{section*.43}
 \contentsline {subparagraph}{Insured to non-insured.}{40}{section*.44}
-\contentsline {subparagraph}{Non-insured to Non-insured.}{40}{section*.45}
+\contentsline {subparagraph}{Non-insured to Non-insured.}{41}{section*.45}
 \contentsline {subparagraph}{Forming a trusted clique.}{41}{section*.46}
 \contentsline {subsection}{\numberline {5.2.3}Result and findings}{41}{subsection.5.2.3}
 \contentsline {subparagraph}{Stability and efficiency}{41}{section*.47}
 \contentsline {subsubsection}{Simulation of the results}{42}{section*.48}
-\contentsline {section}{\numberline {5.3}Model 2b: Model with incomplete information}{43}{section.5.3}
+\contentsline {section}{\numberline {5.3}Model 2b: Model with incomplete information}{44}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Analysis}{44}{subsection.5.3.1}
 \contentsline {subparagraph}{Node 2 is insured.}{44}{section*.51}
-\contentsline {subparagraph}{Separating equilibrium.}{44}{section*.53}
+\contentsline {subparagraph}{Separating equilibrium.}{45}{section*.53}
 \contentsline {subparagraph}{Pooling equilibrium.}{46}{section*.54}
 \contentsline {subparagraph}{Node 2 not insured.}{46}{section*.55}
-\contentsline {subparagraph}{Separating equilibrium.}{46}{section*.57}
+\contentsline {subparagraph}{Separating equilibrium.}{47}{section*.57}
 \contentsline {subparagraph}{Pooling equilibrium.}{48}{section*.58}
 \contentsline {subparagraph}{Result and findings.}{48}{section*.59}
 \contentsline {section}{\numberline {5.4}Model 3: Including maximum node degree and bonus}{49}{section.5.4}
@@ -94,7 +94,7 @@
 \contentsline {subparagraph}{Example structures from the simulation.}{68}{figure.caption.83}
 \contentsline {chapter}{\chapternumberline {6}Summary}{73}{chapter.6}
 \contentsline {section}{\numberline {6.1}Discussion}{73}{section.6.1}
-\contentsline {subparagraph}{Limitations and future work}{75}{section*.85}
+\contentsline {subparagraph}{Limitations and future work}{76}{section*.85}
 \contentsline {section}{\numberline {6.2}Conclusion}{76}{section.6.2}
 \contentsline {subparagraph}{AVOID this in conclsuion}{77}{section*.86}
 \contentsline {chapter}{References}{79}{section*.88}

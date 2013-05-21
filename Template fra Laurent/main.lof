@@ -12,8 +12,8 @@
 \addvspace {10pt}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces General graph \cite {audestad}.\relax }}{26}{figure.caption.20}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Forming a A-B graph in 15 generations \cite {audestad}.\relax }}{28}{figure.caption.23}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces The figure shows a screen capture of netlogo, while we are running one of our simulations.\relax }}{31}{figure.caption.31}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces The figure shows how the code interface in netlogo looks like.\relax }}{32}{figure.caption.32}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces The figure shows a screen capture of netlogo, while we are running one of our simulations.\relax }}{30}{figure.caption.31}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces The figure shows how the code interface in netlogo looks like.\relax }}{31}{figure.caption.32}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces The figure show an overview of the different models we have created, and how they relate to each other. For every step, there are added some new features to the model.\relax }}{34}{figure.caption.33}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Shows how agents connects to eachother according to model described in section \ref {section:verysimplemodel}.\relax }}{35}{figure.caption.34}
