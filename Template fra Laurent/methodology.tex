@@ -92,7 +92,15 @@ In Bayesian games, information about the other players characteristics is incomp
 
 A pooling equilibrium, is a equilibrium where all both types of the agent chooses the same action, i.e. the principal is not able to distinguish the two types. 
 A separating equilibrium is an equilibrium where the agents of different types, choose different actions, and thus the principal is able to determine the agents type by observing his actions.
-
+\subparagraph{Pairwise stability.}
+A graph is pairwise stable if:
+ \begin{enumerate}
+\item \textit{No node wishes to delete a link he is involved in.}
+\item \textit{If there exists a node who want to add a link, then the node on the other end of the link do not want to establish this link.}
+\end{enumerate} 
+Pairwise stable networks are robust to one-link deviations, where link
+severance is unilateral, while link creation is bilateral and under mutual consent of the two involved
+players \cite{calvo2009pairwise}.
 
 \section{Netlogo}
 In addition to analyzing the different models with game theory, we created a simulator for the models, in a program called Netlogo. Netlogo is a programmable modeling environment for simulating natural and social phenomena. It is well suited for modeling complex systems developing over time \cite{netlogo}.

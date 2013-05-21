@@ -149,6 +149,12 @@ Matthew~O Jackson and Asher Wolinsky.
 \newblock A strategic model of social and economic networks.
 \newblock {\em Journal of economic theory}, 71(1):44--74, 1996.
 
+\bibitem[LB09]{lelarge2009economic}
+Mark Lelarge and Jean Bolot.
+\newblock Economic incentives to increase security in the internet: The case
+  for insurance.
+\newblock In {\em INFOCOM 2009, IEEE}, pages 1494--1502. IEEE, 2009.
+
 \bibitem[LHN05]{lieberman2005evolutionary}
 Erez Lieberman, Christoph Hauert, and Martin~A Nowak.
 \newblock Evolutionary dynamics on graphs.
@@ -195,17 +201,18 @@ Ranjan Pal, Leana Golubchik, and Konstantinos Psounis.
 \newblock In {\em Decision and Game Theory for Security}, pages 131--150.
   Springer, 2011.
 
-\bibitem[PH]{paldifferentiating}
-Ranjan Pal and Pan Hui.
-\newblock On differentiating cyber-insurance contracts a topological
-  perspective.
-
 \bibitem[PH12]{pal2012cyberinsurance}
 Ranjan Pal and Pan Hui.
 \newblock Cyberinsurance for cybersecurity a topological take on modulating
   insurance premiums.
 \newblock {\em ACM SIGMETRICS Performance Evaluation Review}, 40(3):86--88,
   2012.
+
+\bibitem[PH13]{paldifferentiating}
+Ranjan Pal and Pan Hui.
+\newblock On differentiating cyber-insurance contracts a topological
+  perspective.
+\newblock {\em Internet Management Conference}, 2013.
 
 \bibitem[PpD12]{Cyberworkshop}
 National Protection and U.S. Department of Homeland~Security programs
