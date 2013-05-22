@@ -62,49 +62,45 @@
 \contentsline {subparagraph}{Stability and efficiency}{42}{section*.47}
 \contentsline {subsubsection}{Simulation of the results}{42}{section*.48}
 \contentsline {section}{\numberline {5.3}Model 2b: Model with incomplete information}{44}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Analysis}{44}{subsection.5.3.1}
-\contentsline {subparagraph}{Node 2 is insured.}{44}{section*.51}
-\contentsline {subparagraph}{Separating equilibrium.}{45}{section*.53}
-\contentsline {subparagraph}{Pooling equilibrium.}{46}{section*.54}
-\contentsline {subparagraph}{Node 2 not insured.}{47}{section*.55}
-\contentsline {subparagraph}{Separating equilibrium.}{47}{section*.57}
-\contentsline {subparagraph}{Pooling equilibrium.}{48}{section*.58}
-\contentsline {subparagraph}{Result and findings.}{49}{section*.59}
-\contentsline {section}{\numberline {5.4}Model 3: Including maximum node degree and bonus}{49}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Analysis}{50}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Result and findings}{51}{subsection.5.4.2}
-\contentsline {subparagraph}{Consequences of not reaching required number of edges.}{53}{section*.60}
-\contentsline {subparagraph}{Efficiency and Stability.}{53}{section*.61}
-\contentsline {subsubsection}{Simulation of the results}{54}{section*.62}
-\contentsline {section}{\numberline {5.5}Model 4: Including bulk insurance discount}{55}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Analysis}{56}{subsection.5.5.1}
-\contentsline {subsubsection}{Discount model}{56}{section*.65}
-\contentsline {subparagraph}{Result and findings}{57}{section*.66}
-\contentsline {subparagraph}{Stability and efficiency}{57}{section*.67}
-\contentsline {subsubsection}{Discount and Bonus model}{58}{section*.68}
-\contentsline {subsection}{\numberline {5.5.2}Result and findings}{59}{subsection.5.5.2}
-\contentsline {section}{\numberline {5.6}Model 5: Network externalities}{59}{section.5.6}
-\contentsline {subparagraph}{Example:}{60}{section*.70}
-\contentsline {subsection}{\numberline {5.6.1}Insurance and connection game}{62}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Homogenous symmetric connection game}{62}{subsection.5.6.2}
-\contentsline {subparagraph}{Star not possible with high \textit {n}.}{63}{section*.72}
-\contentsline {subparagraph}{Bulk insurance.}{63}{section*.74}
-\contentsline {subsubsection}{Results and findings}{65}{section*.75}
-\contentsline {subparagraph}{Price of Anarchy.}{67}{section*.80}
-\contentsline {subparagraph}{Example structures from the simulation.}{69}{figure.caption.83}
-\contentsline {chapter}{\chapternumberline {6}Summary}{73}{chapter.6}
-\contentsline {section}{\numberline {6.1}Discussion}{73}{section.6.1}
-\contentsline {subparagraph}{Limitations and future work}{76}{section*.85}
-\contentsline {section}{\numberline {6.2}Conclusion}{76}{section.6.2}
-\contentsline {subparagraph}{NOTATER.....AVOID this in conclsuion}{77}{section*.86}
-\contentsline {chapter}{References}{79}{section*.88}
+\contentsline {subparagraph}{Result and findings.}{44}{section*.51}
+\contentsline {section}{\numberline {5.4}Model 3: Including maximum node degree and bonus}{45}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Analysis}{46}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Result and findings}{47}{subsection.5.4.2}
+\contentsline {subparagraph}{Consequences of not reaching required number of edges.}{48}{section*.52}
+\contentsline {subparagraph}{Efficiency and Stability.}{49}{section*.53}
+\contentsline {subsubsection}{Simulation of the results}{49}{section*.54}
+\contentsline {section}{\numberline {5.5}Model 4: Including bulk insurance discount}{50}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Analysis}{52}{subsection.5.5.1}
+\contentsline {subsubsection}{Discount model}{52}{section*.57}
+\contentsline {subparagraph}{Result and findings}{53}{section*.58}
+\contentsline {subparagraph}{Stability and efficiency}{53}{section*.59}
+\contentsline {subsubsection}{Discount and Bonus model}{53}{section*.60}
+\contentsline {subsection}{\numberline {5.5.2}Result and findings}{54}{subsection.5.5.2}
+\contentsline {section}{\numberline {5.6}Model 5: Network externalities}{55}{section.5.6}
+\contentsline {subparagraph}{Example:}{56}{section*.62}
+\contentsline {subsection}{\numberline {5.6.1}Insurance and connection game}{57}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Homogenous symmetric connection game}{58}{subsection.5.6.2}
+\contentsline {subparagraph}{Star not possible with high \textit {n}.}{59}{section*.64}
+\contentsline {subparagraph}{Bulk insurance.}{59}{section*.66}
+\contentsline {subsubsection}{Results and findings}{61}{section*.67}
+\contentsline {subparagraph}{Price of Anarchy.}{64}{section*.72}
+\contentsline {subparagraph}{Example structures from the simulation.}{65}{figure.caption.75}
+\contentsline {chapter}{\chapternumberline {6}Summary}{69}{chapter.6}
+\contentsline {section}{\numberline {6.1}Discussion}{69}{section.6.1}
+\contentsline {subparagraph}{Limitations and future work}{72}{section*.77}
+\contentsline {section}{\numberline {6.2}Conclusion}{73}{section.6.2}
+\contentsline {subparagraph}{NOTATER.....AVOID this in conclsuion}{74}{section*.78}
+\contentsline {chapter}{References}{75}{section*.80}
 \vspace {1em}\noindent \bfseries Appendices\par \vspace {-.5em}
-<<<<<<< HEAD
-=======
-\contentsline {appendix}{\chapternumberline {A}Analysis}{83}{appendix.A}
-\contentsline {section}{\numberline {A.1}Analysis of model-2b: Incomplete information}{83}{section.A.1}
+\contentsline {appendix}{\chapternumberline {A}Analysis}{79}{appendix.A}
+\contentsline {section}{\numberline {A.1}Analysis of model-2b: Incomplete information}{79}{section.A.1}
+\contentsline {subparagraph}{Node 2 is insured.}{79}{section*.81}
+\contentsline {subparagraph}{Separating equilibrium.}{80}{section*.83}
+\contentsline {subparagraph}{Pooling equilibrium.}{81}{section*.84}
+\contentsline {subparagraph}{Node 2 not insured.}{81}{section*.85}
+\contentsline {subparagraph}{Separating equilibrium.}{81}{section*.87}
+\contentsline {subparagraph}{Pooling equilibrium.}{83}{section*.88}
 \contentsline {appendix}{\chapternumberline {B}Simulation models}{85}{appendix.B}
 \contentsline {section}{\numberline {B.1}Model 2: Including parameters}{85}{section.B.1}
 \contentsline {section}{\numberline {B.2}Model 3: Including maximum node degree and bonus}{88}{section.B.2}
 \contentsline {section}{\numberline {B.3}Model 5: Network externalities}{93}{section.B.3}
->>>>>>> lokal
