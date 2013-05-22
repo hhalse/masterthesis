@@ -8,20 +8,19 @@ A level-1 auxiliary file: graphTheory.aux
 A level-1 auxiliary file: methodology.aux
 A level-1 auxiliary file: modelingCyberInsurance.aux
 A level-1 auxiliary file: SummaryOfResults.aux
-A level-1 auxiliary file: futurework.aux
 The style file: alpha.bst
 A level-1 auxiliary file: Appendix.aux
 Database file #1: referanser.bib
-Repeated entry---line 214 of file referanser.bib
+Repeated entry---line 249 of file referanser.bib
  : @article{lieberman2005evolutionary
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 295 of file referanser.bib
+Repeated entry---line 330 of file referanser.bib
  : @article{jackson2005survey
  :                           ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "netlogo" isn't style-file defined
---line 372 of file referanser.bib
+--line 403 of file referanser.bib
 Too many commas in name 1 of "Garas, A., Argyrakis, P." for entry greekStockMarket
 while executing---line 1185 of file alpha.bst
 Too many commas in name 1 of "Garas, A., Argyrakis, P." for entry greekStockMarket
@@ -82,7 +81,5 @@ while executing---line 1250 of file alpha.bst
 Warning--empty journal in greekStockMarket
 Warning--empty chapter and pages in mehr1980principles
 Warning--empty journal in solutiontoinfoasym
-Warning--empty journal in paldifferentiating
-Warning--empty year in paldifferentiating
 Warning--empty journal in robinson2012incentives
 (There were 30 error messages)
