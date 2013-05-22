@@ -11,16 +11,16 @@ A level-1 auxiliary file: SummaryOfResults.aux
 The style file: alpha.bst
 A level-1 auxiliary file: Appendix.aux
 Database file #1: referanser.bib
-Repeated entry---line 221 of file referanser.bib
+Repeated entry---line 249 of file referanser.bib
  : @article{lieberman2005evolutionary
  :                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 302 of file referanser.bib
+Repeated entry---line 330 of file referanser.bib
  : @article{jackson2005survey
  :                           ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "netlogo" isn't style-file defined
---line 382 of file referanser.bib
+--line 403 of file referanser.bib
 Too many commas in name 1 of "Garas, A., Argyrakis, P." for entry greekStockMarket
 while executing---line 1185 of file alpha.bst
 Too many commas in name 1 of "Garas, A., Argyrakis, P." for entry greekStockMarket

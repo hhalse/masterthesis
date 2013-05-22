@@ -21,6 +21,12 @@ Jan~A. Audestand.
   \url{http://www.item.ntnu.no/_media/academics/courses/ttm6/vulnerability.pdf}.
 \newblock Accessed: 20/02/2013.
 
+\bibitem[BK06]{bohme2006models}
+Rainer B{\"o}hme and Gaurav Kataria.
+\newblock Models and measures for correlation in cyber-insurance.
+\newblock In {\em Fifth Workshop on the Economics of Information Security},
+  2006.
+
 \bibitem[BL08a]{bolot2008cyber}
 Jean Bolot and Marc Lelarge.
 \newblock Cyber insurance as an incentive for internet security.
@@ -63,6 +69,11 @@ RTM~Insurance Brokers.
 R.~B{\"o}hme and G.~Schwartz.
 \newblock Modeling cyber-insurance: Towards a unifying framework.
 \newblock {\em Proceedings of GameSec}, 2010, 2010.
+
+\bibitem[CA{\.I}09]{calvo2009pairwise}
+Antoni Calv{\'o}-Armengol and Rahmi {\.I}lk{\i}l{\i}{\c{c}}.
+\newblock Pairwise-stability and nash equilibria in network formation.
+\newblock {\em International Journal of Game Theory}, 38(1):51--79, 2009.
 
 \bibitem[CfAPA]{airlineRoutes}
 CAPA Centre~for Asia Pacific~Aviation.
@@ -126,6 +137,13 @@ A.~Galeotti, S.~Goyal, M.O. Jackson, F.~Vega-Redondo, and L.~Yariv.
 \newblock Network games.
 \newblock {\em The review of economic studies}, 77(1):218--244, 2010.
 
+\bibitem[HH07]{herath2007cyber}
+Hemantha~S Herath and Tejaswini~C Herath.
+\newblock Cyber-insurance: Copula pricing framework and implications for risk
+  management.
+\newblock In {\em Workshop on the Economics of Information Security (WEIS),
+  Carnegie Mellon University, Pittsburgh, PA}, 2007.
+
 \bibitem[Ins11]{ccost}
 Ponemon Institute.
 \newblock Second annual cost of cyber crime study, benchmark study of u.s:
@@ -148,6 +166,11 @@ M.O. Jackson.
 Matthew~O Jackson and Asher Wolinsky.
 \newblock A strategic model of social and economic networks.
 \newblock {\em Journal of economic theory}, 71(1):44--74, 1996.
+
+\bibitem[KH03]{kunreuther2003interdependent}
+Howard Kunreuther and Geoffrey Heal.
+\newblock Interdependent security.
+\newblock {\em Journal of Risk and Uncertainty}, 26(2-3):231--249, 2003.
 
 \bibitem[LB09]{lelarge2009economic}
 Mark Lelarge and Jean Bolot.
@@ -234,6 +257,12 @@ Stratic Risk.
   March 2012.
 \newblock Accessed: 31/01/2013.
 
+\bibitem[RKK08]{radosavac2008using}
+Svetlana Radosavac, James Kempf, and Ula{\c{s}}~C Kozat.
+\newblock Using insurance to increase internet security.
+\newblock In {\em Proceedings of the 3rd international workshop on Economics of
+  networked systems}, pages 43--48. ACM, 2008.
+
 \bibitem[Rob12]{robinson2012incentives}
 N.~Robinson.
 \newblock Incentives and barriers of the cyber insurance market in europe.
@@ -245,6 +274,12 @@ Sparebank1.
 \newblock
   \url{https://www2.sparebank1.no/sr-bank/forsikring/skadeforsikring/fa-rabatt-pa-forsikringer/}.
 \newblock Accessed: 09/04/2013.
+
+\bibitem[SSFW10]{shetty2010competitive}
+Nikhil Shetty, Galina Schwartz, Mark Felegyhazi, and Jean Walrand.
+\newblock Competitive cyber-insurance and internet security.
+\newblock In {\em Economics of Information Security and Privacy}, pages
+  229--247. Springer, 2010.
 
 \bibitem[Wat08]{watson2008strategy}
 Joel Watson.
