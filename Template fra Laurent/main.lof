@@ -27,10 +27,10 @@
 \contentsline {figure}{\numberline {5.10}{\ignorespaces To possible outcomes, when insured nodes are willing to take a risk of connecting to non-insured nodes, to receive their bonus. Figure $a$ shows a scenario where one non-insured node has connected to more than one insured node, thus not a socially optimal outcome. Figure $b$ shows the optimal outcome. \relax }}{55}{figure.caption.64}
 \contentsline {figure}{\numberline {5.11}{\ignorespaces Four nodes interconnected with each other.\relax }}{60}{figure.caption.69}
 \contentsline {figure}{\numberline {5.12}{\ignorespaces The resulting network after a simulation with the parameters $\beta =0.9, I_{l}=0.5$.\relax }}{62}{figure.caption.71}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces The resulting network after a simulation with the parameters described earlier and ten nodes.\relax }}{63}{figure.caption.73}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces The resulting network after a simulation with the parameters described earlier and 10 nodes.\relax }}{64}{figure.caption.73}
 \contentsline {figure}{\numberline {5.14}{\ignorespaces Shows the probability of the network ending up in a star given different critical degrees.\relax }}{66}{figure.caption.76}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Shows the probability of the network ending up in a clique, given different critical degrees.\relax }}{66}{figure.caption.77}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Shows the comparison between the probability of the network ending up in a star (blue) or clique (red), given different critical degrees.\relax }}{67}{figure.caption.78}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Shows the probability of the network ending up in a clique, given different critical degrees.\relax }}{67}{figure.caption.77}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Shows the comparison between the probability of the network ending up in a star (blue) or clique (red), given different critical degrees.\relax }}{68}{figure.caption.78}
 \contentsline {figure}{\numberline {5.17}{\ignorespaces Shows the probability of the network ending up in a scale-free structure, given different critical degrees.\relax }}{68}{figure.caption.79}
 \contentsline {figure}{\numberline {5.18}{\ignorespaces Shows the price of anarchy as a function of critical degree\relax }}{69}{figure.caption.81}
 \contentsline {figure}{\numberline {5.19}{\ignorespaces Two different outcomes of the simulations where the critical degree is low\relax }}{70}{figure.caption.83}
