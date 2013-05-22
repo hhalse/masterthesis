@@ -1,13 +1,13 @@
 \section{Model 2b: Model with incomplete information}
 \label{Model with incomplete information}
-An interesting scenario to model is when the nodes lack information about the other nodes type. The way we model this is by letting nature selecting whether a player is insured or not, a node is insured with probability $p$, and not insured with probability $1-p$. 
-All nodes know their own type, but in the link establishment process there are only one node who knows the type of the other. The other node only know the probability of the other node being insured or not. 
-We want to see if it is possible for the nodes with incomplete information to distinguish an insured node from a non-insured one. 
+Although, we previously mentioned that we chose to assume complete information about other nodes type. We wanted to get an impression of the complexity when modeling a scenario where some nodes lack information about the other nodes type. The way we model this is by letting nature selecting whether a player is insured or not, a node is insured with probability $p$, and not insured with probability $1-p$. 
+All nodes know their own type, but in the link establishment process only one node knows the type of the other. The other node only know the probability of the other node being insured or not. 
+We want to see if it is possible for the nodes with incomplete information to distinguish an insured node from a non-insured one, and then be able to follow the same procedures as in the other nodes. 
 \subsection{Analysis}
-When facing a game like this, there exists two types of equilibriums, one where node 2 is able to seperate node 1's type, called separating equilibrium. And another where he is not able to separate them, called pooling equilibrium. 
+When facing a game like this, there exists two types of equilibriums, one where node 2 is able to seperate node 1's type, called separating equilibrium. The other is where he is not able to separate them, called pooling equilibrium. 
 We have two types of node, type 1 $(t1)$: insured and type 2 $(t2)$: not insured. 
-\subparagraph{Node 2 is insured.}
-There are two different games to model, one where node 2 is insured, and the other where he is not insured. We start with the one where he is insured.
+
+\subparagraph{Node 2 is insured.}There are two different games to model, one where node 2 is insured, and the other where he is not insured. We start with the one where he is insured.
 Node 1's type is chosen randomly by nature, with probability $p$ of being type 1 and $1-p$ of being type 2.
 \begin{figure}[h]
 \centering
@@ -90,7 +90,7 @@ L ,& \text{if } \beta + rp-r\geq I_{l} \\
 N ,& \text{if } \beta +rp -r < I_{l} 
 \end{cases}
 \end{equation}
-By using this best response function, node 1 sees that as long as $\beta>I_{l}$ he will never deviate from node 2's beliefs. And it is a pooling equilibrium where both nodes choose $L$, as long as $\beta>I_{l}$ and $\beta +rp-r>I_{l}$.
+By using this best response function, node 1 sees that as long as $\beta>I_{l}$ he will never deviate from node 2's beliefs. Hence, it is a pooling equilibrium where both nodes choose $L$, as long as $\beta>I_{l}$ and $\beta +rp-r>I_{l}$.
 We also know that: $rp-r\leq0$ is allways true, and thus there also exists a pooling equilibrium where node 1, plays $L$, and node 2, plays $N$. This equilibrium will occur when $\beta>I_{l}$ and $\beta+rp-r<I_{l}$.
 \subparagraph{Node 2 not insured.}
 Here we will analyze the game when node 2 is not insured.
@@ -125,7 +125,8 @@ BR_{2}(L)= L
 \end{equation}
 To see if this is an equilibrium, we have to see if node 1 has any incentive to deviate. 
 We need to check for the two types of node 1:
-If $\beta>r$ then type 2 would deviate, because he could achieve a higher payoff by playing $L$, given the beliefs of node 2 in Eq.(\ref{eq:node2beliefnotinsured}). So we know that for this to be an equilibrium, \begin{equation}
+If $\beta>r$ then type 2 would deviate, because he could achieve a higher payoff by playing $L$, given the beliefs of node 2 in Eq.(\ref{eq:node2beliefnotinsured}). Hence we know that for this to be an equilibrium, the following has to hold
+\begin{equation}
 \beta < r
 \label{eq:sepcondition}
 \end{equation}  
@@ -154,7 +155,7 @@ N ,& \text{if } \beta<r
 \end{cases}
 \end{equation}
 For this to be a separating equilibrium, we need to see if node 1 would deviate from node 2's beliefs. 
-Type $t1$ will not deviate as long as $\beta<I_{l}+r$. Type $t2$ will not deviate if $\beta \geq r$, if this condition is true, we see that node 2 will play $L$. I.e. the only separating equilibrium that exists is when node 2 plays $L$, node 1 of type $t1$ plays $N$ and node 1 of type$t2$ plays $L$.
+Type $t1$ will not deviate as long as $\beta<I_{l}+r$. Type $t2$ will not deviate if $\beta \geq r$, if this condition is true, we see that node 2 will play $L$. I.e. the only separating equilibrium that exists is when node 2 plays $L$, node 1 of type $t1$ plays $N$ and node 1 of type $t2$ plays $L$.
 For this to happen we get this condition on $\beta$. \begin{equation}
 I_{l}+r>\beta>r
 \label{eq:conditionseparatingequilibrium}
@@ -184,7 +185,7 @@ BR_{2}(L)=
 \end{equation}
 Will node 1 deviate knowing this?
 Type $t1$ will not deviate as long as: $\beta - I_{l} \geq r$, and type $t2$ will not deviate as long as $\beta >r$.
-From this we get this final condition, if $\beta-I_{l}\geq r$ then there exists a pooling equilibrium where both types of node 1 plays $L$ and node 2 also play $L$.
+From this we get the final condition, if $\beta-I_{l}\geq r$ then there exists a pooling equilibrium where both types of node 1 plays $L$ and node 2 also play $L$.
 From this we see that the other pooling equilibrium where both types of node 1, plays $N$, will only occur when $\beta<r \text{ and } \beta<I_l+r$.
 
 \subparagraph{Result and findings.}
@@ -196,3 +197,4 @@ We where also able to find some pooling equilibriums, if the node with incomplet
 A pooling equilibrium where both nodes want to establish a link, occur when node 2 is not insured and $\beta-I_{l}>r$. If $\beta<r$ there will be a pooling equilibrium where both players choose not to establish link. 
 
 What this shows us is that when one player suffer from incomplete information, it is no longer possible for the insurer to force a network to evolve into a clique of only insured nodes. It will also be harder to establish links, because one player must act on beliefs.  
+Therefore, we chose not to include the simulation of this model, since the result would only be a clique of non-insured or a giant clique of every node. 
