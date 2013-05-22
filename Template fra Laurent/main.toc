@@ -100,5 +100,9 @@
 \contentsline {subparagraph}{AVOID this in conclsuion}{77}{section*.87}
 \contentsline {chapter}{References}{79}{section*.89}
 \vspace {1em}\noindent \bfseries Appendices\par \vspace {-.5em}
-\contentsline {appendix}{\chapternumberline {A}Models}{83}{appendix.A}
-\contentsline {section}{\numberline {A.1}Model-5: Network externalities}{83}{section.A.1}
+\contentsline {appendix}{\chapternumberline {A}Analysis}{83}{appendix.A}
+\contentsline {section}{\numberline {A.1}Analysis of model-2b: Incomplete information}{83}{section.A.1}
+\contentsline {appendix}{\chapternumberline {B}Simulation models}{85}{appendix.B}
+\contentsline {section}{\numberline {B.1}Model 2: Including parameters}{85}{section.B.1}
+\contentsline {section}{\numberline {B.2}Model 3: Including maximum node degree and bonus}{88}{section.B.2}
+\contentsline {section}{\numberline {B.3}Model 5: Network externalities}{93}{section.B.3}
