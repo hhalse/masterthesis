@@ -5,15 +5,15 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Caption for LOF}}{16}{figure.caption.13}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Caption for LOF}}{17}{figure.caption.15}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces A star-topology. \relax }}{20}{figure.caption.16}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Figure \ref {fig:optequi} shows the socially optimal equilibrium, and Figure \ref {fig:notoptequi} shows the non optimal equilibrium.\relax }}{21}{figure.caption.17}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Caption for LOF}}{16}{figure.caption.12}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Caption for LOF}}{17}{figure.caption.14}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces A star-topology. \relax }}{20}{figure.caption.15}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Figure \ref {fig:optequi} shows the socially optimal equilibrium, and Figure \ref {fig:notoptequi} shows the non optimal equilibrium.\relax }}{21}{figure.caption.16}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces General graph \cite {audestad}.\relax }}{26}{figure.caption.20}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Forming a A-B graph in 15 generations \cite {audestad}.\relax }}{28}{figure.caption.23}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces The figure shows a screen capture of netlogo, while we are running one of our simulations.\relax }}{30}{figure.caption.31}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces The figure shows how the code interface in netlogo looks like.\relax }}{31}{figure.caption.32}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces General graph \cite {audestad}.\relax }}{26}{figure.caption.19}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Forming a A-B graph in 15 generations \cite {audestad}.\relax }}{28}{figure.caption.22}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces The figure shows a screen capture of netlogo, while we are running one of our simulations.\relax }}{31}{figure.caption.31}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces The figure shows how the code interface in netlogo looks like.\relax }}{32}{figure.caption.32}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces The figure show an overview of the different models we have created, and how they relate to each other. For every step, there are added some new features to the model.\relax }}{34}{figure.caption.33}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Shows how agents connects to eachother according to model described in section \ref {section:verysimplemodel}.\relax }}{35}{figure.caption.34}
@@ -35,4 +35,5 @@
 \contentsline {figure}{\numberline {5.18}{\ignorespaces Shows the price of anarchy as a function of critical degree\relax }}{69}{figure.caption.81}
 \contentsline {figure}{\numberline {5.19}{\ignorespaces Two different outcomes of the simulations where the critical degree is low\relax }}{70}{figure.caption.83}
 \contentsline {figure}{\numberline {5.20}{\ignorespaces Two different outcomes from running simulations with a high critical degree.\relax }}{71}{figure.caption.84}
+\addvspace {10pt}
 \addvspace {10pt}
