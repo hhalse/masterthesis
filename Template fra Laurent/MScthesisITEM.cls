@@ -307,8 +307,8 @@
       {\noindent%
        \begin{tabular}{@{}ll}
          Submission date:       & \dateITEM\@date \\
-         Responsible professor: & \@professor     \\
          Supervisor:            & \@supervisor    \\
+         Responsible professor: & \@professor     \\
        \end{tabular}\par
       }\vspace{.5cm}
       {\noindent Norwegian University of Science and Technology\\Department of Telematics}
