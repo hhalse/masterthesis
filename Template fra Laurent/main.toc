@@ -27,7 +27,7 @@
 \contentsline {subparagraph}{Airline routes.}{16}{section*.13}
 \contentsline {section}{\numberline {3.2}Network Structures}{18}{section.3.2}
 \contentsline {subparagraph}{From a insurers point of view.}{22}{section*.17}
-\contentsline {section}{\numberline {3.3}Research Question}{22}{section.3.3}
+\contentsline {section}{\numberline {3.3}Research Question}{23}{section.3.3}
 \contentsline {chapter}{\chapternumberline {4}Methodology}{25}{chapter.4}
 \contentsline {section}{\numberline {4.1}Graphs}{25}{section.4.1}
 \contentsline {section}{\numberline {4.2}Random Graphs}{25}{section.4.2}
@@ -102,4 +102,4 @@
 \contentsline {appendix}{\chapternumberline {B}Simulation models}{85}{appendix.B}
 \contentsline {section}{\numberline {B.1}Model 2: Including parameters}{85}{section.B.1}
 \contentsline {section}{\numberline {B.2}Model 3: Including maximum node degree and bonus}{88}{section.B.2}
-\contentsline {section}{\numberline {B.3}Model 5: Network externalities}{93}{section.B.3}
+\contentsline {section}{\numberline {B.3}Model 5: Network externalities}{92}{section.B.3}
