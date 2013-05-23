@@ -15,26 +15,26 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces The figure shows a screen capture of netlogo, while we are running one of our simulations.\relax }}{31}{figure.caption.31}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces The figure shows how the code interface in netlogo looks like.\relax }}{32}{figure.caption.32}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces The figure show an overview of the different models we have created, and how they relate to each other. For every step, there are added some new features to the model.\relax }}{35}{figure.caption.34}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Shows how agents connects to eachother according to model described in section \ref {section:verysimplemodel}.\relax }}{36}{figure.caption.35}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Normal form game, showing the different strategies and the payoffs for the different outcomes. The payoff are written in this order, A then B's. An agent has a strategy space of size 4.\relax }}{38}{figure.caption.38}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Leader follower game, first player 1 chooses to insure or not, then player 2, and then they choose to establish link or not in the same order.\relax }}{40}{figure.caption.40}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces The figure shows the resulting network from a simulation with parameters: $\beta =0.9$, $I_{l}=r=0.5$.\relax }}{44}{figure.caption.50}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces The figure shows the two possible scenarios that violates the Eq.(\ref {eq:final condition}), \ref {fig:SimulationViolating:a} shows the result when $I_{l}<\beta -r$ and \ref {fig:SimulationViolating:b} shows the result when $I_{l}>\beta $.\relax }}{44}{figure.caption.51}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Signalling game with two nodes, node 1's type choosen by nature, node 2 is insured. Node 1 have complete information, node 2 suffer from incomplete information, and act on best response functions based on beliefs. \relax }}{45}{figure.caption.53}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Signalling game with two nodes, node 1's type choosen by nature, node2 is not insured. Node 1 have complete information, node 2 suffer from incomplete information, and act on best response functions based on beliefs. \relax }}{47}{figure.caption.57}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Two cliques, one consisting of insured agents the other consists of non-insured. All nodes have reached their goal. \relax }}{54}{figure.caption.64}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces To possible outcomes, when insured nodes are willing to take a risk of connecting to non-insured nodes, to receive their bonus. Figure $a$ shows a scenario where one non-insured node has connected to more than one insured node, thus not a socially optimal outcome. Figure $b$ shows the optimal outcome. \relax }}{56}{figure.caption.65}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Four nodes interconnected with each other.\relax }}{60}{figure.caption.70}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces The resulting network after a simulation with the parameters $\beta =0.9, I_{l}=0.5$.\relax }}{63}{figure.caption.72}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces The resulting network after a simulation with the parameters described earlier and ten nodes.\relax }}{64}{figure.caption.74}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Shows the probability of the network ending up in a star given different critical degrees.\relax }}{66}{figure.caption.77}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Shows the probability of the network ending up in a clique, given different critical degrees.\relax }}{67}{figure.caption.78}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Shows the comparison between the probability of the network ending up in a star (blue) or clique (red), given different critical degrees.\relax }}{68}{figure.caption.79}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Shows the probability of the network ending up in a scale-free structure, given different critical degrees.\relax }}{68}{figure.caption.80}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Shows the price of anarchy as a function of critical degree\relax }}{69}{figure.caption.82}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Two different outcomes of the simulations where the critical degree is low\relax }}{70}{figure.caption.84}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Two different outcomes from running simulations with a high critical degree.\relax }}{71}{figure.caption.85}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The figure show an overview of the different models we have created, and how they relate to each other. For every step, there are added some new features to the model.\relax }}{34}{figure.caption.33}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Shows how agents connects to eachother according to model described in section \ref {section:verysimplemodel}.\relax }}{35}{figure.caption.34}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Normal form game, showing the different strategies and the payoffs for the different outcomes. The payoff are written in this order, A then B's. An agent has a strategy space of size 4.\relax }}{37}{figure.caption.37}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Leader follower game, first player 1 chooses to insure or not, then player 2, and then they choose to establish link or not in the same order.\relax }}{39}{figure.caption.39}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces The figure shows the resulting network from a simulation with parameters: $\beta =0.9$, $I_{l}=r=0.5$.\relax }}{43}{figure.caption.49}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces The figure shows the two possible scenarios that violates the Eq.(\ref {eq:final condition}), \ref {fig:SimulationViolating:a} shows the result when $I_{l}<\beta -r$ and \ref {fig:SimulationViolating:b} shows the result when $I_{l}>\beta $.\relax }}{44}{figure.caption.50}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Two cliques, one consisting of insured agents the other consists of non-insured. All nodes have reached their goal. \relax }}{50}{figure.caption.55}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces To possible outcomes, when insured nodes are willing to take a risk of connecting to non-insured nodes, to receive their bonus. Figure $a$ shows a scenario where one non-insured node has connected to more than one insured node, thus not a socially optimal outcome. Figure $b$ shows the optimal outcome. \relax }}{51}{figure.caption.56}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Four nodes interconnected with each other.\relax }}{56}{figure.caption.61}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces The resulting network after a simulation with the parameters $\beta =0.9, I_{l}=0.5$.\relax }}{58}{figure.caption.63}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces The resulting network after a simulation with the parameters described earlier and 10 nodes.\relax }}{59}{figure.caption.65}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Shows the probability of the network ending up in a star given different critical degrees.\relax }}{62}{figure.caption.68}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Shows the probability of the network ending up in a clique, given different critical degrees.\relax }}{63}{figure.caption.69}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Shows the comparison between the probability of the network ending up in a star (blue) or clique (red), given different critical degrees.\relax }}{63}{figure.caption.70}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Shows the probability of the network ending up in a scale-free structure, given different critical degrees.\relax }}{64}{figure.caption.71}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Shows the price of anarchy as a function of critical degree\relax }}{65}{figure.caption.73}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Two different outcomes of the simulations where the critical degree is low\relax }}{66}{figure.caption.75}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Two different outcomes from running simulations with a high critical degree.\relax }}{67}{figure.caption.76}
 \addvspace {10pt}
 \addvspace {10pt}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Signalling game with two nodes, node 1's type choosen by nature, node 2 is insured. Node 1 have complete information, node 2 suffer from incomplete information, and act on best response functions based on beliefs. \relax }}{79}{figure.caption.82}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Signalling game with two nodes, node 1's type choosen by nature, node2 is not insured. Node 1 have complete information, node 2 suffer from incomplete information, and act on best response functions based on beliefs. \relax }}{82}{figure.caption.86}
 \addvspace {10pt}
