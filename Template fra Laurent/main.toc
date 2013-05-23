@@ -88,8 +88,8 @@
 \contentsline {chapter}{\chapternumberline {6}Summary}{69}{chapter.6}
 \contentsline {section}{\numberline {6.1}Discussion}{69}{section.6.1}
 \contentsline {subparagraph}{Limitations and future work}{72}{section*.77}
-\contentsline {section}{\numberline {6.2}Conclusion}{73}{section.6.2}
-\contentsline {subparagraph}{NOTATER.....AVOID this in conclsuion}{74}{section*.78}
+\contentsline {section}{\numberline {6.2}Conclusion}{72}{section.6.2}
+\contentsline {subparagraph}{NOTATER.....AVOID this in conclsuion}{73}{section*.78}
 \contentsline {chapter}{References}{75}{section*.80}
 \vspace {1em}\noindent \bfseries Appendices\par \vspace {-.5em}
 \contentsline {appendix}{\chapternumberline {A}Analysis}{79}{appendix.A}
@@ -103,4 +103,4 @@
 \contentsline {appendix}{\chapternumberline {B}Simulation models}{85}{appendix.B}
 \contentsline {section}{\numberline {B.1}Model 2: Including parameters}{85}{section.B.1}
 \contentsline {section}{\numberline {B.2}Model 3: Including maximum node degree and bonus}{88}{section.B.2}
-\contentsline {section}{\numberline {B.3}Model 5: Network externalities}{93}{section.B.3}
+\contentsline {section}{\numberline {B.3}Model 5: Network externalities}{92}{section.B.3}
