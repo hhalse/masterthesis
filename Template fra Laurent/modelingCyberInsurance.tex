@@ -30,15 +30,15 @@ The first model, although very simple, shows an topology where insured agents be
 
 \begin{figure}[h]
 \centering
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.6\textwidth}
   \centering
-  \includegraphics[width=0.4\linewidth]{../Figures/firstModelWithNoParameters1.png}
+  \includegraphics[width=0.6\linewidth]{../Figures/firstModelWithNoParameters1.png}
   \caption{\label{fig:firstmod1} 15 Agents randomly choosen to be either insured (green) or non-insured (red).}
 \end{subfigure}
 \quad
-\begin{subfigure}{.46\textwidth}
+\begin{subfigure}{.6\textwidth}
   \centering
-  \includegraphics[width=0.8\linewidth]{../Figures/firstModelWithNoParameters2.png}
+  \includegraphics[width=1.0\linewidth]{../Figures/firstModelWithNoParameters2.png}
   \caption{\label{fig:firstmod2} Two clustered networks. One consisting of insured agents the other consists of non-insured.}
 \end{subfigure}
 \caption{\label{fig:firstmodfinal} Shows how agents connects to eachother according to model described in section \ref{section:verysimplemodel}.}
@@ -227,15 +227,15 @@ By selecting nodes at random and checking if both of them would like to connect 
 
 \begin{figure}[h]
 \centering
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{1.0\textwidth}
   \centering
-  \includegraphics[width=0.4\linewidth]{../Figures/FirstSimulationStart.png}
+  \includegraphics[width=0.5\linewidth]{../Figures/FirstSimulationStart.png}
   \caption{\label{fig:firstsimulation:a} Ten nodes randomly, with probability 0.5, chosen to be either insured (green) or non-insured (red).}
 \end{subfigure}
-\quad
-\begin{subfigure}{.46\textwidth}
+%\quad
+\begin{subfigure}{1.0\textwidth}
   \centering
-  \includegraphics[width=0.8\linewidth]{../Figures/FirstSimulationResult.png}
+  \includegraphics[width=0.7\linewidth]{../Figures/FirstSimulationResult.png}
   \caption{\label{fig:firstsimulation:b} Two clustered fully connected networks. One consisting of insured agents the other consists of non-insured. The link establishment is done by following the rules described above}
 \end{subfigure}
 \caption{\label{fig:firstsimulation} The figure shows the resulting network from a simulation with parameters: $\beta=0.9$, $I_{l}=r=0.5$.}
@@ -248,16 +248,16 @@ Similar results where obtained when performing the simulation with larger values
 In the next simulations, the parameters were chosen to violate the Eq.(\ref{eq:final condition}). The result can be seen in Figure \ref{fig:SimulationViolating}.  In figure \ref{fig:SimulationViolating:a} we see the result when $I_{l}<\beta-r$, the result is one clique of both insured and non-insured nodes, and the price of anarchy is $1$, i.e. this is the socially optimal outcome. In figure \ref{fig:SimulationViolating:b} the insurance cost is $I_{l}>\beta$, and as we see only non-insured nodes connect to each other, because the insurance cost per link is higher than the benefit given from connecting to a new node, i.e. the insured ones choose not to establish any connections. The price of anarchy in this scenario is: $PoA=\frac{32}{35}$, and is thus close to the socially optimal outcome.
 \begin{figure}[h]
 \centering
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.9\textwidth}
   \centering
-\includegraphics[width=0.4\linewidth]{../Figures/FirstSimulationViolatingResult.png}
+\includegraphics[width=0.5\linewidth]{../Figures/FirstSimulationViolatingResult.png}
 
 \caption{\label{fig:SimulationViolating:a} Ten nodes insured with probability 0.5, the parameters where: $\beta=0.9$, $I_{l}=0.3$ and $r=0.5$. I.e. the link insurance cost, $I_{l}$, is violating the condition in Eq.(\ref{eq:final condition}), and the resulting network is one clique of both insured and non-insured nodes.}
 \end{subfigure}
 \quad
-\begin{subfigure}{0.46\textwidth}
+\begin{subfigure}{0.9\textwidth}
 \centering
-\includegraphics[width=0.4\textwidth]{../Figures/SimulationViolating2.png}
+\includegraphics[width=0.5\textwidth]{../Figures/SimulationViolating2.png}
 
 \caption{\label{fig:SimulationViolating:b} Ten nodes insured with probability 0.5, with parameters as before, except for the link insurance cost:$I_{l}=0.95$. This resulted in a clique of only non-insured nodes. }
 \end{subfigure}
@@ -406,7 +406,7 @@ For the first simulation the parameters are set to the following: $\beta=0.9, I_
 
 \begin{figure}[h]
 \centering
-  \includegraphics[width=0.8\linewidth]{../Figures/BonusGameInsuredClique.png}
+  \includegraphics[width=0.7\linewidth]{../Figures/BonusGameInsuredClique.png}
   \caption{\label{fig:bonusoptimal} Two cliques, one consisting of insured agents the other consists of non-insured. All nodes have reached their goal. }
 \end{figure}
 As we see in Figure \ref{fig:bonusoptimal} the results where as expected, the cost of insuring a link satisfied the conditions found earlier and thus the result where two cliques, one consisting of only insured and the other of non-insured nodes.
@@ -421,17 +421,17 @@ PoA&=\frac{12}{17}
 
 When we changed the link insurance cost, and set it to the same value as in model 2, $I_{l}=0.5$, the resulting networks changes. Now we the insured nodes are willing to establish risky links to reach their maximum degree. Some of the resulting network can be seen in Figure \ref{fig:bonusviolating}.
 In figure \ref{fig:bonusvolating:a} the price of anarchy is $0.95$, and in figure \ref{fig:bonusvolating:b} the price of anarchy is $1$, i.e. it has reached the socially optimal outcome.
-\begin{figure}[t]
+\begin{figure}[h]
 \centering
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.9\textwidth}
   \centering
-  \includegraphics[width=0.9\linewidth]{../Figures/BonusGameViolating.png}
+  \includegraphics[width=0.55\linewidth]{../Figures/BonusGameViolating.png}
   \caption{\label{fig:bonusvolating:a} One non-insured node has connected to two insured nodes.}
 \end{subfigure}
 \quad
-\begin{subfigure}{.5\textwidth}
+\begin{subfigure}{.9\textwidth}
   \centering
-  \includegraphics[width=0.9\linewidth]{../Figures/BonusGameViolatingOptimal.png}
+  \includegraphics[width=0.55\linewidth]{../Figures/BonusGameViolatingOptimal.png}
   \caption{\label{fig:bonusvolating:b}Every non-insured node is connected to one insured node, this is the optimal outcome with these parameters.}
 \end{subfigure}
   
