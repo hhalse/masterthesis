@@ -18,7 +18,7 @@
 \contentsline {subparagraph}{The UK and US markets}{7}{section*.8}
 \contentsline {subparagraph}{The Norwegian market}{8}{section*.9}
 \contentsline {subparagraph}{Future market}{9}{section*.10}
-\contentsline {chapter}{\chapternumberline {2}Relatedwork}{11}{chapter.2}
+\contentsline {chapter}{\chapternumberline {2}Related work}{11}{chapter.2}
 \contentsline {section}{\numberline {2.1}Cyber-Insurance}{11}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Summary}{14}{subsection.2.1.1}
 \contentsline {chapter}{\chapternumberline {3}Graphs and Network Formation}{15}{chapter.3}
