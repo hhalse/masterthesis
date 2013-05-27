@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  23 MAY 2013 14:09
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  27 MAY 2013 13:00
 entering extended mode
 **main.tex
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.tex"
@@ -2155,23 +2155,28 @@ iption.tex" [1] [2
 
 ])
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\abstract_engl
-ish.tex"pdfTeX warning (ext4): destination with the same identifier (name{page.
-i}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.3 \noindent \Blindtext[5][1]
-                               [1
-
-])pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) h
-as been already used, duplicate ignored
+ish.tex")pdfTeX warning (ext4): destination with the same identifier (name{page
+.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.45 \include{abstract_english}
-                                [2]
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\preface.tex")
-[3
+                                [1
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.46 \cleardoublepage
+                      [2
 
 
+]
+("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\preface.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+) [3
 
 ] [4
 
@@ -3036,7 +3041,7 @@ eX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
 sy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb>
-Output written on main.pdf (107 pages, 2394234 bytes).
+Output written on main.pdf (107 pages, 2394382 bytes).
 PDF statistics:
  1568 PDF objects out of 1728 (max. 8388607)
  388 named destinations out of 1000 (max. 500000)
