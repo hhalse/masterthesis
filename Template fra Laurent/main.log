@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  27 MAY 2013 11:23
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  27 MAY 2013 13:14
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -2126,17 +2126,15 @@ l.13
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.30 
-      [2] [3]
+l.29 A
+      s mentioned, the concept of cyber-insurance has been around since the ...
+[2] [3]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 63.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 63.
- [4]
-Underfull \vbox (badness 7796) has occurred while \output is active []
-
- [5]
-Overfull \hbox (0.81615pt too wide) in paragraph at lines 94--96
+ [4] [5]
+Overfull \hbox (0.81615pt too wide) in paragraph at lines 93--95
  []\T1/lmr/bx/n/10 Cyber-insurance in-stead of se-cu-rity.[] \T1/lmr/m/n/10 (-2
 0) An-other prob-lem with cyber-insurance
  []
@@ -2168,7 +2166,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<../Figures/greekStockMarket.jpg, id=602, 465.59787pt x 322.97655pt>
+<../Figures/greekStockMarket.jpg, id=601, 465.59787pt x 322.97655pt>
 File: ../Figures/greekStockMarket.jpg Graphic file (type jpg)
 
 <use ../Figures/greekStockMarket.jpg>
@@ -2176,7 +2174,7 @@ Package pdftex.def Info: ../Figures/greekStockMarket.jpg used on input line 17.
 
 (pdftex.def)             Requested size: 364.0pt x 252.49727pt.
  [16 <D:/GITREPO/masterthesis/Figures/greekStockMarket.jpg>]
-<../Figures/airlineRoutesUSA.png, id=614, 663.22781pt x 383.93437pt>
+<../Figures/airlineRoutesUSA.png, id=613, 663.22781pt x 383.93437pt>
 File: ../Figures/airlineRoutesUSA.png Graphic file (type png)
 
 <use ../Figures/airlineRoutesUSA.png>
@@ -2191,7 +2189,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
-<../Figures/aStar.png, id=637, 235.63031pt x 222.07968pt>
+<../Figures/aStar.png, id=636, 235.63031pt x 222.07968pt>
 File: ../Figures/aStar.png Graphic file (type png)
 
 <use ../Figures/aStar.png>
@@ -2888,16 +2886,23 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
 ("D:\GITREPO\masterthesis\Template fra Laurent\Appendix.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4631175C1F70710A9B35E379F7D8C8D2;3630.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 4631175C1F70710A9B35E379F7D8C8D2;3630
+(rerunfilecheck)             After:  AA8C5479C4F3496A2A6931E0F7050494;3631.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
- 38361 strings out of 494045
- 740988 string characters out of 3153222
+ 38363 strings out of 494045
+ 741010 string characters out of 3153222
  1040898 words of memory out of 3000000
  40192 multiletter control sequences out of 15000+200000
- 115069 words of font info for 183 fonts, out of 3000000 for 9000
+ 115153 words of font info for 184 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  69i,19n,94p,1504b,2049s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{D:/Latex/MiKTeX/fonts/enc/dvi
@@ -2917,7 +2922,7 @@ fonts/type1/public/lm/lmr8.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr9.pfb>
 public/lm/lmss12.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmss17.pfb><D:/Late
 x/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><D:/Latex/MiKTeX/fonts/type1/public
 /lm/lmsy10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
-Output written on main.pdf (107 pages, 2394599 bytes).
+Output written on main.pdf (107 pages, 2395112 bytes).
 PDF statistics:
  1569 PDF objects out of 1728 (max. 8388607)
  388 named destinations out of 1000 (max. 500000)
