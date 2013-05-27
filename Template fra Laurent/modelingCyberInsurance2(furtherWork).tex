@@ -6,7 +6,7 @@ We apply the results from the paper from Jackson and Wolinsky \cite{jackson1996s
 The benefits a player receives in this game are calculated as follows. In addition to the benefit from the direct connection, a node will also benefit from "friends of the friend", and "friends of the friends of the friend" etc. This is achieved by letting the payoff be calculated relative to the distance between the nodes. $\beta$ is now dependent on the minimum number of hops to the node e.g. the benefit of a direct connection is $\beta$, the benefit of a friend of a friend is $\beta^2$ etc. We want the benefit to decrease with the distance, therefore we need the limitation: $0<\beta<1$. 
 \begin{figure}[h]
 \centering
-  \includegraphics[width=0.2\linewidth]{../Figures/connectionGame.png}
+  \includegraphics[width=0.3\linewidth]{../Figures/connectionGame.png}
   \caption{\label{fig:connectionGame} Four nodes interconnected with each other.}
 \end{figure}
 \subparagraph{Example:}Lets consider the network shown in \ref{fig:connectionGame}. Node 1 and node 4, in the network will receive a benefit of $\beta+\beta^{2}+\beta^{3}$ by being connected with node 2 and 3. $\beta^{2}+\beta^{3}$ represents the indirect benefits from node 3 and 4. Node 2 and 3 receives a benefit of $\beta+\beta+\beta^{2}$. For this network to make sense, it is important to also include some cost of having direct connections, or else the rational thing would be to establish a link with everyone. This is done as in earlier models, every node pay a cost for direct connections, but no cost for indirect connections. Thus the total payoff for a node is:
@@ -81,7 +81,7 @@ However, the structure of the networks that evolve are very similar to a scale-f
 One example of this is shown in Figure \ref{fig:stablescalefree}, there are only ten nodes, but the network have the properties of a scale-free. Two nodes with degree of 4, and the rest have a degree of one or two.
 \begin{figure}[h]
 \centering
-  \includegraphics[width=0.5\linewidth]{../Figures/stability/Unefficientbutstabletwo.png}
+  \includegraphics[width=0.6\linewidth]{../Figures/stability/Unefficientbutstabletwo.png}
   \caption{\label{fig:stablescalefree} The resulting network after a simulation with the parameters described earlier and 10 nodes.}
 \end{figure}
 \subparagraph{Bulk insurance.}
