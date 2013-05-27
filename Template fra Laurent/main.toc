@@ -15,6 +15,7 @@
 \contentsline {subparagraph}{Calculating losses}{6}{section*.6}
 \contentsline {subparagraph}{Cyber-insurance instead of security.}{6}{section*.7}
 \contentsline {section}{\numberline {1.5}The cyber-insurance market}{7}{section.1.5}
+<<<<<<< HEAD
 \contentsline {subparagraph}{The UK and US markets}{7}{section*.8}
 \contentsline {subparagraph}{The Norwegian market}{8}{section*.9}
 \contentsline {subparagraph}{Future market}{9}{section*.10}
@@ -84,6 +85,77 @@
 \contentsline {subsubsection}{Results and findings}{62}{section*.66}
 \contentsline {subparagraph}{Price of Anarchy.}{65}{section*.71}
 \contentsline {subparagraph}{Example structures from the simulation.}{65}{figure.caption.74}
+=======
+\contentsline {subparagraph}{The UK and US markets.}{7}{section*.8}
+\contentsline {subparagraph}{The Norwegian market.}{8}{section*.9}
+\contentsline {subparagraph}{Future market.}{9}{section*.10}
+\contentsline {chapter}{\chapternumberline {2}Related work}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}Cyber-Insurance}{11}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Summary}{14}{subsection.2.1.1}
+\contentsline {chapter}{\chapternumberline {3}Graphs and Network Formation}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Real-world graph structures}{17}{section.3.1}
+\contentsline {subparagraph}{Stock markets.}{17}{section*.11}
+\contentsline {subparagraph}{Airline routes.}{18}{section*.13}
+\contentsline {section}{\numberline {3.2}Network Structures}{20}{section.3.2}
+\contentsline {subparagraph}{From an insurer's point of view.}{24}{section*.17}
+\contentsline {section}{\numberline {3.3}Research Question}{24}{section.3.3}
+\contentsline {chapter}{\chapternumberline {4}Methodology}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}Graphs}{27}{section.4.1}
+\contentsline {section}{\numberline {4.2}Random Graphs}{27}{section.4.2}
+\contentsline {subparagraph}{Erd\IeC {\"o}s-R\IeC {\'e}nyi Graphs.}{28}{section*.19}
+\contentsline {subparagraph}{Albert-Barab\IeC {\'a}si Graphs.}{29}{section*.20}
+\contentsline {section}{\numberline {4.3}Game Theory}{29}{section.4.3}
+\contentsline {subparagraph}{One shot game.}{30}{section*.22}
+\contentsline {subparagraph}{Nash Equilibrium.}{30}{section*.23}
+\contentsline {subparagraph}{Subgame-perfect equilibrium.}{30}{section*.24}
+\contentsline {subparagraph}{Socially optimal.}{31}{section*.25}
+\contentsline {subparagraph}{Price of Anarchy.}{31}{section*.26}
+\contentsline {subparagraph}{Stackelberg.}{31}{section*.27}
+\contentsline {subparagraph}{Bayesian game.}{31}{section*.28}
+\contentsline {subparagraph}{Pairwise stability.}{31}{section*.29}
+\contentsline {section}{\numberline {4.4}Netlogo}{32}{section.4.4}
+\contentsline {chapter}{\chapternumberline {5}Modeling Cyber-Insurance }{35}{chapter.5}
+\contentsline {section}{\numberline {5.1}Model 1: Initial Model }{36}{section.5.1}
+\contentsline {section}{\numberline {5.2}Model 2: Including Parameters}{37}{section.5.2}
+\contentsline {paragraph}{Characteristics of the model.}{37}{section*.34}
+\contentsline {subsection}{\numberline {5.2.1}Two nodes scenario}{38}{subsection.5.2.1}
+\contentsline {subparagraph}{Introducing time.}{39}{section*.37}
+\contentsline {subsection}{\numberline {5.2.2}Multiple nodes}{41}{subsection.5.2.2}
+\contentsline {subsubsection}{Assumptions}{41}{section*.39}
+\contentsline {subsubsection}{Analysis}{42}{section*.40}
+\contentsline {subparagraph}{Insured to insured.}{42}{section*.41}
+\contentsline {subparagraph}{Non-insured to insured.}{42}{section*.42}
+\contentsline {subparagraph}{Insured to non-insured.}{42}{section*.43}
+\contentsline {subparagraph}{Non-insured to Non-insured.}{43}{section*.44}
+\contentsline {subparagraph}{Forming a trusted clique.}{43}{section*.45}
+\contentsline {subsection}{\numberline {5.2.3}Result and findings}{43}{subsection.5.2.3}
+\contentsline {subparagraph}{Stability and efficiency}{44}{section*.46}
+\contentsline {subsubsection}{Simulation of the results}{45}{section*.47}
+\contentsline {section}{\numberline {5.3}Model 2b: Model with incomplete information}{45}{section.5.3}
+\contentsline {subparagraph}{Result and findings.}{47}{section*.50}
+\contentsline {section}{\numberline {5.4}Model 3: Including maximum node degree and bonus}{48}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Analysis}{49}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Result and findings}{50}{subsection.5.4.2}
+\contentsline {subparagraph}{Consequences of not reaching required number of edges.}{51}{section*.51}
+\contentsline {subparagraph}{Efficiency and Stability.}{52}{section*.52}
+\contentsline {subsubsection}{Simulation of the results}{52}{section*.53}
+\contentsline {section}{\numberline {5.5}Model 4: Including bulk insurance discount}{53}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Analysis}{55}{subsection.5.5.1}
+\contentsline {subsubsection}{Discount model}{55}{section*.56}
+\contentsline {subparagraph}{Result and findings}{56}{section*.57}
+\contentsline {subparagraph}{Stability and efficiency}{56}{section*.58}
+\contentsline {subsubsection}{Discount and Bonus model}{56}{section*.59}
+\contentsline {subsection}{\numberline {5.5.2}Result and findings}{57}{subsection.5.5.2}
+\contentsline {section}{\numberline {5.6}Model 5: Network externalities}{58}{section.5.6}
+\contentsline {subparagraph}{Example:}{59}{section*.61}
+\contentsline {subsection}{\numberline {5.6.1}Insurance and connection game}{60}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Homogeneous symmetric connection game}{61}{subsection.5.6.2}
+\contentsline {subparagraph}{A star is not possible with high \textit {n}.}{62}{section*.63}
+\contentsline {subparagraph}{Bulk insurance.}{62}{section*.65}
+\contentsline {subsubsection}{Results and findings}{64}{section*.66}
+\contentsline {subparagraph}{Price of Anarchy.}{68}{section*.71}
+\contentsline {subparagraph}{Example structures from the simulation.}{68}{figure.caption.74}
+>>>>>>> 46441a042aecb8dc4150db7193e8c456575551f1
 \contentsline {chapter}{\chapternumberline {6}Summary}{71}{chapter.6}
 \contentsline {section}{\numberline {6.1}Discussion}{71}{section.6.1}
 \contentsline {subparagraph}{Limitations and future work}{74}{section*.76}
