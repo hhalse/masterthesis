@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  28 MAY 2013 09:13
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  28 MAY 2013 10:31
 entering extended mode
 **main.tex
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.tex"
@@ -2199,7 +2199,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.13 
+l.16 
       [1
 
 
@@ -2208,40 +2208,39 @@ l.13
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.29 A
-      s mentioned, the concept of cyber-insurance has been around since the ...
-[2] [3]
+l.32 
+      [2] [3]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 63.
+(Font)              <8> on input line 67.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 63.
+(Font)              <6> on input line 67.
  [4] [5]
-Overfull \hbox (0.81615pt too wide) in paragraph at lines 93--95
+Overfull \hbox (0.81615pt too wide) in paragraph at lines 97--99
  []\T1/lmr/bx/n/10 Cyber-insurance in-stead of se-cu-rity.[] \T1/lmr/m/n/10 (-2
 0) An-other prob-lem with cyber-insurance
  []
 
-) [6]
+) [6] [7]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\currentmarket
 state.tex"
 Underfull \vbox (badness 4013) has occurred while \output is active []
 
- [7
+ [8
 
 
 ]
-[8]) [9]
+[9]) [10]
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork.t
-ex" [10
-
-
-
-]
+ex"
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedworkFi
 nal.tex"
 Underfull \vbox (badness 1609) has occurred while \output is active []
 
- [11])
+ [11
+
+
+
+])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
@@ -2402,13 +2401,13 @@ Underfull \vbox (badness 1968) has occurred while \output is active []
  [38 <C:/Users/Håvard/masterthesis/masterthesis/Figures/firstModelWithNoParame
 ters1.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/firstModelWithNo
 Parameters2.png>]
-<../Figures/FirstGameWithParameters.png, id=814, 1260.20813pt x 293.59688pt>
+<../Figures/FirstGameWithParameters.png, id=814, 1036.62282pt x 293.59688pt>
 File: ../Figures/FirstGameWithParameters.png Graphic file (type png)
 
 <use ../Figures/FirstGameWithParameters.png>
 Package pdftex.def Info: ../Figures/FirstGameWithParameters.png used on input l
 ine 74.
-(pdftex.def)             Requested size: 550.0pt x 128.1347pt.
+(pdftex.def)             Requested size: 550.0pt x 155.7803pt.
  [39] [40 <C:/Users/Håvard/masterthesis/masterthesis/Figures/FirstGameWithPara
 meters.png>]
 <../Figures/stackelberggame.png, id=834, 855.94781pt x 761.09344pt>
@@ -3051,7 +3050,7 @@ eX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
 sy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb>
-Output written on main.pdf (111 pages, 2401050 bytes).
+Output written on main.pdf (111 pages, 2396817 bytes).
 PDF statistics:
  1594 PDF objects out of 1728 (max. 8388607)
  392 named destinations out of 1000 (max. 500000)
