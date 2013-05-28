@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  28 MAY 2013 11:07
-=======
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  28 MAY 2013 11:11
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  28 MAY 2013 11:17
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -2147,33 +2143,16 @@ Overfull \hbox (0.81615pt too wide) in paragraph at lines 100--102
 0) An-other prob-lem with cyber-insurance
  []
 
-<<<<<<< HEAD
-) [6] ("D:\GITREPO\masterthesis\Template fra Laurent\currentmarketstate.tex"
-=======
-) [6] [7]
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\currentmarket
-state.tex"
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+) [6] [7] ("D:\GITREPO\masterthesis\Template fra Laurent\currentmarketstate.tex
+"
 Underfull \vbox (badness 4013) has occurred while \output is active []
 
  [8
 
 
 ]
-<<<<<<< HEAD
-[8]) [9] ("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.tex"
-[10
-
-
-
-] ("D:\GITREPO\masterthesis\Template fra Laurent\relatedworkFinal.tex"
-=======
-[9]) [10]
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedwork.t
-ex"
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\relatedworkFi
-nal.tex"
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+[9]) [10] ("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.tex"
+("D:\GITREPO\masterthesis\Template fra Laurent\relatedworkFinal.tex"
 Underfull \vbox (badness 1609) has occurred while \output is active []
 
  [11
@@ -2192,26 +2171,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-<<<<<<< HEAD
-] [17] <../Figures/greekStockMarket.jpg, id=608, 465.59787pt x 322.97655pt>
-=======
-] [17]
-<../Figures/greekStockMarket.jpg, id=610, 465.59787pt x 322.97655pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+] [17] <../Figures/greekStockMarket.jpg, id=603, 465.59787pt x 322.97655pt>
 File: ../Figures/greekStockMarket.jpg Graphic file (type jpg)
 
 <use ../Figures/greekStockMarket.jpg>
 Package pdftex.def Info: ../Figures/greekStockMarket.jpg used on input line 17.
 
 (pdftex.def)             Requested size: 364.0pt x 252.49727pt.
-<<<<<<< HEAD
  [18 <D:/GITREPO/masterthesis/Figures/greekStockMarket.jpg>]
-<../Figures/airlineRoutesUSA.png, id=621, 663.22781pt x 383.93437pt>
-=======
- [18 <C:/Users/Håvard/masterthesis/masterthesis/Figures/greekStockMarket.jpg>]
-
-<../Figures/airlineRoutesUSA.png, id=623, 663.22781pt x 383.93437pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/airlineRoutesUSA.png, id=616, 663.22781pt x 383.93437pt>
 File: ../Figures/airlineRoutesUSA.png Graphic file (type png)
 
 <use ../Figures/airlineRoutesUSA.png>
@@ -2222,37 +2190,22 @@ Package pdftex.def Info: ../Figures/airlineRoutesUSA.png used on input line 30.
 ("D:\GITREPO\masterthesis\Template fra Laurent\nature.tex"
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< HEAD
  [19 <D:/GITREPO/masterthesis/Figures/airlineRoutesUSA.png>] [20]
-<../Figures/aStar.png, id=646, 235.63031pt x 222.07968pt>
-=======
- [19 <C:/Users/Håvard/masterthesis/masterthesis/Figures/airlineRoutesUSA.png>]
- [20]
-<../Figures/aStar.png, id=648, 235.63031pt x 222.07968pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/aStar.png, id=641, 235.63031pt x 222.07968pt>
 File: ../Figures/aStar.png Graphic file (type png)
 
 <use ../Figures/aStar.png>
 Package pdftex.def Info: ../Figures/aStar.png used on input line 35.
 (pdftex.def)             Requested size: 182.0pt x 171.53389pt.
-<<<<<<< HEAD
  [21 <D:/GITREPO/masterthesis/Figures/aStar.png>]
-[22] <./figs/optimalequilibrium.png, id=672, 440.39531pt x 441.14813pt>
-=======
- [21 <C:/Users/Håvard/masterthesis/masterthesis/Figures/aStar.png>] [22]
-<./figs/optimalequilibrium.png, id=674, 440.39531pt x 441.14813pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+[22] <./figs/optimalequilibrium.png, id=667, 440.39531pt x 441.14813pt>
 File: ./figs/optimalequilibrium.png Graphic file (type png)
 
 <use ./figs/optimalequilibrium.png>
 Package pdftex.def Info: ./figs/optimalequilibrium.png used on input line 84.
 (pdftex.def)             Requested size: 116.47865pt x 116.67482pt.
 
-<<<<<<< HEAD
-<./figs/notoptimalequilibrium.png, id=673, 421.575pt x 422.32782pt>
-=======
-<./figs/notoptimalequilibrium.png, id=675, 421.575pt x 422.32782pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<./figs/notoptimalequilibrium.png, id=668, 421.575pt x 422.32782pt>
 File: ./figs/notoptimalequilibrium.png Graphic file (type png)
 
 <use ./figs/notoptimalequilibrium.png>
@@ -2266,12 +2219,8 @@ Package pdftex.def Info: ./figs/notoptimalequilibrium.png used on input line 90
 
 
 
-<<<<<<< HEAD
 ]
-<../Figures/generalGraph.png, id=704, 266.49562pt x 328.97906pt>
-=======
-] <../Figures/generalGraph.png, id=706, 266.49562pt x 328.97906pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/generalGraph.png, id=699, 266.49562pt x 328.97906pt>
 File: ../Figures/generalGraph.png Graphic file (type png)
 
 <use ../Figures/generalGraph.png>
@@ -2281,13 +2230,8 @@ Package pdftex.def Info: ../Figures/generalGraph.png used on input line 18.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
 [27] [28 <D:/GITREPO/masterthesis/Figures/generalGraph.png>]
-<../Figures/ABgraphcreation.png, id=723, 395.97937pt x 268.75406pt>
-=======
-[27] [28 <C:/Users/Håvard/masterthesis/masterthesis/Figures/generalGraph.png>]
-<../Figures/ABgraphcreation.png, id=725, 395.97937pt x 268.75406pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/ABgraphcreation.png, id=718, 395.97937pt x 268.75406pt>
 File: ../Figures/ABgraphcreation.png Graphic file (type png)
 
 <use ../Figures/ABgraphcreation.png>
@@ -2297,24 +2241,15 @@ Package pdftex.def Info: ../Figures/ABgraphcreation.png used on input line 57.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
 [29] [30 <D:/GITREPO/masterthesis/Figures/ABgraphcreation.png>]
-<../Figures/netlogoexample.png, id=748, 517.935pt x 639.13782pt>
-=======
-[29] [30 <C:/Users/Håvard/masterthesis/masterthesis/Figures/ABgraphcreation.pn
-g>] <../Figures/netlogoexample.png, id=750, 517.935pt x 639.13782pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/netlogoexample.png, id=743, 517.935pt x 639.13782pt>
 File: ../Figures/netlogoexample.png Graphic file (type png)
 
 <use ../Figures/netlogoexample.png>
 Package pdftex.def Info: ../Figures/netlogoexample.png used on input line 111.
 (pdftex.def)             Requested size: 327.59778pt x 404.27786pt.
 
-<<<<<<< HEAD
-<../Figures/netlogocodeexample.png, id=749, 515.67656pt x 652.68843pt>
-=======
-<../Figures/netlogocodeexample.png, id=751, 515.67656pt x 652.68843pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/netlogocodeexample.png, id=744, 515.67656pt x 652.68843pt>
 File: ../Figures/netlogocodeexample.png Graphic file (type png)
 
 <use ../Figures/netlogocodeexample.png>
@@ -2328,7 +2263,6 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
 ) [32] [33 <D:/GITREPO/masterthesis/Figures/netlogoexample.png>] [34 <D:/GITREP
 O/masterthesis/Figures/netlogocodeexample.png>]
 ("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance.tex"
@@ -2336,25 +2270,12 @@ O/masterthesis/Figures/netlogocodeexample.png>]
 
 
 
-] <../Figures/modeloverview.png, id=783, 465.23813pt x 340.27126pt>
+] <../Figures/modeloverview.png, id=778, 486.31688pt x 417.81094pt>
 File: ../Figures/modeloverview.png Graphic file (type png)
 
 <use ../Figures/modeloverview.png>
 Package pdftex.def Info: ../Figures/modeloverview.png used on input line 23.
-(pdftex.def)             Requested size: 327.59778pt x 239.61089pt.
-=======
-) [32] [33 <C:/Users/Håvard/masterthesis/masterthesis/Figures/netlogoexample.p
-ng>] [34 <C:/Users/Håvard/masterthesis/masterthesis/Figures/netlogocodeexample
-.png>]
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\modelingCyber
-Insurance.tex"
-<../Figures/modeloverview.png, id=780, 486.31688pt x 417.81094pt>
-File: ../Figures/modeloverview.png Graphic file (type png)
-
-<use ../Figures/modeloverview.png>
-Package pdftex.def Info: ../Figures/modeloverview.png used on input line 15.
 (pdftex.def)             Requested size: 327.59778pt x 281.44919pt.
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2362,16 +2283,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 6032) has occurred while \output is active []
 
-<<<<<<< HEAD
  [36]
-<../Figures/firstModelWithNoParameters1.png, id=791, 143.78719pt x 144.54pt>
-=======
-]
-Underfull \vbox (badness 2503) has occurred while \output is active []
-
- [36 <C:/Users/Håvard/masterthesis/masterthesis/Figures/modeloverview.png>]
-<../Figures/firstModelWithNoParameters1.png, id=793, 143.78719pt x 144.54pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/firstModelWithNoParameters1.png, id=786, 143.78719pt x 144.54pt>
 File: ../Figures/firstModelWithNoParameters1.png Graphic file (type png)
 
 <use ../Figures/firstModelWithNoParameters1.png>
@@ -2379,11 +2292,7 @@ Package pdftex.def Info: ../Figures/firstModelWithNoParameters1.png used on inp
 ut line 43.
 (pdftex.def)             Requested size: 131.04266pt x 131.73228pt.
 
-<<<<<<< HEAD
-<../Figures/firstModelWithNoParameters2.png, id=792, 184.43906pt x 99.37125pt>
-=======
-<../Figures/firstModelWithNoParameters2.png, id=794, 184.43906pt x 99.37125pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/firstModelWithNoParameters2.png, id=787, 184.43906pt x 99.37125pt>
 File: ../Figures/firstModelWithNoParameters2.png Graphic file (type png)
 
 <use ../Figures/firstModelWithNoParameters2.png>
@@ -2394,45 +2303,27 @@ ut line 49.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[37 <D:/GITREPO/masterthesis/Figures/modeloverview.png>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37 <D:/GITREPO/masterthesis/Figures/modeloverview.png>]
+Underfull \vbox (badness 4927) has occurred while \output is active []
+
+ [38 <D:/GITREPO/masterthesis/Figures/firstModelWithNoParameters1.png> <D:/GITR
+EPO/masterthesis/Figures/firstModelWithNoParameters2.png>]
 
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 62.
 
-<<<<<<< HEAD
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [38 <D:/GITREPO/masterthesis/Figures/firstModelWithNoParameters1.png> <D:/GITR
-EPO/masterthesis/Figures/firstModelWithNoParameters2.png>]
-<../Figures/FirstGameWithParameters.png, id=809, 1260.20813pt x 293.59688pt>
-=======
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [37]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [38 <C:/Users/Håvard/masterthesis/masterthesis/Figures/firstModelWithNoParame
-ters1.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/firstModelWithNo
-Parameters2.png>]
-<../Figures/FirstGameWithParameters.png, id=811, 1036.62282pt x 293.59688pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/FirstGameWithParameters.png, id=804, 1036.62282pt x 293.59688pt>
 File: ../Figures/FirstGameWithParameters.png Graphic file (type png)
 
 <use ../Figures/FirstGameWithParameters.png>
 Package pdftex.def Info: ../Figures/FirstGameWithParameters.png used on input l
-<<<<<<< HEAD
 ine 82.
-(pdftex.def)             Requested size: 550.0pt x 128.1347pt.
- [39] [40 <D:/GITREPO/masterthesis/Figures/FirstGameWithParameters.png>]
-<../Figures/stackelberggame.png, id=828, 855.94781pt x 761.09344pt>
-=======
-ine 74.
 (pdftex.def)             Requested size: 550.0pt x 155.7803pt.
- [39] [40 <C:/Users/Håvard/masterthesis/masterthesis/Figures/FirstGameWithPara
-meters.png>]
-<../Figures/stackelberggame.png, id=831, 855.94781pt x 761.09344pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+ [39] [40 <D:/GITREPO/masterthesis/Figures/FirstGameWithParameters.png>]
+<../Figures/stackelberggame.png, id=823, 855.94781pt x 761.09344pt>
 File: ../Figures/stackelberggame.png Graphic file (type png)
 
 <use ../Figures/stackelberggame.png>
@@ -2443,14 +2334,8 @@ Package pdftex.def Info: ../Figures/stackelberggame.png used on input line 114.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
 [41] [42 <D:/GITREPO/masterthesis/Figures/stackelberggame.png>] [43] [44]
-<../Figures/FirstSimulationStart.png, id=879, 219.82124pt x 210.7875pt>
-=======
-[41] [42 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stackelberggame.pn
-g>] [43] [44]
-<../Figures/FirstSimulationStart.png, id=882, 219.82124pt x 210.7875pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/FirstSimulationStart.png, id=874, 219.82124pt x 210.7875pt>
 File: ../Figures/FirstSimulationStart.png Graphic file (type png)
 
 <use ../Figures/FirstSimulationStart.png>
@@ -2458,11 +2343,7 @@ Package pdftex.def Info: ../Figures/FirstSimulationStart.png used on input line
  246.
 (pdftex.def)             Requested size: 182.0pt x 174.5258pt.
 
-<<<<<<< HEAD
-<../Figures/FirstSimulationResult.png, id=880, 375.65344pt x 240.14719pt>
-=======
-<../Figures/FirstSimulationResult.png, id=883, 375.65344pt x 240.14719pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/FirstSimulationResult.png, id=875, 375.65344pt x 240.14719pt>
 File: ../Figures/FirstSimulationResult.png Graphic file (type png)
 
 <use ../Figures/FirstSimulationResult.png>
@@ -2473,13 +2354,9 @@ e 252.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-[45]
-<../Figures/FirstSimulationViolatingResult.png, id=895, 204.765pt x 194.97844pt
-=======
-
-<../Figures/FirstSimulationViolatingResult.png, id=891, 204.765pt x 194.97844pt
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+[45] [46 <D:/GITREPO/masterthesis/Figures/FirstSimulationStart.png> <D:/GITREPO
+/masterthesis/Figures/FirstSimulationResult.png>]
+<../Figures/FirstSimulationViolatingResult.png, id=894, 204.765pt x 194.97844pt
 >
 File: ../Figures/FirstSimulationViolatingResult.png Graphic file (type png)
  <use ../Figures/FirstSimulationViolatingResult.png>
@@ -2489,7 +2366,7 @@ input line 267.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 269.
 
-<../Figures/SimulationViolating2.png, id=894, 238.64156pt x 223.58531pt>
+<../Figures/SimulationViolating2.png, id=897, 238.64156pt x 223.58531pt>
 File: ../Figures/SimulationViolating2.png Graphic file (type png)
 
 <use ../Figures/SimulationViolating2.png>
@@ -2497,36 +2374,15 @@ Package pdftex.def Info: ../Figures/SimulationViolating2.png used on input line
  274.
 (pdftex.def)             Requested size: 163.79889pt x 153.46205pt.
 
-<<<<<<< HEAD
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [46 <D:/GITREPO/masterthesis/Figures/FirstSimulationStart.png> <D:/GITREPO/mas
-terthesis/Figures/FirstSimulationResult.png>]
-=======
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\modelingWithN
-ature.tex" [45] [46 <C:/Users/Håvard/masterthesis/masterthesis/Figures/FirstSi
-mulationStart.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/FirstSim
-ulationResult.png>]
-Underfull \vbox (badness 1033) has occurred while \output is active []
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ("D:\GITREPO\masterthesis\Template fra Laurent\modelingWithNature.tex" [47]
-Underfull \vbox (badness 5388) has occurred while \output is active []
+Underfull \vbox (badness 1033) has occurred while \output is active []
 
-<<<<<<< HEAD
  [48 <D:/GITREPO/masterthesis/Figures/FirstSimulationViolatingResult.png> <D:/G
 ITREPO/masterthesis/Figures/SimulationViolating2.png>]) [49] [50] [51] [52]
-<../Figures/BonusGameInsuredClique.png, id=971, 354.57469pt x 177.66376pt>
-=======
- [52]
-<../Figures/BonusGameInsuredClique.png, id=972, 354.57469pt x 177.66376pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/BonusGameInsuredClique.png, id=966, 354.57469pt x 177.66376pt>
 File: ../Figures/BonusGameInsuredClique.png Graphic file (type png)
 
 <use ../Figures/BonusGameInsuredClique.png>
@@ -2534,14 +2390,10 @@ Package pdftex.def Info: ../Figures/BonusGameInsuredClique.png used on input li
 ne 423.
 (pdftex.def)             Requested size: 254.79889pt x 127.67381pt.
 
-<<<<<<< HEAD
 Underfull \vbox (badness 1281) has occurred while \output is active []
 
  [53 <D:/GITREPO/masterthesis/Figures/BonusGameInsuredClique.png>]
-<../Figures/BonusGameViolating.png, id=982, 268.00125pt x 310.15875pt>
-=======
-<../Figures/BonusGameViolating.png, id=978, 268.00125pt x 310.15875pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/BonusGameViolating.png, id=977, 268.00125pt x 310.15875pt>
 File: ../Figures/BonusGameViolating.png Graphic file (type png)
 
 <use ../Figures/BonusGameViolating.png>
@@ -2549,11 +2401,7 @@ Package pdftex.def Info: ../Figures/BonusGameViolating.png used on input line 4
 43.
 (pdftex.def)             Requested size: 180.17976pt x 208.51991pt.
 
-<<<<<<< HEAD
-<../Figures/BonusGameViolatingOptimal.png, id=983, 292.84406pt x 192.72pt>
-=======
-<../Figures/BonusGameViolatingOptimal.png, id=979, 292.84406pt x 192.72pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/BonusGameViolatingOptimal.png, id=978, 292.84406pt x 192.72pt>
 File: ../Figures/BonusGameViolatingOptimal.png Graphic file (type png)
 
 <use ../Figures/BonusGameViolatingOptimal.png>
@@ -2574,31 +2422,20 @@ y used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-<<<<<<< HEAD
 l.577 
       ]
 ("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance2(furtherW
-ork).tex" <../Figures/connectionGame.png, id=1036, 103.13531pt x 93.34875pt>
-=======
-l.3 
-    ] <../Figures/connectionGame.png, id=1037, 103.13531pt x 93.34875pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+ork).tex" <../Figures/connectionGame.png, id=1031, 103.13531pt x 93.34875pt>
 File: ../Figures/connectionGame.png Graphic file (type png)
 
 <use ../Figures/connectionGame.png>
 Package pdftex.def Info: ../Figures/connectionGame.png used on input line 9.
 (pdftex.def)             Requested size: 109.20111pt x 98.84093pt.
-<<<<<<< HEAD
 
 Underfull \vbox (badness 3460) has occurred while \output is active []
 
  [59 <D:/GITREPO/masterthesis/Figures/connectionGame.png>] [60]
-<../Figures/stability/Unefficientbutstablestar.png, id=1057, 271.0125pt x 224.3
-=======
- [59 <C:/Users/Håvard/masterthesis/masterthesis/Figures/connectionGame.png>] [
-60]
-<../Figures/stability/Unefficientbutstablestar.png, id=1060, 271.0125pt x 224.3
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/stability/Unefficientbutstablestar.png, id=1052, 271.0125pt x 224.3
 3812pt>
 File: ../Figures/stability/Unefficientbutstablestar.png Graphic file (type png)
 
@@ -2606,43 +2443,18 @@ File: ../Figures/stability/Unefficientbutstablestar.png Graphic file (type png)
 Package pdftex.def Info: ../Figures/stability/Unefficientbutstablestar.png used
  on input line 60.
 (pdftex.def)             Requested size: 182.0pt x 150.66176pt.
-<<<<<<< HEAD
  [61] [62 <D:/GITREPO/masterthesis/Figures/stability/Unefficientbutstablestar.p
 ng>]
-<../Figures/stability/Unefficientbutstabletwo.png, id=1076, 563.10374pt x 459.9
-=======
-
-Underfull \vbox (badness 1616) has occurred while \output is active []
-
- [61 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stability/Unefficientb
-utstablestar.png>]
-<../Figures/stability/Unefficientbutstabletwo.png, id=1070, 563.10374pt x 459.9
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/stability/Unefficientbutstabletwo.png, id=1071, 563.10374pt x 459.9
 6844pt>
 File: ../Figures/stability/Unefficientbutstabletwo.png Graphic file (type png)
  <use ../Figures/stability/Unefficientbutstabletwo.png>
 Package pdftex.def Info: ../Figures/stability/Unefficientbutstabletwo.png used 
 on input line 84.
 (pdftex.def)             Requested size: 218.40222pt x 178.39735pt.
-<<<<<<< HEAD
  [63 <D:/GITREPO/masterthesis/Figures/stability/Unefficientbutstabletwo.png>] [
 64] [65] [66]
-[67] <../Figures/Clique-20-nodes.png, id=1127, 251.43938pt x 240.9pt>
-=======
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[62] [63 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stability/Uneffici
-entbutstabletwo.png>] [64]
-Underfull \vbox (badness 2894) has occurred while \output is active []
-
- [65]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [66]
-<../Figures/Clique-20-nodes.png, id=1123, 251.43938pt x 240.9pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+[67] <../Figures/Clique-20-nodes.png, id=1122, 251.43938pt x 240.9pt>
 File: ../Figures/Clique-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Clique-20-nodes.png>
@@ -2650,11 +2462,7 @@ Package pdftex.def Info: ../Figures/Clique-20-nodes.png used on input line 283.
 
 (pdftex.def)             Requested size: 229.31744pt x 219.70454pt.
 
-<<<<<<< HEAD
-<../Figures/Clique-ish-20-nodes.png, id=1128, 368.1253pt x 396.7322pt>
-=======
-<../Figures/Clique-ish-20-nodes.png, id=1124, 368.1253pt x 396.7322pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/Clique-ish-20-nodes.png, id=1123, 368.1253pt x 396.7322pt>
 File: ../Figures/Clique-ish-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Clique-ish-20-nodes.png>
@@ -2665,22 +2473,14 @@ Package pdftex.def Info: ../Figures/Clique-ish-20-nodes.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<../Figures/Star-20-nodes.png, id=1131, 752.8125pt x 752.8125pt>
-=======
-<../Figures/Star-20-nodes.png, id=1127, 752.8125pt x 752.8125pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/Star-20-nodes.png, id=1126, 752.8125pt x 752.8125pt>
 File: ../Figures/Star-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Star-20-nodes.png>
 Package pdftex.def Info: ../Figures/Star-20-nodes.png used on input line 300.
 (pdftex.def)             Requested size: 229.31744pt x 229.31456pt.
 
-<<<<<<< HEAD
-<../Figures/Scalefree-20-nodes.png, id=1132, 752.8125pt x 752.8125pt>
-=======
-<../Figures/Scalefree-20-nodes.png, id=1128, 752.8125pt x 752.8125pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/Scalefree-20-nodes.png, id=1127, 752.8125pt x 752.8125pt>
 File: ../Figures/Scalefree-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Scalefree-20-nodes.png>
@@ -2712,18 +2512,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [75]
-<<<<<<< HEAD
-[76]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 60.
- (D:\Latex\MiKTeX\tex\latex\lm\ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) [77]
-("D:\GITREPO\masterthesis\Template fra Laurent\main.bbl" [78
-=======
-[76]) [77]
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.bbl"
-[78
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+[76]) [77] ("D:\GITREPO\masterthesis\Template fra Laurent\main.bbl" [78
 
 
 ]
@@ -2752,13 +2541,8 @@ Underfull \hbox (badness 1057) in paragraph at lines 251--256
 cle / 9223366 / Cyber _ insurance _$
  []
 
-<<<<<<< HEAD
 [81]) [82] ("D:\GITREPO\masterthesis\Template fra Laurent\Appendix.tex"
-=======
-[81]) [82]
-("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\Appendix.tex"
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
-<../Figures/SignalingGameInsured.png, id=1244, 1318.17468pt x 461.47406pt>
+<../Figures/SignalingGameInsured.png, id=1237, 1318.17468pt x 461.47406pt>
 File: ../Figures/SignalingGameInsured.png Graphic file (type png)
 
 <use ../Figures/SignalingGameInsured.png>
@@ -2768,13 +2552,8 @@ Package pdftex.def Info: ../Figures/SignalingGameInsured.png used on input line
  [83
 
 
-<<<<<<< HEAD
  <D:/GITREPO/masterthesis/Figures/SignalingGameInsured.png>] [84]
-=======
- <C:/Users/Håvard/masterthesis/masterthesis/Figures/SignalingGameInsured.png>]
- [84]
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
-<../Figures/SignalingGameNotInsured.png, id=1262, 1294.8375pt x 418.56375pt>
+<../Figures/SignalingGameNotInsured.png, id=1255, 1294.8375pt x 418.56375pt>
 File: ../Figures/SignalingGameNotInsured.png Graphic file (type png)
 
 <use ../Figures/SignalingGameNotInsured.png>
@@ -2789,11 +2568,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [87] [88
 
 ]
-<<<<<<< HEAD
-<../Figures/Netlogo-model-2.pdf, id=1306, page=1, 517.935pt x 731.25197pt>
-=======
-<../Figures/Netlogo-model-2.pdf, id=1307, page=1, 517.935pt x 731.25197pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/Netlogo-model-2.pdf, id=1299, page=1, 517.935pt x 731.25197pt>
 File: ../Figures/Netlogo-model-2.pdf Graphic file (type pdf)
 
 <use ../Figures/Netlogo-model-2.pdf, page 1>
@@ -2824,13 +2599,8 @@ File: ../Figures/Netlogo-model-2.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../Figures/Netlogo-model-2.pdf, page1 used on input li
 ne 196.
 (pdftex.def)             Requested size: 362.55202pt x 511.8729pt.
-<<<<<<< HEAD
  [89 <D:/GITREPO/masterthesis/Figures/Netlogo-model-2.pdf>]
-<../Figures/Netlogo-model-2.pdf, id=1329, page=2, 517.935pt x 731.25197pt>
-=======
- [89 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Netlogo-model-2.pdf>]
-<../Figures/Netlogo-model-2.pdf, id=1330, page=2, 517.935pt x 731.25197pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/Netlogo-model-2.pdf, id=1322, page=2, 517.935pt x 731.25197pt>
 File: ../Figures/Netlogo-model-2.pdf Graphic file (type pdf)
 
 <use ../Figures/Netlogo-model-2.pdf, page 2>
@@ -2861,13 +2631,8 @@ File: ../Figures/Netlogo-model-2.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../Figures/Netlogo-model-2.pdf, page2 used on input li
 ne 197.
 (pdftex.def)             Requested size: 501.66925pt x 708.28703pt.
-<<<<<<< HEAD
  [90 <D:/GITREPO/masterthesis/Figures/Netlogo-model-2.pdf>]
-<../Figures/Netlogo-model-2.pdf, id=1335, page=3, 517.935pt x 731.25197pt>
-=======
- [90 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Netlogo-model-2.pdf>]
-<../Figures/Netlogo-model-2.pdf, id=1336, page=3, 517.935pt x 731.25197pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/Netlogo-model-2.pdf, id=1328, page=3, 517.935pt x 731.25197pt>
 File: ../Figures/Netlogo-model-2.pdf Graphic file (type pdf)
 
 <use ../Figures/Netlogo-model-2.pdf, page 3>
@@ -2886,13 +2651,8 @@ File: ../Figures/Netlogo-model-2.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../Figures/Netlogo-model-2.pdf, page3 used on input li
 ne 197.
 (pdftex.def)             Requested size: 501.66925pt x 708.28703pt.
-<<<<<<< HEAD
  [91 <D:/GITREPO/masterthesis/Figures/Netlogo-model-2.pdf>]
-<../Figures/Netlogo-model-max-degree.pdf, id=1344, page=1, 597.55246pt x 845.07
-=======
- [91 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Netlogo-model-2.pdf>]
-<../Figures/Netlogo-model-max-degree.pdf, id=1345, page=1, 597.55246pt x 845.07
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/Netlogo-model-max-degree.pdf, id=1337, page=1, 597.55246pt x 845.07
 718pt>
 File: ../Figures/Netlogo-model-max-degree.pdf Graphic file (type pdf)
  <use ../Figures/Netlogo-model-max-degree.pdf, page 1>
@@ -2923,14 +2683,8 @@ File: ../Figures/Netlogo-model-max-degree.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../Figures/Netlogo-model-max-degree.pdf, page1 used on
  input line 204.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
-<<<<<<< HEAD
  [92 <D:/GITREPO/masterthesis/Figures/Netlogo-model-max-degree.pdf>]
-<../Figures/Netlogo-model-max-degree.pdf, id=1366, page=2, 597.55246pt x 845.07
-=======
- [92 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Netlogo-model-max-degr
-ee.pdf>]
-<../Figures/Netlogo-model-max-degree.pdf, id=1367, page=2, 597.55246pt x 845.07
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/Netlogo-model-max-degree.pdf, id=1359, page=2, 597.55246pt x 845.07
 718pt>
 File: ../Figures/Netlogo-model-max-degree.pdf Graphic file (type pdf)
  <use ../Figures/Netlogo-model-max-degree.pdf, page 2>
@@ -2961,14 +2715,8 @@ File: ../Figures/Netlogo-model-max-degree.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../Figures/Netlogo-model-max-degree.pdf, page2 used on
  input line 205.
 (pdftex.def)             Requested size: 501.22945pt x 708.8542pt.
-<<<<<<< HEAD
  [93 <D:/GITREPO/masterthesis/Figures/Netlogo-model-max-degree.pdf>]
-<../Figures/Netlogo-model-max-degree.pdf, id=1373, page=3, 597.55246pt x 845.07
-=======
- [93 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Netlogo-model-max-degr
-ee.pdf>]
-<../Figures/Netlogo-model-max-degree.pdf, id=1374, page=3, 597.55246pt x 845.07
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/Netlogo-model-max-degree.pdf, id=1366, page=3, 597.55246pt x 845.07
 718pt>
 File: ../Figures/Netlogo-model-max-degree.pdf Graphic file (type pdf)
  <use ../Figures/Netlogo-model-max-degree.pdf, page 3>
@@ -2987,14 +2735,8 @@ File: ../Figures/Netlogo-model-max-degree.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../Figures/Netlogo-model-max-degree.pdf, page3 used on
  input line 205.
 (pdftex.def)             Requested size: 501.22945pt x 708.8542pt.
-<<<<<<< HEAD
  [94 <D:/GITREPO/masterthesis/Figures/Netlogo-model-max-degree.pdf>]
-<../Figures/Netlogo-model-max-degree.pdf, id=1379, page=4, 597.55246pt x 845.07
-=======
- [94 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Netlogo-model-max-degr
-ee.pdf>]
-<../Figures/Netlogo-model-max-degree.pdf, id=1380, page=4, 597.55246pt x 845.07
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/Netlogo-model-max-degree.pdf, id=1372, page=4, 597.55246pt x 845.07
 718pt>
 File: ../Figures/Netlogo-model-max-degree.pdf Graphic file (type pdf)
  <use ../Figures/Netlogo-model-max-degree.pdf, page 4>
@@ -3013,14 +2755,8 @@ File: ../Figures/Netlogo-model-max-degree.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../Figures/Netlogo-model-max-degree.pdf, page4 used on
  input line 205.
 (pdftex.def)             Requested size: 501.22945pt x 708.8542pt.
-<<<<<<< HEAD
  [95 <D:/GITREPO/masterthesis/Figures/Netlogo-model-max-degree.pdf>]
-<../Figures/Netlogo-model-5.pdf, id=1387, page=1, 597.55246pt x 845.07718pt>
-=======
- [95 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Netlogo-model-max-degr
-ee.pdf>]
-<../Figures/Netlogo-model-5.pdf, id=1388, page=1, 597.55246pt x 845.07718pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/Netlogo-model-5.pdf, id=1380, page=1, 597.55246pt x 845.07718pt>
 File: ../Figures/Netlogo-model-5.pdf Graphic file (type pdf)
 
 <use ../Figures/Netlogo-model-5.pdf, page 1>
@@ -3051,13 +2787,8 @@ File: ../Figures/Netlogo-model-5.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../Figures/Netlogo-model-5.pdf, page1 used on input li
 ne 211.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
-<<<<<<< HEAD
  [96 <D:/GITREPO/masterthesis/Figures/Netlogo-model-5.pdf>]
-<../Figures/Netlogo-model-5.pdf, id=1409, page=2, 597.55246pt x 845.07718pt>
-=======
- [96 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Netlogo-model-5.pdf>]
-<../Figures/Netlogo-model-5.pdf, id=1410, page=2, 597.55246pt x 845.07718pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/Netlogo-model-5.pdf, id=1402, page=2, 597.55246pt x 845.07718pt>
 File: ../Figures/Netlogo-model-5.pdf Graphic file (type pdf)
 
 <use ../Figures/Netlogo-model-5.pdf, page 2>
@@ -3088,13 +2819,8 @@ File: ../Figures/Netlogo-model-5.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../Figures/Netlogo-model-5.pdf, page2 used on input li
 ne 212.
 (pdftex.def)             Requested size: 501.22945pt x 708.8542pt.
-<<<<<<< HEAD
  [97 <D:/GITREPO/masterthesis/Figures/Netlogo-model-5.pdf>]
-<../Figures/Netlogo-model-5.pdf, id=1417, page=3, 597.55246pt x 845.07718pt>
-=======
- [97 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Netlogo-model-5.pdf>]
-<../Figures/Netlogo-model-5.pdf, id=1418, page=3, 597.55246pt x 845.07718pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/Netlogo-model-5.pdf, id=1410, page=3, 597.55246pt x 845.07718pt>
 File: ../Figures/Netlogo-model-5.pdf Graphic file (type pdf)
 
 <use ../Figures/Netlogo-model-5.pdf, page 3>
@@ -3113,13 +2839,8 @@ File: ../Figures/Netlogo-model-5.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../Figures/Netlogo-model-5.pdf, page3 used on input li
 ne 212.
 (pdftex.def)             Requested size: 501.22945pt x 708.8542pt.
-<<<<<<< HEAD
  [98 <D:/GITREPO/masterthesis/Figures/Netlogo-model-5.pdf>]
-<../Figures/Netlogo-model-5.pdf, id=1423, page=4, 597.55246pt x 845.07718pt>
-=======
- [98 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Netlogo-model-5.pdf>]
-<../Figures/Netlogo-model-5.pdf, id=1424, page=4, 597.55246pt x 845.07718pt>
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
+<../Figures/Netlogo-model-5.pdf, id=1416, page=4, 597.55246pt x 845.07718pt>
 File: ../Figures/Netlogo-model-5.pdf Graphic file (type pdf)
 
 <use ../Figures/Netlogo-model-5.pdf, page 4>
@@ -3160,97 +2881,38 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
 ("D:\GITREPO\masterthesis\Template fra Laurent\Appendix.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
-<<<<<<< HEAD
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 94536E2EA2BD45C68C27CC33306FA2B8;3643.
+(rerunfilecheck)             Checksum: B121E19F593EAC5059AECF0396B30437;3643.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
- 38370 strings out of 494045
- 741057 string characters out of 3153222
- 1030949 words of memory out of 3000000
- 40192 multiletter control sequences out of 15000+200000
- 115099 words of font info for 185 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 69i,19n,94p,1504b,2049s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{D:/Latex/MiKTeX/fonts/enc/dvi
-ps/lm/lm-ec.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{D:/Latex/MiK
-TeX/fonts/enc/dvips/lm/lm-rm.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathex.
-enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}<D:/Latex/MiKTeX/fonts/ty
-pe1/public/lm/lmbx10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><D:/
-Latex/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><D:/Latex/MiKTeX/fonts/type1/pub
-lic/lm/lmex10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><D:/Latex/M
-iKTeX/fonts/type1/public/lm/lmmi5.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lm
-mi6.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><D:/Latex/MiKTeX/fonts
-/type1/public/lm/lmmi9.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr10.pfb><D:
-/Latex/MiKTeX/fonts/type1/public/lm/lmr5.pfb><D:/Latex/MiKTeX/fonts/type1/publi
-c/lm/lmr6.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr7.pfb><D:/Latex/MiKTeX/
-fonts/type1/public/lm/lmr8.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr9.pfb>
-<D:/Latex/MiKTeX/fonts/type1/public/lm/lmri10.pfb><D:/Latex/MiKTeX/fonts/type1/
-public/lm/lmss12.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmss17.pfb><D:/Late
-x/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><D:/Latex/MiKTeX/fonts/type1/public
-/lm/lmsy10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
-Output written on main.pdf (111 pages, 2400865 bytes).
-PDF statistics:
- 1590 PDF objects out of 1728 (max. 8388607)
- 393 named destinations out of 1000 (max. 500000)
- 28867 words of extra memory for PDF output out of 29859 (max. 10000000)
-=======
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 12970E8B9CDDDA61FBF11D05320CAE71;3633
-(rerunfilecheck)             After:  6DC8099BF213665BF7FFBAE2F142EB5A;3633.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
- ) 
-Here is how much of TeX's memory you used:
- 38335 strings out of 494045
- 751664 string characters out of 3145963
- 1043450 words of memory out of 3000000
+ 38334 strings out of 494045
+ 740174 string characters out of 3153222
+ 1029242 words of memory out of 3000000
  40161 multiletter control sequences out of 15000+200000
  114734 words of font info for 184 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  69i,19n,94p,1504b,2049s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{figure.caption.85} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.81} has been referenced but does not
- exist, replaced by a fixed one
-
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/
-enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/l
-m/lm-mathsy.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/lm/lmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi7
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi9.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr5.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/lm/lmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/l
-mr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/l
-msy7.pfb>
-Output written on main.pdf (111 pages, 2399991 bytes).
+{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{D:/Latex/MiKTeX/fonts/enc/dvip
+s/lm/lm-mathit.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{D:/Latex/MiKT
+eX/fonts/enc/dvips/lm/lm-mathex.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-math
+sy.enc}<D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><D:/Latex/MiKTeX/fonts
+/type1/public/lm/lmbx12.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb>
+<D:/Latex/MiKTeX/fonts/type1/public/lm/lmex10.pfb><D:/Latex/MiKTeX/fonts/type1/
+public/lm/lmmi10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><D:/Latex
+/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/
+lmmi7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><D:/Latex/MiKTeX/fon
+ts/type1/public/lm/lmr10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr5.pfb><D
+:/Latex/MiKTeX/fonts/type1/public/lm/lmr6.pfb><D:/Latex/MiKTeX/fonts/type1/publ
+ic/lm/lmr7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr8.pfb><D:/Latex/MiKTeX
+/fonts/type1/public/lm/lmr9.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmri10.p
+fb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmss12.pfb><D:/Latex/MiKTeX/fonts/typ
+e1/public/lm/lmss17.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><D:
+/Latex/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><D:/Latex/MiKTeX/fonts/type1/pub
+lic/lm/lmsy7.pfb>
+Output written on main.pdf (111 pages, 2394620 bytes).
 PDF statistics:
- 1589 PDF objects out of 1728 (max. 8388607)
- 393 named destinations out of 1000 (max. 500000)
+ 1581 PDF objects out of 1728 (max. 8388607)
+ 392 named destinations out of 1000 (max. 500000)
  28355 words of extra memory for PDF output out of 29859 (max. 10000000)
->>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
 
