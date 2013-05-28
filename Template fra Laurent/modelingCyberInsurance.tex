@@ -7,9 +7,17 @@ From the insurer's point of view, a problem with cyber-insurance is to define an
 Examples of such structures are described in the graph theory chapter, scale-free network, star structures and cliques. In summary, scale-free networks have proven to be very robust against random attacks. Star topologies, or star-like topologies, have a fixation probability that exceeds the fixation probability of circulation graphs. Star structures also have a desirable property of minimizing the average path length, i.e. minimizing the cost spent on establishing links. Finally, the clique has a nice property of being able to achieve super-critical payoff, as showed in \cite{contagion}.
 In our thesis we want to focus on the clique and star/star-like structures for the following reasons: Both have been identified to have calculable fixation probability and the possibility of amplifying or suppressing selection and drift. This is favorable, because if the insurer is able to ensure that the nodes have a certain security level, particularly the center node, one can prevent viruses from spreading to other nodes.
  
-Our goal for the models is to find out how and when these networks evolve, and most importantly, how the insurer, by adjusting the \textit{insurance cost} can ensure that the network formation will in fact happen.
+\subparagraph{Structure of the models.} Our goal for the models is to find out how and when the network structures mentioned above evolve, and most importantly, how the insurer, by adjusting the \textit{insurance cost} can ensure that the network formation will in fact happen.
 
-In this chapter we will start out with a simple model, model 1: Initial Model, and stepwise adding new features to make the models more realistic and applicable to real world scenarios. An overview of the models can be seen in Figure \ref{fig:Overview-of-models}. For models 2,3 and 5, we created a simulator, to confirm the results of our calculations.
+In this chapter we will start out with a simple model, model 1: Initial Model, and stepwise adding new features to make the models more realistic and applicable to real world scenarios.
+
+An overview of the models can be seen in Figure \ref{fig:Overview-of-models}. The first model, although unrealistic shows how the network formation ends up if nodes were able to determine whether other nodes are insured or not, and insured nodes only chose to connect to other insured nodes. 
+Model 2 introduces parameters reflecting the actual cyber-insurance market. This makes the modeling process much more realistic, and we try to find the conditions were the desired network structures evolve. Model 2b, is a tiny digression, where the consequences of incomplete information about other nodes' type are analyzed. 
+In model 3 we apply a bonus when a node reach a desired number of connections. This illustrates a scenario were a node is dependent on other nodes expertise in order to complete a task.
+Model 4 analyzes the outcome of introducing a bulk-insurance discount, which is a normal phenomena in the insurance industry, e.g. for each new insurance you purchase, you will receive a discount. 
+In the final model, we apply model 4 to an already existing model "the symmetric connection game", in order to analyze the impact of network externalities.
+
+ For models 2,3 and 5, we created a simulator, to confirm the results of our calculations. The interested reader can find the source code in Appendix B.
 \begin{figure}[h]
 \centering
   \includegraphics[width=0.9\linewidth]{../Figures/modeloverview.png}
@@ -108,7 +116,7 @@ The problem with this way of solving the problem is that it is very hard to solv
 \end{figure}
 
 
-\subsection{Multiple nodes}
+\subsection{Model 2a: Multiple nodes}
 \subsubsection{Assumptions}
 To make the modeling possible, we will from now on assume that the type of the nodes is given in advance, i.e. they are chosen to be insured or non-insured with a probability. The reason for this is that, we are focusing on endogenous network formations, and to include this decision process would only drastically increase the complexity of the models. 
 
@@ -442,7 +450,7 @@ In figure \ref{fig:bonusvolating:a} the price of anarchy is $0.95$, and in figur
   \caption{\label{fig:bonusvolating:b}Every non-insured node is connected to one insured node, this is the optimal outcome with these parameters.}
 \end{subfigure}
   
-  \caption{\label{fig:bonusviolating} Two possible outcomes when insured nodes are willing to take the risk of connecting to non-insured nodes, to receive their bonus. Figure $a$ shows a scenario where one non-insured node has connected to more than one insured node, thus not a socially optimal outcome. Figure $b$ shows the optimal outcome. }
+  \caption[Two possible outcomes when insured nodes are willing to take the risk of connecting to non-insured nodes, to receive their bonus.]{\label{fig:bonusviolating} Two possible outcomes when insured nodes are willing to take the risk of connecting to non-insured nodes, to receive their bonus. Figure $a$ shows a scenario where one non-insured node has connected to more than one insured node, thus not a socially optimal outcome. Figure $b$ shows the optimal outcome. }
 \end{figure}
 
 
