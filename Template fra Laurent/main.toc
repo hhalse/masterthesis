@@ -44,61 +44,62 @@
 \contentsline {subparagraph}{Pairwise stability.}{31}{section*.29}
 \contentsline {section}{\numberline {4.4}Netlogo}{32}{section.4.4}
 \contentsline {chapter}{\chapternumberline {5}Modeling Cyber-Insurance }{35}{chapter.5}
+\contentsline {subparagraph}{Structure of the models.}{35}{section*.32}
 \contentsline {section}{\numberline {5.1}Model 1: Initial Model }{36}{section.5.1}
 \contentsline {section}{\numberline {5.2}Model 2: Including Parameters}{37}{section.5.2}
-\contentsline {paragraph}{Characteristics of the model.}{37}{section*.34}
-\contentsline {subsection}{\numberline {5.2.1}Two nodes scenario}{38}{subsection.5.2.1}
-\contentsline {subparagraph}{Introducing time.}{39}{section*.37}
-\contentsline {subsection}{\numberline {5.2.2}Multiple nodes}{41}{subsection.5.2.2}
-\contentsline {subsubsection}{Assumptions}{41}{section*.39}
-\contentsline {subsubsection}{Analysis}{42}{section*.40}
-\contentsline {subparagraph}{Insured to insured.}{42}{section*.41}
-\contentsline {subparagraph}{Non-insured to insured.}{42}{section*.42}
-\contentsline {subparagraph}{Insured to non-insured.}{43}{section*.43}
-\contentsline {subparagraph}{Non-insured to Non-insured.}{43}{section*.44}
-\contentsline {subparagraph}{Forming a trusted clique.}{43}{section*.45}
-\contentsline {subsection}{\numberline {5.2.3}Result and findings}{43}{subsection.5.2.3}
-\contentsline {subparagraph}{Stability and efficiency}{44}{section*.46}
-\contentsline {subsubsection}{Simulation of the results}{45}{section*.47}
-\contentsline {section}{\numberline {5.3}Model 2b: Model with incomplete information}{46}{section.5.3}
-\contentsline {subparagraph}{Result and findings.}{48}{section*.50}
-\contentsline {section}{\numberline {5.4}Model 3: Including maximum node degree and bonus}{48}{section.5.4}
+\contentsline {paragraph}{Characteristics of the model.}{39}{section*.35}
+\contentsline {subsection}{\numberline {5.2.1}Two nodes scenario}{39}{subsection.5.2.1}
+\contentsline {subparagraph}{Introducing time.}{41}{section*.38}
+\contentsline {subsection}{\numberline {5.2.2}Model 2a: Multiple nodes}{41}{subsection.5.2.2}
+\contentsline {subsubsection}{Assumptions}{41}{section*.40}
+\contentsline {subsubsection}{Analysis}{42}{section*.41}
+\contentsline {subparagraph}{Insured to insured.}{43}{section*.42}
+\contentsline {subparagraph}{Non-insured to insured.}{43}{section*.43}
+\contentsline {subparagraph}{Insured to non-insured.}{43}{section*.44}
+\contentsline {subparagraph}{Non-insured to Non-insured.}{43}{section*.45}
+\contentsline {subparagraph}{Forming a trusted clique.}{43}{section*.46}
+\contentsline {subsection}{\numberline {5.2.3}Result and findings}{44}{subsection.5.2.3}
+\contentsline {subparagraph}{Stability and efficiency}{44}{section*.47}
+\contentsline {subsubsection}{Simulation of the results}{45}{section*.48}
+\contentsline {section}{\numberline {5.3}Model 2b: Model with incomplete information}{47}{section.5.3}
+\contentsline {subparagraph}{Result and findings.}{47}{section*.51}
+\contentsline {section}{\numberline {5.4}Model 3: Including maximum node degree and bonus}{49}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Analysis}{49}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Result and findings}{50}{subsection.5.4.2}
-\contentsline {subparagraph}{Consequences of not reaching the required number of edges.}{52}{section*.51}
-\contentsline {subparagraph}{Efficiency and Stability.}{52}{section*.52}
-\contentsline {subsubsection}{Simulation of the results}{53}{section*.53}
+\contentsline {subsection}{\numberline {5.4.2}Result and findings}{51}{subsection.5.4.2}
+\contentsline {subparagraph}{Consequences of not reaching the required number of edges.}{52}{section*.52}
+\contentsline {subparagraph}{Efficiency and Stability.}{52}{section*.53}
+\contentsline {subsubsection}{Simulation of the results}{53}{section*.54}
 \contentsline {section}{\numberline {5.5}Model 4: Including bulk insurance discount}{54}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Analysis}{55}{subsection.5.5.1}
-\contentsline {subsubsection}{Discount model}{55}{section*.56}
-\contentsline {subparagraph}{Result and findings}{56}{section*.57}
-\contentsline {subparagraph}{Stability and efficiency}{56}{section*.58}
-\contentsline {subsubsection}{Discount and Bonus model}{57}{section*.59}
+\contentsline {subsection}{\numberline {5.5.1}Analysis}{56}{subsection.5.5.1}
+\contentsline {subsubsection}{Discount model}{56}{section*.57}
+\contentsline {subparagraph}{Result and findings}{56}{section*.58}
+\contentsline {subparagraph}{Stability and efficiency}{57}{section*.59}
+\contentsline {subsubsection}{Discount and Bonus model}{57}{section*.60}
 \contentsline {subsection}{\numberline {5.5.2}Result and findings}{58}{subsection.5.5.2}
-\contentsline {section}{\numberline {5.6}Model 5: Network externalities}{58}{section.5.6}
-\contentsline {subparagraph}{Example:}{59}{section*.61}
+\contentsline {section}{\numberline {5.6}Model 5: Network externalities}{59}{section.5.6}
+\contentsline {subparagraph}{Example:}{60}{section*.62}
 \contentsline {subsection}{\numberline {5.6.1}Insurance and connection game}{61}{subsection.5.6.1}
 \contentsline {subsection}{\numberline {5.6.2}Homogeneous symmetric connection game}{61}{subsection.5.6.2}
-\contentsline {subparagraph}{A star is not possible with high \textit {n}.}{62}{section*.63}
-\contentsline {subparagraph}{Bulk insurance.}{62}{section*.65}
-\contentsline {subsubsection}{Results and findings}{64}{section*.66}
-\contentsline {subparagraph}{Price of Anarchy.}{67}{section*.71}
-\contentsline {subparagraph}{Example structures from the simulation.}{67}{figure.caption.74}
+\contentsline {subparagraph}{A star is not possible with high \textit {n}.}{62}{section*.64}
+\contentsline {subparagraph}{Bulk insurance.}{63}{section*.66}
+\contentsline {subsubsection}{Results and findings}{65}{section*.67}
+\contentsline {subparagraph}{Price of Anarchy.}{68}{section*.72}
+\contentsline {subparagraph}{Example structures from the simulation.}{68}{figure.caption.75}
 \contentsline {chapter}{\chapternumberline {6}Summary}{73}{chapter.6}
 \contentsline {section}{\numberline {6.1}Discussion}{73}{section.6.1}
-\contentsline {subparagraph}{Limitations and future work}{76}{section*.76}
+\contentsline {subparagraph}{Limitations and future work}{76}{section*.77}
 \contentsline {section}{\numberline {6.2}Conclusion}{76}{section.6.2}
-\contentsline {subparagraph}{NOTATER.....AVOID this in conclsuion}{77}{section*.77}
-\contentsline {chapter}{References}{79}{section*.79}
+\contentsline {subparagraph}{NOTATER.....AVOID this in conclsuion}{77}{section*.78}
+\contentsline {chapter}{References}{79}{section*.80}
 \vspace {1em}\noindent \bfseries Appendices\par \vspace {-.5em}
 \contentsline {appendix}{\chapternumberline {A}Analysis}{83}{appendix.A}
 \contentsline {section}{\numberline {A.1}Analysis of model-2b: Incomplete information}{83}{section.A.1}
-\contentsline {subparagraph}{Node 2 is insured.}{83}{section*.80}
-\contentsline {subparagraph}{Separating equilibrium.}{84}{section*.82}
-\contentsline {subparagraph}{Pooling equilibrium.}{85}{section*.83}
-\contentsline {subparagraph}{Node 2 not insured.}{85}{section*.84}
-\contentsline {subparagraph}{Separating equilibrium.}{85}{section*.86}
-\contentsline {subparagraph}{Pooling equilibrium.}{87}{section*.87}
+\contentsline {subparagraph}{Node 2 is insured.}{83}{section*.81}
+\contentsline {subparagraph}{Separating equilibrium.}{84}{section*.83}
+\contentsline {subparagraph}{Pooling equilibrium.}{85}{section*.84}
+\contentsline {subparagraph}{Node 2 not insured.}{85}{section*.85}
+\contentsline {subparagraph}{Separating equilibrium.}{85}{section*.87}
+\contentsline {subparagraph}{Pooling equilibrium.}{87}{section*.88}
 \contentsline {appendix}{\chapternumberline {B}Simulation models}{89}{appendix.B}
 \contentsline {section}{\numberline {B.1}Model 2: Including parameters}{89}{section.B.1}
 \contentsline {section}{\numberline {B.2}Model 3: Including maximum node degree and bonus}{92}{section.B.2}

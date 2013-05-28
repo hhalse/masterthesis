@@ -12,15 +12,12 @@ In our thesis we want to focus on the clique and star/star-like structures for t
 In this chapter we will start out with a simple model, model 1: Initial Model, and stepwise adding new features to make the models more realistic and applicable to real world scenarios.
 
 An overview of the models can be seen in Figure \ref{fig:Overview-of-models}. The first model, although unrealistic shows how the network formation ends up if nodes were able to determine whether other nodes are insured or not, and insured nodes only chose to connect to other insured nodes. 
-Model 2 introduces parameters, which makes the modeling process much more realistic. 
+Model 2 introduces parameters reflecting the actual cyber-insurance market. This makes the modeling process much more realistic, and we try to find the conditions were the desired network structures evolve. Model 2b, is a tiny digression, where the consequences of incomplete information about other nodes' type are analyzed. 
+In model 3 we apply a bonus when a node reach a desired number of connections. This illustrates a scenario were a node is dependent on other nodes expertise in order to complete a task.
+Model 4 analyzes the outcome of introducing a bulk-insurance discount, which is a normal phenomena in the insurance industry, e.g. for each new insurance you purchase, you will receive a discount. 
+In the final model, we apply model 4 to an already existing model "the symmetric connection game", in order to analyze the impact of network externalities.
 
-første er en enkel modell som ikke gjør så mye. Vi ønsker å 
-
-- skrive om modellene
-en og en, hva er det vi egentlig adder
-
-
- For models 2,3 and 5, we created a simulator, to confirm the results of our calculations.
+ For models 2,3 and 5, we created a simulator, to confirm the results of our calculations. The interested reader can find the source code in Appendix B.
 \begin{figure}[h]
 \centering
   \includegraphics[width=0.9\linewidth]{../Figures/modeloverview.png}
@@ -453,7 +450,7 @@ In figure \ref{fig:bonusvolating:a} the price of anarchy is $0.95$, and in figur
   \caption{\label{fig:bonusvolating:b}Every non-insured node is connected to one insured node, this is the optimal outcome with these parameters.}
 \end{subfigure}
   
-  \caption{\label{fig:bonusviolating} Two possible outcomes when insured nodes are willing to take the risk of connecting to non-insured nodes, to receive their bonus. Figure $a$ shows a scenario where one non-insured node has connected to more than one insured node, thus not a socially optimal outcome. Figure $b$ shows the optimal outcome. }
+  \caption[Two possible outcomes when insured nodes are willing to take the risk of connecting to non-insured nodes, to receive their bonus.]{\label{fig:bonusviolating} Two possible outcomes when insured nodes are willing to take the risk of connecting to non-insured nodes, to receive their bonus. Figure $a$ shows a scenario where one non-insured node has connected to more than one insured node, thus not a socially optimal outcome. Figure $b$ shows the optimal outcome. }
 \end{figure}
 
 
