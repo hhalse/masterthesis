@@ -44,7 +44,11 @@
 \BOOKMARK [0][-]{chapter.6}{Summary}{}% 44
 \BOOKMARK [1][-]{section.6.1}{Discussion}{chapter.6}% 45
 \BOOKMARK [1][-]{section.6.2}{Conclusion}{chapter.6}% 46
+<<<<<<< HEAD
 \BOOKMARK [0][-]{section*.80}{References}{}% 47
+=======
+\BOOKMARK [0][-]{section*.78}{References}{}% 47
+>>>>>>> bfcbab0e7d93754637c8a07a8d48b75bbb6caf71
 \BOOKMARK [0][-]{appendix.A}{Analysis}{}% 48
 \BOOKMARK [1][-]{section.A.1}{Analysis of model-2b: Incomplete information}{appendix.A}% 49
 \BOOKMARK [0][-]{appendix.B}{Simulation models}{}% 50
