@@ -18,7 +18,7 @@
 \contentsline {figure}{\numberline {5.1}{\ignorespaces The figures show an overview of the different models we have created, and how they relate to each other. For every step, some new features are added to the model.\relax }}{36}{figure.caption.32}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Shows how nodes connect to eachother according to the model described in section \ref {section:verysimplemodel}.\relax }}{38}{figure.caption.33}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Normal form game, showing the different strategies and the payoffs for the different outcomes. First the payoff of a is written, then the payoff of B.\relax }}{40}{figure.caption.36}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Leader follower game, first player 1 chooses to insure or not, then player 2, and then they choose to establish link or not in the same order.\relax }}{41}{figure.caption.38}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Leader follower game, first player 1 chooses to insure or not, then player 2, and then they choose to establish link or not in the same order.\relax }}{42}{figure.caption.38}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces The figure shows the resulting network from a simulation with parameters: $\beta =0.9$, $I_{l}=r=0.5$.\relax }}{46}{figure.caption.48}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces The figure shows the two possible scenarios that violate Eq.(\ref {eq:final condition}), \ref {fig:SimulationViolating:a} shows the result when $I_{l}<\beta -r$ and \ref {fig:SimulationViolating:b} shows the result when $I_{l}>\beta $.\relax }}{47}{figure.caption.49}
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Two cliques, one consisting of insured agents the other consists of non-insured. All nodes have reached their goal. \relax }}{53}{figure.caption.54}
@@ -35,6 +35,6 @@
 \contentsline {figure}{\numberline {5.18}{\ignorespaces Two different outcomes from running simulations with a high critical degree.\relax }}{71}{figure.caption.75}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Signalling game with two nodes, node 1's type choosen by nature, node 2 is insured. Node 1 have complete information, node 2 suffer from incomplete information, and act on best response functions based on beliefs. \relax }}{83}{figure.caption.81}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Signalling game with two nodes, node 1's type choosen by nature, node2 is not insured. Node 1 have complete information, node 2 suffer from incomplete information, and act on best response functions based on beliefs. \relax }}{86}{figure.caption.85}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Leader/Follower game, node 1's type is chosen by nature, and node 2 is insured}}{83}{figure.caption.80}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Leader/Follower game, node 1's type is chosen by nature, and node 2 is not insured}}{86}{figure.caption.84}
 \addvspace {10pt}

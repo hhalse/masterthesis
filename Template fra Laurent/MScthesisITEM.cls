@@ -306,7 +306,7 @@
       \frontpagefont
       {\noindent%
        \begin{tabular}{@{}ll}
-         Submission date:       & \dateITEM\@date \\
+         Submission date:       & June 2013 \\
          Supervisor:            & \@supervisor    \\
          Responsible professor: & \@professor     \\
        \end{tabular}\par
