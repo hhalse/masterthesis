@@ -6,7 +6,7 @@
 \BOOKMARK [1][-]{section.1.4}{Introduction}{chapter.1}% 6
 \BOOKMARK [1][-]{section.1.5}{The cyber-insurance market}{chapter.1}% 7
 \BOOKMARK [0][-]{chapter.2}{Related work}{}% 8
-\BOOKMARK [1][-]{section.2.1}{Cyber-Insurance}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.1}{Cyber-insurance}{chapter.2}% 9
 \BOOKMARK [2][-]{subsection.2.1.1}{Summary}{section.2.1}% 10
 \BOOKMARK [0][-]{chapter.3}{Graphs and Network Formation}{}% 11
 \BOOKMARK [1][-]{section.3.1}{Real-world graph structures}{chapter.3}% 12
@@ -20,6 +20,7 @@
 \BOOKMARK [0][-]{chapter.5}{Modeling Cyber-Insurance }{}% 20
 \BOOKMARK [1][-]{section.5.1}{Model 1: Initial Model }{chapter.5}% 21
 \BOOKMARK [1][-]{section.5.2}{Model 2: Including Parameters}{chapter.5}% 22
+<<<<<<< HEAD
 \BOOKMARK [2][-]{section*.35}{Characteristics of the model.}{section.5.2}% 23
 \BOOKMARK [2][-]{subsection.5.2.1}{Two nodes scenario}{section.5.2}% 24
 \BOOKMARK [2][-]{subsection.5.2.2}{Model 2a: Multiple nodes}{section.5.2}% 25
@@ -51,3 +52,35 @@
 \BOOKMARK [1][-]{section.B.1}{Model 2: Including parameters}{appendix.B}% 51
 \BOOKMARK [1][-]{section.B.2}{Model 3: Including maximum node degree and bonus}{appendix.B}% 52
 \BOOKMARK [1][-]{section.B.3}{Model 5: Network externalities}{appendix.B}% 53
+=======
+\BOOKMARK [2][-]{subsection.5.2.1}{Two nodes scenario}{section.5.2}% 23
+\BOOKMARK [2][-]{subsection.5.2.2}{Model 2a: Multiple nodes}{section.5.2}% 24
+\BOOKMARK [3][-]{section*.41}{Assumptions}{subsection.5.2.2}% 25
+\BOOKMARK [3][-]{section*.42}{Analysis}{subsection.5.2.2}% 26
+\BOOKMARK [2][-]{subsection.5.2.3}{Result and findings}{section.5.2}% 27
+\BOOKMARK [3][-]{section*.49}{Simulation of the results}{subsection.5.2.3}% 28
+\BOOKMARK [1][-]{section.5.3}{Model 2b: Model with incomplete information}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.4}{Model 3: Including maximum node degree and bonus}{chapter.5}% 30
+\BOOKMARK [2][-]{subsection.5.4.1}{Analysis}{section.5.4}% 31
+\BOOKMARK [2][-]{subsection.5.4.2}{Result and findings}{section.5.4}% 32
+\BOOKMARK [3][-]{section*.55}{Simulation of the results}{subsection.5.4.2}% 33
+\BOOKMARK [1][-]{section.5.5}{Model 4: Including bulk insurance discount}{chapter.5}% 34
+\BOOKMARK [2][-]{subsection.5.5.1}{Analysis}{section.5.5}% 35
+\BOOKMARK [3][-]{section*.58}{Discount model}{subsection.5.5.1}% 36
+\BOOKMARK [3][-]{section*.61}{Discount and Bonus model}{subsection.5.5.1}% 37
+\BOOKMARK [2][-]{subsection.5.5.2}{Result and findings}{section.5.5}% 38
+\BOOKMARK [1][-]{section.5.6}{Model 5: Network externalities}{chapter.5}% 39
+\BOOKMARK [2][-]{subsection.5.6.1}{Insurance and connection game}{section.5.6}% 40
+\BOOKMARK [2][-]{subsection.5.6.2}{Homogeneous symmetric connection game}{section.5.6}% 41
+\BOOKMARK [3][-]{section*.68}{Results and findings}{subsection.5.6.2}% 42
+\BOOKMARK [0][-]{chapter.6}{Summary}{}% 43
+\BOOKMARK [1][-]{section.6.1}{Discussion}{chapter.6}% 44
+\BOOKMARK [1][-]{section.6.2}{Conclusion}{chapter.6}% 45
+\BOOKMARK [0][-]{section*.80}{References}{}% 46
+\BOOKMARK [0][-]{appendix.A}{Analysis}{}% 47
+\BOOKMARK [1][-]{section.A.1}{Analysis of model-2b: Incomplete information}{appendix.A}% 48
+\BOOKMARK [0][-]{appendix.B}{Simulation models}{}% 49
+\BOOKMARK [1][-]{section.B.1}{Model 2: Including parameters}{appendix.B}% 50
+\BOOKMARK [1][-]{section.B.2}{Model 3: Including maximum node degree and bonus}{appendix.B}% 51
+\BOOKMARK [1][-]{section.B.3}{Model 5: Network externalities}{appendix.B}% 52
+>>>>>>> 71b56fbb5290cb6b180b8d95bd2347e26b1e584b

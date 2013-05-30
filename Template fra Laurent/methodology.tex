@@ -1,7 +1,7 @@
 \chapter{Methodology}
 
 \section{Graphs}
-As mentioned in the previous chapter, graphs are good analytical tools when studying complex systems. Since we will use graphs extensively throughout this thesis, it is important to establish an understanding of basic graph properties. Figure \ref{fig:generalGraph} depicts the basics of an unweighted graph, where the edges are not assigned any value. Weighted edges can be useful to e.g. reflect capacity constraints such as a link's maximum bandwidth, or the length of a road (edge). Other common definitions used when describing graphs are listed below \cite{audestad}:
+As mentioned in the previous chapter, graphs are good analytical tools when studying complex systems. Since we will use graphs extensively throughout this thesis, it is important to establish an understanding of basic graph properties. Figure \ref{fig:generalGraph} depicts the basics of an unweighted graph, where the edges are not assigned any value. Weighted edges can be useful to e.g. reflect capacity constraints such as a link's maximum bandwidth, or the length of a road (edge), but will not be used in this thesis. Other common definitions used when describing graphs are listed below \cite{audestad}:
 \begin{itemize}
 \item Edge degree: Number of edges connected with a node.
 \item Hub: Node with high edge degree.
@@ -39,9 +39,9 @@ An interesting fact about these graphs is their vulnerability. These graphs are 
 
 \subparagraph{\label{ABgraph}Albert-Barabási Graphs.}
 The structure which is believed to be most accurate for modelling computer networks are A-B graphs. A-B graphs are different from E-R graphs since they are scale-free, meaning that the vertices do not have a constant value throughout the entire graph. Albert and Barabási found that the edge degree of each vertex follows a power law distribution; meaning that the probability that the edge degree is $g$ is proportional to $g^{-\gamma}$
-where $\gamma$ is usually a number between 2 and 3. This distribution is called a thick-tail distribution, because there is a significant probability that a node may have a very high degree. \cite{audestad}
-These graphs are in contrast to E-R-graphs, very vulnerable to directed attacks, because if you take out a hub, you destroy the whole graph. But the graph is very robust against random attacks, which is why most of the networks we observe in nature can be depicted as A-B-graphs.
-A-B graphs can grow and become scale-free if every new node is connected to one or more already existing node with a probability proportional to the edge degree of that node . The paper present an algorithm that creates A-B graphs and Figure \ref{fig:ABgraphcreation} shows a graph that evolves from this algorithm:
+where $\gamma$ is usually a number between 2 and 3. This distribution is called a thick-tail distribution, because there is a significant probability that a node may have a very high degree \cite{audestad}.
+These graphs are in contrast to E-R-graphs, very vulnerable to directed attacks, because if you take out a hub, mayor parts of the network will be affected. But the graph is very robust against random attacks, which is why most of the networks we observe in nature can be depicted as A-B-graphs.
+A-B graphs can grow and become scale-free if every new node is connected to one or more already existing node with a probability proportional to the edge degree of that node. The paper present an algorithm that creates A-B graphs and Figure \ref{fig:ABgraphcreation} shows a graph that evolves from this algorithm:
 
 \begin{itemize}
 \item A new single vertex is added to the graph.
@@ -86,10 +86,9 @@ A socially optimal outcome is the set of choices that maximizes the sum of all p
 \subparagraph{Price of Anarchy.}
 The price of Anarchy (PoA) of a network game, measures the efficiency of the network, by comparing the equilibrium outcome with the socially optimal outcome. The reason for this possible inefficiency is that agents act selfishly and do not necessarily consider other agents' payoff when choosing an action. In our thesis, the price of anarchy will be a number between 0 and 1, where 1 is the socially optimal outcome.
 \subparagraph{Stackelberg.}
-Also known as a leader-follower game, it introduces multiple stages. The leader commits him first, chooses his strategy, then the followers respond sequentially. The Stackelberg model can be solved to find the subgame perfect Nash Equilibrium, i.e. the strategy profile that serves each player best, given the strategies of the other players and that entails every player playing in a Nash Equilibrium in every subgame.
+Also known as a leader-follower game, it introduces multiple stages. The leader commits himself first, chooses his strategy, then the followers respond sequentially. The Stackelberg model can be solved to find the subgame perfect Nash Equilibrium, i.e. the strategy profile that serves each player best, given the strategies of the other players and that entails every player playing in a Nash Equilibrium in every subgame.
 \subparagraph{Bayesian game.}
-In Bayesian games, information about the other players' characteristics is incomplete. In these types of games, there is one player(the agent) who knows both types, and another player (the principal) who does not know the type of the other player. 
-
+In Bayesian games, information about the other players' characteristics is incomplete. In these types of games, there is one player(the agent) who knows both types, and another player (the principal) who does not know the type of the other player. There are two types of equilibriums in this game:
 A pooling equilibrium, is an equilibrium where both types of the agent choose the same action, i.e. the principal is not able to distinguish the two types. 
 A separating equilibrium is an equilibrium where the agents of different types choose different actions, and thus the principal is able to determine the agent's type by observing his actions.
 \subparagraph{Pairwise stability.}
@@ -104,7 +103,7 @@ players \cite{calvo2009pairwise}.
 
 \section{Netlogo}
 In addition to analyzing the different models with game theory, we created a simulator for the models, in a program called Netlogo. Netlogo is a programmable modeling environment for simulating natural and social phenomena. It is well suited for modeling complex systems developing over time \cite{netlogo}.
-Netlogo is well suited to model our complex network formation games, and at the same time Netlogo provided us with a good graphical user interface that enabled us to see the result of the games, and also to easily adjust the different parameters. It was especially of use when facing models that were difficult to analyze, because it gave us a good graphical result, showing that the network evolved, and the final resulting network.  
+Netlogo is well suited to model our complex network formation games, and at the same time Netlogo provided us with a good graphical user interface that enabled us to see the result of the games, and also to easily adjust the different parameters. It was especially of use when facing models that were difficult to analyze, because it gave us a good graphical result, showing how the network evolved, and the final resulting network.  
 In Figure \ref{fig:netlogo} we see the user interface, which is used to set up the parameters, start the modeling, and showing the resulting network formation. Figure \ref{fig:netlogo-code} shows how the coding interface looked like. For detailed overview of the code used in our different models, see appendix.
 \begin{figure}[h]
 \centering

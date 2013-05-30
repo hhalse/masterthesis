@@ -2,8 +2,8 @@
 \label{Model with incomplete information}
 Although we previously mentioned that we chose to assume complete information about other nodes' type. We wanted to get an impression of the complexity when modeling a scenario where some nodes' lack information about the other nodes type. The way we model this is by letting nature select whether a player is insured or not, a node is insured with probability $p$, and not insured with probability $1-p$. 
 All nodes know their own type, but in the link establishment process only one node knows the type of the other. The other node only knows the probability of the other node being insured or not. 
-We want to see if it is possible for the nodes with incomplete information to distinguish an insured node from a non-insured one, and then be able to follow the same procedures as in the other nodes. 
-For this model we will only present the results from the analysis, because the mathematics and analysis is too complex to include here. The actual analysis and the mathematics of this game can be seen in appendix \ref{ch:analysis-of-model-2b}.
+We want to see if it is possible for the nodes with incomplete information to distinguish an insured node from a non-insured one.
+For this model we will only present the results from the analysis, because the mathematics and analysis is too complex and non-intuitive to include here. The actual analysis and the mathematics of this game can be seen in appendix \ref{ch:analysis-of-model-2b}.
 
 \subparagraph{Result and findings.}
 When one player lacks knowledge about the other player, we were only able to find two scenarios where the player with less information could separate the two types of the other node. The first scenario occur when player 2 is insured and $\beta<I_{l}$, then it is only the non-insured node who wishes to establish a link, and in this way player 2 is able to separate the two types of player 1. However, since the benefit is less than the cost( $\beta<I_{l}$), his best response is to not establish any link.
@@ -14,7 +14,8 @@ We were also able to find some pooling equilibriums. If the node with incomplete
 There is also a pooling equilibrium where both nodes want to establish a link, this occurs when node 2 is not insured and the following is true: $\beta-I_{l}>r$. If the benefit from establishing a link is less than the expected risk cost( $\beta<r$), there will be a pooling equilibrium where both players choose not to establish links. 
 
 What this shows us is that when one player has incomplete information, it is no longer possible for the insurer to force a network to evolve into a state where a clique of only insured nodes exists. Furthermore, the incentive for establishing links decreases, since the player with less information must act on beliefs.  
-We chose not to simulate this model, since the result would only be a clique of non-insured nodes or a giant clique consisting of both insured and non-insured nodes.
+We chose not to simulate this model, since the result would only be a clique of non-insured nodes or a giant clique consisting of both insured and non-insured nodes. 
+In all the other models complete network information is assumed. 
 
 
 
