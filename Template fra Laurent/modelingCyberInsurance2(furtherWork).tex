@@ -16,7 +16,7 @@ The benefits a player receives in this game are calculated as follows: In additi
 \label{eq:connecetionGame}
 \end{equation}
 
-where $d(ij)$ represents the shortest path between node $i $ and node $j $, and ${c}_{ij}$ represents node i's cost of establishing a link between the two nodes. To simplify the model we choose a symmetric connection process where $\beta$ and $c$ is set to a fixed global value. 
+Where $d(ij)$ represents the shortest path between node $i $ and node $j $, and ${c}_{ij}$ represents node i's cost of establishing a link between the two nodes. To simplify the model we choose a symmetric connection process where $\beta$ and $c$ is set to a fixed global value. 
 
 In the paper \cite{jackson1996strategic}, the authors analyze the networks with two different approaches, one with focus on efficiency and the other on stability.  The optimal network is of course both efficient and stable, but as we shall see there are some conflicts between efficiency and stability. Matthew, et.al. showed that an efficient network is:
 \begin{enumerate}
@@ -36,8 +36,8 @@ When analyzing the stability of the network, by using the definition of pairwise
 \item \textit{if $\beta - \beta^2 <c < \beta $, a star encompassing every node will be pairwise stable, although not necessarily the unique pairwise stable graph,}
 \item \textit{if $\beta < c$, any pairwise stable network which is nonempty is such that each player has at least two links and is thus inefficient. }
 \end{enumerate}
-We see that the stability condition 2 is the same as the efficiency condition 1, and therefore if this condition is fulfilled, the network is both stable and efficient. 
-Condition 3 shows us why the efficient star network is not necessarily  stable. If $\beta \leq c <   \beta + \frac{(N-2)}{2}\beta^2$ then the efficient network will be a star, but it is not stable.
+We see that stability condition 2 is the same as efficiency condition 1, and therefore if this condition is fulfilled, the network is both stable and efficient. 
+Condition 3 shows us why the efficient star network is not necessarily stable. If $\beta \leq c <   \beta + \frac{(N-2)}{2}\beta^2$ then the efficient network will be a star, but it is not stable.
 
 It should be noticed that it is more beneficial for a node to operate as a leaf node compared to being a center node, due to the cost of direct connections. In a star structure, a leaf node will only have to pay the cost of the link to the center node, and will benefit indirectly for each node connected to the center node. The center node will benefit from each new connection, but, the payoff will only be $\beta - c$ for each connection. 
 
@@ -51,7 +51,7 @@ The insurer can thus determine the formation of the network by adjusting the cos
 \subsection{Homogeneous symmetric connection game}
 From this point on, the game we will consider is a homogeneous network setting, where every node is considered to be insured.
 This is done because it will simplify an otherwise very complex model. We are analyzing the resulting network structure, which is easier when only considering one homogeneous cost for every node.
-Let us look at an example, where the parameters are set to: $\beta=0.9, I_{l}=0.5$. The resulting network is shown in Figure \ref{fig:stablestar}.
+Let us look at an example, where the parameters are set to: $\beta=0.9, I_{l}=0.5$. The resulting network from a simulation is shown in Figure \ref{fig:stablestar}.
 
 
 
@@ -62,9 +62,9 @@ Let us look at an example, where the parameters are set to: $\beta=0.9, I_{l}=0.
 \end{figure}
 As we see this is not an efficient star, but the network is stable. The efficient network would be to delete the link $4,6$ and adding the link $1,6$. But since we only consider one link at a time this can not be done. To show this let $U_{i}$ denote the payoff of node $i$, the payoffs of the nodes are as described in Eq.(\ref{eq:payoffstablestar}).
 \begin{eqnarray}
-U_{1}=4\beta+\beta^2-4c\\
-U_{2}=U_{3}=U_{5}=\beta+3\beta^2+\beta^3-c\\
-U_{4}=2\beta+3\beta^2-2c\\
+U_{1}=4\beta+\beta^2-4c\nonumber\\
+U_{2}=U_{3}=U_{5}=\beta+3\beta^2+\beta^3-c\nonumber\\
+U_{4}=2\beta+3\beta^2-2c\nonumber\\
 U_{6}=\beta+\beta^2+3\beta^3-c
 \label{eq:payoffstablestar}
 \end{eqnarray}
@@ -87,13 +87,13 @@ One example of this is shown in Figure \ref{fig:stablescalefree}. There are only
 \subparagraph{Bulk insurance.}
 As noted before it is not preferable to be the center node, due to the cost of all the direct links. In a model with bulk insurance discount, the extra cost for the center node would decrease significantly. This could be used to increase the probability of reaching a star formation. 
 
-Using the discount formula from the previous model, we end up with Eq.(\ref{eq:discountstar}) to achieve a efficient and stable star topology. $i$ represents the node degree.
+Using the discount formula from the previous model, we end up with Eq.(\ref{eq:discountstar}) to achieve an efficient and stable star topology. $i$ represents the node degree.
 \begin{equation}
 \beta-\beta^2<\frac{i_{l}}{i+1}< \beta
 \label{eq:discountstar}
 \end{equation}
-An interesting property of the discount model is that the conditions for efficient networks will change. Because
-when the node degree increases, the insurance cost might reach the critical degree $g$, and the best strategy for a node with degree $g$ or higher, is to connect to every node, as shown in Eq.(\ref{eq:criticaldiscount}). 
+An interesting property of the discount model is that the conditions for efficient and stable networks will change. Because
+when the node degree increases, the insurance cost might reach the critical degree $g$, and the best strategy for a node with degree $g$ or higher, is to connect to every node, as shown in Eq.(\ref{eq:criticaldiscount}). The critical degree occurs when a node's optimal strategy changes from relaying on indirect connections to connecting to every node. 
 \begin{equation}
 \frac{I_{l}}{g}<\beta-\beta^2
 \label{eq:criticaldiscount}
@@ -101,14 +101,14 @@ when the node degree increases, the insurance cost might reach the critical degr
 This is possible when $g<n$, where $n$ represents the number of nodes in the network.
 The stability condition has changed for a node with a critical degree. The stable and efficient condition for this node is, as shown earlier, to have a direct connection to every other node. Thus if we have a star topology, both the leaf nodes and the center node are stable, and the center node has been compensated for its role in the network.
 
-Since the networks formed are similar to scale-free networks, we can calculate the probability of a node having degree $g$, see Eq.(\ref{eq:probabilitydegree}). $\gamma$ is the power law parameter, as described in Chapter \ref{chp:graphTheory}.
+Since the networks formed are similar to scale-free networks, we can calculate the probability of a node having degree $g$, see Eq.(\ref{eq:probabilitydegree}). $\gamma$ is the power law parameter, as described in Chapter 4.
 \begin{equation}
 P(g)=g^{-\gamma}
 \label{eq:probabilitydegree}
 \end{equation}
 When a node $i$ reaches the critical degree $g$ its optimal strategy is to connect to every node, since the payoff generated from direct connections is larger than any indirect connection. In general, nodes prefer to connect to nodes with high connectivity\footnote{A node with high degree implies a node with high connectivity.}, and will thus prefer to connect to this node compared to nodes with a degree lower than $g$. In this way, nodes will connect to the node who has a degree greater than or equal to $g$, and remove the links to their low-degree nodes which they can instead reach through the node with high connectivity.
 
-Let us consider a case with $n$nodes, and two of these nodes, $i$ and $j$, have an equal degree larger than $g$. The rest of the nodes have a degree of one or zero. If there exists a node with degree zero, it would prefer to be connected to $i$ or $j$, and so will $i$ and $j$, so this will eventually happen.
+Let us consider a case with $n$ nodes, and two of these nodes, $i$ and $j$, have an equal degree larger than $g$. The rest of the nodes have a degree of one or zero. If there exists a node with degree zero, it would prefer to be connected to $i$ or $j$, and so will $i$ and $j$, so this will eventually happen.
 If a node connected to $i$ is considering connecting to $j$, or vice versa, it will do so because $j$ can offer a higher connectivity than $i$. Now $j$ has a higher degree than $i$, and thus every node would prefer to connect to $j$ over $i$. This will eventually result in a star formation, with $j$ as the center node.
 From this we get the conjectures:
 \begin{cnj}
@@ -155,16 +155,16 @@ bar width=7pt,
 ]
 \addplot
 coordinates {
-(3,0.0) (4,0.0) (5,0.0) (6,0.42) (7,0.86) 
-(8,0.96) (9,0.98) (10,0.94) (11,0.70) (12,0.64)
+(2,0.0) (3,0.0) (4,0.0) (5,0.0) (6,0.42) (7,0.86) 
+(8,0.96) (9,1.0) (10,0.94) (11,0.70) (12,0.64)
  (13,0.667) (14,0.3) (15,0.3) 
 (16,0.16) (17,0.12) (18,0.08) (19,0.16) };
 \end{axis}
 \end{tikzpicture}
-\caption{\label{fig:PlotStar} Shows the probability of the network ending up in a star given different critical degrees.}
+\caption{\label{fig:PlotStar} Shows the probability of the network ending up in a star, given different critical degrees.}
 \end{figure}
 
-From Figure \ref{fig:PlotClique} we can observe that the opposite is happening when the critical degree is increased; the probability of the resulting network being a clique drastically decreases. As we can see with a critical degree of seven or higher, it is very unlikely that we end up with a clique. These findings also support our conjectures.
+From Figure \ref{fig:PlotClique} we can observe that the opposite is happening when the critical degree is increased; the probability of the resulting network being a clique drastically decreases. As we can see with a critical degree of seven or higher, it is very unlikely that we end up with a clique. These findings support our conjectures.
 
 \begin{figure}
 \centering
@@ -182,7 +182,7 @@ bar width=7pt,
 ]
 \addplot
 coordinates {
-(3,1.0) (4,1.0) (5,0.52) (6,0.22) (7,0.0) 
+(2,0.0)(3,1.0) (4,1.0) (5,0.52) (6,0.22) (7,0.0) 
 (8,0.02) (9,0.0) (10,0.00) (11,0.02) (12,0.0)
  (13,0.0) (14,0.04) (15,0.02) 
 (16,0.0) (17,0.0) (18,0.00) (19,0.0) };
