@@ -5,40 +5,6 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-<<<<<<< HEAD
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Network of two stocks' correlation coefficient at Athens Stock Exchange, ASE.}}{18}{figure.caption.12}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces SkyWest Airline's combindes route map}}{19}{figure.caption.14}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces A start structure}}{21}{figure.caption.15}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Socially and non socially optimal equilibrium of a star}}{23}{figure.caption.16}
-\addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces General graph \cite {audestad}.\relax }}{28}{figure.caption.18}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Forming an A-B graph in 15 generations \cite {audestad}.\relax }}{30}{figure.caption.21}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces The figure shows a screen capture of Netlogo, while we are running one of our simulations.\relax }}{33}{figure.caption.30}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces The figure shows how the code interface in netlogo looks like.\relax }}{34}{figure.caption.31}
-\addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces The figures show an overview of the different models we have created, and how they relate to each other.}}{37}{figure.caption.33}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Shows how nodes connect to eachother according to the model described in section \ref {section:verysimplemodel}.\relax }}{38}{figure.caption.34}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Normal form game, showing the different strategies and the payoffs for the different outcomes.}}{40}{figure.caption.37}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Leader follower game, first player 1 chooses to insure or not, then player 2, and then they choose to establish link or not in the same order.\relax }}{42}{figure.caption.39}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces The figure shows the resulting network from a simulation with parameters: $\beta =0.9$, $I_{l}=r=0.5$.\relax }}{46}{figure.caption.49}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces The figure shows the two possible scenarios that violate Eq.(\ref {eq:final condition}), \ref {fig:SimulationViolating:a} shows the result when $I_{l}<\beta -r$ and \ref {fig:SimulationViolating:b} shows the result when $I_{l}>\beta $.\relax }}{48}{figure.caption.50}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Two cliques, one consisting of insured agents the other consists of non-insured. All nodes have reached their goal. \relax }}{53}{figure.caption.55}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Two possible outcomes when insured nodes are willing to take the risk of connecting to non-insured nodes, to receive their bonus.}}{55}{figure.caption.56}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Four nodes interconnected with each other.\relax }}{59}{figure.caption.61}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces The resulting network after a simulation with the parameters $\beta =0.9, I_{l}=0.5$.\relax }}{62}{figure.caption.63}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces The resulting network after a simulation with the parameters described earlier and 10 nodes.\relax }}{63}{figure.caption.65}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Shows the probability of the network ending up in a star given different critical degrees.\relax }}{66}{figure.caption.68}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Shows the probability of the network ending up in a clique, given different critical degrees.\relax }}{66}{figure.caption.69}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Shows the comparison between the probability of the network ending up in a star (blue) or clique (red), given different critical degrees.\relax }}{67}{figure.caption.70}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Shows the probability of the network ending up in a scale-free structure, given different critical degrees.\relax }}{68}{figure.caption.71}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Shows the price of anarchy as a function of critical degree\relax }}{69}{figure.caption.73}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Two different outcomes of the simulations where the critical degree is low\relax }}{70}{figure.caption.75}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Two different outcomes from running simulations with a high critical degree.\relax }}{71}{figure.caption.76}
-\addvspace {10pt}
-\addvspace {10pt}
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Leader/Follower game, node 1's type is chosen by nature, and node 2 is insured}}{83}{figure.caption.81}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Leader/Follower game, node 1's type is chosen by nature, and node 2 is not insured}}{86}{figure.caption.85}
-=======
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Network of two stocks' correlation coefficient at Athens Stock Exchange, ASE.}}{18}{figure.caption.13}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces SkyWest Airline's combindes route map}}{19}{figure.caption.15}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces A start structure}}{22}{figure.caption.16}
@@ -49,9 +15,9 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces The figure shows a screen capture of Netlogo, while we are running one of our simulations.\relax }}{33}{figure.caption.31}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces The figure shows how the code interface in netlogo looks like.\relax }}{34}{figure.caption.32}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces The figures show an overview of the different models we have created, and how they relate to each other. For every step, some new features are added to the model.\relax }}{37}{figure.caption.34}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The figures show an overview of the different models we have created, and how they relate to each other.}}{37}{figure.caption.34}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Shows how nodes connect to eachother according to the model described in section \ref {section:verysimplemodel}.\relax }}{38}{figure.caption.35}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Normal form game, showing the different strategies and the payoffs for the different outcomes. First the payoff of a is written, then the payoff of B.\relax }}{40}{figure.caption.38}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Normal form game, showing the different strategies and the payoffs for the different outcomes.}}{40}{figure.caption.38}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Leader follower game, first player 1 chooses to insure or not, then player 2, and then they choose to establish link or not in the same order.\relax }}{42}{figure.caption.40}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces The figure shows the resulting network from a simulation with parameters: $\beta =0.9$, $I_{l}=r=0.5$.\relax }}{46}{figure.caption.50}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces The figure shows the two possible scenarios that violate Eq.(\ref {eq:final condition}), \ref {fig:SimulationViolating:a} shows the result when $I_{l}<\beta -r$ and \ref {fig:SimulationViolating:b} shows the result when $I_{l}>\beta $.\relax }}{48}{figure.caption.51}
@@ -71,5 +37,4 @@
 \addvspace {10pt}
 \contentsline {figure}{\numberline {A.1}{\ignorespaces Leader/Follower game, node 1's type is chosen by nature, and node 2 is insured}}{83}{figure.caption.82}
 \contentsline {figure}{\numberline {A.2}{\ignorespaces Leader/Follower game, node 1's type is chosen by nature, and node 2 is not insured}}{86}{figure.caption.86}
->>>>>>> 71b56fbb5290cb6b180b8d95bd2347e26b1e584b
 \addvspace {10pt}
