@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  2 JUN 2013 17:04
-=======
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  2 JUN 2013 17:22
->>>>>>> master
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  2 JUN 2013 17:25
 entering extended mode
 **main.tex
 (D:\GITREPO\masterthesis\Master-Paper\main.tex
@@ -1019,30 +1015,33 @@ Package pdftex.def Info: ../Figures/Scalefree-20-nodes.png used on input line 6
 06.
 (pdftex.def)             Requested size: 242.98541pt x 242.98405pt.
 )
+(D:\GITREPO\masterthesis\Master-Paper\discussionConclusion.tex [28 <D:/GITREPO/
+masterthesis/Figures/Star-20-nodes.png>] [29 <D:/GITREPO/masterthesis/Figures/S
+calefree-20-nodes.png>]
 
-! LaTeX Error: File `discussionConclusion.tex' not found.
+LaTeX Warning: Reference `fig:Overview-of-models' on page 30 undefined on input
+ line 10.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.63 \input{discussionConclusion}
-                                 
-*** (cannot \read from terminal in nonstop modes)
+Underfull \vbox (badness 2158) has occurred while \output is active []
 
- 
+ [30]
+Underfull \vbox (badness 2158) has occurred while \output is active []
+
+ [31]
+[32]) [33] [34] (D:\GITREPO\masterthesis\Master-Paper\main.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 18590 strings out of 494045
- 439688 string characters out of 3153222
+ 18607 strings out of 494045
+ 440032 string characters out of 3153222
  591233 words of memory out of 3000000
- 21513 multiletter control sequences out of 15000+200000
- 8541 words of font info for 31 fonts, out of 3000000 for 9000
+ 21523 multiletter control sequences out of 15000+200000
+ 9614 words of font info for 35 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
-<<<<<<< HEAD
- 63i,19n,83p,1348b,2035s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,19n,83p,1348b,2038s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Latex/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Latex/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmbx9.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb>
@@ -1051,18 +1050,16 @@ ts/type1/public/amsfonts/cm/cmmi5.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmmi6.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/
 Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><D:/Latex/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmr10.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmr6.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Latex/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/Latex/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7
-.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/Latex/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (27 pages, 572062 bytes).
+m/cmr5.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Latex/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Latex/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr9.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Latex/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/Latex/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmti10.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+
+Output written on main.pdf (34 pages, 620994 bytes).
 PDF statistics:
- 180 PDF objects out of 1000 (max. 8388607)
+ 210 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-=======
- 63i,19n,83p,1348b,2038s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
->>>>>>> master
