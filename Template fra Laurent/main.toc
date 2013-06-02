@@ -40,7 +40,7 @@
 \contentsline {subparagraph}{Subgame-perfect equilibrium.}{31}{section*.25}
 \contentsline {subparagraph}{Socially optimal.}{31}{section*.26}
 \contentsline {subparagraph}{Price of Anarchy.}{31}{section*.27}
-\contentsline {subparagraph}{Stackelberg.}{31}{section*.28}
+\contentsline {subparagraph}{Stackelberg game.}{31}{section*.28}
 \contentsline {subparagraph}{Bayesian game.}{31}{section*.29}
 \contentsline {subparagraph}{Pairwise stability.}{31}{section*.30}
 \contentsline {section}{\numberline {4.4}Netlogo}{32}{section.4.4}
@@ -93,7 +93,7 @@
 \contentsline {chapter}{References}{79}{section*.80}
 \vspace {1em}\noindent \bfseries Appendices\par \vspace {-.5em}
 \contentsline {appendix}{\chapternumberline {A}Analysis}{83}{appendix.A}
-\contentsline {section}{\numberline {A.1}Analysis of model-2b: Incomplete information}{83}{section.A.1}
+\contentsline {section}{\numberline {A.1}Analysis of model 2b: Incomplete information}{83}{section.A.1}
 \contentsline {subparagraph}{Node 2 is insured.}{83}{section*.81}
 \contentsline {subparagraph}{Separating equilibrium.}{84}{section*.83}
 \contentsline {subparagraph}{Pooling equilibrium.}{85}{section*.84}
