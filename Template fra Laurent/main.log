@@ -1,7 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  30 MAY 2013 12:00
 =======
 This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  31 MAY 2013 11:28
+>>>>>>> master
+=======
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  2 JUN 2013 14:44
 >>>>>>> master
 entering extended mode
 **main.tex
@@ -2080,7 +2084,7 @@ emplate fra Laurent/figs/ntnu-logo.pdf>] [2
 
 ]
 ("D:\GITREPO\masterthesis\Template fra Laurent\problem_description.tex"
-Overfull \hbox (4.63376pt too wide) in paragraph at lines 21--22
+Overfull \hbox (4.63376pt too wide) in paragraph at lines 23--24
 []\T1/lmr/m/n/10 (-20) study and char-ac-ter-ize graphs with de-sir-able prop-e
 r-ties re-gard-ing cyber-insurance 
  []
@@ -2878,8 +2882,8 @@ This document will not have a glossary.
 
 \tf@toc=\write9
 \tf@lof=\write10
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.aux"
 ("D:\GITREPO\masterthesis\Template fra Laurent\abstract_english.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\preface.aux")
@@ -2890,16 +2894,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
 ("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\SummaryOfResults.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\Appendix.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 669FF5840FD554D4080E4A7156D51251;3564.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 133.
+(rerunfilecheck)             Checksum: 124CE05832B8110EAFECA94BFB462F7E;3564.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
  ) 
 Here is how much of TeX's memory you used:
  38317 strings out of 494045
  739494 string characters out of 3153222
- 1037740 words of memory out of 3000000
+ 1037722 words of memory out of 3000000
  40152 multiletter control sequences out of 15000+200000
  114651 words of font info for 183 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -2941,7 +2945,11 @@ fb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmss12.pfb><D:/Latex/MiKTeX/fonts/typ
 e1/public/lm/lmss17.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><D:
 /Latex/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><D:/Latex/MiKTeX/fonts/type1/pub
 lic/lm/lmsy7.pfb>
+<<<<<<< HEAD
 Output written on main.pdf (111 pages, 2395924 bytes).
+>>>>>>> master
+=======
+Output written on main.pdf (111 pages, 2377801 bytes).
 >>>>>>> master
 PDF statistics:
  1576 PDF objects out of 1728 (max. 8388607)
