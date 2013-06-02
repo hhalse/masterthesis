@@ -1,11 +1,7 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  2 JUN 2013 14:17
-=======
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  2 JUN 2013 13:57
->>>>>>> f51308d4c32ecd1ebf64ad33e732fc1b2c723b3e
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  2 JUN 2013 14:57
 entering extended mode
 **main.tex
-(C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\main.tex
+(D:\GITREPO\masterthesis\Master-Paper\main.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -17,12 +13,12 @@ an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese,
 romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
 sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
-(C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\llncs.cls
+(D:\GITREPO\masterthesis\Master-Paper\llncs.cls
 Document Class: llncs 2010/07/12 v2.17 
  LaTeX document class for Lecture Notes in Computer Science
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+(D:\Latex\MiKTeX\tex\latex\base\article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+(D:\Latex\MiKTeX\tex\latex\base\size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -37,7 +33,7 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+(D:\Latex\MiKTeX\tex\latex\tools\multicol.sty
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \c@tracingmulticols=\count87
 \mult@box=\box26
@@ -85,10 +81,10 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \colbreak@box=\box51
 \multicol@sort@counter=\count95
 )
-(C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\aliascnt.sty
+(D:\GITREPO\masterthesis\Master-Paper\aliascnt.sty
 Package: aliascnt 2009/09/08 v1.3 Alias counter (HO)
 
-(C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\remreset.sty))
+(D:\GITREPO\masterthesis\Master-Paper\remreset.sty))
 \c@chapter=\count96
 LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
 LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
@@ -140,7 +136,6 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
 \c@remark=\count115
 \headlineindent=\dimen123
 )
-<<<<<<< HEAD
 (D:\GITREPO\masterthesis\Master-Paper\llncsdoc.sty)
 (D:\Latex\MiKTeX\tex\latex\base\inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
@@ -372,23 +367,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
-=======
-(C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\llncsdoc.sty)
-(C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\main.aux
-(C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\introduction.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
->>>>>>> f51308d4c32ecd1ebf64ad33e732fc1b2c723b3e
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -403,89 +381,199 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-<<<<<<< HEAD
 (Font)              <6> on input line 20.
 
-(D:\GITREPO\masterthesis\Master-Paper\modelingCyberIncurance.tex) [1
-=======
-(Font)              <6> on input line 19.
->>>>>>> f51308d4c32ecd1ebf64ad33e732fc1b2c723b3e
+(D:\GITREPO\masterthesis\Master-Paper\modelingCyberIncurance.tex [1
 
-(C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\introduction.tex)
-[1
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4] [5]
-[6] [7] [8] [9] [10]
-(C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\main.aux)
+LaTeX Warning: Reference `eq:itoi' on page 2 undefined on input line 11.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+! Misplaced alignment tab character &.
+l.15     \beta - I_{l},&
+                         \text{if } i = 0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.15     \beta - I_{l},& \text
+                              {if } i = 0\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+l.16     U_{i}+\beta -I_{l},&
+                              \text{if }  i>0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.16     U_{i}+\beta -I_{l},& \text
+                                   {if }  i>0\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+l.17     U_{i}+\beta -I_{l}+\gamma,&
+                                     \text{if } i=m-1
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.17     U_{i}+\beta -I_{l}+\gamma,& \text
+                                          {if } i=m-1
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.18     \right
+               )
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{equation} on input line 12 ended by \end{cases}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \end{cases}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 \end{cases}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.19 \end{cases}
+                
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! You can't use `\eqno' in vertical mode.
+\endequation ->\eqno 
+                     \hbox {\@eqnnum }$$\@ignoretrue 
+l.21 \end{equation}
+                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \end{equation}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.21 \end{equation}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.21 \end{equation}
+                   
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.21 \end{equation}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+) [2] [3] [4] [5] [6] [7] [8] [9] [10]
+(D:\GITREPO\masterthesis\Master-Paper\main.aux)
+
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 916 strings out of 494045
- 10050 string characters out of 3153222
+ 918 strings out of 494045
+ 10067 string characters out of 3153222
  73880 words of memory out of 3000000
- 4230 multiletter control sequences out of 15000+200000
+ 4232 multiletter control sequences out of 15000+200000
  12580 words of font info for 44 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 29i,15n,21p,228b,274s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,15n,21p,659b,274s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><D:/Latex/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Latex/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmbx12.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb
 ><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><D:/Latex/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Latex/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><
-D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Latex/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmmi9.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmmib10.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/
-Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Latex/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmr6.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr7.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/Latex/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Latex/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmsy6.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.
-pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/Latex/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Latex/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmti7.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb
-><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on main.pdf (9 pages, 310817 bytes).
+fonts/cm/cmex10.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+<D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/Latex/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi7.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmmi9.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><D:
+/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Latex/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr5.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr6.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Latex/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/Latex/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6
+.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Latex/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/Latex/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmti10.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb
+><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><D:/Latex/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on main.pdf (10 pages, 326259 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
-=======
- 695 strings out of 494045
- 8620 string characters out of 3145963
- 70988 words of memory out of 3000000
- 4025 multiletter control sequences out of 15000+200000
- 12580 words of font info for 44 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 29i,15n,21p,502b,274s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmti7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmtt9.pfb>
-Output written on main.pdf (10 pages, 303832 bytes).
-PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
->>>>>>> f51308d4c32ecd1ebf64ad33e732fc1b2c723b3e
+ 135 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
