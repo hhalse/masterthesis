@@ -4,6 +4,9 @@
 
 \documentclass{llncs}
 \usepackage{llncsdoc}
+
+\usepackage{url}
+
 \usepackage{graphicx}
 \usepackage{graphics}
 
@@ -13,6 +16,7 @@
 
 \usepackage{amsmath}
 \usepackage[utf8]{inputenc}
+
 %
 \begin{document}
 
@@ -30,19 +34,78 @@ Norwegian University of Science and Technology \\ gbiczok@item.ntnu.no}
 %
 
 \begin{abstract}
-This paragraph shall summarize the contents of the paper
-in short terms.
+Cyber-insurance is a powerful economic concept that can
+help companies in the ght against cybercrime. From the early 80s, several
+researchers claimed that cyber-insurance had a bright future, were it
+would become a huge economical tool for handling residual cyber-risks.
+However, both the European and US cyber-insurance market have failed
+to grasp its promising potential. To fully grasp this potential they need
+innovative approaches to handle the unique problems of cyber-insurance.
+This paper nd and characterize network structures with properties that
+make them superior as cyber-insurance. And creates several models for
+forming these network structures. In every model, new properties that
+relate the model to the real-world and real-world insurance products are
+added. The results show that insurers can use the insurance premium as
+a tool for determining the resulting formation of the network, and if set
+to the right level, these superior structures will evolve.
+We believe our ndings could help the cyber-insurance market evolve, by
+giving the insurers a proper tool to better analyze and control formation
+of cyber-insurance networks.
 \end{abstract}
 %
+\input{introduction}
+\input{graphsPaper}
 
 \section{Modeling Cyber-insurance}
 \input{modelingCyberIncurance}
 
 \section{Discussion}
 \input{discussionConclusion}
-
 %
 \begin{thebibliography}{[MT1]}
+%
+\bibitem[BO1]{bolot:cyber}
+  Bolot, Jean and Lelarge, Marc:
+  Cyber insurance as an incentive for Internet security
+  Managing information risk and the economics of security
+  (2008) 269--290
+%
+\bibitem[BO2]{bolot:cyber2}
+	Lelarge, Mark, and Jean Bolot:
+	Economic incentives to increase security in the internet: The case for insurance.
+	INFOCOM (2009), IEEE.
+%
+\bibitem[BO3]{bolot:new}
+	Bolot, Jean C and Lelarge, Marc
+ 	A new perspective on internet security using insurance
+ 	INFOCOM The 27th Conference on Computer Communications. IEEE
+ 	(2008) 1948--1956
+  %
+\bibitem[RA1]{ranjan:cyber}
+	Pal, Ranjan and Hui, Pan	
+	On Differentiating Cyber-Insurance Contracts A Topological Perspective
+  	Internet Management Conference (2013), IEEE.
+%
+\bibitem[PO1]{ccost}
+Ponemon Institute
+Second Annual Cost of Cyber Crime Study, Benchmark Study of U.S: Companies
+Ponemon Institute (2011)
+%
+\bibitem[ST1]{evolvingcyber}
+  Evolving cyber cover
+  \url{http://www.strategic-risk.eu/Journals/2012/02/22/i/j/w/RiskFinancing_Mar12.pdf}
+  Accessed: 31/01/2013
+  %
+\bibitem[GN1]{CFCunder}
+	Graeme Newman
+	Cyber liability in Europe: What insurers should knowL
+	CFC Underwriter \url{http://www.cfcunderwriting.com/media/news-articles/european-cyber.aspx}
+ 	Accessed: 14/02/2013
+  %
+  \bibitem[BS1]{bohme2010modeling}
+  B{\"o}hme, R. and Schwartz, G.
+  Modeling cyber-insurance: Towards a unifying framework
+  Proceedings of GameSec (2010)
 %
 \bibitem[CE1]{clar:eke}
 Clarke, F., Ekeland, I.:

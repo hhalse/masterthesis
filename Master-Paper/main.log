@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  2 JUN 2013 17:04
+=======
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  2 JUN 2013 17:22
+>>>>>>> master
 entering extended mode
 **main.tex
 (D:\GITREPO\masterthesis\Master-Paper\main.tex
@@ -137,6 +141,10 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
 \headlineindent=\dimen123
 )
 (D:\GITREPO\masterthesis\Master-Paper\llncsdoc.sty)
+(D:\Latex\MiKTeX\tex\latex\ltxmisc\url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
 (D:\Latex\MiKTeX\tex\latex\graphics\graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -791,7 +799,7 @@ Package amsmath Warning: Unable to redefine math accent \vec.
 
 \macc@depth=\count152
 \c@MaxMatrixCols=\count153
-\dotsspace@=\muskip10
+\dotsspace@=\muskip11
 \c@parentequation=\count154
 \dspbrk@lvl=\count155
 \tag@help=\toks38
@@ -812,18 +820,18 @@ Package amsmath Warning: Unable to redefine math accent \vec.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 ) (D:\GITREPO\masterthesis\Master-Paper\main.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 
 (D:\Latex\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -843,19 +851,42 @@ LaTeX Font Info:    ... okay on input line 17.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.8} into y
 our preamble.
- on input line 17.
+ on input line 21.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 29.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 33.
 (D:\Latex\MiKTeX\tex\latex\base\omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
 
-(D:\GITREPO\masterthesis\Master-Paper\modelingCyberIncurance.tex [1
+(D:\GITREPO\masterthesis\Master-Paper\introduction.tex [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4]
-<../Figures/BonusGameInsuredClique.png, id=31, 354.57469pt x 177.66376pt>
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2])
+(D:\GITREPO\masterthesis\Master-Paper\graphsPaper.tex [3]
+
+LaTeX Warning: Citation `lieberman2005evolutionary' on page 4 undefined on inpu
+t line 9.
+
+
+LaTeX Warning: Citation `lieberman2005evolutionary' on page 4 undefined on inpu
+t line 13.
+
+[4]
+
+LaTeX Warning: Citation `lieberman2005evolutionary' on page 5 undefined on inpu
+t line 33.
+
+
+LaTeX Warning: Citation `contagion' on page 5 undefined on input line 49.
+
+[5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6])
+(D:\GITREPO\masterthesis\Master-Paper\modelingCyberIncurance.tex [7] [8]
+[9] [10]
+<../Figures/BonusGameInsuredClique.png, id=52, 354.57469pt x 177.66376pt>
 File: ../Figures/BonusGameInsuredClique.png Graphic file (type png)
 
 <use ../Figures/BonusGameInsuredClique.png>
@@ -863,10 +894,10 @@ Package pdftex.def Info: ../Figures/BonusGameInsuredClique.png used on input li
 ne 142.
 (pdftex.def)             Requested size: 242.98541pt x 121.75314pt.
 
-Underfull \vbox (badness 1147) has occurred while \output is active []
 
- [5 <D:/GITREPO/masterthesis/Figures/BonusGameInsuredClique.png>]
-<../Figures/BonusGameViolating.png, id=37, 268.00125pt x 310.15875pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11] <../Figures/BonusGameViolating.png, id=57, 268.00125pt x 310.15875pt>
 File: ../Figures/BonusGameViolating.png Graphic file (type png)
 
 <use ../Figures/BonusGameViolating.png>
@@ -874,7 +905,7 @@ Package pdftex.def Info: ../Figures/BonusGameViolating.png used on input line 1
 61.
 (pdftex.def)             Requested size: 190.91899pt x 220.9478pt.
 
-<../Figures/BonusGameViolatingOptimal.png, id=38, 292.84406pt x 192.72pt>
+<../Figures/BonusGameViolatingOptimal.png, id=58, 292.84406pt x 192.72pt>
 File: ../Figures/BonusGameViolatingOptimal.png Graphic file (type png)
 
 <use ../Figures/BonusGameViolatingOptimal.png>
@@ -883,18 +914,16 @@ Package pdftex.def Info: ../Figures/BonusGameViolatingOptimal.png used on input
 (pdftex.def)             Requested size: 190.91899pt x 125.64879pt.
 
 
-LaTeX Warning: Citation `sparebank1' on page 6 undefined on input line 177.
+LaTeX Warning: Citation `sparebank1' on page 12 undefined on input line 177.
+
+[12 <D:/GITREPO/masterthesis/Figures/BonusGameInsuredClique.png>] [13 <D:/GITRE
+PO/masterthesis/Figures/BonusGameViolating.png> <D:/GITREPO/masterthesis/Figure
+s/BonusGameViolatingOptimal.png>] [14]
+
+LaTeX Warning: Reference `eq:model2-total-payoff' on page 15 undefined on input
+ line 224.
 
 
-Underfull \vbox (badness 1629) has occurred while \output is active []
-
- [6 <D:/GITREPO/masterthesis/Figures/BonusGameViolating.png>] [7 <D:/GITREPO/ma
-sterthesis/Figures/BonusGameViolatingOptimal.png>]
-
-LaTeX Warning: Reference `eq:model2-total-payoff' on page 8 undefined on input 
-line 224.
-
-[8]
 Overfull \hbox (8.99762pt too wide) detected at line 233
 \OML/cmm/m/it/10 U[] \OT1/cmr/m/n/10 = (\OML/cmm/m/it/10 N[]\OT1/cmr/m/n/10 (\O
 ML/cmm/m/it/10 N[] \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 1)\OML/cmm/m/it/10  \OMS
@@ -905,28 +934,32 @@ OML/cmm/m/it/10 N[]N[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 N[]\OT1/cmr/m/n/10 (
 \OMS/cmsy/m/n/10   [] []\OT1/cmr/m/n/10 ))
  []
 
-[9] [10]
+[15] [16]
 
-LaTeX Warning: Citation `jackson1996strategic' on page 11 undefined on input li
+LaTeX Warning: Citation `jackson1996strategic' on page 17 undefined on input li
 ne 306.
 
 
-LaTeX Warning: Citation `jackson2005survey' on page 11 undefined on input line 
+LaTeX Warning: Citation `jackson2005survey' on page 17 undefined on input line 
 306.
 
-<../Figures/connectionGame.png, id=58, 103.13531pt x 93.34875pt>
+<../Figures/connectionGame.png, id=78, 103.13531pt x 93.34875pt>
 File: ../Figures/connectionGame.png Graphic file (type png)
 
 <use ../Figures/connectionGame.png>
 Package pdftex.def Info: ../Figures/connectionGame.png used on input line 311.
 (pdftex.def)             Requested size: 104.1381pt x 94.25726pt.
- [11 <D:/GITREPO/masterthesis/Figures/connectionGame.png>]
 
-LaTeX Warning: Citation `jackson1996strategic' on page 12 undefined on input li
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17]
+
+LaTeX Warning: Citation `jackson1996strategic' on page 18 undefined on input li
 ne 323.
 
-[12]
-<../Figures/stability/Unefficientbutstablestar.png, id=65, 271.0125pt x 224.338
+[18 <D:/GITREPO/masterthesis/Figures/connectionGame.png>]
+<../Figures/stability/Unefficientbutstablestar.png, id=85, 271.0125pt x 224.338
 12pt>
 File: ../Figures/stability/Unefficientbutstablestar.png Graphic file (type png)
 
@@ -934,26 +967,27 @@ File: ../Figures/stability/Unefficientbutstablestar.png Graphic file (type png)
 Package pdftex.def Info: ../Figures/stability/Unefficientbutstablestar.png used
  on input line 362.
 (pdftex.def)             Requested size: 173.56177pt x 143.67517pt.
- [13 <D:/GITREPO/masterthesis/Figures/stability/Unefficientbutstablestar.png>]
 
-LaTeX Warning: Citation `jackson2005survey' on page 14 undefined on input line 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19]
+
+LaTeX Warning: Citation `jackson2005survey' on page 20 undefined on input line 
 378.
 
 
-<../Figures/stability/Unefficientbutstabletwo.png, id=73, 563.10374pt x 459.968
+<../Figures/stability/Unefficientbutstabletwo.png, id=90, 563.10374pt x 459.968
 44pt>
 File: ../Figures/stability/Unefficientbutstabletwo.png Graphic file (type png)
  <use ../Figures/stability/Unefficientbutstabletwo.png>
 Package pdftex.def Info: ../Figures/stability/Unefficientbutstabletwo.png used 
 on input line 386.
 (pdftex.def)             Requested size: 208.27623pt x 170.1295pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[14] [15 <D:/GITREPO/masterthesis/Figures/stability/Unefficientbutstabletwo.png
->] [16] [17] [18]
-<../Figures/Clique-20-nodes.png, id=90, 251.43938pt x 240.9pt>
+ [20 <D:/GITREPO/masterthesis/Figures/stability/Unefficientbutstablestar.png>] 
+[21 <D:/GITREPO/masterthesis/Figures/stability/Unefficientbutstabletwo.png>] [2
+2] [23] [24]
+<../Figures/Clique-20-nodes.png, id=110, 251.43938pt x 240.9pt>
 File: ../Figures/Clique-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Clique-20-nodes.png>
@@ -961,23 +995,23 @@ Package pdftex.def Info: ../Figures/Clique-20-nodes.png used on input line 584.
 
 (pdftex.def)             Requested size: 242.98541pt x 232.80153pt.
 
-<../Figures/Clique-ish-20-nodes.png, id=91, 368.1253pt x 396.7322pt>
+<../Figures/Clique-ish-20-nodes.png, id=111, 368.1253pt x 396.7322pt>
 File: ../Figures/Clique-ish-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Clique-ish-20-nodes.png>
 Package pdftex.def Info: ../Figures/Clique-ish-20-nodes.png used on input line 
 590.
 (pdftex.def)             Requested size: 242.98541pt x 261.87431pt.
- [19] [20 <D:/GITREPO/masterthesis/Figures/Clique-20-nodes.png>] [21 <D:/GITREP
+ [25] [26] [27 <D:/GITREPO/masterthesis/Figures/Clique-20-nodes.png> <D:/GITREP
 O/masterthesis/Figures/Clique-ish-20-nodes.png>] <../Figures/Star-20-nodes.png,
- id=104, 752.8125pt x 752.8125pt>
+ id=124, 752.8125pt x 752.8125pt>
 File: ../Figures/Star-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Star-20-nodes.png>
 Package pdftex.def Info: ../Figures/Star-20-nodes.png used on input line 599.
 (pdftex.def)             Requested size: 242.98541pt x 242.98405pt.
 
-<../Figures/Scalefree-20-nodes.png, id=105, 752.8125pt x 752.8125pt>
+<../Figures/Scalefree-20-nodes.png, id=125, 752.8125pt x 752.8125pt>
 File: ../Figures/Scalefree-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Scalefree-20-nodes.png>
@@ -985,32 +1019,29 @@ Package pdftex.def Info: ../Figures/Scalefree-20-nodes.png used on input line 6
 06.
 (pdftex.def)             Requested size: 242.98541pt x 242.98405pt.
 )
-(D:\GITREPO\masterthesis\Master-Paper\discussionConclusion.tex [22 <D:/GITREPO/
-masterthesis/Figures/Star-20-nodes.png>] [23 <D:/GITREPO/masterthesis/Figures/S
-calefree-20-nodes.png>]
 
-LaTeX Warning: Reference `fig:Overview-of-models' on page 24 undefined on input
- line 10.
+! LaTeX Error: File `discussionConclusion.tex' not found.
 
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
 
-Underfull \vbox (badness 2158) has occurred while \output is active []
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.63 \input{discussionConclusion}
+                                 
+*** (cannot \read from terminal in nonstop modes)
 
- [24]
-Underfull \vbox (badness 2158) has occurred while \output is active []
-
- [25]
-[26]) [27] (D:\GITREPO\masterthesis\Master-Paper\main.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 18514 strings out of 494045
- 438738 string characters out of 3153222
- 586148 words of memory out of 3000000
- 21440 multiletter control sequences out of 15000+200000
- 9447 words of font info for 34 fonts, out of 3000000 for 9000
+ 18590 strings out of 494045
+ 439688 string characters out of 3153222
+ 591233 words of memory out of 3000000
+ 21513 multiletter control sequences out of 15000+200000
+ 8541 words of font info for 31 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
+<<<<<<< HEAD
  63i,19n,83p,1348b,2035s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Latex/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Latex/MiKTeX/fonts/type1/public/am
@@ -1031,3 +1062,7 @@ PDF statistics:
  0 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+=======
+ 63i,19n,83p,1348b,2038s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
+>>>>>>> master
