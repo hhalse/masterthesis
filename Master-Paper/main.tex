@@ -3,6 +3,8 @@
 % for Lecture Notes in Computer Science, version 2.4
 \documentclass{llncs}
 \usepackage{llncsdoc}
+\usepackage{url}
+
 %
 \begin{document}
 
@@ -30,11 +32,7 @@ We believe our findings could help the cyber-insurance market evolve, by giving 
 \end{abstract}
 %
 \input{introduction}
-\section{Fixed-Period Problems: The Sublinear Case}
-%
-With this chapter, the preliminaries are over, and we begin the search
-for periodic solutions \dots
-%
+\input{graphsPaper}
 \subsection{Autonomous Systems}
 %
 In this section we will consider the case when the Hamiltonian
@@ -434,22 +432,53 @@ was the first of its kind.
 The above input produces the citation: ``\dots\ refined version of
 [CE1]; the min\-i\-mality\dots''. Then the \verb|\bibitem| entry of
 the \verb|thebibliography| environment should read:
-\begin{verbatim}
-\begin{thebibliography}{[MT1]}
-.
-.
-\bibitem[CE1]{clar:eke}
-Clarke, F., Ekeland, I.:
-Nonlinear oscillations and boundary-value problems for
-Hamiltonian systems.
-Arch. Rat. Mech. Anal. {\bfseries 78} (1982) 315--333
-.
-.
-\end{thebibliography}
-\end{verbatim}
-The complete bibliography looks like this:
+
+The complete bibliography looks like this:\cite{bolot:cyber}
 %
 \begin{thebibliography}{[MT1]}
+%
+\bibitem[BO1]{bolot:cyber}
+  Bolot, Jean and Lelarge, Marc:
+  Cyber insurance as an incentive for Internet security
+  Managing information risk and the economics of security
+  (2008) 269--290
+%
+\bibitem[BO2]{bolot:cyber2}
+	Lelarge, Mark, and Jean Bolot:
+	Economic incentives to increase security in the internet: The case for insurance.
+	INFOCOM (2009), IEEE.
+%
+\bibitem[BO3]{bolot:new}
+	Bolot, Jean C and Lelarge, Marc
+ 	A new perspective on internet security using insurance
+ 	INFOCOM The 27th Conference on Computer Communications. IEEE
+ 	(2008) 1948--1956
+  %
+\bibitem[RA1]{ranjan:cyber}
+	Pal, Ranjan and Hui, Pan	
+	On Differentiating Cyber-Insurance Contracts A Topological Perspective
+  	Internet Management Conference (2013), IEEE.
+%
+\bibitem[PO1]{ccost}
+Ponemon Institute
+Second Annual Cost of Cyber Crime Study, Benchmark Study of U.S: Companies
+Ponemon Institute (2011)
+%
+\bibitem[ST1]{evolvingcyber}
+  Evolving cyber cover
+  \url{http://www.strategic-risk.eu/Journals/2012/02/22/i/j/w/RiskFinancing_Mar12.pdf}
+  Accessed: 31/01/2013
+  %
+\bibitem[GN1]{CFCunder}
+	Graeme Newman
+	Cyber liability in Europe: What insurers should knowL
+	CFC Underwriter \url{http://www.cfcunderwriting.com/media/news-articles/european-cyber.aspx}
+ 	Accessed: 14/02/2013
+  %
+  \bibitem[BS1]{bohme2010modeling}
+  B{\"o}hme, R. and Schwartz, G.
+  Modeling cyber-insurance: Towards a unifying framework
+  Proceedings of GameSec (2010)
 %
 \bibitem[CE1]{clar:eke}
 Clarke, F., Ekeland, I.:
