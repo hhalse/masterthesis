@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  2 JUN 2013 16:31
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  2 JUN 2013 17:02
 entering extended mode
 **main.tex
 (D:\GITREPO\masterthesis\Master-Paper\main.tex
@@ -1003,9 +1003,6 @@ Underfull \vbox (badness 2158) has occurred while \output is active []
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  18514 strings out of 494045
@@ -1028,7 +1025,7 @@ iKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/Latex/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7
 .pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/Latex/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (27 pages, 572058 bytes).
+Output written on main.pdf (27 pages, 572056 bytes).
 PDF statistics:
  180 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
