@@ -27,7 +27,7 @@
 \contentsline {subparagraph}{Stock markets.}{17}{section*.12}
 \contentsline {subparagraph}{Airline routes.}{18}{section*.14}
 \contentsline {section}{\numberline {3.2}Network Structures}{20}{section.3.2}
-\contentsline {subparagraph}{From an insurer's point of view.}{24}{section*.18}
+\contentsline {subparagraph}{From an insurer's point of view.}{23}{section*.18}
 \contentsline {section}{\numberline {3.3}Research Question}{25}{section.3.3}
 \contentsline {chapter}{\chapternumberline {4}Methodology}{27}{chapter.4}
 \contentsline {section}{\numberline {4.1}Graphs}{27}{section.4.1}
