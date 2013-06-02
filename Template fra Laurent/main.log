@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  2 JUN 2013 16:48
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  2 JUN 2013 14:41
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  2 JUN 2013 13:36
+=======
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  2 JUN 2013 13:24
+>>>>>>> efcc8757c887817ee739232dcfafbdf472dc7916
+>>>>>>> f51308d4c32ecd1ebf64ad33e732fc1b2c723b3e
+>>>>>>> 2ab14c4d942d5ae6f6c7b5cf9cd8b407509681a1
 entering extended mode
 **main.tex
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\main.tex"
@@ -2148,8 +2160,12 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 esis/masterthesis/Template fra Laurent/figs/ntnu-logo.pdf>] [2
 
 ]
+<<<<<<< HEAD
 ("C:\Users\Håvard\masterthesis\masterthesis\Template fra Laurent\problem_descr
 iption.tex"
+=======
+("D:\GITREPO\masterthesis\Template fra Laurent\problem_description.tex"
+>>>>>>> 2ab14c4d942d5ae6f6c7b5cf9cd8b407509681a1
 Overfull \hbox (4.63376pt too wide) in paragraph at lines 23--24
 []\T1/lmr/m/n/10 (-20) study and char-ac-ter-ize graphs with de-sir-able prop-e
 r-ties re-gard-ing cyber-insurance 
@@ -3041,7 +3057,35 @@ iKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm
 /lmsy7.pfb>
+<<<<<<< HEAD
 Output written on main.pdf (111 pages, 2374262 bytes).
+=======
+Output written on main.pdf (111 pages, 2374350 bytes).
+=======
+{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{D:/Latex/MiKTeX/fonts/enc/dvip
+s/lm/lm-mathit.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{D:/Latex/MiKT
+eX/fonts/enc/dvips/lm/lm-mathex.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-math
+sy.enc}<D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><D:/Latex/MiKTeX/fonts
+/type1/public/lm/lmbx12.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb>
+<D:/Latex/MiKTeX/fonts/type1/public/lm/lmex10.pfb><D:/Latex/MiKTeX/fonts/type1/
+public/lm/lmmi10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><D:/Latex
+/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/
+lmmi7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><D:/Latex/MiKTeX/fon
+ts/type1/public/lm/lmr10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr5.pfb><D
+:/Latex/MiKTeX/fonts/type1/public/lm/lmr6.pfb><D:/Latex/MiKTeX/fonts/type1/publ
+ic/lm/lmr7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr8.pfb><D:/Latex/MiKTeX
+/fonts/type1/public/lm/lmr9.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmri10.p
+fb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmss12.pfb><D:/Latex/MiKTeX/fonts/typ
+e1/public/lm/lmss17.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><D:
+/Latex/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><D:/Latex/MiKTeX/fonts/type1/pub
+lic/lm/lmsy7.pfb>
+<<<<<<< HEAD
+Output written on main.pdf (111 pages, 2377819 bytes).
+=======
+Output written on main.pdf (111 pages, 2377888 bytes).
+>>>>>>> efcc8757c887817ee739232dcfafbdf472dc7916
+>>>>>>> f51308d4c32ecd1ebf64ad33e732fc1b2c723b3e
+>>>>>>> 2ab14c4d942d5ae6f6c7b5cf9cd8b407509681a1
 PDF statistics:
  1576 PDF objects out of 1728 (max. 8388607)
  393 named destinations out of 1000 (max. 500000)
