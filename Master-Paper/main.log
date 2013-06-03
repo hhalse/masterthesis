@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  3 JUN 2013 14:35
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  3 JUN 2013 14:39
 entering extended mode
 **main.tex
 (D:\GITREPO\masterthesis\Master-Paper\main.tex
@@ -862,12 +862,9 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 (D:\GITREPO\masterthesis\Master-Paper\introduction.tex [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2])
-(D:\GITREPO\masterthesis\Master-Paper\graphsPaper.tex [3]
-
-LaTeX Warning: Citation `contagion' on page 4 undefined on input line 40.
-
-[4]) (D:\GITREPO\masterthesis\Master-Paper\modelingCyberIncurance.tex [5]
-[6] [7] [8]
+(D:\GITREPO\masterthesis\Master-Paper\graphsPaper.tex [3] [4])
+(D:\GITREPO\masterthesis\Master-Paper\modelingCyberIncurance.tex [5] [6]
+[7] [8]
 <../Figures/BonusGameInsuredClique.png, id=46, 354.57469pt x 177.66376pt>
 File: ../Figures/BonusGameInsuredClique.png Graphic file (type png)
 
@@ -891,28 +888,10 @@ File: ../Figures/BonusGameViolatingOptimal.png Graphic file (type png)
 Package pdftex.def Info: ../Figures/BonusGameViolatingOptimal.png used on input
  line 185.
 (pdftex.def)             Requested size: 146.42166pt x 96.35976pt.
- [10 <D:/GITREPO/masterthesis/Figures/BonusGameViolatingOptimal.png>] [11]
-
-LaTeX Warning: Citation `jackson1996strategic' on page 12 undefined on input li
-ne 271.
-
-
-LaTeX Warning: Citation `jackson2005survey' on page 12 undefined on input line 
-271.
-
-[12]
-
-LaTeX Warning: Citation `jackson1996strategic' on page 13 undefined on input li
-ne 283.
-
-[13]
-
-LaTeX Warning: Citation `jackson2005survey' on page 14 undefined on input line 
-312.
-
-[14] [15] [16] [17])
+ [10 <D:/GITREPO/masterthesis/Figures/BonusGameViolatingOptimal.png>] [11] [12]
+ [13] [14] [15] [16] [17])
 (D:\GITREPO\masterthesis\Master-Paper\discussionConclusion.tex [18] [19])
-[20] (D:\GITREPO\masterthesis\Master-Paper\main.aux)
+[20] [21] (D:\GITREPO\masterthesis\Master-Paper\main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -942,9 +921,9 @@ c/amsfonts/cm/cmsy10.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.
 pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/Latex/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Latex/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmtt9.pfb>
-Output written on main.pdf (20 pages, 328202 bytes).
+Output written on main.pdf (21 pages, 330070 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
+ 150 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
