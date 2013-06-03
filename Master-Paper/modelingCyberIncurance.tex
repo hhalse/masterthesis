@@ -16,7 +16,7 @@ star-like topologies, have a fixation probability that exceeds the fixation prob
 of circulation graphs. Star structures also have a desirable property of minimizing the
 average path length, i.e. minimizing the cost spent on establishing links. Finally, the
 clique has a nice property of being able to achieve super-critical payoff, as showed in
-[Blu11]--fix. Both the clique and star have the possibility of amplifying or suppressing selection and drift. This is favorable, because if the insurer is able to ensure that the nodes have a certain security level, one can prevent viruses from spreading.
+\cite{contagion}. Both the clique and star have the possibility of amplifying or suppressing selection and drift. This is favorable, because if the insurer is able to ensure that the nodes have a certain security level, one can prevent viruses from spreading.
 
 In our models a node is an agent who is either insured or not, and the nodes’ goal is to maximize its payoff, by establishing links with other nodes. Our goal for the models is to find out if and how an insurer can force these cyber-insurance networks to evolve into the desirable structures mentioned in previous sections.
 The different parameters used to model the formation games are denoted as follows: The insurance premium is $I_{l}$, the expected risk cost is represented by $r$. $\beta$ represents the benefit of establishing a link. When establishing a link, the decision is a bidirectional decision.  
@@ -163,7 +163,7 @@ For the first simulation the parameters are set to the following: $\beta=0.9, I_
 
 \begin{figure}[h]
 \centering
-  \includegraphics[width=0.7\linewidth]{../Figures/BonusGameInsuredClique.png}
+  \includegraphics[width=0.55\linewidth]{../Figures/BonusGameInsuredClique.png}
   \caption{\label{fig:bonusoptimal} Two cliques, one consisting of insured agents the other consists of non-insured. All nodes have reached their goal. }
 \end{figure}
 As we see in Figure \ref{fig:bonusoptimal}, the results were as expected, the cost of insuring a link satisfied the conditions found earlier, and thus the result was two cliques, one consisting of only insured nodes and the other of non-insured nodes.
@@ -177,14 +177,8 @@ PoA&=\frac{12}{17}
 \label{eq:model-bonus-poa}
 \end{eqnarray}
 
-When we changed the link insurance cost to $I_{l}=0.5$, the resulting networks change. Now we found that the insured nodes are willing to establish risky links to reach their maximum degree. Some of the resulting networks can be seen in the figures \ref{fig:bonusvolating:a} and \ref{fig:bonusvolating:b}. In figure \ref{fig:bonusvolating:a} the price of anarchy is $0.95$, and in figure \ref{fig:bonusvolating:b} the price of anarchy is $1$, i.e. it has reached the socially optimal outcome.
+When we changed the link insurance cost to $I_{l}=0.5$, the resulting networks change. Now we found that the insured nodes are willing to establish risky links to reach their maximum degree. One example of a resulting network can be seen in figure \ref{fig:bonusvolating:b}.   Here the price of anarchy is $1$, i.e. it has reached the socially optimal outcome.
 
-\begin{figure}
-  \centering
-  \includegraphics[width=0.55\linewidth]{../Figures/BonusGameViolating.png}
-  \caption{\label{fig:bonusvolating:a} One non-insured node has connected to two insured nodes.}
-\end{figure}
-\quad
 \begin{figure}
   \centering
   \includegraphics[width=0.55\linewidth]{../Figures/BonusGameViolatingOptimal.png}
@@ -442,11 +436,9 @@ coordinates {
 \end{tikzpicture}
 \caption{\label{fig:PlotStarIsj} Shows the probability of the network ending up in a scale-free structure, given different critical degrees.}
 \end{figure}
-\paragraph{Price of Anarchy.}
 Another interesting thing is the average price of anarchy as function of the critical degree. The price of anarchy was calculated by taking the average total payoffs and dividing on the optimal payoff. The result can be seen in Figure \ref{fig:plotpriceofanarchy}. 
 
-We see that the price of anarchy for the first critical degrees is 1, and then decreases until degree six, and at seven it increases again. This is because at degree one to five, the socially optimal structure is a clique. At degree six, a clique and a star, are almost equally good, and at degree seven and up, a star structure is the socially optimal outcome. 
-In other words, when the cost is low, a clique is the optimal structure, and when the cost is high a star is the optimal structure. 
+When the cost is low, a clique is the optimal structure, and when the cost is high a star is the optimal structure. 
 
 This further improves our findings, because we have now shown how an insurer can determine the resulting network formation by changing the cost. In addition, the formation that evolves has a price of anarchy close to 1. 
 
