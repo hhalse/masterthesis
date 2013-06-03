@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  3 JUN 2013 13:11
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  3 JUN 2013 12:37
+=======
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  3 JUN 2013 12:29
+>>>>>>> paper
+>>>>>>> f7970f71c18bc003e64ed81274a1842efe292701
 entering extended mode
 **main.tex
 (D:\GITREPO\masterthesis\Master-Paper\main.tex
@@ -894,6 +902,13 @@ File: ../Figures/BonusGameViolatingOptimal.png Graphic file (type png)
 Package pdftex.def Info: ../Figures/BonusGameViolatingOptimal.png used on input
  line 223.
 (pdftex.def)             Requested size: 190.91899pt x 125.64879pt.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ [11 <D:/GITREPO/masterthesis/Figures/BonusGameInsuredClique.png>] [12 <D:/GITR
+EPO/masterthesis/Figures/BonusGameViolating.png> <D:/GITREPO/masterthesis/Figur
+es/BonusGameViolatingOptimal.png>]
+>>>>>>> f7970f71c18bc003e64ed81274a1842efe292701
 
 
 LaTeX Warning: Citation `sparebank1' on page 11 undefined on input line 233.
@@ -904,9 +919,28 @@ s/BonusGameViolatingOptimal.png>] [13] [14]
 
 LaTeX Warning: Citation `jackson1996strategic' on page 15 undefined on input li
 ne 327.
+=======
+ [10 <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameInsuredClique
+.png>] [11 <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameViolati
+ng.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameViolatingO
+ptimal.png>] [12] [13]
 
+LaTeX Warning: Citation `jackson1996strategic' on page 14 undefined on input li
+ne 254.
+
+
+LaTeX Warning: Citation `jackson2005survey' on page 14 undefined on input line 
+254.
+
+
+LaTeX Warning: Citation `jackson1996strategic' on page 14 undefined on input li
+ne 266.
+>>>>>>> paper
+
+[14]
 
 LaTeX Warning: Citation `jackson2005survey' on page 15 undefined on input line 
+<<<<<<< HEAD
 327.
 
 <../Figures/connectionGame.png, id=72, 103.13531pt x 93.34875pt>
@@ -993,10 +1027,24 @@ Underfull \vbox (badness 1102) has occurred while \output is active []
  [28])
 [29] [30] (D:\GITREPO\masterthesis\Master-Paper\main.aux)
 
+<<<<<<< HEAD
 LaTeX Warning: There were multiply-defined labels.
+=======
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+=======
+295.
+>>>>>>> f7970f71c18bc003e64ed81274a1842efe292701
 
- ) 
+[15] [16] [17] [18])
+(C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\discussionConclusion.t
+ex [19] [20])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+>>>>>>> paper
+
+ [21]
+[22] (C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\main.aux) ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  18600 strings out of 494045
  439842 string characters out of 3153222
  591233 words of memory out of 3000000
@@ -1022,6 +1070,38 @@ sfonts/cm/cmti10.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
 Output written on main.pdf (30 pages, 606469 bytes).
 PDF statistics:
  197 PDF objects out of 1000 (max. 8388607)
+=======
+ 18542 strings out of 494045
+ 443770 string characters out of 3145963
+ 586233 words of memory out of 3000000
+ 21466 multiletter control sequences out of 15000+200000
+ 9614 words of font info for 35 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 63i,19n,83p,1050b,2031s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmtt9.pfb>
+Output written on main.pdf (22 pages, 364810 bytes).
+PDF statistics:
+ 159 PDF objects out of 1000 (max. 8388607)
+>>>>>>> paper
  0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
