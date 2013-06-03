@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  3 JUN 2013 12:01
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  3 JUN 2013 12:37
 entering extended mode
 **main.tex
 (D:\GITREPO\masterthesis\Master-Paper\main.tex
@@ -870,18 +870,15 @@ File: ../Figures/BonusGameInsuredClique.png Graphic file (type png)
 
 <use ../Figures/BonusGameInsuredClique.png>
 Package pdftex.def Info: ../Figures/BonusGameInsuredClique.png used on input li
-ne 181.
+ne 198.
 (pdftex.def)             Requested size: 242.98541pt x 121.75314pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[10] <../Figures/BonusGameViolating.png, id=54, 268.00125pt x 310.15875pt>
+ [10]
+<../Figures/BonusGameViolating.png, id=54, 268.00125pt x 310.15875pt>
 File: ../Figures/BonusGameViolating.png Graphic file (type png)
 
 <use ../Figures/BonusGameViolating.png>
 Package pdftex.def Info: ../Figures/BonusGameViolating.png used on input line 2
-00.
+17.
 (pdftex.def)             Requested size: 190.91899pt x 220.9478pt.
 
 <../Figures/BonusGameViolatingOptimal.png, id=55, 292.84406pt x 192.72pt>
@@ -889,28 +886,28 @@ File: ../Figures/BonusGameViolatingOptimal.png Graphic file (type png)
 
 <use ../Figures/BonusGameViolatingOptimal.png>
 Package pdftex.def Info: ../Figures/BonusGameViolatingOptimal.png used on input
- line 206.
+ line 223.
 (pdftex.def)             Requested size: 190.91899pt x 125.64879pt.
+ [11 <D:/GITREPO/masterthesis/Figures/BonusGameInsuredClique.png>] [12 <D:/GITR
+EPO/masterthesis/Figures/BonusGameViolating.png> <D:/GITREPO/masterthesis/Figur
+es/BonusGameViolatingOptimal.png>]
 
+LaTeX Warning: Citation `sparebank1' on page 13 undefined on input line 233.
 
-LaTeX Warning: Citation `sparebank1' on page 11 undefined on input line 216.
-
-[11 <D:/GITREPO/masterthesis/Figures/BonusGameInsuredClique.png>] [12 <D:/GITRE
-PO/masterthesis/Figures/BonusGameViolating.png> <D:/GITREPO/masterthesis/Figure
-s/BonusGameViolatingOptimal.png>] [13] [14]
+[13] [14]
 
 LaTeX Warning: Citation `jackson1996strategic' on page 15 undefined on input li
-ne 310.
+ne 327.
 
 
 LaTeX Warning: Citation `jackson2005survey' on page 15 undefined on input line 
-310.
+327.
 
 <../Figures/connectionGame.png, id=72, 103.13531pt x 93.34875pt>
 File: ../Figures/connectionGame.png Graphic file (type png)
 
 <use ../Figures/connectionGame.png>
-Package pdftex.def Info: ../Figures/connectionGame.png used on input line 315.
+Package pdftex.def Info: ../Figures/connectionGame.png used on input line 332.
 (pdftex.def)             Requested size: 104.1381pt x 94.25726pt.
 
 
@@ -919,7 +916,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [15]
 
 LaTeX Warning: Citation `jackson1996strategic' on page 16 undefined on input li
-ne 327.
+ne 344.
 
 [16 <D:/GITREPO/masterthesis/Figures/connectionGame.png>]
 <../Figures/stability/Unefficientbutstablestar.png, id=79, 271.0125pt x 224.338
@@ -928,7 +925,7 @@ File: ../Figures/stability/Unefficientbutstablestar.png Graphic file (type png)
 
  <use ../Figures/stability/Unefficientbutstablestar.png>
 Package pdftex.def Info: ../Figures/stability/Unefficientbutstablestar.png used
- on input line 366.
+ on input line 383.
 (pdftex.def)             Requested size: 173.56177pt x 143.67517pt.
 
 
@@ -937,7 +934,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [17]
 
 LaTeX Warning: Citation `jackson2005survey' on page 18 undefined on input line 
-382.
+399.
 
 
 <../Figures/stability/Unefficientbutstabletwo.png, id=83, 563.10374pt x 459.968
@@ -945,60 +942,54 @@ LaTeX Warning: Citation `jackson2005survey' on page 18 undefined on input line
 File: ../Figures/stability/Unefficientbutstabletwo.png Graphic file (type png)
  <use ../Figures/stability/Unefficientbutstabletwo.png>
 Package pdftex.def Info: ../Figures/stability/Unefficientbutstabletwo.png used 
-on input line 390.
+on input line 407.
 (pdftex.def)             Requested size: 208.27623pt x 170.1295pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 1990) has occurred while \output is active []
-
  [18 <D:/GITREPO/masterthesis/Figures/stability/Unefficientbutstablestar.png>] 
 [19 <D:/GITREPO/masterthesis/Figures/stability/Unefficientbutstabletwo.png>] [2
-0] [21]
-[22] [23] <../Figures/Clique-20-nodes.png, id=107, 251.43938pt x 240.9pt>
+0] [21] [22]
+<../Figures/Clique-20-nodes.png, id=104, 251.43938pt x 240.9pt>
 File: ../Figures/Clique-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Clique-20-nodes.png>
-Package pdftex.def Info: ../Figures/Clique-20-nodes.png used on input line 588.
+Package pdftex.def Info: ../Figures/Clique-20-nodes.png used on input line 605.
 
 (pdftex.def)             Requested size: 242.98541pt x 232.80153pt.
 
-<../Figures/Clique-ish-20-nodes.png, id=108, 368.1253pt x 396.7322pt>
+<../Figures/Clique-ish-20-nodes.png, id=105, 368.1253pt x 396.7322pt>
 File: ../Figures/Clique-ish-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Clique-ish-20-nodes.png>
 Package pdftex.def Info: ../Figures/Clique-ish-20-nodes.png used on input line 
-594.
+611.
 (pdftex.def)             Requested size: 242.98541pt x 261.87431pt.
-
-<../Figures/Star-20-nodes.png, id=109, 752.8125pt x 752.8125pt>
+ [23] [24] [25 <D:/GITREPO/masterthesis/Figures/Clique-20-nodes.png> <D:/GITREP
+O/masterthesis/Figures/Clique-ish-20-nodes.png>] <../Figures/Star-20-nodes.png,
+ id=118, 752.8125pt x 752.8125pt>
 File: ../Figures/Star-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Star-20-nodes.png>
-Package pdftex.def Info: ../Figures/Star-20-nodes.png used on input line 603.
+Package pdftex.def Info: ../Figures/Star-20-nodes.png used on input line 620.
 (pdftex.def)             Requested size: 242.98541pt x 242.98405pt.
 
-<../Figures/Scalefree-20-nodes.png, id=110, 752.8125pt x 752.8125pt>
+<../Figures/Scalefree-20-nodes.png, id=119, 752.8125pt x 752.8125pt>
 File: ../Figures/Scalefree-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Scalefree-20-nodes.png>
 Package pdftex.def Info: ../Figures/Scalefree-20-nodes.png used on input line 6
-10.
+27.
 (pdftex.def)             Requested size: 242.98541pt x 242.98405pt.
 )
-(D:\GITREPO\masterthesis\Master-Paper\discussionConclusion.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24]
-[25 <D:/GITREPO/masterthesis/Figures/Clique-20-nodes.png> <D:/GITREPO/masterthe
-sis/Figures/Clique-ish-20-nodes.png>] [26 <D:/GITREPO/masterthesis/Figures/Star
--20-nodes.png>] [27 <D:/GITREPO/masterthesis/Figures/Scalefree-20-nodes.png>]
+(D:\GITREPO\masterthesis\Master-Paper\discussionConclusion.tex [26 <D:/GITREPO/
+masterthesis/Figures/Star-20-nodes.png>] [27 <D:/GITREPO/masterthesis/Figures/S
+calefree-20-nodes.png>]
 Underfull \vbox (badness 1102) has occurred while \output is active []
 
  [28])
-[29] [30] (D:\GITREPO\masterthesis\Master-Paper\main.aux) ) 
+[29] [30] (D:\GITREPO\masterthesis\Master-Paper\main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  18600 strings out of 494045
  439842 string characters out of 3153222
@@ -1007,22 +998,22 @@ Here is how much of TeX's memory you used:
  9614 words of font info for 35 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  63i,19n,83p,1348b,2038s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Latex/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><D
-:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Latex/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmmi5.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/L
-atex/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Latex/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmmi9.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Latex/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Latex/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr7.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pf
-b><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Latex/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Latex/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmsy9.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><
-D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on main.pdf (30 pages, 606855 bytes).
+<D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Latex/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Latex/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmbx9.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+<D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Latex/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi5.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmmi6.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/
+Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><D:/Latex/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr5.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Latex/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Latex/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr9.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Latex/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/Latex/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmti10.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+
+Output written on main.pdf (30 pages, 606753 bytes).
 PDF statistics:
  197 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

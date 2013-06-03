@@ -55,13 +55,18 @@ a node will receive if it establishes a new link.
 
 
 \subsection{Analysis}
+
 For nodes to connect to each other, the change in payoff has to be positive: $U_{i+1} > U_{i}$. However, we also need to consider the bonus received when reaching the maximum node degree, $m$. 
 To model this, we add the possible bonus divided on the number of links required to reach the bonus($\frac{\gamma}{m-i}$) in the decision process every time a node is considering to establish a link. 
 In this way the model will change from the earlier models, because now the nodes have more incentive to connect to other nodes, and for every step closer to the goal, the nodes are more willing to accept risk than before. For example, an insured node is more likely to accept a risky link when it only needs one more link to reach the goal, compared to when it need several more links to reach the goal.
 
  The model now introduces a risk factor, because it is not certain that the nodes will obtain enough links, and if not, they will not receive their bonus, and they are stuck with their already established connections. 
 
-To analyze this model, let us take a closer look at the four different scenarios of the game. When establishing a link between two insured nodes, the payoff the nodes will receive is as described in Eq.(\ref{eq:itoi}).
+As mentioned our goal is to find how and when certain network formations evolve.
+We know that if a node can increase its payoff by establishing a link, it will do so.
+Thus we can start analyzing the four possible link establishment scenarios, insured
+to insured, insured to non-insured, non-insured to insured, and non-insured to noninsured.
+When establishing a link between two insured nodes, the payoff the nodes will receive is as described in Eq.(\ref{eq:itoi}).
 \begin{equation}
     U_{i+1}= 
 \begin{cases}
@@ -166,7 +171,7 @@ If he wants a clique of only insured nodes Eq.(\ref{eq:final-insurance-clique-co
 hold. However, it is easy to relax the condition, so that insured nodes only connect to, $j=1,2,3..m$ non-insured nodes.
    This is done by changing Eq.(\ref{eq:condition-i-to-noti}) to $\beta+\frac{\gamma}{m-(m-j)}-r<I_{l}$, which
     gives us Eq.(\ref{eq:lower-boundary-link-insurance-cost}).
-An interesting result in this model is that due to the risk willingness among the nodes, the lower boundary, to ensure separation of insured and non-insured nodes, of the link insurance cost is higher compared to the one found in model 2. 
+
 
 \paragraph{Consequences of not reaching the required number of edges.} When a node establishes a link, it does not know whether it will reach the maximum node degree, unless the current node degree is $m-1$. Hence the node might end up not reaching the desired goal. This can happen if there is not enough nodes willing to establish links. Consequently, nodes who do not reach their goal could end up with a payoff less than $U_{0}$. 
 
