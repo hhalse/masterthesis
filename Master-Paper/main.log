@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  3 JUN 2013 12:37
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  3 JUN 2013 13:11
 entering extended mode
 **main.tex
 (D:\GITREPO\masterthesis\Master-Paper\main.tex
@@ -815,7 +815,11 @@ Package amsmath Warning: Unable to redefine math accent \vec.
 \mathdisplay@stack=\toks41
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
-) (D:\GITREPO\masterthesis\Master-Paper\main.aux)
+) (D:\GITREPO\masterthesis\Master-Paper\main.aux
+
+LaTeX Warning: Label `eq:itoi' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
@@ -828,8 +832,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
-
-(D:\Latex\MiKTeX\tex\context\base\supp-pdf.mkii
+ (D:\Latex\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count159
 \scratchdimen=\dimen193
@@ -861,7 +864,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2])
 (D:\GITREPO\masterthesis\Master-Paper\graphsPaper.tex [3]
 
-LaTeX Warning: Citation `contagion' on page 4 undefined on input line 43.
+LaTeX Warning: Citation `contagion' on page 4 undefined on input line 42.
 
 [4]) (D:\GITREPO\masterthesis\Master-Paper\modelingCyberIncurance.tex [5]
 [6] [7] [8] [9]
@@ -872,8 +875,11 @@ File: ../Figures/BonusGameInsuredClique.png Graphic file (type png)
 Package pdftex.def Info: ../Figures/BonusGameInsuredClique.png used on input li
 ne 198.
 (pdftex.def)             Requested size: 242.98541pt x 121.75314pt.
- [10]
-<../Figures/BonusGameViolating.png, id=54, 268.00125pt x 310.15875pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10] <../Figures/BonusGameViolating.png, id=54, 268.00125pt x 310.15875pt>
 File: ../Figures/BonusGameViolating.png Graphic file (type png)
 
 <use ../Figures/BonusGameViolating.png>
@@ -888,13 +894,13 @@ File: ../Figures/BonusGameViolatingOptimal.png Graphic file (type png)
 Package pdftex.def Info: ../Figures/BonusGameViolatingOptimal.png used on input
  line 223.
 (pdftex.def)             Requested size: 190.91899pt x 125.64879pt.
- [11 <D:/GITREPO/masterthesis/Figures/BonusGameInsuredClique.png>] [12 <D:/GITR
-EPO/masterthesis/Figures/BonusGameViolating.png> <D:/GITREPO/masterthesis/Figur
-es/BonusGameViolatingOptimal.png>]
 
-LaTeX Warning: Citation `sparebank1' on page 13 undefined on input line 233.
 
-[13] [14]
+LaTeX Warning: Citation `sparebank1' on page 11 undefined on input line 233.
+
+[11 <D:/GITREPO/masterthesis/Figures/BonusGameInsuredClique.png>] [12 <D:/GITRE
+PO/masterthesis/Figures/BonusGameViolating.png> <D:/GITREPO/masterthesis/Figure
+s/BonusGameViolatingOptimal.png>] [13] [14]
 
 LaTeX Warning: Citation `jackson1996strategic' on page 15 undefined on input li
 ne 327.
@@ -987,13 +993,13 @@ Underfull \vbox (badness 1102) has occurred while \output is active []
  [28])
 [29] [30] (D:\GITREPO\masterthesis\Master-Paper\main.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  18600 strings out of 494045
  439842 string characters out of 3153222
- 590233 words of memory out of 3000000
+ 591233 words of memory out of 3000000
  21516 multiletter control sequences out of 15000+200000
  9614 words of font info for 35 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -1013,7 +1019,7 @@ pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Latex/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/Latex/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmti10.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
 
-Output written on main.pdf (30 pages, 606753 bytes).
+Output written on main.pdf (30 pages, 606469 bytes).
 PDF statistics:
  197 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
