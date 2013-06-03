@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  3 JUN 2013 13:10
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  3 JUN 2013 13:53
 entering extended mode
 **main.tex
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.tex"
@@ -1953,7 +1953,17 @@ Package glossaries Info: Writing glossary file main.glo on input line 26.
 \glo@acronym@file=\write7
 Package glossaries Info: Writing glossary file main.acn on input line 26.
 
-("D:\GITREPO\masterthesis\Template fra Laurent\main.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\main.aux"
+("D:\GITREPO\masterthesis\Template fra Laurent\abstract_english.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\abstract_norwegian.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\preface.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\introductionToCyberInsurance.aux
+") ("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\graphTheory.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\methodology.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\SummaryOfResults.aux")
+("D:\GITREPO\masterthesis\Template fra Laurent\Appendix.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
@@ -2107,21 +2117,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--9
 ] [6
 
 
-]
+] ("D:\GITREPO\masterthesis\Template fra Laurent\main.toc" [7])
+[8] ("D:\GITREPO\masterthesis\Template fra Laurent\main.lof"
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+ [9
 
-\tf@toc=\write9
-[7] [8
-
-]
-
-Package hyperref Warning: old lof file detected, not used; run LaTeX again.
-
-\tf@lof=\write10
-[9] [10
-
-]
+])
+[10]
 ("D:\GITREPO\masterthesis\Template fra Laurent\introductionToCyberInsurance.tex
 "
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -2139,282 +2142,49 @@ l.19
       [1
 
 
-]
 
-Package natbib Warning: Citation `bolot2008new' on page 2 undefined on input li
-ne 23.
-
-
-Package natbib Warning: Citation `lelarge2009economic' on page 2 undefined on i
-nput line 31.
-
-
-Package natbib Warning: Citation `paldifferentiating' on page 2 undefined on in
-put line 31.
-
-
-Package natbib Warning: Citation `washingtonpaper' on page 2 undefined on input
- line 35.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.36 
-      [2]
-
-Package natbib Warning: Citation `networkgames' on page 3 undefined on input li
-ne 38.
-
-
-Package natbib Warning: Citation `robinson2012incentives' on page 3 undefined o
-n input line 41.
-
-
-Package natbib Warning: Citation `mehr1980principles' on page 3 undefined on in
-put line 43.
-
-[3]
-
-Package natbib Warning: Citation `solutiontoinfoasym' on page 4 undefined on in
-put line 65.
-
-
-Package natbib Warning: Citation `lemonpaper' on page 4 undefined on input line
- 68.
-
-
-Package natbib Warning: Citation `lemon' on page 4 undefined on input line 68.
-
-[4]
-
-Package natbib Warning: Citation `bohme2010modeling' on page 5 undefined on inp
-ut line 76.
-
-
-Package natbib Warning: Citation `towardsInsurable' on page 5 undefined on inpu
-t line 81.
-
-[5]
-
-Package natbib Warning: Citation `bandyopadhyay2009managers' on page 6 undefine
-d on input line 83.
-
-
-Package natbib Warning: Citation `mehr1980principles' on page 6 undefined on in
-put line 83.
-
-
-Package natbib Warning: Citation `herath2007cyber' on page 6 undefined on input
- line 94.
-
-
-Package natbib Warning: Citation `bolot2008cyber' on page 6 undefined on input 
-line 98.
-
-
+      [2] [3] [4] [5]
 Overfull \hbox (0.81615pt too wide) in paragraph at lines 97--99
  []\T1/lmr/bx/n/10 Cyber-insurance in-stead of se-cu-rity.[] \T1/lmr/m/n/10 (-2
 0) An-other prob-lem with cyber-insurance
  []
 
-
-Package natbib Warning: Citation `lelarge2009economic' on page 6 undefined on i
-nput line 100.
-
 [6]
-
-Package natbib Warning: Citation `bolot2008new' on page 7 undefined on input li
-ne 104.
-
-
-Package natbib Warning: Citation `digi' on page 7 undefined on input line 104.
-
-
-Package natbib Warning: Citation `dagensithackerforsikring' on page 7 undefined
- on input line 104.
-
-
-Package natbib Warning: Citation `Cyberworkshop' on page 7 undefined on input l
-ine 108.
-
-
-Package natbib Warning: Citation `ccost' on page 7 undefined on input line 114.
-
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1931) has occurred while \output is active []
 
  [7]
-
-Package natbib Warning: Citation `evolvingcyber' on page 8 undefined on input l
-ine 116.
-
-
-Package natbib Warning: Citation `CFCunder' on page 8 undefined on input line 1
-19.
-
-
-Package natbib Warning: Citation `compworld' on page 8 undefined on input line 
-121.
-
-
-Package natbib Warning: Citation `playstation' on page 8 undefined on input lin
-e 123.
-
-
-Package natbib Warning: Citation `gjensidige' on page 8 undefined on input line
- 126.
-
-[8]
-
-Package natbib Warning: Citation `CFCunder' on page 9 undefined on input line 1
-29.
-
-
-Package natbib Warning: Citation `CFCunder' on page 9 undefined on input line 1
-30.
-
-) [9] ("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.tex" [10
+[8]) [9] ("D:\GITREPO\masterthesis\Template fra Laurent\relatedwork.tex"
+[10
 
 
 
-]
-("D:\GITREPO\masterthesis\Template fra Laurent\relatedworkFinal.tex"
-
-Package natbib Warning: Citation `bohme2010modeling' on page 11 undefined on in
-put line 3.
-
-
-Package natbib Warning: Citation `bohme2010modeling' on page 11 undefined on in
-put line 15.
-
+] ("D:\GITREPO\masterthesis\Template fra Laurent\relatedworkFinal.tex"
 [11]
-
-Package natbib Warning: Citation `majuca2006evolution' on page 12 undefined on 
-input line 19.
-
-
-Package natbib Warning: Citation `pal2011aegis' on page 12 undefined on input l
-ine 21.
-
-
-Package natbib Warning: Citation `bohme2010modeling' on page 12 undefined on in
-put line 22.
-
-
-Package natbib Warning: Citation `pal2012cyberinsurance' on page 12 undefined o
-n input line 24.
-
-
-Package natbib Warning: Citation `paldifferentiating' on page 12 undefined on i
-nput line 27.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12])
-
-Package natbib Warning: Citation `bohme2006models' on page 13 undefined on inpu
-t line 10.
-
-
-Package natbib Warning: Citation `bohme2006models' on page 13 undefined on inpu
-t line 10.
-
-
-Package natbib Warning: Citation `bolot2008cyber' on page 13 undefined on input
- line 12.
-
-
-Package natbib Warning: Citation `bolot2008new' on page 13 undefined on input l
-ine 12.
-
-
-Package natbib Warning: Citation `bolot2008cyber' on page 13 undefined on input
- line 15.
-
-
-Package natbib Warning: Citation `bolot2008new' on page 13 undefined on input l
-ine 15.
-
-
-Package natbib Warning: Citation `shetty2010competitive' on page 13 undefined o
-n input line 15.
-
-
-Package natbib Warning: Citation `shetty2010competitive' on page 13 undefined o
-n input line 16.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
-
-Package natbib Warning: Citation `radosavac2008using' on page 14 undefined on i
-nput line 18.
-
-
-Package natbib Warning: Citation `radosavac2008using' on page 14 undefined on i
-nput line 19.
-
-
-Package natbib Warning: Citation `danezis2006network' on page 14 undefined on i
-nput line 21.
-
-
-Package natbib Warning: Citation `danezis2006network' on page 14 undefined on i
-nput line 22.
-
 [14]) [15] ("D:\GITREPO\masterthesis\Template fra Laurent\graphTheory.tex"
 [16
 
 
 
-]
-
-Package natbib Warning: Citation `audestad' on page 17 undefined on input line 
-4.
-
-
-Package natbib Warning: Citation `greekStockMarket' on page 17 undefined on inp
-ut line 11.
-
-[17]
-
-LaTeX Warning: Reference `fig:greekStockMarket' on page 18 undefined on input l
-ine 13.
-
-<../Figures/greekStockMarket.jpg, id=387, 465.59787pt x 322.97655pt>
+] [17] <../Figures/greekStockMarket.jpg, id=605, 465.59787pt x 322.97655pt>
 File: ../Figures/greekStockMarket.jpg Graphic file (type jpg)
 
 <use ../Figures/greekStockMarket.jpg>
 Package pdftex.def Info: ../Figures/greekStockMarket.jpg used on input line 17.
 
 (pdftex.def)             Requested size: 364.0pt x 252.49727pt.
-
-
-Package natbib Warning: Citation `greekStockMarket' on page 18 undefined on inp
-ut line 20.
-
-
-Package natbib Warning: Citation `greekStockMarket' on page 18 undefined on inp
-ut line 20.
-
-
-LaTeX Warning: Reference `fig:airlineRouteMap' on page 18 undefined on input li
-ne 24.
-
-
-Package natbib Warning: Citation `busiestAirports' on page 18 undefined on inpu
-t line 24.
-
-
-LaTeX Warning: Reference `fig:airlineRouteMap' on page 18 undefined on input li
-ne 24.
-
-[18 <D:/GITREPO/masterthesis/Figures/greekStockMarket.jpg>]
-<../Figures/airlineRoutesUSA.png, id=397, 663.22781pt x 383.93437pt>
+ [18 <D:/GITREPO/masterthesis/Figures/greekStockMarket.jpg>]
+<../Figures/airlineRoutesUSA.png, id=618, 663.22781pt x 383.93437pt>
 File: ../Figures/airlineRoutesUSA.png Graphic file (type png)
 
 <use ../Figures/airlineRoutesUSA.png>
@@ -2422,88 +2192,31 @@ Package pdftex.def Info: ../Figures/airlineRoutesUSA.png used on input line 30.
 
 (pdftex.def)             Requested size: 364.0pt x 210.71346pt.
 
-
-Package natbib Warning: Citation `airlineRoutes' on page 19 undefined on input 
-line 33.
-
-
-Package natbib Warning: Citation `airlineRoutes' on page 19 undefined on input 
-line 33.
-
-
-Package natbib Warning: Citation `audestad' on page 19 undefined on input line 
-36.
-
 ("D:\GITREPO\masterthesis\Template fra Laurent\nature.tex"
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19 <D:/GITREPO/masterthesis/Figures/airlineRoutesUSA.png>]
+Underfull \vbox (badness 1845) has occurred while \output is active []
 
-Package natbib Warning: Citation `lieberman2005evolutionary' on page 20 undefin
-ed on input line 9.
-
-
-Package natbib Warning: Citation `lieberman2005evolutionary' on page 20 undefin
-ed on input line 13.
-
-[20]
-
-LaTeX Warning: Reference `eq:fixation' on page 21 undefined on input line 23.
-
-
-LaTeX Warning: Reference `eq:fixation' on page 21 undefined on input line 31.
-
-<../Figures/aStar.png, id=413, 235.63031pt x 222.07968pt>
+ [20]
+<../Figures/aStar.png, id=642, 235.63031pt x 222.07968pt>
 File: ../Figures/aStar.png Graphic file (type png)
 
 <use ../Figures/aStar.png>
 Package pdftex.def Info: ../Figures/aStar.png used on input line 35.
 (pdftex.def)             Requested size: 182.0pt x 171.53389pt.
+ [21]
+Underfull \vbox (badness 5939) has occurred while \output is active []
 
-
-Package natbib Warning: Citation `lieberman2005evolutionary' on page 21 undefin
-ed on input line 41.
-
-
-LaTeX Warning: Reference `fig:star' on page 21 undefined on input line 41.
-
-
-LaTeX Warning: Reference `eq:fixation2' on page 21 undefined on input line 42.
-
-
-LaTeX Warning: Reference `eq:fixationk' on page 21 undefined on input line 42.
-
-
-Package natbib Warning: Citation `lieberman2005evolutionary' on page 21 undefin
-ed on input line 42.
-
-[21 <D:/GITREPO/masterthesis/Figures/aStar.png>]
-
-LaTeX Warning: Reference `eq:fixation' on page 22 undefined on input line 47.
-
-
-LaTeX Warning: Reference `eq:fixation2' on page 22 undefined on input line 47.
-
-
-LaTeX Warning: Reference `eq:fixationk' on page 22 undefined on input line 51.
-
-
-Package natbib Warning: Citation `contagion' on page 22 undefined on input line
- 57.
-
-[22]
-
-Package natbib Warning: Citation `networkgames' on page 23 undefined on input l
-ine 74.
-
-<./figs/optimalequilibrium.png, id=433, 440.39531pt x 441.14813pt>
+ [22 <D:/GITREPO/masterthesis/Figures/aStar.png>]
+<./figs/optimalequilibrium.png, id=671, 440.39531pt x 441.14813pt>
 File: ./figs/optimalequilibrium.png Graphic file (type png)
 
 <use ./figs/optimalequilibrium.png>
 Package pdftex.def Info: ./figs/optimalequilibrium.png used on input line 85.
 (pdftex.def)             Requested size: 116.47865pt x 116.67482pt.
 
-<./figs/notoptimalequilibrium.png, id=434, 421.575pt x 422.32782pt>
+<./figs/notoptimalequilibrium.png, id=672, 421.575pt x 422.32782pt>
 File: ./figs/notoptimalequilibrium.png Graphic file (type png)
 
 <use ./figs/notoptimalequilibrium.png>
@@ -2512,42 +2225,20 @@ Package pdftex.def Info: ./figs/notoptimalequilibrium.png used on input line 91
 (pdftex.def)             Requested size: 116.47865pt x 116.68504pt.
 
 
-LaTeX Warning: Reference `fig:optequi' on page 23 undefined on input line 94.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
+[23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `fig:notoptequi' on page 23 undefined on input line 94
-.
-
-
-LaTeX Warning: Reference `fig:optequi' on page 23 undefined on input line 94.
-
-
-LaTeX Warning: Reference `fig:notoptequi' on page 23 undefined on input line 94
-.
-
-
-LaTeX Warning: Reference `fig:starequi' on page 23 undefined on input line 97.
-
-[23 <D:/GITREPO/masterthesis/Template fra Laurent/figs/optimalequilibrium.png> 
-<D:/GITREPO/masterthesis/Template fra Laurent/figs/notoptimalequilibrium.png>]
-[24])) [25] ("D:\GITREPO\masterthesis\Template fra Laurent\methodology.tex"
-[26
+ [24 <D:/GITREPO/masterthesis/Template fra Laurent/figs/optimalequilibrium.png>
+ <D:/GITREPO/masterthesis/Template fra Laurent/figs/notoptimalequilibrium.png>]
+)) [25]
+("D:\GITREPO\masterthesis\Template fra Laurent\methodology.tex" [26
 
 
 
 ]
-
-LaTeX Warning: Reference `fig:generalGraph' on page 27 undefined on input line 
-4.
-
-
-Package natbib Warning: Citation `audestad' on page 27 undefined on input line 
-4.
-
-
-LaTeX Warning: Reference `ABgraph' on page 27 undefined on input line 12.
-
-<../Figures/generalGraph.png, id=456, 266.49562pt x 328.97906pt>
+<../Figures/generalGraph.png, id=702, 266.49562pt x 328.97906pt>
 File: ../Figures/generalGraph.png Graphic file (type png)
 
 <use ../Figures/generalGraph.png>
@@ -2555,39 +2246,10 @@ Package pdftex.def Info: ../Figures/generalGraph.png used on input line 18.
 (pdftex.def)             Requested size: 145.59778pt x 179.7393pt.
 
 
-Package natbib Warning: Citation `audestad' on page 27 undefined on input line 
-20.
-
-
-Package natbib Warning: Citation `audestad' on page 27 undefined on input line 
-20.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Package natbib Warning: Citation `audestad' on page 27 undefined on input line 
-24.
-
-[27]
-
-Package natbib Warning: Citation `barabasi' on page 28 undefined on input line 
-27.
-
-
-Package natbib Warning: Citation `audestad' on page 28 undefined on input line 
-37.
-
-[28 <D:/GITREPO/masterthesis/Figures/generalGraph.png>]
-
-Package natbib Warning: Citation `audestad' on page 29 undefined on input line 
-42.
-
-
-LaTeX Warning: Reference `fig:ABgraphcreation' on page 29 undefined on input li
-ne 44.
-
-<../Figures/ABgraphcreation.png, id=467, 395.97937pt x 268.75406pt>
+[27] [28 <D:/GITREPO/masterthesis/Figures/generalGraph.png>]
+<../Figures/ABgraphcreation.png, id=721, 395.97937pt x 268.75406pt>
 File: ../Figures/ABgraphcreation.png Graphic file (type png)
 
 <use ../Figures/ABgraphcreation.png>
@@ -2595,56 +2257,17 @@ Package pdftex.def Info: ../Figures/ABgraphcreation.png used on input line 57.
 (pdftex.def)             Requested size: 291.20111pt x 197.64462pt.
 
 
-Package natbib Warning: Citation `audestad' on page 29 undefined on input line 
-59.
-
-
-Package natbib Warning: Citation `audestad' on page 29 undefined on input line 
-59.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `fig:ABgraphcreation' on page 29 undefined on input li
-ne 63.
-
-
-Package natbib Warning: Citation `audestad' on page 29 undefined on input line 
-64.
-
-
-Package natbib Warning: Citation `nisan2007algorithmic' on page 29 undefined on
- input line 67.
-
-
-Package natbib Warning: Citation `watson2008strategy' on page 29 undefined on i
-nput line 67.
-
 [29] [30 <D:/GITREPO/masterthesis/Figures/ABgraphcreation.png>]
-
-Package natbib Warning: Citation `calvo2009pairwise' on page 31 undefined on in
-put line 102.
-
-
-Package natbib Warning: Citation `netlogo' on page 31 undefined on input line 1
-05.
-
-
-LaTeX Warning: Reference `fig:netlogo' on page 31 undefined on input line 107.
-
-
-LaTeX Warning: Reference `fig:netlogo-code' on page 31 undefined on input line 
-107.
-
-<../Figures/netlogoexample.png, id=482, 517.935pt x 639.13782pt>
+<../Figures/netlogoexample.png, id=746, 517.935pt x 639.13782pt>
 File: ../Figures/netlogoexample.png Graphic file (type png)
 
 <use ../Figures/netlogoexample.png>
 Package pdftex.def Info: ../Figures/netlogoexample.png used on input line 110.
 (pdftex.def)             Requested size: 327.59778pt x 404.27786pt.
 
-<../Figures/netlogocodeexample.png, id=483, 515.67656pt x 652.68843pt>
+<../Figures/netlogocodeexample.png, id=747, 515.67656pt x 652.68843pt>
 File: ../Figures/netlogocodeexample.png Graphic file (type png)
 
 <use ../Figures/netlogocodeexample.png>
@@ -2661,20 +2284,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ) [32] [33 <D:/GITREPO/masterthesis/Figures/netlogoexample.png>] [34 <D:/GITREP
 O/masterthesis/Figures/netlogocodeexample.png>]
 ("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance.tex"
-
-Package natbib Warning: Citation `contagion' on page 35 undefined on input line
- 9.
-
 [35
 
 
 
-]
-
-LaTeX Warning: Reference `fig:Overview-of-models' on page 36 undefined on input
- line 16.
-
-<../Figures/modeloverview.png, id=516, 486.31688pt x 417.81094pt>
+] <../Figures/modeloverview.png, id=782, 486.31688pt x 417.81094pt>
 File: ../Figures/modeloverview.png Graphic file (type png)
 
 <use ../Figures/modeloverview.png>
@@ -2684,20 +2298,8 @@ Package pdftex.def Info: ../Figures/modeloverview.png used on input line 25.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `fig:firstmod1' on page 36 undefined on input line 34.
-
-
-
-LaTeX Warning: Reference `fig:firstmod2' on page 36 undefined on input line 34.
-
-
 [36]
-
-Package natbib Warning: Citation `contagion' on page 37 undefined on input line
- 39.
-
-<../Figures/firstModelWithNoParameters1.png, id=521, 143.78719pt x 144.54pt>
+<../Figures/firstModelWithNoParameters1.png, id=790, 143.78719pt x 144.54pt>
 File: ../Figures/firstModelWithNoParameters1.png Graphic file (type png)
 
 <use ../Figures/firstModelWithNoParameters1.png>
@@ -2705,21 +2307,13 @@ Package pdftex.def Info: ../Figures/firstModelWithNoParameters1.png used on inp
 ut line 45.
 (pdftex.def)             Requested size: 131.04266pt x 131.73228pt.
 
-<../Figures/firstModelWithNoParameters2.png, id=522, 184.43906pt x 99.37125pt>
+<../Figures/firstModelWithNoParameters2.png, id=791, 184.43906pt x 99.37125pt>
 File: ../Figures/firstModelWithNoParameters2.png Graphic file (type png)
 
 <use ../Figures/firstModelWithNoParameters2.png>
 Package pdftex.def Info: ../Figures/firstModelWithNoParameters2.png used on inp
 ut line 51.
 (pdftex.def)             Requested size: 218.40222pt x 117.66948pt.
-
-
-LaTeX Warning: Reference `section:verysimplemodel' on page 37 undefined on inpu
-t line 54.
-
-
-LaTeX Warning: Reference `section:verysimplemodel' on page 37 undefined on inpu
-t line 54.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2732,44 +2326,15 @@ Underfull \vbox (badness 4927) has occurred while \output is active []
 
  [38 <D:/GITREPO/masterthesis/Figures/firstModelWithNoParameters1.png> <D:/GITR
 EPO/masterthesis/Figures/firstModelWithNoParameters2.png>]
-
-LaTeX Warning: Reference `tbl:simplegamepara' on page 39 undefined on input lin
-e 66.
-
-
-LaTeX Warning: Reference `fig:FirstGameTheoryModel' on page 39 undefined on inp
-ut line 80.
-
-<../Figures/FirstGameWithParameters.png, id=536, 1036.62282pt x 293.59688pt>
+<../Figures/FirstGameWithParameters.png, id=807, 1036.62282pt x 293.59688pt>
 File: ../Figures/FirstGameWithParameters.png Graphic file (type png)
 
 <use ../Figures/FirstGameWithParameters.png>
 Package pdftex.def Info: ../Figures/FirstGameWithParameters.png used on input l
 ine 84.
 (pdftex.def)             Requested size: 550.0pt x 155.7803pt.
-
-
-LaTeX Warning: Reference `fig:FirstGameTheoryModel' on page 39 undefined on inp
-ut line 88.
-
-
-Package natbib Warning: Citation `oxfordPrisonersDilemma' on page 39 undefined 
-on input line 93.
-
-[39] [40 <D:/GITREPO/masterthesis/Figures/FirstGameWithParameters.png>]
-
-LaTeX Warning: Reference `fig:stackelberg' on page 41 undefined on input line 1
-03.
-
-
-LaTeX Warning: Reference `eq:stackelbergcondition' on page 41 undefined on inpu
-t line 103.
-
-
-LaTeX Warning: Reference `fig:stackelberg' on page 41 undefined on input line 1
-03.
-
-<../Figures/stackelberggame.png, id=551, 855.94781pt x 761.09344pt>
+ [39] [40 <D:/GITREPO/masterthesis/Figures/FirstGameWithParameters.png>]
+<../Figures/stackelberggame.png, id=827, 855.94781pt x 761.09344pt>
 File: ../Figures/stackelberggame.png Graphic file (type png)
 
 <use ../Figures/stackelberggame.png>
@@ -2781,73 +2346,10 @@ Package pdftex.def Info: ../Figures/stackelberggame.png used on input line 117.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [41]
-
-LaTeX Warning: Reference `Model with incomplete information' on page 42 undefin
-ed on input line 128.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42 <D:/GITREPO/masterthesis/Figures/stackelberggame.png>]
-
-LaTeX Warning: Reference `eq:itoimodel2' on page 43 undefined on input line 133
-.
-
-
-LaTeX Warning: Reference `eq:itoi-condition' on page 43 undefined on input line
- 143.
-
-
-LaTeX Warning: Reference `eq:noti-to-i-model2' on page 43 undefined on input li
-ne 149.
-
-
-LaTeX Warning: Reference `eq:itonoti-condition' on page 43 undefined on input l
-ine 170.
-
-
-LaTeX Warning: Reference `eq:notitonoti-condition' on page 43 undefined on inpu
-t line 186.
-
-[43]
-
-LaTeX Warning: Reference `eq:itoi-condition' on page 44 undefined on input line
- 194.
-
-
-LaTeX Warning: Reference `eq:final condition' on page 44 undefined on input lin
-e 198.
-
-
-LaTeX Warning: Reference `eq:final condition' on page 44 undefined on input lin
-e 207.
-
-
-LaTeX Warning: Reference `eq:model2-total-payoff-general' on page 44 undefined 
-on input line 215.
-
-[44]
-
-LaTeX Warning: Reference `eq:model2-total-payoff-general' on page 45 undefined 
-on input line 220.
-
-
-LaTeX Warning: Reference `eq:model2-total-payoff' on page 45 undefined on input
- line 220.
-
-
-LaTeX Warning: Reference `eq:final condition' on page 45 undefined on input lin
-e 225.
-
-
-LaTeX Warning: Reference `eq:model2-two-cliques-payoff' on page 45 undefined on
- input line 225.
-
-
-LaTeX Warning: Reference `eq:model2-pos' on page 45 undefined on input line 230
-.
-
-[45] <../Figures/FirstSimulationStart.png, id=597, 219.82124pt x 210.7875pt>
+ [42 <D:/GITREPO/masterthesis/Figures/stackelberggame.png>] [43] [44] [45]
+<../Figures/FirstSimulationStart.png, id=886, 219.82124pt x 210.7875pt>
 File: ../Figures/FirstSimulationStart.png Graphic file (type png)
 
 <use ../Figures/FirstSimulationStart.png>
@@ -2855,46 +2357,16 @@ Package pdftex.def Info: ../Figures/FirstSimulationStart.png used on input line
  248.
 (pdftex.def)             Requested size: 182.0pt x 174.5258pt.
 
-<../Figures/FirstSimulationResult.png, id=598, 375.65344pt x 240.14719pt>
+<../Figures/FirstSimulationResult.png, id=887, 375.65344pt x 240.14719pt>
 File: ../Figures/FirstSimulationResult.png Graphic file (type png)
 
 <use ../Figures/FirstSimulationResult.png>
 Package pdftex.def Info: ../Figures/FirstSimulationResult.png used on input lin
 e 254.
 (pdftex.def)             Requested size: 254.79889pt x 162.89116pt.
-
-
-LaTeX Warning: Reference `fig:firstsimulation' on page 46 undefined on input li
-ne 259.
-
-
-LaTeX Warning: Reference `eq:final condition' on page 46 undefined on input lin
-e 259.
-
-
-LaTeX Warning: Reference `fig:firstsimulation:b' on page 46 undefined on input 
-line 259.
-
-[46 <D:/GITREPO/masterthesis/Figures/FirstSimulationStart.png> <D:/GITREPO/mast
-erthesis/Figures/FirstSimulationResult.png>]
-
-LaTeX Warning: Reference `eq:final condition' on page 47 undefined on input lin
-e 264.
-
-
-LaTeX Warning: Reference `fig:SimulationViolating' on page 47 undefined on inpu
-t line 264.
-
-
-LaTeX Warning: Reference `fig:SimulationViolating:a' on page 47 undefined on in
-put line 264.
-
-
-LaTeX Warning: Reference `fig:SimulationViolating:b' on page 47 undefined on in
-put line 264.
-
-
-<../Figures/FirstSimulationViolatingResult.png, id=604, 204.765pt x 194.97844pt
+ [46 <D:/GITREPO/masterthesis/Figures/FirstSimulationStart.png> <D:/GITREPO/mas
+terthesis/Figures/FirstSimulationResult.png>]
+<../Figures/FirstSimulationViolatingResult.png, id=899, 204.765pt x 194.97844pt
 >
 File: ../Figures/FirstSimulationViolatingResult.png Graphic file (type png)
  <use ../Figures/FirstSimulationViolatingResult.png>
@@ -2904,15 +2376,7 @@ input line 269.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 271.
 
-
-LaTeX Warning: Reference `eq:final condition' on page 47 undefined on input lin
-e 271.
-
-
-LaTeX Warning: Reference `eq:final condition' on page 47 undefined on input lin
-e 271.
-
-<../Figures/SimulationViolating2.png, id=605, 238.64156pt x 223.58531pt>
+<../Figures/SimulationViolating2.png, id=902, 238.64156pt x 223.58531pt>
 File: ../Figures/SimulationViolating2.png Graphic file (type png)
 
 <use ../Figures/SimulationViolating2.png>
@@ -2921,38 +2385,9 @@ Package pdftex.def Info: ../Figures/SimulationViolating2.png used on input line
 (pdftex.def)             Requested size: 163.79889pt x 153.46205pt.
 
 
-LaTeX Warning: Reference `eq:final condition' on page 47 undefined on input lin
-e 280.
-
-
-LaTeX Warning: Reference `fig:SimulationViolating:a' on page 47 undefined on in
-put line 280.
-
-
-LaTeX Warning: Reference `fig:SimulationViolating:b' on page 47 undefined on in
-put line 280.
-
-
-LaTeX Warning: Reference `eq:final condition' on page 47 undefined on input lin
-e 280.
-
-
-LaTeX Warning: Reference `fig:SimulationViolating:a' on page 47 undefined on in
-put line 280.
-
-
-LaTeX Warning: Reference `fig:SimulationViolating:b' on page 47 undefined on in
-put line 280.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-("D:\GITREPO\masterthesis\Template fra Laurent\modelingWithNature.tex"
-
-LaTeX Warning: Reference `ch:analysis-of-model-2b' on page 47 undefined on inpu
-t line 6.
-
-[47]
+("D:\GITREPO\masterthesis\Template fra Laurent\modelingWithNature.tex" [47]
 Underfull \vbox (badness 5388) has occurred while \output is active []
 
  [48 <D:/GITREPO/masterthesis/Figures/FirstSimulationViolatingResult.png> <D:/G
@@ -2960,94 +2395,16 @@ ITREPO/masterthesis/Figures/SimulationViolating2.png>])
 Underfull \vbox (badness 2762) has occurred while \output is active []
 
  [49]
-
-LaTeX Warning: Reference `eq:itoi' on page 50 undefined on input line 296.
-
-
-LaTeX Warning: Reference `eq:itoi2' on page 50 undefined on input line 307.
-
-[50]
-
-LaTeX Warning: Reference `eq:noitoti' on page 51 undefined on input line 348.
-
-
-LaTeX Warning: Reference `eq:itoi2' on page 51 undefined on input line 362.
-
-
-LaTeX Warning: Reference `eq:itonoti' on page 51 undefined on input line 368.
-
-
-LaTeX Warning: Reference `eq:condition-i-to-noti' on page 51 undefined on input
- line 373.
-
-
-LaTeX Warning: Reference `eq:conditionitoi' on page 51 undefined on input line 
-381.
-
-
-LaTeX Warning: Reference `eq:condition-i-to-noti' on page 51 undefined on input
- line 381.
-
-
-LaTeX Warning: Reference `eq:final-insurance-clique-condition' on page 51 undef
-ined on input line 381.
-
-[51]
-
-LaTeX Warning: Reference `eq:noinsuredcliqueconditon' on page 52 undefined on i
-nput line 386.
-
-
-LaTeX Warning: Reference `eq:noitonoti' on page 52 undefined on input line 394.
-
-
-
-LaTeX Warning: Reference `eq:final-insurance-clique-condition' on page 52 undef
-ined on input line 397.
-
-
-LaTeX Warning: Reference `eq:condition-i-to-noti' on page 52 undefined on input
- line 399.
-
-
-LaTeX Warning: Reference `eq:lower-boundary-link-insurance-cost' on page 52 und
-efined on input line 400.
-
-[52]
-
-LaTeX Warning: Reference `eq:final-insurance-clique-condition' on page 53 undef
-ined on input line 421.
-
-<../Figures/BonusGameInsuredClique.png, id=653, 354.57469pt x 177.66376pt>
+[50] [51] [52]
+<../Figures/BonusGameInsuredClique.png, id=970, 354.57469pt x 177.66376pt>
 File: ../Figures/BonusGameInsuredClique.png Graphic file (type png)
 
 <use ../Figures/BonusGameInsuredClique.png>
 Package pdftex.def Info: ../Figures/BonusGameInsuredClique.png used on input li
 ne 425.
 (pdftex.def)             Requested size: 254.79889pt x 127.67381pt.
-
-
-LaTeX Warning: Reference `fig:bonusoptimal' on page 53 undefined on input line 
-428.
-
-[53 <D:/GITREPO/masterthesis/Figures/BonusGameInsuredClique.png>]
-
-LaTeX Warning: Reference `eq:model-bonus-poa' on page 54 undefined on input lin
-e 431.
-
-
-LaTeX Warning: Reference `fig:bonusviolating' on page 54 undefined on input lin
-e 439.
-
-
-LaTeX Warning: Reference `fig:bonusvolating:a' on page 54 undefined on input li
-ne 440.
-
-
-LaTeX Warning: Reference `fig:bonusvolating:b' on page 54 undefined on input li
-ne 440.
-
-<../Figures/BonusGameViolating.png, id=662, 268.00125pt x 310.15875pt>
+ [53 <D:/GITREPO/masterthesis/Figures/BonusGameInsuredClique.png>]
+<../Figures/BonusGameViolating.png, id=983, 268.00125pt x 310.15875pt>
 File: ../Figures/BonusGameViolating.png Graphic file (type png)
 
 <use ../Figures/BonusGameViolating.png>
@@ -3055,7 +2412,7 @@ Package pdftex.def Info: ../Figures/BonusGameViolating.png used on input line 4
 45.
 (pdftex.def)             Requested size: 180.17976pt x 208.51991pt.
 
-<../Figures/BonusGameViolatingOptimal.png, id=663, 292.84406pt x 192.72pt>
+<../Figures/BonusGameViolatingOptimal.png, id=984, 292.84406pt x 192.72pt>
 File: ../Figures/BonusGameViolatingOptimal.png Graphic file (type png)
 
 <use ../Figures/BonusGameViolatingOptimal.png>
@@ -3066,82 +2423,19 @@ Package pdftex.def Info: ../Figures/BonusGameViolatingOptimal.png used on input
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Package natbib Warning: Citation `sparebank1' on page 54 undefined on input lin
-e 461.
-
 [54]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [55 <D:/GITREPO/masterthesis/Figures/BonusGameViolating.png> <D:/GITREPO/maste
-rthesis/Figures/BonusGameViolatingOptimal.png>]
-
-LaTeX Warning: Reference `eq:model4-discount-i-to-i' on page 56 undefined on in
-put line 487.
-
-
-LaTeX Warning: Reference `eq:model4-discount-i-to-noti' on page 56 undefined on
- input line 493.
-
-
-LaTeX Warning: Reference `eq:model4-discount-condition-only-insured' on page 56
- undefined on input line 500.
-
-[56]
-
-LaTeX Warning: Reference `eq:model4-discount-total-payoff' on page 57 undefined
- on input line 508.
-
-
-LaTeX Warning: Reference `eq:model2-total-payoff' on page 57 undefined on input
- line 508.
-
-
-LaTeX Warning: Reference `eq:discount1' on page 57 undefined on input line 523.
-
-
-
-LaTeX Warning: Reference `eq:model4-bonus-i-to-i' on page 57 undefined on input
- line 533.
-
-[57]
-
-LaTeX Warning: Reference `eq:model4-bonus-i-to-ni' on page 58 undefined on inpu
-t line 542.
-
-
-LaTeX Warning: Reference `eq:model4-bonus-i-to-ni-final' on page 58 undefined o
-n input line 552.
-
-
-LaTeX Warning: Reference `eq:conditionitoi' on page 58 undefined on input line 
-562.
-
-
-LaTeX Warning: Reference `eq:model4-bonus-i-not-ni' on page 58 undefined on inp
-ut line 564.
-
-
-LaTeX Warning: Reference `eq:model4-final-condition-insured-clique' on page 58 
-undefined on input line 572.
-
-[58]pdfTeX warning (ext4): destination with the same identifier (name{equation.
-5.38}) has been already used, duplicate ignored
+rthesis/Figures/BonusGameViolatingOptimal.png>] [56] [57] [58]pdfTeX warning (e
+xt4): destination with the same identifier (name{equation.5.38}) has been alrea
+dy used, duplicate ignored
 <to be read again> 
                    \relax 
 l.574 \begin{equation}
                       
 ("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance2(furtherW
-ork).tex"
-
-Package natbib Warning: Citation `jackson1996strategic' on page 59 undefined on
- input line 4.
-
-
-Package natbib Warning: Citation `jackson2005survey' on page 59 undefined on in
-put line 4.
-
-<../Figures/connectionGame.png, id=700, 103.13531pt x 93.34875pt>
+ork).tex" <../Figures/connectionGame.png, id=1036, 103.13531pt x 93.34875pt>
 File: ../Figures/connectionGame.png Graphic file (type png)
 
 <use ../Figures/connectionGame.png>
@@ -3151,23 +2445,9 @@ Package pdftex.def Info: ../Figures/connectionGame.png used on input line 9.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `fig:connectionGame' on page 59 undefined on input lin
-e 12.
-
-[59]
-
-Package natbib Warning: Citation `jackson1996strategic' on page 60 undefined on
- input line 21.
-
-[60 <D:/GITREPO/masterthesis/Figures/connectionGame.png>]
-
-LaTeX Warning: Reference `fig:stablestar' on page 61 undefined on input line 54
-.
-
-[61]
-<../Figures/stability/Unefficientbutstablestar.png, id=724, 271.0125pt x 224.33
-812pt>
+[59] [60 <D:/GITREPO/masterthesis/Figures/connectionGame.png>] [61]
+<../Figures/stability/Unefficientbutstablestar.png, id=1064, 271.0125pt x 224.3
+3812pt>
 File: ../Figures/stability/Unefficientbutstablestar.png Graphic file (type png)
 
  <use ../Figures/stability/Unefficientbutstablestar.png>
@@ -3175,109 +2455,23 @@ Package pdftex.def Info: ../Figures/stability/Unefficientbutstablestar.png used
  on input line 60.
 (pdftex.def)             Requested size: 182.0pt x 150.66176pt.
 
-
-LaTeX Warning: Reference `eq:payoffstablestar' on page 62 undefined on input li
-ne 63.
-
-
-Package natbib Warning: Citation `jackson2005survey' on page 62 undefined on in
-put line 76.
-
-
 Underfull \vbox (badness 1127) has occurred while \output is active []
 
  [62 <D:/GITREPO/masterthesis/Figures/stability/Unefficientbutstablestar.png>]
-
-LaTeX Warning: Reference `fig:stablescalefree' on page 63 undefined on input li
-ne 81.
-
-
-<../Figures/stability/Unefficientbutstabletwo.png, id=732, 563.10374pt x 459.96
-844pt>
+<../Figures/stability/Unefficientbutstabletwo.png, id=1074, 563.10374pt x 459.9
+6844pt>
 File: ../Figures/stability/Unefficientbutstabletwo.png Graphic file (type png)
  <use ../Figures/stability/Unefficientbutstabletwo.png>
 Package pdftex.def Info: ../Figures/stability/Unefficientbutstabletwo.png used 
 on input line 84.
 (pdftex.def)             Requested size: 218.40222pt x 178.39735pt.
 
-
-LaTeX Warning: Reference `eq:discountstar' on page 63 undefined on input line 9
-0.
-
-
 Underfull \vbox (badness 4713) has occurred while \output is active []
 
- [63 <D:/GITREPO/masterthesis/Figures/stability/Unefficientbutstabletwo.png>]
-
-LaTeX Warning: Reference `eq:criticaldiscount' on page 64 undefined on input li
-ne 96.
-
-
-LaTeX Warning: Reference `eq:probabilitydegree' on page 64 undefined on input l
-ine 104.
-
-[64]
-
-LaTeX Warning: Reference `fig:PlotStar' on page 65 undefined on input line 130.
-
-
-
-LaTeX Warning: Reference `prop:clique' on page 65 undefined on input line 130.
-
-
-LaTeX Warning: Reference `prop:star' on page 65 undefined on input line 130.
-
-
-LaTeX Warning: Reference `prop:scale-free' on page 65 undefined on input line 1
-30.
-
-
-LaTeX Warning: Reference `eq:connecetionGame' on page 65 undefined on input lin
-e 136.
-
-
-LaTeX Warning: Reference `eq:discountstar' on page 65 undefined on input line 1
-39.
-
-
-LaTeX Warning: Reference `fig:PlotStar' on page 65 undefined on input line 140.
-
-
-
-LaTeX Warning: Reference `fig:PlotClique' on page 65 undefined on input line 14
-0.
-
-
-LaTeX Warning: Reference `fig:PlotStarIsj' on page 65 undefined on input line 1
-40.
-
-
-LaTeX Warning: Reference `fig:PlotStar' on page 65 undefined on input line 140.
-
-
-
-LaTeX Warning: Reference `fig:PlotClique' on page 65 undefined on input line 16
-7.
-
-[65]
-
-LaTeX Warning: Reference `fig:PlotStarVsClique' on page 66 undefined on input l
-ine 194.
-
-
-LaTeX Warning: Reference `fig:PlotStar' on page 66 undefined on input line 224.
-
-
-
-LaTeX Warning: Reference `fig:PlotStarIsj' on page 66 undefined on input line 2
-24.
-
-[66] [67]
-
-LaTeX Warning: Reference `fig:plotpriceofanarchy' on page 68 undefined on input
- line 251.
-
-[68] <../Figures/Clique-20-nodes.png, id=776, 251.43938pt x 240.9pt>
+ [63 <D:/GITREPO/masterthesis/Figures/stability/Unefficientbutstabletwo.png>] [
+64] [65]
+[66] [67] [68]
+<../Figures/Clique-20-nodes.png, id=1131, 251.43938pt x 240.9pt>
 File: ../Figures/Clique-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Clique-20-nodes.png>
@@ -3285,7 +2479,7 @@ Package pdftex.def Info: ../Figures/Clique-20-nodes.png used on input line 283.
 
 (pdftex.def)             Requested size: 229.31744pt x 219.70454pt.
 
-<../Figures/Clique-ish-20-nodes.png, id=777, 368.1253pt x 396.7322pt>
+<../Figures/Clique-ish-20-nodes.png, id=1132, 368.1253pt x 396.7322pt>
 File: ../Figures/Clique-ish-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Clique-ish-20-nodes.png>
@@ -3296,21 +2490,14 @@ Package pdftex.def Info: ../Figures/Clique-ish-20-nodes.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `fig:discounthighdegree' on page 69 undefined on input
- line 294.
-
-
-LaTeX Warning: Reference `fig:star1' on page 69 undefined on input line 295.
-
-<../Figures/Star-20-nodes.png, id=778, 752.8125pt x 752.8125pt>
+<../Figures/Star-20-nodes.png, id=1135, 752.8125pt x 752.8125pt>
 File: ../Figures/Star-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Star-20-nodes.png>
 Package pdftex.def Info: ../Figures/Star-20-nodes.png used on input line 300.
 (pdftex.def)             Requested size: 229.31744pt x 229.31456pt.
 
-<../Figures/Scalefree-20-nodes.png, id=779, 752.8125pt x 752.8125pt>
+<../Figures/Scalefree-20-nodes.png, id=1136, 752.8125pt x 752.8125pt>
 File: ../Figures/Scalefree-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Scalefree-20-nodes.png>
@@ -3332,11 +2519,6 @@ res/Star-20-nodes.png> <D:/GITREPO/masterthesis/Figures/Scalefree-20-nodes.png>
 
 
 ]
-
-LaTeX Warning: Reference `fig:Overview-of-models' on page 73 undefined on input
- line 11.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [73]
@@ -3376,28 +2558,18 @@ cle / 9223366 / Cyber _ insurance _$
  []
 
 [81]) [82] ("D:\GITREPO\masterthesis\Template fra Laurent\Appendix.tex"
-<../Figures/SignalingGameInsured.png, id=932, 1318.17468pt x 461.47406pt>
+<../Figures/SignalingGameInsured.png, id=1241, 1318.17468pt x 461.47406pt>
 File: ../Figures/SignalingGameInsured.png Graphic file (type png)
 
 <use ../Figures/SignalingGameInsured.png>
 Package pdftex.def Info: ../Figures/SignalingGameInsured.png used on input line
  14.
 (pdftex.def)             Requested size: 364.0pt x 127.43034pt.
+ [83
 
 
-LaTeX Warning: Reference `fig:signalingInsured' on page 83 undefined on input l
-ine 20.
-
-[83
-
-
- <D:/GITREPO/masterthesis/Figures/SignalingGameInsured.png>]
-
-LaTeX Warning: Reference `eq:node2belief' on page 84 undefined on input line 22
-.
-
-[84]
-<../Figures/SignalingGameNotInsured.png, id=950, 1294.8375pt x 418.56375pt>
+ <D:/GITREPO/masterthesis/Figures/SignalingGameInsured.png>] [84]
+<../Figures/SignalingGameNotInsured.png, id=1260, 1294.8375pt x 418.56375pt>
 File: ../Figures/SignalingGameNotInsured.png Graphic file (type png)
 
 <use ../Figures/SignalingGameNotInsured.png>
@@ -3408,35 +2580,11 @@ ine 101.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[85] [86 <D:/GITREPO/masterthesis/Figures/SignalingGameNotInsured.png>]
+[87] [88
 
-LaTeX Warning: Reference `eq:node2beliefnotinsured' on page 85 undefined on inp
-ut line 108.
-
-
-LaTeX Warning: Reference `eq:node2beliefnotinsured' on page 85 undefined on inp
-ut line 117.
-
-[85]
-
-LaTeX Warning: Reference `eq:node2beliefnotinsured' on page 86 undefined on inp
-ut line 127.
-
-
-LaTeX Warning: Reference `eq:sepcondition' on page 86 undefined on input line 1
-32.
-
-
-LaTeX Warning: Reference `eq:node2beliefnotinsured' on page 86 undefined on inp
-ut line 132.
-
-
-LaTeX Warning: Reference `eq:node2beliefnotinsured2' on page 86 undefined on in
-put line 134.
-
-[86 <D:/GITREPO/masterthesis/Figures/SignalingGameNotInsured.png>] [87]
-[88
-
-] <../Figures/Netlogo-model-2.pdf, id=988, page=1, 517.935pt x 731.25197pt>
+]
+<../Figures/Netlogo-model-2.pdf, id=1303, page=1, 517.935pt x 731.25197pt>
 File: ../Figures/Netlogo-model-2.pdf Graphic file (type pdf)
 
 <use ../Figures/Netlogo-model-2.pdf, page 1>
@@ -3468,7 +2616,7 @@ Package pdftex.def Info: ../Figures/Netlogo-model-2.pdf, page1 used on input li
 ne 196.
 (pdftex.def)             Requested size: 362.55202pt x 511.8729pt.
  [89 <D:/GITREPO/masterthesis/Figures/Netlogo-model-2.pdf>]
-<../Figures/Netlogo-model-2.pdf, id=1012, page=2, 517.935pt x 731.25197pt>
+<../Figures/Netlogo-model-2.pdf, id=1327, page=2, 517.935pt x 731.25197pt>
 File: ../Figures/Netlogo-model-2.pdf Graphic file (type pdf)
 
 <use ../Figures/Netlogo-model-2.pdf, page 2>
@@ -3500,7 +2648,7 @@ Package pdftex.def Info: ../Figures/Netlogo-model-2.pdf, page2 used on input li
 ne 197.
 (pdftex.def)             Requested size: 501.66925pt x 708.28703pt.
  [90 <D:/GITREPO/masterthesis/Figures/Netlogo-model-2.pdf>]
-<../Figures/Netlogo-model-2.pdf, id=1018, page=3, 517.935pt x 731.25197pt>
+<../Figures/Netlogo-model-2.pdf, id=1333, page=3, 517.935pt x 731.25197pt>
 File: ../Figures/Netlogo-model-2.pdf Graphic file (type pdf)
 
 <use ../Figures/Netlogo-model-2.pdf, page 3>
@@ -3520,7 +2668,7 @@ Package pdftex.def Info: ../Figures/Netlogo-model-2.pdf, page3 used on input li
 ne 197.
 (pdftex.def)             Requested size: 501.66925pt x 708.28703pt.
  [91 <D:/GITREPO/masterthesis/Figures/Netlogo-model-2.pdf>]
-<../Figures/Netlogo-model-max-degree.pdf, id=1026, page=1, 597.55246pt x 845.07
+<../Figures/Netlogo-model-max-degree.pdf, id=1341, page=1, 597.55246pt x 845.07
 718pt>
 File: ../Figures/Netlogo-model-max-degree.pdf Graphic file (type pdf)
  <use ../Figures/Netlogo-model-max-degree.pdf, page 1>
@@ -3552,7 +2700,7 @@ Package pdftex.def Info: ../Figures/Netlogo-model-max-degree.pdf, page1 used on
  input line 204.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
  [92 <D:/GITREPO/masterthesis/Figures/Netlogo-model-max-degree.pdf>]
-<../Figures/Netlogo-model-max-degree.pdf, id=1048, page=2, 597.55246pt x 845.07
+<../Figures/Netlogo-model-max-degree.pdf, id=1363, page=2, 597.55246pt x 845.07
 718pt>
 File: ../Figures/Netlogo-model-max-degree.pdf Graphic file (type pdf)
  <use ../Figures/Netlogo-model-max-degree.pdf, page 2>
@@ -3584,7 +2732,7 @@ Package pdftex.def Info: ../Figures/Netlogo-model-max-degree.pdf, page2 used on
  input line 205.
 (pdftex.def)             Requested size: 501.22945pt x 708.8542pt.
  [93 <D:/GITREPO/masterthesis/Figures/Netlogo-model-max-degree.pdf>]
-<../Figures/Netlogo-model-max-degree.pdf, id=1055, page=3, 597.55246pt x 845.07
+<../Figures/Netlogo-model-max-degree.pdf, id=1370, page=3, 597.55246pt x 845.07
 718pt>
 File: ../Figures/Netlogo-model-max-degree.pdf Graphic file (type pdf)
  <use ../Figures/Netlogo-model-max-degree.pdf, page 3>
@@ -3604,7 +2752,7 @@ Package pdftex.def Info: ../Figures/Netlogo-model-max-degree.pdf, page3 used on
  input line 205.
 (pdftex.def)             Requested size: 501.22945pt x 708.8542pt.
  [94 <D:/GITREPO/masterthesis/Figures/Netlogo-model-max-degree.pdf>]
-<../Figures/Netlogo-model-max-degree.pdf, id=1061, page=4, 597.55246pt x 845.07
+<../Figures/Netlogo-model-max-degree.pdf, id=1376, page=4, 597.55246pt x 845.07
 718pt>
 File: ../Figures/Netlogo-model-max-degree.pdf Graphic file (type pdf)
  <use ../Figures/Netlogo-model-max-degree.pdf, page 4>
@@ -3624,7 +2772,7 @@ Package pdftex.def Info: ../Figures/Netlogo-model-max-degree.pdf, page4 used on
  input line 205.
 (pdftex.def)             Requested size: 501.22945pt x 708.8542pt.
  [95 <D:/GITREPO/masterthesis/Figures/Netlogo-model-max-degree.pdf>]
-<../Figures/Netlogo-model-5.pdf, id=1070, page=1, 597.55246pt x 845.07718pt>
+<../Figures/Netlogo-model-5.pdf, id=1385, page=1, 597.55246pt x 845.07718pt>
 File: ../Figures/Netlogo-model-5.pdf Graphic file (type pdf)
 
 <use ../Figures/Netlogo-model-5.pdf, page 1>
@@ -3656,7 +2804,7 @@ Package pdftex.def Info: ../Figures/Netlogo-model-5.pdf, page1 used on input li
 ne 211.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
  [96 <D:/GITREPO/masterthesis/Figures/Netlogo-model-5.pdf>]
-<../Figures/Netlogo-model-5.pdf, id=1092, page=2, 597.55246pt x 845.07718pt>
+<../Figures/Netlogo-model-5.pdf, id=1407, page=2, 597.55246pt x 845.07718pt>
 File: ../Figures/Netlogo-model-5.pdf Graphic file (type pdf)
 
 <use ../Figures/Netlogo-model-5.pdf, page 2>
@@ -3688,7 +2836,7 @@ Package pdftex.def Info: ../Figures/Netlogo-model-5.pdf, page2 used on input li
 ne 212.
 (pdftex.def)             Requested size: 501.22945pt x 708.8542pt.
  [97 <D:/GITREPO/masterthesis/Figures/Netlogo-model-5.pdf>]
-<../Figures/Netlogo-model-5.pdf, id=1099, page=3, 597.55246pt x 845.07718pt>
+<../Figures/Netlogo-model-5.pdf, id=1414, page=3, 597.55246pt x 845.07718pt>
 File: ../Figures/Netlogo-model-5.pdf Graphic file (type pdf)
 
 <use ../Figures/Netlogo-model-5.pdf, page 3>
@@ -3708,7 +2856,7 @@ Package pdftex.def Info: ../Figures/Netlogo-model-5.pdf, page3 used on input li
 ne 212.
 (pdftex.def)             Requested size: 501.22945pt x 708.8542pt.
  [98 <D:/GITREPO/masterthesis/Figures/Netlogo-model-5.pdf>]
-<../Figures/Netlogo-model-5.pdf, id=1105, page=4, 597.55246pt x 845.07718pt>
+<../Figures/Netlogo-model-5.pdf, id=1420, page=4, 597.55246pt x 845.07718pt>
 File: ../Figures/Netlogo-model-5.pdf Graphic file (type pdf)
 
 <use ../Figures/Netlogo-model-5.pdf, page 4>
@@ -3729,12 +2877,11 @@ ne 212.
 (pdftex.def)             Requested size: 501.22945pt x 708.8542pt.
  [99 <D:/GITREPO/masterthesis/Figures/Netlogo-model-5.pdf>])
 
-Package natbib Warning: There were undefined citations.
-
-
 Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
+\tf@toc=\write9
+\tf@lof=\write10
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
 ("D:\GITREPO\masterthesis\Template fra Laurent\main.aux"
@@ -3747,10 +2894,6 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
 ("D:\GITREPO\masterthesis\Template fra Laurent\methodology.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\modelingCyberInsurance.aux")
 ("D:\GITREPO\masterthesis\Template fra Laurent\SummaryOfResults.aux")
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
 ("D:\GITREPO\masterthesis\Template fra Laurent\Appendix.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
@@ -3758,43 +2901,38 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 7B681A45C4A6973FA5DC8FB31DE850AB;3509.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
  ) 
 Here is how much of TeX's memory you used:
- 38302 strings out of 494045
- 738445 string characters out of 3153222
- 1030242 words of memory out of 3000000
- 40149 multiletter control sequences out of 15000+200000
- 120640 words of font info for 185 fonts, out of 3000000 for 9000
+ 38332 strings out of 494045
+ 740041 string characters out of 3153222
+ 1038334 words of memory out of 3000000
+ 40155 multiletter control sequences out of 15000+200000
+ 114732 words of font info for 184 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  69i,19n,94p,1504b,2049s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{D:/Latex/MiKTeX/fonts/enc/dvip
 s/lm/lm-mathit.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{D:/Latex/MiKT
 eX/fonts/enc/dvips/lm/lm-mathex.enc}{D:/Latex/MiKTeX/fonts/enc/dvips/lm/lm-math
 sy.enc}<D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><D:/Latex/MiKTeX/fonts
-/type1/public/lm/lmbx12.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><D
-:/Latex/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><D:/Latex/MiKTeX/fonts/type1/pub
-lic/lm/lmbxi10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmex10.pfb><D:/Latex/
-MiKTeX/fonts/type1/public/lm/lmmi10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/
-lmmi5.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><D:/Latex/MiKTeX/fon
-ts/type1/public/lm/lmmi7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><
-D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><D:/Latex/MiKTeX/fonts/type1/pu
-blic/lm/lmr10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr5.pfb><D:/Latex/MiK
-TeX/fonts/type1/public/lm/lmr6.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr7.
-pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr8.pfb><D:/Latex/MiKTeX/fonts/type
-1/public/lm/lmr9.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmri10.pfb><D:/Late
-x/MiKTeX/fonts/type1/public/lm/lmss12.pfb><D:/Latex/MiKTeX/fonts/type1/public/l
-m/lmss17.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><D:/Latex/MiKT
-eX/fonts/type1/public/lm/lmsy10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy
-7.pfb>
-Output written on main.pdf (113 pages, 2364449 bytes).
+/type1/public/lm/lmbx12.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb>
+<D:/Latex/MiKTeX/fonts/type1/public/lm/lmex10.pfb><D:/Latex/MiKTeX/fonts/type1/
+public/lm/lmmi10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><D:/Latex
+/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/
+lmmi7.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><D:/Latex/MiKTeX/fon
+ts/type1/public/lm/lmmi9.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr10.pfb><
+D:/Latex/MiKTeX/fonts/type1/public/lm/lmr5.pfb><D:/Latex/MiKTeX/fonts/type1/pub
+lic/lm/lmr6.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr7.pfb><D:/Latex/MiKTe
+X/fonts/type1/public/lm/lmr8.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmr9.pf
+b><D:/Latex/MiKTeX/fonts/type1/public/lm/lmri10.pfb><D:/Latex/MiKTeX/fonts/type
+1/public/lm/lmss12.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmss17.pfb><D:/La
+tex/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><D:/Latex/MiKTeX/fonts/type1/publ
+ic/lm/lmsy10.pfb><D:/Latex/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
+Output written on main.pdf (113 pages, 2390218 bytes).
 PDF statistics:
- 1280 PDF objects out of 1440 (max. 8388607)
+ 1589 PDF objects out of 1728 (max. 8388607)
  396 named destinations out of 1000 (max. 500000)
- 29363 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 28339 words of extra memory for PDF output out of 29859 (max. 10000000)
 

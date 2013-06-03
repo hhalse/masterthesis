@@ -366,7 +366,7 @@ The results from the simulation can be seen in Figure \ref{fig:PlotStar}, \ref{f
 
 \begin{figure}
 \centering
-\begin{tikzpicture}
+\begin{tikzpicture}[thick,scale=0.9]
 \begin{axis}[
 x tick label style={
 	/pgf/number format/1000 sep=},
@@ -393,7 +393,7 @@ From Figure \ref{fig:PlotClique} we can observe that the opposite is happening w
 
 \begin{figure}
 \centering
-\begin{tikzpicture}
+\begin{tikzpicture}[thick,scale=0.9]
 \begin{axis}[
 x tick label style={
 	/pgf/number format/1000 sep=},
@@ -418,9 +418,10 @@ coordinates {
 
 In Figure \ref{fig:PlotStar} when the critical degree gets closer to the number of nodes in the network, the probability of the network evolving into a star decreases. However, in Figure \ref{fig:PlotStarIsj}, we have plotted the probability of the network evolving into a network where only a few(2-4) nodes end up with a high degree, but not necessarily a critical degree. As we see, this occurs with high probability from critical degree six and up. These networks are so called scale-free networks (A-B graphs, described in the methodology chapter), because there are a few hubs, that account for most of the connectivity in the network. The reason why we end up with a scale-free network is because nodes prefer to be connected with nodes with high connectivity, and thus will delete links to nodes with low connectivity. This is very similar to the simple model that creates scale-free networks, where the probability of connecting to a node is proportional to the degree of the node.
 
+
 \begin{figure}
 \centering
-\begin{tikzpicture}
+\begin{tikzpicture}[thick,scale=0.9]
 \begin{axis}[
 x tick label style={
 	/pgf/number format/1000 sep=},
@@ -452,7 +453,7 @@ This further improves our findings, because we have now shown how an insurer can
 
 \begin{figure}
 \centering
-\begin{tikzpicture}
+\begin{tikzpicture}[thick,scale=0.9]
 \begin{axis}[
 	ylabel=Price of Anarchy,
 	ymin=0.0,
