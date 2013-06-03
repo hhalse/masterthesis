@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  3 JUN 2013 14:18
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  3 JUN 2013 14:36
 entering extended mode
 **main.tex
 (C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\main.tex
@@ -949,9 +949,9 @@ Underfull \vbox (badness 7133) has occurred while \output is active []
  [10 <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameInsuredClique
 .png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameViolatingOpt
 imal.png>]
-[11] [12] [13] [14] [15] [16] [17])
+[11] [12] [13] [14] [15] [16])
 (C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\discussionConclusion.t
-ex [18]
+ex [17] [18]
 Underfull \vbox (badness 1102) has occurred while \output is active []
 
  [19])
@@ -961,10 +961,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18519 strings out of 494045
- 443372 string characters out of 3145963
- 584233 words of memory out of 3000000
- 21446 multiletter control sequences out of 15000+200000
+ 18518 strings out of 494045
+ 443355 string characters out of 3145963
+ 589233 words of memory out of 3000000
+ 21445 multiletter control sequences out of 15000+200000
  8708 words of font info for 32 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  63i,19n,83p,1050b,2031s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -986,7 +986,7 @@ s/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmtt9.pfb>
-Output written on main.pdf (21 pages, 329059 bytes).
+Output written on main.pdf (21 pages, 329196 bytes).
 PDF statistics:
  150 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
