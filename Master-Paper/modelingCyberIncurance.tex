@@ -1,5 +1,3 @@
-
-
 \section{Models}
 There are many examples of nodes that need to establish connections with eachother.
 For example, when a firm is outsourcing tasks, cooperating or depending on other
@@ -9,36 +7,24 @@ the link between nodes involves some risks, such as: will the company deliver at
 reported time, to the reported costs, what happens if it fails to deliver, what if the
 company goes bankrupt etc. To handle these risks, we need cyber-insurance.
 
-
-When deciding whether or not to establish a link to a node, the payoff has to be
-higher in the balance between the expected earnings and the risk of the other party
-failing to complete the transaction. From the insurer’s point of view, a problem
-with cyber-insurance is to define and calculate risk, because the network structure is
+From the insurer’s point of view, a problem with cyber-insurance is to define and calculate risk, because the network structure is
 undefined. If an insurer were able to predict the network structure, the calculations
 of overall risk would be realizable. The situation could be even better if the insurer
-could force a chosen robust network structure to evolve, hence, ensuring a higher
-total payoff for the network. Examples of such structures are scale-free networks,
-stars and cliques, as described in the graph theory chapter. In summary, scale-free
-networks have proven to be very robust against random attacks. Star topologies, or
+could force the structures found earlier to evolve, hence, ensuring a higher
+total payoff for the network. In summary, star topologies, or
 star-like topologies, have a fixation probability that exceeds the fixation probability
 of circulation graphs. Star structures also have a desirable property of minimizing the
 average path length, i.e. minimizing the cost spent on establishing links. Finally, the
 clique has a nice property of being able to achieve super-critical payoff, as showed in
-[Blu11]--FIX. In our thesis we want to focus on the clique and star/star-like structures for
-the following reasons: Both have been identified to have calculable fixation probability
-and the possibility of amplifying or suppressing selection and drift. This is favorable,
-because if the insurer is able to ensure that the nodes have a certain security level,
-particularly the center node, one can prevent viruses from spreading to other nodes.
+[Blu11]--fix. Both the clique and star have the possibility of amplifying or suppressing selection and drift. This is favorable, because if the insurer is able to ensure that the nodes have a certain security level, one can prevent viruses from spreading.
 
 In our models a node is an agent who is either insured or not, and the nodes’ goal is to maximize its payoff, by establishing links with other nodes. Our goal for the models is to find out if and how an insurer can force these cyber-insurance networks to evolve into the desirable structures mentioned in previous sections.
-The different parameters used to modes the formation games are denoted as follows: The insurance premium is $I_{l}$, the expected risk cost is represented by $r$. $\beta$ represents the benefit of establishing a link. Additionally is the process of establishing links a bidirectional decision between the nodes. 
+The different parameters used to model the formation games are denoted as follows: The insurance premium is $I_{l}$, the expected risk cost is represented by $r$. $\beta$ represents the benefit of establishing a link. When establishing a link, the decision is a bidirectional decision.  
  
-
-\section{Model 3: Including maximum node degree and bonus}
-Our first model reflects a normal phenomenon occurring in networks. In real world networks, such as in the manufacturing industry, software development firms and many other types of business, in some scenarios a product can usually not be completed without outsourcing some of the work needed. For the manufacturer, it could be beneficial to buy certain parts from others instead of producing them on his own. A software product might need the combined knowledge from different firms. Thus the firm that outsources tasks is dependent on the other firms, and will not reach its goal before the other firms deliver their contribution. When the product is finished the company gets paid.
+\section{Model 1: Including maximum node degree and bonus}
+In real world networks, such as in the manufacturing industry, software development firms and many other types of business, in some scenarios a product can usually not be completed without outsourcing some of the work needed. For the manufacturer, it could be beneficial to buy certain parts from others instead of producing them on his own. A software product might need the combined knowledge from different firms. Thus the firm that outsources tasks is dependent on the other firms, and will not reach its goal before the other firms deliver their contribution. When the product is finished the company gets paid.
 To model this scenario we introduce a maximum node degree, $m$, per node, which represents the number of partners needed to complete a task. Additionally a bonus $\gamma$ represents the payoff a node receives when $m$ links are established. 
 
-  
 When establishing a link between two insured nodes, the payoff the nodes will receive is as described in Eq.(\ref{eq:itoi}).
 Let $U_{i}$ denote the payoff of a node with degree i, and let $U_{i+1}$ be the payoff
 a node will receive if it establishes a new link.
@@ -53,18 +39,13 @@ a node will receive if it establishes a new link.
 \label{eq:itoi}
 \end{equation}
 
-
 \subsection{Analysis}
 
 For nodes to connect to each other, the change in payoff has to be positive: $U_{i+1} > U_{i}$. However, we also need to consider the bonus received when reaching the maximum node degree, $m$. 
 To model this, we add the possible bonus divided on the number of links required to reach the bonus($\frac{\gamma}{m-i}$) in the decision process every time a node is considering to establish a link. 
-In this way the model will change from the earlier models, because now the nodes have more incentive to connect to other nodes, and for every step closer to the goal, the nodes are more willing to accept risk than before. For example, an insured node is more likely to accept a risky link when it only needs one more link to reach the goal, compared to when it need several more links to reach the goal.
+In this way, nodes with higher degree will be more risk willing than nodes with low degree. For example, an insured node is more likely to accept a risky link when it only needs one more link to reach the goal, compared to when it need several more links to reach the goal.
 
- The model now introduces a risk factor, because it is not certain that the nodes will obtain enough links, and if not, they will not receive their bonus, and they are stuck with their already established connections. 
-
-As mentioned our goal is to find how and when certain network formations evolve.
-We know that if a node can increase its payoff by establishing a link, it will do so.
-Thus we can start analyzing the four possible link establishment scenarios, insured
+We start our analysis by analyzing the four possible link establishment scenarios, insured
 to insured, insured to non-insured, non-insured to insured, and non-insured to noninsured.
 When establishing a link between two insured nodes, the payoff the nodes will receive is as described in Eq.(\ref{eq:itoi}).
 \begin{equation}
@@ -156,7 +137,7 @@ To summarize, Eq.(\ref{eq:conditionitoi}) and Eq.(\ref{eq:condition-i-to-noti}) 
 \beta+\gamma-r<I_{l}<\beta+\frac{\gamma}{m}
 \label{eq:final-insurance-clique-condition}
 \end{equation}
-For this to even be possible, $\beta+\gamma-r<\beta+\frac{\gamma}{m}$, i.e. Eq.(\ref{eq:noinsuredcliqueconditon}) has to hold. This equation reflects that as the risk to bonus ratio gets smaller, it gets more and more difficult to ensure a clique of only insured nodes. When the risk to bonus ratio is less than $1-\frac{1}{m}$, a clique will never occur. The equation shows that a node would be more and more willing to take a risk, as the reward of doing so increases.
+For this to even be possible, $\beta+\gamma-r<\beta+\frac{\gamma}{m}$, i.e. Eq.(\ref{eq:noinsuredcliqueconditon}) has to hold. This equation reflects that as the risk to bonus ratio gets smaller, it gets more and more difficult to ensure a clique of only insured nodes. 
 \begin{eqnarray}
 \gamma-r &<\frac{\gamma}{m}\nonumber \\
 1-\frac{r}{\gamma}&<\frac{1}{m} \nonumber \\
@@ -164,7 +145,7 @@ For this to even be possible, $\beta+\gamma-r<\beta+\frac{\gamma}{m}$, i.e. Eq.(
 \label{eq:noinsuredcliqueconditon}
 \end{eqnarray}
 
-It is also useful to know when non-insured nodes connect to each other. This happens when Eq.(\ref{eq:noitonoti}) is satisfied. This equation is dependent on the node degree, and thus for the first link to be established from a non-insured node, the expected payoff has to be higher than the risk($\beta+\frac{\gamma}{m}>r$). If the risk is too high, then the non-insured node must establish links with insured nodes before it coulb be willing to establish risky links.
+It is also useful to know when non-insured nodes connect to each other. This happens when Eq.(\ref{eq:noitonoti}) is satisfied. This equation is dependent on the node degree, and thus for the first link to be established from a non-insured node, the expected payoff has to be higher than the risk($\beta+\frac{\gamma}{m}>r$). If the risk is too high, then the non-insured node must establish links with insured nodes before it could be willing to establish risky links.
 
 With these findings, an insurer can determine the outcome of the network formation game by adjusting the insurance cost parameter.
 If he wants a clique of only insured nodes Eq.(\ref{eq:final-insurance-clique-condition}) has to
@@ -172,23 +153,10 @@ hold. However, it is easy to relax the condition, so that insured nodes only con
    This is done by changing Eq.(\ref{eq:condition-i-to-noti}) to $\beta+\frac{\gamma}{m-(m-j)}-r<I_{l}$, which
     gives us Eq.(\ref{eq:lower-boundary-link-insurance-cost}).
 
-
-\paragraph{Consequences of not reaching the required number of edges.} When a node establishes a link, it does not know whether it will reach the maximum node degree, unless the current node degree is $m-1$. Hence the node might end up not reaching the desired goal. This can happen if there is not enough nodes willing to establish links. Consequently, nodes who do not reach their goal could end up with a payoff less than $U_{0}$. 
-
 \begin{equation} 
 \beta+\frac{\gamma}{j}-r<I_{l}
 \label{eq:lower-boundary-link-insurance-cost}
 \end{equation} 
-
-
-
-\paragraph{Efficiency and Stability.}
-
-In this model, the incentive for establishing links is increased compared to model 2. Thus, to maintain a stable network with two cliques the cost of link establishment has to be increased. This increased incentive may result in a higher price of stability, but if every node has received its bonus, then the price of anarchy is 1. The price of anarchy is dependent on the number of nodes in both cliques, and whether its enough nodes for everyone to reach their maximum degree or not. 
-If there are nodes that have not reached their maximum degree in both cliques, then the resulting network is not necessarily the most efficient, and we could be missing a potential payoff due to the cost constraint. 
-
-By introducing the maximum degree $m$ we are limiting the problem of price of anarchy, because as long as $m$ is less than the number of insured and number of non-insured nodes, there will be less links established compared to model 2, and overall fewer possible links between insured and non-insured. However, the bonus the nodes receive will contribute to inefficiency, because when nodes do not reach their maximum degree, the potential payoff that could be generated by allowing insured and non-insured nodes to connect, is greater than in model 2.
-
 
 \subsection{Simulation of the results}
 For the first simulation the parameters are set to the following: $\beta=0.9, I_{l}=0.7, r=0.5, \gamma=0.2 \text{ and }m=4$, in order to satisfy condition Eq.(\ref{eq:final-insurance-clique-condition}), and enable all nodes to reach their maximum degree.  
@@ -199,7 +167,7 @@ For the first simulation the parameters are set to the following: $\beta=0.9, I_
   \caption{\label{fig:bonusoptimal} Two cliques, one consisting of insured agents the other consists of non-insured. All nodes have reached their goal. }
 \end{figure}
 As we see in Figure \ref{fig:bonusoptimal}, the results were as expected, the cost of insuring a link satisfied the conditions found earlier, and thus the result was two cliques, one consisting of only insured nodes and the other of non-insured nodes.
-An interesting observation is that $\beta$ and $r$ is the same as in model 2, but to ensure that only insured nodes connect to eachother, the link insurance cost had to be higher. This is to compensate for the risk the nodes now are willing to take. The price of anarchy in this scenario is 1, i.e. the socially optimal outcome. 
+The price of anarchy in this scenario is 1, i.e. the socially optimal outcome. 
 
 In the second simulation we set the parameter $m=5$, and kept the other variables unchanged. The resulting network was as expected the same as in the last simulation, but since the nodes did not reach their maximum degree, the price of anarchy is less than one. The price of anarchy can be seen in Eq.(\ref{eq:model-bonus-poa}).
 \begin{eqnarray}
@@ -209,8 +177,7 @@ PoA&=\frac{12}{17}
 \label{eq:model-bonus-poa}
 \end{eqnarray}
 
-When we changed the link insurance cost, and set it to the same value as in model 2, $I_{l}=0.5$, the resulting networks change. Now we found that the insured nodes are willing to establish risky links to reach their maximum degree. Some of the resulting networks can be seen in Figure \ref{fig:bonusviolating}.
-In figure \ref{fig:bonusvolating:a} the price of anarchy is $0.95$, and in figure \ref{fig:bonusvolating:b} the price of anarchy is $1$, i.e. it has reached the socially optimal outcome.
+When we changed the link insurance cost to $I_{l}=0.5$, the resulting networks change. Now we found that the insured nodes are willing to establish risky links to reach their maximum degree. Some of the resulting networks can be seen in the figures \ref{fig:bonusvolating:a} and \ref{fig:bonusvolating:b}. In figure \ref{fig:bonusvolating:a} the price of anarchy is $0.95$, and in figure \ref{fig:bonusvolating:b} the price of anarchy is $1$, i.e. it has reached the socially optimal outcome.
 
 \begin{figure}
   \centering
@@ -224,22 +191,12 @@ In figure \ref{fig:bonusvolating:a} the price of anarchy is $0.95$, and in figur
   \caption{\label{fig:bonusvolating:b}Every non-insured node is connected to one insured node, this is the optimal outcome with these parameters.}
 \end{figure}
   
- [Two possible outcomes when insured nodes are willing to take the risk of connecting to non-insured nodes, to receive their bonus.]{\label{fig:bonusviolating} Two possible outcomes when insured nodes are willing to take the risk of connecting to non-insured nodes, to receive their bonus. Figure $a$ shows a scenario where one non-insured node has connected to more than one insured node, thus not a socially optimal outcome. Figure $b$ shows the optimal outcome. }
-
-
-
 \section{Model 2: Including bulk insurance discount}
 
-<<<<<<< HEAD
-Insurance companies often give a quantum discount when a customer purchases multiple products. From convenience stores, we are used to the slogan "buy one get one for free", and insurers tend to follow the same marketing strategy.  
-Inspired by these kinds of discounts on insurance products, we would like to introduce a discount rate dependent on the degree of the node. In a real-world scenario where nodes have an option of acquiring insurance or not, this will make it more attractive for nodes with high degree to acquire insurance, and the discount could act as an incentive for other nodes to also acquire insurance. Therefore, this seems like a reasonable model to include. Since, if you have many links, you will pay less per link compared to a node having fewer links.
-
-How insurance companies choose to formulate their discount rate might vary. One solution might be to follow a strict 5$\%$ discount per new connection, similar to what we found to be normal in the Norwegian insurance market, or let the discount follow a power law, or a log-function etc. We choose to follow a discount rule which directly reflects the node's degree.
-=======
  It seems to be common for insurance companies to offer discount to their customers if the customers choose to combine some or all of their insurances with them. We would like to introduce a discount rate dependent on the degree of the node. In a real-world scenario where nodes have an option of acquiring insurance or not, this will make it more attractive for nodes with high degree to acquire insurance, and the discount could act as an incentive for nodes to also acquire insurance. 
 
 How insurance companies choose to formulate their discount rate might vary. One solution might be to follow a strict 5$\%$ discount per new connection, or let the discount follow a power law, or a log-function etc. We choose to follow a discount rule which directly reflects the node's degree.
->>>>>>> f7970f71c18bc003e64ed81274a1842efe292701
+
 \subsection{Analysis}
 The price for adding a new link follows the equation:
 \begin{equation}
@@ -249,12 +206,9 @@ The price for adding a new link follows the equation:
 Here, $i$ is the node's current degree. This means that the more links a node establishes the cheaper the link insurance will be. 
 
 \subsubsection{Discount and Bonus model}
-<<<<<<< HEAD
-We apply the discount to our model.
-=======
+
 When the discount is applied to model 1, the only connection scenarios that is worth considering in this model is the ones where insured nodes connects to other insured nodes or when insured nodes connects to non-insured nodes.
 
->>>>>>> f7970f71c18bc003e64ed81274a1842efe292701
 When insured nodes are considering to establish links with eachother, their payoff functions are as shown in Eq.(\ref{eq:discount1}).  
 \begin{equation}
     U_{i+1}= 
@@ -293,13 +247,9 @@ U_{i}+\beta-\frac{I_{l}}{i+1}+\frac{\gamma}{m-i}-r&>U_{i} \nonumber \\
 \end{eqnarray}
 
 \subsection{Result and findings}
-<<<<<<< HEAD
-We analyze the same scenario as in the other models, namely a clique of only insured nodes. The first step is to guarantee that insured nodes connect to eachother. To ensure that this happens, we need to find the condition for the lowest expected increase in payoff, i.e. at node degree zero. If nodes are willing to establish links at this point, then they will also be willing at all degrees higher than zero.
-At degree zero there is no discount on the insurance link cost, and thus if Eq.(\ref{eq:conditionitoi}) from previous model, insured nodes will connect to other insured nodes.
-=======
+
 We want to find the condition for separating insured and non-insured nodes. The first step is to guarantee that insured nodes connect to eachother. To ensure that this happens, we need to find the condition for the lowest expected increase in payoff, i.e. at node degree zero. If nodes are willing to establish links at this point, then they will also be willing at all degrees higher than zero.
 At degree zero there is no discount on the insurance link cost, and thus if Eq.(\ref{eq:conditionitoi}) from model 1 holds, insured nodes will connect to other insured nodes.
->>>>>>> f7970f71c18bc003e64ed81274a1842efe292701
 
 The condition for guaranteeing that insured nodes do not connect to non-insured nodes has changed, we know that if an insured node does not want to establish a link with a non-insured node at degree $m-1$, then neither will any insured node with degree lower than $m-1$ do so. From this we find the condition in Eq.(\ref{eq:model4-bonus-i-not-ni})
 \begin{eqnarray}
@@ -318,17 +268,9 @@ m(\beta +\gamma-r)<I_{l}<\beta+\frac{\gamma}{m}
 
 The quantum discount results in an overall higher payoff for the insured nodes, since the cost of insuring a new link becomes cheaper. This means that the insured nodes will have a higher incentive to create links, making it harder for the insurer to separate insured and non-insured nodes.
 
-<<<<<<< HEAD
 We see that the problem of separating the two node types have increased compared to the previous model, meaning that if we have a network where the insurer has managed to separate them, the price of anarchy is also higher compared to a similar scenario in the first model. 
 
-
-
-
-=======
-We see that the problem of separating the two node types have increased compared to model 1, meaning that if we have a network where the insurer has managed to separate them, the price of anarchy is also higher compared to a similar scenario in model 3. 
->>>>>>> f7970f71c18bc003e64ed81274a1842efe292701
-
-\section{Model 5: Network externalities}
+\section{Model 3: Network externalities}
 In the earlier models when a node established a connection the change in utility were only dependent on fixed variables, and not dependent on the rest of the network. In many real world scenarios it is more realistic that a node will be strongly affected by the indirect connections to other nodes. Social relationships between nodes are good examples of such networks, where each person offer benefits in terms of favors, information etc. 
 
 We apply the results from the paper from Jackson and Wolinsky \cite{jackson1996strategic} and use a network formation game found in \cite{jackson2005survey} to study indirect network effects in our model. 
