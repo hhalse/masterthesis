@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  2 JUN 2013 17:17
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  3 JUN 2013 10:46
 entering extended mode
 **main.tex
 (C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\main.tex
@@ -915,71 +915,26 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
 
 (C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\introduction.tex
-
-LaTeX Warning: Citation `bolot:cyber' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation `bolot:cyber2' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: Citation `ranjan:cyber' on page 1 undefined on input line 11.
-
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-
-LaTeX Warning: Citation `bohme2010modeling' on page 2 undefined on input line 1
-3.
-
-[2]
-
-LaTeX Warning: Citation `bolot:new' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Citation `ccost' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Citation `evolvingcyber' on page 3 undefined on input line 33.
-
-
-LaTeX Warning: Citation `CFCunder' on page 3 undefined on input line 33.
-
-) (C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\graphsPaper.tex
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2])
+(C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\graphsPaper.tex
 [3]
 
-LaTeX Warning: Citation `lieberman2005evolutionary' on page 4 undefined on inpu
-t line 9.
+LaTeX Warning: Citation `contagion' on page 4 undefined on input line 43.
 
-
-LaTeX Warning: Citation `lieberman2005evolutionary' on page 4 undefined on inpu
-t line 13.
-
-[4]
-
-LaTeX Warning: Citation `lieberman2005evolutionary' on page 5 undefined on inpu
-t line 33.
-
-
-LaTeX Warning: Citation `contagion' on page 5 undefined on input line 49.
-
-[5]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6])
+[4])
 (C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\modelingCyberIncurance
-.tex [7] [8] [9] [10]
-<../Figures/BonusGameInsuredClique.png, id=52, 354.57469pt x 177.66376pt>
+.tex [5] [6] [7] [8]
+<../Figures/BonusGameInsuredClique.png, id=46, 354.57469pt x 177.66376pt>
 File: ../Figures/BonusGameInsuredClique.png Graphic file (type png)
 
 <use ../Figures/BonusGameInsuredClique.png>
 Package pdftex.def Info: ../Figures/BonusGameInsuredClique.png used on input li
 ne 142.
 (pdftex.def)             Requested size: 242.98541pt x 121.75314pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[11] <../Figures/BonusGameViolating.png, id=57, 268.00125pt x 310.15875pt>
+ [9]
+<../Figures/BonusGameViolating.png, id=51, 268.00125pt x 310.15875pt>
 File: ../Figures/BonusGameViolating.png Graphic file (type png)
 
 <use ../Figures/BonusGameViolating.png>
@@ -987,23 +942,23 @@ Package pdftex.def Info: ../Figures/BonusGameViolating.png used on input line 1
 61.
 (pdftex.def)             Requested size: 190.91899pt x 220.9478pt.
 
-<../Figures/BonusGameViolatingOptimal.png, id=58, 292.84406pt x 192.72pt>
+<../Figures/BonusGameViolatingOptimal.png, id=52, 292.84406pt x 192.72pt>
 File: ../Figures/BonusGameViolatingOptimal.png Graphic file (type png)
 
 <use ../Figures/BonusGameViolatingOptimal.png>
 Package pdftex.def Info: ../Figures/BonusGameViolatingOptimal.png used on input
  line 167.
 (pdftex.def)             Requested size: 190.91899pt x 125.64879pt.
-
+ [10 <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameInsuredClique
+.png>] [11 <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameViolati
+ng.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameViolatingO
+ptimal.png>]
 
 LaTeX Warning: Citation `sparebank1' on page 12 undefined on input line 177.
 
-[12 <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameInsuredClique.
-png>] [13 <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameViolatin
-g.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameViolatingOp
-timal.png>] [14]
+[12]
 
-LaTeX Warning: Reference `eq:model2-total-payoff' on page 15 undefined on input
+LaTeX Warning: Reference `eq:model2-total-payoff' on page 13 undefined on input
  line 224.
 
 
@@ -1017,16 +972,16 @@ OML/cmm/m/it/10 N[]N[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 N[]\OT1/cmr/m/n/10 (
 \OMS/cmsy/m/n/10   [] []\OT1/cmr/m/n/10 ))
  []
 
-[15] [16]
+[13] [14]
 
-LaTeX Warning: Citation `jackson1996strategic' on page 17 undefined on input li
+LaTeX Warning: Citation `jackson1996strategic' on page 15 undefined on input li
 ne 306.
 
 
-LaTeX Warning: Citation `jackson2005survey' on page 17 undefined on input line 
+LaTeX Warning: Citation `jackson2005survey' on page 15 undefined on input line 
 306.
 
-<../Figures/connectionGame.png, id=78, 103.13531pt x 93.34875pt>
+[15] <../Figures/connectionGame.png, id=75, 103.13531pt x 93.34875pt>
 File: ../Figures/connectionGame.png Graphic file (type png)
 
 <use ../Figures/connectionGame.png>
@@ -1034,15 +989,12 @@ Package pdftex.def Info: ../Figures/connectionGame.png used on input line 311.
 (pdftex.def)             Requested size: 104.1381pt x 94.25726pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[17]
-
-LaTeX Warning: Citation `jackson1996strategic' on page 18 undefined on input li
+LaTeX Warning: Citation `jackson1996strategic' on page 16 undefined on input li
 ne 323.
 
-[18 <C:/Users/Håvard/masterthesis/masterthesis/Figures/connectionGame.png>]
-<../Figures/stability/Unefficientbutstablestar.png, id=85, 271.0125pt x 224.338
+[16 <C:/Users/Håvard/masterthesis/masterthesis/Figures/connectionGame.png>]
+[17]
+<../Figures/stability/Unefficientbutstablestar.png, id=82, 271.0125pt x 224.338
 12pt>
 File: ../Figures/stability/Unefficientbutstablestar.png Graphic file (type png)
 
@@ -1050,28 +1002,24 @@ File: ../Figures/stability/Unefficientbutstablestar.png Graphic file (type png)
 Package pdftex.def Info: ../Figures/stability/Unefficientbutstablestar.png used
  on input line 362.
 (pdftex.def)             Requested size: 173.56177pt x 143.67517pt.
+ [18 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stability/Unefficientb
+utstablestar.png>]
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[19]
-
-LaTeX Warning: Citation `jackson2005survey' on page 20 undefined on input line 
+LaTeX Warning: Citation `jackson2005survey' on page 19 undefined on input line 
 378.
 
 
-<../Figures/stability/Unefficientbutstabletwo.png, id=90, 563.10374pt x 459.968
+<../Figures/stability/Unefficientbutstabletwo.png, id=89, 563.10374pt x 459.968
 44pt>
 File: ../Figures/stability/Unefficientbutstabletwo.png Graphic file (type png)
  <use ../Figures/stability/Unefficientbutstabletwo.png>
 Package pdftex.def Info: ../Figures/stability/Unefficientbutstabletwo.png used 
 on input line 386.
 (pdftex.def)             Requested size: 208.27623pt x 170.1295pt.
- [20 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stability/Unefficientb
-utstablestar.png>]
-[21 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stability/Unefficientbu
-tstabletwo.png>] [22] [23] [24]
-<../Figures/Clique-20-nodes.png, id=110, 251.43938pt x 240.9pt>
+ [19 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stability/Unefficientb
+utstabletwo.png>]
+[20] [21] [22] [23]
+<../Figures/Clique-20-nodes.png, id=107, 251.43938pt x 240.9pt>
 File: ../Figures/Clique-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Clique-20-nodes.png>
@@ -1079,7 +1027,7 @@ Package pdftex.def Info: ../Figures/Clique-20-nodes.png used on input line 584.
 
 (pdftex.def)             Requested size: 242.98541pt x 232.80153pt.
 
-<../Figures/Clique-ish-20-nodes.png, id=111, 368.1253pt x 396.7322pt>
+<../Figures/Clique-ish-20-nodes.png, id=108, 368.1253pt x 396.7322pt>
 File: ../Figures/Clique-ish-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Clique-ish-20-nodes.png>
@@ -1087,40 +1035,34 @@ Package pdftex.def Info: ../Figures/Clique-ish-20-nodes.png used on input line
 590.
 (pdftex.def)             Requested size: 242.98541pt x 261.87431pt.
 
-
-LaTeX Warning: Reference `fig:star1' on page 25 undefined on input line 596.
-
-[25] [26] [27 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Clique-20-nod
-es.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/Clique-ish-20-nodes
-.png>] <../Figures/Star-20-nodes.png, id=124, 752.8125pt x 752.8125pt>
+<../Figures/Star-20-nodes.png, id=109, 752.8125pt x 752.8125pt>
 File: ../Figures/Star-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Star-20-nodes.png>
 Package pdftex.def Info: ../Figures/Star-20-nodes.png used on input line 599.
 (pdftex.def)             Requested size: 242.98541pt x 242.98405pt.
 
-<../Figures/Scalefree-20-nodes.png, id=125, 752.8125pt x 752.8125pt>
+<../Figures/Scalefree-20-nodes.png, id=110, 752.8125pt x 752.8125pt>
 File: ../Figures/Scalefree-20-nodes.png Graphic file (type png)
 
 <use ../Figures/Scalefree-20-nodes.png>
 Package pdftex.def Info: ../Figures/Scalefree-20-nodes.png used on input line 6
 06.
 (pdftex.def)             Requested size: 242.98541pt x 242.98405pt.
-) [28 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Star-20-nodes.png>] [
-29 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Scalefree-20-nodes.png>]
- [30]
+) [24] [25 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Clique-20-nodes.
+png>] [26 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Clique-ish-20-nod
+es.png>] [27 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Star-20-nodes.
+png>] [28 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Scalefree-20-node
+s.png>] [29]
 (C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\main.aux)
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
  18602 strings out of 494045
  445458 string characters out of 3145963
- 591233 words of memory out of 3000000
+ 587233 words of memory out of 3000000
  21521 multiletter control sequences out of 15000+200000
  9614 words of font info for 35 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -1144,9 +1086,9 @@ ype1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmtt9.pfb>
-Output written on main.pdf (30 pages, 607249 bytes).
+Output written on main.pdf (29 pages, 601247 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
+ 194 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
