@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  3 JUN 2013 11:05
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  3 JUN 2013 12:29
 entering extended mode
 **main.tex
 (C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\main.tex
@@ -952,148 +952,62 @@ Package pdftex.def Info: ../Figures/BonusGameViolatingOptimal.png used on input
  [10 <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameInsuredClique
 .png>] [11 <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameViolati
 ng.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameViolatingO
-ptimal.png>]
+ptimal.png>] [12] [13]
 
-LaTeX Warning: Citation `sparebank1' on page 12 undefined on input line 177.
-
-[12]
-
-LaTeX Warning: Reference `eq:model2-total-payoff' on page 13 undefined on input
- line 224.
+LaTeX Warning: Citation `jackson1996strategic' on page 14 undefined on input li
+ne 254.
 
 
-Overfull \hbox (8.99762pt too wide) detected at line 233
-\OML/cmm/m/it/10 U[] \OT1/cmr/m/n/10 = (\OML/cmm/m/it/10 N[]\OT1/cmr/m/n/10 (\O
-ML/cmm/m/it/10 N[] \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 1)\OML/cmm/m/it/10  \OMS
-/cmsy/m/n/10   \OML/cmm/m/it/10 N[] [] []\OT1/cmr/m/n/10 ) + (\OML/cmm/m/it/10 
-N[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N[] \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 1)(
-\OML/cmm/m/it/10  \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 r\OT1/cmr/m/n/10 )) + (\
-OML/cmm/m/it/10 N[]N[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 N[]\OT1/cmr/m/n/10 (
-\OMS/cmsy/m/n/10   [] []\OT1/cmr/m/n/10 ))
- []
+LaTeX Warning: Citation `jackson2005survey' on page 14 undefined on input line 
+254.
 
-[13] [14]
 
-LaTeX Warning: Citation `jackson1996strategic' on page 15 undefined on input li
-ne 306.
+LaTeX Warning: Citation `jackson1996strategic' on page 14 undefined on input li
+ne 266.
 
+[14]
 
 LaTeX Warning: Citation `jackson2005survey' on page 15 undefined on input line 
-306.
+295.
 
-[15] <../Figures/connectionGame.png, id=75, 103.13531pt x 93.34875pt>
-File: ../Figures/connectionGame.png Graphic file (type png)
-
-<use ../Figures/connectionGame.png>
-Package pdftex.def Info: ../Figures/connectionGame.png used on input line 311.
-(pdftex.def)             Requested size: 104.1381pt x 94.25726pt.
-
-
-LaTeX Warning: Citation `jackson1996strategic' on page 16 undefined on input li
-ne 323.
-
-[16 <C:/Users/Håvard/masterthesis/masterthesis/Figures/connectionGame.png>]
-[17]
-<../Figures/stability/Unefficientbutstablestar.png, id=82, 271.0125pt x 224.338
-12pt>
-File: ../Figures/stability/Unefficientbutstablestar.png Graphic file (type png)
-
- <use ../Figures/stability/Unefficientbutstablestar.png>
-Package pdftex.def Info: ../Figures/stability/Unefficientbutstablestar.png used
- on input line 362.
-(pdftex.def)             Requested size: 173.56177pt x 143.67517pt.
- [18 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stability/Unefficientb
-utstablestar.png>]
-
-LaTeX Warning: Citation `jackson2005survey' on page 19 undefined on input line 
-378.
-
-
-<../Figures/stability/Unefficientbutstabletwo.png, id=89, 563.10374pt x 459.968
-44pt>
-File: ../Figures/stability/Unefficientbutstabletwo.png Graphic file (type png)
- <use ../Figures/stability/Unefficientbutstabletwo.png>
-Package pdftex.def Info: ../Figures/stability/Unefficientbutstabletwo.png used 
-on input line 386.
-(pdftex.def)             Requested size: 208.27623pt x 170.1295pt.
- [19 <C:/Users/Håvard/masterthesis/masterthesis/Figures/stability/Unefficientb
-utstabletwo.png>]
-[20] [21] [22] [23]
-<../Figures/Clique-20-nodes.png, id=107, 251.43938pt x 240.9pt>
-File: ../Figures/Clique-20-nodes.png Graphic file (type png)
-
-<use ../Figures/Clique-20-nodes.png>
-Package pdftex.def Info: ../Figures/Clique-20-nodes.png used on input line 584.
-
-(pdftex.def)             Requested size: 242.98541pt x 232.80153pt.
-
-<../Figures/Clique-ish-20-nodes.png, id=108, 368.1253pt x 396.7322pt>
-File: ../Figures/Clique-ish-20-nodes.png Graphic file (type png)
-
-<use ../Figures/Clique-ish-20-nodes.png>
-Package pdftex.def Info: ../Figures/Clique-ish-20-nodes.png used on input line 
-590.
-(pdftex.def)             Requested size: 242.98541pt x 261.87431pt.
-
-<../Figures/Star-20-nodes.png, id=109, 752.8125pt x 752.8125pt>
-File: ../Figures/Star-20-nodes.png Graphic file (type png)
-
-<use ../Figures/Star-20-nodes.png>
-Package pdftex.def Info: ../Figures/Star-20-nodes.png used on input line 599.
-(pdftex.def)             Requested size: 242.98541pt x 242.98405pt.
-
-<../Figures/Scalefree-20-nodes.png, id=110, 752.8125pt x 752.8125pt>
-File: ../Figures/Scalefree-20-nodes.png Graphic file (type png)
-
-<use ../Figures/Scalefree-20-nodes.png>
-Package pdftex.def Info: ../Figures/Scalefree-20-nodes.png used on input line 6
-06.
-(pdftex.def)             Requested size: 242.98541pt x 242.98405pt.
-)
+[15] [16] [17] [18])
 (C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\discussionConclusion.t
-ex [24] [25 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Clique-20-nodes
-.png>] [26 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Clique-ish-20-no
-des.png>] [27 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Star-20-nodes
-.png>] [28 <C:/Users/Håvard/masterthesis/masterthesis/Figures/Scalefree-20-nod
-es.png>]
-Underfull \vbox (badness 1102) has occurred while \output is active []
+ex [19] [20])
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29])
-[30] [31] (C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\main.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+ [21]
+[22] (C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\main.aux) ) 
 Here is how much of TeX's memory you used:
- 18605 strings out of 494045
- 445638 string characters out of 3145963
- 587233 words of memory out of 3000000
- 21521 multiletter control sequences out of 15000+200000
+ 18542 strings out of 494045
+ 443770 string characters out of 3145963
+ 586233 words of memory out of 3000000
+ 21466 multiletter control sequences out of 15000+200000
  9614 words of font info for 35 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 63i,19n,83p,1348b,2038s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmtt9.pfb>
-Output written on main.pdf (31 pages, 608555 bytes).
+ 63i,19n,83p,1050b,2031s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmtt9.pfb>
+Output written on main.pdf (22 pages, 364810 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
+ 159 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
