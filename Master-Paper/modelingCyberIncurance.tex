@@ -196,6 +196,7 @@ When we changed the link insurance cost to $I_{l}=0.5$, the resulting networks c
  It seems to be common for insurance companies to offer discount to their customers if the customers choose to combine some or all of their insurances with them. We would like to introduce a discount rate dependent on the degree of the node. In a real-world scenario where nodes have an option of acquiring insurance or not, this will make it more attractive for nodes with high degree to acquire insurance, and the discount could act as an incentive for nodes to also acquire insurance. 
 
 How insurance companies choose to formulate their discount rate might vary. One solution might be to follow a strict 5$\%$ discount per new connection, or let the discount follow a power law, or a log-function etc. We choose to follow a discount rule which directly reflects the node's degree.
+
 \subsection{Analysis}
 The price for adding a new link follows the equation:
 \begin{equation}
@@ -205,6 +206,7 @@ The price for adding a new link follows the equation:
 Here, $i$ is the node's current degree. This means that the more links a node establishes the cheaper the link insurance will be. 
 
 \subsubsection{Discount and Bonus model}
+
 When the discount is applied to model 1, the only connection scenarios that is worth considering in this model is the ones where insured nodes connects to other insured nodes or when insured nodes connects to non-insured nodes.
 
 When insured nodes are considering to establish links with eachother, their payoff functions are as shown in Eq.(\ref{eq:discount1}).  
@@ -245,6 +247,7 @@ U_{i}+\beta-\frac{I_{l}}{i+1}+\frac{\gamma}{m-i}-r&>U_{i} \nonumber \\
 \end{eqnarray}
 
 \subsection{Result and findings}
+
 We want to find the condition for separating insured and non-insured nodes. The first step is to guarantee that insured nodes connect to eachother. To ensure that this happens, we need to find the condition for the lowest expected increase in payoff, i.e. at node degree zero. If nodes are willing to establish links at this point, then they will also be willing at all degrees higher than zero.
 At degree zero there is no discount on the insurance link cost, and thus if Eq.(\ref{eq:conditionitoi}) from model 1 holds, insured nodes will connect to other insured nodes.
 
@@ -265,7 +268,7 @@ m(\beta +\gamma-r)<I_{l}<\beta+\frac{\gamma}{m}
 
 The quantum discount results in an overall higher payoff for the insured nodes, since the cost of insuring a new link becomes cheaper. This means that the insured nodes will have a higher incentive to create links, making it harder for the insurer to separate insured and non-insured nodes.
 
-We see that the problem of separating the two node types have increased compared to model 1, meaning that if we have a network where the insurer has managed to separate them, the price of anarchy is also higher compared to a similar scenario in model 3. 
+We see that the problem of separating the two node types have increased compared to the previous model, meaning that if we have a network where the insurer has managed to separate them, the price of anarchy is also higher compared to a similar scenario in the first model. 
 
 \section{Model 3: Network externalities}
 In the earlier models when a node established a connection the change in utility were only dependent on fixed variables, and not dependent on the rest of the network. In many real world scenarios it is more realistic that a node will be strongly affected by the indirect connections to other nodes. Social relationships between nodes are good examples of such networks, where each person offer benefits in terms of favors, information etc. 

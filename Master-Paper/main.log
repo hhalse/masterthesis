@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  3 JUN 2013 13:20
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  3 JUN 2013 13:39
 entering extended mode
 **main.tex
 (C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\main.tex
@@ -924,7 +924,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 (C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\graphsPaper.tex
 [3]
 
-LaTeX Warning: Citation `contagion' on page 4 undefined on input line 43.
+LaTeX Warning: Citation `contagion' on page 4 undefined on input line 42.
 
 [4])
 (C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\modelingCyberIncurance
@@ -961,20 +961,20 @@ ng.png> <C:/Users/Håvard/masterthesis/masterthesis/Figures/BonusGameViolatingO
 ptimal.png>] [12] [13]
 
 LaTeX Warning: Citation `jackson1996strategic' on page 14 undefined on input li
-ne 273.
+ne 276.
 
 
 LaTeX Warning: Citation `jackson2005survey' on page 14 undefined on input line 
-273.
+276.
 
 
 LaTeX Warning: Citation `jackson1996strategic' on page 14 undefined on input li
-ne 285.
+ne 288.
 
 [14]
 
 LaTeX Warning: Citation `jackson2005survey' on page 15 undefined on input line 
-314.
+317.
 
 [15] [16] [17])
 (C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\discussionConclusion.t
@@ -1014,7 +1014,7 @@ ype1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmtt9.pfb>
-Output written on main.pdf (22 pages, 363052 bytes).
+Output written on main.pdf (22 pages, 363043 bytes).
 PDF statistics:
  159 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
