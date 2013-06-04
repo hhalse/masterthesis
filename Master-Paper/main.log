@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  3 JUN 2013 15:29
 =======
 This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.3)  3 JUN 2013 15:37
 >>>>>>> 67bd74639569e84f8c623836ab4026d111d7ea97
+=======
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.16)  4 JUN 2013 10:45
+>>>>>>> paper
 entering extended mode
 **main.tex
 (C:\Users\Håvard\masterthesis\masterthesis\Master-Paper\main.tex
@@ -970,11 +974,15 @@ Here is how much of TeX's memory you used:
  18519 strings out of 494045
 <<<<<<< HEAD
  437737 string characters out of 3153222
+<<<<<<< HEAD
  588233 words of memory out of 3000000
 =======
  443376 string characters out of 3145963
  587233 words of memory out of 3000000
 >>>>>>> 67bd74639569e84f8c623836ab4026d111d7ea97
+=======
+ 587233 words of memory out of 3000000
+>>>>>>> paper
  21446 multiletter control sequences out of 15000+200000
  8708 words of font info for 32 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -994,6 +1002,7 @@ c/amsfonts/cm/cmsy10.pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.
 pfb><D:/Latex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><D:/Latex/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Latex/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmtt9.pfb>
+<<<<<<< HEAD
 Output written on main.pdf (21 pages, 330026 bytes).
 =======
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
@@ -1016,6 +1025,9 @@ ype1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 public/amsfonts/cm/cmtt9.pfb>
 Output written on main.pdf (21 pages, 329775 bytes).
 >>>>>>> 67bd74639569e84f8c623836ab4026d111d7ea97
+=======
+Output written on main.pdf (21 pages, 329762 bytes).
+>>>>>>> paper
 PDF statistics:
  150 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
